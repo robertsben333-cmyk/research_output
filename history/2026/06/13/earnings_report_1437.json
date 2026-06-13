@@ -1,0 +1,34 @@
+{
+  "generation_timestamp": "2026-06-13T14:37:34Z",
+  "covered_earnings_window": {
+    "plain_language": "Friday, June 12, 2026 after U.S. market close plus Monday, June 15, 2026 before U.S. market open",
+    "after_close_session": "2026-06-12",
+    "before_open_session": "2026-06-15",
+    "weekend_context": true
+  },
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. indexes closed higher on June 12, helped by lower oil prices and SpaceX debut enthusiasm; macro risk remains tied to U.S.-Iran and Strait of Hormuz headlines.",
+  "companies_reviewed_count": 8,
+  "qualified_companies_count": 4,
+  "top_upward_setups": ["AIOT", "JRSH"],
+  "top_downward_setups": ["PLCE", "CGC"],
+  "ranked_table_entries": [
+    {"rank": 1, "ticker": "AIOT", "company": "Powerfleet", "earnings_timing": "Mon Jun 15, 2026 before open; call 8:30 AM ET", "direction_call": "Lean Up", "direction_score": 34, "reversal_risk": 38, "disparity": 8, "confidence": "Medium", "expected_driver": "Services revenue; EBITDA margin; FY27 subscriber ramp", "key_risk_to_the_call": "Guide already narrowed; ramp may be later", "evidence_quality": "High timing / medium setup", "pass_agreement": "A/B/C all Lean Up", "method_update_note": "None"},
+    {"rank": 2, "ticker": "JRSH", "company": "Jerash Holdings (US)", "earnings_timing": "Mon Jun 15, 2026 before open; call 9:00 AM ET", "direction_call": "Lean Up", "direction_score": 31, "reversal_risk": 35, "disparity": 10, "confidence": "Medium-Low", "expected_driver": "Q4 revenue growth; gross margin; capacity expansion", "key_risk_to_the_call": "Thin liquidity; customer and cost concentration", "evidence_quality": "High timing / medium-thin trading setup", "pass_agreement": "A/B/C all Lean Up, small-cap caution", "method_update_note": "None"},
+    {"rank": 3, "ticker": "PLCE", "company": "The Children's Place", "earnings_timing": "Fri Jun 12, 2026 after close; released about 4:30 PM ET", "direction_call": "Lean Down", "direction_score": -30, "reversal_risk": 55, "disparity": 14, "confidence": "Medium-Low", "expected_driver": "DTC comps; gross margin; liquidity", "key_risk_to_the_call": "EPS/revenue beat and cost actions can squeeze", "evidence_quality": "High timing / high actual-data quality", "pass_agreement": "A/B/C Lean Down, high reversal risk", "method_update_note": "None"},
+    {"rank": 4, "ticker": "CGC", "company": "Canopy Growth", "earnings_timing": "Mon Jun 15, 2026 before open; webcast 10:00 AM ET", "direction_call": "Lean Down", "direction_score": -28, "reversal_risk": 62, "disparity": 16, "confidence": "Low", "expected_driver": "Restatement clarity; cash burn; Canada cannabis margins", "key_risk_to_the_call": "Low bar; meme/cannabis squeeze risk", "evidence_quality": "High timing / mixed setup", "pass_agreement": "A/B/C Lean Down but high reversal risk", "method_update_note": "None"}
+  ],
+  "research_allocation_view": {
+    "qualified_names": ["AIOT", "JRSH"],
+    "excluded_for_reversal_risk": ["PLCE", "CGC"],
+    "distribution": [
+      {"ticker": "AIOT", "direction": "Lean Up", "share_percent": 70},
+      {"ticker": "JRSH", "direction": "Lean Up", "share_percent": 20},
+      {"ticker": "Unallocated", "direction": "No forced idea", "share_percent": 10}
+    ],
+    "not_financial_advice": true
+  },
+  "consensus_method_note": "Disparity is a 0-100 measure of pass disagreement across direction and reversal-risk scoring; lower is tighter. AIOT and JRSH had low disparity, PLCE and CGC had moderate disparity mainly from reversal-risk disagreement.",
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
