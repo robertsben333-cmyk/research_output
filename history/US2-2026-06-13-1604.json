@@ -1,0 +1,32 @@
+{
+  "generation_timestamp": "2026-06-13T16:12:00Z",
+  "covered_earnings_window": {
+    "plain_language": "Weekend run as of Saturday, June 13, 2026 at 12:03 p.m. EDT: confirmed U.S.-listed companies reporting before the next U.S. market open on Monday, June 15, 2026. No still-actionable after-close session remains before that open; Friday, June 12 after-close results were already public.",
+    "after_close_session": null,
+    "before_open_session": "2026-06-15",
+    "timezone_basis": "America/New_York"
+  },
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. indexes finished higher on Friday, June 12, with small caps leading weekly gains as oil fell on U.S.-Iran peace optimism and risk appetite improved. The thin Monday before-open earnings window is small-cap-heavy, so liquidity, bid-ask spreads, and macro risk can dominate company-specific earnings reads.",
+  "companies_reviewed_count": 13,
+  "qualified_ranked_count": 5,
+  "top_upward_setups": ["AIOT", "CODA", "JRSH"],
+  "top_downward_setups": ["CGC", "CMTL", "No third meaningful bearish setup"],
+  "ranked_table_entries": [
+    {"rank": 1, "ticker": "AIOT", "company": "Powerfleet, Inc.", "direction_call": "Lean Up", "direction_score": 38, "reversal_risk": 38, "disparity": 5, "confidence": "Medium"},
+    {"rank": 2, "ticker": "CODA", "company": "Coda Octopus Group, Inc.", "direction_call": "Lean Up", "direction_score": 31, "reversal_risk": 36, "disparity": 4, "confidence": "Medium"},
+    {"rank": 3, "ticker": "CGC", "company": "Canopy Growth Corporation", "direction_call": "Lean Down", "direction_score": -36, "reversal_risk": 63, "disparity": 7, "confidence": "Low"},
+    {"rank": 4, "ticker": "JRSH", "company": "Jerash Holdings (US), Inc.", "direction_call": "Lean Up", "direction_score": 27, "reversal_risk": 43, "disparity": 4, "confidence": "Low"},
+    {"rank": 5, "ticker": "CMTL", "company": "Comtech Telecommunications Corp.", "direction_call": "Lean Down", "direction_score": -26, "reversal_risk": 49, "disparity": 6, "confidence": "Low"}
+  ],
+  "research_allocation_view": {
+    "entries": [
+      {"ticker": "AIOT", "direction": "Lean Up", "share": 60},
+      {"ticker": "CODA", "direction": "Lean Up", "share": 25},
+      {"ticker": "Unallocated", "direction": null, "share": 15}
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method_note": "Three independent passes were averaged. Disparity is a 0-100 disagreement metric. Low disparity supported AIOT and CODA; high reversal risk excluded CGC from allocation despite a stronger bearish score.",
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
