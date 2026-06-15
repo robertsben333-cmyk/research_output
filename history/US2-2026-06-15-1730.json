@@ -1,0 +1,11 @@
+{
+  "generation_timestamp": "2026-06-15T17:30:00Z",
+  "covered_earnings_window": "Monday, June 15, 2026 after U.S. market close and Tuesday, June 16, 2026 before U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "companies_reviewed_count": 8,
+  "top_upward_setups": ["WLY", "HITI", "RFIL"],
+  "top_downward_setups": ["PLAY", "DOMO"],
+  "research_allocation_view": {"qualified_names":[{"ticker":"WLY","direction":"Lean Up","share_percent":55},{"ticker":"HITI","direction":"Lean Up","share_percent":30},{"ticker":"Unallocated","direction":"None","share_percent":15}],"plain_statement":"This is a research prioritization model, not financial advice."},
+  "ranked_tickers": ["WLY", "HITI", "PLAY", "RFIL", "QMCO", "DOMO", "VNCE", "UXIN"],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
