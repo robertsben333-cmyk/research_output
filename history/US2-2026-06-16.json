@@ -1,0 +1,98 @@
+{
+  "generation_timestamp": "2026-06-16T17:15:00Z",
+  "covered_report_window": "Tuesday, June 16, 2026 after the U.S. market close and Wednesday, June 17, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. markets were risk-on into the window, with broad indexes firm after a sharp rally, AI/chip leadership still important, oil lower on Middle East peace headlines, and the Fed decision due Wednesday afternoon. That backdrop helps cyclical and AI-linked relief setups but also raises high-bar risk for already-rerated names.",
+  "companies_reviewed_count": 3,
+  "top_setups": {
+    "upward": ["JBL"],
+    "downward": ["KMX"],
+    "neutral_or_mixed": ["LZB"]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "JBL",
+      "company": "Jabil Inc.",
+      "timing": "Wednesday, June 17, 2026 before market open; call 8:30 a.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 32,
+      "reversal_risk": 51,
+      "confidence": "Medium",
+      "expected_driver": "AI / Intelligent Infrastructure revenue and FY2026 guide",
+      "key_risk_to_call": "Beat already priced; needs clean AI guide and margin tone",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Jabil has the strongest positive setup in the window because AI-driven Intelligent Infrastructure demand and raised FY2026 guidance are powerful, but the stock's sharp rerating makes the bar high.",
+      "market_expectation_summary": "Wall Street expects about $3.10 EPS on $8.61B revenue; company Q3 guidance was $8.1B-$8.9B revenue and $2.83-$3.23 core EPS.",
+      "upside_case_summary": "AI-related demand, third hyperscaler commentary, margin execution, and any FY2026 guide lift could support upside.",
+      "downside_case_summary": "A merely in-line beat, soft forward commentary, capacity/capex concerns, or valuation compression could reverse the move lower.",
+      "options_or_positioning_summary": "TipRanks showed an expected move of +/-10.39%; Investing.com/Bloomberg cited roughly 8.9%. Shares were up materially over the last month and year-to-date.",
+      "analyst_revision_summary": "Analyst tone is constructive, with 8 of 10 analysts Buy/Strong Buy in Kiplinger data and recent target increases, but consensus already embeds strong growth.",
+      "key_sources": ["https://investors.jabil.com/news/news-details/2026/Jabils-Third-Quarter-of-Fiscal-Year-2026-Earnings-Announcement-Set/default.aspx", "https://investors.jabil.com/news/news-details/2026/Jabil-Posts-Second-Quarter-Results/default.aspx", "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks", "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-june-15-june-18-2026", "https://www.investing.com/news/stock-market-news/jabil-options-suggest-89-move-on-june-17-earnings-report-93CH-4735919"],
+      "disparity": 8,
+      "pass_agreement": "A/B/C all Lean Up; disagreement mainly on how much high-bar valuation risk offsets AI strength",
+      "method_update_note": "High-bar caution applied from prior lessons; no new method change"
+    },
+    {
+      "rank": 2,
+      "ticker": "KMX",
+      "company": "CarMax, Inc.",
+      "timing": "Wednesday, June 17, 2026 before market open; call 8:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 55,
+      "confidence": "Medium-Low",
+      "expected_driver": "Retail used-unit comps, gross profit per unit, and CAF credit quality",
+      "key_risk_to_call": "Low-bar relief or short squeeze if units/margins stabilize",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "CarMax leans down because Q4 showed margin pressure, price cuts, goodwill impairment, and a buyback pause, while the stock has already rebounded sharply into a still-challenging used-car setup.",
+      "market_expectation_summary": "Consensus is roughly $0.94-$0.96 EPS and $7.4B-$7.5B revenue; Zacks Research recently cut Q1 EPS to $0.94 from $1.03.",
+      "upside_case_summary": "Retail units recover, gross profit per unit holds, CAF losses stabilize, and new CEO cost actions reassure investors.",
+      "downside_case_summary": "Weak comps, lower GPU, higher credit losses, or a cautious buyback/capex tone could pressure the stock.",
+      "options_or_positioning_summary": "TipRanks showed +/-12.78% expected move; the stock rose sharply from mid-May into earnings, increasing two-sided risk.",
+      "analyst_revision_summary": "Recent EPS estimate cut signals a lower but still fragile bar; prior Q4 EPS beat did not prevent a selloff because quality and capital-return issues dominated.",
+      "key_sources": ["https://investors.carmax.com/news-and-events/news/news-details/2026/CarMax-Announces-First-Quarter-Conference-Call-and-Annual-Meeting-Information/default.aspx", "https://investors.carmax.com/news-and-events/news/news-details/2026/CarMax-Reports-Fourth-Quarter-and-Fiscal-Year-2026-Results/default.aspx", "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks", "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-june-15-june-18-2026", "https://www.marketbeat.com/instant-alerts/what-is-zacks-researchs-estimate-for-carmax-q1-earnings-2026-06-15/"],
+      "disparity": 12,
+      "pass_agreement": "A/B/C all bearish or near-bearish, but one pass was close to Neutral because expectations have reset",
+      "method_update_note": "Low-bar reversal caution applied from prior lessons; no new method change"
+    },
+    {
+      "rank": 3,
+      "ticker": "LZB",
+      "company": "La-Z-Boy Incorporated",
+      "timing": "Tuesday, June 16, 2026 after NYSE close; call Wednesday 8:30 a.m. ET",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 18,
+      "reversal_risk": 43,
+      "confidence": "Low-Medium",
+      "expected_driver": "Q4 sales and adjusted operating margin versus guide",
+      "key_risk_to_call": "Weak same-store / Joybird demand offsets cash strength",
+      "evidence_quality": "High for timing and fundamentals; Medium for direction",
+      "one_sentence_thesis": "La-Z-Boy has enough balance-sheet and cash-flow support to avoid a bearish call, but weak same-store sales, Joybird volatility, and furniture demand uncertainty keep the setup near neutral.",
+      "market_expectation_summary": "Consensus is about $0.82 EPS and $569M revenue; company guided Q4 sales to $560M-$580M and adjusted operating margin to 7.5%-9.0%.",
+      "upside_case_summary": "High-end revenue/margin delivery, stronger Memorial Day/order commentary, and shareholder returns could drive relief.",
+      "downside_case_summary": "Same-store traffic weakness, Joybird declines, margin pressure, or cautious FY2027 housing/furniture commentary could pull shares lower.",
+      "options_or_positioning_summary": "TipRanks showed +/-11.25% expected move; shares were modestly up over 30 days but not as crowded as JBL or KMX.",
+      "analyst_revision_summary": "Public previews expect a year-over-year EPS decline; Q4 company guidance broadly brackets consensus, limiting a clean surprise setup.",
+      "key_sources": ["https://www.stocktitan.net/news/LZB/la-z-boy-incorporated-announces-timing-of-fiscal-2026-fourth-quarter-4hxtdcs4g0vj.html", "https://lazboy.gcs-web.com/news-releases/news-release-details/la-z-boy-incorporated-reports-strong-third-quarter-results-led", "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks", "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-june-15-june-18-2026", "https://news.alphastreet.com/la-z-boy-lzb-q4-2026-preview-eps-est-0-82/"],
+      "disparity": 10,
+      "pass_agreement": "Two passes mild Lean Up, one Neutral; all capped conviction due consumer-demand risk",
+      "method_update_note": "Weak-consumer caution applied; no new method change"
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {"ticker": "JBL", "reason": "Absolute score above 30, but reversal risk averaged 51 because the stock has rerated and needs a beat-and-raise quality report."},
+      {"ticker": "KMX", "reason": "Bearish score did not clear -30 strongly enough and reversal risk averaged 55 due low-bar relief and squeeze risk."},
+      {"ticker": "LZB", "reason": "Direction score below 30 and reversal risk above 40; evidence supports Neutral rather than priority."}
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {"ticker":"JBL","consensus_summary":"All three passes landed Lean Up, averaging +32 direction score, 51 reversal risk, and 8 disparity.","recommendation":"Research watchlist only; not allocation-qualified due reversal risk.","confidence":"Medium","thesis":"AI infrastructure demand and raised guidance create the strongest upside setup, but the market already expects excellence.","market_expects":"About $3.10 EPS and $8.61B revenue, plus validation of AI-related revenue and Intelligent Infrastructure momentum.","upside":"Beat/raise, third hyperscaler progress, strong core margin, and durable AI data-center demand.","downside":"Merely in-line guide, margin/capex concern, slower AI ramp, or valuation unwind.","reversal_risk_assessment":"Moderate-high because the stock is crowded and options price a large move.","sentiment":"Investor sentiment is constructive around AI exposure; Reddit evidence was light and treated as non-primary.","options_positioning":"Large implied move around 9%-10%; prior event moves have sometimes failed to clear the implied move.","analyst_revisions":"Constructive ratings and target hikes, but this also raises the bar.","base_case":"Solid beat with constructive AI commentary; modest upside or controlled reaction.","bull_case":"Meaningful guide raise and hyperscaler win commentary drive upside beyond implied move.","bear_case":"Good quarter but no raise, triggering sell-the-news.","final_directional_judgment":"Lean Up, but not clean enough for allocation.","allocation_rationale":"Excluded because reversal risk is above 40.","disparity_effect":"Low disparity supported Medium confidence, while high-bar risk capped conviction.","method_update_note":"High-bar caution applied from prior lessons; no new method change."},
+    {"ticker":"KMX","consensus_summary":"Passes averaged -27 direction score, 55 reversal risk, and 12 disparity; all saw downside risk but one pass was close to Neutral.","recommendation":"Lean Down for research framing, not allocation-qualified.","confidence":"Medium-Low","thesis":"The market likely focuses on unit demand, GPU, CAF credit, and whether Q4's turnaround costs are stabilizing.","market_expects":"About $0.94-$0.96 EPS on roughly $7.4B-$7.5B revenue after a recent EPS estimate cut.","upside":"Low expectations, new CEO plan, cost discipline, and better used-car demand could trigger relief.","downside":"Retail comps/GPU disappoint, CAF credit worsens, or capital-return pause remains a concern.","reversal_risk_assessment":"High because bearish expectations are known and the stock has short-squeeze/relief potential.","sentiment":"Retail/customer chatter is mixed and employee Reddit comments after the prior call leaned worried about cuts; not a primary signal.","options_positioning":"Expected move around 12%-13%; stock rebounded strongly from May lows.","analyst_revisions":"Recent Q1 EPS estimate cut is bearish but lowers the hurdle.","base_case":"Mixed print, downside bias if margins and credit do not improve.","bull_case":"Stable GPU and credit with upbeat CEO commentary spark relief.","bear_case":"Weak comps plus buyback/capex concerns revive the Q4 selloff narrative.","final_directional_judgment":"Lean Down with high reversal risk.","allocation_rationale":"Excluded because reversal risk is above 40 and absolute score barely exceeds Lean Down threshold.","disparity_effect":"Moderate disparity reduced confidence.","method_update_note":"Low-bar reversal caution applied from prior lessons; no new method change."},
+    {"ticker":"LZB","consensus_summary":"Passes averaged +18 direction score, 43 reversal risk, and 10 disparity; two mild bullish reads and one Neutral produced a final Neutral / No Edge.","recommendation":"Neutral / No Edge.","confidence":"Low-Medium","thesis":"The Q4 setup is balanced between cash-rich execution and weak demand signals in same-store sales and Joybird.","market_expects":"About $0.82 EPS and $569M revenue, close to company Q4 sales guide of $560M-$580M.","upside":"High-end margin, stronger order commentary, and continued cash returns.","downside":"Soft traffic, Joybird weakness, or cautious FY2027 demand commentary.","reversal_risk_assessment":"Moderate because a small beat could rally, but weak guidance could sink it quickly.","sentiment":"Little actionable social signal; consumer demand evidence comes mainly from company disclosures and furniture/housing context.","options_positioning":"Expected move about 11.25%, demanding a cleaner edge than the evidence supports.","analyst_revisions":"Public previews expect EPS down year over year and guidance near consensus.","base_case":"In-range quarter and cautious tone, likely choppy/limited edge.","bull_case":"Top-end guide delivery and better order trends create relief upside.","bear_case":"Same-store and Joybird softness dominate, pulling shares down despite cash strength.","final_directional_judgment":"Neutral / No Edge.","allocation_rationale":"Excluded because score is below 30 and reversal risk is above 40.","disparity_effect":"Moderate-low disparity supported the Neutral outcome rather than a stronger call.","method_update_note":"Weak-consumer caution applied; no new method change."}
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
