@@ -1,0 +1,93 @@
+{
+  "generation_timestamp": "2026-06-18T17:18:00Z",
+  "covered_report_window": "Thursday, June 18, 2026 after the U.S. market close and before the next valid U.S. market open on Monday, June 22, 2026. Friday, June 19, 2026 is a Juneteenth market holiday.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were rebounding during the short holiday week after a Fed-driven selloff, with futures and major indexes helped by lower oil and easing U.S.-Iran tension. The Fed had held rates steady but signaled hawkish risk, while Thursday was the last U.S. stock and bond trading session of the week because Juneteenth closes markets on Friday, June 19, 2026.",
+  "companies_reviewed_count": 5,
+  "qualified_companies_count": 0,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [],
+  "excluded_or_unqualified_candidates": [
+    {
+      "ticker": "FDS",
+      "company": "FactSet Research Systems Inc.",
+      "reason": "Excluded. One third-party calendar showed June 22 before market open, but FactSet's official investor-relations announcement schedules Q3 fiscal 2026 results for July 1, 2026 at 9:00 a.m. ET. Official source overrides the stale calendar entry.",
+      "sources": [
+        "https://investor.factset.com/news-releases/news-release-details/factset-schedules-third-quarter-2026-earnings-eml4ln5po34f.html",
+        "https://www.digrin.com/stocks/earnings_calendar/2026-06-22"
+      ]
+    },
+    {
+      "ticker": "EBF",
+      "company": "Ennis, Inc.",
+      "reason": "Excluded. Some calendars show June 22, 2026 and one marks before market opens as estimated, while another lists the timing as not confirmed. No official company release confirming the date/time was found, so it fails the timing-confirmation standard.",
+      "sources": [
+        "https://www.marketbeat.com/stocks/NYSE/EBF/earnings/",
+        "https://www.digrin.com/stocks/earnings_calendar/2026-06-22",
+        "https://www.ennis.com/press-releases/"
+      ]
+    },
+    {
+      "ticker": "CMC",
+      "company": "Commercial Metals Company",
+      "reason": "Excluded. A third-party calendar listed June 22 with time not confirmed, while weekly earnings previews place CMC before open on Thursday, June 25, outside the actionable window.",
+      "sources": [
+        "https://www.digrin.com/stocks/earnings_calendar/2026-06-22",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      ]
+    },
+    {
+      "ticker": "ENLV",
+      "company": "Enlivex Therapeutics Ltd.",
+      "reason": "Excluded. Third-party calendar entry was time not confirmed, non-U.S. issuer, very small market capitalization, and insufficient evidence quality.",
+      "sources": [
+        "https://www.digrin.com/stocks/earnings_calendar/2026-06-22"
+      ]
+    },
+    {
+      "ticker": "NRSNW",
+      "company": "NeuroSense Therapeutics Ltd. Warrant",
+      "reason": "Excluded. Warrant/very small capitalization entry with time not confirmed and insufficient evidence quality; not a qualified U.S.-listed operating-company earnings candidate.",
+      "sources": [
+        "https://www.digrin.com/stocks/earnings_calendar/2026-06-22"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_names": [],
+    "basket_distribution": [
+      {
+        "label": "Unallocated",
+        "share_percent": 100,
+        "reason": "No ranked company cleared the timing-confirmation and evidence-quality gate for this immediate earnings window."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method": {
+    "shared_universe": [],
+    "independent_passes_completed": true,
+    "pass_count": 3,
+    "disparity_metric_description": "Disparity is a 0 to 100 measure of disagreement across the three independent passes; lower means tighter agreement and higher means more disagreement.",
+    "disparity_summary": "No disparity was calculable because no company passed the qualified-universe screen.",
+    "method_update_note": "Lessons review produced no new method change. Existing timing-confirmation rules were applied strictly, which excluded estimated, stale, time-unconfirmed, non-U.S., warrant, and thinly evidenced entries."
+  },
+  "detailed_company_sections": [],
+  "key_sources": [
+    "https://www.nyse.com/trade/hours-calendars",
+    "https://www.nasdaqtrader.com/trader.aspx?id=Calendar",
+    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+    "https://tribunecontentagency.com/article/earnings-calendar-and-analysis-for-this-week-june-15-19/",
+    "https://www.ii.co.uk/investing-with-ii/international-investing/us-earnings-season",
+    "https://www.digrin.com/stocks/earnings_calendar/2026-06-22",
+    "https://www.marketbeat.com/stocks/NYSE/EBF/earnings/",
+    "https://investor.factset.com/news-releases/news-release-details/factset-schedules-third-quarter-2026-earnings-eml4ln5po34f.html",
+    "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-thursday-june-18-2026-12000593"
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
