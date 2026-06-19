@@ -1,0 +1,91 @@
+{
+  "generation_timestamp": "2026-06-19T17:10:19Z",
+  "covered_report_window": "Holiday-adjusted immediate window: Friday, June 19, 2026 after the U.S. market close had no regular cash-session close because NYSE/Nasdaq were closed for Juneteenth; the next actionable before-open session is Monday, June 22, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. stock markets were closed on Friday, June 19, 2026 for Juneteenth, with regular trading scheduled to resume Monday, June 22. The prior session left investors balancing a recently stronger equity tape, AI/semiconductor leadership, Fed-rate sensitivity, and geopolitical/energy headlines; the holiday makes the immediate earnings window unusually sparse.",
+  "companies_reviewed_count": 7,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": ["EBF"]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "EBF",
+      "company": "Ennis, Inc.",
+      "timing": "Monday, June 22, 2026 before market open per MarketBeat; company IR schedule not separately found",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 2,
+      "reversal_risk": 42,
+      "disparity": 18,
+      "confidence": "Low",
+      "expected_driver": "Gross margin and revenue stability",
+      "key_risk_to_call": "Thin timing confirmation; low liquidity; demand softness",
+      "evidence_quality": "Medium-Low",
+      "one_sentence_thesis": "Ennis has a stable dividend-and-margin profile, but the Q1 setup lacks a strong directional edge because the market is likely to focus on whether margin discipline can offset flat-to-soft print demand and acquisition/inventory cash use.",
+      "market_expectation_summary": "MarketBeat lists Q1 FY2027 consensus EPS of $0.39 and expected revenue of $98.20 million, with the report before market open on June 22, 2026.",
+      "upside_case_summary": "A revenue beat, margin resilience near the 30% plus range, and no deterioration in cash or acquisition integration could produce a modest relief reaction.",
+      "downside_case_summary": "Demand softness, weaker gross margin, inventory/cash drag from paper-supply preparation, or another EPS miss could pressure the stock.",
+      "options_or_positioning_summary": "Accessible options-implied move data was not reliable; Alpaca IEX snapshot showed sparse prints and wide displayed quote context, reinforcing liquidity caution rather than a strong positioning signal.",
+      "analyst_revision_summary": "Consensus data are thin; MarketBeat shows prior Q4 EPS missed by $0.03 despite revenue beating expectations, keeping the setup mixed.",
+      "key_sources": [
+        "https://www.marketbeat.com/earnings/reports/2026-6-22-ennis-inc-stock/",
+        "https://www.marketbeat.com/stocks/NYSE/EBF/earnings/",
+        "https://www.ennis.com/2025/06/23/ennis-inc-reports-results-for-the-quarter-ended-may-31-2025-and-declares-quarterly-dividend/",
+        "https://www.businesswire.com/news/home/20260323193830/en/Ennis-Inc.-Declares-Quarterly-Dividend",
+        "https://www.stocktitan.net/sec-filings/EBF/10-k-ennis-inc-files-annual-report-895015dab68a.html",
+        "https://www.indmoney.com/blog/us-stocks/is-us-market-open-on-juneteenth-today"
+      ],
+      "pass_agreement": "A/B/C all stayed near Neutral; one pass leaned mildly positive on margin/dividend support, one mildly negative on demand and cash-use risk, and one slightly positive on low-bar relief.",
+      "method_update_note": "None"
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "EBF",
+        "reason": "Absolute direction score was below 30 and reversal risk averaged above 40, with only medium-low evidence quality."
+      },
+      {
+        "ticker": "XAIR",
+        "reason": "Excluded before scoring as a nano-cap/thinly traded name with weak company-confirmed timing and very low liquidity."
+      },
+      {
+        "ticker": "FDS",
+        "reason": "Excluded because a calendar hit conflicted with company-confirmed timing; FactSet says Q3 FY2026 results are July 1, 2026, not June 22."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice. No names qualified for the hypothetical research basket today; 100% remains unallocated."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "EBF",
+      "company": "Ennis, Inc.",
+      "consensus_summary": "Pass A, Pass B, and Pass C all produced a near-neutral conclusion. The averaged direction score was +2, averaged reversal risk was 42, and disparity was 18.",
+      "averaged_direction_score": 2,
+      "averaged_reversal_risk": 42,
+      "disparity_metric": 18,
+      "pass_agreement": "Moderate agreement around no edge: Pass A emphasized margin resilience and dividend support, Pass B emphasized demand/cash-use risk, and Pass C emphasized a low bar but insufficient evidence for a bullish call.",
+      "recommendation": "Neutral / No Edge for research prioritization, not a trade instruction.",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "The key market metric is gross margin and revenue stability, not headline EPS alone, because Ennis is being judged on whether cost discipline can offset structurally soft print demand.",
+      "what_market_expects": "MarketBeat lists the June 22 premarket Q1 FY2027 report with consensus EPS of $0.39 and expected revenue of $98.20 million; prior Q4 EPS was $0.35 versus a $0.38 consensus while revenue beat estimates.",
+      "what_could_make_stock_go_up": "Revenue modestly beats, gross margin stays resilient, acquisitions contribute cleanly, and management shows cash/dividend stability despite paper-supply inventory needs.",
+      "what_could_make_stock_go_down": "Gross margin slips, revenue demand looks weaker, cash conversion deteriorates, or the market extrapolates another EPS miss into a lower run-rate.",
+      "reversal_risk_assessment": "Moderate. A neutral base case could still reverse either way because the stock is thinly traded and a small EPS/margin surprise can matter more than broad market narrative.",
+      "reddit_social_consumer_sentiment_read": "No meaningful Reddit or consumer-sentiment signal was found for the current window; the available social evidence is too sparse to influence the score.",
+      "options_positioning_read": "No dependable options-implied move was available from accessible sources. Liquidity is the positioning risk: sparse prints and wide displayed quote context limit confidence in any clean event read.",
+      "analyst_revision_read": "Analyst coverage appears thin. MarketBeat's consensus and prior-quarter summary point to a mixed setup: revenue held up better than expected, but EPS quality was not strong enough to support a directional edge.",
+      "base_case": "Revenue and margins remain steady enough for a muted reaction.",
+      "bull_case": "A clean revenue beat, stable margin, and reassuring cash/dividend commentary produce a modest relief move.",
+      "bear_case": "Demand softness or margin compression makes the market focus on print-industry erosion and weaker cash conversion.",
+      "final_directional_judgment": "Neutral / No Edge, with the consensus score too close to zero for an up/down call.",
+      "allocation_rationale": "Not included in the research allocation view because the absolute score was far below 30 and reversal risk was above the 40 cutoff.",
+      "disparity_effect": "Disparity was not high, but the passes agreed mostly on uncertainty rather than conviction, so it did not lift allocation priority.",
+      "method_update_note": "None"
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
