@@ -1,0 +1,98 @@
+{
+  "generation_timestamp": "2026-06-19T17:15:00Z",
+  "covered_report_window": "Holiday-adjusted immediate window: Friday, June 19, 2026 after the U.S. market close, plus Monday, June 22, 2026 before the U.S. market open. Because NYSE and Nasdaq were closed Friday for Juneteenth, the actionable confirmed ranked universe came from Monday pre-market.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. stock markets were closed Friday for Juneteenth. The prior week showed a stronger equity tape led by AI, semiconductor and growth leadership, but investors remained sensitive to Fed-rate expectations, inflation data, rebalancing flows, and geopolitical/energy headlines. The holiday made the immediate earnings window unusually sparse.",
+  "companies_reviewed_count": 14,
+  "qualified_ranked_count": 1,
+  "screened_but_excluded": [
+    {"ticker":"ANCTF","reason":"OTC / non-primary U.S. listing and official release after TSX close, outside the Monday before-open U.S. window."},
+    {"ticker":"EBF","reason":"Estimated-only timing from third-party calendars; no current official company confirmation found."},
+    {"ticker":"XAIR","reason":"Micro/nano-cap and conflicting estimated timing; company IR did not confirm the June 19 after-close timing."},
+    {"ticker":"REPL","reason":"Calendar/preview timing conflict and not confirmed in the strict window."},
+    {"ticker":"KR","reason":"Already reported on June 18, 2026."},
+    {"ticker":"MEI","reason":"Company-confirmed report is June 24 after market close, outside the window."},
+    {"ticker":"CMC","reason":"Company/calendar evidence pointed to June 25 before market open, outside the window."},
+    {"ticker":"FDS","reason":"Company-confirmed report is July 1, 2026, outside the window."}
+  ],
+  "top_setups": {
+    "upward": ["POWW"],
+    "downward": [],
+    "neutral_or_no_edge": []
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "POWW",
+      "company": "Outdoor Holding Company",
+      "timing": "Monday, June 22, 2026 before market open; call at 9:00 AM ET",
+      "direction_call": "Lean Up",
+      "direction_score": 32,
+      "reversal_risk": 45,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "GunBroker GMV / take rate and adjusted EBITDA durability",
+      "key_risk_to_call": "Small-cap volatility; high IV; growth already partly anticipated",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "The consensus leans up because Q3 showed continued profitability, GMV growth, strong cash generation, and a low Q4 consensus bar, but the stock remains too volatile and thinly followed for high conviction.",
+      "market_expectation_summary": "MarketBeat lists Q4 consensus EPS of -$0.02 and expected revenue of $12.70 million. Q3 revenue was $13.39 million versus $12.52 million expected, with EPS of $0.01 versus -$0.02 expected.",
+      "upside_case_summary": "A clean Q4 confirming GunBroker GMV growth, stable take rate, adjusted EBITDA expansion, and continued cash generation could validate the marketplace-only reset.",
+      "downside_case_summary": "If GMV slows, AI/tooling commentary lacks measurable conversion impact, legal/corporate-cost noise returns, or revenue falls below the low bar, the stock could fade quickly.",
+      "options_or_positioning_summary": "Fintel showed implied volatility near 84.9%, short float near 3.0%, and put/call OI ratio near 0.01; MarketBeat showed 2.64 million shares short and 4.9 days to cover as of May 29, 2026.",
+      "analyst_revision_summary": "Coverage is thin. MarketBeat shows one-estimate Q4 EPS at -$0.02; Simply Wall St previously showed FY2026 EPS estimates deteriorating and revenue forecasts trimmed, which tempers the bullish read.",
+      "key_sources": [
+        "https://www.globenewswire.com/news-release/2026/06/08/3308181/0/en/outdoor-holding-company-to-conduct-fourth-quarter-earnings-call-on-june-22-2026-at-9-00-am-et.html",
+        "https://www.globenewswire.com/news-release/2026/02/09/3234415/0/en/outdoor-holding-company-reports-continued-profitability-in-third-quarter-fiscal-2026.html",
+        "https://www.marketbeat.com/earnings/reports/2026-6-22-ammo-inc-stock/",
+        "https://www.marketbeat.com/stocks/NASDAQ/POWW/short-interest/",
+        "https://fintel.io/s/us/poww",
+        "https://simplywall.st/stocks/us/retail/nasdaq-poww/outdoor-holding"
+      ],
+      "pass_agreement": "Pass A +36 / reversal 44; Pass B +28 / reversal 48; Pass C +33 / reversal 42. All three leaned up, with no material disagreement.",
+      "method_update_note": "None"
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {"ticker":"POWW","reason":"Absolute direction score was above 30, but averaged reversal risk was 45, above the 40 cutoff, with small-cap/high-IV event risk."}
+    ],
+    "basket_distribution": [],
+    "unallocated_percent": 100,
+    "plain_statement": "This is a research prioritization model, not financial advice. No names qualified for the hypothetical research basket today; 100% remains unallocated."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "POWW",
+      "company": "Outdoor Holding Company",
+      "consensus_summary": "Pass A, Pass B, and Pass C all leaned up but capped conviction because of small-cap volatility and thin analyst coverage.",
+      "averaged_direction_score": 32,
+      "averaged_reversal_risk": 45,
+      "disparity_metric": 8,
+      "pass_agreement": "Tight agreement: all three passes saw the same key metric as GunBroker GMV / take-rate durability plus adjusted EBITDA and cash conversion.",
+      "recommendation": "Lean Up for directional research, but excluded from allocation priority because reversal risk is above the cutoff.",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "If Q4 confirms Q3's marketplace-only profitability, GMV growth, and operating leverage, the low consensus bar can support upside, but event volatility is high.",
+      "what_market_expects": "Q4 consensus EPS of -$0.02 and revenue of $12.70 million from MarketBeat, with the company officially reporting premarket June 22.",
+      "what_could_make_stock_go_up": "GMV and active listings continue growing, take rate holds or improves, adjusted EBITDA expands, cash generation remains positive, and AI/seller-tool initiatives sound measurable.",
+      "what_could_make_stock_down": "GMV slows, take rate or margins compress, legal/restructuring costs reappear, AI commentary sounds promotional rather than operational, or the stock gives back a pre-event rally.",
+      "reversal_risk_assessment": "Moderate. High implied volatility, low price, small-cap liquidity, and a strong recent move increase the chance of an opposite-direction reaction even if the headline quarter is acceptable.",
+      "reddit_social_consumer_sentiment_read": "Current Reddit evidence was too sparse to score. Broader GunBroker customer commentary is mixed: users recognize the marketplace utility, but fee and dispute-resolution complaints remain a caution flag.",
+      "options_positioning_read": "Fintel's high implied volatility points to a large expected event move; short interest is not crowded enough to drive a high-conviction squeeze thesis.",
+      "analyst_revision_read": "Thin analyst base. Prior Q3 beat was clear, but prior FY2026 estimate deterioration keeps the hurdle from being purely bullish.",
+      "base_case": "A modest revenue/GMV beat and steady adjusted EBITDA produce a small positive reaction.",
+      "bull_case": "Q4 shows sustained marketplace momentum, cash generation, and concrete AI/seller-tool monetization, pushing the stock above the implied event hurdle.",
+      "bear_case": "The quarter looks less clean than Q3, or management commentary shows platform growth decelerating after cost cuts, causing a fast fade.",
+      "final_directional_judgment": "Lean Up, not Strong Up, with reversal risk too high for allocation priority.",
+      "allocation_rationale": "Excluded from the research allocation view because reversal risk averaged 45, above the <=40 threshold despite a +32 direction score.",
+      "disparity_effect": "Low disparity improved confidence in the direction label, but it did not offset the separate reversal-risk warning.",
+      "method_update_note": "None"
+    }
+  ],
+  "consensus_method_note": {
+    "disparity_definition": "0 to 100 scale estimating how far apart the three independent passes were across direction and reversal-risk scoring; lower means tighter agreement.",
+    "strongest_name_disparity": "POWW had low disparity at 8, so disagreement did not materially reduce the directional score.",
+    "method_change_from_lessons_review": "No new method change. Existing timing-confirmation and small-cap hidden-risk checks were applied."
+  },
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
