@@ -1,0 +1,12 @@
+{
+  "generation_timestamp": "2026-07-28T17:07:00Z",
+  "covered_report_window": "Tuesday, July 28, 2026 after the U.S. market close plus Wednesday, July 29, 2026 before the U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "The run occurred during the U.S. trading session. The immediate window is a regular Tuesday after-close slate plus regular Wednesday before-open slate. Market context is mixed: Dow strength from better consumer/industrial earnings, Nasdaq and chip sensitivity to AI-capex concerns, falling oil on U.S.-Iran peace hopes, and the Federal Reserve decision due Wednesday.",
+  "companies_reviewed_count": 22,
+  "top_setups": {"upward": ["SOFI", "STX", "APH"], "downward": ["HUM", "WING", "VFC"], "neutral_or_mixed": ["V", "PG", "ODFL", "KLAC", "TER", "GD", "WM"]},
+  "ranked_companies": [],
+  "research_allocation_view": {"qualified_names": [{"ticker": "SOFI", "direction": "Lean Up", "share_percent": 32}, {"ticker": "STX", "direction": "Lean Up", "share_percent": 28}, {"ticker": "APH", "direction": "Lean Up", "share_percent": 24}, {"ticker": "V", "direction": "Lean Up", "share_percent": 16}], "plain_statement": "This is a research prioritization model, not financial advice."},
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
