@@ -1,0 +1,52 @@
+{
+  "generation_timestamp": "2026-07-31T17:07:01Z",
+  "covered_report_window": "Friday, July 31, 2026 after U.S. market close through Monday, August 3, 2026 before U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "report_status": "data_quality_failure_no_qualified_universe",
+  "market_context_summary": "Live macro and market context could not be verified because the configured public-web research service returned HTTP 401 and direct public market-data endpoints were blocked. No current market claim is asserted.",
+  "companies_reviewed_count": 0,
+  "shared_qualified_ticker_universe": [],
+  "universe_note": "No company passed the mandatory timing-confirmation and evidence-quality gates. Candidate schedules could not be verified from an official company source or a high-quality session-specific calendar during this run.",
+  "independent_passes": {
+    "pass_a": {
+      "universe": [],
+      "status": "not_applicable_empty_universe"
+    },
+    "pass_b": {
+      "universe": [],
+      "status": "not_applicable_empty_universe"
+    },
+    "pass_c": {
+      "universe": [],
+      "status": "not_applicable_empty_universe"
+    },
+    "consensus_status": "No scoring performed because the shared qualified universe was empty."
+  },
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "unallocated_percent": 100,
+    "excluded_high_reversal_or_weak_names": [],
+    "explanation": "No names qualified because timing and current evidence could not be confirmed. The notional research basket remains fully unallocated.",
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method_note": {
+    "disparity_definition": "A 0-100 measure of spread across Pass A/B/C direction and reversal-risk outputs; lower means tighter agreement.",
+    "strongest_name_disparity": "Not applicable; no qualified names.",
+    "allocation_effect": "No allocation was made because no name reached the scoring stage.",
+    "lessons_review": "The active expectation-bar, key-metric-first, forward-look override, and separate reversal-risk controls remain in force. No new method change was made."
+  },
+  "detailed_company_sections": [],
+  "data_quality_notes": [
+    "The configured web research endpoint returned HTTP 401 Unauthorized.",
+    "Direct public calendar and market-data access from the container returned HTTP 403.",
+    "The immediately preceding scheduled run for the identical window independently reached the same data-quality conclusion.",
+    "Potential Monday reporters were not included on reporting-cadence inference alone."
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
