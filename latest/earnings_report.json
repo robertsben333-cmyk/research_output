@@ -1,5 +1,5 @@
 {
-  "generation_timestamp": "2026-07-31T17:06:00Z",
+  "generation_timestamp": "2026-07-31T17:07:01Z",
   "covered_report_window": "Friday, July 31, 2026 after U.S. market close through Monday, August 3, 2026 before U.S. market open",
   "report_type": "full_ranked_earnings_report",
   "report_status": "data_quality_failure_no_qualified_universe",
@@ -45,8 +45,8 @@
   "data_quality_notes": [
     "The configured web research endpoint returned HTTP 401 Unauthorized.",
     "Direct public calendar and market-data access from the container returned HTTP 403.",
-    "Repository history confirmed only the immediately preceding window, not the required Friday-after-close/Monday-before-open window.",
-    "Potential Monday reporters were not included on cadence inference alone."
+    "The immediately preceding scheduled run for the identical window independently reached the same data-quality conclusion.",
+    "Potential Monday reporters were not included on reporting-cadence inference alone."
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
