@@ -1,5 +1,5 @@
 {
-  "generation_timestamp": "2026-08-03T17:02:01Z",
+  "generation_timestamp": "2026-08-03T17:09:07Z",
   "covered_report_window": "Monday, August 3, 2026 after U.S. market close through Tuesday, August 4, 2026 before U.S. market open",
   "report_type": "full_ranked_earnings_report",
   "market_context_summary": "Event risk is dominated by growth-versus-valuation tension, AI and defense capital spending, oil-price sensitivity, and a cautious consumer backdrop. Live public-web access failed, so current index moves are not asserted.",
@@ -608,7 +608,8 @@
     "The configured public-web research service returned HTTP 401 and direct public endpoints returned HTTP 403.",
     "Timing, estimates, option metrics, and event history rely on a public GitHub dataset generated Aug. 3, 2026 with market data primarily as of July 31.",
     "AXON was removed from all passes because its week and symbol files conflicted on the earnings date.",
-    "No learned-lessons method change beyond the existing expectation-bar, key-metric, forward-look, and reversal-risk controls was warranted."
+    "No learned-lessons method change beyond the existing expectation-bar, key-metric, forward-look, and reversal-risk controls was warranted.",
+    "This scheduled rerun revalidated the fixed 10-name universe, three-pass consensus outputs, and learned-lessons controls; no score change was warranted."
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
