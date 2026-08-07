@@ -1,30 +1,35 @@
 {
-  "generation_timestamp": "2026-08-07T17:20:00Z",
-  "covered_report_window": "Friday, August 7, 2026 after the U.S. market close through Monday, August 10, 2026 before the U.S. market open (America/New_York). No qualifying liquid Friday AMC name survived timing confirmation.",
+  "generation_timestamp": "2026-08-07T17:07:01Z",
+  "covered_report_window": "Friday, August 7, 2026 after the U.S. market close through Monday, August 10, 2026 before the U.S. market open (America/New_York). No qualifying liquid Friday AMC company survived timing confirmation.",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "U.S. equities rallied and Treasury yields fell after July payrolls unexpectedly declined by 23,000, supporting rate-relief sentiment while also raising growth concerns.",
-  "companies_reviewed_count": 5,
+  "market_context_summary": "U.S. stocks rose and Treasury yields fell after July payrolls unexpectedly declined by 23,000; rate relief supports long-duration assets, while labor weakness and elevated oil/geopolitical risk raise growth and margin uncertainty.",
+  "companies_reviewed_count": 9,
   "methodology": {
     "independent_passes": 3,
     "qualified_universe": [
       "CAMT",
+      "INSW",
+      "AXSM",
       "B",
       "SGRY",
+      "PERI",
       "DOLE",
-      "MNDY"
+      "MNDY",
+      "FERG"
     ],
-    "disparity_formula": "0-100 composite of dispersion in the three direction scores and reversal-risk estimates; lower is tighter agreement.",
-    "lessons_review": "No new framework change. Existing mandatory expectation-bar, key-metric-first, forward-look override, timing hygiene, and separate reversal-risk rules were applied."
+    "disparity_formula": "Rounded average of the mean pairwise absolute differences in the three direction scores and the three reversal-risk estimates; 0 is identical outputs and 100 is maximum disagreement.",
+    "lessons_review": "No new framework change. Existing hard timing confirmation, key-metric-first, premium-growth priced-in penalty, forward-look override, and low-bar reversal-risk floors were applied."
   },
   "top_setups": {
     "upward": [
       "CAMT",
-      "B",
-      "SGRY"
+      "INSW",
+      "AXSM"
     ],
     "downward": [
-      "MNDY",
-      "DOLE"
+      "PERI",
+      "DOLE",
+      "MNDY"
     ]
   },
   "ranked_companies": [
@@ -33,82 +38,159 @@
       "ticker": "CAMT",
       "company": "Camtek Ltd.",
       "timing": "2026-08-10 BMO",
-      "direction_call": "Strong Up",
-      "direction_score": 63,
-      "reversal_risk": 36,
-      "disparity": 8,
+      "direction_call": "Lean Up",
+      "direction_score": 52,
+      "reversal_risk": 50,
+      "disparity": 6,
       "confidence": "Medium",
-      "expected_driver": "2H26 revenue ramp/order conversion",
-      "key_risk_to_call": "Margin compression or ramp delay",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Strong Up or high Lean Up",
-      "method_update_note": "Expectation-bar check",
-      "one_sentence_thesis": "Exceptional HBM/advanced-packaging orders and management's >25% second-half growth outlook favor upside if Q3 guidance confirms conversion.",
-      "market_expectation_summary": "Q2 revenue guide is $129-$131M; market focus is the promised >25% 2H26-versus-1H26 revenue ramp.",
-      "upside_case_summary": "Q2 clears guidance and Q3/backlog validate the steep ramp.",
-      "downside_case_summary": "Orders convert later or gross/operating margins remain below prior-year levels.",
-      "options_or_positioning_summary": "Live implied move unavailable; shares rose about 4.7% intraday Friday, increasing priced-in risk.",
-      "analyst_revision_summary": "Q1 EPS modestly beat; June orders exceeded $105M, strengthening forward visibility.",
+      "expected_driver": "2H26 order conversion / Q3 guide",
+      "key_risk_to_call": "Ramp already priced; margin compression",
+      "evidence_quality": "High primary / moderate market",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "Priced-in growth penalty",
+      "one_sentence_thesis": "HBM and advanced-packaging orders support upside if Q3 guidance validates the promised second-half ramp.",
+      "market_expectation_summary": "Q2 revenue guide is $129M-$131M; the decisive bar is management's >25% 2H26 versus 1H26 growth outlook.",
+      "upside_case_summary": "Q3 guide and backlog conversion exceed the real buy-side bar.",
+      "downside_case_summary": "Orders convert later, or margins disappoint despite revenue growth.",
+      "options_or_positioning_summary": "Live implied move unavailable; shares were up about 5.4% intraday Friday, increasing sell-the-news risk.",
+      "analyst_revision_summary": "Analyst targets moved higher after Q1, but Cantor stayed Neutral at $175 and said much order strength was already contemplated.",
       "key_sources": [
         "https://www.camtek.com/news-and-events/camtek-announces-results-for-the-first-quarter-of-2026/",
-        "https://www.prnewswire.com/news/camtek-ltd./",
-        "https://marketchameleon.com/Overview/CAMT/Earnings/Earnings-Dates/"
+        "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-maintains-camtek-stock-rating-on-competitive-risks-93CH-4791163"
       ]
     },
     {
       "rank": 2,
+      "ticker": "INSW",
+      "company": "International Seaways, Inc.",
+      "timing": "2026-08-10 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 48,
+      "reversal_risk": 38,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Spot TCE rates and supplemental dividend",
+      "key_risk_to_call": "Cyclical peak / crowded tanker optimism",
+      "evidence_quality": "High primary / moderate market",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Strong tanker rates and cash returns favor upside if Q2 spot TCE and the variable dividend meet elevated expectations.",
+      "market_expectation_summary": "Consensus EPS is roughly $5.3-$5.5 versus $1.02 a year ago; Q1 net income was $5.75 per share and the June combined dividend was $4.55.",
+      "upside_case_summary": "Booked rates and dividend exceed the elevated bar.",
+      "downside_case_summary": "Rate commentary rolls over or cash returns disappoint after the stock's run.",
+      "options_or_positioning_summary": "Live implied move unavailable; retail tanker commentary is crowded bullish, raising but not dominating reversal risk.",
+      "analyst_revision_summary": "Available estimates imply a sharp Q2 earnings step-up; revision evidence had been positive, though the analyst sample is small.",
+      "key_sources": [
+        "https://www.intlseas.co/newsroom/news/news-details/2026/International-Seaways-to-Announce-Second-Quarter-2026-Results-on-August-10-2026/default.aspx",
+        "https://www.intlseas.com/investor-relations/financials/quarterly-results/default.aspx"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "AXSM",
+      "company": "Axsome Therapeutics, Inc.",
+      "timing": "2026-08-10 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 45,
+      "reversal_risk": 49,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "AUVELITY sales and Alzheimer-agitation launch",
+      "key_risk_to_call": "Gross-to-net pressure / spending and launch costs",
+      "evidence_quality": "High primary / moderate market",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "AUVELITY momentum and the new Alzheimer-agitation indication favor upside if prescription conversion outruns launch spending and gross-to-net pressure.",
+      "market_expectation_summary": "Q1 total product revenue was $191.2M, up 57%; AUVELITY contributed $153.2M, up 59%, while the Q1 loss was wider than consensus.",
+      "upside_case_summary": "AUVELITY adoption and launch commentary materially lift the revenue trajectory.",
+      "downside_case_summary": "Gross-to-net discounts, operating losses, or a slower launch overwhelm sales growth.",
+      "options_or_positioning_summary": "Live implied move unavailable; strong Buy consensus and recent target increases create a meaningful expectation bar.",
+      "analyst_revision_summary": "Recent analysts remained broadly bullish, including several July target reiterations/raises.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1579428/000119312526202506/axsm-ex99_1.htm",
+        "https://www.nasdaq.com/press-release/axsome-therapeutics-report-second-quarter-2026-financial-results-august-10-2026-07-14"
+      ]
+    },
+    {
+      "rank": 4,
       "ticker": "B",
       "company": "Barrick Mining Corporation",
       "timing": "2026-08-10 BMO",
       "direction_call": "Lean Up",
-      "direction_score": 50,
-      "reversal_risk": 38,
-      "disparity": 9,
+      "direction_score": 43,
+      "reversal_risk": 39,
+      "disparity": 7,
       "confidence": "Medium",
       "expected_driver": "Gold output and AISC",
-      "key_risk_to_call": "Inventory normalization/geopolitics",
+      "key_risk_to_call": "Cost inflation / inventory normalization",
       "evidence_quality": "High",
       "pass_agreement": "A/B/C all Lean Up",
       "method_update_note": "Expectation-bar check",
-      "one_sentence_thesis": "Strong gold pricing and Q1 execution support upside if Q2 output reaches 730-770koz without an AISC setback.",
-      "market_expectation_summary": "Management guided Q2 gold production to 730-770koz and full-year AISC to $1,760-$1,950/oz.",
+      "one_sentence_thesis": "Strong gold pricing and Q1 execution favor upside if Q2 output reaches guidance without an AISC setback.",
+      "market_expectation_summary": "Management guided Q2 gold production to 730-770koz and kept full-year AISC at $1,760-$1,950/oz after Q1 beat plan.",
       "upside_case_summary": "Production lands near the high end and costs remain controlled.",
-      "downside_case_summary": "Q1 inventory benefits reverse, AISC rises, or Reko Diq/IPO commentary dominates.",
-      "options_or_positioning_summary": "Live implied move unavailable; shares were up about 5.3% Friday, so some commodity optimism is priced in.",
-      "analyst_revision_summary": "Q1 gold production beat plan and free cash flow rose sharply; reliable recent revision breadth was unavailable.",
+      "downside_case_summary": "AISC rises, Q1 inventory benefits reverse, or IPO/project commentary distracts.",
+      "options_or_positioning_summary": "Live implied move unavailable; commodity strength and buyback support are partly priced in.",
+      "analyst_revision_summary": "Reliable very recent revision breadth was unavailable; Q1 operating execution was clearly better than plan.",
       "key_sources": [
         "https://www.barrick.com/English/investors/presentations/event-details/2026/q2-2026-results/default.aspx",
         "https://www.barrick.com/English/news/news-details/2026/q1-2026-results/default.aspx"
       ]
     },
     {
-      "rank": 3,
+      "rank": 5,
       "ticker": "SGRY",
       "company": "Surgery Partners, Inc.",
       "timing": "2026-08-10 BMO",
       "direction_call": "Lean Up",
       "direction_score": 35,
       "reversal_risk": 40,
-      "disparity": 12,
+      "disparity": 9,
       "confidence": "Medium",
       "expected_driver": "Same-store growth and EBITDA guide",
-      "key_risk_to_call": "Portfolio-sale execution/debt",
+      "key_risk_to_call": "Portfolio-sale execution / leverage",
       "evidence_quality": "High",
       "pass_agreement": "A/B/C Lean Up, varying strength",
       "method_update_note": "Key-metric-first",
-      "one_sentence_thesis": "Steady same-store growth plus the $795M Idaho Falls sale setup favor relief upside if EBITDA guidance holds and deleveraging is credible.",
-      "market_expectation_summary": "2026 revenue guidance is $3.35-$3.45B and adjusted EBITDA at least $530M, excluding the pending sale.",
-      "upside_case_summary": "Same-store revenue exceeds 4% and sale proceeds accelerate leverage reduction.",
-      "downside_case_summary": "Case growth or margins soften, or transaction approvals/consideration disappoint.",
-      "options_or_positioning_summary": "Live implied move unavailable; shares rose about 3.7% Friday but remain at a compressed valuation.",
-      "analyst_revision_summary": "Q1 same-store revenue grew 4.4% and management reaffirmed guidance; current revision breadth was unavailable.",
+      "one_sentence_thesis": "Same-store growth and the Idaho Falls sale setup favor relief upside if EBITDA guidance holds and deleveraging is credible.",
+      "market_expectation_summary": "2026 revenue guidance is $3.35B-$3.45B and adjusted EBITDA at least $530M, excluding the pending sale.",
+      "upside_case_summary": "Same-store growth exceeds 4% and sale proceeds accelerate deleveraging.",
+      "downside_case_summary": "Case growth or margins soften, or transaction economics disappoint.",
+      "options_or_positioning_summary": "Live implied move unavailable; the setup is less crowded than the semiconductor and biotech names.",
+      "analyst_revision_summary": "Current revision breadth was unavailable; Q1 same-store revenue growth and reiterated guidance support the base case.",
       "key_sources": [
         "https://ir.surgerypartners.com/news-releases/news-release-details/surgery-partners-announces-entry-agreement-sell-ownership",
         "https://www.sec.gov/Archives/edgar/data/1638833/000163883326000044/exhibit991q12026earningsre.htm"
       ]
     },
     {
-      "rank": 4,
+      "rank": 6,
+      "ticker": "PERI",
+      "company": "Perion Network Ltd.",
+      "timing": "2026-08-10 BMO",
+      "direction_call": "Lean Down",
+      "direction_score": -34,
+      "reversal_risk": 59,
+      "disparity": 6,
+      "confidence": "Low",
+      "expected_driver": "Contribution ex-TAC growth / search stabilization",
+      "key_risk_to_call": "Low valuation and Perion One relief",
+      "evidence_quality": "High primary / limited market",
+      "pass_agreement": "A/B/C all Lean Down or low Neutral",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "one_sentence_thesis": "Search pressure and weak GAAP profitability leave downside skew unless Perion One growth finally offsets the legacy drag.",
+      "market_expectation_summary": "Management reiterated FY2026 contribution ex-TAC of $215M-$235M and adjusted EBITDA of $50M-$54M after a $10M Q1 GAAP loss.",
+      "upside_case_summary": "Perion One growth accelerates and full-year guidance is raised.",
+      "downside_case_summary": "Search declines persist and the unified-platform ramp fails to improve contribution quality.",
+      "options_or_positioning_summary": "Live implied move unavailable; the compressed valuation and small market cap create sharp relief-rally risk.",
+      "analyst_revision_summary": "Reliable recent revision breadth was unavailable; evidence centers on the reiterated company guide.",
+      "key_sources": [
+        "https://perion.com/press/perion-reports-first-quarter-2026-results/",
+        "https://www.barchart.com/story/news/3362462/perion-to-announce-its-second-quarter-2026-financial-results-on-august-10-2026"
+      ]
+    },
+    {
+      "rank": 7,
       "ticker": "DOLE",
       "company": "Dole plc",
       "timing": "2026-08-10 BMO",
@@ -117,172 +199,371 @@
       "reversal_risk": 40,
       "disparity": 10,
       "confidence": "Low",
-      "expected_driver": "Fresh Fruit EBITDA/margins",
-      "key_risk_to_call": "Pricing offsets sourcing costs",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Down or Neutral",
+      "expected_driver": "Fresh Fruit EBITDA and margins",
+      "key_risk_to_call": "Pricing offsets sourcing and shipping costs",
+      "evidence_quality": "High primary / limited market",
+      "pass_agreement": "A/B/C Lean Down or Neutral",
       "method_update_note": "Key-metric-first",
-      "one_sentence_thesis": "Revenue growth has not translated into earnings growth, leaving modest downside risk if Fresh Fruit sourcing and shipping costs keep compressing EBITDA.",
-      "market_expectation_summary": "Management targets at least $400M adjusted EBITDA for 2026 despite higher Q2 shipping, fuel, and fruit-sourcing costs.",
-      "upside_case_summary": "Contract repricing and diversified-produce strength offset Fresh Fruit pressure.",
+      "one_sentence_thesis": "Revenue growth has not translated into earnings growth, leaving downside risk if Fresh Fruit costs keep compressing EBITDA.",
+      "market_expectation_summary": "Management targets at least $400M adjusted EBITDA for 2026 despite higher shipping, fuel, and fruit-sourcing costs.",
+      "upside_case_summary": "Contract repricing and diversified produce offset Fresh Fruit pressure.",
       "downside_case_summary": "Fresh Fruit EBITDA deteriorates and the $400M floor loses credibility.",
-      "options_or_positioning_summary": "Reliable event options data unavailable; low liquidity limits positioning confidence.",
-      "analyst_revision_summary": "Q1 revenue rose 11.6%, but adjusted EBITDA fell 4.3% and adjusted EPS fell to $0.33.",
+      "options_or_positioning_summary": "Reliable event options data unavailable; lower liquidity limits positioning confidence.",
+      "analyst_revision_summary": "Q1 revenue grew, but adjusted EBITDA and adjusted EPS declined.",
       "key_sources": [
         "https://www.doleplc.com/news/company-news/company-news-details/2026/Dole-plc-Reports-First-Quarter-2026-Financial-Results/default.aspx",
         "https://www.doleplc.com/investor-relations/overview/default.aspx"
       ]
     },
     {
-      "rank": 5,
+      "rank": 8,
       "ticker": "MNDY",
       "company": "monday.com Ltd.",
       "timing": "2026-08-10 BMO",
       "direction_call": "Lean Down",
-      "direction_score": -32,
-      "reversal_risk": 58,
-      "disparity": 14,
+      "direction_score": -26,
+      "reversal_risk": 69,
+      "disparity": 6,
       "confidence": "Low",
-      "expected_driver": "Q3 revenue guide/enterprise ARR",
-      "key_risk_to_call": "Reset valuation sparks squeeze",
+      "expected_driver": "Q3 revenue guide and enterprise ARR",
+      "key_risk_to_call": "Reset valuation sparks a squeeze",
       "evidence_quality": "High",
       "pass_agreement": "2 Lean Down / 1 Neutral",
-      "method_update_note": "Forward-look override",
-      "one_sentence_thesis": "Strong Q1 execution is offset by decelerating Q2 growth and a guidance-sensitive SaaS setup, leaving downside skew unless enterprise adds and Q3 outlook decisively beat.",
-      "market_expectation_summary": "Consensus is about $355.45M revenue and $0.96 EPS; management guided $354-$356M revenue, 18%-19% growth, and 13%-14% non-GAAP margin.",
-      "upside_case_summary": "Large-customer ARR and AI monetization support a clean beat-and-raise.",
-      "downside_case_summary": "Q3 guide confirms deceleration or consumption pricing/FX pressures margins.",
-      "options_or_positioning_summary": "Live implied move unavailable; the stock is heavily de-rated but rose about 6% Friday, preserving sharp relief-squeeze risk.",
-      "analyst_revision_summary": "Q1 revenue grew 24% and operating income hit records, but the Q2 guide implies slower growth; current revision breadth was unavailable.",
+      "method_update_note": "Forward-look override + low-bar caution",
+      "one_sentence_thesis": "The Q2 guide embeds deceleration, leaving downside skew unless enterprise ARR and the Q3 outlook deliver a genuine beat-and-raise.",
+      "market_expectation_summary": "Management guided Q2 revenue to $354M-$356M, 18%-19% growth, with 13%-14% non-GAAP margin after raising FY2026 guidance in Q1.",
+      "upside_case_summary": "Large-customer ARR and AI monetization trigger a clean beat-and-raise.",
+      "downside_case_summary": "Q3 guidance confirms deceleration or FX/consumption pressure margins.",
+      "options_or_positioning_summary": "Live implied move unavailable; the stock is heavily de-rated but rallied about 6.1% Friday, preserving very high relief-squeeze risk.",
+      "analyst_revision_summary": "Q1 adjusted EPS beat and revenue guidance rose; the bearish call is intentionally shallow because expectations have reset.",
       "key_sources": [
-        "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-to-Announce-Second-Quarter-2026-Financial-Results-on-Monday-August-10-2026/default.aspx",
         "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Announces-First-Quarter-2026-Results/default.aspx",
-        "https://www.benzinga.com/quote/MNDY/earnings"
+        "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-to-Announce-Second-Quarter-2026-Financial-Results-on-Monday-August-10-2026/default.aspx"
+      ]
+    },
+    {
+      "rank": 9,
+      "ticker": "FERG",
+      "company": "Ferguson Enterprises Inc.",
+      "timing": "2026-08-10 BMO",
+      "direction_call": "Lean Down",
+      "direction_score": -25,
+      "reversal_risk": 45,
+      "disparity": 5,
+      "confidence": "Low",
+      "expected_driver": "Organic sales and adjusted operating margin",
+      "key_risk_to_call": "Rate relief and buyback support",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C low Lean Down or Neutral",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "A premium multiple and a prior revenue miss create mild downside risk unless organic growth and margin both clear the bar.",
+      "market_expectation_summary": "Q1 sales rose 3.6%, organic growth was 2.8%, and adjusted margin was 8.7%; FY2026 guidance remained low-to-mid-single-digit sales growth and 9.4%-9.8% margin.",
+      "upside_case_summary": "Rate relief, nonresidential strength, and buybacks support a beat-and-raise.",
+      "downside_case_summary": "Residential softness or weak volume makes price-led growth look low quality.",
+      "options_or_positioning_summary": "At about 26.6x trailing earnings, the stock carries a real expectation bar; live event implied move was unavailable.",
+      "analyst_revision_summary": "A July upgrade and higher price targets show constructive sell-side momentum, limiting bearish conviction.",
+      "key_sources": [
+        "https://www.corporate.ferguson.com/pressroom/news-releases/news-details/2026/Ferguson-Reports-First-Quarter-Ended-March-31-2026/default.aspx",
+        "https://www.corporate.ferguson.com/investor/events-results-and-reports/Event-Details/2026/Ferguson-Reports-Second-Quarter-Ended-June-30-2026-2026-1acsSmibFL/default.aspx"
       ]
     }
   ],
   "research_allocation_view": {
     "qualified": [
       {
-        "ticker": "CAMT",
-        "direction": "Strong Up",
-        "weight_percent": 40,
-        "reason": "Strong score, low disparity, 36 reversal risk"
+        "ticker": "INSW",
+        "direction": "Lean Up",
+        "weight_percent": 35,
+        "reason": "48 score, 38 reversal risk, disparity 4"
       },
       {
         "ticker": "B",
         "direction": "Lean Up",
-        "weight_percent": 35,
-        "reason": "50 score, high-quality production/cost evidence, 38 reversal risk"
+        "weight_percent": 25,
+        "reason": "43 score, 39 reversal risk, disparity 7"
       },
       {
         "ticker": "SGRY",
         "direction": "Lean Up",
-        "weight_percent": 25,
-        "reason": "35 score and 40 reversal risk at the eligibility ceiling"
+        "weight_percent": 20,
+        "reason": "35 score, 40 reversal risk, acceptable evidence"
       }
     ],
-    "excluded": [
+    "excluded_high_reversal": [
       {
-        "ticker": "MNDY",
-        "reason": "58 reversal risk and high disparity"
+        "ticker": "CAMT",
+        "reason": "50 reversal risk"
       },
       {
-        "ticker": "DOLE",
-        "reason": "Absolute score below 30"
+        "ticker": "AXSM",
+        "reason": "49 reversal risk"
+      },
+      {
+        "ticker": "MNDY",
+        "reason": "69 reversal risk"
       }
     ],
-    "unallocated_percent": 0,
+    "unallocated_percent": 20,
     "statement": "Hypothetical research prioritization only, not financial advice."
   },
   "detailed_company_sections": [
     {
       "ticker": "CAMT",
-      "consensus_summary": "Three independent passes averaged to direction 63, reversal risk 36, disparity 8.",
-      "averaged_direction_score": 63,
-      "averaged_reversal_risk": 36,
-      "disparity_metric": 8,
-      "pass_agreement": "A/B/C all Strong Up or high Lean Up",
-      "recommendation": "Strong Up",
-      "confidence_level": "Medium",
-      "one_sentence_thesis": "Exceptional HBM/advanced-packaging orders and management's >25% second-half growth outlook favor upside if Q3 guidance confirms conversion.",
-      "market_expectation_summary": "Q2 revenue guide is $129-$131M; market focus is the promised >25% 2H26-versus-1H26 revenue ramp.",
-      "upside_case_summary": "Q2 clears guidance and Q3/backlog validate the steep ramp.",
-      "downside_case_summary": "Orders convert later or gross/operating margins remain below prior-year levels.",
-      "reversal_risk_assessment": "36/100",
-      "social_sentiment_summary": "Public social evidence was sparse or low-signal and was not weighted materially.",
-      "options_or_positioning_summary": "Live implied move unavailable; shares rose about 4.7% intraday Friday, increasing priced-in risk.",
-      "analyst_revision_summary": "Q1 EPS modestly beat; June orders exceeded $105M, strengthening forward visibility.",
-      "base_case": "Exceptional HBM/advanced-packaging orders and management's >25% second-half growth outlook favor upside if Q3 guidance confirms conversion.",
-      "bull_case": "Q2 clears guidance and Q3/backlog validate the steep ramp.",
-      "bear_case": "Orders convert later or gross/operating margins remain below prior-year levels.",
-      "final_directional_judgment": "Strong Up",
-      "allocation_view_status": "Qualified",
-      "disparity_impact": "Low disparity supported conviction.",
-      "method_update_note": "Expectation-bar check",
-      "key_sources": [
-        "https://www.camtek.com/news-and-events/camtek-announces-results-for-the-first-quarter-of-2026/",
-        "https://www.prnewswire.com/news/camtek-ltd./",
-        "https://marketchameleon.com/Overview/CAMT/Earnings/Earnings-Dates/"
-      ]
-    },
-    {
-      "ticker": "B",
-      "consensus_summary": "Three independent passes averaged to direction 50, reversal risk 38, disparity 9.",
-      "averaged_direction_score": 50,
-      "averaged_reversal_risk": 38,
-      "disparity_metric": 9,
+      "consensus_summary": "Three independent passes averaged to direction 52, reversal risk 50, disparity 6.",
+      "averaged_direction_score": 52,
+      "averaged_reversal_risk": 50,
+      "disparity_metric": 6,
       "pass_agreement": "A/B/C all Lean Up",
       "recommendation": "Lean Up",
       "confidence_level": "Medium",
-      "one_sentence_thesis": "Strong gold pricing and Q1 execution support upside if Q2 output reaches 730-770koz without an AISC setback.",
-      "market_expectation_summary": "Management guided Q2 gold production to 730-770koz and full-year AISC to $1,760-$1,950/oz.",
-      "upside_case_summary": "Production lands near the high end and costs remain controlled.",
-      "downside_case_summary": "Q1 inventory benefits reverse, AISC rises, or Reko Diq/IPO commentary dominates.",
+      "one_sentence_thesis": "HBM and advanced-packaging orders support upside if Q3 guidance validates the promised second-half ramp.",
+      "market_expectation_summary": "Q2 revenue guide is $129M-$131M; the decisive bar is management's >25% 2H26 versus 1H26 growth outlook.",
+      "what_could_make_stock_go_up": "Q3 guide and backlog conversion exceed the real buy-side bar.",
+      "what_could_make_stock_go_down": "Orders convert later, or margins disappoint despite revenue growth.",
+      "reversal_risk_assessment": "50/100",
+      "social_sentiment_summary": "Sparse, mostly bullish HBM/order commentary; low-signal and not weighted materially.",
+      "options_or_positioning_summary": "Live implied move unavailable; shares were up about 5.4% intraday Friday, increasing sell-the-news risk.",
+      "analyst_revision_summary": "Analyst targets moved higher after Q1, but Cantor stayed Neutral at $175 and said much order strength was already contemplated.",
+      "base_case": "HBM and advanced-packaging orders support upside if Q3 guidance validates the promised second-half ramp.",
+      "bull_case": "Q3 guide and backlog conversion exceed the real buy-side bar.",
+      "bear_case": "Orders convert later, or margins disappoint despite revenue growth.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_view_status": "Excluded",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Priced-in growth penalty",
+      "key_sources": [
+        "https://www.camtek.com/news-and-events/camtek-announces-results-for-the-first-quarter-of-2026/",
+        "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-maintains-camtek-stock-rating-on-competitive-risks-93CH-4791163"
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": 58,
+          "reversal": 47
+        },
+        "B": {
+          "direction": 46,
+          "reversal": 53
+        },
+        "C": {
+          "direction": 51,
+          "reversal": 50
+        }
+      }
+    },
+    {
+      "ticker": "INSW",
+      "consensus_summary": "Three independent passes averaged to direction 48, reversal risk 38, disparity 4.",
+      "averaged_direction_score": 48,
+      "averaged_reversal_risk": 38,
+      "disparity_metric": 4,
+      "pass_agreement": "A/B/C all Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Strong tanker rates and cash returns favor upside if Q2 spot TCE and the variable dividend meet elevated expectations.",
+      "market_expectation_summary": "Consensus EPS is roughly $5.3-$5.5 versus $1.02 a year ago; Q1 net income was $5.75 per share and the June combined dividend was $4.55.",
+      "what_could_make_stock_go_up": "Booked rates and dividend exceed the elevated bar.",
+      "what_could_make_stock_go_down": "Rate commentary rolls over or cash returns disappoint after the stock's run.",
       "reversal_risk_assessment": "38/100",
-      "social_sentiment_summary": "Public social evidence was sparse or low-signal and was not weighted materially.",
-      "options_or_positioning_summary": "Live implied move unavailable; shares were up about 5.3% Friday, so some commodity optimism is priced in.",
-      "analyst_revision_summary": "Q1 gold production beat plan and free cash flow rose sharply; reliable recent revision breadth was unavailable.",
-      "base_case": "Strong gold pricing and Q1 execution support upside if Q2 output reaches 730-770koz without an AISC setback.",
-      "bull_case": "Production lands near the high end and costs remain controlled.",
-      "bear_case": "Q1 inventory benefits reverse, AISC rises, or Reko Diq/IPO commentary dominates.",
+      "social_sentiment_summary": "Shipping forums are strongly bullish and dividend-focused; treated as crowding, not proof.",
+      "options_or_positioning_summary": "Live implied move unavailable; retail tanker commentary is crowded bullish, raising but not dominating reversal risk.",
+      "analyst_revision_summary": "Available estimates imply a sharp Q2 earnings step-up; revision evidence had been positive, though the analyst sample is small.",
+      "base_case": "Strong tanker rates and cash returns favor upside if Q2 spot TCE and the variable dividend meet elevated expectations.",
+      "bull_case": "Booked rates and dividend exceed the elevated bar.",
+      "bear_case": "Rate commentary rolls over or cash returns disappoint after the stock's run.",
       "final_directional_judgment": "Lean Up",
       "allocation_view_status": "Qualified",
-      "disparity_impact": "Low disparity supported conviction.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://www.intlseas.co/newsroom/news/news-details/2026/International-Seaways-to-Announce-Second-Quarter-2026-Results-on-August-10-2026/default.aspx",
+        "https://www.intlseas.com/investor-relations/financials/quarterly-results/default.aspx"
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": 51,
+          "reversal": 36
+        },
+        "B": {
+          "direction": 45,
+          "reversal": 41
+        },
+        "C": {
+          "direction": 49,
+          "reversal": 38
+        }
+      }
+    },
+    {
+      "ticker": "AXSM",
+      "consensus_summary": "Three independent passes averaged to direction 45, reversal risk 49, disparity 6.",
+      "averaged_direction_score": 45,
+      "averaged_reversal_risk": 49,
+      "disparity_metric": 6,
+      "pass_agreement": "A/B/C all Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "AUVELITY momentum and the new Alzheimer-agitation indication favor upside if prescription conversion outruns launch spending and gross-to-net pressure.",
+      "market_expectation_summary": "Q1 total product revenue was $191.2M, up 57%; AUVELITY contributed $153.2M, up 59%, while the Q1 loss was wider than consensus.",
+      "what_could_make_stock_go_up": "AUVELITY adoption and launch commentary materially lift the revenue trajectory.",
+      "what_could_make_stock_go_down": "Gross-to-net discounts, operating losses, or a slower launch overwhelm sales growth.",
+      "reversal_risk_assessment": "49/100",
+      "social_sentiment_summary": "Patient/investor discussion is positive on the indication expansion but thin and catalyst-heavy; lightly weighted.",
+      "options_or_positioning_summary": "Live implied move unavailable; strong Buy consensus and recent target increases create a meaningful expectation bar.",
+      "analyst_revision_summary": "Recent analysts remained broadly bullish, including several July target reiterations/raises.",
+      "base_case": "AUVELITY momentum and the new Alzheimer-agitation indication favor upside if prescription conversion outruns launch spending and gross-to-net pressure.",
+      "bull_case": "AUVELITY adoption and launch commentary materially lift the revenue trajectory.",
+      "bear_case": "Gross-to-net discounts, operating losses, or a slower launch overwhelm sales growth.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_view_status": "Excluded",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1579428/000119312526202506/axsm-ex99_1.htm",
+        "https://www.nasdaq.com/press-release/axsome-therapeutics-report-second-quarter-2026-financial-results-august-10-2026-07-14"
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": 49,
+          "reversal": 45
+        },
+        "B": {
+          "direction": 40,
+          "reversal": 53
+        },
+        "C": {
+          "direction": 45,
+          "reversal": 49
+        }
+      }
+    },
+    {
+      "ticker": "B",
+      "consensus_summary": "Three independent passes averaged to direction 43, reversal risk 39, disparity 7.",
+      "averaged_direction_score": 43,
+      "averaged_reversal_risk": 39,
+      "disparity_metric": 7,
+      "pass_agreement": "A/B/C all Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Strong gold pricing and Q1 execution favor upside if Q2 output reaches guidance without an AISC setback.",
+      "market_expectation_summary": "Management guided Q2 gold production to 730-770koz and kept full-year AISC at $1,760-$1,950/oz after Q1 beat plan.",
+      "what_could_make_stock_go_up": "Production lands near the high end and costs remain controlled.",
+      "what_could_make_stock_go_down": "AISC rises, Q1 inventory benefits reverse, or IPO/project commentary distracts.",
+      "reversal_risk_assessment": "39/100",
+      "social_sentiment_summary": "Gold-bull sentiment is supportive but macro-driven and was not given primary weight.",
+      "options_or_positioning_summary": "Live implied move unavailable; commodity strength and buyback support are partly priced in.",
+      "analyst_revision_summary": "Reliable very recent revision breadth was unavailable; Q1 operating execution was clearly better than plan.",
+      "base_case": "Strong gold pricing and Q1 execution favor upside if Q2 output reaches guidance without an AISC setback.",
+      "bull_case": "Production lands near the high end and costs remain controlled.",
+      "bear_case": "AISC rises, Q1 inventory benefits reverse, or IPO/project commentary distracts.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_view_status": "Qualified",
+      "disparity_impact": "Low disparity supported conviction quality.",
       "method_update_note": "Expectation-bar check",
       "key_sources": [
         "https://www.barrick.com/English/investors/presentations/event-details/2026/q2-2026-results/default.aspx",
         "https://www.barrick.com/English/news/news-details/2026/q1-2026-results/default.aspx"
-      ]
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": 48,
+          "reversal": 36
+        },
+        "B": {
+          "direction": 38,
+          "reversal": 43
+        },
+        "C": {
+          "direction": 43,
+          "reversal": 38
+        }
+      }
     },
     {
       "ticker": "SGRY",
-      "consensus_summary": "Three independent passes averaged to direction 35, reversal risk 40, disparity 12.",
+      "consensus_summary": "Three independent passes averaged to direction 35, reversal risk 40, disparity 9.",
       "averaged_direction_score": 35,
       "averaged_reversal_risk": 40,
-      "disparity_metric": 12,
+      "disparity_metric": 9,
       "pass_agreement": "A/B/C Lean Up, varying strength",
       "recommendation": "Lean Up",
       "confidence_level": "Medium",
-      "one_sentence_thesis": "Steady same-store growth plus the $795M Idaho Falls sale setup favor relief upside if EBITDA guidance holds and deleveraging is credible.",
-      "market_expectation_summary": "2026 revenue guidance is $3.35-$3.45B and adjusted EBITDA at least $530M, excluding the pending sale.",
-      "upside_case_summary": "Same-store revenue exceeds 4% and sale proceeds accelerate leverage reduction.",
-      "downside_case_summary": "Case growth or margins soften, or transaction approvals/consideration disappoint.",
+      "one_sentence_thesis": "Same-store growth and the Idaho Falls sale setup favor relief upside if EBITDA guidance holds and deleveraging is credible.",
+      "market_expectation_summary": "2026 revenue guidance is $3.35B-$3.45B and adjusted EBITDA at least $530M, excluding the pending sale.",
+      "what_could_make_stock_go_up": "Same-store growth exceeds 4% and sale proceeds accelerate deleveraging.",
+      "what_could_make_stock_go_down": "Case growth or margins soften, or transaction economics disappoint.",
       "reversal_risk_assessment": "40/100",
-      "social_sentiment_summary": "Public social evidence was sparse or low-signal and was not weighted materially.",
-      "options_or_positioning_summary": "Live implied move unavailable; shares rose about 3.7% Friday but remain at a compressed valuation.",
-      "analyst_revision_summary": "Q1 same-store revenue grew 4.4% and management reaffirmed guidance; current revision breadth was unavailable.",
-      "base_case": "Steady same-store growth plus the $795M Idaho Falls sale setup favor relief upside if EBITDA guidance holds and deleveraging is credible.",
-      "bull_case": "Same-store revenue exceeds 4% and sale proceeds accelerate leverage reduction.",
-      "bear_case": "Case growth or margins soften, or transaction approvals/consideration disappoint.",
+      "social_sentiment_summary": "Little actionable public social signal; not weighted.",
+      "options_or_positioning_summary": "Live implied move unavailable; the setup is less crowded than the semiconductor and biotech names.",
+      "analyst_revision_summary": "Current revision breadth was unavailable; Q1 same-store revenue growth and reiterated guidance support the base case.",
+      "base_case": "Same-store growth and the Idaho Falls sale setup favor relief upside if EBITDA guidance holds and deleveraging is credible.",
+      "bull_case": "Same-store growth exceeds 4% and sale proceeds accelerate deleveraging.",
+      "bear_case": "Case growth or margins soften, or transaction economics disappoint.",
       "final_directional_judgment": "Lean Up",
       "allocation_view_status": "Qualified",
-      "disparity_impact": "Moderate disparity reduced sizing.",
+      "disparity_impact": "Moderate disparity reduced allocation priority.",
       "method_update_note": "Key-metric-first",
       "key_sources": [
         "https://ir.surgerypartners.com/news-releases/news-release-details/surgery-partners-announces-entry-agreement-sell-ownership",
         "https://www.sec.gov/Archives/edgar/data/1638833/000163883326000044/exhibit991q12026earningsre.htm"
-      ]
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": 41,
+          "reversal": 37
+        },
+        "B": {
+          "direction": 29,
+          "reversal": 44
+        },
+        "C": {
+          "direction": 35,
+          "reversal": 39
+        }
+      }
+    },
+    {
+      "ticker": "PERI",
+      "consensus_summary": "Three independent passes averaged to direction -34, reversal risk 59, disparity 6.",
+      "averaged_direction_score": -34,
+      "averaged_reversal_risk": 59,
+      "disparity_metric": 6,
+      "pass_agreement": "A/B/C all Lean Down or low Neutral",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Search pressure and weak GAAP profitability leave downside skew unless Perion One growth finally offsets the legacy drag.",
+      "market_expectation_summary": "Management reiterated FY2026 contribution ex-TAC of $215M-$235M and adjusted EBITDA of $50M-$54M after a $10M Q1 GAAP loss.",
+      "what_could_make_stock_go_up": "Perion One growth accelerates and full-year guidance is raised.",
+      "what_could_make_stock_go_down": "Search declines persist and the unified-platform ramp fails to improve contribution quality.",
+      "reversal_risk_assessment": "59/100",
+      "social_sentiment_summary": "Minimal high-quality public discussion; ignored for scoring.",
+      "options_or_positioning_summary": "Live implied move unavailable; the compressed valuation and small market cap create sharp relief-rally risk.",
+      "analyst_revision_summary": "Reliable recent revision breadth was unavailable; evidence centers on the reiterated company guide.",
+      "base_case": "Search pressure and weak GAAP profitability leave downside skew unless Perion One growth finally offsets the legacy drag.",
+      "bull_case": "Perion One growth accelerates and full-year guidance is raised.",
+      "bear_case": "Search declines persist and the unified-platform ramp fails to improve contribution quality.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_view_status": "Excluded",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "key_sources": [
+        "https://perion.com/press/perion-reports-first-quarter-2026-results/",
+        "https://www.barchart.com/story/news/3362462/perion-to-announce-its-second-quarter-2026-financial-results-on-august-10-2026"
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": -38,
+          "reversal": 55
+        },
+        "B": {
+          "direction": -29,
+          "reversal": 63
+        },
+        "C": {
+          "direction": -34,
+          "reversal": 59
+        }
+      }
     },
     {
       "ticker": "DOLE",
@@ -290,58 +571,128 @@
       "averaged_direction_score": -29,
       "averaged_reversal_risk": 40,
       "disparity_metric": 10,
-      "pass_agreement": "A/B/C all Lean Down or Neutral",
+      "pass_agreement": "A/B/C Lean Down or Neutral",
       "recommendation": "Lean Down",
       "confidence_level": "Low",
-      "one_sentence_thesis": "Revenue growth has not translated into earnings growth, leaving modest downside risk if Fresh Fruit sourcing and shipping costs keep compressing EBITDA.",
-      "market_expectation_summary": "Management targets at least $400M adjusted EBITDA for 2026 despite higher Q2 shipping, fuel, and fruit-sourcing costs.",
-      "upside_case_summary": "Contract repricing and diversified-produce strength offset Fresh Fruit pressure.",
-      "downside_case_summary": "Fresh Fruit EBITDA deteriorates and the $400M floor loses credibility.",
+      "one_sentence_thesis": "Revenue growth has not translated into earnings growth, leaving downside risk if Fresh Fruit costs keep compressing EBITDA.",
+      "market_expectation_summary": "Management targets at least $400M adjusted EBITDA for 2026 despite higher shipping, fuel, and fruit-sourcing costs.",
+      "what_could_make_stock_go_up": "Contract repricing and diversified produce offset Fresh Fruit pressure.",
+      "what_could_make_stock_go_down": "Fresh Fruit EBITDA deteriorates and the $400M floor loses credibility.",
       "reversal_risk_assessment": "40/100",
-      "social_sentiment_summary": "Public social evidence was sparse or low-signal and was not weighted materially.",
-      "options_or_positioning_summary": "Reliable event options data unavailable; low liquidity limits positioning confidence.",
-      "analyst_revision_summary": "Q1 revenue rose 11.6%, but adjusted EBITDA fell 4.3% and adjusted EPS fell to $0.33.",
-      "base_case": "Revenue growth has not translated into earnings growth, leaving modest downside risk if Fresh Fruit sourcing and shipping costs keep compressing EBITDA.",
-      "bull_case": "Contract repricing and diversified-produce strength offset Fresh Fruit pressure.",
+      "social_sentiment_summary": "No durable public sentiment signal found; not weighted.",
+      "options_or_positioning_summary": "Reliable event options data unavailable; lower liquidity limits positioning confidence.",
+      "analyst_revision_summary": "Q1 revenue grew, but adjusted EBITDA and adjusted EPS declined.",
+      "base_case": "Revenue growth has not translated into earnings growth, leaving downside risk if Fresh Fruit costs keep compressing EBITDA.",
+      "bull_case": "Contract repricing and diversified produce offset Fresh Fruit pressure.",
       "bear_case": "Fresh Fruit EBITDA deteriorates and the $400M floor loses credibility.",
       "final_directional_judgment": "Lean Down",
       "allocation_view_status": "Excluded",
-      "disparity_impact": "Moderate disparity reduced sizing.",
+      "disparity_impact": "Moderate disparity reduced allocation priority.",
       "method_update_note": "Key-metric-first",
       "key_sources": [
         "https://www.doleplc.com/news/company-news/company-news-details/2026/Dole-plc-Reports-First-Quarter-2026-Financial-Results/default.aspx",
         "https://www.doleplc.com/investor-relations/overview/default.aspx"
-      ]
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": -35,
+          "reversal": 36
+        },
+        "B": {
+          "direction": -22,
+          "reversal": 45
+        },
+        "C": {
+          "direction": -30,
+          "reversal": 39
+        }
+      }
     },
     {
       "ticker": "MNDY",
-      "consensus_summary": "Three independent passes averaged to direction -32, reversal risk 58, disparity 14.",
-      "averaged_direction_score": -32,
-      "averaged_reversal_risk": 58,
-      "disparity_metric": 14,
+      "consensus_summary": "Three independent passes averaged to direction -26, reversal risk 69, disparity 6.",
+      "averaged_direction_score": -26,
+      "averaged_reversal_risk": 69,
+      "disparity_metric": 6,
       "pass_agreement": "2 Lean Down / 1 Neutral",
       "recommendation": "Lean Down",
       "confidence_level": "Low",
-      "one_sentence_thesis": "Strong Q1 execution is offset by decelerating Q2 growth and a guidance-sensitive SaaS setup, leaving downside skew unless enterprise adds and Q3 outlook decisively beat.",
-      "market_expectation_summary": "Consensus is about $355.45M revenue and $0.96 EPS; management guided $354-$356M revenue, 18%-19% growth, and 13%-14% non-GAAP margin.",
-      "upside_case_summary": "Large-customer ARR and AI monetization support a clean beat-and-raise.",
-      "downside_case_summary": "Q3 guide confirms deceleration or consumption pricing/FX pressures margins.",
-      "reversal_risk_assessment": "58/100",
-      "social_sentiment_summary": "Public social evidence was sparse or low-signal and was not weighted materially.",
-      "options_or_positioning_summary": "Live implied move unavailable; the stock is heavily de-rated but rose about 6% Friday, preserving sharp relief-squeeze risk.",
-      "analyst_revision_summary": "Q1 revenue grew 24% and operating income hit records, but the Q2 guide implies slower growth; current revision breadth was unavailable.",
-      "base_case": "Strong Q1 execution is offset by decelerating Q2 growth and a guidance-sensitive SaaS setup, leaving downside skew unless enterprise adds and Q3 outlook decisively beat.",
-      "bull_case": "Large-customer ARR and AI monetization support a clean beat-and-raise.",
-      "bear_case": "Q3 guide confirms deceleration or consumption pricing/FX pressures margins.",
+      "one_sentence_thesis": "The Q2 guide embeds deceleration, leaving downside skew unless enterprise ARR and the Q3 outlook deliver a genuine beat-and-raise.",
+      "market_expectation_summary": "Management guided Q2 revenue to $354M-$356M, 18%-19% growth, with 13%-14% non-GAAP margin after raising FY2026 guidance in Q1.",
+      "what_could_make_stock_go_up": "Large-customer ARR and AI monetization trigger a clean beat-and-raise.",
+      "what_could_make_stock_go_down": "Q3 guidance confirms deceleration or FX/consumption pressure margins.",
+      "reversal_risk_assessment": "69/100",
+      "social_sentiment_summary": "Investor discussion is polarized around AI disruption versus low valuation; noisy and lightly weighted.",
+      "options_or_positioning_summary": "Live implied move unavailable; the stock is heavily de-rated but rallied about 6.1% Friday, preserving very high relief-squeeze risk.",
+      "analyst_revision_summary": "Q1 adjusted EPS beat and revenue guidance rose; the bearish call is intentionally shallow because expectations have reset.",
+      "base_case": "The Q2 guide embeds deceleration, leaving downside skew unless enterprise ARR and the Q3 outlook deliver a genuine beat-and-raise.",
+      "bull_case": "Large-customer ARR and AI monetization trigger a clean beat-and-raise.",
+      "bear_case": "Q3 guidance confirms deceleration or FX/consumption pressure margins.",
       "final_directional_judgment": "Lean Down",
       "allocation_view_status": "Excluded",
-      "disparity_impact": "High disparity materially reduced confidence.",
-      "method_update_note": "Forward-look override",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Forward-look override + low-bar caution",
       "key_sources": [
-        "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-to-Announce-Second-Quarter-2026-Financial-Results-on-Monday-August-10-2026/default.aspx",
         "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-Announces-First-Quarter-2026-Results/default.aspx",
-        "https://www.benzinga.com/quote/MNDY/earnings"
-      ]
+        "https://ir.monday.com/news-and-events/news-releases/news-details/2026/monday-com-to-Announce-Second-Quarter-2026-Financial-Results-on-Monday-August-10-2026/default.aspx"
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": -31,
+          "reversal": 66
+        },
+        "B": {
+          "direction": -19,
+          "reversal": 72
+        },
+        "C": {
+          "direction": -27,
+          "reversal": 69
+        }
+      }
+    },
+    {
+      "ticker": "FERG",
+      "consensus_summary": "Three independent passes averaged to direction -25, reversal risk 45, disparity 5.",
+      "averaged_direction_score": -25,
+      "averaged_reversal_risk": 45,
+      "disparity_metric": 5,
+      "pass_agreement": "A/B/C low Lean Down or Neutral",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "A premium multiple and a prior revenue miss create mild downside risk unless organic growth and margin both clear the bar.",
+      "market_expectation_summary": "Q1 sales rose 3.6%, organic growth was 2.8%, and adjusted margin was 8.7%; FY2026 guidance remained low-to-mid-single-digit sales growth and 9.4%-9.8% margin.",
+      "what_could_make_stock_go_up": "Rate relief, nonresidential strength, and buybacks support a beat-and-raise.",
+      "what_could_make_stock_go_down": "Residential softness or weak volume makes price-led growth look low quality.",
+      "reversal_risk_assessment": "45/100",
+      "social_sentiment_summary": "Little company-specific social signal; housing/macro debate was treated as context only.",
+      "options_or_positioning_summary": "At about 26.6x trailing earnings, the stock carries a real expectation bar; live event implied move was unavailable.",
+      "analyst_revision_summary": "A July upgrade and higher price targets show constructive sell-side momentum, limiting bearish conviction.",
+      "base_case": "A premium multiple and a prior revenue miss create mild downside risk unless organic growth and margin both clear the bar.",
+      "bull_case": "Rate relief, nonresidential strength, and buybacks support a beat-and-raise.",
+      "bear_case": "Residential softness or weak volume makes price-led growth look low quality.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_view_status": "Excluded",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://www.corporate.ferguson.com/pressroom/news-releases/news-details/2026/Ferguson-Reports-First-Quarter-Ended-March-31-2026/default.aspx",
+        "https://www.corporate.ferguson.com/investor/events-results-and-reports/Event-Details/2026/Ferguson-Reports-Second-Quarter-Ended-June-30-2026-2026-1acsSmibFL/default.aspx"
+      ],
+      "independent_pass_outputs": {
+        "A": {
+          "direction": -29,
+          "reversal": 42
+        },
+        "B": {
+          "direction": -20,
+          "reversal": 48
+        },
+        "C": {
+          "direction": -26,
+          "reversal": 45
+        }
+      }
     }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
