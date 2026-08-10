@@ -1,0 +1,613 @@
+{
+  "generation_timestamp": "2026-08-10T17:02:01Z",
+  "covered_report_window": "Monday, August 10, 2026 after the U.S. market close through Tuesday, August 11, 2026 before the U.S. market open (America/New_York).",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were mixed near midday; oil was sharply higher and the 10-year Treasury yield remained elevated near recent highs, increasing margin and valuation sensitivity. The next major U.S. macro catalyst is CPI on August 12.",
+  "companies_reviewed_count": 10,
+  "top_setups": {
+    "upward": [
+      "TME",
+      "SPG",
+      "ACM"
+    ],
+    "downward": [
+      "HIMS",
+      "ASTS",
+      "RKLB"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "TME",
+      "company": "Tencent Music",
+      "timing": "Aug 11 BMO 7:00 ET",
+      "direction_call": "Lean Up",
+      "direction_score": 40,
+      "reversal_risk": 34,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Music ARPPU/subscribers",
+      "key_risk_to_call": "China sentiment; social-entertainment drag",
+      "evidence_quality": "High",
+      "pass_agreement": "+44/+36/+40; unanimous Lean Up",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "Subscription monetization remains the cleanest positive KPI if ARPPU and paying users compound.",
+      "market_expectation_summary": "Market focus: Music ARPPU/subscribers. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Music ARPPU/subscribers.",
+      "downside_case_summary": "Downside follows if china sentiment; social-entertainment drag dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://ir.tencentmusic.com/2026-07-14-Tencent-Music-Entertainment-Group-to-Report-Second-Quarter-2026-Financial-Results-on-August-11%2C-2026"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "SPG",
+      "company": "Simon Property Group",
+      "timing": "Aug 10 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 38,
+      "reversal_risk": 28,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Occupancy/real-estate FFO",
+      "key_risk_to_call": "High rates; tenant sales softness",
+      "evidence_quality": "High",
+      "pass_agreement": "+38/+42/+34; unanimous Lean Up",
+      "method_update_note": "Forward-look check",
+      "one_sentence_thesis": "Raised Real Estate FFO guidance and dividend support a positive setup if occupancy and NOI remain firm.",
+      "market_expectation_summary": "Market focus: Occupancy/real-estate FFO. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Occupancy/real-estate FFO.",
+      "downside_case_summary": "Downside follows if high rates; tenant sales softness dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://investors.simon.com/news-releases/news-release-details/simonr-reports-first-quarter-2026-results-increases-full-year"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "ACM",
+      "company": "AECOM",
+      "timing": "Aug 10 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 32,
+      "reversal_risk": 35,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Design book-to-burn/backlog",
+      "key_risk_to_call": "Guide already raised twice",
+      "evidence_quality": "High",
+      "pass_agreement": "+35/+29/+32; unanimous Lean Up",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Record backlog and a 1.2 design book-to-burn favor another constructive print, though the raised bar limits upside.",
+      "market_expectation_summary": "Market focus: Design book-to-burn/backlog. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Design book-to-burn/backlog.",
+      "downside_case_summary": "Downside follows if guide already raised twice dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://investors.aecom.com/news-releases/news-release-details/aecom-reports-second-quarter-fiscal-2026-results"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "ASTS",
+      "company": "AST SpaceMobile",
+      "timing": "Aug 10 AMC",
+      "direction_call": "Lean Down",
+      "direction_score": -31,
+      "reversal_risk": 72,
+      "disparity": 14,
+      "confidence": "Low",
+      "expected_driver": "Deployment/service timeline",
+      "key_risk_to_call": "Launch progress; squeeze potential",
+      "evidence_quality": "Medium-High",
+      "pass_agreement": "-38/-24/-31; one Neutral",
+      "method_update_note": "Expectation/forward penalty",
+      "one_sentence_thesis": "Valuation makes deployment timing decisive; fresh launch progress can overwhelm weak earnings and reverse the bearish lean.",
+      "market_expectation_summary": "Market focus: Deployment/service timeline. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Deployment/service timeline.",
+      "downside_case_summary": "Downside follows if launch progress; squeeze potential dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://investors.ast-science.com/"
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "HIMS",
+      "company": "Hims & Hers",
+      "timing": "Aug 10 AMC",
+      "direction_call": "Lean Down",
+      "direction_score": -42,
+      "reversal_risk": 55,
+      "disparity": 12,
+      "confidence": "Medium",
+      "expected_driver": "Gross margin/EBITDA guide",
+      "key_risk_to_call": "Low bar; revenue upside",
+      "evidence_quality": "High",
+      "pass_agreement": "-48/-36/-42; unanimous Lean Down",
+      "method_update_note": "Forward-look override",
+      "one_sentence_thesis": "Q1 gross-margin and EBITDA compression make margin quality the key risk despite a revenue bar above company Q2 guidance.",
+      "market_expectation_summary": "Market focus: Gross margin/EBITDA guide. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Gross margin/EBITDA guide.",
+      "downside_case_summary": "Downside follows if low bar; revenue upside dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-First-Quarter-2026-Financial-Results/default.aspx"
+      ]
+    },
+    {
+      "rank": 6,
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "timing": "Aug 10 AMC",
+      "direction_call": "Lean Down",
+      "direction_score": -25,
+      "reversal_risk": 68,
+      "disparity": 14,
+      "confidence": "Low",
+      "expected_driver": "Neutron timing/backlog",
+      "key_risk_to_call": "Record backlog; contract upside",
+      "evidence_quality": "High",
+      "pass_agreement": "-32/-18/-26; one Neutral",
+      "method_update_note": "Expectation/forward penalty",
+      "one_sentence_thesis": "Strong backlog is offset by a demanding valuation and acute sensitivity to Neutron timing and acquisition financing.",
+      "market_expectation_summary": "Market focus: Neutron timing/backlog. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Neutron timing/backlog.",
+      "downside_case_summary": "Downside follows if record backlog; contract upside dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-first-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "rank": 7,
+      "ticker": "ONON",
+      "company": "On Holding",
+      "timing": "Aug 11 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 28,
+      "reversal_risk": 50,
+      "disparity": 12,
+      "confidence": "Low",
+      "expected_driver": "Constant-currency sales/gross margin",
+      "key_risk_to_call": "FX and premium expectations",
+      "evidence_quality": "High",
+      "pass_agreement": "+34/+22/+28; one Neutral",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "Premium demand supports upside, but the market needs broad-based sales growth and margin protection, not just a headline beat.",
+      "market_expectation_summary": "Market focus: Constant-currency sales/gross margin. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Constant-currency sales/gross margin.",
+      "downside_case_summary": "Downside follows if fx and premium expectations dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://investors.on-running.com/news/news-details/2026/On-to-Release-Second-Quarter-2026-Results-on-Tuesday-August-11-2026/default.aspx"
+      ]
+    },
+    {
+      "rank": 8,
+      "ticker": "CAH",
+      "company": "Cardinal Health",
+      "timing": "Aug 11 BMO 8:30 ET",
+      "direction_call": "Lean Up",
+      "direction_score": 27,
+      "reversal_risk": 38,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "FY27 EPS/segment profit outlook",
+      "key_risk_to_call": "15-beat streak raises bar",
+      "evidence_quality": "High",
+      "pass_agreement": "+30/+24/+27; one Neutral",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "Strong segment profit and repeated raises favor upside, but the streak of beats and a 31.9x trailing multiple elevate the hurdle.",
+      "market_expectation_summary": "Market focus: FY27 EPS/segment profit outlook. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in FY27 EPS/segment profit outlook.",
+      "downside_case_summary": "Downside follows if 15-beat streak raises bar dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://newsroom.cardinalhealth.com/2026-04-30-Cardinal-Health-Reports-Third-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook"
+      ]
+    },
+    {
+      "rank": 9,
+      "ticker": "TDG",
+      "company": "TransDigm",
+      "timing": "Aug 11 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 25,
+      "reversal_risk": 45,
+      "disparity": 10,
+      "confidence": "Low",
+      "expected_driver": "Organic growth/EBITDA margin",
+      "key_risk_to_call": "Premium valuation; interest cost",
+      "evidence_quality": "High",
+      "pass_agreement": "+20/+30/+25; one Neutral",
+      "method_update_note": "Forward-look check",
+      "one_sentence_thesis": "Aftermarket strength can support another beat, but valuation and acquisition-related interest expense constrain the edge.",
+      "market_expectation_summary": "Market focus: Organic growth/EBITDA margin. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Organic growth/EBITDA margin.",
+      "downside_case_summary": "Downside follows if premium valuation; interest cost dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://transdigmgroupinc.gcs-web.com/news-releases/news-release-details/transdigm-group-reports-fiscal-2026-second-quarter-results"
+      ]
+    },
+    {
+      "rank": 10,
+      "ticker": "SE",
+      "company": "Sea Limited",
+      "timing": "Aug 11 BMO",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 24,
+      "reversal_risk": 52,
+      "disparity": 14,
+      "confidence": "Low",
+      "expected_driver": "Shopee GMV/credit quality",
+      "key_risk_to_call": "Low bar versus 46.6% Q1 growth",
+      "evidence_quality": "High",
+      "pass_agreement": "+18/+32/+24; mixed Neutral/Lean Up",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Rapid growth is real, but e-commerce investment and fintech credit quality create too much two-way risk for a directional edge.",
+      "market_expectation_summary": "Market focus: Shopee GMV/credit quality. Published headline estimates were used only as context where available.",
+      "upside_case_summary": "Upside requires a clear positive surprise in Shopee GMV/credit quality.",
+      "downside_case_summary": "Downside follows if low bar versus 46.6% q1 growth dominates.",
+      "options_or_positioning_summary": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_summary": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1703399/000119312526219378/d78490dex991.htm"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "TME",
+        "direction": "Lean Up",
+        "share_percent": 38,
+        "why": "Highest score, low disparity, reversal risk 34."
+      },
+      {
+        "ticker": "SPG",
+        "direction": "Lean Up",
+        "share_percent": 37,
+        "why": "Low reversal risk 28 and high-quality primary evidence."
+      },
+      {
+        "ticker": "ACM",
+        "direction": "Lean Up",
+        "share_percent": 25,
+        "why": "Score 32, lowest disparity, record backlog evidence."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "ASTS",
+        "reason": "Score -31, reversal risk 72, confidence Low."
+      },
+      {
+        "ticker": "HIMS",
+        "reason": "Score -42, reversal risk 55, confidence Medium."
+      },
+      {
+        "ticker": "RKLB",
+        "reason": "Score -25, reversal risk 68, confidence Low."
+      },
+      {
+        "ticker": "ONON",
+        "reason": "Score 28, reversal risk 50, confidence Low."
+      },
+      {
+        "ticker": "CAH",
+        "reason": "Score 27, reversal risk 38, confidence Medium."
+      },
+      {
+        "ticker": "TDG",
+        "reason": "Score 25, reversal risk 45, confidence Low."
+      },
+      {
+        "ticker": "SE",
+        "reason": "Score 24, reversal risk 52, confidence Low."
+      }
+    ],
+    "unallocated_percent": 0,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method": {
+    "disparity_definition": "0-100 normalized spread of the three independent direction scores; lower means tighter agreement.",
+    "strongest_names_disparity": "Low for TME, SPG and ACM; moderate for the speculative space and consumer-growth names.",
+    "lessons_review": "Repeated expectation-bar, key-metric, forward-look and reversal-risk lessons were applied narrowly; no framework-wide change."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "TME",
+      "consensus_summary": "+44/+36/+40; unanimous Lean Up",
+      "averaged_direction_score": 40,
+      "averaged_reversal_risk": 34,
+      "disparity": 8,
+      "pass_agreement": "+44/+36/+40; unanimous Lean Up",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Subscription monetization remains the cleanest positive KPI if ARPPU and paying users compound.",
+      "what_market_expects": "Market focus: Music ARPPU/subscribers. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Music ARPPU/subscribers.",
+      "what_could_make_stock_go_down": "Downside follows if china sentiment; social-entertainment drag dominates.",
+      "reversal_risk_assessment": "34/100; China sentiment; social-entertainment drag.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Subscription monetization remains the cleanest positive KPI if ARPPU and paying users compound.",
+      "bull_case": "Upside requires a clear positive surprise in Music ARPPU/subscribers.",
+      "bear_case": "Downside follows if china sentiment; social-entertainment drag dominates.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_judgment": "Qualified: score above 30, reversal risk at or below 40, and sufficient evidence.",
+      "disparity_effect": "Low disparity supported conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://ir.tencentmusic.com/2026-07-14-Tencent-Music-Entertainment-Group-to-Report-Second-Quarter-2026-Financial-Results-on-August-11%2C-2026"
+      ]
+    },
+    {
+      "ticker": "SPG",
+      "consensus_summary": "+38/+42/+34; unanimous Lean Up",
+      "averaged_direction_score": 38,
+      "averaged_reversal_risk": 28,
+      "disparity": 8,
+      "pass_agreement": "+38/+42/+34; unanimous Lean Up",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Raised Real Estate FFO guidance and dividend support a positive setup if occupancy and NOI remain firm.",
+      "what_market_expects": "Market focus: Occupancy/real-estate FFO. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Occupancy/real-estate FFO.",
+      "what_could_make_stock_go_down": "Downside follows if high rates; tenant sales softness dominates.",
+      "reversal_risk_assessment": "28/100; High rates; tenant sales softness.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Raised Real Estate FFO guidance and dividend support a positive setup if occupancy and NOI remain firm.",
+      "bull_case": "Upside requires a clear positive surprise in Occupancy/real-estate FFO.",
+      "bear_case": "Downside follows if high rates; tenant sales softness dominates.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_judgment": "Qualified: score above 30, reversal risk at or below 40, and sufficient evidence.",
+      "disparity_effect": "Low disparity supported conviction.",
+      "method_update_note": "Forward-look check",
+      "key_sources": [
+        "https://investors.simon.com/news-releases/news-release-details/simonr-reports-first-quarter-2026-results-increases-full-year"
+      ]
+    },
+    {
+      "ticker": "ACM",
+      "consensus_summary": "+35/+29/+32; unanimous Lean Up",
+      "averaged_direction_score": 32,
+      "averaged_reversal_risk": 35,
+      "disparity": 6,
+      "pass_agreement": "+35/+29/+32; unanimous Lean Up",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Record backlog and a 1.2 design book-to-burn favor another constructive print, though the raised bar limits upside.",
+      "what_market_expects": "Market focus: Design book-to-burn/backlog. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Design book-to-burn/backlog.",
+      "what_could_make_stock_go_down": "Downside follows if guide already raised twice dominates.",
+      "reversal_risk_assessment": "35/100; Guide already raised twice.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Record backlog and a 1.2 design book-to-burn favor another constructive print, though the raised bar limits upside.",
+      "bull_case": "Upside requires a clear positive surprise in Design book-to-burn/backlog.",
+      "bear_case": "Downside follows if guide already raised twice dominates.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_judgment": "Qualified: score above 30, reversal risk at or below 40, and sufficient evidence.",
+      "disparity_effect": "Low disparity supported conviction.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://investors.aecom.com/news-releases/news-release-details/aecom-reports-second-quarter-fiscal-2026-results"
+      ]
+    },
+    {
+      "ticker": "ASTS",
+      "consensus_summary": "-38/-24/-31; one Neutral",
+      "averaged_direction_score": -31,
+      "averaged_reversal_risk": 72,
+      "disparity": 14,
+      "pass_agreement": "-38/-24/-31; one Neutral",
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "one_sentence_thesis": "Valuation makes deployment timing decisive; fresh launch progress can overwhelm weak earnings and reverse the bearish lean.",
+      "what_market_expects": "Market focus: Deployment/service timeline. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Deployment/service timeline.",
+      "what_could_make_stock_go_down": "Downside follows if launch progress; squeeze potential dominates.",
+      "reversal_risk_assessment": "72/100; Launch progress; squeeze potential.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Valuation makes deployment timing decisive; fresh launch progress can overwhelm weak earnings and reverse the bearish lean.",
+      "bull_case": "Upside requires a clear positive surprise in Deployment/service timeline.",
+      "bear_case": "Downside follows if launch progress; squeeze potential dominates.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Expectation/forward penalty",
+      "key_sources": [
+        "https://investors.ast-science.com/"
+      ]
+    },
+    {
+      "ticker": "HIMS",
+      "consensus_summary": "-48/-36/-42; unanimous Lean Down",
+      "averaged_direction_score": -42,
+      "averaged_reversal_risk": 55,
+      "disparity": 12,
+      "pass_agreement": "-48/-36/-42; unanimous Lean Down",
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Q1 gross-margin and EBITDA compression make margin quality the key risk despite a revenue bar above company Q2 guidance.",
+      "what_market_expects": "Market focus: Gross margin/EBITDA guide. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Gross margin/EBITDA guide.",
+      "what_could_make_stock_go_down": "Downside follows if low bar; revenue upside dominates.",
+      "reversal_risk_assessment": "55/100; Low bar; revenue upside.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Q1 gross-margin and EBITDA compression make margin quality the key risk despite a revenue bar above company Q2 guidance.",
+      "bull_case": "Upside requires a clear positive surprise in Gross margin/EBITDA guide.",
+      "bear_case": "Downside follows if low bar; revenue upside dominates.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Forward-look override",
+      "key_sources": [
+        "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-First-Quarter-2026-Financial-Results/default.aspx"
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "consensus_summary": "-32/-18/-26; one Neutral",
+      "averaged_direction_score": -25,
+      "averaged_reversal_risk": 68,
+      "disparity": 14,
+      "pass_agreement": "-32/-18/-26; one Neutral",
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "one_sentence_thesis": "Strong backlog is offset by a demanding valuation and acute sensitivity to Neutron timing and acquisition financing.",
+      "what_market_expects": "Market focus: Neutron timing/backlog. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Neutron timing/backlog.",
+      "what_could_make_stock_go_down": "Downside follows if record backlog; contract upside dominates.",
+      "reversal_risk_assessment": "68/100; Record backlog; contract upside.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Strong backlog is offset by a demanding valuation and acute sensitivity to Neutron timing and acquisition financing.",
+      "bull_case": "Upside requires a clear positive surprise in Neutron timing/backlog.",
+      "bear_case": "Downside follows if record backlog; contract upside dominates.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Expectation/forward penalty",
+      "key_sources": [
+        "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-first-quarter-2026-financial-results"
+      ]
+    },
+    {
+      "ticker": "ONON",
+      "consensus_summary": "+34/+22/+28; one Neutral",
+      "averaged_direction_score": 28,
+      "averaged_reversal_risk": 50,
+      "disparity": 12,
+      "pass_agreement": "+34/+22/+28; one Neutral",
+      "recommendation": "Lean Up",
+      "confidence": "Low",
+      "one_sentence_thesis": "Premium demand supports upside, but the market needs broad-based sales growth and margin protection, not just a headline beat.",
+      "what_market_expects": "Market focus: Constant-currency sales/gross margin. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Constant-currency sales/gross margin.",
+      "what_could_make_stock_go_down": "Downside follows if fx and premium expectations dominates.",
+      "reversal_risk_assessment": "50/100; FX and premium expectations.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Premium demand supports upside, but the market needs broad-based sales growth and margin protection, not just a headline beat.",
+      "bull_case": "Upside requires a clear positive surprise in Constant-currency sales/gross margin.",
+      "bear_case": "Downside follows if fx and premium expectations dominates.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://investors.on-running.com/news/news-details/2026/On-to-Release-Second-Quarter-2026-Results-on-Tuesday-August-11-2026/default.aspx"
+      ]
+    },
+    {
+      "ticker": "CAH",
+      "consensus_summary": "+30/+24/+27; one Neutral",
+      "averaged_direction_score": 27,
+      "averaged_reversal_risk": 38,
+      "disparity": 6,
+      "pass_agreement": "+30/+24/+27; one Neutral",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Strong segment profit and repeated raises favor upside, but the streak of beats and a 31.9x trailing multiple elevate the hurdle.",
+      "what_market_expects": "Market focus: FY27 EPS/segment profit outlook. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in FY27 EPS/segment profit outlook.",
+      "what_could_make_stock_go_down": "Downside follows if 15-beat streak raises bar dominates.",
+      "reversal_risk_assessment": "38/100; 15-beat streak raises bar.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Strong segment profit and repeated raises favor upside, but the streak of beats and a 31.9x trailing multiple elevate the hurdle.",
+      "bull_case": "Upside requires a clear positive surprise in FY27 EPS/segment profit outlook.",
+      "bear_case": "Downside follows if 15-beat streak raises bar dominates.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Low disparity supported conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://newsroom.cardinalhealth.com/2026-04-30-Cardinal-Health-Reports-Third-Quarter-Fiscal-Year-2026-Results-and-Raises-Outlook"
+      ]
+    },
+    {
+      "ticker": "TDG",
+      "consensus_summary": "+20/+30/+25; one Neutral",
+      "averaged_direction_score": 25,
+      "averaged_reversal_risk": 45,
+      "disparity": 10,
+      "pass_agreement": "+20/+30/+25; one Neutral",
+      "recommendation": "Lean Up",
+      "confidence": "Low",
+      "one_sentence_thesis": "Aftermarket strength can support another beat, but valuation and acquisition-related interest expense constrain the edge.",
+      "what_market_expects": "Market focus: Organic growth/EBITDA margin. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Organic growth/EBITDA margin.",
+      "what_could_make_stock_go_down": "Downside follows if premium valuation; interest cost dominates.",
+      "reversal_risk_assessment": "45/100; Premium valuation; interest cost.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Aftermarket strength can support another beat, but valuation and acquisition-related interest expense constrain the edge.",
+      "bull_case": "Upside requires a clear positive surprise in Organic growth/EBITDA margin.",
+      "bear_case": "Downside follows if premium valuation; interest cost dominates.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Forward-look check",
+      "key_sources": [
+        "https://transdigmgroupinc.gcs-web.com/news-releases/news-release-details/transdigm-group-reports-fiscal-2026-second-quarter-results"
+      ]
+    },
+    {
+      "ticker": "SE",
+      "consensus_summary": "+18/+32/+24; mixed Neutral/Lean Up",
+      "averaged_direction_score": 24,
+      "averaged_reversal_risk": 52,
+      "disparity": 14,
+      "pass_agreement": "+18/+32/+24; mixed Neutral/Lean Up",
+      "recommendation": "Neutral / No Edge",
+      "confidence": "Low",
+      "one_sentence_thesis": "Rapid growth is real, but e-commerce investment and fintech credit quality create too much two-way risk for a directional edge.",
+      "what_market_expects": "Market focus: Shopee GMV/credit quality. Published headline estimates were used only as context where available.",
+      "what_could_make_stock_go_up": "Upside requires a clear positive surprise in Shopee GMV/credit quality.",
+      "what_could_make_stock_go_down": "Downside follows if low bar versus 46.6% q1 growth dominates.",
+      "reversal_risk_assessment": "52/100; Low bar versus 46.6% Q1 growth.",
+      "social_sentiment_read": "No robust 7/14/30-day dataset was available; retail chatter was treated as noisy supporting context only.",
+      "options_positioning_read": "No dependable live event-straddle estimate was available; valuation, recent price and crowding were used qualitatively.",
+      "analyst_revision_read": "Current revisions were incomplete in public sources; confidence was reduced rather than inferred.",
+      "base_case": "Rapid growth is real, but e-commerce investment and fintech credit quality create too much two-way risk for a directional edge.",
+      "bull_case": "Upside requires a clear positive surprise in Shopee GMV/credit quality.",
+      "bear_case": "Downside follows if low bar versus 46.6% q1 growth dominates.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "allocation_judgment": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1703399/000119312526219378/d78490dex991.htm"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
