@@ -1,8 +1,8 @@
 {
-  "generation_timestamp": "2026-08-11T17:02:01Z",
+  "generation_timestamp": "2026-08-11T17:10:16Z",
   "covered_report_window": "Tuesday, August 11, 2026 after the U.S. market close through Wednesday, August 12, 2026 before the U.S. market open (America/New_York).",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "S&P 500 near its record; Brent swung above $90 before easing below $87; 10-year Treasury yield near 4.69%; July CPI is due before Wednesday's open, increasing factor risk.",
+  "market_context_summary": "U.S. equities were hovering near records while Brent crude swung above $90 before easing below $87; July CPI is scheduled for 8:30 a.m. ET on August 12, adding macro and factor risk to the pre-market window.",
   "companies_reviewed_count": 10,
   "top_setups": {
     "upward": [
