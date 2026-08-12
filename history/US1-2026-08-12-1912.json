@@ -1,0 +1,407 @@
+{
+  "generation_timestamp": "2026-08-12T19:12:00+02:00",
+  "covered_report_window": {
+    "after_close": "2026-08-12 after 16:00 ET",
+    "before_open": "2026-08-13 before 09:30 ET",
+    "next_session_is_regular_trading_day": true
+  },
+  "report_type": "US1_full_ranked_earnings_event_report",
+  "market_context_summary": "July CPI was in line at 0.1% month over month and 3.4% year over year; PPI is due before the August 13 open. AI hardware sympathy strength after Super Micro's outlook has raised the bar for AI-linked reporters.",
+  "companies_reviewed_count": 10,
+  "methodology": {
+    "independent_passes": 3,
+    "disparity_formula": "Average of direction-score range scaled to 0-100 and reversal-risk range; lower is tighter agreement.",
+    "learned_lessons_method_change": false
+  },
+  "top_setups": {
+    "upward": [
+      "TPR",
+      "PAAS",
+      "ENS"
+    ],
+    "downward": [
+      "CBRS",
+      "JD",
+      "COHR"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "TPR",
+      "company": "Tapestry",
+      "timing": "2026-08-13 before open",
+      "direction_call": "Lean Up",
+      "direction_score": 45,
+      "reversal_risk": 38,
+      "disparity": 7,
+      "confidence": "Medium",
+      "expected_driver": "Coach growth and FY2027 guide",
+      "key_risk_to_call": "46x trailing P/E; high growth bar",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Coach momentum and operating leverage favor another constructive print, though valuation requires credible FY2027 durability.",
+      "market_expectation_summary": "Consensus EPS is about $1.27; management embedded low-double-digit pro forma Q4 growth and roughly $1.20 EPS.",
+      "upside_case_summary": "Coach sustains low-teens growth, margin expands, and FY2027 starts above cautious expectations.",
+      "downside_case_summary": "Coach decelerates or the new-year margin guide fails to justify a premium multiple.",
+      "options_or_positioning_summary": "Shares fell about 4.4% intraday before the report, modestly reducing the immediate bar.",
+      "analyst_revision_summary": "Management raised FY2026 revenue, margin, EPS, and cash-flow outlook after Q3.",
+      "key_sources": [
+        "https://tapestry.gcs-web.com/news-releases/news-release-details/tapestry-inc-reports-fiscal-2026-third-quarter-results-and",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "PAAS",
+      "company": "Pan American Silver",
+      "timing": "2026-08-12 after close",
+      "direction_call": "Lean Up",
+      "direction_score": 43,
+      "reversal_risk": 35,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Silver output and AISC",
+      "key_risk_to_call": "High 11.5% implied move",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Strong metals pricing and a second-half production ramp support upside if Q2 costs remain within guidance.",
+      "market_expectation_summary": "Published EPS estimates cluster around $0.88-$1.00; company guidance calls for 25-27Moz silver and $15.75-$18.25 silver AISC in 2026.",
+      "upside_case_summary": "Production holds the Q2 range, AISC is controlled, and cash returns rise.",
+      "downside_case_summary": "AISC or mine execution disappoints and an already-large implied move absorbs the beat.",
+      "options_or_positioning_summary": "Options indicated roughly an 11.5% weekly move in late July.",
+      "analyst_revision_summary": "At least one analyst reduced Q2 EPS estimates in July, lowering part of the bar.",
+      "key_sources": [
+        "https://panamericansilver.com/wp-content/uploads/2026/03/Q1-2026-Conference-Call-Slides_vF2.pdf",
+        "https://www.optionslam.com/earnings/weekly/PAAS"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "ENS",
+      "company": "EnerSys",
+      "timing": "2026-08-12 after close",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 33,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Ex-45X EPS and margin",
+      "key_risk_to_call": "Industrial demand softness",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "A reasonable valuation and $2.80-$2.90 adjusted EPS guide leave room for upside if underlying margins, not tax credits, carry the quarter.",
+      "market_expectation_summary": "Calendar consensus is about $2.83, near management's $2.80-$2.90 outlook.",
+      "upside_case_summary": "Energy Systems growth and price/cost execution lift ex-credit earnings quality.",
+      "downside_case_summary": "Motive Power demand weakens or 45X benefits mask softer operations.",
+      "options_or_positioning_summary": "Options signal unavailable from a sufficiently reliable public source.",
+      "analyst_revision_summary": "The corrected company outlook centers at $2.85 adjusted EPS.",
+      "key_sources": [
+        "https://investor.enersys.com/news/news-details/2026/EnerSys-Announces-Date-of-First-Quarter-Fiscal-2027-Financial-Results-Release-and-Conference-Call/default.aspx",
+        "https://investor.enersys.com/financials/quarterly-results/default.aspx"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "CBRS",
+      "company": "Cerebras Systems",
+      "timing": "2026-08-12 after close",
+      "direction_call": "Lean Down",
+      "direction_score": -50,
+      "reversal_risk": 69,
+      "disparity": 10,
+      "confidence": "Low",
+      "expected_driver": "Q3/FY gross margin",
+      "key_risk_to_call": "AI squeeze; huge backlog",
+      "evidence_quality": "Medium",
+      "pass_agreement": "All Down; magnitude varied",
+      "method_update_note": "Standing premium-growth penalty",
+      "one_sentence_thesis": "The stock's 10% same-day rally and margin-sensitive setup demand a clean guide that may be harder to deliver than a revenue beat.",
+      "market_expectation_summary": "Q2 revenue is about $194 million, near company guidance, while the key debate is 36%-38% Q2 and 38%-41% FY core gross margin.",
+      "upside_case_summary": "OpenAI/AWS backlog conversion and a better gross-margin path trigger a squeeze.",
+      "downside_case_summary": "Margins remain compressed, revenue growth decelerates, or capacity costs rise.",
+      "options_or_positioning_summary": "Shares were up about 10% intraday on AI-hardware sympathy, increasing sell-the-news risk.",
+      "analyst_revision_summary": "Evidence is thin because this is only the second public-company earnings event.",
+      "key_sources": [
+        "https://investors.cerebras.ai/news-releases/news-release-details/cerebras-systems-announces-strong-first-quarter-2026-results",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/cerebras-files-for-ipo-company-remains-unprofitable-despite-20x-revenue-growth"
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "JD",
+      "company": "JD.com",
+      "timing": "2026-08-13 before open",
+      "direction_call": "Lean Down",
+      "direction_score": -40,
+      "reversal_risk": 49,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Food Delivery loss narrowing",
+      "key_risk_to_call": "Low valuation relief rally",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Down",
+      "method_update_note": "Standing low-bar reversal floor",
+      "one_sentence_thesis": "Core retail is steady, but food-delivery investment and marketing intensity can keep consolidated profit below what a revenue beat alone implies.",
+      "market_expectation_summary": "Analysts expect about $52.8 billion revenue and $0.76-$0.83 ADR EPS.",
+      "upside_case_summary": "Retail margin holds and New Businesses losses narrow faster than expected.",
+      "downside_case_summary": "Delivery subsidies and marketing spend overwhelm core retail growth.",
+      "options_or_positioning_summary": "The ADR fell about 1.9% intraday and trades at a compressed valuation, raising relief risk.",
+      "analyst_revision_summary": "EPS estimate sources differ, which reduces precision around the headline bar.",
+      "key_sources": [
+        "https://ir.jd.com/node/12206",
+        "https://www.benzinga.com/quote/JD/earnings"
+      ]
+    },
+    {
+      "rank": 6,
+      "ticker": "LUNR",
+      "company": "Intuitive Machines",
+      "timing": "2026-08-13 before open",
+      "direction_call": "Lean Up",
+      "direction_score": 36,
+      "reversal_risk": 63,
+      "disparity": 7,
+      "confidence": "Low",
+      "expected_driver": "Backlog-to-revenue conversion",
+      "key_risk_to_call": "Cash burn and execution",
+      "evidence_quality": "Medium",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "Standing narrative-risk floor",
+      "one_sentence_thesis": "Record backlog and positive adjusted EBITDA create upside potential, but a 19% implied move and execution history make the call fragile.",
+      "market_expectation_summary": "Consensus is roughly $216 million revenue and a $0.07-$0.09 loss; FY revenue guidance is $900 million-$1 billion.",
+      "upside_case_summary": "Backlog exceeds $1.1 billion, guidance is reaffirmed, and integration lifts margin.",
+      "downside_case_summary": "Revenue timing slips, cash use rises, or mission schedules move out.",
+      "options_or_positioning_summary": "Public options data indicated about a 19.3% weekly implied move.",
+      "analyst_revision_summary": "Quarterly consensus remains noisy after the Lanteris acquisition.",
+      "key_sources": [
+        "https://investors.intuitivemachines.com/news-releases/news-release-details/intuitive-machines-reports-first-quarter-2026-financial-results",
+        "https://www.optionslam.com/earnings/stocks/LUNR"
+      ]
+    },
+    {
+      "rank": 7,
+      "ticker": "COHR",
+      "company": "Coherent",
+      "timing": "2026-08-12 after close",
+      "direction_call": "Lean Down",
+      "direction_score": -33,
+      "reversal_risk": 62,
+      "disparity": 6,
+      "confidence": "Low",
+      "expected_driver": "Datacenter growth and gross margin",
+      "key_risk_to_call": "AI demand beats the high bar",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Down",
+      "method_update_note": "Standing priced-in penalty",
+      "one_sentence_thesis": "Fundamentals are strong, but a near-9% pre-earnings surge and extreme trailing multiple create asymmetric sell-the-news risk.",
+      "market_expectation_summary": "Company guided to $1.91-$2.05 billion revenue and $1.52-$1.72 non-GAAP EPS; calendar EPS consensus is about $1.62.",
+      "upside_case_summary": "Datacenter revenue, EML/OCS ramps, and gross margin exceed the already-raised bar.",
+      "downside_case_summary": "Industrial weakness or merely in-line guidance fails to validate the price move.",
+      "options_or_positioning_summary": "Shares rose about 8.9% intraday before reporting.",
+      "analyst_revision_summary": "The guide already crosses the psychologically important $2 billion revenue midpoint.",
+      "key_sources": [
+        "https://www.coherent.com/news/press-releases/third-quarter-fiscal-year-2026-results",
+        "https://www.coherent.com/news/press-releases/fy2026-fourth-quarter-fy2026-conference-call-announced"
+      ]
+    },
+    {
+      "rank": 8,
+      "ticker": "YETI",
+      "company": "YETI Holdings",
+      "timing": "2026-08-13 before open",
+      "direction_call": "Lean Up",
+      "direction_score": 32,
+      "reversal_risk": 39,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Tariff-adjusted gross margin",
+      "key_risk_to_call": "DTC/corporate-sales mix",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Broad demand and a raised outlook support upside if tariff costs stop eroding margin faster than sales grow.",
+      "market_expectation_summary": "Consensus is about $0.54 EPS and $483 million revenue; FY sales growth guide is 7%-8% with 14.6% adjusted operating margin.",
+      "upside_case_summary": "Wholesale strength persists and tariff mitigation preserves the raised margin guide.",
+      "downside_case_summary": "DTC mix, corporate sales, or tariffs drive another gross-margin contraction.",
+      "options_or_positioning_summary": "A public expected-move estimate was about 9.6% in late July.",
+      "analyst_revision_summary": "Q1 beat and raised FY EPS outlook support the bar, but also reduce surprise room.",
+      "key_sources": [
+        "https://investors.yeti.com/news/news-details/2026/YETI-Reports-First-Quarter-2026-Results/default.aspx",
+        "https://www.investing.com/equities/yeti-holdings-earnings"
+      ]
+    },
+    {
+      "rank": 9,
+      "ticker": "BIRK",
+      "company": "Birkenstock Holding",
+      "timing": "2026-08-13 before open",
+      "direction_call": "Lean Down",
+      "direction_score": -30,
+      "reversal_risk": 51,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Gross-margin recovery",
+      "key_risk_to_call": "Low bar after share decline",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Down",
+      "method_update_note": "Standing low-bar reversal floor",
+      "one_sentence_thesis": "Demand is resilient, but tariffs, FX, and channel mix need to reverse a 310-basis-point gross-margin decline.",
+      "market_expectation_summary": "Consensus EPS is around $0.76-$0.86; FY constant-currency revenue growth target remains 13%-15%.",
+      "upside_case_summary": "Price actions and absorption restore margin while constant-currency growth stays above 13%.",
+      "downside_case_summary": "Another margin miss or weaker U.S. demand forces a guidance reset.",
+      "options_or_positioning_summary": "Shares fell about 3.1% intraday, increasing relief-rally risk.",
+      "analyst_revision_summary": "A recent target cut and prior-quarter EPS/revenue misses indicate a reset bar.",
+      "key_sources": [
+        "https://www.birkenstock-holding.com/news/birkenstock-reports-fiscal-second-quarter-2026-results-with-revenue-growth-of-14percent-in-constant-fx/8b30800a-390b-4ce1-851f-7f3645a804d5",
+        "https://www.eqs-news.com/news/corporate/birkenstock-announces-fiscal-third-quarter-ended-june-30-2026-results-date-and-conference-call-scheduled-for-august-13-2026/7b229c41-6a9f-44ee-b546-9344a0207844_en"
+      ]
+    },
+    {
+      "rank": 10,
+      "ticker": "CSCO",
+      "company": "Cisco Systems",
+      "timing": "2026-08-12 after close",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -3,
+      "reversal_risk": 46,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "AI/networking product orders",
+      "key_risk_to_call": "Orders vs 41x trailing P/E",
+      "evidence_quality": "High",
+      "pass_agreement": "Mixed: one Up, two slight Down",
+      "method_update_note": "Standing premium-growth penalty",
+      "one_sentence_thesis": "AI orders should be strong, but component-cost pressure and a demanding valuation leave no clean directional edge.",
+      "market_expectation_summary": "Consensus is $1.17 EPS on $16.83 billion revenue, essentially the midpoint of company guidance.",
+      "upside_case_summary": "Networking orders and FY2027 guidance validate AI infrastructure acceleration.",
+      "downside_case_summary": "Gross margin stays near 66% and guidance fails to clear elevated expectations.",
+      "options_or_positioning_summary": "Shares were up about 1.9% intraday and recently broke above a long-term high.",
+      "analyst_revision_summary": "UBS sees modest EPS upside to $1.19 but flags component costs.",
+      "key_sources": [
+        "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "not_financial_advice": true,
+    "qualified_names": [
+      {
+        "ticker": "TPR",
+        "direction": "Lean Up",
+        "weight_percent": 30
+      },
+      {
+        "ticker": "PAAS",
+        "direction": "Lean Up",
+        "weight_percent": 29
+      },
+      {
+        "ticker": "ENS",
+        "direction": "Lean Up",
+        "weight_percent": 25
+      },
+      {
+        "ticker": "YETI",
+        "direction": "Lean Up",
+        "weight_percent": 16
+      }
+    ],
+    "excluded_for_reversal_risk": [
+      "CBRS",
+      "JD",
+      "LUNR",
+      "COHR",
+      "BIRK",
+      "CSCO"
+    ],
+    "unallocated_percent": 0
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "TPR",
+      "consensus": "All three passes leaned up; average score 45, reversal risk 38, disparity 7.",
+      "base_case": "Coach growth and margin support a modest beat.",
+      "bull_case": "FY2027 guide extends double-digit Coach growth.",
+      "bear_case": "Premium valuation compresses on deceleration.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "PAAS",
+      "consensus": "All three passes leaned up; average score 43, reversal risk 35, disparity 6.",
+      "base_case": "Production and costs land inside guidance.",
+      "bull_case": "Metal prices and cash returns amplify the beat.",
+      "bear_case": "AISC or mine execution misses.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "ENS",
+      "consensus": "All three passes leaned up; average score 39, reversal risk 33, disparity 6.",
+      "base_case": "EPS lands near the guide with sound ex-credit quality.",
+      "bull_case": "Margins and data-center demand outperform.",
+      "bear_case": "Industrial softness or credit dependence dominates.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "CBRS",
+      "consensus": "All three passes leaned down; average score -50, reversal risk 69, disparity 10.",
+      "base_case": "Margin guidance remains the limiting factor.",
+      "bull_case": "Backlog conversion and margin upside squeeze shorts.",
+      "bear_case": "Capacity costs and concentration pressure margins.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "JD",
+      "consensus": "All three passes leaned down; average score -40, reversal risk 49, disparity 6.",
+      "base_case": "Food-delivery losses dilute retail strength.",
+      "bull_case": "Loss narrowing clears a low valuation bar.",
+      "bear_case": "Subsidies and marketing drive a profit miss.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "LUNR",
+      "consensus": "All three passes leaned up; average score 36, reversal risk 63, disparity 7.",
+      "base_case": "Backlog conversion supports guidance.",
+      "bull_case": "New awards and EBITDA improve sharply.",
+      "bear_case": "Revenue timing, cash, or mission execution disappoints.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "COHR",
+      "consensus": "All three passes leaned down; average score -33, reversal risk 62, disparity 6.",
+      "base_case": "A strong report is largely priced.",
+      "bull_case": "Datacenter and margin beat the raised bar.",
+      "bear_case": "In-line guidance triggers profit-taking.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "YETI",
+      "consensus": "All three passes leaned up; average score 32, reversal risk 39, disparity 6.",
+      "base_case": "Demand offsets tariff pressure.",
+      "bull_case": "Wholesale and coolers lift the full-year guide.",
+      "bear_case": "Gross margin contracts again.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "BIRK",
+      "consensus": "All three passes leaned down; average score -30, reversal risk 51, disparity 6.",
+      "base_case": "Growth holds but margin recovery is slow.",
+      "bull_case": "Pricing and absorption restore margin.",
+      "bear_case": "Tariffs and FX cause another miss.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "CSCO",
+      "consensus": "Passes split around neutral; average score -3, reversal risk 46, disparity 8.",
+      "base_case": "AI orders are offset by valuation and margin pressure.",
+      "bull_case": "FY2027 AI networking guide surprises higher.",
+      "bear_case": "Component costs cap margins and orders normalize.",
+      "allocation_priority": false
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
