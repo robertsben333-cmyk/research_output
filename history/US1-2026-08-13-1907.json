@@ -8,11 +8,19 @@
   },
   "report_type": "US1_full_ranked_earnings_report",
   "market_context_summary": "July PPI was flat month over month and core PPI rose 0.2%, both slightly cooler than expected. Friday retail sales and preliminary consumer sentiment remain important overnight macro risks. AI and semiconductor positioning is constructive but crowded.",
-  "companies_reviewed_count": 5,
+  "companies_reviewed_count": 10,
   "top_setups": {
-    "upward": ["AMAT", "BAP", "NU"],
-    "downward": ["STNE"],
-    "note": "Only one qualified downside setup was supported; no second or third downside name met the evidence threshold."
+    "upward": [
+      "AMAT",
+      "DLO",
+      "BAP"
+    ],
+    "downward": [
+      "GLOB",
+      "STNE",
+      "KLC"
+    ],
+    "note": "Neutral names are not presented as directional setups."
   },
   "consensus_method": {
     "passes": 3,
@@ -27,9 +35,9 @@
       "company": "Applied Materials, Inc.",
       "timing": "2026-08-13 after market close; 4:30 p.m. ET call",
       "direction_call": "Lean Up",
-      "direction_score": 47,
-      "reversal_risk": 53,
-      "disparity": 6,
+      "direction_score": 45,
+      "reversal_risk": 51,
+      "disparity": 9,
       "confidence": "Medium",
       "expected_driver": "Fiscal Q4 revenue and margin guidance",
       "key_risk_to_call": "Beat priced in at a premium valuation",
@@ -76,7 +84,88 @@
       ]
     },
     {
-      "rank": 3,
+      "ticker": "DLO",
+      "company": "dLocal Limited",
+      "timing": "2026-08-13 after market close; 5:00 p.m. ET call",
+      "direction_call": "Lean Up",
+      "direction_score": 40,
+      "reversal_risk": 40,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Gross profit growth and gross profit/TPV",
+      "key_risk_to_call": "TPV growth fails to convert into take-rate quality",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Key-metric-first check applied",
+      "one_sentence_thesis": "High TPV growth can support upside only if gross profit and operating leverage confirm improving transaction economics.",
+      "market_expectation_summary": "Calendar consensus is $0.18 EPS; management retained 2026 guidance for 50%-60% TPV growth, 22.5%-27.5% gross-profit growth and 27.5%-32.5% operating-profit growth.",
+      "upside_case_summary": "Broad-based TPV strength and normalized costs support the upper half of full-year operating-profit guidance.",
+      "downside_case_summary": "Weak take rate, FX/mix pressure or working-capital noise undermines the volume headline.",
+      "options_or_positioning_summary": "No dependable live implied move or short-interest figure was available; social discussion is constructive but sparse.",
+      "analyst_revision_summary": "Current revision evidence was insufficient; retained company guidance is the more reliable bar.",
+      "key_sources": [
+        "https://investor.dlocal.com/",
+        "https://www.sec.gov/Archives/edgar/data/1846832/000184683226000019/ex993dlocal1q26er.htm",
+        "https://www.sec.gov/Archives/edgar/data/1846832/000184683226000019/ex994dlocal1q26ep.htm"
+      ],
+      "rank": 3
+    },
+    {
+      "ticker": "GLOB",
+      "company": "Globant S.A.",
+      "timing": "2026-08-13 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -40,
+      "reversal_risk": 44,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Organic revenue growth and forward guide",
+      "key_risk_to_call": "Low bar plus AI bookings relief",
+      "evidence_quality": "Medium-High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Forward-look override check applied",
+      "one_sentence_thesis": "The market needs proof that AI positioning is converting into durable organic growth, leaving downside if the next-quarter guide stays soft.",
+      "market_expectation_summary": "Calendar consensus is $1.50 EPS; Q1 revenue was $607.1 million and management said Q2 guidance returned to growth.",
+      "upside_case_summary": "AI Pods, subscription initiatives and resilient margins produce a less-bad-than-feared guide.",
+      "downside_case_summary": "Discretionary IT demand remains weak and forward revenue growth disappoints.",
+      "options_or_positioning_summary": "Reliable live implied-move and short-interest data were unavailable; social evidence was too thin to score materially.",
+      "analyst_revision_summary": "Current pre-report revision evidence was insufficient; guidance quality dominates.",
+      "key_sources": [
+        "https://investors.globant.com/quarterly-earnings",
+        "https://investors.globant.com/2026-05-14-Globant-Reports-2026-First-Quarter-Financial-Results",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      ],
+      "rank": 4
+    },
+    {
+      "ticker": "KLC",
+      "company": "KinderCare Learning Companies, Inc.",
+      "timing": "2026-08-13 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -38,
+      "reversal_risk": 44,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Core enrollment and same-center recovery",
+      "key_risk_to_call": "Low bar and cost-driven EBITDA relief",
+      "evidence_quality": "Medium-High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Key-metric-first enrollment check applied",
+      "one_sentence_thesis": "The promised second-half enrollment improvement faces a credibility test after weak core enrollment and a sharp Q1 adjusted-EBITDA decline.",
+      "market_expectation_summary": "Calendar consensus is $0.10 EPS; Q1 adjusted EBITDA fell 37.7% to $52.1 million even as management updated full-year guidance.",
+      "upside_case_summary": "Enrollment inflects, Champions/B2B remains resilient and cost actions protect EBITDA.",
+      "downside_case_summary": "Core occupancy stays weak and center-level operating leverage disappoints.",
+      "options_or_positioning_summary": "No reliable live options or short-interest evidence was available; anecdotal consumer sentiment was not used directionally.",
+      "analyst_revision_summary": "Current revision evidence was unavailable; management's promised enrollment detail is the decisive bar.",
+      "key_sources": [
+        "https://investors.kindercare.com/financials/quarterly-results/default.aspx",
+        "https://s204.q4cdn.com/690706325/files/doc_financials/2026/q1/KLC_1Q26-Earnings-Release_vFinal.pdf",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      ],
+      "rank": 5
+    },
+    {
+      "rank": 6,
       "ticker": "STNE",
       "company": "StoneCo Ltd.",
       "timing": "2026-08-13 after market close; 5:00 p.m. ET call",
@@ -103,7 +192,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 7,
       "ticker": "NU",
       "company": "Nu Holdings Ltd.",
       "timing": "2026-08-13 after market close",
@@ -130,7 +219,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 8,
       "ticker": "RLX",
       "company": "RLX Technology Inc.",
       "timing": "2026-08-14 before market open",
@@ -155,6 +244,60 @@
         "https://www.tipranks.com/stocks/rlx/earnings",
         "https://pro.thestreet.com/earnings/2026-08-14"
       ]
+    },
+    {
+      "ticker": "RMIX",
+      "company": "Suncrete",
+      "timing": "2026-08-14 before market open; 10:00 a.m. ET call",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 12,
+      "reversal_risk": 57,
+      "disparity": 10,
+      "confidence": "Low",
+      "expected_driver": "Ready-mix volume and unit margin",
+      "key_risk_to_call": "Acquisition and weather noise",
+      "evidence_quality": "Low-Medium",
+      "pass_agreement": "2 bullish / 1 neutral; low conviction",
+      "method_update_note": "Small-cap hidden-risk scan; no method change",
+      "one_sentence_thesis": "Local scale may support volume and pricing, but limited history and acquisition noise leave no dependable immediate-reaction edge.",
+      "market_expectation_summary": "Calendar consensus is a $0.04 loss per share; the company confirmed a 10:00 a.m. ET Q2 call.",
+      "upside_case_summary": "Volume, pricing and acquisition contribution beat a low bar.",
+      "downside_case_summary": "Weather, integration costs or weak unit margins overwhelm revenue growth.",
+      "options_or_positioning_summary": "No reliable live options, short-interest or social signal was available.",
+      "analyst_revision_summary": "Insufficient analyst revision coverage.",
+      "key_sources": [
+        "https://www.suncrete.com/investors",
+        "https://www.suncrete.com/investors/financial-information/financial-results",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      ],
+      "rank": 9
+    },
+    {
+      "ticker": "TMS",
+      "company": "Teamshares Inc.",
+      "timing": "2026-08-14 before market open; 8:30 a.m. ET call",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -3,
+      "reversal_risk": 70,
+      "disparity": 14,
+      "confidence": "Low",
+      "expected_driver": "Organic revenue and portfolio-company EBITDA",
+      "key_risk_to_call": "Very limited public history after listing",
+      "evidence_quality": "Low-Medium",
+      "pass_agreement": "1 down / 1 up / 1 neutral",
+      "method_update_note": "New-listing evidence threshold enforced",
+      "one_sentence_thesis": "Acquisition-driven scale is interesting, but the new listing lacks enough public reporting history to support a directional earnings edge.",
+      "market_expectation_summary": "The company is reporting Q2 before open; its prospectus showed Q1 revenue of about $121.0 million versus $102.5 million a year earlier.",
+      "upside_case_summary": "Portfolio-company growth and acquisition economics validate the platform story.",
+      "downside_case_summary": "Organic quality, leverage or integration costs disappoint newly formed expectations.",
+      "options_or_positioning_summary": "No dependable live options, short-interest or social evidence was available; post-listing price discovery raises reversal risk.",
+      "analyst_revision_summary": "Insufficient public analyst revision history.",
+      "key_sources": [
+        "https://investors.teamshares.com/news-events/news-releases",
+        "https://investors.teamshares.com/",
+        "https://www.sec.gov/Archives/edgar/data/2048951/000119312526229758/d82890ds4a.htm"
+      ],
+      "rank": 10
     }
   ],
   "research_allocation_view": {
@@ -162,21 +305,112 @@
       {
         "ticker": "BAP",
         "direction": "Lean Up",
-        "allocation_percent": 45,
-        "reason": "Absolute score above 30, reversal risk below 40, high evidence quality and lowest disparity."
+        "allocation_percent": 50,
+        "reason": "Score 40, reversal risk 30, high evidence quality and disparity 3."
+      },
+      {
+        "ticker": "DLO",
+        "direction": "Lean Up",
+        "allocation_percent": 35,
+        "reason": "Score 40, reversal risk at the 40 cutoff, high evidence quality and disparity 8."
       }
     ],
-    "unallocated_percent": 55,
-    "excluded_for_reversal_risk": ["AMAT", "NU", "STNE"],
-    "excluded_for_score_threshold": ["RLX"],
+    "unallocated_percent": 15,
+    "excluded_for_reversal_risk": [
+      "AMAT",
+      "NU",
+      "STNE",
+      "GLOB",
+      "KLC"
+    ],
+    "excluded_for_score_threshold": [
+      "RLX",
+      "RMIX",
+      "TMS"
+    ],
     "is_financial_advice": false
   },
   "detailed_company_sections": [
-    {"ticker": "AMAT", "base_case": "Beat with constructive but not explosive Q4 guide; shares rise modestly within implied move.", "bull_case": "Q4 guide exceeds expectations on DRAM, logic and packaging demand.", "bear_case": "Margins or Q4 growth disappoint a high whisper bar.", "social_sentiment": "Positive and AI-heavy, but noisy and potentially crowded.", "allocation_priority": false},
-    {"ticker": "BAP", "base_case": "Risk-adjusted NIM remains strong and guidance is reaffirmed.", "bull_case": "Credit costs stay below guide with resilient ROE.", "bear_case": "Provision normalization and NIM pressure offset loan growth.", "social_sentiment": "Limited; not decision-useful.", "allocation_priority": true},
-    {"ticker": "STNE", "base_case": "Credit metrics improve only gradually, keeping pressure on the stock.", "bull_case": "Low bar, valuation and second-half commentary spark relief.", "bear_case": "NPL and provision deterioration forces a guidance reset.", "social_sentiment": "Skeptical and event-driven; squeeze risk is more useful than tone.", "allocation_priority": false},
-    {"ticker": "NU", "base_case": "Monetization remains strong while credit metrics normalize partially.", "bull_case": "ARPAC and Mexico profitability outweigh credit-cost concerns.", "bear_case": "Risk-adjusted NIM and early-stage delinquencies remain soft.", "social_sentiment": "Constructive retail interest, but not primary evidence.", "allocation_priority": false},
-    {"ticker": "RLX", "base_case": "International growth continues with stable gross margin.", "bull_case": "Acquisition contribution and mix drive another strong margin quarter.", "bear_case": "Regulatory or integration pressure interrupts growth.", "social_sentiment": "Sparse and not decision-useful.", "allocation_priority": false}
+    {
+      "ticker": "AMAT",
+      "base_case": "Beat with constructive but not explosive Q4 guide; shares rise modestly within implied move.",
+      "bull_case": "Q4 guide exceeds expectations on DRAM, logic and packaging demand.",
+      "bear_case": "Margins or Q4 growth disappoint a high whisper bar.",
+      "social_sentiment": "Positive and AI-heavy, but noisy and potentially crowded.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "BAP",
+      "base_case": "Risk-adjusted NIM remains strong and guidance is reaffirmed.",
+      "bull_case": "Credit costs stay below guide with resilient ROE.",
+      "bear_case": "Provision normalization and NIM pressure offset loan growth.",
+      "social_sentiment": "Limited; not decision-useful.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "STNE",
+      "base_case": "Credit metrics improve only gradually, keeping pressure on the stock.",
+      "bull_case": "Low bar, valuation and second-half commentary spark relief.",
+      "bear_case": "NPL and provision deterioration forces a guidance reset.",
+      "social_sentiment": "Skeptical and event-driven; squeeze risk is more useful than tone.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "NU",
+      "base_case": "Monetization remains strong while credit metrics normalize partially.",
+      "bull_case": "ARPAC and Mexico profitability outweigh credit-cost concerns.",
+      "bear_case": "Risk-adjusted NIM and early-stage delinquencies remain soft.",
+      "social_sentiment": "Constructive retail interest, but not primary evidence.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "RLX",
+      "base_case": "International growth continues with stable gross margin.",
+      "bull_case": "Acquisition contribution and mix drive another strong margin quarter.",
+      "bear_case": "Regulatory or integration pressure interrupts growth.",
+      "social_sentiment": "Sparse and not decision-useful.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "DLO",
+      "base_case": "TPV remains strong and guidance is maintained.",
+      "bull_case": "Broad-based TPV strength and normalized costs support the upper half of full-year operating-profit guidance.",
+      "bear_case": "Weak take rate, FX/mix pressure or working-capital noise undermines the volume headline.",
+      "social_sentiment": "Constructive but sparse.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "GLOB",
+      "base_case": "In-line quarter with a soft guide pressures shares.",
+      "bull_case": "AI Pods, subscription initiatives and resilient margins produce a less-bad-than-feared guide.",
+      "bear_case": "Discretionary IT demand remains weak and forward revenue growth disappoints.",
+      "social_sentiment": "Unavailable or too thin to influence scoring.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "KLC",
+      "base_case": "Enrollment improvement remains gradual.",
+      "bull_case": "Enrollment inflects, Champions/B2B remains resilient and cost actions protect EBITDA.",
+      "bear_case": "Core occupancy stays weak and center-level operating leverage disappoints.",
+      "social_sentiment": "Unavailable or too thin to influence scoring.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "RMIX",
+      "base_case": "Mixed volume and margin execution.",
+      "bull_case": "Volume, pricing and acquisition contribution beat a low bar.",
+      "bear_case": "Weather, integration costs or weak unit margins overwhelm revenue growth.",
+      "social_sentiment": "Unavailable or too thin to influence scoring.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "TMS",
+      "base_case": "Initial benchmarks provide little clean price signal.",
+      "bull_case": "Portfolio-company growth and acquisition economics validate the platform story.",
+      "bear_case": "Organic quality, leverage or integration costs disappoint newly formed expectations.",
+      "social_sentiment": "Unavailable or too thin to influence scoring.",
+      "allocation_priority": false
+    }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
