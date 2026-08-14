@@ -1,5 +1,5 @@
 {
-  "generation_timestamp": "2026-08-14T17:02:01Z",
+  "generation_timestamp": "2026-08-14T17:07:00Z",
   "covered_report_window": {
     "after_market_close": "2026-08-14",
     "before_next_market_open": "2026-08-17",
@@ -7,14 +7,14 @@
     "plain_language": "U.S.-listed companies reporting after the Friday, August 14, 2026 market close and before the Monday, August 17, 2026 market open"
   },
   "report_type": "US1_full_ranked_earnings_report",
-  "market_context_summary": "At the research cutoff, SPY was down 0.24%, QQQ was down 0.39%, and Bitcoin was near $63,080. The quiet late-summer Friday session and weekend gap raise event and crypto beta risk.",
+  "market_context_summary": "At the research cutoff, SPY was down about 0.25% and Bitcoin was near $63,085. July retail sales fell 0.6% and preliminary August consumer sentiment dropped to 51.0, adding a softer macro tone to the quiet late-summer Friday session and weekend gap.",
   "companies_reviewed_count": 1,
   "universe_notes": {
     "calendar_entries_screened": "All reasonably relevant U.S.-listed entries in the immediate window were screened.",
     "qualified_tickers": [
       "HIVE"
     ],
-    "exclusion_summary": "Estimated or time-unspecified dates, already-reported names, microcaps, and thinly traded issuers were excluded before the three passes."
+    "exclusion_summary": "Estimated or time-unspecified dates, already-reported names, microcaps, and thinly traded issuers were excluded before the three passes. FSI had explicit timing but was excluded because its roughly $64 million market capitalization and very low trading volume failed the liquidity standard."
   },
   "top_setups": {
     "upward": [],
@@ -64,7 +64,7 @@
       "disparity": 8,
       "confidence": "Medium-Low",
       "expected_driver": "Bitcoin mining gross operating margin",
-      "key_risk_to_call": "Low bar plus 23% short-float squeeze",
+      "key_risk_to_call": "Low bar plus 22.5% short-float squeeze",
       "evidence_quality": "Medium-High",
       "pass_agreement": "3/3 Lean Down; scores -38/-26/-34",
       "method_update_note": "Existing expectation-bar and forward-look checks applied; no new method change",
@@ -72,7 +72,7 @@
       "market_expectation_summary": "Public estimates cluster near a $0.20 loss per share and $82.5-$82.8 million revenue, up from fiscal Q4 revenue of $71.8 million; the company reported 25.1 EH/s installed at March 31.",
       "upside_case_summary": "Revenue clears the low-$80 millions, mining margin holds better than feared, and BUZZ HPC guidance validates the AI-infrastructure narrative.",
       "downside_case_summary": "Revenue or mining gross margin misses as Bitcoin price and network difficulty offset hashrate scale; financing and dilution concerns weigh on the forward view.",
-      "options_or_positioning_summary": "Public options data indicated roughly a 35% expected move for the September expiration, while reported short interest was about 23.4% of float, making the setup highly squeeze-prone.",
+      "options_or_positioning_summary": "Public options data indicated roughly a 35% expected move for the September expiration. Short interest was 60.44 million shares, or 22.5% of float, as of July 31, making the setup highly squeeze-prone.",
       "analyst_revision_summary": "Consensus is based on only about three estimates; public sources show a roughly $0.20 loss forecast and three consecutive EPS misses, limiting reliability and confidence.",
       "key_sources": [
         "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-to-release-fiscal-q1-2027-financial-results-on-august-14th-and-hold-earnings-call-on-august-17th/",
@@ -107,7 +107,7 @@
       "what_market_expects": "Approximately -$0.20 EPS and $82.5-$82.8 million revenue.",
       "what_could_make_stock_go_up": "Better mining economics, resilient gross margin, or credible BUZZ HPC growth commentary could clear a de-risked bar.",
       "what_could_make_stock_go_down": "A revenue miss, margin compression, higher network difficulty, financing dilution, or cautious HPC timing could outweigh hashrate growth.",
-      "reversal_risk_assessment": "High: short interest near 23.4% of float, a stock already below July reference prices, and very high implied volatility could turn a merely less-bad print into a squeeze.",
+      "reversal_risk_assessment": "High: short interest was 22.5% of float as of July 31, the stock was below July reference prices, and high implied volatility could turn a merely less-bad print into a squeeze.",
       "social_sentiment_read": "The visible HIVE community is strongly bullish and AI-infrastructure focused, but it is small, promotional, and not treated as primary evidence.",
       "options_positioning_read": "Approximately 35% public expected-move indication for September; event-specific weekly pricing was not reliably available.",
       "analyst_revision_read": "Sparse coverage and only about three estimates reduce the precision of the published consensus.",
