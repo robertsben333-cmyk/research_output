@@ -1,0 +1,116 @@
+{
+  "generation_timestamp": "2026-08-14T17:12:17Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Friday, August 14, 2026 U.S. market close and before the Monday, August 17, 2026 U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were slightly lower but near record highs after July retail sales fell 0.6% and preliminary August consumer sentiment dropped to 51.0; Bitcoin was near $63,068, leaving crypto-miner economics under pressure into a weekend-gap earnings event.",
+  "companies_reviewed_count": 1,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": [
+      "HIVE"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "HIVE",
+      "company": "HIVE Digital Technologies Ltd.",
+      "timing": "Friday, August 14, 2026 after market close; conference call Monday, August 17 at 8:00 a.m. ET",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 5,
+      "reversal_risk": 68,
+      "confidence": "Low",
+      "expected_driver": "Realized HPC revenue/ARR conversion and Bitcoin-mining gross margin",
+      "key_risk_to_call": "A current-quarter revenue miss could outweigh the AI contract; 22.5% short float could also squeeze sharply",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "The new sovereign-AI contract and crowded shorts create relief upside, but weaker Bitcoin economics, a demanding revenue bar, and heavy exchangeable-note financing leave no reliable immediate direction.",
+      "market_expectation_summary": "Sparse public consensus points to roughly a $0.16-$0.20 loss per share and about $82.75 million of revenue, versus fiscal Q4 revenue of $71.82 million.",
+      "upside_case_summary": "Realized HPC revenue and the $35 million ARR base convert cleanly, management de-risks the contracted $70 million ARR deployment, and a less-bad mining quarter triggers a squeeze.",
+      "downside_case_summary": "Revenue misses as lower Bitcoin prices and network difficulty compress mining economics, while capital needs and exchangeable-note dilution dominate the forward view.",
+      "options_or_positioning_summary": "HIVE options carried roughly 114% implied volatility in the latest public snapshot; an older event preview indicated a roughly 16.4% move. Short interest reached 60.44 million shares, or 22.5% of float, on July 31.",
+      "analyst_revision_summary": "Coverage is sparse at about three estimates. Published consensus is still constructive on long-term valuation, but HIVE missed fiscal Q4 revenue and EPS estimates and estimate precision is low.",
+      "key_sources": [
+        "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-to-release-fiscal-q1-2027-financial-results-on-august-14th-and-hold-earnings-call-on-august-17th/",
+        "https://www.hivedigitaltechnologies.com/news/hive-achieves-fy2026-total-revenue-of-2978-million-158-yoy-hives-buzz-hpc-positioned-for-growth/",
+        "https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-closes-usd-220-million-sovereign-ai-gpu-contract-with-bell-ai-fabric-for-cohere-inc/",
+        "https://www.hivedigitaltechnologies.com/news/hive-announces-upsizing-and-pricing-of-private-offering-of-us115-million-of-0-exchangeable-senior-notes-due-2031/",
+        "https://www.marketbeat.com/stocks/NASDAQ/HIVE/short-interest/",
+        "https://www.fxempire.com/stocks/hive/earnings",
+        "https://www.benzinga.com/quote/hive/analyst-ratings",
+        "https://www.barchart.com/stocks/quotes/HIVE/expected-move"
+      ],
+      "disparity": 32,
+      "pass_agreement": "Material disagreement: Pass A Lean Down (-34), Pass B Lean Up (+42), Pass C Neutral (+8)",
+      "method_update_note": "Existing forward-demand proof gate applied: future AI contract value did not substitute for realized ARR conversion or a de-risked deployment schedule."
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "HIVE",
+        "reason": "Consensus score of +5 fails the absolute-score threshold and reversal risk of 68 exceeds the 40 ceiling."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "HIVE",
+      "consensus_summary": "The three fully independent passes produced -34, +42, and +8 direction scores and 72, 64, and 69 reversal-risk values. The resulting averages are +5 direction and 68 reversal risk.",
+      "averaged_direction_score": 5,
+      "averaged_reversal_risk": 68,
+      "disparity": 32,
+      "pass_agreement_pattern": "One bearish pass, one bullish pass, and one neutral pass; disagreement is material.",
+      "recommendation": "Neutral / No Edge",
+      "confidence": "Low",
+      "one_sentence_thesis": "Forward AI demand is real, but current-quarter conversion and Bitcoin economics are too uncertain for a reliable immediate direction.",
+      "what_the_market_expects": "Approximately $82.75 million of revenue and a $0.16-$0.20 loss per share from a sparse analyst set.",
+      "what_could_make_the_stock_go_up": "A clean HPC revenue step-up, reaffirmed $35 million realized ARR plus credible timing for another $70 million contracted ARR, and resilient mining margin could force short covering.",
+      "what_could_make_the_stock_go_down": "Another revenue miss, margin compression, or capex and dilution commentary could show that the AI narrative is arriving later and more expensively than the market needs.",
+      "reversal_risk_assessment": "High. The stock has de-risked, short interest is 22.5% of float, and event volatility is elevated, so either a less-bad report or a disappointing conversion update could reverse a headline read quickly.",
+      "social_sentiment_read": "Investor discussion is strongly AI-bullish but promotional and polarized; recurring dilution complaints are also prominent. No independent customer-sentiment signal was strong enough to affect the score.",
+      "options_positioning_read": "Public data show very high implied volatility, while exact event-week pricing was not reliable enough to treat as a precise forecast. Short crowding is the more defensible positioning signal.",
+      "analyst_revision_read": "Long-term ratings remain mostly constructive, but estimates are sparse and HIVE missed fiscal Q4 revenue and EPS; the consensus bar is therefore directionally useful but not precise.",
+      "base_case": "Reported revenue lands near or below consensus, current HPC conversion is encouraging but not enough to settle the financing debate, and the share reaction is volatile without a durable direction.",
+      "bull_case": "Revenue clears the low-$80 millions and management converts the AI contract pipeline into credible near-term ARR, producing a sharp relief rally.",
+      "bear_case": "Mining revenue and margin miss while financing needs and delayed deployments dominate, pushing the stock lower despite the contract headline.",
+      "final_directional_judgment": "Neutral / No Edge. The averaged score is +5, far inside the neutral band.",
+      "research_allocation_priority": false,
+      "allocation_rationale": "No allocation: absolute direction score is below 30, reversal risk is above 40, confidence is Low, and disparity is moderate.",
+      "disparity_effect_on_conviction": "Moderate disparity reduced confidence and eliminated allocation priority even though the averaged score leaned slightly positive.",
+      "method_update_note": "No new framework change. The existing learned lesson requiring realized forward-demand proof for bullish allocation was applied narrowly.",
+      "key_sources": [
+        "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-to-release-fiscal-q1-2027-financial-results-on-august-14th-and-hold-earnings-call-on-august-17th/",
+        "https://www.hivedigitaltechnologies.com/news/hive-achieves-fy2026-total-revenue-of-2978-million-158-yoy-hives-buzz-hpc-positioned-for-growth/",
+        "https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-closes-usd-220-million-sovereign-ai-gpu-contract-with-bell-ai-fabric-for-cohere-inc/",
+        "https://www.marketbeat.com/stocks/NASDAQ/HIVE/short-interest/"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": -34,
+          "reversal_risk": 72,
+          "direction_call": "Lean Down",
+          "key_metric": "Mining revenue and gross operating margin versus the consensus revenue bar"
+        },
+        {
+          "pass": "B",
+          "direction_score": 42,
+          "reversal_risk": 64,
+          "direction_call": "Lean Up",
+          "key_metric": "Realized HPC ARR and contracted AI deployment timing"
+        },
+        {
+          "pass": "C",
+          "direction_score": 8,
+          "reversal_risk": 69,
+          "direction_call": "Neutral / No Edge",
+          "key_metric": "Capital conversion into ARR relative to exchangeable-note dilution"
+        }
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
