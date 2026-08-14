@@ -1,415 +1,124 @@
 {
-  "generation_timestamp": "2026-08-13T17:07:01Z",
+  "generation_timestamp": "2026-08-14T17:02:01Z",
   "covered_report_window": {
-    "after_market_close": "2026-08-13",
-    "before_next_market_open": "2026-08-14",
+    "after_market_close": "2026-08-14",
+    "before_next_market_open": "2026-08-17",
     "timezone": "America/New_York",
-    "plain_language": "U.S.-listed companies reporting after the Thursday, August 13, 2026 close and before the Friday, August 14, 2026 open"
+    "plain_language": "U.S.-listed companies reporting after the Friday, August 14, 2026 market close and before the Monday, August 17, 2026 market open"
   },
   "report_type": "US1_full_ranked_earnings_report",
-  "market_context_summary": "July PPI was flat month over month and core PPI rose 0.2%, both slightly cooler than expected. Friday retail sales and preliminary consumer sentiment remain important overnight macro risks. AI and semiconductor positioning is constructive but crowded.",
-  "companies_reviewed_count": 10,
+  "market_context_summary": "At the research cutoff, SPY was down 0.24%, QQQ was down 0.39%, and Bitcoin was near $63,080. The quiet late-summer Friday session and weekend gap raise event and crypto beta risk.",
+  "companies_reviewed_count": 1,
+  "universe_notes": {
+    "calendar_entries_screened": "All reasonably relevant U.S.-listed entries in the immediate window were screened.",
+    "qualified_tickers": [
+      "HIVE"
+    ],
+    "exclusion_summary": "Estimated or time-unspecified dates, already-reported names, microcaps, and thinly traded issuers were excluded before the three passes."
+  },
   "top_setups": {
-    "upward": [
-      "AMAT",
-      "DLO",
-      "BAP"
-    ],
+    "upward": [],
     "downward": [
-      "GLOB",
-      "STNE",
-      "KLC"
+      "HIVE"
     ],
-    "note": "Neutral names are not presented as directional setups."
+    "note": "There were not three evidence-qualified setups on either side in this unusually sparse window."
   },
   "consensus_method": {
     "passes": 3,
     "independent_passes": true,
-    "disparity_definition": "A 0-100 summary of the spread in direction and reversal-risk outputs across Pass A, Pass B, and Pass C; lower is tighter agreement.",
+    "pass_outputs": [
+      {
+        "pass": "A",
+        "direction_score": -38,
+        "reversal_risk": 68,
+        "direction_call": "Lean Down",
+        "key_metric": "Bitcoin mining gross operating margin"
+      },
+      {
+        "pass": "B",
+        "direction_score": -26,
+        "reversal_risk": 62,
+        "direction_call": "Lean Down",
+        "key_metric": "Revenue versus the $82.5-$82.8 million consensus bar"
+      },
+      {
+        "pass": "C",
+        "direction_score": -34,
+        "reversal_risk": 66,
+        "direction_call": "Lean Down",
+        "key_metric": "Realized Bitcoin economics and network-difficulty pressure"
+      }
+    ],
+    "disparity_definition": "0-100 dispersion summary using the spread of direction and reversal-risk outputs across Pass A, Pass B, and Pass C; lower means tighter agreement.",
     "lessons_review_method_change": false
   },
   "ranked_companies": [
     {
       "rank": 1,
-      "ticker": "AMAT",
-      "company": "Applied Materials, Inc.",
-      "timing": "2026-08-13 after market close; 4:30 p.m. ET call",
-      "direction_call": "Lean Up",
-      "direction_score": 45,
-      "reversal_risk": 51,
-      "disparity": 9,
-      "confidence": "Medium",
-      "expected_driver": "Fiscal Q4 revenue and margin guidance",
-      "key_risk_to_call": "Beat priced in at a premium valuation",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "Priced-in premium-growth penalty applied",
-      "one_sentence_thesis": "AI-driven DRAM, leading-edge logic and advanced-packaging demand favors an upside print, but the stock needs a strong October-quarter outlook to overcome a demanding valuation.",
-      "market_expectation_summary": "Consensus is about $3.39-$3.45 adjusted EPS on roughly $9.0-$9.2 billion revenue versus company guidance of $3.36 plus or minus $0.20 and $8.95 billion plus or minus $0.50 billion.",
-      "upside_case_summary": "Revenue clears $9 billion with resilient gross margin and fiscal Q4 growth above current expectations as Singapore output and AI equipment demand ramp.",
-      "downside_case_summary": "A merely in-line quarter, softer gross margin, export restrictions, or cautious fiscal Q4 commentary triggers multiple compression.",
-      "options_or_positioning_summary": "Available public options references imply a low-to-mid single-digit event move; the stock's strong AI-linked run and roughly 52x trailing P/E increase sell-the-news risk.",
-      "analyst_revision_summary": "Stifel reiterated Buy and argued fiscal Q4 estimates could be conservative; Goldman and Citi recently highlighted upside catalysts, raising the whisper bar.",
-      "key_sources": [
-        "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug",
-        "https://www.sec.gov/Archives/edgar/data/6951/000162828026035071/exhibit991q22026earningsre.htm",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-      ]
-    },
-    {
-      "rank": 2,
-      "ticker": "BAP",
-      "company": "Credicorp Ltd.",
-      "timing": "2026-08-13 after market close",
-      "direction_call": "Lean Up",
-      "direction_score": 40,
-      "reversal_risk": 30,
-      "disparity": 3,
-      "confidence": "Medium",
-      "expected_driver": "Risk-adjusted NIM and cost of risk",
-      "key_risk_to_call": "NIM normalization or credit-cost rebound",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Record risk-adjusted NIM, low first-quarter cost of risk and reaffirmed 2026 guidance give Credicorp the cleanest risk-adjusted upside setup in the window.",
-      "market_expectation_summary": "Public estimates cluster around $7.20 per share and $1.72 billion revenue, though cross-provider currency and share-unit conversions are inconsistent.",
-      "upside_case_summary": "Risk-adjusted NIM stays above the 5.3%-5.6% annual guide and cost of risk remains below the 1.7%-2.1% range while loan growth holds near target.",
-      "downside_case_summary": "Funding-cost benefits fade, provisioning normalizes sharply higher, or Peru macro and political risk weaken forward ROE confidence.",
-      "options_or_positioning_summary": "Options evidence is limited; liquidity is adequate but much lower than AMAT or NU, so the reaction may be less efficient.",
-      "analyst_revision_summary": "Evidence is constructive but sparse; two consecutive estimate misses reported by one data provider temper confidence despite strong operating metrics.",
-      "key_sources": [
-        "https://credicorp.gcs-web.com/news-releases/news-release-details/credicorp-ltd-announces-2026-schedule-quarterly-results-and",
-        "https://credicorp.gcs-web.com/static-files/88c430c2-705f-4b2b-aacf-023fc32b3ad3",
-        "https://credicorp.gcs-web.com/static-files/21748423-151c-4a83-81d1-e21df64f18d8"
-      ]
-    },
-    {
-      "ticker": "DLO",
-      "company": "dLocal Limited",
-      "timing": "2026-08-13 after market close; 5:00 p.m. ET call",
-      "direction_call": "Lean Up",
-      "direction_score": 40,
-      "reversal_risk": 40,
-      "disparity": 8,
-      "confidence": "Medium",
-      "expected_driver": "Gross profit growth and gross profit/TPV",
-      "key_risk_to_call": "TPV growth fails to convert into take-rate quality",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "Key-metric-first check applied",
-      "one_sentence_thesis": "High TPV growth can support upside only if gross profit and operating leverage confirm improving transaction economics.",
-      "market_expectation_summary": "Calendar consensus is $0.18 EPS; management retained 2026 guidance for 50%-60% TPV growth, 22.5%-27.5% gross-profit growth and 27.5%-32.5% operating-profit growth.",
-      "upside_case_summary": "Broad-based TPV strength and normalized costs support the upper half of full-year operating-profit guidance.",
-      "downside_case_summary": "Weak take rate, FX/mix pressure or working-capital noise undermines the volume headline.",
-      "options_or_positioning_summary": "No dependable live implied move or short-interest figure was available; social discussion is constructive but sparse.",
-      "analyst_revision_summary": "Current revision evidence was insufficient; retained company guidance is the more reliable bar.",
-      "key_sources": [
-        "https://investor.dlocal.com/",
-        "https://www.sec.gov/Archives/edgar/data/1846832/000184683226000019/ex993dlocal1q26er.htm",
-        "https://www.sec.gov/Archives/edgar/data/1846832/000184683226000019/ex994dlocal1q26ep.htm"
-      ],
-      "rank": 3
-    },
-    {
-      "ticker": "GLOB",
-      "company": "Globant S.A.",
-      "timing": "2026-08-13 after market close",
+      "ticker": "HIVE",
+      "company": "HIVE Digital Technologies Ltd.",
+      "timing": "2026-08-14 after market close; conference call 2026-08-17 at 8:00 a.m. ET",
       "direction_call": "Lean Down",
-      "direction_score": -40,
-      "reversal_risk": 44,
+      "direction_score": -33,
+      "reversal_risk": 65,
       "disparity": 8,
-      "confidence": "Medium",
-      "expected_driver": "Organic revenue growth and forward guide",
-      "key_risk_to_call": "Low bar plus AI bookings relief",
+      "confidence": "Medium-Low",
+      "expected_driver": "Bitcoin mining gross operating margin",
+      "key_risk_to_call": "Low bar plus 23% short-float squeeze",
       "evidence_quality": "Medium-High",
-      "pass_agreement": "3/3 Lean Down",
-      "method_update_note": "Forward-look override check applied",
-      "one_sentence_thesis": "The market needs proof that AI positioning is converting into durable organic growth, leaving downside if the next-quarter guide stays soft.",
-      "market_expectation_summary": "Calendar consensus is $1.50 EPS; Q1 revenue was $607.1 million and management said Q2 guidance returned to growth.",
-      "upside_case_summary": "AI Pods, subscription initiatives and resilient margins produce a less-bad-than-feared guide.",
-      "downside_case_summary": "Discretionary IT demand remains weak and forward revenue growth disappoints.",
-      "options_or_positioning_summary": "Reliable live implied-move and short-interest data were unavailable; social evidence was too thin to score materially.",
-      "analyst_revision_summary": "Current pre-report revision evidence was insufficient; guidance quality dominates.",
+      "pass_agreement": "3/3 Lean Down; scores -38/-26/-34",
+      "method_update_note": "Existing expectation-bar and forward-look checks applied; no new method change",
+      "one_sentence_thesis": "A high consensus revenue bar and three straight EPS misses leave HIVE vulnerable if lower Bitcoin economics or network difficulty pressure gross operating margin, but heavy short crowding creates sharp relief-rally risk.",
+      "market_expectation_summary": "Public estimates cluster near a $0.20 loss per share and $82.5-$82.8 million revenue, up from fiscal Q4 revenue of $71.8 million; the company reported 25.1 EH/s installed at March 31.",
+      "upside_case_summary": "Revenue clears the low-$80 millions, mining margin holds better than feared, and BUZZ HPC guidance validates the AI-infrastructure narrative.",
+      "downside_case_summary": "Revenue or mining gross margin misses as Bitcoin price and network difficulty offset hashrate scale; financing and dilution concerns weigh on the forward view.",
+      "options_or_positioning_summary": "Public options data indicated roughly a 35% expected move for the September expiration, while reported short interest was about 23.4% of float, making the setup highly squeeze-prone.",
+      "analyst_revision_summary": "Consensus is based on only about three estimates; public sources show a roughly $0.20 loss forecast and three consecutive EPS misses, limiting reliability and confidence.",
       "key_sources": [
-        "https://investors.globant.com/quarterly-earnings",
-        "https://investors.globant.com/2026-05-14-Globant-Reports-2026-First-Quarter-Financial-Results",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-      ],
-      "rank": 4
-    },
-    {
-      "ticker": "KLC",
-      "company": "KinderCare Learning Companies, Inc.",
-      "timing": "2026-08-13 after market close",
-      "direction_call": "Lean Down",
-      "direction_score": -38,
-      "reversal_risk": 44,
-      "disparity": 8,
-      "confidence": "Medium",
-      "expected_driver": "Core enrollment and same-center recovery",
-      "key_risk_to_call": "Low bar and cost-driven EBITDA relief",
-      "evidence_quality": "Medium-High",
-      "pass_agreement": "3/3 Lean Down",
-      "method_update_note": "Key-metric-first enrollment check applied",
-      "one_sentence_thesis": "The promised second-half enrollment improvement faces a credibility test after weak core enrollment and a sharp Q1 adjusted-EBITDA decline.",
-      "market_expectation_summary": "Calendar consensus is $0.10 EPS; Q1 adjusted EBITDA fell 37.7% to $52.1 million even as management updated full-year guidance.",
-      "upside_case_summary": "Enrollment inflects, Champions/B2B remains resilient and cost actions protect EBITDA.",
-      "downside_case_summary": "Core occupancy stays weak and center-level operating leverage disappoints.",
-      "options_or_positioning_summary": "No reliable live options or short-interest evidence was available; anecdotal consumer sentiment was not used directionally.",
-      "analyst_revision_summary": "Current revision evidence was unavailable; management's promised enrollment detail is the decisive bar.",
-      "key_sources": [
-        "https://investors.kindercare.com/financials/quarterly-results/default.aspx",
-        "https://s204.q4cdn.com/690706325/files/doc_financials/2026/q1/KLC_1Q26-Earnings-Release_vFinal.pdf",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-      ],
-      "rank": 5
-    },
-    {
-      "rank": 6,
-      "ticker": "STNE",
-      "company": "StoneCo Ltd.",
-      "timing": "2026-08-13 after market close; 5:00 p.m. ET call",
-      "direction_call": "Lean Down",
-      "direction_score": -38,
-      "reversal_risk": 53,
-      "disparity": 5,
-      "confidence": "Medium",
-      "expected_driver": "Cost of risk and 90+ day NPLs",
-      "key_risk_to_call": "Low valuation and second-half relief",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Down",
-      "method_update_note": "Low-bar reversal caution applied",
-      "one_sentence_thesis": "Rising 90-plus-day NPLs, a 21.9% cost of risk and compressed gross margin leave Stone vulnerable unless credit quality improves faster than expected.",
-      "market_expectation_summary": "Consensus is roughly $0.46-$0.47 EPS and $706-$731 million revenue, with full-year expectations near $2.27 EPS and $2.91 billion revenue.",
-      "upside_case_summary": "NPLs stabilize, cost of risk moves toward the mid-to-high teens, ARPAC recovers and management preserves the second-half guidance path.",
-      "downside_case_summary": "Credit provisions remain elevated, active-client monetization stays weak and management cuts or narrows the 2026 outlook.",
-      "options_or_positioning_summary": "Short interest was reported near 7% of float with about 3.8 days to cover, creating meaningful squeeze risk on a less-bad print.",
-      "analyst_revision_summary": "Full-year consensus still embeds strong EPS growth, but Q1 margin and credit deterioration have made the second-half recovery bar more fragile.",
-      "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/1745431/000207097926000265/earningsrelease1q26.htm",
-        "https://www.zacks.com/stock/news/2963808/stoneco-ltd-stne-falls-more-steeply-than-broader-market-what-investors-need-to-know",
-        "https://www.stocktitan.net/overview/STNE/"
+        "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-to-release-fiscal-q1-2027-financial-results-on-august-14th-and-hold-earnings-call-on-august-17th/",
+        "https://www.hivedigitaltechnologies.com/news/hive-achieves-fy2026-total-revenue-of-2978-million-158-yoy-hives-buzz-hpc-positioned-for-growth/",
+        "https://www.hivedigitaltechnologies.com/news/hive-delivers-record-q3-revenue-of-931-million-with-321-million-gross-operating-margin-up-over-6x-year-over-year/",
+        "https://www.barchart.com/stocks/quotes/HIVE/earnings-estimates",
+        "https://www.marketbeat.com/stocks/NASDAQ/HIVE/short-interest/"
       ]
-    },
-    {
-      "rank": 7,
-      "ticker": "NU",
-      "company": "Nu Holdings Ltd.",
-      "timing": "2026-08-13 after market close",
-      "direction_call": "Lean Up",
-      "direction_score": 33,
-      "reversal_risk": 49,
-      "disparity": 5,
-      "confidence": "Medium",
-      "expected_driver": "Risk-adjusted NIM and early delinquencies",
-      "key_risk_to_call": "Credit-loss growth offsets ARPAC gains",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Customer growth, rising ARPAC and Mexico break-even support upside, but the reaction hinges on whether risk-adjusted NIM recovers as early delinquencies normalize.",
-      "market_expectation_summary": "Public calendar consensus is about $0.20 EPS and $5.39 billion revenue after Q1 revenue surpassed $5 billion and net income reached $871 million.",
-      "upside_case_summary": "15-90 day NPLs seasonally improve, ARPAC rises above $16 and Mexico profitability scales without disrupting the efficiency ratio.",
-      "downside_case_summary": "Allowances and early delinquencies remain elevated, risk-adjusted NIM stays under pressure or investment spending lifts the full-year efficiency ratio.",
-      "options_or_positioning_summary": "Highly liquid and retail-followed; the positive intraday setup and growth narrative increase the risk that a solid result is already anticipated.",
-      "analyst_revision_summary": "Consensus remains broadly constructive on customer monetization, but the market is sensitive to credit-cost and margin revisions rather than headline customer additions.",
-      "key_sources": [
-        "https://international.nubank.com.br/company/nu-holdings-ltd-reports-first-quarter-2026-financial-results/",
-        "https://www.sec.gov/Archives/edgar/data/1691493/000129281426003053/nufs1q26_6k.htm",
-        "https://pro.thestreet.com/earnings/2026-08-13"
-      ]
-    },
-    {
-      "rank": 8,
-      "ticker": "RLX",
-      "company": "RLX Technology Inc.",
-      "timing": "2026-08-14 before market open",
-      "direction_call": "Lean Up",
-      "direction_score": 28,
-      "reversal_risk": 47,
-      "disparity": 4,
-      "confidence": "Low",
-      "expected_driver": "International revenue and gross margin",
-      "key_risk_to_call": "Thin coverage and regulatory exposure",
-      "evidence_quality": "Medium",
-      "pass_agreement": "2 Lean Up / 1 Neutral",
-      "method_update_note": "None",
-      "one_sentence_thesis": "International expansion and improving gross margin create a modest upside bias, but sparse analyst coverage and regulatory risk keep the setup low-confidence.",
-      "market_expectation_summary": "Public calendar estimates show about $0.09 EPS and $175-$177 million revenue, though the EPS figure is inconsistent with recent quarterly run-rate and should be treated cautiously.",
-      "upside_case_summary": "International revenue remains above 70% of mix, gross margin holds above 31% and acquisition synergies sustain operating leverage.",
-      "downside_case_summary": "Integration costs, weaker overseas demand, regulation or working-capital use outweigh reported growth.",
-      "options_or_positioning_summary": "Options and analyst coverage are thin; institutional put/call data was call-heavy, but evidence quality is insufficient for a strong positioning conclusion.",
-      "analyst_revision_summary": "No robust sell-side revision set was available, materially lowering confidence.",
-      "key_sources": [
-        "https://ir.relxtech.com/2026-05-20-RLX-Technology-Announces-Unaudited-First-Quarter-2026-Financial-Results",
-        "https://www.tipranks.com/stocks/rlx/earnings",
-        "https://pro.thestreet.com/earnings/2026-08-14"
-      ]
-    },
-    {
-      "ticker": "RMIX",
-      "company": "Suncrete",
-      "timing": "2026-08-14 before market open; 10:00 a.m. ET call",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 12,
-      "reversal_risk": 57,
-      "disparity": 10,
-      "confidence": "Low",
-      "expected_driver": "Ready-mix volume and unit margin",
-      "key_risk_to_call": "Acquisition and weather noise",
-      "evidence_quality": "Low-Medium",
-      "pass_agreement": "2 bullish / 1 neutral; low conviction",
-      "method_update_note": "Small-cap hidden-risk scan; no method change",
-      "one_sentence_thesis": "Local scale may support volume and pricing, but limited history and acquisition noise leave no dependable immediate-reaction edge.",
-      "market_expectation_summary": "Calendar consensus is a $0.04 loss per share; the company confirmed a 10:00 a.m. ET Q2 call.",
-      "upside_case_summary": "Volume, pricing and acquisition contribution beat a low bar.",
-      "downside_case_summary": "Weather, integration costs or weak unit margins overwhelm revenue growth.",
-      "options_or_positioning_summary": "No reliable live options, short-interest or social signal was available.",
-      "analyst_revision_summary": "Insufficient analyst revision coverage.",
-      "key_sources": [
-        "https://www.suncrete.com/investors",
-        "https://www.suncrete.com/investors/financial-information/financial-results",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-      ],
-      "rank": 9
-    },
-    {
-      "ticker": "TMS",
-      "company": "Teamshares Inc.",
-      "timing": "2026-08-14 before market open; 8:30 a.m. ET call",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": -3,
-      "reversal_risk": 70,
-      "disparity": 14,
-      "confidence": "Low",
-      "expected_driver": "Organic revenue and portfolio-company EBITDA",
-      "key_risk_to_call": "Very limited public history after listing",
-      "evidence_quality": "Low-Medium",
-      "pass_agreement": "1 down / 1 up / 1 neutral",
-      "method_update_note": "New-listing evidence threshold enforced",
-      "one_sentence_thesis": "Acquisition-driven scale is interesting, but the new listing lacks enough public reporting history to support a directional earnings edge.",
-      "market_expectation_summary": "The company is reporting Q2 before open; its prospectus showed Q1 revenue of about $121.0 million versus $102.5 million a year earlier.",
-      "upside_case_summary": "Portfolio-company growth and acquisition economics validate the platform story.",
-      "downside_case_summary": "Organic quality, leverage or integration costs disappoint newly formed expectations.",
-      "options_or_positioning_summary": "No dependable live options, short-interest or social evidence was available; post-listing price discovery raises reversal risk.",
-      "analyst_revision_summary": "Insufficient public analyst revision history.",
-      "key_sources": [
-        "https://investors.teamshares.com/news-events/news-releases",
-        "https://investors.teamshares.com/",
-        "https://www.sec.gov/Archives/edgar/data/2048951/000119312526229758/d82890ds4a.htm"
-      ],
-      "rank": 10
     }
   ],
   "research_allocation_view": {
-    "qualified_names": [
-      {
-        "ticker": "BAP",
-        "direction": "Lean Up",
-        "allocation_percent": 50,
-        "reason": "Score 40, reversal risk 30, high evidence quality and disparity 3."
-      },
-      {
-        "ticker": "DLO",
-        "direction": "Lean Up",
-        "allocation_percent": 35,
-        "reason": "Score 40, reversal risk at the 40 cutoff, high evidence quality and disparity 8."
-      }
-    ],
-    "unallocated_percent": 15,
+    "qualified_names": [],
+    "allocation": [],
+    "allocated_percent": 0,
+    "unallocated_percent": 100,
     "excluded_for_reversal_risk": [
-      "AMAT",
-      "NU",
-      "STNE",
-      "GLOB",
-      "KLC"
+      "HIVE"
     ],
-    "excluded_for_score_threshold": [
-      "RLX",
-      "RMIX",
-      "TMS"
-    ],
+    "reason": "HIVE's absolute score exceeds 30, but consensus reversal risk of 65 is above the 40 cutoff.",
     "is_financial_advice": false
   },
   "detailed_company_sections": [
     {
-      "ticker": "AMAT",
-      "base_case": "Beat with constructive but not explosive Q4 guide; shares rise modestly within implied move.",
-      "bull_case": "Q4 guide exceeds expectations on DRAM, logic and packaging demand.",
-      "bear_case": "Margins or Q4 growth disappoint a high whisper bar.",
-      "social_sentiment": "Positive and AI-heavy, but noisy and potentially crowded.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "BAP",
-      "base_case": "Risk-adjusted NIM remains strong and guidance is reaffirmed.",
-      "bull_case": "Credit costs stay below guide with resilient ROE.",
-      "bear_case": "Provision normalization and NIM pressure offset loan growth.",
-      "social_sentiment": "Limited; not decision-useful.",
-      "allocation_priority": true
-    },
-    {
-      "ticker": "STNE",
-      "base_case": "Credit metrics improve only gradually, keeping pressure on the stock.",
-      "bull_case": "Low bar, valuation and second-half commentary spark relief.",
-      "bear_case": "NPL and provision deterioration forces a guidance reset.",
-      "social_sentiment": "Skeptical and event-driven; squeeze risk is more useful than tone.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "NU",
-      "base_case": "Monetization remains strong while credit metrics normalize partially.",
-      "bull_case": "ARPAC and Mexico profitability outweigh credit-cost concerns.",
-      "bear_case": "Risk-adjusted NIM and early-stage delinquencies remain soft.",
-      "social_sentiment": "Constructive retail interest, but not primary evidence.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "RLX",
-      "base_case": "International growth continues with stable gross margin.",
-      "bull_case": "Acquisition contribution and mix drive another strong margin quarter.",
-      "bear_case": "Regulatory or integration pressure interrupts growth.",
-      "social_sentiment": "Sparse and not decision-useful.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "DLO",
-      "base_case": "TPV remains strong and guidance is maintained.",
-      "bull_case": "Broad-based TPV strength and normalized costs support the upper half of full-year operating-profit guidance.",
-      "bear_case": "Weak take rate, FX/mix pressure or working-capital noise undermines the volume headline.",
-      "social_sentiment": "Constructive but sparse.",
-      "allocation_priority": true
-    },
-    {
-      "ticker": "GLOB",
-      "base_case": "In-line quarter with a soft guide pressures shares.",
-      "bull_case": "AI Pods, subscription initiatives and resilient margins produce a less-bad-than-feared guide.",
-      "bear_case": "Discretionary IT demand remains weak and forward revenue growth disappoints.",
-      "social_sentiment": "Unavailable or too thin to influence scoring.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "KLC",
-      "base_case": "Enrollment improvement remains gradual.",
-      "bull_case": "Enrollment inflects, Champions/B2B remains resilient and cost actions protect EBITDA.",
-      "bear_case": "Core occupancy stays weak and center-level operating leverage disappoints.",
-      "social_sentiment": "Unavailable or too thin to influence scoring.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "RMIX",
-      "base_case": "Mixed volume and margin execution.",
-      "bull_case": "Volume, pricing and acquisition contribution beat a low bar.",
-      "bear_case": "Weather, integration costs or weak unit margins overwhelm revenue growth.",
-      "social_sentiment": "Unavailable or too thin to influence scoring.",
-      "allocation_priority": false
-    },
-    {
-      "ticker": "TMS",
-      "base_case": "Initial benchmarks provide little clean price signal.",
-      "bull_case": "Portfolio-company growth and acquisition economics validate the platform story.",
-      "bear_case": "Organic quality, leverage or integration costs disappoint newly formed expectations.",
-      "social_sentiment": "Unavailable or too thin to influence scoring.",
-      "allocation_priority": false
+      "ticker": "HIVE",
+      "consensus_summary": "All three independent passes leaned down. The average direction score was -32.7 and average reversal risk was 65.3; low disparity (8) shows agreement on the base direction, while risk remained high in every pass.",
+      "averaged_direction_score": -33,
+      "averaged_reversal_risk": 65,
+      "disparity": 8,
+      "recommendation": "Lean Down; do not prioritize in the research allocation basket",
+      "confidence": "Medium-Low",
+      "thesis": "The decisive metric is mining gross operating margin, not headline EPS.",
+      "what_market_expects": "Approximately -$0.20 EPS and $82.5-$82.8 million revenue.",
+      "what_could_make_stock_go_up": "Better mining economics, resilient gross margin, or credible BUZZ HPC growth commentary could clear a de-risked bar.",
+      "what_could_make_stock_go_down": "A revenue miss, margin compression, higher network difficulty, financing dilution, or cautious HPC timing could outweigh hashrate growth.",
+      "reversal_risk_assessment": "High: short interest near 23.4% of float, a stock already below July reference prices, and very high implied volatility could turn a merely less-bad print into a squeeze.",
+      "social_sentiment_read": "The visible HIVE community is strongly bullish and AI-infrastructure focused, but it is small, promotional, and not treated as primary evidence.",
+      "options_positioning_read": "Approximately 35% public expected-move indication for September; event-specific weekly pricing was not reliably available.",
+      "analyst_revision_read": "Sparse coverage and only about three estimates reduce the precision of the published consensus.",
+      "base_case": "Revenue lands below or near consensus with pressured mining margin; shares lean lower but remain within the very wide implied range.",
+      "bull_case": "Low-$80 million-plus revenue, stronger realized Bitcoin economics, and concrete HPC backlog or guidance trigger a short squeeze.",
+      "bear_case": "Revenue and margin miss together, while dilution or capex commentary reinforces balance-sheet concerns.",
+      "final_directional_judgment": "Lean Down, not Strong Down, because the negative operating setup is offset by a de-risked price and severe squeeze risk.",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk of 65 is well above the model's 40 ceiling despite an absolute score above 30.",
+      "disparity_effect": "Low disparity supports consistency of the bearish read, but it cannot override high opposite-direction squeeze risk.",
+      "method_update_note": "No new method change. Existing expectation-bar, key-metric-first, and forward-look checks were applied."
     }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
