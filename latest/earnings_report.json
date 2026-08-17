@@ -1,116 +1,20 @@
 {
-  "generation_timestamp": "2026-08-14T17:12:17Z",
-  "covered_report_window": "U.S.-listed companies reporting after the Friday, August 14, 2026 U.S. market close and before the Monday, August 17, 2026 U.S. market open",
-  "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "U.S. equities were slightly lower but near record highs after July retail sales fell 0.6% and preliminary August consumer sentiment dropped to 51.0; Bitcoin was near $63,068, leaving crypto-miner economics under pressure into a weekend-gap earnings event.",
-  "companies_reviewed_count": 1,
-  "top_setups": {
-    "upward": [],
-    "downward": [],
-    "neutral_or_mixed": [
-      "HIVE"
-    ]
-  },
+  "generation_timestamp": "2026-08-17T19:02:01+02:00",
+  "covered_report_window": "U.S. companies reporting after the market close on Monday, August 17, 2026, plus companies reporting before the market open on Tuesday, August 18, 2026",
+  "report_type": "US1_full_ranked_earnings_report",
+  "market_context_summary": "Housing affordability and weak turnover remain headwinds for Home Depot; Tuesday housing starts and industrial-production releases add macro sensitivity. AI infrastructure demand supports Fabrinet and Baidu, while elevated expectations and valuation raise reversal risk. Consumer-credit conditions matter for Klarna and Brazilian rates and flows matter for XP.",
+  "companies_reviewed_count": 6,
+  "top_setups": {"upward": ["FN", "AS", "KLAR"], "downward": ["HD", "XP", "BIDU"]},
   "ranked_companies": [
-    {
-      "rank": 1,
-      "ticker": "HIVE",
-      "company": "HIVE Digital Technologies Ltd.",
-      "timing": "Friday, August 14, 2026 after market close; conference call Monday, August 17 at 8:00 a.m. ET",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 5,
-      "reversal_risk": 68,
-      "confidence": "Low",
-      "expected_driver": "Realized HPC revenue/ARR conversion and Bitcoin-mining gross margin",
-      "key_risk_to_call": "A current-quarter revenue miss could outweigh the AI contract; 22.5% short float could also squeeze sharply",
-      "evidence_quality": "Medium",
-      "one_sentence_thesis": "The new sovereign-AI contract and crowded shorts create relief upside, but weaker Bitcoin economics, a demanding revenue bar, and heavy exchangeable-note financing leave no reliable immediate direction.",
-      "market_expectation_summary": "Sparse public consensus points to roughly a $0.16-$0.20 loss per share and about $82.75 million of revenue, versus fiscal Q4 revenue of $71.82 million.",
-      "upside_case_summary": "Realized HPC revenue and the $35 million ARR base convert cleanly, management de-risks the contracted $70 million ARR deployment, and a less-bad mining quarter triggers a squeeze.",
-      "downside_case_summary": "Revenue misses as lower Bitcoin prices and network difficulty compress mining economics, while capital needs and exchangeable-note dilution dominate the forward view.",
-      "options_or_positioning_summary": "HIVE options carried roughly 114% implied volatility in the latest public snapshot; an older event preview indicated a roughly 16.4% move. Short interest reached 60.44 million shares, or 22.5% of float, on July 31.",
-      "analyst_revision_summary": "Coverage is sparse at about three estimates. Published consensus is still constructive on long-term valuation, but HIVE missed fiscal Q4 revenue and EPS estimates and estimate precision is low.",
-      "key_sources": [
-        "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-to-release-fiscal-q1-2027-financial-results-on-august-14th-and-hold-earnings-call-on-august-17th/",
-        "https://www.hivedigitaltechnologies.com/news/hive-achieves-fy2026-total-revenue-of-2978-million-158-yoy-hives-buzz-hpc-positioned-for-growth/",
-        "https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-closes-usd-220-million-sovereign-ai-gpu-contract-with-bell-ai-fabric-for-cohere-inc/",
-        "https://www.hivedigitaltechnologies.com/news/hive-announces-upsizing-and-pricing-of-private-offering-of-us115-million-of-0-exchangeable-senior-notes-due-2031/",
-        "https://www.marketbeat.com/stocks/NASDAQ/HIVE/short-interest/",
-        "https://www.fxempire.com/stocks/hive/earnings",
-        "https://www.benzinga.com/quote/hive/analyst-ratings",
-        "https://www.barchart.com/stocks/quotes/HIVE/expected-move"
-      ],
-      "disparity": 32,
-      "pass_agreement": "Material disagreement: Pass A Lean Down (-34), Pass B Lean Up (+42), Pass C Neutral (+8)",
-      "method_update_note": "Existing forward-demand proof gate applied: future AI contract value did not substitute for realized ARR conversion or a de-risked deployment schedule."
-    }
+    {"rank":1,"ticker":"FN","company":"Fabrinet","timing":"2026-08-17 after close","direction_call":"Lean Up","direction_score":46,"reversal_risk":58,"disparity":11,"confidence":"Medium","expected_driver":"Datacom revenue and Q1 guide","key_risk_to_call":"50.8x P/E; beat priced in","evidence_quality":"High","one_sentence_thesis":"AI-optical demand can sustain outsized datacom growth and a strong guide, but the valuation requires more than an ordinary beat.","market_expectation_summary":"Street EPS estimates cluster around $3.81-$3.93 on roughly $1.31B revenue after a 39% Q3 revenue increase.","upside_case_summary":"Datacom growth and the fiscal Q1 outlook clear a very high bar.","downside_case_summary":"Guidance merely meets expectations or margins soften after the stock's run.","options_or_positioning_summary":"Event IV is elevated and published weekly implied-move estimates were unusually wide; long-event expectations are demanding.","analyst_revision_summary":"Consensus sits near company guidance after Q3 beat; upward revisions leave a high whisper bar.","key_sources":["https://investor.fabrinet.com/events-and-presentations/events","https://investor.fabrinet.com/node/13561/pdf","https://www.fxempire.com/stocks/fn/earnings"]},
+    {"rank":2,"ticker":"AS","company":"Amer Sports","timing":"2026-08-18 before open","direction_call":"Lean Up","direction_score":43,"reversal_risk":39,"disparity":8,"confidence":"Medium","expected_driver":"Arc'teryx omni-comp and guide","key_risk_to_call":"Raised bar; margin mix","evidence_quality":"High","one_sentence_thesis":"Broad brand momentum and raised guidance support upside if Arc'teryx comps and margins remain strong.","market_expectation_summary":"Consensus EPS is about $0.11 after Q1 revenue grew 32% and management raised 2026 revenue, margin, and EPS guidance.","upside_case_summary":"Arc'teryx and Salomon growth support another raise with margin expansion.","downside_case_summary":"Technical Apparel growth slows or SG&A and mix pressure margins.","options_or_positioning_summary":"No reliable same-day implied-move figure was available; event risk remains meaningful after strong operating momentum.","analyst_revision_summary":"The prior guidance raise lifted the bar; evidence remains positive but expectations are no longer low.","key_sources":["https://investors.amersports.com/financial-news/news-details/2026/Amer-Sports-Inc--to-Report-Second-Quarter-2026-Financial-Results-on-August-18-2026/default.aspx","https://investors.amersports.com/financial-news/news-details/2026/Amer-Sports-Reports-First-Quarter-2026-Financial-Results-Raises-Full-Year-Revenue-Margin-and-EPS-Guidance/default.aspx"]},
+    {"rank":3,"ticker":"HD","company":"Home Depot","timing":"2026-08-18 before open","direction_call":"Lean Down","direction_score":-34,"reversal_risk":38,"disparity":9,"confidence":"Medium","expected_driver":"U.S. comps and H2 guide","key_risk_to_call":"Low bar; Pro resilience","evidence_quality":"High","one_sentence_thesis":"Housing pressure and an optimistic second-half recovery assumption create downside risk around comps and guidance.","market_expectation_summary":"Street expects about $4.73 EPS and $47.2B revenue; fiscal guidance calls for flat to 2% comps.","upside_case_summary":"Pro demand, online growth, and cost control produce a modest beat and reaffirmed outlook.","downside_case_summary":"Big-ticket demand and transactions stay soft, forcing cautious second-half commentary.","options_or_positioning_summary":"Recent average one-day earnings move is about 2.6%, limiting expected magnitude absent a guide change.","analyst_revision_summary":"At least one major analyst forecast is below Street and questions expected second-half strengthening.","key_sources":["https://ir.homedepot.com/events-and-presentations?page=1","https://ir.homedepot.com/news-releases/2026/05-19-2026-110111934","https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"]},
+    {"rank":4,"ticker":"KLAR","company":"Klarna Group plc","timing":"2026-08-18 before open","direction_call":"Neutral / No Edge","direction_score":21,"reversal_risk":63,"disparity":18,"confidence":"Low","expected_driver":"Transaction margin dollars","key_risk_to_call":"Credit losses; soft guide","evidence_quality":"High","one_sentence_thesis":"Fast GMV and transaction-margin growth are offset by credit-loss sensitivity and a history of guidance disappointing a bullish operating print.","market_expectation_summary":"Q1 revenue grew 44%, TMD grew 44%, and adjusted operating profit reached $68M, but Q2 revenue guidance was below the prior analyst consensus cited by Reuters.","upside_case_summary":"TMD growth, take rate, and credit losses all beat while full-year profitability rises.","downside_case_summary":"Provision rate or funding costs rise and guidance again falls short of the buy-side bar.","options_or_positioning_summary":"The stock fell about 6.7% intraday before earnings; options are available but no reliable event-implied move was confirmed.","analyst_revision_summary":"Strong Q1 fundamentals conflict with a softer Q2 revenue guide, producing mixed estimate direction.","key_sources":["https://investors.klarna.com/News--Events/news/news-details/2026/Klarna-to-Publish-Q2-2026-Earnings-on-August-18-2026/default.aspx","https://www.sec.gov/Archives/edgar/data/2003292/000162828026034877/exhibitno992q126earnings.htm","https://www.reddit.com/r/Klarna_Stock/comments/1tcw7xq/klarna_profit_revenue_ahead_of_forecast_but/"]},
+    {"rank":5,"ticker":"XP","company":"XP Inc.","timing":"2026-08-17 after close","direction_call":"Lean Down","direction_score":-28,"reversal_risk":47,"disparity":13,"confidence":"Low","expected_driver":"Retail net inflows and take rate","key_risk_to_call":"Low valuation; relief beat","evidence_quality":"Medium","one_sentence_thesis":"Healthy asset growth is offset by limited evidence of accelerating organic retail flows and sensitivity to Brazilian rates and monetization.","market_expectation_summary":"Q1 net inflow was R$14B, retail net inflow R$19B, and client assets rose 17% year over year.","upside_case_summary":"Retail inflows and revenue yields improve while cost discipline lifts earnings.","downside_case_summary":"Flow mix, take rate, or management tone signal weaker earnings quality.","options_or_positioning_summary":"No reliable event-implied move was available; the ADR was down about 1.6% intraday before the report.","analyst_revision_summary":"Current public revision evidence was insufficient for a strong conviction call.","key_sources":["https://investors.xpinc.com/en/","https://www.businesswire.com/news/home/20260518553415/en/XP-Inc.-Reports-First-Quarter-2026-Results"]},
+    {"rank":6,"ticker":"BIDU","company":"Baidu","timing":"2026-08-18 before open","direction_call":"Neutral / No Edge","direction_score":-17,"reversal_risk":55,"disparity":15,"confidence":"Low","expected_driver":"AI Cloud vs. ad decline","key_risk_to_call":"AI acceleration squeeze","evidence_quality":"High","one_sentence_thesis":"AI Cloud acceleration is powerful, but legacy advertising pressure and AI investment costs leave no clean directional edge.","market_expectation_summary":"Q1 AI Cloud Infra revenue grew 79% and GPU Cloud 184%, while investors continue to weigh monetization against legacy ad and spending pressure.","upside_case_summary":"Cloud growth remains near Q1 levels and AI monetization offsets advertising weakness.","downside_case_summary":"Core ads weaken further and AI infrastructure spending compresses profit.","options_or_positioning_summary":"No reliable current event-implied move was confirmed; China ADR macro and policy beta can dominate company results.","analyst_revision_summary":"Public evidence is mixed and insufficient to establish a clean revision trend.","key_sources":["https://baidu.gcs-web.com/","https://ir.baidu.com/news-releases/news-release-details/baidu-announces-first-quarter-2026-results/"]}
   ],
-  "research_allocation_view": {
-    "qualified_names": [],
-    "excluded_high_reversal_or_weak_names": [
-      {
-        "ticker": "HIVE",
-        "reason": "Consensus score of +5 fails the absolute-score threshold and reversal risk of 68 exceeds the 40 ceiling."
-      }
-    ],
-    "plain_statement": "This is a research prioritization model, not financial advice."
-  },
-  "detailed_company_sections": [
-    {
-      "ticker": "HIVE",
-      "consensus_summary": "The three fully independent passes produced -34, +42, and +8 direction scores and 72, 64, and 69 reversal-risk values. The resulting averages are +5 direction and 68 reversal risk.",
-      "averaged_direction_score": 5,
-      "averaged_reversal_risk": 68,
-      "disparity": 32,
-      "pass_agreement_pattern": "One bearish pass, one bullish pass, and one neutral pass; disagreement is material.",
-      "recommendation": "Neutral / No Edge",
-      "confidence": "Low",
-      "one_sentence_thesis": "Forward AI demand is real, but current-quarter conversion and Bitcoin economics are too uncertain for a reliable immediate direction.",
-      "what_the_market_expects": "Approximately $82.75 million of revenue and a $0.16-$0.20 loss per share from a sparse analyst set.",
-      "what_could_make_the_stock_go_up": "A clean HPC revenue step-up, reaffirmed $35 million realized ARR plus credible timing for another $70 million contracted ARR, and resilient mining margin could force short covering.",
-      "what_could_make_the_stock_go_down": "Another revenue miss, margin compression, or capex and dilution commentary could show that the AI narrative is arriving later and more expensively than the market needs.",
-      "reversal_risk_assessment": "High. The stock has de-risked, short interest is 22.5% of float, and event volatility is elevated, so either a less-bad report or a disappointing conversion update could reverse a headline read quickly.",
-      "social_sentiment_read": "Investor discussion is strongly AI-bullish but promotional and polarized; recurring dilution complaints are also prominent. No independent customer-sentiment signal was strong enough to affect the score.",
-      "options_positioning_read": "Public data show very high implied volatility, while exact event-week pricing was not reliable enough to treat as a precise forecast. Short crowding is the more defensible positioning signal.",
-      "analyst_revision_read": "Long-term ratings remain mostly constructive, but estimates are sparse and HIVE missed fiscal Q4 revenue and EPS; the consensus bar is therefore directionally useful but not precise.",
-      "base_case": "Reported revenue lands near or below consensus, current HPC conversion is encouraging but not enough to settle the financing debate, and the share reaction is volatile without a durable direction.",
-      "bull_case": "Revenue clears the low-$80 millions and management converts the AI contract pipeline into credible near-term ARR, producing a sharp relief rally.",
-      "bear_case": "Mining revenue and margin miss while financing needs and delayed deployments dominate, pushing the stock lower despite the contract headline.",
-      "final_directional_judgment": "Neutral / No Edge. The averaged score is +5, far inside the neutral band.",
-      "research_allocation_priority": false,
-      "allocation_rationale": "No allocation: absolute direction score is below 30, reversal risk is above 40, confidence is Low, and disparity is moderate.",
-      "disparity_effect_on_conviction": "Moderate disparity reduced confidence and eliminated allocation priority even though the averaged score leaned slightly positive.",
-      "method_update_note": "No new framework change. The existing learned lesson requiring realized forward-demand proof for bullish allocation was applied narrowly.",
-      "key_sources": [
-        "https://www.hivedigitaltechnologies.com/news/hive-digital-technologies-to-release-fiscal-q1-2027-financial-results-on-august-14th-and-hold-earnings-call-on-august-17th/",
-        "https://www.hivedigitaltechnologies.com/news/hive-achieves-fy2026-total-revenue-of-2978-million-158-yoy-hives-buzz-hpc-positioned-for-growth/",
-        "https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-closes-usd-220-million-sovereign-ai-gpu-contract-with-bell-ai-fabric-for-cohere-inc/",
-        "https://www.marketbeat.com/stocks/NASDAQ/HIVE/short-interest/"
-      ],
-      "independent_passes": [
-        {
-          "pass": "A",
-          "direction_score": -34,
-          "reversal_risk": 72,
-          "direction_call": "Lean Down",
-          "key_metric": "Mining revenue and gross operating margin versus the consensus revenue bar"
-        },
-        {
-          "pass": "B",
-          "direction_score": 42,
-          "reversal_risk": 64,
-          "direction_call": "Lean Up",
-          "key_metric": "Realized HPC ARR and contracted AI deployment timing"
-        },
-        {
-          "pass": "C",
-          "direction_score": 8,
-          "reversal_risk": 69,
-          "direction_call": "Neutral / No Edge",
-          "key_metric": "Capital conversion into ARR relative to exchangeable-note dilution"
-        }
-      ]
-    }
-  ],
+  "research_allocation_view": {"qualified_names":[{"ticker":"AS","direction":"Lean Up","allocation_percent":45,"reason":"Score above 30, reversal risk below 40, high evidence quality, low disparity"}],"unallocated_percent":55,"excluded_high_reversal_risk":["FN"],"other_exclusions":["HD narrowly misses reversal-risk discipline after effective macro uncertainty control; KLAR, XP, and BIDU fail score or evidence thresholds"],"is_financial_advice":false},
+  "detailed_company_sections": [],
+  "consensus_method": {"passes":3,"direction_score_method":"arithmetic mean of independent pass scores","reversal_risk_method":"arithmetic mean of independent pass risks","disparity_definition":"0-100 normalized dispersion of the three direction and reversal-risk assessments; lower means tighter agreement","learned_lessons_update":"Existing expectation-bar, key-metric-first, and forward-look checks applied; no new method change warranted."},
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
