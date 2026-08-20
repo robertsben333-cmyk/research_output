@@ -1,1 +1,245 @@
-{"generation_timestamp":"2026-08-19T17:13:58Z","covered_report_window":"U.S.-listed companies reporting after the U.S. market close on Wednesday, August 19, 2026, plus companies reporting before the U.S. market opens on Thursday, August 20, 2026.","report_type":"full_ranked_earnings_report","market_context_summary":"U.S. equities were modestly higher after three down sessions as Treasury-buying plans eased bond pressure, but elevated long-term yields, oil and inflation concerns remained important; July FOMC minutes were due at 2 p.m. ET during the run.","companies_reviewed_count":12,"top_setups":{"upward":["AAP","NTES","SCSC"],"downward":["COTY","DE","BILL"],"neutral_or_mixed":["WMT","BABA","BULL"]},"ranked_companies":[{"rank":1,"ticker":"AAP","company":"Advance Auto Parts, Inc.","timing":"Before market open on 2026-08-20","direction_call":"Lean Up","direction_score":40,"reversal_risk":39,"confidence":"Medium","expected_driver":"Comparable sales, adjusted operating margin, and FY26 guidance","key_risk_to_call":"Harder second-half comparisons and no guide raise","evidence_quality":"High","one_sentence_thesis":"Q1 comparable-sales and margin improvement support upside if the turnaround translates into a higher full-year guidance floor.","market_expectation_summary":"Consensus is about $0.80-$0.81 adjusted EPS; RBC expects 2.0% comparable sales and a 4.5% adjusted operating margin.","upside_case_summary":"Comparable sales remain near 2%, margins reach the high end, and management raises the low end of FY26 guidance.","downside_case_summary":"Traffic slows, margin improvement is mostly lapping noise, or management emphasizes harder second-half comparisons.","options_or_positioning_summary":"Options imply about a 10% move; the stock was up roughly 38% year to date, so a merely in-line print can reverse.","analyst_revision_summary":"The most accurate estimate was above consensus, and RBC raised its EPS model to $3.04 for FY26.","key_sources":["https://ir.advanceautoparts.com/investors/news-and-events/press-releases/press-release-details/2026/Advance-Auto-Parts-Reports-First-Quarter-2026-Results-Reaffirms-Full-Year-2026-Guidance/default.aspx","https://ng.investing.com/news/stock-market-news/rbc-raises-advance-auto-parts-stock-price-target-on-margin-outlook-93CH-2658770","https://ph.investing.com/news/stock-market-news/advance-auto-parts-options-indicate-10-move-on-aug-20-results-93CH-2550833"],"disparity":5,"pass_agreement":"3/3 Lean Up","method_update_note":"Existing high-bar guide-raise guardrail applied"},{"rank":2,"ticker":"NTES","company":"NetEase, Inc.","timing":"Before market open on 2026-08-20","direction_call":"Lean Up","direction_score":39,"reversal_risk":36,"confidence":"Medium","expected_driver":"Games revenue, engagement, pipeline timing, and gross margin","key_risk_to_call":"Launch slippage or weaker legacy-title engagement","evidence_quality":"High","one_sentence_thesis":"Established-game engagement, a healthy pipeline, and rising estimates support upside if Q2 preserves gross-profit momentum.","market_expectation_summary":"Public previews point to roughly 4.7% revenue growth, with consensus EPS near RMB15.5 per ADS.","upside_case_summary":"Core titles remain resilient, global launches add revenue, and gross-profit growth continues to outpace revenue.","downside_case_summary":"Pipeline delays or softer engagement make the revenue mix less profitable than Q1.","options_or_positioning_summary":"Public options data suggested roughly a 9% implied move; short interest was low in the cited dataset.","analyst_revision_summary":"Public estimate-revision research turned positive in June, supporting a constructive but not high-confidence setup.","key_sources":["https://ir.netease.com/news-releases/news-release-details/netease-announces-first-quarter-2026-unaudited-financial-results","https://en.prnasia.com/releases/global/netease-to-report-second-quarter-2026-financial-results-on-august-20-543188.shtml","https://www.zacks.com/stock/news/2936784/earnings-estimates-rising-for-netease-ntes-will-it-gain"],"disparity":5,"pass_agreement":"3/3 Lean Up","method_update_note":"None"},{"rank":3,"ticker":"SCSC","company":"ScanSource, Inc.","timing":"Before market open on 2026-08-20","direction_call":"Lean Up","direction_score":35,"reversal_risk":34,"confidence":"Medium","expected_driver":"Gross profit, recurring mix, free cash flow, and FY27 guidance","key_risk_to_call":"EBITDA-margin compression or soft FY27 outlook","evidence_quality":"Medium-High","one_sentence_thesis":"Low valuation, cash generation, and sales growth support upside if recurring gross profit and the FY27 outlook hold.","market_expectation_summary":"Consensus is about $1.14 adjusted EPS and $822 million revenue for fiscal Q4.","upside_case_summary":"Revenue growth converts into better gross profit, free cash flow stays strong, and FY27 guidance is constructive.","downside_case_summary":"Recurring-revenue mix slips again and lower EBITDA margin offsets the sales beat.","options_or_positioning_summary":"Options are relatively thin; the roughly 16x trailing P/E and near-zero net leverage provide valuation support.","analyst_revision_summary":"Coverage is sparse, so consensus quality is only moderate despite a favorable operating trend.","key_sources":["https://www.scansource.com/about/press-releases/2026/scansource-delivers-strong-third-quarter-results","https://www.scansource.com/about/press-releases/2026","https://www.streetinsider.com/ec_earnings.php?day=2026-08-20"],"disparity":5,"pass_agreement":"3/3 Lean Up","method_update_note":"None"},{"rank":4,"ticker":"DE","company":"Deere & Company","timing":"Before market open on 2026-08-20","direction_call":"Lean Down","direction_score":-36,"reversal_risk":51,"confidence":"Medium","expected_driver":"Production & Precision Ag volume/margin and FY26 net-income guide","key_risk_to_call":"Early-cycle stabilization and strong non-large-ag segments","evidence_quality":"High","one_sentence_thesis":"Large-ag weakness and premium valuation leave downside risk unless orders and margins stabilize earlier than expected.","market_expectation_summary":"Consensus is about $4.69-$4.71 EPS and $10.81 billion revenue; FY26 net-income guidance stands at $4.5-$5.0 billion.","upside_case_summary":"Dealer inventories normalize, order commentary improves, and small ag/construction offset the large-ag trough.","downside_case_summary":"Production & Precision Ag volume and margin weaken again or the FY26 guide narrows downward.","options_or_positioning_summary":"The latest clean public reference showed a roughly 5.4% prior implied move; a roughly 33x trailing P/E raises cycle sensitivity.","analyst_revision_summary":"Consensus assumes lower revenue but nearly flat year-over-year EPS, leaving execution quality more important than the headline.","key_sources":["https://www.deere.com/assets/pdfs/common/news/deere-2q26-earnings-release.pdf","https://investor.deere.com/events/event-details/2026/John-Deere---3Q-Earnings-Call/default.aspx","https://www.marketbeat.com/earnings/reports/2026-8-20-deere-company-stock/"],"disparity":8,"pass_agreement":"3/3 Lean Down","method_update_note":"Existing forward-look guardrail applied"},{"rank":5,"ticker":"COTY","company":"Coty Inc.","timing":"After market close on 2026-08-19","direction_call":"Lean Down","direction_score":-55,"reversal_risk":59,"confidence":"Medium","expected_driver":"LFL sales, adjusted EBITDA, Consumer Beauty, and FY27 outlook","key_risk_to_call":"Low bar, fragrance resilience, or strategic relief","evidence_quality":"High","one_sentence_thesis":"Persistent LFL decline and margin pressure outweigh fragrance launches unless FY27 guidance and strategic actions reset expectations.","market_expectation_summary":"Consensus is near a $0.01 adjusted loss and $1.22 billion revenue; management guided Q4 adjusted EBITDA to $85-$95 million.","upside_case_summary":"Prestige fragrance holds, strategic-review clarity improves, and FY27 margins recover faster than feared.","downside_case_summary":"Mid-single-digit LFL decline, weak Consumer Beauty, and cautious FY27 guidance confirm a slow turnaround.","options_or_positioning_summary":"Options indicated about a 10% move, while the shares rallied roughly 10% intraday before the report.","analyst_revision_summary":"Three-month revenue estimates fell about 4.2%, EPS revisions were sharply negative, and the analyst consensus was Hold.","key_sources":["https://investors.coty.com/news-events-and-presentations/news/news-details/2026/Coty-Announces-Third-Quarter-Fiscal-Year-2026-Results/default.aspx","https://www.chartmill.com/stock/quote/COTY/analyst-ratings","https://m.ph.investing.com/news/stock-market-news/coty-stock-may-move-10-on-earnings-release-options-data-shows-93CH-2548101"],"disparity":18,"pass_agreement":"2 Lean Down / 1 Strong Down","method_update_note":"Existing high-bar and reversal-risk guardrail applied"},{"rank":6,"ticker":"FUTU","company":"Futu Holdings Limited","timing":"Before market open on 2026-08-20","direction_call":"Lean Up","direction_score":34,"reversal_risk":49,"confidence":"Medium","expected_driver":"Funded accounts, client assets, trading volume, and adjusted net income","key_risk_to_call":"Profit quality, regulatory headlines, and trading normalization","evidence_quality":"Medium-High","one_sentence_thesis":"Funded-account, client-asset, and trading-volume growth support upside, but profit-quality and regulatory risk make the reaction reversible.","market_expectation_summary":"Consensus is roughly HKD6.48 billion revenue and HKD21.3 EPS per ADS, about 22% and 13% year-over-year growth respectively.","upside_case_summary":"Trading activity and client inflows remain strong while adjusted profit normalizes from Q1 distortions.","downside_case_summary":"Net-income quality disappoints again or regulatory/market volatility weakens the forward read.","options_or_positioning_summary":"The stock was down roughly 36% over the cited quarter, which lowers the bar but creates squeeze-sensitive positioning.","analyst_revision_summary":"Consensus is constructive, but unit conventions vary across public providers and reduce evidence quality.","key_sources":["https://ir.futuholdings.com/news-releases/news-release-details/futu-announces-first-quarter-2026-unaudited-financial-results/","https://ir.futuholdings.com/news-releases/news-release-details/futu-report-second-quarter-2026-financial-results-august-20-2026","https://www.fxempire.com/stocks/futu/earnings"],"disparity":9,"pass_agreement":"3/3 Lean Up; magnitude varied","method_update_note":"None"},{"rank":7,"ticker":"NDSN","company":"Nordson Corporation","timing":"After market close on 2026-08-19","direction_call":"Lean Up","direction_score":32,"reversal_risk":46,"confidence":"Medium","expected_driver":"Backlog, Advanced Technology Solutions growth, and FY26 guidance","key_risk_to_call":"Consensus near/above the prior guide and premium valuation","evidence_quality":"High","one_sentence_thesis":"Backlog and electronics-dispense momentum support upside, but consensus already sits near or above the prior guide.","market_expectation_summary":"Consensus EPS is about $3.09 and revenue estimates approach $796 million, versus company guidance of $760-$790 million and $2.95-$3.15 EPS.","upside_case_summary":"Backlog converts cleanly, ATS organic growth remains strong, and management raises FY26 guidance again.","downside_case_summary":"Revenue only lands inside the guide, order momentum normalizes, or medical/industrial mix weighs on margins.","options_or_positioning_summary":"A roughly 32x trailing P/E and repeated guide raises create a beat-and-raise expectation bar.","analyst_revision_summary":"EPS consensus sits near the midpoint, while the revenue bar is at or above the high end of prior guidance.","key_sources":["https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Reports-Record-Second-Quarter-Fiscal-2026-Results-and-Increases-Full-Year-Guidance/default.aspx","https://investors.nordson.com/news/news-details/2026/Nordson-Corporation-Announces-Earnings-Release-and-Webcast-for-Third-Quarter-Fiscal-Year-2026/default.aspx","https://www.marketbeat.com/stocks/NASDAQ/NDSN/earnings/"],"disparity":6,"pass_agreement":"3/3 Lean Up","method_update_note":"Existing high-bar guide-raise guardrail applied"},{"rank":8,"ticker":"BILL","company":"BILL Holdings, Inc.","timing":"After market close on 2026-08-19","direction_call":"Lean Down","direction_score":-29,"reversal_risk":55,"confidence":"Low","expected_driver":"FY27 core-revenue growth, TPV, and operating margin","key_risk_to_call":"Low valuation and another beat can trigger relief","evidence_quality":"High","one_sentence_thesis":"The reported quarter can be fine while FY27 core-revenue and TPV guidance still fails to clear a higher post-rally bar.","market_expectation_summary":"Q4 guidance is $425-$435 million revenue, 13%-16% core growth, and $0.69-$0.72 adjusted EPS; consensus is near the midpoint.","upside_case_summary":"FY27 core growth reaccelerates, TPV strengthens, and margin guidance proves conservative.","downside_case_summary":"Customer/TPV growth softens or FY27 guidance confirms deceleration despite a Q4 beat.","options_or_positioning_summary":"Options implied roughly 12%-14%; shares had risen about 14.9% in the prior month.","analyst_revision_summary":"The published Q4 bar largely matches management guidance, making FY27 commentary more important than headline EPS.","key_sources":["https://investor.bill.com/news/news-details/2026/BILL-Reports-Third-Quarter-Fiscal-Year-2026-Financial-Results-and-Announces-1-0-Billion-Share-Repurchase-Authorization/default.aspx","https://www.zacks.com/stock/news/2974837/unlocking-q4-potential-of-bill-holdings-bill-exploring-wall-street-estimates-for-key-metrics","https://m.ph.investing.com/news/stock-market-news/bill-holdings-stock-may-swing-12-on-earnings-release-93CH-2548137"],"disparity":18,"pass_agreement":"2 Lean Down / 1 Neutral","method_update_note":"Existing forward-look guardrail applied"},{"rank":9,"ticker":"ATHM","company":"Autohome Inc.","timing":"Before market open on 2026-08-20","direction_call":"Lean Down","direction_score":-29,"reversal_risk":56,"confidence":"Low","expected_driver":"Lead-generation revenue, paying dealers, and buyback execution","key_risk_to_call":"$400 million buyback and a deeply reset demand bar","evidence_quality":"Medium","one_sentence_thesis":"Falling dealer and automaker spending outweighs buyback support unless lead-generation revenue stabilizes faster than expected.","market_expectation_summary":"Consensus is roughly RMB1.33 billion revenue and RMB2.15 EPS, but only a small analyst set is available.","upside_case_summary":"Advertising and dealer spending stabilize, while the new $400 million buyback supports the ADSs.","downside_case_summary":"Paying dealers and lead-generation revenue continue their double-digit contraction.","options_or_positioning_summary":"Options evidence is thin; buyback and dividend support increase relief-rally risk.","analyst_revision_summary":"Only about two estimates were visible publicly, so the consensus signal is weak.","key_sources":["https://autohomeinc.gcs-web.com/news-releases/news-release-details/autohome-inc-announces-unaudited-first-quarter-2026-financial","https://autohomeinc.gcs-web.com/","https://www.streetinsider.com/ec_earnings.php?day=2026-08-20"],"disparity":19,"pass_agreement":"2 Lean Down / 1 Neutral","method_update_note":"None"},{"rank":10,"ticker":"WMT","company":"Walmart Inc.","timing":"Before market open on 2026-08-20","direction_call":"Lean Up","direction_score":28,"reversal_risk":54,"confidence":"Medium","expected_driver":"U.S. comps, advertising/e-commerce profit, and FY27 guidance","key_risk_to_call":"Premium valuation and tariff/price reinvestment","evidence_quality":"High","one_sentence_thesis":"Share gains and high-margin digital businesses support a beat, but the valuation demands strong comps and a clean raise.","market_expectation_summary":"Street expects about $186.9 billion revenue and $0.74 EPS, at the top of management's $0.72-$0.74 Q2 range.","upside_case_summary":"Traffic-led comps, advertising, membership, and e-commerce margins support a FY27 raise.","downside_case_summary":"A good sales quarter fails to lift the guide because price investment and mix pressure margins.","options_or_positioning_summary":"Options imply about 4.6%; the stock trades near 40.5x trailing earnings and fell 7.7% after the prior report.","analyst_revision_summary":"Revenue estimates rose about 0.4% over three months; Jefferies expected an in-line quarter.","key_sources":["https://stock.walmart.com/sec-filings/all-sec-filings/content/0000104169-26-000095/earningspresentationfy27.htm","https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks","https://finance.yahoo.com/markets/stocks/articles/walmart-faces-4-6-earnings-184418639.html"],"disparity":18,"pass_agreement":"2 Lean Up / 1 Neutral","method_update_note":"Existing high-bar guide-raise guardrail applied"},{"rank":11,"ticker":"BABA","company":"Alibaba Group Holding Limited","timing":"Before market open on 2026-08-20","direction_call":"Lean Down","direction_score":-28,"reversal_risk":60,"confidence":"Low","expected_driver":"Cloud/AI revenue, quick-commerce losses, EBITA, and capex","key_risk_to_call":"Cloud upside and less-bad quick-commerce losses","evidence_quality":"High","one_sentence_thesis":"Cloud/AI acceleration is strong, but quick-commerce losses and capex can keep group profit and cash flow under pressure.","market_expectation_summary":"Consensus points to roughly 6.3% revenue growth and a roughly 31% adjusted EPS decline.","upside_case_summary":"Cloud growth reaches the mid-40s, AI monetization accelerates, and quick-commerce losses improve sequentially.","downside_case_summary":"Cloud misses elevated whispers or reinvestment drives another EBITA and free-cash-flow reset.","options_or_positioning_summary":"Options imply about 5.7%, but the prior two reports moved roughly 10%-14%; shares rose about 10.7% in under two weeks.","analyst_revision_summary":"Institutional sentiment is bullish on cloud, which raises the real bar above headline consensus.","key_sources":["https://www.alibabagroup.com/en-US/document-2022412636729114624","https://apnews.com/article/e83a76c7188e27f69c9c3d7e4f8d9d83","https://ng.investing.com/news/stock-market-news/alibaba-stock-may-move-57-on-aug-20-earnings-report-93CH-2658677"],"disparity":20,"pass_agreement":"2 Lean Down / 1 Neutral","method_update_note":"Existing high-bar and forward-look guardrails applied"},{"rank":12,"ticker":"BULL","company":"Webull Corporation","timing":"After market close on 2026-08-19","direction_call":"Lean Up","direction_score":27,"reversal_risk":70,"confidence":"Low","expected_driver":"DART monetization, funded accounts, assets, and expenses","key_risk_to_call":"Flat funded accounts and retail-heavy event positioning","evidence_quality":"Medium","one_sentence_thesis":"Trading activity is exceptional, but flat funded accounts and retail-heavy positioning make the event unusually fragile.","market_expectation_summary":"Public calendars indicate roughly $0.05 EPS; high-quality consensus breadth is limited.","upside_case_summary":"Record June equity and options DARTs convert into revenue and operating leverage.","downside_case_summary":"Only 22,000 net new funded accounts, lower client cash, and expansion spending dominate the revenue beat.","options_or_positioning_summary":"A clean current implied move was not available; the stock rose about 6.4% intraday and retail discussion was strongly bullish.","analyst_revision_summary":"Sparse analyst coverage prevents a reliable revision signal.","key_sources":["https://www.prnewswire.com/news-releases/webull-corporation-reports-june-2026-operating-data-302826816.html","https://www.prnewswire.com/news-releases/webull-reports-first-quarter-2026-financial-results-302779540.html","https://www.prnewswire.com/news-releases/webull-to-release-second-quarter-2026-results-on-august-19-2026-302843963.html"],"disparity":19,"pass_agreement":"2 Lean Up / 1 Neutral","method_update_note":"None"}],"research_allocation_view":{"qualified_names":[{"ticker":"NTES","direction":"Lean Up","share_percent":38,"why":"Strong games and gross-profit momentum, low reversal risk, low disparity, and high-quality primary evidence."},{"ticker":"AAP","direction":"Lean Up","share_percent":35,"why":"Comparable-sales and margin improvement support the strongest score, with reversal risk still below the allocation ceiling."},{"ticker":"SCSC","direction":"Lean Up","share_percent":27,"why":"Strong cash generation, reasonable valuation, low reversal risk, and tight pass agreement."}],"excluded_high_reversal_or_weak_names":[{"ticker":"COTY","reason":"Strong raw downside score but 59 reversal risk and a low strategic-relief bar."},{"ticker":"DE","reason":"Absolute score qualifies, but 51 reversal risk exceeds the ceiling."},{"ticker":"FUTU","reason":"Absolute score qualifies, but 49 reversal risk exceeds the ceiling."},{"ticker":"NDSN","reason":"Absolute score qualifies, but 46 reversal risk exceeds the ceiling."},{"ticker":"WMT","reason":"Absolute direction score does not exceed 30 and reversal risk is 54."},{"ticker":"BILL","reason":"Absolute direction score does not exceed 30 and one pass was Neutral."},{"ticker":"ATHM","reason":"Absolute direction score does not exceed 30 and evidence breadth is limited."},{"ticker":"BABA","reason":"Absolute direction score does not exceed 30, reversal risk is 60, and disparity is moderate."},{"ticker":"BULL","reason":"Absolute direction score does not exceed 30 and reversal risk is very high at 70."}],"plain_statement":"This is a research prioritization model, not financial advice."},"detailed_company_sections":[{"ticker":"AAP","consensus_summary":"All three passes favored upside on comparable sales and margin improvement.","averaged_direction_score":40,"averaged_reversal_risk":39,"disparity":5,"recommendation":"Lean Up","confidence":"Medium","key_metric":"Comparable sales and adjusted operating margin","base_case":"Modest beat with a higher guidance floor.","bull_case":"Strong comps, high-end margin, and a guide raise.","bear_case":"Harder comparisons and no raise reverse the move.","allocation_status":"Qualified at 35%."},{"ticker":"NTES","consensus_summary":"All three passes favored upside with tight score dispersion.","averaged_direction_score":39,"averaged_reversal_risk":36,"disparity":5,"recommendation":"Lean Up","confidence":"Medium","key_metric":"Games revenue and gross-profit growth","base_case":"Healthy engagement and pipeline preserve margins.","bull_case":"Global launches accelerate and estimates rise.","bear_case":"Launch delays or engagement softness dominate.","allocation_status":"Qualified at 38%."},{"ticker":"SCSC","consensus_summary":"All three passes favored upside on cash flow and valuation.","averaged_direction_score":35,"averaged_reversal_risk":34,"disparity":5,"recommendation":"Lean Up","confidence":"Medium","key_metric":"Gross profit and FY27 outlook","base_case":"Sales growth and cash conversion remain solid.","bull_case":"Recurring mix and FY27 guidance beat.","bear_case":"Margin compression offsets revenue growth.","allocation_status":"Qualified at 27%."},{"ticker":"DE","consensus_summary":"All three passes favored downside, though relief risk remained material.","averaged_direction_score":-36,"averaged_reversal_risk":51,"disparity":8,"recommendation":"Lean Down","confidence":"Medium","key_metric":"Production & Precision Ag margin and FY26 guide","base_case":"Large-ag weakness persists.","bull_case":"Orders stabilize and other segments offset.","bear_case":"Large-ag volume/margin worsen and guidance narrows.","allocation_status":"Excluded for reversal risk above 40."},{"ticker":"COTY","consensus_summary":"All passes were bearish; one reached Strong Down, but relief risk stayed high.","averaged_direction_score":-55,"averaged_reversal_risk":59,"disparity":18,"recommendation":"Lean Down","confidence":"Medium","key_metric":"LFL sales and FY27 EBITDA outlook","base_case":"Weak LFL and margins confirm a slow turnaround.","bull_case":"Fragrance resilience and strategic clarity reset the story.","bear_case":"Consumer Beauty and FY27 guidance disappoint.","allocation_status":"Excluded for high reversal risk."},{"ticker":"FUTU","consensus_summary":"All passes favored upside, but magnitude varied with profit-quality concerns.","averaged_direction_score":34,"averaged_reversal_risk":49,"disparity":9,"recommendation":"Lean Up","confidence":"Medium","key_metric":"Funded accounts, trading volume, and adjusted net income","base_case":"Activity stays strong and profit normalizes.","bull_case":"Client growth and inflows drive a clean beat.","bear_case":"Profit quality or regulation dominates.","allocation_status":"Excluded for reversal risk above 40."},{"ticker":"NDSN","consensus_summary":"All passes favored upside, but the revenue bar was recognized as demanding.","averaged_direction_score":32,"averaged_reversal_risk":46,"disparity":6,"recommendation":"Lean Up","confidence":"Medium","key_metric":"Backlog conversion and ATS growth","base_case":"Solid quarter with modest guide support.","bull_case":"ATS accelerates and guidance rises.","bear_case":"A merely in-range result misses the buy-side bar.","allocation_status":"Excluded for reversal risk above 40."},{"ticker":"BILL","consensus_summary":"Two passes were Lean Down and one was Neutral.","averaged_direction_score":-29,"averaged_reversal_risk":55,"disparity":18,"recommendation":"Lean Down","confidence":"Low","key_metric":"FY27 core-revenue growth and TPV","base_case":"Reported beat, soft forward growth.","bull_case":"TPV and FY27 core growth reaccelerate.","bear_case":"Guidance confirms deceleration.","allocation_status":"Excluded for score, reversal risk, and bucket disagreement."},{"ticker":"ATHM","consensus_summary":"Two passes were Lean Down and one was Neutral because of buyback support.","averaged_direction_score":-29,"averaged_reversal_risk":56,"disparity":19,"recommendation":"Lean Down","confidence":"Low","key_metric":"Lead-generation revenue and paying dealers","base_case":"Dealer spending remains weak.","bull_case":"Stabilization plus buyback triggers relief.","bear_case":"Double-digit contraction persists.","allocation_status":"Excluded for score, reversal risk, and evidence breadth."},{"ticker":"WMT","consensus_summary":"Two passes were Lean Up and one was Neutral due to valuation.","averaged_direction_score":28,"averaged_reversal_risk":54,"disparity":18,"recommendation":"Lean Up","confidence":"Medium","key_metric":"U.S. comps and advertising/e-commerce profit","base_case":"Operational beat without a large guide change.","bull_case":"Margin mix supports a raise.","bear_case":"Price investment and valuation overwhelm good sales.","allocation_status":"Excluded for score and reversal risk."},{"ticker":"BABA","consensus_summary":"Two passes were Lean Down and one was Neutral; disparity was moderate.","averaged_direction_score":-28,"averaged_reversal_risk":60,"disparity":20,"recommendation":"Lean Down","confidence":"Low","key_metric":"Cloud growth versus quick-commerce losses","base_case":"Cloud strength is offset by profit pressure.","bull_case":"Cloud and AI materially clear whispers.","bear_case":"Capex and subsidies drive another cash-flow reset.","allocation_status":"Excluded for score, reversal risk, and disparity."},{"ticker":"BULL","consensus_summary":"Two passes were Lean Up and one was Neutral; all flagged very high reversal risk.","averaged_direction_score":27,"averaged_reversal_risk":70,"disparity":19,"recommendation":"Lean Up","confidence":"Low","key_metric":"DART monetization versus funded-account growth","base_case":"Trading revenue rises but account conversion stays soft.","bull_case":"Record DARTs create operating leverage.","bear_case":"Flat funded accounts and spending dominate.","allocation_status":"Excluded for score and very high reversal risk."}],"disclaimer_text":"This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."}
+{
+  "generation_timestamp": "2026-08-20T17:02:00Z",
+  "covered_report_window": "After the U.S. market close on Thursday, August 20, 2026, through before the U.S. market open on Friday, August 21, 2026.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were lower intraday as Walmart weakness, rising oil, and renewed pressure in long-term Treasury yields weighed on risk appetite; the S&P 500 was about 0.3% lower and the 30-year yield was near multi-year highs.",
+  "companies_reviewed_count": 4,
+  "methodology": {
+    "independent_passes": 3,
+    "shared_universe": [
+      "ROST",
+      "OSIS",
+      "FLO",
+      "BJ"
+    ],
+    "disparity_definition": "0-100 composite dispersion of the three independent direction and reversal-risk outputs; lower is tighter agreement.",
+    "lessons_review": "Applied the standing key-metric-first, expectation-bar, forward-look override, and separate reversal-risk guardrails. No new method change was made."
+  },
+  "exclusions": [
+    {
+      "ticker": "GRAB",
+      "reason": "Already reported Q2 results on August 3; stale calendar entry."
+    },
+    {
+      "ticker": "UI",
+      "reason": "Company timing was not confirmed and public sources conflicted between confirmed and estimated."
+    },
+    {
+      "ticker": "BKE",
+      "reason": "Company had not announced a firm date; public sources described August 21 as estimated."
+    }
+  ],
+  "top_setups": {
+    "upward": [
+      "OSIS",
+      "BJ",
+      "ROST"
+    ],
+    "downward": [
+      "FLO"
+    ],
+    "note": "Only one qualified bearish setup; no second or third bearish name met the timing-confirmed universe standard."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "OSIS",
+      "company": "OSI Systems, Inc.",
+      "timing": "After market close, Aug. 20 (4:30 p.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 44,
+      "reversal_risk": 31,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Backlog conversion and FY27 revenue/EPS guide",
+      "key_risk_to_call": "DHS/Middle East timing delays; cautious FY27 guide",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Expectation-bar and forward-look guardrails applied",
+      "one_sentence_thesis": "Record backlog and 1.3x book-to-bill support upside if backlog converts and FY27 guidance confirms durable Security demand.",
+      "market_expectation_summary": "Consensus is about $529.7M revenue and $3.77 EPS; FY26 guidance was $1.825B-$1.867B revenue and $10.30-$10.55 non-GAAP EPS.",
+      "upside_case_summary": "Backlog reaches or exceeds $1.9B, Security revenue converts cleanly, and FY27 guidance signals continued double-digit growth.",
+      "downside_case_summary": "Government timing delays push revenue right and management gives a conservative FY27 outlook.",
+      "options_or_positioning_summary": "A reliable public implied move was unavailable; 24.8x trailing earnings is not cheap but less demanding than ROST or UI.",
+      "analyst_revision_summary": "Public preview estimates sit above the prior-year quarter; Q3 beat and reiterated guidance support a constructive bar.",
+      "key_sources": [
+        "https://osisystems.gcs-web.com/investor-relations/general-information/events-and-presentations",
+        "https://www.sec.gov/Archives/edgar/data/1039065/000110465926054857/tm2613470d1_ex99-1.htm",
+        "https://www.americanbankingnews.com/2026/08/13/osi-systems-osis-to-announce-quarterly-earnings-on-thursday.html"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "FLO",
+      "company": "Flowers Foods, Inc.",
+      "timing": "After market close, Aug. 20",
+      "direction_call": "Lean Down",
+      "direction_score": -46,
+      "reversal_risk": 35,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Organic volume/mix and adjusted EBITDA margin",
+      "key_risk_to_call": "Simple Mills acceleration; very low valuation/expectations",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Key-metric-first and relief-rally checks applied",
+      "one_sentence_thesis": "Soft loaf demand and promotion-driven pressure make organic volume and margin the likely downside catalyst despite Simple Mills growth.",
+      "market_expectation_summary": "Consensus EPS is about $0.22; management reiterated FY26 guidance after Q1, while public previews expect top- and bottom-line declines.",
+      "upside_case_summary": "Simple Mills and premium brands accelerate, productivity offsets costs, and management preserves or raises guidance.",
+      "downside_case_summary": "Core loaf volumes weaken, promotions intensify, and operating leverage pushes margins below the guide path.",
+      "options_or_positioning_summary": "A reliable implied move was unavailable; shares near $7.39 and a $1.57B market cap imply a heavily de-rated setup, limiting downside conviction.",
+      "analyst_revision_summary": "Public preview evidence is cautious on volumes and costs; broad, current revision detail was unavailable.",
+      "key_sources": [
+        "https://www.tradingview.com/news/prnewswire%3Ac0d42cb932d0c%3A0-flowers-foods-to-report-second-quarter-2026-results/",
+        "https://www.zacks.com/stock/news/2975000/flowers-foods-q2-earnings-on-deck-everything-you-should-know",
+        "https://investors.flowersfoods.com/~/media/Files/F/Flowers-Foods-V3/documents/events/q1-2026/q1-2026-results-prepared-remarks-transcript.pdf"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "BJ",
+      "company": "BJ's Wholesale Club Holdings, Inc.",
+      "timing": "Before market open, Aug. 21 (8:00 a.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 36,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Gas-excluded comps and membership-income growth",
+      "key_risk_to_call": "1.5% Q1 comps persist; new-club costs pressure margins",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up; magnitude varied",
+      "method_update_note": "Expectation-bar and forward-look guardrails applied",
+      "one_sentence_thesis": "Traffic, membership income, and a modest valuation support upside if gas-excluded comps reaccelerate from Q1's 1.5%.",
+      "market_expectation_summary": "Consensus is about $1.17 EPS and $5.92B revenue; the most accurate public EPS estimate was above consensus.",
+      "upside_case_summary": "Traffic-led comps improve, renewal and fee income remain strong, and management keeps expansion costs controlled.",
+      "downside_case_summary": "Comps remain near 1.5%, discretionary mix stays soft, or pre-opening costs cap margins and guidance.",
+      "options_or_positioning_summary": "A reliable current implied move was unavailable; roughly 20.8x trailing earnings and a stock down intraday reduce the beat-and-raise bar.",
+      "analyst_revision_summary": "Recent public estimate work showed a most-accurate estimate above consensus, a modest positive revision signal.",
+      "key_sources": [
+        "https://investors.bjs.com/press-releases/press-release-details/2026/BJs-Wholesale-Club-Announces-Second-Quarter-Fiscal-2026-Earnings-Conference-Call-Date/default.aspx",
+        "https://investors.bjs.com/press-releases/press-release-details/2026/BJs-Wholesale-Club-Holdings-Inc--Announces-First-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://www.zacks.com/stock/news/2974974/bjs-wholesale-club-bj-earnings-expected-to-grow-what-to-know-ahead-of-next-weeks-release"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "ROST",
+      "company": "Ross Stores, Inc.",
+      "timing": "After market close, Aug. 20 (4:15 p.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 33,
+      "reversal_risk": 58,
+      "disparity": 15,
+      "confidence": "Medium",
+      "expected_driver": "Comparable-store sales versus 6%-7% guide",
+      "key_risk_to_call": "32x P/E; margin/guidance miss after a huge Q1",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 positive, but one near Neutral",
+      "method_update_note": "Mandatory priced-in-beat penalty applied",
+      "one_sentence_thesis": "Strong momentum supports a comp beat, but valuation and a raised expectation bar make a good quarter vulnerable without a clean beat-and-raise.",
+      "market_expectation_summary": "Consensus is about $1.94 EPS and $6.15B revenue; management guided 6%-7% comps, $1.85-$1.93 EPS, and 12.8%-13.0% operating margin.",
+      "upside_case_summary": "Comps exceed 7%, merchandise margin stays firm, and FY26 EPS guidance rises above $7.74.",
+      "downside_case_summary": "A merely in-range comp, freight/tariff pressure, or cautious second-half commentary triggers multiple compression.",
+      "options_or_positioning_summary": "A reliable public implied move was unavailable; at roughly 32x trailing earnings after a 17% Q1 comp, expectations are elevated.",
+      "analyst_revision_summary": "Consensus EPS is just above management's high end, so the market likely requires a beat and forward raise.",
+      "key_sources": [
+        "https://investors.rossstores.com/node/23251",
+        "https://investors.rossstores.com/news-releases/news-release-details/ross-stores-reports-robust-first-quarter-sales-and-earnings",
+        "https://www.zacks.com/stock/news/2974555/heres-how-ross-stores-stock-is-poised-ahead-of-q2-earnings"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "OSIS",
+        "direction": "Lean Up",
+        "share_percent": 38,
+        "why": "Strong score, low reversal risk, low disparity, high-quality backlog evidence."
+      },
+      {
+        "ticker": "FLO",
+        "direction": "Lean Down",
+        "share_percent": 35,
+        "why": "Strongest absolute score, low disparity, reversal risk below 40."
+      },
+      {
+        "ticker": "BJ",
+        "direction": "Lean Up",
+        "share_percent": 27,
+        "why": "Score above 30, reversal risk 36, high-quality timing and operating evidence."
+      }
+    ],
+    "excluded": [
+      {
+        "ticker": "ROST",
+        "reason": "Direction score qualifies, but reversal risk of 58 exceeds the 40 ceiling."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "OSIS",
+      "consensus_summary": "A +48 / +39 / +44; reversal risk 28 / 34 / 31.",
+      "averaged_direction_score": 44,
+      "averaged_reversal_risk": 31,
+      "disparity": 8,
+      "pass_agreement": "All Lean Up",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Backlog conversion and FY27 guide",
+      "base_case": "Clean Q4 finish and constructive FY27 framing.",
+      "bull_case": "Backlog and Security growth clear the bar.",
+      "bear_case": "Timing delays and cautious guide.",
+      "allocation_status": "Qualified at 38%; low disparity improved priority."
+    },
+    {
+      "ticker": "FLO",
+      "consensus_summary": "A -50 / -41 / -46; reversal risk 34 / 37 / 35.",
+      "averaged_direction_score": -46,
+      "averaged_reversal_risk": 35,
+      "disparity": 8,
+      "pass_agreement": "All Lean Down",
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "key_metric": "Organic volume/mix and margin",
+      "base_case": "Soft core volume offsets Simple Mills.",
+      "bull_case": "Premium brands and productivity stabilize guidance.",
+      "bear_case": "Promotion and volume pressure compress margins.",
+      "allocation_status": "Qualified at 35%; low disparity supported priority."
+    },
+    {
+      "ticker": "BJ",
+      "consensus_summary": "A +38 / +29 / +34; reversal risk 34 / 39 / 36.",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 36,
+      "disparity": 8,
+      "pass_agreement": "All Lean Up, one close to threshold",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Gas-excluded comps and membership income",
+      "base_case": "Moderate comp improvement.",
+      "bull_case": "Traffic and membership drive beat.",
+      "bear_case": "Soft mix and expansion costs.",
+      "allocation_status": "Qualified at 27%; lower score reduced weight."
+    },
+    {
+      "ticker": "ROST",
+      "consensus_summary": "A +42 / +25 / +31; reversal risk 54 / 62 / 58.",
+      "averaged_direction_score": 33,
+      "averaged_reversal_risk": 58,
+      "disparity": 15,
+      "pass_agreement": "All positive; magnitude disagreement",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Comparable-store sales",
+      "base_case": "Solid comp and EPS beat.",
+      "bull_case": "Above-7% comp and guide raise.",
+      "bear_case": "In-line result triggers valuation compression.",
+      "allocation_status": "Excluded because reversal risk exceeded 40; moderate disparity lowered conviction."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
