@@ -1,0 +1,245 @@
+{
+  "generation_timestamp": "2026-08-20T17:02:00Z",
+  "covered_report_window": "After the U.S. market close on Thursday, August 20, 2026, through before the U.S. market open on Friday, August 21, 2026.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were lower intraday as Walmart weakness, rising oil, and renewed pressure in long-term Treasury yields weighed on risk appetite; the S&P 500 was about 0.3% lower and the 30-year yield was near multi-year highs.",
+  "companies_reviewed_count": 4,
+  "methodology": {
+    "independent_passes": 3,
+    "shared_universe": [
+      "ROST",
+      "OSIS",
+      "FLO",
+      "BJ"
+    ],
+    "disparity_definition": "0-100 composite dispersion of the three independent direction and reversal-risk outputs; lower is tighter agreement.",
+    "lessons_review": "Applied the standing key-metric-first, expectation-bar, forward-look override, and separate reversal-risk guardrails. No new method change was made."
+  },
+  "exclusions": [
+    {
+      "ticker": "GRAB",
+      "reason": "Already reported Q2 results on August 3; stale calendar entry."
+    },
+    {
+      "ticker": "UI",
+      "reason": "Company timing was not confirmed and public sources conflicted between confirmed and estimated."
+    },
+    {
+      "ticker": "BKE",
+      "reason": "Company had not announced a firm date; public sources described August 21 as estimated."
+    }
+  ],
+  "top_setups": {
+    "upward": [
+      "OSIS",
+      "BJ",
+      "ROST"
+    ],
+    "downward": [
+      "FLO"
+    ],
+    "note": "Only one qualified bearish setup; no second or third bearish name met the timing-confirmed universe standard."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "OSIS",
+      "company": "OSI Systems, Inc.",
+      "timing": "After market close, Aug. 20 (4:30 p.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 44,
+      "reversal_risk": 31,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Backlog conversion and FY27 revenue/EPS guide",
+      "key_risk_to_call": "DHS/Middle East timing delays; cautious FY27 guide",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Expectation-bar and forward-look guardrails applied",
+      "one_sentence_thesis": "Record backlog and 1.3x book-to-bill support upside if backlog converts and FY27 guidance confirms durable Security demand.",
+      "market_expectation_summary": "Consensus is about $529.7M revenue and $3.77 EPS; FY26 guidance was $1.825B-$1.867B revenue and $10.30-$10.55 non-GAAP EPS.",
+      "upside_case_summary": "Backlog reaches or exceeds $1.9B, Security revenue converts cleanly, and FY27 guidance signals continued double-digit growth.",
+      "downside_case_summary": "Government timing delays push revenue right and management gives a conservative FY27 outlook.",
+      "options_or_positioning_summary": "A reliable public implied move was unavailable; 24.8x trailing earnings is not cheap but less demanding than ROST or UI.",
+      "analyst_revision_summary": "Public preview estimates sit above the prior-year quarter; Q3 beat and reiterated guidance support a constructive bar.",
+      "key_sources": [
+        "https://osisystems.gcs-web.com/investor-relations/general-information/events-and-presentations",
+        "https://www.sec.gov/Archives/edgar/data/1039065/000110465926054857/tm2613470d1_ex99-1.htm",
+        "https://www.americanbankingnews.com/2026/08/13/osi-systems-osis-to-announce-quarterly-earnings-on-thursday.html"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "FLO",
+      "company": "Flowers Foods, Inc.",
+      "timing": "After market close, Aug. 20",
+      "direction_call": "Lean Down",
+      "direction_score": -46,
+      "reversal_risk": 35,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Organic volume/mix and adjusted EBITDA margin",
+      "key_risk_to_call": "Simple Mills acceleration; very low valuation/expectations",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Key-metric-first and relief-rally checks applied",
+      "one_sentence_thesis": "Soft loaf demand and promotion-driven pressure make organic volume and margin the likely downside catalyst despite Simple Mills growth.",
+      "market_expectation_summary": "Consensus EPS is about $0.22; management reiterated FY26 guidance after Q1, while public previews expect top- and bottom-line declines.",
+      "upside_case_summary": "Simple Mills and premium brands accelerate, productivity offsets costs, and management preserves or raises guidance.",
+      "downside_case_summary": "Core loaf volumes weaken, promotions intensify, and operating leverage pushes margins below the guide path.",
+      "options_or_positioning_summary": "A reliable implied move was unavailable; shares near $7.39 and a $1.57B market cap imply a heavily de-rated setup, limiting downside conviction.",
+      "analyst_revision_summary": "Public preview evidence is cautious on volumes and costs; broad, current revision detail was unavailable.",
+      "key_sources": [
+        "https://www.tradingview.com/news/prnewswire%3Ac0d42cb932d0c%3A0-flowers-foods-to-report-second-quarter-2026-results/",
+        "https://www.zacks.com/stock/news/2975000/flowers-foods-q2-earnings-on-deck-everything-you-should-know",
+        "https://investors.flowersfoods.com/~/media/Files/F/Flowers-Foods-V3/documents/events/q1-2026/q1-2026-results-prepared-remarks-transcript.pdf"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "BJ",
+      "company": "BJ's Wholesale Club Holdings, Inc.",
+      "timing": "Before market open, Aug. 21 (8:00 a.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 36,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Gas-excluded comps and membership-income growth",
+      "key_risk_to_call": "1.5% Q1 comps persist; new-club costs pressure margins",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up; magnitude varied",
+      "method_update_note": "Expectation-bar and forward-look guardrails applied",
+      "one_sentence_thesis": "Traffic, membership income, and a modest valuation support upside if gas-excluded comps reaccelerate from Q1's 1.5%.",
+      "market_expectation_summary": "Consensus is about $1.17 EPS and $5.92B revenue; the most accurate public EPS estimate was above consensus.",
+      "upside_case_summary": "Traffic-led comps improve, renewal and fee income remain strong, and management keeps expansion costs controlled.",
+      "downside_case_summary": "Comps remain near 1.5%, discretionary mix stays soft, or pre-opening costs cap margins and guidance.",
+      "options_or_positioning_summary": "A reliable current implied move was unavailable; roughly 20.8x trailing earnings and a stock down intraday reduce the beat-and-raise bar.",
+      "analyst_revision_summary": "Recent public estimate work showed a most-accurate estimate above consensus, a modest positive revision signal.",
+      "key_sources": [
+        "https://investors.bjs.com/press-releases/press-release-details/2026/BJs-Wholesale-Club-Announces-Second-Quarter-Fiscal-2026-Earnings-Conference-Call-Date/default.aspx",
+        "https://investors.bjs.com/press-releases/press-release-details/2026/BJs-Wholesale-Club-Holdings-Inc--Announces-First-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://www.zacks.com/stock/news/2974974/bjs-wholesale-club-bj-earnings-expected-to-grow-what-to-know-ahead-of-next-weeks-release"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "ROST",
+      "company": "Ross Stores, Inc.",
+      "timing": "After market close, Aug. 20 (4:15 p.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 33,
+      "reversal_risk": 58,
+      "disparity": 15,
+      "confidence": "Medium",
+      "expected_driver": "Comparable-store sales versus 6%-7% guide",
+      "key_risk_to_call": "32x P/E; margin/guidance miss after a huge Q1",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 positive, but one near Neutral",
+      "method_update_note": "Mandatory priced-in-beat penalty applied",
+      "one_sentence_thesis": "Strong momentum supports a comp beat, but valuation and a raised expectation bar make a good quarter vulnerable without a clean beat-and-raise.",
+      "market_expectation_summary": "Consensus is about $1.94 EPS and $6.15B revenue; management guided 6%-7% comps, $1.85-$1.93 EPS, and 12.8%-13.0% operating margin.",
+      "upside_case_summary": "Comps exceed 7%, merchandise margin stays firm, and FY26 EPS guidance rises above $7.74.",
+      "downside_case_summary": "A merely in-range comp, freight/tariff pressure, or cautious second-half commentary triggers multiple compression.",
+      "options_or_positioning_summary": "A reliable public implied move was unavailable; at roughly 32x trailing earnings after a 17% Q1 comp, expectations are elevated.",
+      "analyst_revision_summary": "Consensus EPS is just above management's high end, so the market likely requires a beat and forward raise.",
+      "key_sources": [
+        "https://investors.rossstores.com/node/23251",
+        "https://investors.rossstores.com/news-releases/news-release-details/ross-stores-reports-robust-first-quarter-sales-and-earnings",
+        "https://www.zacks.com/stock/news/2974555/heres-how-ross-stores-stock-is-poised-ahead-of-q2-earnings"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "OSIS",
+        "direction": "Lean Up",
+        "share_percent": 38,
+        "why": "Strong score, low reversal risk, low disparity, high-quality backlog evidence."
+      },
+      {
+        "ticker": "FLO",
+        "direction": "Lean Down",
+        "share_percent": 35,
+        "why": "Strongest absolute score, low disparity, reversal risk below 40."
+      },
+      {
+        "ticker": "BJ",
+        "direction": "Lean Up",
+        "share_percent": 27,
+        "why": "Score above 30, reversal risk 36, high-quality timing and operating evidence."
+      }
+    ],
+    "excluded": [
+      {
+        "ticker": "ROST",
+        "reason": "Direction score qualifies, but reversal risk of 58 exceeds the 40 ceiling."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "OSIS",
+      "consensus_summary": "A +48 / +39 / +44; reversal risk 28 / 34 / 31.",
+      "averaged_direction_score": 44,
+      "averaged_reversal_risk": 31,
+      "disparity": 8,
+      "pass_agreement": "All Lean Up",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Backlog conversion and FY27 guide",
+      "base_case": "Clean Q4 finish and constructive FY27 framing.",
+      "bull_case": "Backlog and Security growth clear the bar.",
+      "bear_case": "Timing delays and cautious guide.",
+      "allocation_status": "Qualified at 38%; low disparity improved priority."
+    },
+    {
+      "ticker": "FLO",
+      "consensus_summary": "A -50 / -41 / -46; reversal risk 34 / 37 / 35.",
+      "averaged_direction_score": -46,
+      "averaged_reversal_risk": 35,
+      "disparity": 8,
+      "pass_agreement": "All Lean Down",
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "key_metric": "Organic volume/mix and margin",
+      "base_case": "Soft core volume offsets Simple Mills.",
+      "bull_case": "Premium brands and productivity stabilize guidance.",
+      "bear_case": "Promotion and volume pressure compress margins.",
+      "allocation_status": "Qualified at 35%; low disparity supported priority."
+    },
+    {
+      "ticker": "BJ",
+      "consensus_summary": "A +38 / +29 / +34; reversal risk 34 / 39 / 36.",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 36,
+      "disparity": 8,
+      "pass_agreement": "All Lean Up, one close to threshold",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Gas-excluded comps and membership income",
+      "base_case": "Moderate comp improvement.",
+      "bull_case": "Traffic and membership drive beat.",
+      "bear_case": "Soft mix and expansion costs.",
+      "allocation_status": "Qualified at 27%; lower score reduced weight."
+    },
+    {
+      "ticker": "ROST",
+      "consensus_summary": "A +42 / +25 / +31; reversal risk 54 / 62 / 58.",
+      "averaged_direction_score": 33,
+      "averaged_reversal_risk": 58,
+      "disparity": 15,
+      "pass_agreement": "All positive; magnitude disagreement",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Comparable-store sales",
+      "base_case": "Solid comp and EPS beat.",
+      "bull_case": "Above-7% comp and guide raise.",
+      "bear_case": "In-line result triggers valuation compression.",
+      "allocation_status": "Excluded because reversal risk exceeded 40; moderate disparity lowered conviction."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
