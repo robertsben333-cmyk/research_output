@@ -1,0 +1,459 @@
+{
+  "generation_timestamp": "2026-08-24T17:07:01Z",
+  "covered_report_window": "After the U.S. market close on Monday, August 24, 2026, through before the U.S. market open on Tuesday, August 25, 2026. No liquid, well-confirmed Monday after-close name qualified; all ranked names report Tuesday pre-market.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. stocks were mixed near records, with technology weaker and long-term yields elevated. Tuesday consumer-confidence and housing data add macro sensitivity, while later-week PCE and major technology earnings can affect risk appetite.",
+  "companies_reviewed_count": 4,
+  "shared_qualified_universe": [
+    "BMO",
+    "BNS",
+    "DKS",
+    "MZTI"
+  ],
+  "universe_exclusions": [
+    {
+      "ticker": "SLQT",
+      "reason": "Microcap, about $151M market value."
+    },
+    {
+      "ticker": "JKS",
+      "reason": "Official IR confirmed August 26, outside the window."
+    },
+    {
+      "ticker": "WSM",
+      "reason": "Timing conflict/insufficient confirmation for August 25."
+    }
+  ],
+  "top_setups": {
+    "upward": [
+      "DKS",
+      "BMO",
+      "BNS"
+    ],
+    "downward": [],
+    "note": "No company had a negative consensus score; MZTI and BNS were Neutral / No Edge."
+  },
+  "consensus_method": {
+    "passes": 3,
+    "disparity_formula": "Average of direction-score range normalized to the -100..100 scale and reversal-risk range normalized to 0..100, expressed on 0..100.",
+    "allocation_basis": "Consensus averages only."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "DKS",
+      "company": "DICK'S Sporting Goods, Inc.",
+      "timing": "Before U.S. market open on 2026-08-25",
+      "direction_call": "Lean Up",
+      "direction_score": 42.3,
+      "reversal_risk": 43.7,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Core DICK'S comps; Foot Locker segment profit",
+      "key_risk_to_call": "Integration costs and Q2 margin trough",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "A de-risked share price, resilient core comps, and early Foot Locker stabilization create modest relief upside if margin and guidance hold.",
+      "market_expectation_summary": "Consensus is about $3.76-$3.78 adjusted EPS and $5.64-$5.65B revenue; Street core comparable-sales expectation is about 4.1%.",
+      "upside_case_summary": "Core comps exceed 5%, Foot Locker improves, and consolidated profit guidance rises.",
+      "downside_case_summary": "Foot Locker margins, store investments, tariffs, or integration costs overwhelm a solid core quarter.",
+      "options_or_positioning_summary": "Monthly options implied move was about 11.9%, not a pure event measure; shares fell roughly 20% over three months and short interest was cited near 8.4%.",
+      "analyst_revision_summary": "Oppenheimer expected at least an in-line quarter, with $3.79 EPS and 3%-5% core comps; the low share price reduces the bar but positive guidance is still needed.",
+      "key_sources": [
+        "https://investors.dicks.com/news/news-details/2026/DICKS-Sporting-Goods-Inc--Reports-First-Quarter-Results/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000027/dks-20260502.htm",
+        "https://finance.yahoo.com/markets/stocks/articles/dick-apos-sporting-goods-expected-191944129.html",
+        "https://www.tradingview.com/news/tradingview%3Ab907968f30f37%3A0-dks-q2-26-earnings-eps-estimate-is-3-76-usd/"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 42,
+          "reversal_risk": 43
+        },
+        "B": {
+          "direction_score": 38,
+          "reversal_risk": 45
+        },
+        "C": {
+          "direction_score": 47,
+          "reversal_risk": 43
+        }
+      },
+      "pass_agreement": "3/3 Lean Up"
+    },
+    {
+      "rank": 2,
+      "ticker": "BMO",
+      "company": "Bank of Montreal",
+      "timing": "Results about 5:30 a.m. ET; call 7:15 a.m. ET on 2026-08-25",
+      "direction_call": "Lean Up",
+      "direction_score": 26.3,
+      "reversal_risk": 45.3,
+      "disparity": 14,
+      "confidence": "Medium",
+      "expected_driver": "U.S. P&C credit-loss provisions and NIM",
+      "key_risk_to_call": "Credit reacceleration; beat already priced",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Fee growth and better credit comparisons support a mild positive bias, but the strong Q2 and bank rerating leave limited asymmetry.",
+      "market_expectation_summary": "Public previews center near C$3.74 adjusted EPS, versus C$3.67 in Q2; ADR-calendar EPS is about US$2.69.",
+      "upside_case_summary": "U.S. impaired provisions fall, NIM holds or expands, and CET1 stabilizes.",
+      "downside_case_summary": "U.S. commercial or consumer credit costs rise while core NII weakens.",
+      "options_or_positioning_summary": "Options implied about a ±4.8% move, above the 10-year average peak earnings move of ±3.4%.",
+      "analyst_revision_summary": "Estimates rose after a strong Q2; the published EPS bar is constructive and buy-side expectations may be firmer.",
+      "key_sources": [
+        "https://newsroom.bmo.com/2026-08-05-Media-Advisory-BMO-Financial-Group-to-Announce-its-Third-Quarter-2026-Results",
+        "https://www.sec.gov/Archives/edgar/data/927971/000092797126000088/q22026earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/927971/000092797126000086/q22026mda.htm",
+        "https://earnings-watcher.com/wiki/bmo-implied-move"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 27,
+          "reversal_risk": 42
+        },
+        "B": {
+          "direction_score": 14,
+          "reversal_risk": 55
+        },
+        "C": {
+          "direction_score": 38,
+          "reversal_risk": 39
+        }
+      },
+      "pass_agreement": "2 Lean Up / 1 Neutral"
+    },
+    {
+      "rank": 3,
+      "ticker": "BNS",
+      "company": "Bank of Nova Scotia",
+      "timing": "Before U.S. market open; call 8:15 a.m. ET on 2026-08-25",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 23.3,
+      "reversal_risk": 48.7,
+      "disparity": 14,
+      "confidence": "Low-Medium",
+      "expected_driver": "Canadian Banking NIM/PTPP growth versus impaired PCL",
+      "key_risk_to_call": "Credit migration; sell-the-news after rerating",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Margin and Canadian Banking momentum are good, but the run-up and elevated impaired provisions leave the immediate reaction balanced.",
+      "market_expectation_summary": "ADR EPS consensus is roughly US$1.49-$1.53; Q2 adjusted EPS was C$2.02 and adjusted ROE 13.2%.",
+      "upside_case_summary": "Canadian NIM expands, impaired provisions improve, and management reinforces the 14%+ FY27 ROE path.",
+      "downside_case_summary": "Impaired PCL rises or management softens its credit and ROE outlook despite a headline beat.",
+      "options_or_positioning_summary": "Options imply about a ±4.6%-4.9% move; shares gained roughly 11% over three months into the report.",
+      "analyst_revision_summary": "Four consecutive EPS beats and improved profitability create a higher whisper bar.",
+      "key_sources": [
+        "https://www.scotiabank.com/ca/en/about/investors-shareholders/financial-result.html",
+        "https://scotiabank.investorroom.com/2026-05-27-Scotiabank-reports-second-quarter-results",
+        "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+        "https://www.benzinga.com/quote/BNS/earnings"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 31,
+          "reversal_risk": 39
+        },
+        "B": {
+          "direction_score": 10,
+          "reversal_risk": 56
+        },
+        "C": {
+          "direction_score": 29,
+          "reversal_risk": 51
+        }
+      },
+      "pass_agreement": "2 Lean Up / 1 Neutral; consensus Neutral"
+    },
+    {
+      "rank": 4,
+      "ticker": "MZTI",
+      "company": "The Marzetti Company",
+      "timing": "Before U.S. market open on 2026-08-25 per FactSet/TradingView and TipRanks; IR events page lacked an upcoming event",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 15.7,
+      "reversal_risk": 52.3,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "Organic Retail volume and gross margin including Bachan's",
+      "key_risk_to_call": "Acquisition masks core weakness; integration costs",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Bachan's and a depressed valuation allow relief, but weak organic Retail trends and acquisition costs prevent a dependable direction call.",
+      "market_expectation_summary": "FactSet consensus is about $1.40 EPS and $478.95M revenue; another source shows $1.42 and $486.5M.",
+      "upside_case_summary": "Organic Retail stabilizes, Bachan's starts cleanly, and gross margin expands.",
+      "downside_case_summary": "Core volume stays negative while acquisition SG&A and interest dilute EPS.",
+      "options_or_positioning_summary": "No dependable event-implied move was available; the stock had fallen about 30% in 2026 and coverage/liquidity are limited.",
+      "analyst_revision_summary": "EPS estimates softened slightly and the prior quarter missed both EPS and revenue expectations.",
+      "key_sources": [
+        "https://www.tradingview.com/news/tradingview%3A1d40c56c49d3b%3A0-mzti-q4-26-earnings-eps-estimate-is-1-40-usd/",
+        "https://investors.marzetticompany.com/financials/quarterly-results/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/57515/000005751526000012/mzti-20260331.htm",
+        "https://www.chartmill.com/stock/quote/MZTI/analyst-ratings"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 22,
+          "reversal_risk": 52
+        },
+        "B": {
+          "direction_score": 18,
+          "reversal_risk": 47
+        },
+        "C": {
+          "direction_score": 7,
+          "reversal_risk": 58
+        }
+      },
+      "pass_agreement": "3/3 Neutral / No Edge"
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "basket_distribution": [],
+    "allocated_percent": 0,
+    "unallocated_percent": 100,
+    "excluded": [
+      {
+        "ticker": "DKS",
+        "reason": "Score 42.3 qualifies, but reversal risk 43.7 exceeds 40."
+      },
+      {
+        "ticker": "BMO",
+        "reason": "Score 26.3 does not exceed 30 and reversal risk exceeds 40."
+      },
+      {
+        "ticker": "BNS",
+        "reason": "Score 23.3 does not exceed 30 and reversal risk exceeds 40."
+      },
+      {
+        "ticker": "MZTI",
+        "reason": "Neutral score 15.7 and reversal risk 52.3."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "rank": 1,
+      "ticker": "DKS",
+      "company": "DICK'S Sporting Goods, Inc.",
+      "timing": "Before U.S. market open on 2026-08-25",
+      "direction_call": "Lean Up",
+      "direction_score": 42.3,
+      "reversal_risk": 43.7,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Core DICK'S comps; Foot Locker segment profit",
+      "key_risk_to_call": "Integration costs and Q2 margin trough",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "A de-risked share price, resilient core comps, and early Foot Locker stabilization create modest relief upside if margin and guidance hold.",
+      "market_expectation_summary": "Consensus is about $3.76-$3.78 adjusted EPS and $5.64-$5.65B revenue; Street core comparable-sales expectation is about 4.1%.",
+      "upside_case_summary": "Core comps exceed 5%, Foot Locker improves, and consolidated profit guidance rises.",
+      "downside_case_summary": "Foot Locker margins, store investments, tariffs, or integration costs overwhelm a solid core quarter.",
+      "options_or_positioning_summary": "Monthly options implied move was about 11.9%, not a pure event measure; shares fell roughly 20% over three months and short interest was cited near 8.4%.",
+      "analyst_revision_summary": "Oppenheimer expected at least an in-line quarter, with $3.79 EPS and 3%-5% core comps; the low share price reduces the bar but positive guidance is still needed.",
+      "key_sources": [
+        "https://investors.dicks.com/news/news-details/2026/DICKS-Sporting-Goods-Inc--Reports-First-Quarter-Results/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000027/dks-20260502.htm",
+        "https://finance.yahoo.com/markets/stocks/articles/dick-apos-sporting-goods-expected-191944129.html",
+        "https://www.tradingview.com/news/tradingview%3Ab907968f30f37%3A0-dks-q2-26-earnings-eps-estimate-is-3-76-usd/"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 42,
+          "reversal_risk": 43
+        },
+        "B": {
+          "direction_score": 38,
+          "reversal_risk": 45
+        },
+        "C": {
+          "direction_score": 47,
+          "reversal_risk": 43
+        }
+      },
+      "pass_agreement": "3/3 Lean Up",
+      "consensus_summary": "Pass scores 42/38/47; reversal risks 43/45/43.",
+      "averaged_direction_score": 42.3,
+      "averaged_reversal_risk": 43.7,
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "social_sentiment_read": "Current social evidence was sparse or noisy and received negligible weight.",
+      "options_or_positioning_read": "Monthly options implied move was about 11.9%, not a pure event measure; shares fell roughly 20% over three months and short interest was cited near 8.4%.",
+      "analyst_revision_read": "Oppenheimer expected at least an in-line quarter, with $3.79 EPS and 3%-5% core comps; the low share price reduces the bar but positive guidance is still needed.",
+      "base_case": "A de-risked share price, resilient core comps, and early Foot Locker stabilization create modest relief upside if margin and guidance hold.",
+      "bull_case": "Core comps exceed 5%, Foot Locker improves, and consolidated profit guidance rises.",
+      "bear_case": "Foot Locker margins, store investments, tariffs, or integration costs overwhelm a solid core quarter.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_status": "Excluded: reversal risk above 40.",
+      "disparity_effect": "Low disparity supported conviction.",
+      "method_update_note": "None"
+    },
+    {
+      "rank": 2,
+      "ticker": "BMO",
+      "company": "Bank of Montreal",
+      "timing": "Results about 5:30 a.m. ET; call 7:15 a.m. ET on 2026-08-25",
+      "direction_call": "Lean Up",
+      "direction_score": 26.3,
+      "reversal_risk": 45.3,
+      "disparity": 14,
+      "confidence": "Medium",
+      "expected_driver": "U.S. P&C credit-loss provisions and NIM",
+      "key_risk_to_call": "Credit reacceleration; beat already priced",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Fee growth and better credit comparisons support a mild positive bias, but the strong Q2 and bank rerating leave limited asymmetry.",
+      "market_expectation_summary": "Public previews center near C$3.74 adjusted EPS, versus C$3.67 in Q2; ADR-calendar EPS is about US$2.69.",
+      "upside_case_summary": "U.S. impaired provisions fall, NIM holds or expands, and CET1 stabilizes.",
+      "downside_case_summary": "U.S. commercial or consumer credit costs rise while core NII weakens.",
+      "options_or_positioning_summary": "Options implied about a ±4.8% move, above the 10-year average peak earnings move of ±3.4%.",
+      "analyst_revision_summary": "Estimates rose after a strong Q2; the published EPS bar is constructive and buy-side expectations may be firmer.",
+      "key_sources": [
+        "https://newsroom.bmo.com/2026-08-05-Media-Advisory-BMO-Financial-Group-to-Announce-its-Third-Quarter-2026-Results",
+        "https://www.sec.gov/Archives/edgar/data/927971/000092797126000088/q22026earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/927971/000092797126000086/q22026mda.htm",
+        "https://earnings-watcher.com/wiki/bmo-implied-move"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 27,
+          "reversal_risk": 42
+        },
+        "B": {
+          "direction_score": 14,
+          "reversal_risk": 55
+        },
+        "C": {
+          "direction_score": 38,
+          "reversal_risk": 39
+        }
+      },
+      "pass_agreement": "2 Lean Up / 1 Neutral",
+      "consensus_summary": "Pass scores 27/14/38; reversal risks 42/55/39.",
+      "averaged_direction_score": 26.3,
+      "averaged_reversal_risk": 45.3,
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "social_sentiment_read": "Current social evidence was sparse or noisy and received negligible weight.",
+      "options_or_positioning_read": "Options implied about a ±4.8% move, above the 10-year average peak earnings move of ±3.4%.",
+      "analyst_revision_read": "Estimates rose after a strong Q2; the published EPS bar is constructive and buy-side expectations may be firmer.",
+      "base_case": "Fee growth and better credit comparisons support a mild positive bias, but the strong Q2 and bank rerating leave limited asymmetry.",
+      "bull_case": "U.S. impaired provisions fall, NIM holds or expands, and CET1 stabilizes.",
+      "bear_case": "U.S. commercial or consumer credit costs rise while core NII weakens.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_status": "Excluded: absolute score not above 30 and/or reversal risk above 40.",
+      "disparity_effect": "Moderate disparity reduced conviction and allocation priority.",
+      "method_update_note": "None"
+    },
+    {
+      "rank": 3,
+      "ticker": "BNS",
+      "company": "Bank of Nova Scotia",
+      "timing": "Before U.S. market open; call 8:15 a.m. ET on 2026-08-25",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 23.3,
+      "reversal_risk": 48.7,
+      "disparity": 14,
+      "confidence": "Low-Medium",
+      "expected_driver": "Canadian Banking NIM/PTPP growth versus impaired PCL",
+      "key_risk_to_call": "Credit migration; sell-the-news after rerating",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Margin and Canadian Banking momentum are good, but the run-up and elevated impaired provisions leave the immediate reaction balanced.",
+      "market_expectation_summary": "ADR EPS consensus is roughly US$1.49-$1.53; Q2 adjusted EPS was C$2.02 and adjusted ROE 13.2%.",
+      "upside_case_summary": "Canadian NIM expands, impaired provisions improve, and management reinforces the 14%+ FY27 ROE path.",
+      "downside_case_summary": "Impaired PCL rises or management softens its credit and ROE outlook despite a headline beat.",
+      "options_or_positioning_summary": "Options imply about a ±4.6%-4.9% move; shares gained roughly 11% over three months into the report.",
+      "analyst_revision_summary": "Four consecutive EPS beats and improved profitability create a higher whisper bar.",
+      "key_sources": [
+        "https://www.scotiabank.com/ca/en/about/investors-shareholders/financial-result.html",
+        "https://scotiabank.investorroom.com/2026-05-27-Scotiabank-reports-second-quarter-results",
+        "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q2/Q226_Shareholders_Report-EN.pdf",
+        "https://www.benzinga.com/quote/BNS/earnings"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 31,
+          "reversal_risk": 39
+        },
+        "B": {
+          "direction_score": 10,
+          "reversal_risk": 56
+        },
+        "C": {
+          "direction_score": 29,
+          "reversal_risk": 51
+        }
+      },
+      "pass_agreement": "2 Lean Up / 1 Neutral; consensus Neutral",
+      "consensus_summary": "Pass scores 31/10/29; reversal risks 39/56/51.",
+      "averaged_direction_score": 23.3,
+      "averaged_reversal_risk": 48.7,
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low-Medium",
+      "social_sentiment_read": "Current social evidence was sparse or noisy and received negligible weight.",
+      "options_or_positioning_read": "Options imply about a ±4.6%-4.9% move; shares gained roughly 11% over three months into the report.",
+      "analyst_revision_read": "Four consecutive EPS beats and improved profitability create a higher whisper bar.",
+      "base_case": "Margin and Canadian Banking momentum are good, but the run-up and elevated impaired provisions leave the immediate reaction balanced.",
+      "bull_case": "Canadian NIM expands, impaired provisions improve, and management reinforces the 14%+ FY27 ROE path.",
+      "bear_case": "Impaired PCL rises or management softens its credit and ROE outlook despite a headline beat.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "allocation_status": "Excluded: absolute score not above 30 and/or reversal risk above 40.",
+      "disparity_effect": "Moderate disparity reduced conviction and allocation priority.",
+      "method_update_note": "None"
+    },
+    {
+      "rank": 4,
+      "ticker": "MZTI",
+      "company": "The Marzetti Company",
+      "timing": "Before U.S. market open on 2026-08-25 per FactSet/TradingView and TipRanks; IR events page lacked an upcoming event",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 15.7,
+      "reversal_risk": 52.3,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "Organic Retail volume and gross margin including Bachan's",
+      "key_risk_to_call": "Acquisition masks core weakness; integration costs",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Bachan's and a depressed valuation allow relief, but weak organic Retail trends and acquisition costs prevent a dependable direction call.",
+      "market_expectation_summary": "FactSet consensus is about $1.40 EPS and $478.95M revenue; another source shows $1.42 and $486.5M.",
+      "upside_case_summary": "Organic Retail stabilizes, Bachan's starts cleanly, and gross margin expands.",
+      "downside_case_summary": "Core volume stays negative while acquisition SG&A and interest dilute EPS.",
+      "options_or_positioning_summary": "No dependable event-implied move was available; the stock had fallen about 30% in 2026 and coverage/liquidity are limited.",
+      "analyst_revision_summary": "EPS estimates softened slightly and the prior quarter missed both EPS and revenue expectations.",
+      "key_sources": [
+        "https://www.tradingview.com/news/tradingview%3A1d40c56c49d3b%3A0-mzti-q4-26-earnings-eps-estimate-is-1-40-usd/",
+        "https://investors.marzetticompany.com/financials/quarterly-results/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/57515/000005751526000012/mzti-20260331.htm",
+        "https://www.chartmill.com/stock/quote/MZTI/analyst-ratings"
+      ],
+      "independent_passes": {
+        "A": {
+          "direction_score": 22,
+          "reversal_risk": 52
+        },
+        "B": {
+          "direction_score": 18,
+          "reversal_risk": 47
+        },
+        "C": {
+          "direction_score": 7,
+          "reversal_risk": 58
+        }
+      },
+      "pass_agreement": "3/3 Neutral / No Edge",
+      "consensus_summary": "Pass scores 22/18/7; reversal risks 52/47/58.",
+      "averaged_direction_score": 15.7,
+      "averaged_reversal_risk": 52.3,
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "social_sentiment_read": "Current social evidence was sparse or noisy and received negligible weight.",
+      "options_or_positioning_read": "No dependable event-implied move was available; the stock had fallen about 30% in 2026 and coverage/liquidity are limited.",
+      "analyst_revision_read": "EPS estimates softened slightly and the prior quarter missed both EPS and revenue expectations.",
+      "base_case": "Bachan's and a depressed valuation allow relief, but weak organic Retail trends and acquisition costs prevent a dependable direction call.",
+      "bull_case": "Organic Retail stabilizes, Bachan's starts cleanly, and gross margin expands.",
+      "bear_case": "Core volume stays negative while acquisition SG&A and interest dilute EPS.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "allocation_status": "Excluded: absolute score not above 30 and/or reversal risk above 40.",
+      "disparity_effect": "Moderate disparity reduced conviction and allocation priority.",
+      "method_update_note": "None"
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
