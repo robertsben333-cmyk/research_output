@@ -1,5 +1,5 @@
 {
-  "generation_timestamp": "2026-08-26T17:02:03Z",
+  "generation_timestamp": "2026-08-26T17:07:01Z",
   "covered_report_window": "Wednesday, August 26, 2026 after the U.S. market close through Thursday, August 27, 2026 before the U.S. market open.",
   "report_type": "full_ranked_earnings_report",
   "market_context_summary": "U.S. stocks were slightly lower near record highs after firmer inflation data lifted yields; Nvidia is the dominant index catalyst, while Thursday jobless claims and the opening of Jackson Hole add macro risk.",
@@ -20,7 +20,8 @@
     "passes": 3,
     "shared_universe": true,
     "disparity_definition": "Mean absolute pairwise difference across the three direction scores, scaled to 0-100; lower is tighter agreement.",
-    "lessons_review": "Active expectation-bar, key-metric-first, forward-look and separate reversal-risk controls applied; no new method change."
+    "lessons_review": "Active expectation-bar, key-metric-first, forward-look and separate reversal-risk controls applied; no new method change.",
+    "scheduled_rerun_note": "Fresh source check at 17:07 UTC confirmed the same immediate window and consensus ordering; no method change."
   },
   "ranked_companies": [
     {
