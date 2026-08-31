@@ -1,292 +1,204 @@
 {
-  "generation_timestamp": "2026-08-31T17:07:00Z",
-  "covered_report_window": {
-    "after_close": "Monday, August 31, 2026 after 4:00 p.m. ET",
-    "before_open": "Tuesday, September 1, 2026 before 9:30 a.m. ET",
-    "note": "U.S. markets are open on both dates; Labor Day is September 7, 2026."
-  },
-  "report_type": "US1_full_ranked_earnings_report",
-  "market_context_summary": "Broad U.S. equities were lower intraday as renewed U.S.-Iran conflict lifted oil prices; SPY was down about 0.45% near 12:53 p.m. ET. Tuesday's 10:00 a.m. ET JOLTS and ISM manufacturing releases add macro sensitivity after the earnings reactions begin.",
-  "companies_reviewed_count": 4,
+  "generation_timestamp": "2026-08-31T17:10:41Z",
+  "covered_report_window": "U.S.-listed companies reporting after the U.S. market close on Monday, August 31, 2026, plus companies reporting before the U.S. market open on Tuesday, September 1, 2026.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were modestly lower as oil rose after U.S. strikes on Iranian sites and investors absorbed hawkish Federal Reserve commentary; Tuesday's ISM manufacturing and JOLTS releases add macro sensitivity to the next session.",
+  "companies_reviewed_count": 9,
   "top_setups": {
-    "upward": [
-      {
-        "ticker": "MDT",
-        "direction_score": 35,
-        "reversal_risk": 37
-      },
-      {
-        "ticker": "MMED",
-        "direction_score": 36,
-        "reversal_risk": 44
-      },
-      {
-        "ticker": "NIO",
-        "direction_score": 35,
-        "reversal_risk": 62
-      }
-    ],
-    "downward": [
-      {
-        "ticker": "YEXT",
-        "direction_score": -27,
-        "reversal_risk": 67
-      }
-    ]
-  },
-  "consensus_method": {
-    "passes": 3,
-    "independence": "Passes A, B, and C independently evaluated the same qualified ticker universe.",
-    "disparity_formula": "Half-weighted combination of the direction-score range normalized to the -100 to +100 scale and the reversal-risk range normalized to 0 to 100: direction range / 4 + reversal-risk range / 2.",
-    "interpretation": "0 means identical scores; higher values mean greater cross-pass disagreement."
+    "upward": ["MDT", "NIO", "MMED"],
+    "downward": ["YEXT", "RZLV", "SSL"],
+    "neutral_or_mixed": []
   },
   "ranked_companies": [
     {
       "rank": 1,
       "ticker": "MDT",
       "company": "Medtronic plc",
-      "timing": "Sep. 1, 2026 BMO; release 5:45 a.m. CT",
+      "timing": "Before U.S. open, Sep. 1, 2026; release about 6:45 a.m. ET",
       "direction_call": "Lean Up",
-      "direction_score": 35,
-      "reversal_risk": 37,
-      "disparity": 6,
+      "direction_score": 42,
+      "reversal_risk": 38,
       "confidence": "Medium",
-      "expected_driver": "Organic growth and margin conversion",
-      "key_risk_to_call": "High bar; PFA share or margin softness",
+      "expected_driver": "Organic growth and FY27 guide progression",
+      "key_risk_to_call": "No guide raise; tariff and margin drag",
       "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "Applied repeated priced-in/forward-look check",
-      "one_sentence_thesis": "Broad product momentum and a 6.75%-7.25% FY27 organic-growth guide support modest upside, but the stock needs credible margin conversion and PFA execution.",
-      "market_expectation_summary": "Consensus EPS is about $1.39; options imply roughly a 5% move, above the long-run average peak earnings move near 4.5%.",
-      "upside_case_summary": "Organic growth clears the bar, Cardiac Ablation Solutions stays strong, and management preserves or raises FY27 growth and EPS expectations.",
-      "downside_case_summary": "A merely in-line quarter, weaker PFA share, tariffs, or disappointing margin conversion makes the recent analyst optimism look priced in.",
-      "options_or_positioning_summary": "Options imply about ±5%; recent analyst actions are constructive but the stock trades near several published targets.",
-      "analyst_revision_summary": "Recent ratings include BofA Buy, Citi Buy, Piper Hold, and a UBS upgrade to Buy; estimates cluster near $1.39 EPS.",
-      "pass_scores": {
-        "A": {
-          "direction": 39,
-          "reversal_risk": 33
-        },
-        "B": {
-          "direction": 31,
-          "reversal_risk": 40
-        },
-        "C": {
-          "direction": 35,
-          "reversal_risk": 38
-        }
-      },
+      "one_sentence_thesis": "New-product momentum and conservative guidance support a modest upside bias if organic growth clears the extra-week-adjusted bar and management raises or de-risks FY27 guidance.",
+      "market_expectation_summary": "Consensus is about $1.39 EPS and $9.55 billion revenue, while company guidance calls for Q1 organic growth of roughly 11.5%-12% and FY27 EPS of $5.90-$6.00.",
+      "upside_case_summary": "Affera, Symplicity, Hugo and other launches sustain at least 6% underlying growth and management lifts or firmly de-risks the full-year outlook.",
+      "downside_case_summary": "The extra week masks softer underlying growth, tariffs pressure margin, or full-year guidance is merely reiterated against a beat-and-raise expectation.",
+      "options_or_positioning_summary": "Options implied about a 5.0%-5.1% move, slightly above the stock's long-run average earnings move.",
+      "analyst_revision_summary": "Needham expected a beat and FY27 guide raise; broader analyst tone was constructive and consensus targets remained above the market price.",
       "key_sources": [
         "https://news.medtronic.com/2026-07-20-Medtronic-to-announce-financial-results-for-its-first-quarter-of-fiscal-year-2027",
         "https://news.medtronic.com/2026-06-03-Medtronic-reports-fourth-quarter-and-full-year-fiscal-2026-results-delivers-highest-annual-revenue-growth-in-10-years",
-        "https://www.zacks.com/stock/news/2980281/mdts-q1-earnings-on-deck-how-should-you-play-the-stock-now",
-        "https://earnings-watcher.com/wiki/mdt-implied-move"
-      ]
+        "https://www.investing.com/news/stock-market-news/medtronic-shares-may-move-4-on-sept-1-earnings-release-93CH-4875633"
+      ],
+      "disparity": 4,
+      "pass_agreement": "Passes A, B and C all Lean Up",
+      "method_update_note": "Existing guide-raise test applied"
     },
     {
       "rank": 2,
-      "ticker": "MMED",
-      "company": "MiniMed Group, Inc.",
-      "timing": "Sep. 1, 2026 BMO; release 3:45 a.m. PT",
+      "ticker": "NIO",
+      "company": "NIO Inc.",
+      "timing": "Before U.S. open, Sep. 1, 2026; call 8:00 a.m. ET",
       "direction_call": "Lean Up",
-      "direction_score": 36,
-      "reversal_risk": 44,
-      "disparity": 8,
+      "direction_score": 37,
+      "reversal_risk": 47,
       "confidence": "Medium",
-      "expected_driver": "Pump/CGM adoption and EBITDA margin",
-      "key_risk_to_call": "67% three-month run; launch costs",
-      "evidence_quality": "Medium-High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "Applied repeated priced-in premium-growth penalty",
-      "one_sentence_thesis": "Flex and Instinct launches plus a rising CGM attachment rate support growth, but a sharp post-spin rally raises the beat-and-raise bar.",
-      "market_expectation_summary": "Consensus is roughly $827 million revenue and $0.09-$0.12 adjusted EPS; FY27 guidance calls for about 10% organic growth and a 16% adjusted EBITDA margin.",
-      "upside_case_summary": "New-pump shipments and CGM attachment accelerate while management shows clean progress toward 10% organic growth and 16% EBITDA margin.",
-      "downside_case_summary": "Launch spending, U.S. pump softness, or weak margin conversion exposes how much optimism is embedded after the three-month rally.",
-      "options_or_positioning_summary": "Reliable event-implied-move data was not available; shares were up about 67% over three months through August 28.",
-      "analyst_revision_summary": "Coverage is mostly constructive, but several post-results target cuts and targets near the current price show a less forgiving valuation setup.",
-      "pass_scores": {
-        "A": {
-          "direction": 43,
-          "reversal_risk": 40
-        },
-        "B": {
-          "direction": 29,
-          "reversal_risk": 49
-        },
-        "C": {
-          "direction": 36,
-          "reversal_risk": 44
-        }
-      },
+      "expected_driver": "Vehicle margin and forward deliveries",
+      "key_risk_to_call": "Q2 delivery miss; weaker margin or guide",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Strong delivery growth and prior margin improvement support upside, but the Q2 delivery shortfall versus company guidance makes vehicle margin and the next delivery outlook decisive.",
+      "market_expectation_summary": "Q2 deliveries were 107,658, up 49.4% year over year but below the 110,000-115,000 guide; consensus loss and revenue estimates were about $0.07 per ADS and $4.78 billion.",
+      "upside_case_summary": "Vehicle margin holds near 17%-18%, non-GAAP profitability persists, and management maintains a credible 40%-50% 2026 delivery-growth path.",
+      "downside_case_summary": "Price competition, a softer mix, or another forward-delivery reset overwhelms the headline volume growth.",
+      "options_or_positioning_summary": "Options implied roughly 9.4%-9.7%; retail attention and improving analyst tone can amplify either direction.",
+      "analyst_revision_summary": "Goldman Sachs upgraded to Buy with a $7 target and Morgan Stanley raised its target to $6.50, reflecting better restructuring and ONVO expectations.",
       "key_sources": [
-        "https://investors.minimed.com/",
-        "https://investors.minimed.com/2026-06-03-MiniMed-Delivers-Strong-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-Provides-Fiscal-Year-2027-Outlook",
-        "https://www.itiger.com/news/1188113089",
-        "https://www.tipranks.com/stocks/mmed/forecast"
-      ]
+        "https://ir.nio.com/news-releases/news-release-details/nio-inc-report-unaudited-second-quarter-2026-financial-results/",
+        "https://ir.nio.com/static-files/254713bf-8d86-4da7-be26-5ddc42281ba5",
+        "https://cnevpost.com/2026/08/20/nio-to-report-q2-2026-earnings-sept-1/"
+      ],
+      "disparity": 5,
+      "pass_agreement": "Passes A, B and C all Lean Up",
+      "method_update_note": "Existing forward-KPI test applied"
     },
     {
       "rank": 3,
-      "ticker": "NIO",
-      "company": "NIO Inc.",
-      "timing": "Sep. 1, 2026 BMO; call 8:00 a.m. ET",
+      "ticker": "MMED",
+      "company": "MiniMed Group, Inc.",
+      "timing": "Before U.S. open, Sep. 1, 2026; release 6:45 a.m. ET",
       "direction_call": "Lean Up",
       "direction_score": 35,
-      "reversal_risk": 62,
-      "disparity": 13,
-      "confidence": "Low",
-      "expected_driver": "Vehicle margin and Q3 delivery guide",
-      "key_risk_to_call": "Q2 delivery miss; China EV pricing",
+      "reversal_risk": 45,
+      "confidence": "Medium",
+      "expected_driver": "Flex launch, CGM attachment and organic growth",
+      "key_risk_to_call": "Standalone costs and weak U.S. uptake",
       "evidence_quality": "Medium",
-      "pass_agreement": "Two Lean Up; one Neutral",
-      "method_update_note": "Applied repeated low-bar/reversal-risk floor",
-      "one_sentence_thesis": "A major margin recovery and strong July growth create upside, but the Q2 delivery shortfall and intense China EV competition make the reaction highly path-dependent.",
-      "market_expectation_summary": "Published previews range from a $0.05-$0.07 per-share loss to calendar estimates near -$0.21; revenue expectations cluster around $4.8-$5.0 billion, and options imply about 9.7%.",
-      "upside_case_summary": "Vehicle margin holds near 18%, Q3 deliveries accelerate across NIO/ONVO/firefly, and cost discipline sustains non-GAAP profitability.",
-      "downside_case_summary": "Management guides below the market's volume assumptions or signals discounting that erodes the vehicle-margin recovery.",
-      "options_or_positioning_summary": "Options imply about ±9.7%; retail sentiment is bullish but debate over missed guidance and management credibility is intense.",
-      "analyst_revision_summary": "Recent Goldman and Morgan Stanley commentary turned more constructive, but published EPS estimates vary widely because ADS accounting and GAAP/non-GAAP conventions differ.",
-      "pass_scores": {
-        "A": {
-          "direction": 47,
-          "reversal_risk": 56
-        },
-        "B": {
-          "direction": 23,
-          "reversal_risk": 69
-        },
-        "C": {
-          "direction": 35,
-          "reversal_risk": 61
-        }
-      },
+      "one_sentence_thesis": "Flex and Instinct launches plus higher CGM attachment support growth, but the first standalone quarterly setup carries cost and expectation risk.",
+      "market_expectation_summary": "Consensus was about $827 million revenue and $0.09-$0.12 adjusted EPS; FY27 guidance calls for about 10% organic revenue growth and a 16% adjusted EBITDA margin.",
+      "upside_case_summary": "Deferred U.S. demand converts into Flex shipments, CGM attachment keeps rising and management reiterates or improves the 10% organic growth framework.",
+      "downside_case_summary": "U.S. growth remains soft, standalone public-company costs dilute margins, or product mix weakens gross margin.",
+      "options_or_positioning_summary": "No sufficiently reliable earnings-implied-move benchmark was found; analyst positioning is heavily bullish, which raises the bar.",
+      "analyst_revision_summary": "BofA raised its target to $24 from $20 and most current ratings were Buy, but the average target was only modestly above the market price.",
       "key_sources": [
-        "https://ir.nio.com/news-releases/news-release-details/nio-inc-report-unaudited-second-quarter-2026-financial-results/",
-        "https://www.nio.com/news/20260521001",
-        "https://www.nio.io/news/20260801001",
-        "https://www.zacks.com/stock/news/2981130/buy-sell-or-hold-nio-stock-key-tips-ahead-of-q2-earnings",
-        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
-      ]
+        "https://investors.minimed.com/",
+        "https://investors.minimed.com/2026-06-03-MiniMed-Delivers-Strong-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-Provides-Fiscal-Year-2027-Outlook",
+        "https://www.sec.gov/Archives/edgar/data/2062583/000162828026045915/mdt-20260424.htm"
+      ],
+      "disparity": 4,
+      "pass_agreement": "Passes A, B and C all Lean Up",
+      "method_update_note": "Existing forward-KPI test applied"
     },
     {
       "rank": 4,
       "ticker": "YEXT",
       "company": "Yext, Inc.",
-      "timing": "Sep. 1, 2026 BMO",
+      "timing": "Before U.S. open, Sep. 1, 2026",
       "direction_call": "Lean Down",
-      "direction_score": -27,
-      "reversal_risk": 67,
-      "disparity": 9,
-      "confidence": "Low",
-      "expected_driver": "≥$50K customer ARR and NRR",
-      "key_risk_to_call": "Low bar; AI-product relief squeeze",
+      "direction_score": -33,
+      "reversal_risk": 55,
+      "confidence": "Medium",
+      "expected_driver": "Enterprise ARR and net retention",
+      "key_risk_to_call": "Low bar and cost-led EPS squeeze",
       "evidence_quality": "Medium",
-      "pass_agreement": "Two Lean Down; one Neutral",
-      "method_update_note": "Applied repeated low-bar/reversal-risk floor",
-      "one_sentence_thesis": "Revenue contraction and 97% large-customer NRR argue for caution, but strong margins, a low published bar, and AI-product optionality make the short thesis fragile.",
-      "market_expectation_summary": "Consensus is about $111.3 million revenue and $0.17 adjusted EPS; management suspended forward guidance and quarterly calls, increasing interpretation risk.",
-      "upside_case_summary": "Large-customer ARR reaccelerates, Scout adoption improves retention, and EBITDA strength clears a low valuation and analyst bar.",
-      "downside_case_summary": "Large-customer ARR remains near flat, NRR stays below 100%, and the absence of guidance reinforces a no-growth interpretation.",
-      "options_or_positioning_summary": "Options imply roughly ±19.9%, a warning that even the correct direction may not exceed the priced move.",
-      "analyst_revision_summary": "Recent B. Riley and Roth downgrades plus a roughly Hold consensus contrast with one older $10 Buy target.",
-      "pass_scores": {
-        "A": {
-          "direction": -36,
-          "reversal_risk": 63
-        },
-        "B": {
-          "direction": -17,
-          "reversal_risk": 72
-        },
-        "C": {
-          "direction": -28,
-          "reversal_risk": 67
-        }
-      },
+      "one_sentence_thesis": "Shrinking total ARR, only 1% growth in larger-customer ARR and 97% net retention leave the stock exposed unless enterprise expansion or profitability improves sharply.",
+      "market_expectation_summary": "Analysts expected about $111.3 million revenue and $0.17 EPS after Q1 revenue fell 1% and total ARR declined to $440.8 million; management no longer provides quarterly guidance or calls.",
+      "upside_case_summary": "Large-customer ARR and NRR inflect higher while cost discipline delivers an EPS and cash-flow beat against a de-risked stock.",
+      "downside_case_summary": "Enterprise ARR remains nearly flat, sub-$50,000 churn persists and absent guidance keeps investors focused on weak organic growth.",
+      "options_or_positioning_summary": "Options implied about 19.9%, richer than the stock's roughly 15.1% long-run average; the last earnings move was about -22.4%.",
+      "analyst_revision_summary": "The next-quarter revenue estimate had been revised down about 2.4% over three months and coverage depth was thin.",
       "key_sources": [
-        "https://investors.yext.com/news-events/press-releases/detail/390/yext-to-announce-second-quarter-fiscal-year-2027-financial",
         "https://investors.yext.com/sec-filings/all-sec-filings/content/0001628280-26-039786/ex992q1fy27shareholderlett.htm",
-        "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61488660/yext-likely-to-report-higher-q2-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+        "https://investors.yext.com/news-events",
         "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
-      ]
+      ],
+      "disparity": 6,
+      "pass_agreement": "Passes A, B and C all Lean Down",
+      "method_update_note": "None"
+    },
+    {
+      "rank": 5,
+      "ticker": "RZLV",
+      "company": "Rezolve AI plc",
+      "timing": "Before U.S. open, Sep. 1, 2026; call 8:30 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -31,
+      "reversal_risk": 67,
+      "confidence": "Low",
+      "expected_driver": "Organic revenue quality and $360M bridge",
+      "key_risk_to_call": "Verified growth, buyback and short squeeze",
+      "evidence_quality": "Low",
+      "one_sentence_thesis": "The preliminary $127 million H1 headline is strong but already known, while the approximately $233 million H2 requirement and acquisition-heavy revenue bridge create sell-the-news and quality risk.",
+      "market_expectation_summary": "Management preannounced about $127 million H1 revenue and reaffirmed roughly $360 million for 2026, implying a steep second-half ramp.",
+      "upside_case_summary": "Final numbers validate organic conversion, management shows a credible path to $360 million and $500 million exit ARR, and buyback timing pressures shorts.",
+      "downside_case_summary": "The organic versus acquired bridge is weak, profitability lags or management cannot substantiate the H2 acceleration.",
+      "options_or_positioning_summary": "Weekly options implied about 13.5%; short interest was roughly 11.6%, creating substantial upside-reversal risk.",
+      "analyst_revision_summary": "Most analysts remained bullish with targets far above the stock, although the evidence base is unusually management-dependent.",
+      "key_sources": [
+        "https://rezolve.gcs-web.com/news-releases/news-release-details/rezolve-ai-delivers-breakout-first-half-performance-preliminary",
+        "https://rezolve.gcs-web.com/news-releases/news-release-details/rezolve-ai-report-h1-2026-results-and-host-investor-call",
+        "https://www.optionslam.com/earnings/weekly/RZLV"
+      ],
+      "disparity": 27,
+      "pass_agreement": "Two Lean Down; one Neutral / No Edge",
+      "method_update_note": "None"
+    },
+    {
+      "rank": 6,
+      "ticker": "SSL",
+      "company": "Sasol Limited",
+      "timing": "Before U.S. open, Sep. 1, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -26,
+      "reversal_risk": 58,
+      "confidence": "Low",
+      "expected_driver": "Free cash flow, net debt and dividend",
+      "key_risk_to_call": "Oil spike and stronger cash return",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Most earnings upside is preannounced and the stock has rerated, so cash conversion, leverage and dividends must beat a higher bar to avoid a sell-the-news reaction.",
+      "market_expectation_summary": "Sasol preannounced EPS growth of 65%-84%, HEPS growth of 2%-14% and adjusted EBITDA growth of 12%-20%; higher working capital remains a cash-flow risk.",
+      "upside_case_summary": "Strong oil prices, better production, lower capex and disciplined costs drive a stronger dividend and faster debt reduction.",
+      "downside_case_summary": "Working-capital absorption, chemicals weakness or cautious FY27 commentary overshadows already-known EBITDA growth.",
+      "options_or_positioning_summary": "No robust current implied-move benchmark was found; the ADR had rallied materially since the prior report, increasing sell-the-news risk.",
+      "analyst_revision_summary": "The stock carried a broadly negative Reduce consensus despite the improved trading statement.",
+      "key_sources": [
+        "https://www.sasol.com/investor-centre",
+        "https://www.sharedata.co.za/v2/scripts/sens.aspx?id=556102",
+        "https://www.sasol.com/media-centre/media-releases/sasol-strategic-initiatives-progressing-and-tracking-cmd-targets"
+      ],
+      "disparity": 25,
+      "pass_agreement": "Two Lean Down; one Neutral / No Edge",
+      "method_update_note": "None"
     }
   ],
   "research_allocation_view": {
-    "model_type": "hypothetical same-day research-prioritization basket",
-    "selected": [
+    "qualified_names": [
       {
         "ticker": "MDT",
         "direction": "Lean Up",
-        "weight_percent": 100,
-        "reason": "Absolute score above 30, reversal risk below 40, low disparity, and high evidence quality."
+        "share_percent": 65,
+        "why": "Best combination of consensus score, 38 reversal risk, 4 disparity and high-quality evidence."
       }
     ],
-    "excluded": [
-      {
-        "ticker": "MMED",
-        "reason": "Reversal risk 44 exceeds the 40 ceiling."
-      },
-      {
-        "ticker": "NIO",
-        "reason": "Reversal risk 62 and higher disparity."
-      },
-      {
-        "ticker": "YEXT",
-        "reason": "Reversal risk 67 and absolute score below 30."
-      }
+    "excluded_high_reversal_or_weak_names": [
+      {"ticker": "NIO", "reason": "47 reversal risk exceeds the 40 threshold."},
+      {"ticker": "MMED", "reason": "45 reversal risk exceeds the 40 threshold."},
+      {"ticker": "YEXT", "reason": "55 reversal risk exceeds the threshold."},
+      {"ticker": "RZLV", "reason": "67 reversal risk, low evidence quality and 27 disparity."},
+      {"ticker": "SSL", "reason": "Absolute score is only 26 and reversal risk is 58."}
     ],
-    "unallocated_percent": 0,
-    "disclaimer": "This is a research prioritization model, not financial advice."
+    "unallocated_percent": 35,
+    "plain_statement": "This is a research prioritization model, not financial advice."
   },
   "detailed_company_sections": [
-    {
-      "ticker": "MDT",
-      "consensus_summary": "Three independent passes converged on Lean Up.",
-      "recommendation": "Prioritize",
-      "confidence": "Medium",
-      "base_case": "Modest beat or solid in-line print with maintained guidance.",
-      "bull_case": "PFA and broad organic growth drive a beat-and-raise.",
-      "bear_case": "Margins or PFA share disappoint despite acceptable revenue.",
-      "social_sentiment": "Limited retail signal; institutional/analyst tone is constructive.",
-      "allocation_reason": "Only name clearing all gates; low disparity improved priority.",
-      "method_update_note": "Priced-in and forward-look checks applied."
-    },
-    {
-      "ticker": "MMED",
-      "consensus_summary": "Three independent passes agreed on Lean Up, with moderate scoring spread.",
-      "recommendation": "Watch, not allocated",
-      "confidence": "Medium",
-      "base_case": "Growth remains near plan with mixed margin conversion.",
-      "bull_case": "Flex/Instinct adoption and CGM attachment beat.",
-      "bear_case": "Launch costs or U.S. pump softness undermine margins.",
-      "social_sentiment": "Bullish product-cycle narrative, but sparse independent consumer evidence.",
-      "allocation_reason": "Score qualified, reversal risk did not.",
-      "method_update_note": "Priced-in penalty applied after sharp rally."
-    },
-    {
-      "ticker": "NIO",
-      "consensus_summary": "Two passes Lean Up; one Neutral.",
-      "recommendation": "Speculative watch",
-      "confidence": "Low",
-      "base_case": "Strong margins offset the Q2 delivery miss.",
-      "bull_case": "Q3 volume guide and cost control validate profitability.",
-      "bear_case": "Price competition erodes margin and guidance.",
-      "social_sentiment": "Retail sentiment is bullish but polarized and credibility-sensitive.",
-      "allocation_reason": "High reversal risk and pass disagreement exclude it.",
-      "method_update_note": "Low-bar reversal-risk floor applied."
-    },
-    {
-      "ticker": "YEXT",
-      "consensus_summary": "Two passes Lean Down; one Neutral.",
-      "recommendation": "No priority",
-      "confidence": "Low",
-      "base_case": "ARR remains sluggish while margins hold.",
-      "bull_case": "AI products lift enterprise ARR and retention.",
-      "bear_case": "NRR remains below 100% and no guidance reinforces stagnation.",
-      "social_sentiment": "Little reliable retail evidence; AI-search narrative is promotional and unproven financially.",
-      "allocation_reason": "Score and reversal-risk gates both fail.",
-      "method_update_note": "Low-bar reversal-risk floor applied."
-    }
+    {"ticker":"MDT","consensus_summary":"All three passes Lean Up.","averaged_direction_score":42,"averaged_reversal_risk":38,"disparity":4,"recommendation":"Highest research priority; 65% of notional attention basket.","confidence":"Medium","key_metric":"Organic revenue growth and FY27 guidance","base_case":"Modest beat and firmer guide tone.","bull_case":"Beat and raise on durable new-product growth.","bear_case":"Extra-week benefit masks softness and tariffs pressure margins.","social_sentiment":"Sparse and not decision-useful.","allocation_result":"Qualified.","method_update_note":"Existing guide-raise test applied."},
+    {"ticker":"NIO","consensus_summary":"All three passes Lean Up.","averaged_direction_score":37,"averaged_reversal_risk":47,"disparity":5,"recommendation":"Constructive watch; no allocation.","confidence":"Medium","key_metric":"Vehicle margin and forward deliveries","base_case":"Margin holds and growth outlook remains credible.","bull_case":"Profitability and guidance clear the bar.","bear_case":"Delivery miss carries into weaker forward guidance.","social_sentiment":"Retail sentiment bullish but polarized and noisy.","allocation_result":"Excluded on reversal risk.","method_update_note":"Existing forward-KPI test applied."},
+    {"ticker":"MMED","consensus_summary":"All three passes Lean Up.","averaged_direction_score":35,"averaged_reversal_risk":45,"disparity":4,"recommendation":"Constructive watch; no allocation.","confidence":"Medium","key_metric":"Organic growth from Flex and CGM attachment","base_case":"Launches support the 10% growth framework.","bull_case":"Deferred U.S. demand converts with margin resilience.","bear_case":"Standalone costs and weak U.S. uptake disappoint.","social_sentiment":"Limited standalone-company history; not weighted.","allocation_result":"Excluded on reversal risk.","method_update_note":"Existing forward-KPI test applied."},
+    {"ticker":"YEXT","consensus_summary":"All three passes Lean Down.","averaged_direction_score":-33,"averaged_reversal_risk":55,"disparity":6,"recommendation":"Downside watch; no allocation.","confidence":"Medium","key_metric":"Enterprise ARR and net retention","base_case":"ARR remains weak despite profitability.","bull_case":"Low bar and cost discipline drive relief.","bear_case":"Enterprise ARR fails to reaccelerate.","social_sentiment":"Sparse; isolated valuation optimism was not weighted.","allocation_result":"Excluded on reversal risk.","method_update_note":"None."},
+    {"ticker":"RZLV","consensus_summary":"Two passes Lean Down; one Neutral.","averaged_direction_score":-31,"averaged_reversal_risk":67,"disparity":27,"recommendation":"Speculative downside watch only.","confidence":"Low","key_metric":"Organic revenue bridge to $360 million","base_case":"Known preliminary headline fails to create fresh upside.","bull_case":"Verified organic growth and buyback squeeze shorts.","bear_case":"H2 bridge and profitability lack credibility.","social_sentiment":"Intensely bullish but mixed with explicit skepticism; manipulation and crowding risk high.","allocation_result":"Excluded on reversal risk, evidence quality and disparity.","method_update_note":"None."},
+    {"ticker":"SSL","consensus_summary":"Two passes Lean Down; one Neutral.","averaged_direction_score":-26,"averaged_reversal_risk":58,"disparity":25,"recommendation":"Low-conviction sell-the-news watch.","confidence":"Low","key_metric":"Free cash flow, net debt and dividend","base_case":"Known earnings improvement is offset by cash-flow caution.","bull_case":"Oil, production and cost discipline lift cash returns.","bear_case":"Working capital and chemicals pressure dominate.","social_sentiment":"No decision-useful U.S. social signal found.","allocation_result":"Excluded on score and reversal risk.","method_update_note":"None."}
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
