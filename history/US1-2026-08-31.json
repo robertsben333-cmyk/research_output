@@ -1,0 +1,309 @@
+{
+  "generation_timestamp": "2026-08-31T17:02:01Z",
+  "covered_report_window": "Monday, August 31, 2026 after the U.S. market close through Tuesday, September 1, 2026 before the U.S. market opens.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were broadly lower at midday after renewed U.S.-Iran action lifted crude oil; the S&P 500 was down about 0.4% and Nasdaq about 0.3%. Tuesday's JOLTS and manufacturing data arrive after the pre-market earnings reactions.",
+  "companies_reviewed_count": 4,
+  "universe_notes": {
+    "qualified_tickers": [
+      "MDT",
+      "MMED",
+      "NIO",
+      "RZLV"
+    ],
+    "excluded": [
+      {
+        "ticker": "PXS",
+        "reason": "Microcap and extremely thin trading volume"
+      },
+      {
+        "ticker": "CANG",
+        "reason": "No sufficiently strong official confirmation of the exact after-close session"
+      },
+      {
+        "ticker": "YEXT",
+        "reason": "Conflicting session evidence; official date found but exact pre-open timing was not sufficiently confirmed"
+      }
+    ]
+  },
+  "top_setups": {
+    "upward": [
+      "MMED",
+      "MDT",
+      "RZLV"
+    ],
+    "downward": [],
+    "neutral_or_mixed": [
+      "NIO"
+    ]
+  },
+  "consensus_method": {
+    "independent_passes": 3,
+    "disparity_definition": "Composite 0-100 normalized mean absolute dispersion across the three direction scores and three reversal-risk estimates; lower is tighter agreement.",
+    "lessons_review": "Applied recurring expectation-bar, key-metric-first, forward-look override, and separate reversal-risk controls."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "MMED",
+      "company": "MiniMed Group",
+      "timing": "Before open Sep. 1 (release 6:45 a.m. ET; webcast 8:45 a.m. ET)",
+      "direction_call": "Lean Up",
+      "direction_score": 53,
+      "reversal_risk": 36,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "U.S. Flex launch; worldwide new pumps; CGM attachment",
+      "key_risk_to_call": "Launch costs or soft U.S. uptake",
+      "evidence_quality": "Strong",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Expectation-bar and forward-look checks",
+      "one_sentence_thesis": "Recent double-digit international growth and new-product launches support upside if U.S. new-pump growth and FY27 guidance remain intact.",
+      "market_expectation_summary": "Consensus EPS is about $0.12; last quarter revenue was $837M, up 15.6% reported and 8.7% organic, with U.S. sales only up 1.5%.",
+      "upside_case_summary": "Flex adoption lifts U.S. new pumps, CGM attachment expands, and FY27 growth guidance holds or improves.",
+      "downside_case_summary": "A strong reported quarter is offset by launch spending, reimbursement friction, or weaker U.S. conversion.",
+      "options_or_positioning_summary": "Reliable current implied-move data was not found; post-spin price discovery raises event volatility.",
+      "analyst_revision_summary": "Available preview evidence is cautiously constructive, but the analyst history is short after the spin.",
+      "key_sources": [
+        "https://investors.minimed.com/",
+        "https://investors.minimed.com/2026-06-03-MiniMed-Delivers-Strong-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-Provides-Fiscal-Year-2027-Outlook",
+        "https://www.tipranks.com/stocks/mmed/earnings"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "MDT",
+      "company": "Medtronic",
+      "timing": "Before open Sep. 1 (release ~6:45 a.m. ET; Q&A 7:45 a.m. ET)",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 30,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Q1 organic growth and FY27 EPS guidance",
+      "key_risk_to_call": "High Q1 growth bar; margin/tariff pressure",
+      "evidence_quality": "Strong",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Expectation-bar and forward-look checks",
+      "one_sentence_thesis": "A strong product cycle supports a modest upside bias, but the stock needs organic growth near its unusually high Q1 guide and steady FY27 margins.",
+      "market_expectation_summary": "Consensus is about $9.55B revenue and $1.39 EPS; FY27 EPS guidance is $5.90-$6.00 and Q1 organic growth guidance is roughly 11.5%-12%, helped by an extra week.",
+      "upside_case_summary": "Cardiovascular and neuroscience momentum supports a beat and FY27 guidance is maintained or raised.",
+      "downside_case_summary": "Reported growth is flattered by calendar effects while tariffs, FX, or mix pressure the margin outlook.",
+      "options_or_positioning_summary": "Options imply about a 5.0% move versus a 10-year average peak earnings-day move near 4.5%.",
+      "analyst_revision_summary": "Consensus remains constructive; the prior quarter beat revenue expectations and shares rose more than the then-implied move.",
+      "key_sources": [
+        "https://investorrelations.medtronic.com/",
+        "https://www.marketbeat.com/instant-alerts/upcoming-medtronic-mdt-expected-to-release-earnings-on-tuesday-2026-08-25/",
+        "https://earnings-watcher.com/wiki/mdt-implied-move"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "RZLV",
+      "company": "Rezolve AI",
+      "timing": "Before open Sep. 1 (investor call 8:30 a.m. ET)",
+      "direction_call": "Lean Up",
+      "direction_score": 32,
+      "reversal_risk": 70,
+      "disparity": 20,
+      "confidence": "Low",
+      "expected_driver": "H2 bridge to $360M FY26 revenue; cash conversion",
+      "key_risk_to_call": "Preliminary beat priced; quality/dilution concerns",
+      "evidence_quality": "Good",
+      "pass_agreement": "2 Lean Up; 1 Neutral",
+      "method_update_note": "Expectation-bar, financing scan, and forward-look override",
+      "one_sentence_thesis": "The preliminary $127M H1 revenue removes much headline uncertainty, so upside now depends on a credible H2 bridge, organic quality, and cash conversion.",
+      "market_expectation_summary": "Management already preannounced about $127M H1 revenue and reaffirmed approximately $360M FY26 revenue, implying a much larger second half.",
+      "upside_case_summary": "Management validates the H2 ramp with contracted deployments, strong ARR, clean cash conversion, and limited dilution.",
+      "downside_case_summary": "Acquisition contribution, weak cash flow, or an opaque H2 bridge makes the preliminary growth look lower quality.",
+      "options_or_positioning_summary": "Options price about a 13.5% move; heavy retail attention and a volatile $3-area share price make both squeeze and reversal risk high.",
+      "analyst_revision_summary": "Traditional sell-side coverage is limited; company guidance is the dominant reference point.",
+      "key_sources": [
+        "https://investor.rezolve.com/news-releases/news-release-details/rezolve-ai-report-h1-2026-results-and-host-investor-call",
+        "https://rezolve.gcs-web.com/news-releases/news-release-details/rezolve-ai-delivers-breakout-first-half-performance-preliminary",
+        "https://optionpilot.ainvest.com/RZLV"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "NIO",
+      "company": "NIO",
+      "timing": "Before open Sep. 1 (call 8:00 a.m. ET)",
+      "direction_call": "Lean Up",
+      "direction_score": 29,
+      "reversal_risk": 58,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "Vehicle margin and Q3 delivery/revenue guidance",
+      "key_risk_to_call": "Q2 delivery miss; softer Q3 outlook",
+      "evidence_quality": "Strong",
+      "pass_agreement": "2 Lean Up; 1 Neutral",
+      "method_update_note": "Expectation-bar and forward-look override",
+      "one_sentence_thesis": "Rapid delivery growth and sharply better margins create upside potential, but the Q2 delivery miss and demanding forward profitability narrative keep the edge weak.",
+      "market_expectation_summary": "Consensus is roughly a $0.05 loss per ADS on $4.95B revenue; Q2 deliveries rose 49.4% to 107,658 but missed management's 110,000-115,000 guide.",
+      "upside_case_summary": "Vehicle margin holds near the high teens, losses narrow faster than expected, and Q3 guidance confirms scale leverage.",
+      "downside_case_summary": "Mix and pricing pressure vehicle margin, while Q3 delivery guidance validates concern after the Q2 miss.",
+      "options_or_positioning_summary": "Options imply roughly 8%-10%; recent realized earnings moves have often been smaller than priced.",
+      "analyst_revision_summary": "Wall Street's Moderate Buy stance is constructive, but the key revisions hinge on proof of sustained profitability.",
+      "key_sources": [
+        "https://ir.nio.com/news-releases/news-release-details/nio-inc-report-unaudited-second-quarter-2026-financial-results/",
+        "https://ir.nio.com/static-files/254713bf-8d86-4da7-be26-5ddc42281ba5",
+        "https://www.tipranks.com/news/nio-q2-earnings-preview-what-investors-should-know-ahead-of-september-1",
+        "https://algoxflow.com/earnings/nio"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "model_type": "hypothetical same-day research-prioritization basket",
+    "qualified": [
+      {
+        "ticker": "MMED",
+        "direction": "Lean Up",
+        "allocation_percent": 60,
+        "reason": "53 score, 36 reversal risk, low disparity, strong primary-source evidence"
+      },
+      {
+        "ticker": "MDT",
+        "direction": "Lean Up",
+        "allocation_percent": 40,
+        "reason": "34 score, 30 reversal risk, lowest disparity, strong primary-source evidence"
+      }
+    ],
+    "excluded": [
+      {
+        "ticker": "RZLV",
+        "reason": "Reversal risk 70 and high disparity"
+      },
+      {
+        "ticker": "NIO",
+        "reason": "Absolute score below the required 30 threshold and reversal risk 58"
+      }
+    ],
+    "unallocated_percent": 0,
+    "disclaimer": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "MMED",
+      "consensus_summary": "3/3 Lean Up; consensus Lean Up.",
+      "averaged_direction_score": 53,
+      "averaged_reversal_risk": 36,
+      "disparity_metric": 6,
+      "pass_agreement_pattern": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Recent double-digit international growth and new-product launches support upside if U.S. new-pump growth and FY27 guidance remain intact.",
+      "expectation_summary": "Consensus EPS is about $0.12; last quarter revenue was $837M, up 15.6% reported and 8.7% organic, with U.S. sales only up 1.5%.",
+      "upside_case": "Flex adoption lifts U.S. new pumps, CGM attachment expands, and FY27 growth guidance holds or improves.",
+      "downside_case": "A strong reported quarter is offset by launch spending, reimbursement friction, or weaker U.S. conversion.",
+      "reversal_risk_assessment": "36/100; Launch costs or soft U.S. uptake.",
+      "sentiment_read": "Company-specific social evidence was sparse and not given material weight.",
+      "positioning_read": "Reliable current implied-move data was not found; post-spin price discovery raises event volatility.",
+      "analyst_revision_read": "Available preview evidence is cautiously constructive, but the analyst history is short after the spin.",
+      "base_case": "Lean Up",
+      "bull_case": "Flex adoption lifts U.S. new pumps, CGM attachment expands, and FY27 growth guidance holds or improves.",
+      "bear_case": "A strong reported quarter is offset by launch spending, reimbursement friction, or weaker U.S. conversion.",
+      "final_directional_judgment": "Recent double-digit international growth and new-product launches support upside if U.S. new-pump growth and FY27 guidance remain intact.",
+      "allocation_priority_note": "Qualified for the research allocation view.",
+      "disparity_impact_note": "Low disparity supported conviction quality.",
+      "method_update_note": "Expectation-bar and forward-look checks",
+      "key_sources": [
+        "https://investors.minimed.com/",
+        "https://investors.minimed.com/2026-06-03-MiniMed-Delivers-Strong-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-Provides-Fiscal-Year-2027-Outlook",
+        "https://www.tipranks.com/stocks/mmed/earnings"
+      ]
+    },
+    {
+      "ticker": "MDT",
+      "consensus_summary": "3/3 Lean Up; consensus Lean Up.",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 30,
+      "disparity_metric": 4,
+      "pass_agreement_pattern": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "A strong product cycle supports a modest upside bias, but the stock needs organic growth near its unusually high Q1 guide and steady FY27 margins.",
+      "expectation_summary": "Consensus is about $9.55B revenue and $1.39 EPS; FY27 EPS guidance is $5.90-$6.00 and Q1 organic growth guidance is roughly 11.5%-12%, helped by an extra week.",
+      "upside_case": "Cardiovascular and neuroscience momentum supports a beat and FY27 guidance is maintained or raised.",
+      "downside_case": "Reported growth is flattered by calendar effects while tariffs, FX, or mix pressure the margin outlook.",
+      "reversal_risk_assessment": "30/100; High Q1 growth bar; margin/tariff pressure.",
+      "sentiment_read": "Company-specific social evidence was sparse and not given material weight.",
+      "positioning_read": "Options imply about a 5.0% move versus a 10-year average peak earnings-day move near 4.5%.",
+      "analyst_revision_read": "Consensus remains constructive; the prior quarter beat revenue expectations and shares rose more than the then-implied move.",
+      "base_case": "Lean Up",
+      "bull_case": "Cardiovascular and neuroscience momentum supports a beat and FY27 guidance is maintained or raised.",
+      "bear_case": "Reported growth is flattered by calendar effects while tariffs, FX, or mix pressure the margin outlook.",
+      "final_directional_judgment": "A strong product cycle supports a modest upside bias, but the stock needs organic growth near its unusually high Q1 guide and steady FY27 margins.",
+      "allocation_priority_note": "Qualified for the research allocation view.",
+      "disparity_impact_note": "Low disparity supported conviction quality.",
+      "method_update_note": "Expectation-bar and forward-look checks",
+      "key_sources": [
+        "https://investorrelations.medtronic.com/",
+        "https://www.marketbeat.com/instant-alerts/upcoming-medtronic-mdt-expected-to-release-earnings-on-tuesday-2026-08-25/",
+        "https://earnings-watcher.com/wiki/mdt-implied-move"
+      ]
+    },
+    {
+      "ticker": "RZLV",
+      "consensus_summary": "2 Lean Up; 1 Neutral; consensus Lean Up.",
+      "averaged_direction_score": 32,
+      "averaged_reversal_risk": 70,
+      "disparity_metric": 20,
+      "pass_agreement_pattern": "2 Lean Up; 1 Neutral",
+      "recommendation": "Lean Up",
+      "confidence_level": "Low",
+      "thesis": "The preliminary $127M H1 revenue removes much headline uncertainty, so upside now depends on a credible H2 bridge, organic quality, and cash conversion.",
+      "expectation_summary": "Management already preannounced about $127M H1 revenue and reaffirmed approximately $360M FY26 revenue, implying a much larger second half.",
+      "upside_case": "Management validates the H2 ramp with contracted deployments, strong ARR, clean cash conversion, and limited dilution.",
+      "downside_case": "Acquisition contribution, weak cash flow, or an opaque H2 bridge makes the preliminary growth look lower quality.",
+      "reversal_risk_assessment": "70/100; Preliminary beat priced; quality/dilution concerns.",
+      "sentiment_read": "Retail enthusiasm is high and promotional risk is material; treated as positioning, not fundamental evidence.",
+      "positioning_read": "Options price about a 13.5% move; heavy retail attention and a volatile $3-area share price make both squeeze and reversal risk high.",
+      "analyst_revision_read": "Traditional sell-side coverage is limited; company guidance is the dominant reference point.",
+      "base_case": "Lean Up",
+      "bull_case": "Management validates the H2 ramp with contracted deployments, strong ARR, clean cash conversion, and limited dilution.",
+      "bear_case": "Acquisition contribution, weak cash flow, or an opaque H2 bridge makes the preliminary growth look lower quality.",
+      "final_directional_judgment": "The preliminary $127M H1 revenue removes much headline uncertainty, so upside now depends on a credible H2 bridge, organic quality, and cash conversion.",
+      "allocation_priority_note": "Did not qualify for the research allocation view.",
+      "disparity_impact_note": "High disparity materially reduced confidence and allocation priority.",
+      "method_update_note": "Expectation-bar, financing scan, and forward-look override",
+      "key_sources": [
+        "https://investor.rezolve.com/news-releases/news-release-details/rezolve-ai-report-h1-2026-results-and-host-investor-call",
+        "https://rezolve.gcs-web.com/news-releases/news-release-details/rezolve-ai-delivers-breakout-first-half-performance-preliminary",
+        "https://optionpilot.ainvest.com/RZLV"
+      ]
+    },
+    {
+      "ticker": "NIO",
+      "consensus_summary": "2 Lean Up; 1 Neutral; consensus Lean Up.",
+      "averaged_direction_score": 29,
+      "averaged_reversal_risk": 58,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "2 Lean Up; 1 Neutral",
+      "recommendation": "Lean Up",
+      "confidence_level": "Low",
+      "thesis": "Rapid delivery growth and sharply better margins create upside potential, but the Q2 delivery miss and demanding forward profitability narrative keep the edge weak.",
+      "expectation_summary": "Consensus is roughly a $0.05 loss per ADS on $4.95B revenue; Q2 deliveries rose 49.4% to 107,658 but missed management's 110,000-115,000 guide.",
+      "upside_case": "Vehicle margin holds near the high teens, losses narrow faster than expected, and Q3 guidance confirms scale leverage.",
+      "downside_case": "Mix and pricing pressure vehicle margin, while Q3 delivery guidance validates concern after the Q2 miss.",
+      "reversal_risk_assessment": "58/100; Q2 delivery miss; softer Q3 outlook.",
+      "sentiment_read": "Retail discussion is mixed: delivery optimism is offset by concern that soft guidance can overwhelm a beat.",
+      "positioning_read": "Options imply roughly 8%-10%; recent realized earnings moves have often been smaller than priced.",
+      "analyst_revision_read": "Wall Street's Moderate Buy stance is constructive, but the key revisions hinge on proof of sustained profitability.",
+      "base_case": "Lean Up",
+      "bull_case": "Vehicle margin holds near the high teens, losses narrow faster than expected, and Q3 guidance confirms scale leverage.",
+      "bear_case": "Mix and pricing pressure vehicle margin, while Q3 delivery guidance validates concern after the Q2 miss.",
+      "final_directional_judgment": "Rapid delivery growth and sharply better margins create upside potential, but the Q2 delivery miss and demanding forward profitability narrative keep the edge weak.",
+      "allocation_priority_note": "Did not qualify for the research allocation view.",
+      "disparity_impact_note": "Moderate disparity limited conviction.",
+      "method_update_note": "Expectation-bar and forward-look override",
+      "key_sources": [
+        "https://ir.nio.com/news-releases/news-release-details/nio-inc-report-unaudited-second-quarter-2026-financial-results/",
+        "https://ir.nio.com/static-files/254713bf-8d86-4da7-be26-5ddc42281ba5",
+        "https://www.tipranks.com/news/nio-q2-earnings-preview-what-investors-should-know-ahead-of-september-1",
+        "https://algoxflow.com/earnings/nio"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
