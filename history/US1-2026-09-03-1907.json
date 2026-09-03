@@ -1,0 +1,838 @@
+{
+  "generation_timestamp": "2026-09-03T17:07:00Z",
+  "covered_report_window": "Thursday, September 3, 2026 after the 4:00 p.m. ET U.S. market close through Friday, September 4, 2026 before the 9:30 a.m. ET U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were higher midday as Treasury yields eased, while oil remained elevated amid renewed U.S.-Iran fighting. The August Employment Situation at 8:30 a.m. ET Friday creates material overnight gap risk.",
+  "companies_reviewed_count": 11,
+  "qualified_ticker_universe": [
+    "GWRE",
+    "SWBI",
+    "IOT",
+    "LULU",
+    "OXM",
+    "AMBA",
+    "ZS",
+    "PL",
+    "PATH",
+    "DOCU",
+    "ASAN"
+  ],
+  "top_setups": {
+    "upward": [
+      "SWBI",
+      "GWRE",
+      "IOT"
+    ],
+    "downward": [
+      "LULU",
+      "OXM",
+      "ZS"
+    ]
+  },
+  "methodology": {
+    "independent_passes": 3,
+    "consensus": "Arithmetic mean of three independently rebuilt direction and reversal-risk assessments over the same fixed universe.",
+    "disparity_formula": "100 times the average of (direction-score range / 200) and (reversal-risk range / 100). Lower is tighter agreement.",
+    "lessons_review": "Existing timing, key-metric, priced-in, low-bar reversal and disagreement controls applied; no new method change."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "GWRE",
+      "company": "Guidewire Software",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 46.3,
+      "reversal_risk": 36,
+      "disparity": 3.5,
+      "confidence": "Medium",
+      "expected_driver": "Cloud ARR and FY2027 outlook",
+      "key_risk_to_call": "Conservative year-opening guide",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up (+49/+43/+47)",
+      "method_update_note": "Priced-in premium-growth penalty",
+      "one_sentence_thesis": "Cloud migration momentum and a raised FY2026 outlook support upside if ARR and the first FY2027 framework clear the elevated bar.",
+      "market_expectation_summary": "Q3 ARR grew 19% and revenue 27%; management raised FY2026 revenue, operating-income and cash-flow outlook.",
+      "upside_case_summary": "ARR lands above the $1.229B-$1.237B year-end range and FY2027 subscription growth starts strongly.",
+      "downside_case_summary": "A conservative FY2027 framework overwhelms a solid fiscal Q4.",
+      "options_or_positioning_summary": "Options imply about +/-13.0%, above the 9.6% 10-year average move.",
+      "analyst_revision_summary": "Recent operating guidance moved higher; a reliable public revision breadth series was unavailable.",
+      "key_sources": [
+        "https://guidewire.gcs-web.com/news-releases/news-release-details/guidewire-announce-fourth-quarter-fiscal-year-2026-financial",
+        "https://ir.guidewire.com/news-releases/news-release-details/guidewire-announces-third-quarter-fiscal-year-2026-financial",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          49,
+          43,
+          47
+        ],
+        "reversal_risk": [
+          34,
+          38,
+          36
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "ticker": "SWBI",
+      "company": "Smith & Wesson Brands",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 46.7,
+      "reversal_risk": 36,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Handgun shipments and gross margin",
+      "key_risk_to_call": "Q1 seasonality; demand normalization",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up (+44/+50/+46)",
+      "method_update_note": "One-decisive-metric rule",
+      "one_sentence_thesis": "Brand share gains and new-product handgun demand favor upside if Q1 gross margin holds despite seasonal weakness.",
+      "market_expectation_summary": "Fiscal Q4 sales rose 26.7% and new products were 37.5% of revenue; management expects healthy, slightly higher industry demand in FY2027.",
+      "upside_case_summary": "Handgun sell-through again outpaces NICS while channel inventory stays clean.",
+      "downside_case_summary": "Seasonality, retailer destocking or weaker margin makes the Q4 surge look temporary.",
+      "options_or_positioning_summary": "Options imply about +/-12.6%, below the 17.1% 10-year average move.",
+      "analyst_revision_summary": "Current Street revision breadth was unavailable; management's demand outlook is the higher-quality signal.",
+      "key_sources": [
+        "https://ir.smith-wesson.com/news-releases/news-release-details/smith-wesson-brands-inc-reports-fourth-quarter-and-full-fiscal-2/",
+        "https://ir.smith-wesson.com/press-releases",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          44,
+          50,
+          46
+        ],
+        "reversal_risk": [
+          37,
+          33,
+          38
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "ticker": "IOT",
+      "company": "Samsara",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 40,
+      "disparity": 3.5,
+      "confidence": "Medium",
+      "expected_driver": "Net-new ARR and $100K+ ARR",
+      "key_risk_to_call": "Premium valuation needs raise",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up (+42/+36/+39)",
+      "method_update_note": "Priced-in premium-growth penalty",
+      "one_sentence_thesis": "Thirty-percent ARR growth and accelerating large-customer adoption support upside, but the valuation requires more than an in-line beat.",
+      "market_expectation_summary": "Consensus revenue is about $483M; Q1 ended at $1.991B ARR, up 30%, with $100K+ customer ARR up 37%.",
+      "upside_case_summary": "Net-new ARR and large-enterprise contribution accelerate and the annual outlook rises.",
+      "downside_case_summary": "A merely in-line quarter or softer forward ARR triggers multiple compression.",
+      "options_or_positioning_summary": "Options imply about +/-11.5%, below the 18.1% 10-year average move.",
+      "analyst_revision_summary": "Public preview consensus is bullish; a clean current revisions series was not verified.",
+      "key_sources": [
+        "https://www.samsara.com/company/news/press-releases/fiscal-year-2027-q2-earnings-date",
+        "https://www.samsara.com/company/news/press-releases/q1-fiscal-year-27-results",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          42,
+          36,
+          39
+        ],
+        "reversal_risk": [
+          38,
+          42,
+          40
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "LULU",
+      "company": "lululemon athletica",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -51.7,
+      "reversal_risk": 58,
+      "disparity": 7.3,
+      "confidence": "Medium",
+      "expected_driver": "Americas full-price comps and FY guide",
+      "key_risk_to_call": "Deep reset enables relief rally",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down (-58/-45/-52)",
+      "method_update_note": "Low-bar reversal floor; forward-look override",
+      "one_sentence_thesis": "Weak Americas demand and an already-cut annual outlook favor downside unless full-price trends stabilize under incoming leadership.",
+      "market_expectation_summary": "Consensus is about $1.79 EPS on $2.46B revenue; Q1 constant-currency Americas comps fell 6% and FY revenue guidance was cut to roughly flat/down 1%.",
+      "upside_case_summary": "Americas full-price demand stabilizes, China holds and management avoids another guide cut.",
+      "downside_case_summary": "Americas comps and markdowns worsen, forcing another revenue or EPS reset.",
+      "options_or_positioning_summary": "Options imply about +/-9.3%, below the 12.0% 10-year average move.",
+      "analyst_revision_summary": "Piper called the setup challenged; Truist moved to Sell on structural-demand and turnaround-visibility concerns.",
+      "key_sources": [
+        "https://corporate.lululemon.com/investors",
+        "https://corporate.lululemon.com/~/media/Files/L/Lululemon/investors/results-center/q1-2026-financial-supplement.pdf",
+        "https://www.tipranks.com/news/lululemon-stock-lulu-forecast-piper-sandler-is-cautious-ahead-of-q2-earnings",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          -58,
+          -45,
+          -52
+        ],
+        "reversal_risk": [
+          54,
+          62,
+          58
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "ticker": "OXM",
+      "company": "Oxford Industries",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -43.3,
+      "reversal_risk": 44,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Full-price demand and gross margin",
+      "key_risk_to_call": "Tariff relief; low valuation bar",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down (-47/-39/-44)",
+      "method_update_note": "Low-bar reversal floor",
+      "one_sentence_thesis": "Flat sales, lower earnings and tariff pressure leave a downside skew unless premium-brand demand and margins improve visibly.",
+      "market_expectation_summary": "Q1 sales were $391M versus $393M and adjusted EPS fell to $1.39 from $1.82, including $0.55 per share of incremental tariff cost.",
+      "upside_case_summary": "Tommy Bahama comps stay positive and lower tariffs plus inventory discipline protect the annual guide.",
+      "downside_case_summary": "Traffic, promotions and tariffs pressure gross margin and force another sales reset.",
+      "options_or_positioning_summary": "Options imply about +/-13.7%, above the 11.2% 10-year average move.",
+      "analyst_revision_summary": "Management narrowed sales expectations but raised the low end of EPS guidance; current Street revisions were unavailable.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/75288/000007528826000055/oxm-5022026xexx991.htm",
+        "https://oxfordindustriesinc.gcs-web.com/news-events/press-releases",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          -47,
+          -39,
+          -44
+        ],
+        "reversal_risk": [
+          41,
+          47,
+          44
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "AMBA",
+      "company": "Ambarella",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 47.3,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Automotive edge-AI revenue",
+      "key_risk_to_call": "Gross-margin erosion; concentration",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up (+43/+35/+39)",
+      "method_update_note": "Priced-in AI penalty",
+      "one_sentence_thesis": "Automotive edge-AI strength and an $800M-plus potential Hanwha agreement support upside if product mix does not erode margin.",
+      "market_expectation_summary": "Consensus revenue is about $107.8M; Q1 revenue rose 16.9% and Q2 guidance was $105M-$111M with 59%-60.5% non-GAAP gross margin.",
+      "upside_case_summary": "Automotive and advanced edge-AI revenue beat while forward guidance confirms higher ASPs.",
+      "downside_case_summary": "Gross margin, customer concentration or design-win conversion disappoints despite revenue growth.",
+      "options_or_positioning_summary": "Options imply about +/-12.8%, below the 16.5% 10-year average move.",
+      "analyst_revision_summary": "Street consensus is bullish, but a reliable revisions series was unavailable.",
+      "key_sources": [
+        "https://investor.ambarella.com/news-releases/news-release-details/ambarella-inc-announces-first-quarter-fiscal-year-2027-financial",
+        "https://www.ambarella.com/news-events/",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          43,
+          35,
+          39
+        ],
+        "reversal_risk": [
+          48,
+          44,
+          50
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "ticker": "ZS",
+      "company": "Zscaler",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -36.3,
+      "reversal_risk": 55,
+      "disparity": 7.3,
+      "confidence": "Medium",
+      "expected_driver": "FY2027 ARR growth outlook",
+      "key_risk_to_call": "De-risked bar can squeeze",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down (-30/-43/-36)",
+      "method_update_note": "Priced-in growth penalty; low-bar floor",
+      "one_sentence_thesis": "Strong current execution is offset by a demanding FY2027 ARR bar and lower FCF expectations, leaving a downside skew despite the recent reset.",
+      "market_expectation_summary": "Q4 revenue consensus is about $877M; Q3 ARR rose 25%, RPO about 30%, while FY2026 FCF-margin guidance fell to 22.8%-23.3%.",
+      "upside_case_summary": "FY2027 ARR commentary clears newly cautious expectations and capex pressure proves temporary.",
+      "downside_case_summary": "ARR growth, net-new ARR or FCF outlook undershoots the buy-side bar.",
+      "options_or_positioning_summary": "Options imply about +/-12.7%; analysts remain strongly positive overall despite an Evercore tactical underperform call.",
+      "analyst_revision_summary": "23 Buy, 4 Hold in one current compilation, but Evercore flagged durability/competition risk immediately before earnings.",
+      "key_sources": [
+        "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-third-quarter-fiscal-2026-results",
+        "https://www.tipranks.com/news/zscaler-zs-q4-earnings-could-trigger-a-12-8-price-swing",
+        "https://www.tipranks.com/news/catalyst/zscaler-stock-stumbles-as-growth-jitters-rattle-investors",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          -30,
+          -43,
+          -36
+        ],
+        "reversal_risk": [
+          51,
+          59,
+          55
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "ticker": "PL",
+      "company": "Planet Labs PBC",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 33.7,
+      "reversal_risk": 58,
+      "disparity": 5.3,
+      "confidence": "Medium",
+      "expected_driver": "Backlog-to-revenue conversion",
+      "key_risk_to_call": "Valuation, capex and dilution",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up (+38/+29/+34)",
+      "method_update_note": "Priced-in narrative penalty",
+      "one_sentence_thesis": "Record revenue and a sharply larger backlog support upside, but the stock needs clean conversion and guidance to overcome valuation and financing risk.",
+      "market_expectation_summary": "Consensus revenue is about $104.5M inside the $102M-$107M guide; Q1 revenue rose 42%, RPO 81% and backlog 72%.",
+      "upside_case_summary": "Revenue clears $107M, backlog converts cleanly and the $425M-$441M FY2027 range rises.",
+      "downside_case_summary": "Gross margin, capex, contract timing or dilution concerns outweigh backlog growth.",
+      "options_or_positioning_summary": "Options imply about +/-18.6%, still below the 24.4% 10-year average move.",
+      "analyst_revision_summary": "Current compilation shows Strong Buy consensus; company raised FY2027 revenue guidance after Q1.",
+      "key_sources": [
+        "https://investors.planet.com/financials/quarterly-results/default.aspx",
+        "https://investors.planet.com/events-and-presentations/default.aspx?LanguageId=1",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          38,
+          29,
+          34
+        ],
+        "reversal_risk": [
+          55,
+          61,
+          58
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "ticker": "PATH",
+      "company": "UiPath",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 30.7,
+      "reversal_risk": 45,
+      "disparity": 3.8,
+      "confidence": "Medium",
+      "expected_driver": "ARR and dollar retention",
+      "key_risk_to_call": "AI competition; soft customer growth",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Up / 1 Neutral (+34/+27/+31)",
+      "method_update_note": "Key-metric-first; relief-risk check",
+      "one_sentence_thesis": "Q1 execution and profitable growth create a modest upside edge if ARR beats, though competitive AI narratives keep conviction contained.",
+      "market_expectation_summary": "Consensus revenue is about $397.7M; company guided Q2 revenue to $395M-$400M and ARR to $1.929B-$1.934B.",
+      "upside_case_summary": "ARR, net-new ARR and dollar retention beat while agentic products show production adoption.",
+      "downside_case_summary": "Customer growth or retention weakens and the annual ARR range fails to rise.",
+      "options_or_positioning_summary": "Options imply about +/-13.9%, below the 16.6% 10-year average move.",
+      "analyst_revision_summary": "Public preview sentiment is bullish, but revision breadth was not independently verified.",
+      "key_sources": [
+        "https://ir.uipath.com/financials/sec-filings/content/0001734722-26-000037/path-2026430xex991.htm",
+        "https://ir.uipath.com/news/detail/456/uipath-announces-second-quarter-fiscal-2027-financial-results-conference-call",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          34,
+          27,
+          31
+        ],
+        "reversal_risk": [
+          43,
+          47,
+          45
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "ticker": "DOCU",
+      "company": "Docusign",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 19.7,
+      "reversal_risk": 52,
+      "disparity": 5.3,
+      "confidence": "Low",
+      "expected_driver": "ARR and IAM adoption",
+      "key_risk_to_call": "Single-digit core growth",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Neutral, upward skew (+24/+15/+20)",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "IAM adoption and cash generation are constructive, but the new ARR framework and mature growth profile do not clear the directional threshold.",
+      "market_expectation_summary": "Consensus is about $1.09 EPS and $867M revenue; Q1 revenue was $830.2M, up 9%, with 40,000 customers investing in IAM.",
+      "upside_case_summary": "ARR/IAM mix accelerates and margins remain strong.",
+      "downside_case_summary": "IAM remains a narrative while core renewals or forward ARR decelerate.",
+      "options_or_positioning_summary": "Options imply about +/-10.0%, below the 14.1% 10-year average move.",
+      "analyst_revision_summary": "Current compilation is mixed at 3 Buy, 9 Hold, 1 Sell; a clean revision series was unavailable.",
+      "key_sources": [
+        "https://investor.docusign.com/results-and-financials/quarterly-results/default.aspx",
+        "https://www.docusign.com/company/news-center/docusign-to-announce-second-quarter-fiscal-2027-financial-results-on-september-3-2026",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          24,
+          15,
+          20
+        ],
+        "reversal_risk": [
+          49,
+          55,
+          52
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "ticker": "ASAN",
+      "company": "Asana",
+      "timing": "2026-09-03 after market close",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 13.7,
+      "reversal_risk": 64,
+      "disparity": 6.3,
+      "confidence": "Low",
+      "expected_driver": "Core-customer growth and RPO",
+      "key_risk_to_call": "Low bar plus margin relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Neutral, upward skew (+20/+7/+14)",
+      "method_update_note": "Low-bar reversal floor",
+      "one_sentence_thesis": "Margin progress is real, but roughly 9% growth and uncertain AI monetization leave no clean event-direction edge.",
+      "market_expectation_summary": "Consensus revenue is about $214M, in the $213M-$215M guide; Q1 revenue rose 9.5% and $100K+ customers 12%.",
+      "upside_case_summary": "RPO converts faster, StackAI lifts enterprise wins and margins beat.",
+      "downside_case_summary": "Core-customer growth slows or AI monetization fails to lift the annual revenue range.",
+      "options_or_positioning_summary": "Options imply about +/-18.3%, near the 19.2% 10-year average move.",
+      "analyst_revision_summary": "Current compilation is mildly positive, but the $9.92 average target sits near the pre-report price.",
+      "key_sources": [
+        "https://investors.asana.com/news-releases/news-release-details/asana-announces-first-quarter-fiscal-2027-results",
+        "https://asana.com/press/releases/pr/asana-to-announce-second-quarter-fiscal-year-2027-financial-results-on-thursday-september-3-2026/1258dd1e-a164-4aaf-86e1-e15ca5c01970",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ],
+      "independent_pass_inputs": {
+        "direction": [
+          20,
+          7,
+          14
+        ],
+        "reversal_risk": [
+          61,
+          67,
+          64
+        ]
+      }
+    }
+  ],
+  "research_allocation_view": {
+    "qualified": [
+      {
+        "ticker": "GWRE",
+        "direction": "Lean Up",
+        "allocation_percent": 38,
+        "reason": "Strong score, 36 risk, lowest disparity, high-quality evidence."
+      },
+      {
+        "ticker": "SWBI",
+        "direction": "Lean Up",
+        "allocation_percent": 35,
+        "reason": "Strongest positive score, 36 risk, low disparity, high-quality evidence."
+      },
+      {
+        "ticker": "IOT",
+        "direction": "Lean Up",
+        "allocation_percent": 27,
+        "reason": "Score above 30, risk exactly 40, low disparity, high-quality evidence."
+      }
+    ],
+    "unallocated_percent": 0,
+    "excluded_for_high_reversal_risk": [
+      "LULU",
+      "OXM",
+      "AMBA",
+      "ZS",
+      "PL",
+      "PATH"
+    ],
+    "statement": "Hypothetical research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "GWRE",
+      "consensus_summary": "3/3 Lean Up (+49/+43/+47)",
+      "averaged_direction_score": 46.3,
+      "averaged_reversal_risk": 36,
+      "disparity_metric": 3.5,
+      "pass_agreement": "3/3 Lean Up (+49/+43/+47)",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Cloud migration momentum and a raised FY2026 outlook support upside if ARR and the first FY2027 framework clear the elevated bar.",
+      "what_the_market_expects": "Q3 ARR grew 19% and revenue 27%; management raised FY2026 revenue, operating-income and cash-flow outlook.",
+      "what_could_make_stock_go_up": "ARR lands above the $1.229B-$1.237B year-end range and FY2027 subscription growth starts strongly.",
+      "what_could_make_stock_go_down": "A conservative FY2027 framework overwhelms a solid fiscal Q4.",
+      "reversal_risk_assessment": "36/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "No robust 7/14/30-day social series verified; excluded from material weighting.",
+      "options_positioning_read": "Options imply about +/-13.0%, above the 9.6% 10-year average move.",
+      "analyst_estimate_revision_read": "Recent operating guidance moved higher; a reliable public revision breadth series was unavailable.",
+      "base_case": "Cloud migration momentum and a raised FY2026 outlook support upside if ARR and the first FY2027 framework clear the elevated bar.",
+      "bull_case": "ARR lands above the $1.229B-$1.237B year-end range and FY2027 subscription growth starts strongly.",
+      "bear_case": "A conservative FY2027 framework overwhelms a solid fiscal Q4.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Qualified: |score| > 30, reversal risk <= 40, sufficient confidence/evidence.",
+      "disparity_effect_on_conviction": "Low disparity supported conviction.",
+      "method_update_note": "Priced-in premium-growth penalty",
+      "key_sources": [
+        "https://guidewire.gcs-web.com/news-releases/news-release-details/guidewire-announce-fourth-quarter-fiscal-year-2026-financial",
+        "https://ir.guidewire.com/news-releases/news-release-details/guidewire-announces-third-quarter-fiscal-year-2026-financial",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "SWBI",
+      "consensus_summary": "3/3 Lean Up (+44/+50/+46)",
+      "averaged_direction_score": 46.7,
+      "averaged_reversal_risk": 36,
+      "disparity_metric": 4,
+      "pass_agreement": "3/3 Lean Up (+44/+50/+46)",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Brand share gains and new-product handgun demand favor upside if Q1 gross margin holds despite seasonal weakness.",
+      "what_the_market_expects": "Fiscal Q4 sales rose 26.7% and new products were 37.5% of revenue; management expects healthy, slightly higher industry demand in FY2027.",
+      "what_could_make_stock_go_up": "Handgun sell-through again outpaces NICS while channel inventory stays clean.",
+      "what_could_make_stock_go_down": "Seasonality, retailer destocking or weaker margin makes the Q4 surge look temporary.",
+      "reversal_risk_assessment": "36/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "No reliable 7/14/30-day sentiment series verified; political-event noise was not scored.",
+      "options_positioning_read": "Options imply about +/-12.6%, below the 17.1% 10-year average move.",
+      "analyst_estimate_revision_read": "Current Street revision breadth was unavailable; management's demand outlook is the higher-quality signal.",
+      "base_case": "Brand share gains and new-product handgun demand favor upside if Q1 gross margin holds despite seasonal weakness.",
+      "bull_case": "Handgun sell-through again outpaces NICS while channel inventory stays clean.",
+      "bear_case": "Seasonality, retailer destocking or weaker margin makes the Q4 surge look temporary.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Qualified: |score| > 30, reversal risk <= 40, sufficient confidence/evidence.",
+      "disparity_effect_on_conviction": "Low disparity supported conviction.",
+      "method_update_note": "One-decisive-metric rule",
+      "key_sources": [
+        "https://ir.smith-wesson.com/news-releases/news-release-details/smith-wesson-brands-inc-reports-fourth-quarter-and-full-fiscal-2/",
+        "https://ir.smith-wesson.com/press-releases",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "IOT",
+      "consensus_summary": "3/3 Lean Up (+42/+36/+39)",
+      "averaged_direction_score": 39,
+      "averaged_reversal_risk": 40,
+      "disparity_metric": 3.5,
+      "pass_agreement": "3/3 Lean Up (+42/+36/+39)",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Thirty-percent ARR growth and accelerating large-customer adoption support upside, but the valuation requires more than an in-line beat.",
+      "what_the_market_expects": "Consensus revenue is about $483M; Q1 ended at $1.991B ARR, up 30%, with $100K+ customer ARR up 37%.",
+      "what_could_make_stock_go_up": "Net-new ARR and large-enterprise contribution accelerate and the annual outlook rises.",
+      "what_could_make_stock_go_down": "A merely in-line quarter or softer forward ARR triggers multiple compression.",
+      "reversal_risk_assessment": "40/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "AI/physical-operations narrative is constructive, but no robust 7/14/30-day series was available.",
+      "options_positioning_read": "Options imply about +/-11.5%, below the 18.1% 10-year average move.",
+      "analyst_estimate_revision_read": "Public preview consensus is bullish; a clean current revisions series was not verified.",
+      "base_case": "Thirty-percent ARR growth and accelerating large-customer adoption support upside, but the valuation requires more than an in-line beat.",
+      "bull_case": "Net-new ARR and large-enterprise contribution accelerate and the annual outlook rises.",
+      "bear_case": "A merely in-line quarter or softer forward ARR triggers multiple compression.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Qualified: |score| > 30, reversal risk <= 40, sufficient confidence/evidence.",
+      "disparity_effect_on_conviction": "Low disparity supported conviction.",
+      "method_update_note": "Priced-in premium-growth penalty",
+      "key_sources": [
+        "https://www.samsara.com/company/news/press-releases/fiscal-year-2027-q2-earnings-date",
+        "https://www.samsara.com/company/news/press-releases/q1-fiscal-year-27-results",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "LULU",
+      "consensus_summary": "3/3 Lean Down (-58/-45/-52)",
+      "averaged_direction_score": -51.7,
+      "averaged_reversal_risk": 58,
+      "disparity_metric": 7.3,
+      "pass_agreement": "3/3 Lean Down (-58/-45/-52)",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Weak Americas demand and an already-cut annual outlook favor downside unless full-price trends stabilize under incoming leadership.",
+      "what_the_market_expects": "Consensus is about $1.79 EPS on $2.46B revenue; Q1 constant-currency Americas comps fell 6% and FY revenue guidance was cut to roughly flat/down 1%.",
+      "what_could_make_stock_go_up": "Americas full-price demand stabilizes, China holds and management avoids another guide cut.",
+      "what_could_make_stock_go_down": "Americas comps and markdowns worsen, forcing another revenue or EPS reset.",
+      "reversal_risk_assessment": "58/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "Investor sentiment is bearish after a 43% YTD decline, but value/relief narratives are active and raise reversal risk.",
+      "options_positioning_read": "Options imply about +/-9.3%, below the 12.0% 10-year average move.",
+      "analyst_estimate_revision_read": "Piper called the setup challenged; Truist moved to Sell on structural-demand and turnaround-visibility concerns.",
+      "base_case": "Weak Americas demand and an already-cut annual outlook favor downside unless full-price trends stabilize under incoming leadership.",
+      "bull_case": "Americas full-price demand stabilizes, China holds and management avoids another guide cut.",
+      "bear_case": "Americas comps and markdowns worsen, forcing another revenue or EPS reset.",
+      "final_directional_judgment": "Lean Down",
+      "research_allocation_rationale": "Excluded: reversal risk above 40.",
+      "disparity_effect_on_conviction": "Low-to-moderate disparity was monitored but did not change the call.",
+      "method_update_note": "Low-bar reversal floor; forward-look override",
+      "key_sources": [
+        "https://corporate.lululemon.com/investors",
+        "https://corporate.lululemon.com/~/media/Files/L/Lululemon/investors/results-center/q1-2026-financial-supplement.pdf",
+        "https://www.tipranks.com/news/lululemon-stock-lulu-forecast-piper-sandler-is-cautious-ahead-of-q2-earnings",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "OXM",
+      "consensus_summary": "3/3 Lean Down (-47/-39/-44)",
+      "averaged_direction_score": -43.3,
+      "averaged_reversal_risk": 44,
+      "disparity_metric": 5,
+      "pass_agreement": "3/3 Lean Down (-47/-39/-44)",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Flat sales, lower earnings and tariff pressure leave a downside skew unless premium-brand demand and margins improve visibly.",
+      "what_the_market_expects": "Q1 sales were $391M versus $393M and adjusted EPS fell to $1.39 from $1.82, including $0.55 per share of incremental tariff cost.",
+      "what_could_make_stock_go_up": "Tommy Bahama comps stay positive and lower tariffs plus inventory discipline protect the annual guide.",
+      "what_could_make_stock_go_down": "Traffic, promotions and tariffs pressure gross margin and force another sales reset.",
+      "reversal_risk_assessment": "44/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "No dependable social trend series found; consumer sentiment remains the relevant indirect risk.",
+      "options_positioning_read": "Options imply about +/-13.7%, above the 11.2% 10-year average move.",
+      "analyst_estimate_revision_read": "Management narrowed sales expectations but raised the low end of EPS guidance; current Street revisions were unavailable.",
+      "base_case": "Flat sales, lower earnings and tariff pressure leave a downside skew unless premium-brand demand and margins improve visibly.",
+      "bull_case": "Tommy Bahama comps stay positive and lower tariffs plus inventory discipline protect the annual guide.",
+      "bear_case": "Traffic, promotions and tariffs pressure gross margin and force another sales reset.",
+      "final_directional_judgment": "Lean Down",
+      "research_allocation_rationale": "Excluded: reversal risk above 40.",
+      "disparity_effect_on_conviction": "Low disparity supported conviction.",
+      "method_update_note": "Low-bar reversal floor",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/75288/000007528826000055/oxm-5022026xexx991.htm",
+        "https://oxfordindustriesinc.gcs-web.com/news-events/press-releases",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "AMBA",
+      "consensus_summary": "3/3 Lean Up (+43/+35/+39)",
+      "averaged_direction_score": 39,
+      "averaged_reversal_risk": 47.3,
+      "disparity_metric": 5,
+      "pass_agreement": "3/3 Lean Up (+43/+35/+39)",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Automotive edge-AI strength and an $800M-plus potential Hanwha agreement support upside if product mix does not erode margin.",
+      "what_the_market_expects": "Consensus revenue is about $107.8M; Q1 revenue rose 16.9% and Q2 guidance was $105M-$111M with 59%-60.5% non-GAAP gross margin.",
+      "what_could_make_stock_go_up": "Automotive and advanced edge-AI revenue beat while forward guidance confirms higher ASPs.",
+      "what_could_make_stock_go_down": "Gross margin, customer concentration or design-win conversion disappoints despite revenue growth.",
+      "reversal_risk_assessment": "47.3/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is enthusiastic about the edge-AI narrative; narrative crowding was treated as risk, not evidence.",
+      "options_positioning_read": "Options imply about +/-12.8%, below the 16.5% 10-year average move.",
+      "analyst_estimate_revision_read": "Street consensus is bullish, but a reliable revisions series was unavailable.",
+      "base_case": "Automotive edge-AI strength and an $800M-plus potential Hanwha agreement support upside if product mix does not erode margin.",
+      "bull_case": "Automotive and advanced edge-AI revenue beat while forward guidance confirms higher ASPs.",
+      "bear_case": "Gross margin, customer concentration or design-win conversion disappoints despite revenue growth.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Excluded: reversal risk above 40.",
+      "disparity_effect_on_conviction": "Low disparity supported conviction.",
+      "method_update_note": "Priced-in AI penalty",
+      "key_sources": [
+        "https://investor.ambarella.com/news-releases/news-release-details/ambarella-inc-announces-first-quarter-fiscal-year-2027-financial",
+        "https://www.ambarella.com/news-events/",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "ZS",
+      "consensus_summary": "3/3 Lean Down (-30/-43/-36)",
+      "averaged_direction_score": -36.3,
+      "averaged_reversal_risk": 55,
+      "disparity_metric": 7.3,
+      "pass_agreement": "3/3 Lean Down (-30/-43/-36)",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Strong current execution is offset by a demanding FY2027 ARR bar and lower FCF expectations, leaving a downside skew despite the recent reset.",
+      "what_the_market_expects": "Q4 revenue consensus is about $877M; Q3 ARR rose 25%, RPO about 30%, while FY2026 FCF-margin guidance fell to 22.8%-23.3%.",
+      "what_could_make_stock_go_up": "FY2027 ARR commentary clears newly cautious expectations and capex pressure proves temporary.",
+      "what_could_make_stock_go_down": "ARR growth, net-new ARR or FCF outlook undershoots the buy-side bar.",
+      "reversal_risk_assessment": "55/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "Discussion is split between a reset-value thesis and concern over capex, Microsoft competition and slowing growth.",
+      "options_positioning_read": "Options imply about +/-12.7%; analysts remain strongly positive overall despite an Evercore tactical underperform call.",
+      "analyst_estimate_revision_read": "23 Buy, 4 Hold in one current compilation, but Evercore flagged durability/competition risk immediately before earnings.",
+      "base_case": "Strong current execution is offset by a demanding FY2027 ARR bar and lower FCF expectations, leaving a downside skew despite the recent reset.",
+      "bull_case": "FY2027 ARR commentary clears newly cautious expectations and capex pressure proves temporary.",
+      "bear_case": "ARR growth, net-new ARR or FCF outlook undershoots the buy-side bar.",
+      "final_directional_judgment": "Lean Down",
+      "research_allocation_rationale": "Excluded: reversal risk above 40.",
+      "disparity_effect_on_conviction": "Low-to-moderate disparity was monitored but did not change the call.",
+      "method_update_note": "Priced-in growth penalty; low-bar floor",
+      "key_sources": [
+        "https://ir.zscaler.com/news-releases/news-release-details/zscaler-announces-strong-third-quarter-fiscal-2026-results",
+        "https://www.tipranks.com/news/zscaler-zs-q4-earnings-could-trigger-a-12-8-price-swing",
+        "https://www.tipranks.com/news/catalyst/zscaler-stock-stumbles-as-growth-jitters-rattle-investors",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "PL",
+      "consensus_summary": "3/3 Lean Up (+38/+29/+34)",
+      "averaged_direction_score": 33.7,
+      "averaged_reversal_risk": 58,
+      "disparity_metric": 5.3,
+      "pass_agreement": "3/3 Lean Up (+38/+29/+34)",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Record revenue and a sharply larger backlog support upside, but the stock needs clean conversion and guidance to overcome valuation and financing risk.",
+      "what_the_market_expects": "Consensus revenue is about $104.5M inside the $102M-$107M guide; Q1 revenue rose 42%, RPO 81% and backlog 72%.",
+      "what_could_make_stock_go_up": "Revenue clears $107M, backlog converts cleanly and the $425M-$441M FY2027 range rises.",
+      "what_could_make_stock_go_down": "Gross margin, capex, contract timing or dilution concerns outweigh backlog growth.",
+      "reversal_risk_assessment": "58/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "Retail tone is highly engaged but mixed after a sharp run and drawdown; dilution concern is recurring and raises reversal risk.",
+      "options_positioning_read": "Options imply about +/-18.6%, still below the 24.4% 10-year average move.",
+      "analyst_estimate_revision_read": "Current compilation shows Strong Buy consensus; company raised FY2027 revenue guidance after Q1.",
+      "base_case": "Record revenue and a sharply larger backlog support upside, but the stock needs clean conversion and guidance to overcome valuation and financing risk.",
+      "bull_case": "Revenue clears $107M, backlog converts cleanly and the $425M-$441M FY2027 range rises.",
+      "bear_case": "Gross margin, capex, contract timing or dilution concerns outweigh backlog growth.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Excluded: reversal risk above 40.",
+      "disparity_effect_on_conviction": "Low-to-moderate disparity was monitored but did not change the call.",
+      "method_update_note": "Priced-in narrative penalty",
+      "key_sources": [
+        "https://investors.planet.com/financials/quarterly-results/default.aspx",
+        "https://investors.planet.com/events-and-presentations/default.aspx?LanguageId=1",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "PATH",
+      "consensus_summary": "2 Lean Up / 1 Neutral (+34/+27/+31)",
+      "averaged_direction_score": 30.7,
+      "averaged_reversal_risk": 45,
+      "disparity_metric": 3.8,
+      "pass_agreement": "2 Lean Up / 1 Neutral (+34/+27/+31)",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Q1 execution and profitable growth create a modest upside edge if ARR beats, though competitive AI narratives keep conviction contained.",
+      "what_the_market_expects": "Consensus revenue is about $397.7M; company guided Q2 revenue to $395M-$400M and ARR to $1.929B-$1.934B.",
+      "what_could_make_stock_go_up": "ARR, net-new ARR and dollar retention beat while agentic products show production adoption.",
+      "what_could_make_stock_go_down": "Customer growth or retention weakens and the annual ARR range fails to rise.",
+      "reversal_risk_assessment": "45/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is constructive after the Q1 beat; evidence was too thin for material weight.",
+      "options_positioning_read": "Options imply about +/-13.9%, below the 16.6% 10-year average move.",
+      "analyst_estimate_revision_read": "Public preview sentiment is bullish, but revision breadth was not independently verified.",
+      "base_case": "Q1 execution and profitable growth create a modest upside edge if ARR beats, though competitive AI narratives keep conviction contained.",
+      "bull_case": "ARR, net-new ARR and dollar retention beat while agentic products show production adoption.",
+      "bear_case": "Customer growth or retention weakens and the annual ARR range fails to rise.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Excluded: reversal risk above 40.",
+      "disparity_effect_on_conviction": "Low disparity supported conviction.",
+      "method_update_note": "Key-metric-first; relief-risk check",
+      "key_sources": [
+        "https://ir.uipath.com/financials/sec-filings/content/0001734722-26-000037/path-2026430xex991.htm",
+        "https://ir.uipath.com/news/detail/456/uipath-announces-second-quarter-fiscal-2027-financial-results-conference-call",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "DOCU",
+      "consensus_summary": "3/3 Neutral, upward skew (+24/+15/+20)",
+      "averaged_direction_score": 19.7,
+      "averaged_reversal_risk": 52,
+      "disparity_metric": 5.3,
+      "pass_agreement": "3/3 Neutral, upward skew (+24/+15/+20)",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "IAM adoption and cash generation are constructive, but the new ARR framework and mature growth profile do not clear the directional threshold.",
+      "what_the_market_expects": "Consensus is about $1.09 EPS and $867M revenue; Q1 revenue was $830.2M, up 9%, with 40,000 customers investing in IAM.",
+      "what_could_make_stock_go_up": "ARR/IAM mix accelerates and margins remain strong.",
+      "what_could_make_stock_go_down": "IAM remains a narrative while core renewals or forward ARR decelerate.",
+      "reversal_risk_assessment": "52/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "No robust investor or customer sentiment series verified; no material weight.",
+      "options_positioning_read": "Options imply about +/-10.0%, below the 14.1% 10-year average move.",
+      "analyst_estimate_revision_read": "Current compilation is mixed at 3 Buy, 9 Hold, 1 Sell; a clean revision series was unavailable.",
+      "base_case": "IAM adoption and cash generation are constructive, but the new ARR framework and mature growth profile do not clear the directional threshold.",
+      "bull_case": "ARR/IAM mix accelerates and margins remain strong.",
+      "bear_case": "IAM remains a narrative while core renewals or forward ARR decelerate.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "research_allocation_rationale": "Excluded: score threshold.",
+      "disparity_effect_on_conviction": "Low-to-moderate disparity was monitored but did not change the call.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://investor.docusign.com/results-and-financials/quarterly-results/default.aspx",
+        "https://www.docusign.com/company/news-center/docusign-to-announce-second-quarter-fiscal-2027-financial-results-on-september-3-2026",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    },
+    {
+      "ticker": "ASAN",
+      "consensus_summary": "3/3 Neutral, upward skew (+20/+7/+14)",
+      "averaged_direction_score": 13.7,
+      "averaged_reversal_risk": 64,
+      "disparity_metric": 6.3,
+      "pass_agreement": "3/3 Neutral, upward skew (+20/+7/+14)",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Margin progress is real, but roughly 9% growth and uncertain AI monetization leave no clean event-direction edge.",
+      "what_the_market_expects": "Consensus revenue is about $214M, in the $213M-$215M guide; Q1 revenue rose 9.5% and $100K+ customers 12%.",
+      "what_could_make_stock_go_up": "RPO converts faster, StackAI lifts enterprise wins and margins beat.",
+      "what_could_make_stock_go_down": "Core-customer growth slows or AI monetization fails to lift the annual revenue range.",
+      "reversal_risk_assessment": "64/100; opposite-direction risk kept separate from direction.",
+      "reddit_social_consumer_sentiment_read": "AI narrative interest exists, but no robust 7/14/30-day series was verified and founder-control adds event complexity.",
+      "options_positioning_read": "Options imply about +/-18.3%, near the 19.2% 10-year average move.",
+      "analyst_estimate_revision_read": "Current compilation is mildly positive, but the $9.92 average target sits near the pre-report price.",
+      "base_case": "Margin progress is real, but roughly 9% growth and uncertain AI monetization leave no clean event-direction edge.",
+      "bull_case": "RPO converts faster, StackAI lifts enterprise wins and margins beat.",
+      "bear_case": "Core-customer growth slows or AI monetization fails to lift the annual revenue range.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "research_allocation_rationale": "Excluded: score threshold.",
+      "disparity_effect_on_conviction": "Low-to-moderate disparity was monitored but did not change the call.",
+      "method_update_note": "Low-bar reversal floor",
+      "key_sources": [
+        "https://investors.asana.com/news-releases/news-release-details/asana-announces-first-quarter-fiscal-2027-results",
+        "https://asana.com/press/releases/pr/asana-to-announce-second-quarter-fiscal-year-2027-financial-results-on-thursday-september-3-2026/1258dd1e-a164-4aaf-86e1-e15ca5c01970",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-08-31"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
