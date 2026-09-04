@@ -1,1 +1,298 @@
-{"generation_timestamp":"2026-09-04T17:02:01Z","covered_report_window":{"after_close":"2026-09-04","before_open":"2026-09-08","holiday_note":"U.S. markets are closed Monday, September 7, 2026 for Labor Day."},"report_type":"US1_full_ranked_earnings_report","market_context_summary":"August payrolls rose 162,000 versus roughly 53,000 expected, lifting yields and rate-hike concern; the S&P 500 was lower in Friday morning trading ahead of a long holiday weekend.","companies_reviewed_count":3,"top_setups":{"upward":["UNFI","ABM"],"downward":["CAN"]},"ranked_companies":[{"rank":1,"ticker":"UNFI","company":"United Natural Foods, Inc.","timing":"2026-09-08 before market open","direction_call":"Lean Up","direction_score":35.0,"reversal_risk":39.0,"disparity":5,"confidence":"Medium","expected_driver":"FY2027 sales-growth and EBITDA/FCF outlook","key_risk_to_call":"Weak initial FY2027 guide or customer-transition drag","evidence_quality":"High","one_sentence_thesis":"Margin and cash-flow improvement can support a relief gain if fiscal 2027 guidance confirms a return to growth.","market_expectation_summary":"Consensus is approximately $0.61-$0.62 adjusted EPS and $7.6-$7.8 billion revenue; the market is focused more on fiscal 2027 guidance than the final fiscal 2026 quarter.","upside_case_summary":"Adjusted EBITDA and free cash flow remain resilient and management guides to renewed sales growth as optimization headwinds cycle.","downside_case_summary":"A soft fiscal 2027 outlook, margin pressure, or customer-transition weakness overwhelms the expected EPS recovery.","options_or_positioning_summary":"Reliable current implied-move data was unavailable; prior earnings volatility and the stock's recent rerating argue for only medium confidence.","analyst_revision_summary":"Thirty-day revisions were mixed but net positive in one current aggregator; published consensus clusters near $0.61-$0.62 EPS.","pass_results":{"direction_scores":[39,31,35],"reversal_risks":[36,42,39]},"key_sources":["https://ir.unfi.com/financials/quarterly-results/default.aspx","https://ir.unfi.com/events/default.aspx","https://www.zacks.com/stock/news/2984255/united-naturals-q4-earnings-coming-up-what-should-you-expect","https://www.marketbeat.com/earnings/reports/2026-9-8-united-natural-foods-inc-stock/"]},{"rank":2,"ticker":"CAN","company":"Canaan Inc.","timing":"2026-09-08 before market open","direction_call":"Lean Down","direction_score":-46.7,"reversal_risk":65.3,"disparity":6,"confidence":"Medium","expected_driver":"Mining-machine revenue and operating hashrate economics","key_risk_to_call":"Low-bar beat, Bitcoin rally, or treasury-driven squeeze","evidence_quality":"Medium","one_sentence_thesis":"Falling self-mining output and volatile machine demand create a downside-biased setup despite a low published bar.","market_expectation_summary":"Sparse and conflicting third-party estimates imply a low bar; company context points to roughly $35-$45 million revenue guidance for Q2.","upside_case_summary":"Machine shipments, treasury value, or forward hashrate deployment materially exceed a depressed bar.","downside_case_summary":"Weak revenue quality, large losses, and declining Bitcoin production reinforce financing and execution concerns.","options_or_positioning_summary":"Reliable current implied-move and short-interest data was unavailable; crypto beta makes gap risk unusually high in either direction.","analyst_revision_summary":"Sell-side coverage is thin and estimates conflict across aggregators, reducing confidence.","pass_results":{"direction_scores":[-52,-41,-47],"reversal_risks":[68,62,66]},"key_sources":["https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-report-second-quarter-2026-financial-results","https://investor.canaan-creative.com/news-releases/news-release-details/canaan-inc-reports-unaudited-first-quarter-2026-financial","https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-provides-july-2026-bitcoin-production-and-mining","https://www.theblock.co/news/business/2026-08-17-bitcoin-production-slips-again-july-cleanspark-bitfufu-canaan-411985"]},{"rank":3,"ticker":"ABM","company":"ABM Industries Incorporated","timing":"2026-09-08 before market open","direction_call":"Neutral / No Edge","direction_score":18.3,"reversal_risk":41.7,"disparity":7,"confidence":"Medium","expected_driver":"Organic growth and segment margin conversion","key_risk_to_call":"Margin miss or weak full-year EPS/guidance tone","evidence_quality":"High","one_sentence_thesis":"Healthy revenue growth and a de-risked share price are constructive, but margin conversion must validate the EPS step-up.","market_expectation_summary":"Consensus is about $1.01 EPS and $2.32 billion revenue, with the EPS estimate unchanged over the prior month.","upside_case_summary":"Business & Industry growth converts into better margins and management sustains or improves the full-year outlook.","downside_case_summary":"Revenue again outpaces profit while labor, acquisition, or integration costs pressure margins and guidance.","options_or_positioning_summary":"Reliable current implied-move data was unavailable; the stock had lagged the market by roughly eight percentage points over the prior month.","analyst_revision_summary":"The quarterly EPS consensus was unchanged over 30 days; analyst targets imply modest longer-term upside but do not create a clear event edge.","pass_results":{"direction_scores":[18,26,11],"reversal_risks":[41,45,39]},"key_sources":["https://abm.gcs-web.com/","https://finance.yahoo.com/markets/stocks/articles/ahead-abm-industries-abm-q3-131502351.html","https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61623110/abm-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"]}],"research_allocation_view":{"qualified_names":[{"ticker":"UNFI","direction":"Lean Up","allocation_percent":55}],"unallocated_percent":45,"excluded_for_reversal_risk":["CAN"],"excluded_for_score_threshold":["ABM"],"note":"Hypothetical same-day research prioritization model, not financial advice."},"detailed_company_sections":[{"ticker":"UNFI","consensus_summary":"All three passes leaned upward with low disparity; fiscal 2027 guidance is the decisive signal.","base_case":"Modest upside on credible return-to-growth guidance.","bull_case":"EBITDA and FCF beat with stronger fiscal 2027 sales growth.","bear_case":"Weak guide exposes transition and margin risk."},{"ticker":"CAN","consensus_summary":"All three passes leaned downward, but all assigned high reversal risk because crypto beta and the low bar can produce a squeeze.","base_case":"Downside on weak revenue quality and mining economics.","bull_case":"Shipment recovery or Bitcoin-driven relief rally.","bear_case":"Deep loss and poor guidance reinforce financing risk."},{"ticker":"ABM","consensus_summary":"Two passes were neutral and one barely leaned up; low disparity still left the average inside Neutral / No Edge.","base_case":"Muted reaction around in-line results.","bull_case":"Margin conversion supports a beat and firmer outlook.","bear_case":"Costs and margin pressure outweigh revenue growth."}],"methodology":{"independent_passes":3,"disparity_definition":"Rounded average of the mean pairwise absolute differences in direction score and reversal risk; 0 is complete agreement and 100 is maximal disagreement.","learned_lessons_update":"No new method change; existing expectation-bar, key-metric-first, forward-look override, and separate reversal-risk controls were applied."},"disclaimer_text":"This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."}
+{
+  "generation_timestamp": "2026-09-04T17:09:54Z",
+  "covered_report_window": {
+    "after_close": "Friday, September 4, 2026 after 4:00 p.m. ET",
+    "before_open": "Tuesday, September 8, 2026 before 9:30 a.m. ET",
+    "holiday_note": "NYSE and Nasdaq are closed Monday, September 7, 2026 for Labor Day."
+  },
+  "report_type": "US1_full_ranked_earnings_report",
+  "market_context_summary": "August payrolls rose 162,000 versus roughly 53,000 expected and unemployment held at 4.1%, pushing Treasury yields and September Fed-hike expectations higher; SPY traded modestly lower during Friday's session before a three-day weekend.",
+  "companies_reviewed_count": 3,
+  "top_setups": {
+    "upward": [
+      "UNFI"
+    ],
+    "downward": [
+      "CAN"
+    ],
+    "neutral": [
+      "ABM"
+    ]
+  },
+  "universe_notes": {
+    "included": [
+      "UNFI",
+      "CAN",
+      "ABM"
+    ],
+    "excluded": [
+      {
+        "ticker": "PLCE",
+        "reason": "microcap and no timely official company confirmation found; third-party timing was estimated/conflicting"
+      },
+      {
+        "ticker": "IRS",
+        "reason": "timing conflicted across current calendars and no official confirmation was found"
+      },
+      {
+        "ticker": "KFY",
+        "reason": "company IR confirmed September 9 before open, outside the window"
+      },
+      {
+        "ticker": "ALOT",
+        "reason": "microcap and insufficient official timing/evidence for this window"
+      }
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "UNFI",
+      "company": "United Natural Foods, Inc.",
+      "timing": "2026-09-08 before market open (company confirmed)",
+      "direction_call": "Lean Up",
+      "direction_score": 35,
+      "reversal_risk": 39,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "FY2027 sales-growth and adjusted EBITDA/FCF outlook",
+      "key_risk_to_call": "Soft FY2027 guide or transition-driven sales drag",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Margin recovery and deleveraging can support a relief gain if fiscal 2027 guidance confirms that optimization headwinds are cycling and sales can return to growth.",
+      "market_expectation_summary": "Published consensus clusters near $0.61-$0.62 adjusted EPS and $7.6-$7.8 billion of Q4 revenue; the market is likely to care more about fiscal 2027 adjusted EBITDA, free cash flow, and sales guidance than the final fiscal 2026 quarter.",
+      "upside_case_summary": "Adjusted EBITDA and free cash flow remain resilient, leverage declines, and fiscal 2027 guidance points to renewed sales growth.",
+      "downside_case_summary": "A weak initial fiscal 2027 outlook, lower-quality working-capital cash flow, or continued customer/network-transition pressure overwhelms the EPS recovery.",
+      "options_or_positioning_summary": "Reliable current implied-move data was not available. Short interest was about 4.5% of float with 5.3 days to cover as of August 14, while the shares were down roughly 9% over one month and 18% over three months, leaving both relief and downside paths open.",
+      "analyst_revision_summary": "Thirty-day revisions were mixed but net positive in one current aggregator (4 up, 2 down); other sources showed a slightly positive one-month EPS revision but softer three-month revenue estimates.",
+      "social_sentiment_summary": "Fresh Reddit discussion was sparse; available broader sentiment indicators were constructive but too thin to affect the score materially.",
+      "key_metric": "Fiscal 2027 adjusted EBITDA/free-cash-flow outlook and return-to-sales-growth timing",
+      "pass_results": {
+        "direction_scores": [
+          39,
+          31,
+          35
+        ],
+        "reversal_risks": [
+          36,
+          42,
+          39
+        ],
+        "calls": [
+          "Lean Up",
+          "Lean Up",
+          "Lean Up"
+        ]
+      },
+      "key_sources": [
+        "https://ir.unfi.com/news/press-release-details/2026/United-Natural-Foods-to-Release-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results-on-September-8-2026/default.aspx",
+        "https://ir.unfi.com/news/press-release-details/2026/United-Natural-Foods-Inc--Reports-Third-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61625293/united-natural-foods-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-3",
+        "https://stockdecider.com/stocks/UNFI"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "CAN",
+      "company": "Canaan Inc.",
+      "timing": "2026-09-08 before market open (company confirmed)",
+      "direction_call": "Lean Down",
+      "direction_score": -46.7,
+      "reversal_risk": 65.3,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Mining-machine revenue and operating-hashrate economics",
+      "key_risk_to_call": "Low-bar beat, Bitcoin rally, treasury buyback, or squeeze",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Weak mining-machine demand, a sharp Q2 revenue reset, and poor gross-profit quality create a downside bias, but the depressed price, treasury optionality, and crowded short base make reversal risk high.",
+      "market_expectation_summary": "Company Q2 revenue guidance is $35-$45 million; third-party estimates are sparse and conflict materially, which lowers the quality of the published bar.",
+      "upside_case_summary": "Product shipments clear the low company bar, operating hashrate converts better than feared, Bitcoin strengthens, or treasury-funded repurchases trigger a squeeze.",
+      "downside_case_summary": "Revenue lands near or below guidance, inventory charges and mining economics keep gross profit weak, and listing/financing concerns dominate.",
+      "options_or_positioning_summary": "Reliable current implied-move data was unavailable. Short interest was 8.9% of float and 5.8 days to cover as of August 14; the shares more than doubled during August and were highly volatile into the event.",
+      "analyst_revision_summary": "Sell-side coverage and estimates are thin and inconsistent; that uncertainty prevents high confidence despite the negative operating setup.",
+      "social_sentiment_summary": "Retail discussion focused on short-interest and momentum scanners rather than verifiable demand evidence, increasing manipulation and squeeze risk.",
+      "key_metric": "Q2 product revenue plus operating-hashrate-to-mining-revenue conversion",
+      "pass_results": {
+        "direction_scores": [
+          -52,
+          -41,
+          -47
+        ],
+        "reversal_risks": [
+          68,
+          62,
+          66
+        ],
+        "calls": [
+          "Lean Down",
+          "Lean Down",
+          "Lean Down"
+        ]
+      },
+      "key_sources": [
+        "https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-report-second-quarter-2026-financial-results",
+        "https://investor.canaan-creative.com/news-releases/news-release-details/canaan-inc-reports-unaudited-first-quarter-2026-financial",
+        "https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-provides-july-2026-bitcoin-production-and-mining",
+        "https://www.marketbeat.com/stocks/NASDAQ/CAN/short-interest/",
+        "https://www.investing.com/equities/canaan-inc-historical-data"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "ABM",
+      "company": "ABM Industries Incorporated",
+      "timing": "2026-09-08 before market open (company confirmed)",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 18.3,
+      "reversal_risk": 41.7,
+      "disparity": 7,
+      "confidence": "Medium",
+      "expected_driver": "Organic growth converting into segment margin",
+      "key_risk_to_call": "Another margin miss or weaker full-year tone",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Healthy organic growth and strong bookings are constructive, but the event lacks a directional edge until the company proves that newer contracts and Aviation growth can lift margins.",
+      "market_expectation_summary": "Consensus is about $1.01-$1.02 EPS and $2.32-$2.33 billion revenue, with no one-month EPS revision; the EPS bar implies roughly 23% year-over-year growth.",
+      "upside_case_summary": "Organic growth stays strong, Aviation and newer contracts scale efficiently, segment margin improves, and management sustains or raises the full-year outlook.",
+      "downside_case_summary": "Labor, ramp, integration, and interest costs again make revenue growth outpace profit, pushing segment margin below the low end of expectations.",
+      "options_or_positioning_summary": "Public event-implied-move estimates conflicted sharply and were not used. Short interest was a typical 3.3% of shares with low squeeze classification; shares fell about 5.6% in the prior month but had risen about 10% since the last earnings release.",
+      "analyst_revision_summary": "The quarterly EPS consensus was unchanged over 30 days and slightly lower over three months; the setup is de-risked but not revised upward.",
+      "social_sentiment_summary": "Fresh retail/social attention was minimal, appropriate for a facilities-services name, and did not affect the score.",
+      "key_metric": "Segment operating margin and back-half margin conversion",
+      "pass_results": {
+        "direction_scores": [
+          18,
+          26,
+          11
+        ],
+        "reversal_risks": [
+          41,
+          45,
+          39
+        ],
+        "calls": [
+          "Neutral / No Edge",
+          "Lean Up",
+          "Neutral / No Edge"
+        ]
+      },
+      "key_sources": [
+        "https://abm.gcs-web.com/news-releases/news-release-details/abm-reports-fiscal-second-quarter-2026-results-and-reaffirms",
+        "https://www.globenewswire.com/news-release/2026/08/25/3350870/0/en/abm-to-announce-third-quarter-2026-financial-results.html",
+        "https://www.zacks.com/stock/news/2983608/ahead-of-abm-industries-abm-q3-earnings-get-ready-with-wall-street-estimates-for-key-metrics",
+        "https://marketchameleon.com/Overview/ABM/Earnings/Earnings-Dates/",
+        "https://curvedtrading.com/stocks/abm/"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "UNFI",
+        "direction": "Lean Up",
+        "allocation_percent": 55,
+        "reason": "Score above 30, reversal risk below 40, high-quality evidence, and low pass disparity."
+      }
+    ],
+    "unallocated_percent": 45,
+    "excluded_for_reversal_risk": [
+      {
+        "ticker": "CAN",
+        "reversal_risk": 65.3
+      }
+    ],
+    "excluded_for_score_threshold": [
+      {
+        "ticker": "ABM",
+        "direction_score": 18.3
+      }
+    ],
+    "note": "Hypothetical same-day research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "UNFI",
+      "consensus_summary": "All three independent passes leaned upward; low disparity supports the direction, while mixed sales and cash-flow quality cap confidence at Medium.",
+      "averaged_direction_score": 35,
+      "averaged_reversal_risk": 39,
+      "disparity": 5,
+      "pass_agreement": "3 of 3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Margin recovery can support upside if fiscal 2027 guidance confirms a return to growth.",
+      "what_market_expects": "About $0.61-$0.62 adjusted EPS and $7.6-$7.8 billion revenue, with fiscal 2027 guidance the real catalyst.",
+      "what_could_make_stock_go_up": "EBITDA/FCF resilience, lower leverage, and credible fiscal 2027 sales growth.",
+      "what_could_make_stock_go_down": "Soft fiscal 2027 guidance, weak working-capital quality, or lingering optimization/customer drag.",
+      "reversal_risk_assessment": "Low-to-moderate; the recent pullback lowers the bar, but Q3 missed and the market may reject a guide that only preserves margins without restoring sales.",
+      "social_sentiment_read": "Sparse current Reddit evidence; no material score impact.",
+      "options_positioning_read": "Reliable implied move unavailable; modest short interest and a recent drawdown allow relief but do not imply a major squeeze.",
+      "analyst_revision_read": "Mixed but slightly net-positive short-term EPS revisions; revenue estimates softened over three months.",
+      "base_case": "Modest upside on an in-line quarter and credible fiscal 2027 recovery guide.",
+      "bull_case": "Stronger EBITDA/FCF and a faster return to sales growth.",
+      "bear_case": "Weak guide exposes transition and margin-quality risk.",
+      "final_directional_judgment": "Lean Up, with likely magnitude uncertain versus unavailable reliable implied-move data.",
+      "allocation_priority_reason": "Qualified because score is above 30, reversal risk is below 40, evidence quality is high, and disparity is low.",
+      "disparity_effect": "Low disparity improved conviction quality but did not justify High confidence because the key guide is not yet observable.",
+      "method_update_note": "None"
+    },
+    {
+      "ticker": "CAN",
+      "consensus_summary": "All three independent passes leaned down, but all also flagged high opposite-direction risk from a low bar, crypto beta, short positioning, and treasury actions.",
+      "averaged_direction_score": -46.7,
+      "averaged_reversal_risk": 65.3,
+      "disparity": 6,
+      "pass_agreement": "3 of 3 Lean Down",
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Weak product demand and mining economics outweigh the asset-value narrative, subject to very high event volatility.",
+      "what_market_expects": "Company revenue guidance of $35-$45 million; external forecasts are too inconsistent to define a clean consensus bar.",
+      "what_could_make_stock_go_up": "A low-bar shipment beat, better hashrate conversion, Bitcoin strength, buybacks, or a short squeeze.",
+      "what_could_make_stock_go_down": "Guidance miss, gross loss, inventory charges, or renewed listing/financing concern.",
+      "reversal_risk_assessment": "High; 8.9% short interest, a sub-$1 listing deficiency, large August gains, and treasury-funded repurchase optionality can reverse a bearish fundamental read.",
+      "social_sentiment_read": "Momentum and squeeze-oriented rather than fundamentals-led; high manipulation/noise risk.",
+      "options_positioning_read": "Reliable implied move unavailable; realized volatility is extreme and short interest is meaningful.",
+      "analyst_revision_read": "Thin and conflicting sell-side estimates reduce confidence.",
+      "base_case": "Downside on weak revenue quality and negative gross economics.",
+      "bull_case": "Relief rally on shipments, Bitcoin, treasury value, or buybacks.",
+      "bear_case": "Deep losses and soft outlook renew balance-sheet/listing pressure.",
+      "final_directional_judgment": "Lean Down, but the likely magnitude and even sign are vulnerable to crypto and squeeze dynamics.",
+      "allocation_priority_reason": "Excluded because reversal risk is far above 40 despite a strong absolute direction score.",
+      "disparity_effect": "Low disparity confirms the shared bearish thesis, but it does not offset the independently high reversal-risk readings.",
+      "method_update_note": "Applied repeated low-bar/turnaround reversal-risk floor"
+    },
+    {
+      "ticker": "ABM",
+      "consensus_summary": "Two passes stayed Neutral and one barely leaned up; the average remains Neutral despite low-to-moderate disparity.",
+      "averaged_direction_score": 18.3,
+      "averaged_reversal_risk": 41.7,
+      "disparity": 7,
+      "pass_agreement": "2 Neutral, 1 Lean Up",
+      "recommendation": "Neutral / No Edge",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Strong organic growth needs cleaner margin conversion before the earnings event offers a directional edge.",
+      "what_market_expects": "About $1.01-$1.02 EPS and $2.32-$2.33 billion revenue, with stable one-month estimates.",
+      "what_could_make_stock_go_up": "Margin recovery, strong organic growth, and firmer full-year guidance.",
+      "what_could_make_stock_go_down": "Contract ramp costs, labor pressure, leverage/interest expense, or another margin disappointment.",
+      "reversal_risk_assessment": "Moderate; the recent share-price pullback creates relief potential, while the Q2 margin shortfall leaves downside open.",
+      "social_sentiment_read": "Very limited retail attention; no score impact.",
+      "options_positioning_read": "Conflicting public implied-move estimates were discarded; short positioning appears typical rather than crowded.",
+      "analyst_revision_read": "No 30-day EPS revision and a slight three-month trim imply no strong pre-event information signal.",
+      "base_case": "Muted reaction around in-line results and unchanged guidance.",
+      "bull_case": "Growth converts to margin and management raises the outlook.",
+      "bear_case": "Costs again overwhelm revenue growth.",
+      "final_directional_judgment": "Neutral / No Edge.",
+      "allocation_priority_reason": "Excluded because the absolute consensus direction score does not exceed 30 and reversal risk is above 40.",
+      "disparity_effect": "Disparity was still low, but agreement clustered near Neutral rather than around a tradable direction.",
+      "method_update_note": "None"
+    }
+  ],
+  "methodology": {
+    "independent_passes": 3,
+    "shared_qualified_universe": [
+      "UNFI",
+      "CAN",
+      "ABM"
+    ],
+    "disparity_definition": "Rounded average of the mean pairwise absolute differences in direction score and reversal risk, capped at 100; lower values mean tighter pass agreement.",
+    "learned_lessons_update": "No new method change; existing hard timing confirmation, key-metric-first, hidden-risk, low-bar reversal, and disagreement controls were applied."
+  },
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
