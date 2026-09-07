@@ -8,12 +8,13 @@
   },
   "report_type": "full_ranked_us_earnings_event_report",
   "market_context_summary": "Labor Day closure compresses price discovery into Tuesday's reopen. The week is shortened, with NFIB small-business data Tuesday and U.S. PPI/CPI later in the week; September seasonality and a quiet period ahead of the September 15-16 FOMC meeting add macro sensitivity.",
-  "companies_reviewed_count": 2,
+  "companies_reviewed_count": 3,
   "methodology": {
     "independent_passes": 3,
     "qualified_universe": [
       "ABM",
-      "UNFI"
+      "UNFI",
+      "CAN"
     ],
     "disparity_definition": "0-100 normalized dispersion across the three independent direction-score and reversal-risk outputs; lower is tighter agreement.",
     "learned_lessons_review": "No new method change. Existing key-metric-first discipline and low-bar reversal-risk floor were applied."
@@ -26,10 +27,6 @@
     {
       "ticker": "EONR",
       "reason": "Microcap/thin liquidity and insufficient high-quality event evidence."
-    },
-    {
-      "ticker": "CAN",
-      "reason": "Foreign issuer and conflicting timing across calendars; not admitted to shared qualified universe."
     }
   ],
   "top_setups": {
@@ -42,16 +39,67 @@
     ],
     "downward": [
       {
+        "ticker": "CAN",
+        "score": -37,
+        "direction_call": "Lean Down"
+      },
+      {
         "ticker": "UNFI",
         "score": -27,
         "direction_call": "Lean Down"
       }
     ],
-    "note": "Only two companies met timing, liquidity, and evidence standards, so no second or third setup exists on either side."
+    "note": "Only one qualified upward setup and two qualified downward setups exist in this narrow holiday window."
   },
   "ranked_companies": [
     {
       "rank": 1,
+      "ticker": "CAN",
+      "company": "Canaan Inc.",
+      "timing": "Before U.S. market open; 8:00 a.m. ET call, September 8, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -37,
+      "reversal_risk": 75,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "Q2 gross profit and Q3 revenue guide",
+      "key_risk_to_call": "Low bar, Bitcoin beta, treasury buyback, short squeeze",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Weak mining economics and July production deterioration tilt the setup down, but extreme crypto beta, a treasury-funded buyback, and depressed expectations make the opposite move unusually plausible.",
+      "market_expectation_summary": "Management guided Q2 revenue to $35-$45 million; third-party EPS and revenue estimates are sparse and conflicting, making the true bar uncertain.",
+      "upside_case_summary": "Revenue clears the top of guidance, gross loss narrows sharply, operating hashrate improves, or treasury-backed repurchases combine with stronger Bitcoin to trigger relief.",
+      "downside_case_summary": "Gross losses persist, Q3 guidance remains weak, July's production decline signals poor mining economics, and sub-$1 listing risk dominates.",
+      "options_or_positioning_summary": "Options imply roughly a 61% move, but the low-priced chain is too coarse for a dependable magnitude view; short interest is around 9% of float.",
+      "analyst_revision_summary": "Long-term ratings remain mostly bullish, but targets are stale relative to the $0.36 share price and near-term estimates conflict.",
+      "decisive_metric": "Gross profit/loss and Q3 revenue guidance",
+      "consensus": {
+        "pass_a": {
+          "direction_score": -46,
+          "reversal_risk": 77,
+          "call": "Lean Down"
+        },
+        "pass_b": {
+          "direction_score": -36,
+          "reversal_risk": 73,
+          "call": "Lean Down"
+        },
+        "pass_c": {
+          "direction_score": -29,
+          "reversal_risk": 75,
+          "call": "Lean Down"
+        },
+        "agreement_pattern": "All three passes Lean Down, but conviction is capped by speculative reversal mechanics."
+      },
+      "key_sources": [
+        "https://investor.canaan-creative.com/news-releases/news-release-details/canaan-inc-report-second-quarter-2026-financial-results",
+        "https://investor.canaan-creative.com/static-files/9bf858ec-63a0-4798-8a90-d477cb0fab41",
+        "https://canaan.gcs-web.com/news-releases/news-release-details/canaan-inc-provides-july-2026-bitcoin-production-and-mining",
+        "https://www.sec.gov/Archives/edgar/data/1780652/000110465926083751/tm2620565d1_ex99-1.htm",
+        "https://www.marketbeat.com/stocks/NASDAQ/CAN/short-interest/"
+      ]
+    },
+    {
+      "rank": 2,
       "ticker": "ABM",
       "company": "ABM Industries Incorporated",
       "timing": "Before market open, September 8, 2026",
@@ -97,7 +145,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 3,
       "ticker": "UNFI",
       "company": "United Natural Foods, Inc.",
       "timing": "Morning release; 8:30 a.m. ET call, September 8, 2026",
@@ -154,6 +202,10 @@
     ],
     "excluded_names": [
       {
+        "ticker": "CAN",
+        "reason": "Reversal risk of 75 is far above the 40 ceiling; low confidence and speculative event mechanics."
+      },
+      {
         "ticker": "UNFI",
         "reason": "Absolute score below the >30 threshold and reversal risk of 61 is too high."
       }
@@ -193,6 +245,22 @@
       "social_sentiment_read": "Recent Reddit commentary is bearish but extremely sparse and promotional in tone; treated as noise, not evidence.",
       "allocation_rationale": "Excluded because the score does not exceed 30 in absolute value and reversal risk is well above 40.",
       "method_update_note": "Existing low-bar reversal-risk floor applied; no new method change."
+    },
+    {
+      "ticker": "CAN",
+      "recommendation": "Do not prioritize in allocation basket",
+      "confidence": "Low",
+      "direction_score": -37,
+      "reversal_risk": 75,
+      "disparity": 8,
+      "pass_agreement": "Three of three Lean Down; all flag Very High reversal risk",
+      "base_case": "Revenue lands inside the $35-$45 million guide, but weak gross economics and a cautious Q3 outlook drive downside.",
+      "bull_case": "A low-bar revenue beat, sharply narrower gross loss, better deployment commentary, stronger Bitcoin, and repurchases trigger a squeeze.",
+      "bear_case": "Revenue misses, gross losses persist, production stays weak, and listing-compliance concerns intensify.",
+      "reversal_risk_assessment": "Very High: depressed expectations, about 9% short float, a digital-asset treasury repurchase authorization, and extreme Bitcoin sensitivity can overpower weak fundamentals.",
+      "social_sentiment_read": "Recent retail posts are sparse, bullish, and promotion-heavy; manipulation and meme risk are high, so social evidence received negligible weight.",
+      "allocation_rationale": "Excluded because reversal risk is 75 and confidence is Low despite an absolute score above 30.",
+      "method_update_note": "Existing speculative-name and low-bar reversal-risk controls applied; no new method change."
     }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
