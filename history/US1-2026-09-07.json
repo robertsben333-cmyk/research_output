@@ -1,0 +1,199 @@
+{
+  "generation_timestamp": "2026-09-07T19:07:00+02:00",
+  "covered_report_window": {
+    "plain_language": "U.S. companies reporting after the September 7, 2026 U.S. market close (Labor Day closure) and before the next valid U.S. market open on September 8, 2026.",
+    "after_close_session": "2026-09-07",
+    "next_pre_market_session": "2026-09-08",
+    "holiday_note": "NYSE and Nasdaq were closed September 7, 2026 for Labor Day; no qualified after-close reporters were identified."
+  },
+  "report_type": "full_ranked_us_earnings_event_report",
+  "market_context_summary": "Labor Day closure compresses price discovery into Tuesday's reopen. The week is shortened, with NFIB small-business data Tuesday and U.S. PPI/CPI later in the week; September seasonality and a quiet period ahead of the September 15-16 FOMC meeting add macro sensitivity.",
+  "companies_reviewed_count": 2,
+  "methodology": {
+    "independent_passes": 3,
+    "qualified_universe": [
+      "ABM",
+      "UNFI"
+    ],
+    "disparity_definition": "0-100 normalized dispersion across the three independent direction-score and reversal-risk outputs; lower is tighter agreement.",
+    "learned_lessons_review": "No new method change. Existing key-metric-first discipline and low-bar reversal-risk floor were applied."
+  },
+  "exclusions": [
+    {
+      "ticker": "SI",
+      "reason": "Already reported Q2 2026 results on August 6, 2026; stale calendar entry."
+    },
+    {
+      "ticker": "EONR",
+      "reason": "Microcap/thin liquidity and insufficient high-quality event evidence."
+    },
+    {
+      "ticker": "CAN",
+      "reason": "Foreign issuer and conflicting timing across calendars; not admitted to shared qualified universe."
+    }
+  ],
+  "top_setups": {
+    "upward": [
+      {
+        "ticker": "ABM",
+        "score": 33,
+        "direction_call": "Lean Up"
+      }
+    ],
+    "downward": [
+      {
+        "ticker": "UNFI",
+        "score": -27,
+        "direction_call": "Lean Down"
+      }
+    ],
+    "note": "Only two companies met timing, liquidity, and evidence standards, so no second or third setup exists on either side."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "ABM",
+      "company": "ABM Industries Incorporated",
+      "timing": "Before market open, September 8, 2026",
+      "direction_call": "Lean Up",
+      "direction_score": 33,
+      "reversal_risk": 39,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Segment operating-margin recovery on ATS/M&D volume and mix",
+      "key_risk_to_call": "Low-end margin guide persists; interest and integration costs",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Healthy bookings and organic growth create a modest upside edge if second-half ATS and M&D volume finally converts into the promised margin recovery.",
+      "market_expectation_summary": "Consensus is about $1.01-$1.04 adjusted EPS and $2.32-$2.33 billion revenue; estimates have been largely unchanged.",
+      "upside_case_summary": "Segment margin rebounds toward management's full-year framework, ATS/data-center work and M&D volumes stay strong, and fiscal-year EPS is reaffirmed or tightened upward.",
+      "downside_case_summary": "Mix and ramp costs keep segment margin weak, Business & Industry remains flat, or interest/integration costs prevent revenue strength from reaching EPS.",
+      "options_or_positioning_summary": "Options imply roughly a 7.9% move; short interest is about 3.2% of shares, suggesting limited squeeze pressure.",
+      "analyst_revision_summary": "Quarter EPS and revenue estimates were essentially unchanged over the last month; analyst targets and ratings are mixed around Hold/Buy.",
+      "decisive_metric": "Total segment operating margin",
+      "consensus": {
+        "pass_a": {
+          "direction_score": 34,
+          "reversal_risk": 37,
+          "call": "Lean Up"
+        },
+        "pass_b": {
+          "direction_score": 28,
+          "reversal_risk": 42,
+          "call": "Lean Up"
+        },
+        "pass_c": {
+          "direction_score": 37,
+          "reversal_risk": 38,
+          "call": "Lean Up"
+        },
+        "agreement_pattern": "All three passes Lean Up; narrow dispersion."
+      },
+      "key_sources": [
+        "https://www.globenewswire.com/news-release/2026/08/25/3350870/0/en/abm-to-announce-third-quarter-2026-financial-results.html",
+        "https://abm.gcs-web.com/news-releases/news-release-details/abm-reports-fiscal-second-quarter-2026-results-and-reaffirms",
+        "https://finance.yahoo.com/markets/stocks/articles/ahead-abm-industries-abm-q3-131502351.html",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026",
+        "https://stocktools.ai/tools/short-interest/ABM"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "UNFI",
+      "company": "United Natural Foods, Inc.",
+      "timing": "Morning release; 8:30 a.m. ET call, September 8, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 61,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Fiscal 2027 EBITDA/FCF outlook versus sales normalization",
+      "key_risk_to_call": "Low bar, productivity relief, and 4.5% short float",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Profit recovery is real, but the immediate reaction is more likely to hinge on whether fiscal 2027 guidance proves that productivity and cash flow can outrun weak sales and execution costs.",
+      "market_expectation_summary": "Consensus is roughly $0.61-$0.62 adjusted EPS and $7.68 billion revenue, with Q4 sales expected to decline modestly; the prior full-year guide centered on $695 million adjusted EBITDA and about $330 million free cash flow.",
+      "upside_case_summary": "Adjusted EBITDA, cash conversion, and fiscal 2027 guidance beat a de-risked bar; natural-product demand and productivity offset sales pressure.",
+      "downside_case_summary": "Fiscal 2027 guidance disappoints, conventional/retail sales stay weak, or transformation, labor, fuel, and technology costs erode the margin recovery.",
+      "options_or_positioning_summary": "Options imply about a 12.9% move; short interest was about 4.5% of float with 5.3 days to cover, enough to raise relief-rally risk but not an extreme squeeze setup.",
+      "analyst_revision_summary": "Pre-report consensus remained near $0.62 EPS; post-Q3 targets moved higher at several firms, but the rating mix remains divided.",
+      "decisive_metric": "Fiscal 2027 adjusted EBITDA and free-cash-flow outlook",
+      "consensus": {
+        "pass_a": {
+          "direction_score": -31,
+          "reversal_risk": 62,
+          "call": "Lean Down"
+        },
+        "pass_b": {
+          "direction_score": -23,
+          "reversal_risk": 57,
+          "call": "Neutral / No Edge"
+        },
+        "pass_c": {
+          "direction_score": -28,
+          "reversal_risk": 64,
+          "call": "Lean Down"
+        },
+        "agreement_pattern": "Two Lean Down, one Neutral; mild disagreement and high reversal risk."
+      },
+      "key_sources": [
+        "https://ir.unfi.com/news/press-release-details/2026/United-Natural-Foods-to-Release-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results-on-September-8-2026/default.aspx",
+        "https://ir.unfi.com/news/press-release-details/2026/United-Natural-Foods-Inc--Reports-Third-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61625293/united-natural-foods-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call-3",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026",
+        "https://www.marketbeat.com/stocks/NYSE/UNFI/short-interest/"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "ABM",
+        "direction": "Lean Up",
+        "allocation_percent": 100,
+        "reason": "Absolute score above 30, reversal risk below 40, low disparity, and high evidence quality."
+      }
+    ],
+    "excluded_names": [
+      {
+        "ticker": "UNFI",
+        "reason": "Absolute score below the >30 threshold and reversal risk of 61 is too high."
+      }
+    ],
+    "unallocated_percent": 0,
+    "statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "ABM",
+      "recommendation": "Prioritize for research",
+      "confidence": "Medium",
+      "direction_score": 33,
+      "reversal_risk": 39,
+      "disparity": 5,
+      "pass_agreement": "Three of three Lean Up",
+      "base_case": "Revenue lands near consensus and margin improves enough to support the existing fiscal-year outlook, producing a modestly positive reaction.",
+      "bull_case": "ATS/data-center and M&D volume converts cleanly into margin, bookings remain strong, and guidance tightens toward the upper half.",
+      "bear_case": "Ramp inefficiencies and weak mix persist, forcing a lower margin outlook despite decent revenue.",
+      "reversal_risk_assessment": "A fine revenue quarter can still sell off if total segment operating margin remains near the prior 7.3% or management keeps the full-year margin view at the low end.",
+      "social_sentiment_read": "Sparse and low-signal; no material retail crowding found.",
+      "allocation_rationale": "Qualifies narrowly because score is 33, reversal risk is 39, disparity is low, and primary-source evidence is strong.",
+      "method_update_note": "Existing one-decisive-metric rule applied; no new method change."
+    },
+    {
+      "ticker": "UNFI",
+      "recommendation": "Do not prioritize in allocation basket",
+      "confidence": "Medium",
+      "direction_score": -27,
+      "reversal_risk": 61,
+      "disparity": 6,
+      "pass_agreement": "Two Lean Down, one Neutral / No Edge",
+      "base_case": "A roughly in-line Q4 is outweighed by cautious fiscal 2027 commentary, yielding a negative reaction.",
+      "bull_case": "Productivity, natural-category demand, cash flow, and leverage improvement support stronger-than-feared fiscal 2027 guidance and a relief rally.",
+      "bear_case": "Sales weakness persists and transformation, labor, fuel, or technology costs expose fragile earnings quality.",
+      "reversal_risk_assessment": "The stock has de-risked from its 52-week high, the published bar is modest, and 4.5% short float plus a 12.9% implied move can amplify relief upside.",
+      "social_sentiment_read": "Recent Reddit commentary is bearish but extremely sparse and promotional in tone; treated as noise, not evidence.",
+      "allocation_rationale": "Excluded because the score does not exceed 30 in absolute value and reversal risk is well above 40.",
+      "method_update_note": "Existing low-bar reversal-risk floor applied; no new method change."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
