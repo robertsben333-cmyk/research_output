@@ -1,0 +1,987 @@
+{
+  "generation_timestamp": "2026-09-08T17:07:00Z",
+  "covered_report_window": {
+    "after_market_close": "2026-09-08",
+    "before_market_open": "2026-09-09",
+    "timezone": "America/New_York",
+    "description": "U.S.-listed companies reporting after the Tuesday, September 8, 2026 market close and before the Wednesday, September 9, 2026 market open"
+  },
+  "report_type": "US1_full_ranked_earnings_report",
+  "market_context_summary": "Risk-off midday backdrop: Brent crude near $98 and the U.S. 10-year yield near 5% revived inflation and Fed-hike concerns. Wednesday has no major scheduled U.S. macro release, but Thursday PPI keeps guidance sensitivity elevated.",
+  "companies_reviewed_count": 13,
+  "top_setups": {
+    "upward": [
+      "ASO",
+      "KFY",
+      "CASY"
+    ],
+    "downward": [
+      "ODD",
+      "AVO",
+      "JMKE"
+    ]
+  },
+  "consensus_method": {
+    "passes": 3,
+    "independent": true,
+    "direction_score_average": true,
+    "reversal_risk_average": true,
+    "disparity_formula": "Population standard deviation of the three direction scores, capped at 100",
+    "method_update": "Applied existing timing-confirmation, decisive-KPI, premium-growth priced-in, low-bar reversal-risk, and disagreement controls. No new method change."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "ASO",
+      "company": "Academy Sports + Outdoors",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 46.7,
+      "reversal_risk": 36.3,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Comparable sales",
+      "key_risk_to_call": "Consumer and gross-margin pressure",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Low-bar / key-metric discipline",
+      "one_sentence_thesis": "Positive traffic and ticket, a low valuation, and short crowding favor upside if comparable sales and margin hold.",
+      "market_expectation_summary": "Consensus EPS about $2.07; management raised the low end of FY26 guidance after Q1.",
+      "upside_case_summary": "Comps beat a modest bar while margin and guidance hold.",
+      "downside_case_summary": "Inflation reverses traffic momentum or gross margin slips.",
+      "options_or_positioning_summary": "Options imply roughly 9%; short interest is elevated and can amplify relief.",
+      "analyst_revision_summary": "Management's prior guidance raise is constructive, though Q2 expectations have firmed.",
+      "key_sources": [
+        "https://investors.academy.com/news-releases/news-release-details/academy-sports-outdoors-announces-second-quarter-fiscal-2026",
+        "https://investors.academy.com/news-releases/news-release-details/academy-sports-outdoors-reports-first-quarter-fiscal-2026",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 50,
+          "reversal_risk": 35,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 43,
+          "reversal_risk": 38,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 47,
+          "reversal_risk": 36,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "KFY",
+      "company": "Korn Ferry",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 36.7,
+      "reversal_risk": 33,
+      "disparity": 2,
+      "confidence": "Medium",
+      "expected_driver": "Fee-revenue growth",
+      "key_risk_to_call": "Hiring macro and margin guide",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Five consecutive quarters of top-line growth support upside if fee revenue and margin guidance remain resilient.",
+      "market_expectation_summary": "Consensus EPS about $1.36 and revenue about $737.7 million, near management's Q1 guide.",
+      "upside_case_summary": "Search/interim demand and margins clear the guided range.",
+      "downside_case_summary": "Hiring caution or compensation costs weaken the outlook.",
+      "options_or_positioning_summary": "Options imply about 6.2%, a restrained hurdle relative to software peers.",
+      "analyst_revision_summary": "Street estimates sit within management's $725-$745 million fee-revenue and $1.32-$1.38 EPS ranges.",
+      "key_sources": [
+        "https://www.nasdaq.com/press-release/korn-ferry-report-quarterly-earnings-live-webcast-september-9-2026-2026-09-02",
+        "https://ir.kornferry.com/news-events/press-releases/detail/723/korn-ferry-announces-fourth-quarter-and-full-year-fy26-results-of-operations",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 39,
+          "reversal_risk": 31,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 34,
+          "reversal_risk": 35,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 37,
+          "reversal_risk": 33,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "ODD",
+      "company": "ODDITY Tech",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Down",
+      "direction_score": -43.7,
+      "reversal_risk": 69.7,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Customer-acquisition-cost normalization",
+      "key_risk_to_call": "Cash-backed relief squeeze",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "one_sentence_thesis": "A projected 25%-30% Q2 revenue decline and unresolved ad-account efficiency problem favor downside, but the reset bar is extremely low.",
+      "market_expectation_summary": "Consensus EPS about $0.12; management guided to a 25%-30% year-over-year revenue decline.",
+      "upside_case_summary": "CPA normalizes faster, H2 commentary improves, or cash/buybacks trigger relief.",
+      "downside_case_summary": "First-order weakness persists and margin deleverage remains severe.",
+      "options_or_positioning_summary": "Options imply about 21.6%; compressed valuation and liquidity create sharp squeeze risk.",
+      "analyst_revision_summary": "Published estimates reflect a reset quarter; the key revision is whether H2 recovery gets pushed out.",
+      "key_sources": [
+        "https://investors.oddity.com/news-releases/news-release-details/oddity-announce-second-quarter-2026-financial-results-september",
+        "https://oddity.gcs-web.com/news-releases/news-release-details/oddity-tech-reports-first-quarter-2026-results-makes-progress",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": -48,
+          "reversal_risk": 67,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -39,
+          "reversal_risk": 72,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "C",
+          "direction_score": -44,
+          "reversal_risk": 70,
+          "direction_call": "Lean Down"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "CASY",
+      "company": "Casey's General Stores",
+      "timing": "2026-09-08 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 32.3,
+      "reversal_risk": 46.3,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Inside same-store sales and margin",
+      "key_risk_to_call": "Premium valuation / fuel-margin normalization",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Priced-in penalty",
+      "one_sentence_thesis": "Inside-store momentum and disciplined execution support upside, but the premium multiple requires another clean beat.",
+      "market_expectation_summary": "Consensus EPS about $6.75-$6.88; FY27 inside comps guide is +2% to +5% with margin above 42%.",
+      "upside_case_summary": "Prepared food, traffic, and fuel gross profit remain stronger than guidance.",
+      "downside_case_summary": "Fuel margin normalizes or forward EBITDA stays merely in line.",
+      "options_or_positioning_summary": "Options imply about 9%, above the stock's long-run average earnings move.",
+      "analyst_revision_summary": "The last report reset estimates higher and delivered a large positive reaction, raising the real bar.",
+      "key_sources": [
+        "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-timing-first-quarter-earnings-release-and-4",
+        "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-fourth-quarter-and-fiscal-year-results-1",
+        "https://earnings-watcher.com/wiki/casy-implied-move"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 36,
+          "reversal_risk": 45,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 29,
+          "reversal_risk": 48,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 32,
+          "reversal_risk": 46,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "SUNB",
+      "company": "Sunbelt Rentals Holdings",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 31.7,
+      "reversal_risk": 36,
+      "disparity": 2,
+      "confidence": "Medium",
+      "expected_driver": "North America rental-revenue growth",
+      "key_risk_to_call": "Rates and nonresidential construction slowdown",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Improving rental growth, specialty strength, and a 5%-8% FY27 rental-revenue guide favor modest upside.",
+      "market_expectation_summary": "Consensus EPS about $1.04; FY27 rental-revenue growth guide is 5%-8%.",
+      "upside_case_summary": "Specialty and mega-project demand keep utilization and rates firm.",
+      "downside_case_summary": "High yields slow construction or Reliant integration pressures returns.",
+      "options_or_positioning_summary": "Current event implied move was not reliably available; liquidity is strong after the U.S. relisting.",
+      "analyst_revision_summary": "Guidance begins from a stronger Q4 exit rate, but the macro bar remains cautious.",
+      "key_sources": [
+        "https://ir.sunbeltrentals.com/news-events/press-releases/detail/151/sunbelt-rentals-to-announce-first-quarter-fiscal-year-2027-results-on-september-9-2026",
+        "https://ir.sunbeltrentals.com/news-events/press-releases/detail/123/sunbelt-rentals-reports-fiscal-fourth-quarter-and-full-year-2026-results",
+        "https://www.sec.gov/Archives/edgar/data/2083785/000162828026044797/sunbeltpressrelease-fy26q4.htm"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 34,
+          "reversal_risk": 34,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 29,
+          "reversal_risk": 38,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 32,
+          "reversal_risk": 36,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "ticker": "AVO",
+      "company": "Mission Produce",
+      "timing": "2026-09-08 AMC",
+      "direction_call": "Lean Down",
+      "direction_score": -32,
+      "reversal_risk": 61.3,
+      "disparity": 2,
+      "confidence": "Low",
+      "expected_driver": "Per-unit avocado margin / Q3 EBITDA",
+      "key_risk_to_call": "Calavo synergy relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "one_sentence_thesis": "Volume growth may not offset weak pricing, sourcing costs, and Calavo integration complexity enough to clear the $28-$32 million EBITDA guide.",
+      "market_expectation_summary": "Consensus EPS about $0.12-$0.13; management guided Q3 adjusted EBITDA to $28-$32 million.",
+      "upside_case_summary": "Fruit-size mix normalizes and Calavo contribution lifts EBITDA.",
+      "downside_case_summary": "Low prices and integration costs keep per-unit economics weak.",
+      "options_or_positioning_summary": "Options imply about 8.5%; lower liquidity increases gap risk.",
+      "analyst_revision_summary": "The company framed Q2 margin compression as temporary, leaving room for a recovery surprise.",
+      "key_sources": [
+        "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-release-fiscal-third-quarter-2026-financial",
+        "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000031/exh991avoq22026earningsrel.htm",
+        "https://thetaowl.com/market/earnings-calendar"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": -29,
+          "reversal_risk": 59,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -35,
+          "reversal_risk": 64,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "C",
+          "direction_score": -32,
+          "reversal_risk": 61,
+          "direction_call": "Lean Down"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "ticker": "JMKE",
+      "company": "Jersey Mike's Subs",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Down",
+      "direction_score": -31,
+      "reversal_risk": 73,
+      "disparity": 3,
+      "confidence": "Low",
+      "expected_driver": "Same-store sales and net store growth",
+      "key_risk_to_call": "First-print relief / squeeze",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "New-issue reversal-risk floor",
+      "one_sentence_thesis": "The first public report faces a valuation and disclosure test after only 1.7% same-store growth, despite strong net unit growth.",
+      "market_expectation_summary": "Published EPS estimates range roughly $0.18-$0.22, showing limited post-IPO estimate depth.",
+      "upside_case_summary": "Unit growth, franchise economics, and outlook exceed a poorly established bar.",
+      "downside_case_summary": "Same-store growth decelerates or IPO-related leverage and governance dominate.",
+      "options_or_positioning_summary": "No reliable listed-options implied move found; the short trading history raises gap risk.",
+      "analyst_revision_summary": "The thin analyst history and below-IPO trading level make relief especially plausible.",
+      "key_sources": [
+        "https://investors.jerseymikes.com/news-events/press-releases/detail/151/jersey-mikes-subs-inc-to-announce-fiscal-second-quarter-2026-financial-results-and-business-updates-on-september-9-2026",
+        "https://investors.jerseymikes.com/sec-filings/all-sec-filings/content/0001193125-26-326453/project_70_424b4.htm",
+        "https://www.axios.com/2026/07/30/jersey-mikes-ceo-ipo"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": -35,
+          "reversal_risk": 70,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -27,
+          "reversal_risk": 76,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "C",
+          "direction_score": -31,
+          "reversal_risk": 73,
+          "direction_call": "Lean Down"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "ticker": "CNM",
+      "company": "Core & Main",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 28,
+      "reversal_risk": 40.3,
+      "disparity": 2,
+      "confidence": "Medium",
+      "expected_driver": "Organic sales and EBITDA margin",
+      "key_risk_to_call": "Weak underlying volume / cash conversion",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Margin execution, buybacks, and a depressed share price modestly outweigh slow underlying demand.",
+      "market_expectation_summary": "Consensus EPS about $0.92 and revenue near $2.14-$2.17 billion; FY26 sales guide is $7.8-$7.9 billion.",
+      "upside_case_summary": "Pricing and margin initiatives offset muted municipal volumes.",
+      "downside_case_summary": "Acquisition-aided growth masks weak organic demand and cash conversion.",
+      "options_or_positioning_summary": "A reliable current implied move was not found; the stock remains well below its 52-week high.",
+      "analyst_revision_summary": "Management reaffirmed rather than raised the annual outlook after Q1.",
+      "key_sources": [
+        "https://coreandmain.com/news/core-and-main-to-announce-fiscal-2026-second-quarter-results/",
+        "https://s28.q4cdn.com/618112866/files/doc_earnings/2026/q1/earnings-result/CNM-Q1-2026-Earnings-Press-Release-Final.pdf",
+        "https://stockanalysis.com/stocks/cnm/statistics/"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 31,
+          "reversal_risk": 38,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 25,
+          "reversal_risk": 43,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 28,
+          "reversal_risk": 40,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "ticker": "TTAN",
+      "company": "ServiceTitan",
+      "timing": "2026-09-08 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 28.7,
+      "reversal_risk": 55,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Revenue guide and GTV growth",
+      "key_risk_to_call": "High bar / premium software multiple",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Up / 1 Neutral",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Strong GTV growth and operating leverage favor upside, but the result must beat and raise enough to clear a large implied move.",
+      "market_expectation_summary": "Consensus EPS about $0.35; company guided Q2 revenue to $284-$286 million.",
+      "upside_case_summary": "GTV, Max adoption, and revenue guidance materially exceed the bar.",
+      "downside_case_summary": "Growth decelerates or guidance is only in line despite a solid quarter.",
+      "options_or_positioning_summary": "Options imply roughly 13%-15%, demanding a material surprise.",
+      "analyst_revision_summary": "Analyst sentiment is constructive, but high expectations reduce the value of a routine beat.",
+      "key_sources": [
+        "https://investors.servicetitan.com/news-releases/news-release-details/servicetitan-announce-fiscal-second-quarter-2027-financial",
+        "https://investors.servicetitan.com/news-releases/news-release-details/servicetitan-announces-fiscal-first-quarter-financial-results-0",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 34,
+          "reversal_risk": 53,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 24,
+          "reversal_risk": 57,
+          "direction_call": "Neutral / No Edge"
+        },
+        {
+          "pass": "C",
+          "direction_score": 28,
+          "reversal_risk": 55,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "ticker": "CHWY",
+      "company": "Chewy",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Down",
+      "direction_score": -27.3,
+      "reversal_risk": 62.7,
+      "disparity": 3,
+      "confidence": "Low",
+      "expected_driver": "Active customers / Autoship durability",
+      "key_risk_to_call": "De-risked valuation and margin relief",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Down / 1 Neutral",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "one_sentence_thesis": "Consumer pressure on discretionary pet spend and a demanding earnings multiple slightly outweigh strong customer and margin trends.",
+      "market_expectation_summary": "Consensus EPS about $0.18; Q1 delivered 7.7% sales growth and nearly 200,000 net customer adds.",
+      "upside_case_summary": "Autoship, active customers, and EBITDA margin keep beating.",
+      "downside_case_summary": "NSPAC slows and management turns more cautious on consumer spending.",
+      "options_or_positioning_summary": "Options imply about 10.8%; the stock has already de-risked materially.",
+      "analyst_revision_summary": "Strong Q1 profitability and customer additions create substantial relief-upside risk.",
+      "key_sources": [
+        "https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-Fiscal-Second-Quarter-Financial-Results-Conference-Call/default.aspx",
+        "https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-First-Quarter-2026-Financial-Results/default.aspx",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": -31,
+          "reversal_risk": 65,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -24,
+          "reversal_risk": 60,
+          "direction_call": "Neutral / No Edge"
+        },
+        {
+          "pass": "C",
+          "direction_score": -27,
+          "reversal_risk": 63,
+          "direction_call": "Lean Down"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "ticker": "SIG",
+      "company": "Signet Jewelers",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Lean Down",
+      "direction_score": -26,
+      "reversal_risk": 57.7,
+      "disparity": 3,
+      "confidence": "Low",
+      "expected_driver": "Same-store sales and gross margin",
+      "key_risk_to_call": "Low valuation / raised-guide relief",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Down / 1 Neutral",
+      "method_update_note": "Consumer forward-look penalty",
+      "one_sentence_thesis": "Discretionary pressure and a cautious macro backdrop slightly outweigh Q1 momentum and inexpensive valuation.",
+      "market_expectation_summary": "Consensus EPS about $1.72-$1.74; company guided Q2 comps to +0.5% to +2.5%.",
+      "upside_case_summary": "Comps top the range and cost actions support a guidance raise.",
+      "downside_case_summary": "Traffic, promotions, or commodity costs compress margin and tone.",
+      "options_or_positioning_summary": "Options imply about 10.5%; today's sharp decline increases relief risk.",
+      "analyst_revision_summary": "Q1 beat and improved FY27 ranges mean expectations are constructive but not extreme.",
+      "key_sources": [
+        "https://www.signetjewelers.com/investors/presentations-and-events/?print=1",
+        "https://www.businesswire.com/news/home/20260602204356/en/Signet-Jewelers-Reports-First-Quarter-Fiscal-2027-Results",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": -29,
+          "reversal_risk": 60,
+          "direction_call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -22,
+          "reversal_risk": 55,
+          "direction_call": "Neutral / No Edge"
+        },
+        {
+          "pass": "C",
+          "direction_score": -27,
+          "reversal_risk": 58,
+          "direction_call": "Lean Down"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "ticker": "BRZE",
+      "company": "Braze",
+      "timing": "2026-09-08 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 25,
+      "reversal_risk": 59,
+      "disparity": 4,
+      "confidence": "Low",
+      "expected_driver": "RPO / net retention / guidance",
+      "key_risk_to_call": "Gross-margin pressure and high expectations",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Up / 1 Neutral",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Organic growth acceleration supports upside, but lower gross margin and a roughly 17% implied move leave little room for a merely in-line raise.",
+      "market_expectation_summary": "Consensus EPS about $0.15; company guided Q2 revenue to $219.5-$220.5 million.",
+      "upside_case_summary": "RPO, large-customer additions, and DBNRR support another raise.",
+      "downside_case_summary": "Gross margin or forward growth fails the buy-side bar.",
+      "options_or_positioning_summary": "Options imply roughly 17%; shares were down more than 6% intraday ahead of the print.",
+      "analyst_revision_summary": "Q1 prompted an FY27 raise, so the market is already looking for continued acceleration.",
+      "key_sources": [
+        "https://investors.braze.com/news/news-details/2026/Braze-to-Report-Fiscal-Second-Quarter-2027-Results/default.aspx",
+        "https://investors.braze.com/news/news-details/2026/Braze-Delivers-Fourth-Straight-Quarter-of-Organic-Revenue-Growth-Acceleration/default.aspx",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 30,
+          "reversal_risk": 57,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 20,
+          "reversal_risk": 61,
+          "direction_call": "Neutral / No Edge"
+        },
+        {
+          "pass": "C",
+          "direction_score": 25,
+          "reversal_risk": 59,
+          "direction_call": "Lean Up"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "ticker": "SAIL",
+      "company": "SailPoint",
+      "timing": "2026-09-09 BMO",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 21.7,
+      "reversal_risk": 61,
+      "disparity": 5,
+      "confidence": "Low",
+      "expected_driver": "ARR growth and FY27 guide",
+      "key_risk_to_call": "Premium-growth expectation bar",
+      "evidence_quality": "High",
+      "pass_agreement": "1 Lean Up / 2 Neutral",
+      "method_update_note": "Premium-growth neutralization",
+      "one_sentence_thesis": "Strong ARR and SaaS growth are offset by a high valuation, elevated implied move, and the need for another beat-and-raise.",
+      "market_expectation_summary": "Consensus EPS about $0.08; Q1 ARR was $1.163 billion, up 26%.",
+      "upside_case_summary": "ARR and AI-identity pipeline support a material FY27 raise.",
+      "downside_case_summary": "ARR growth or margin guidance decelerates under high-rate conditions.",
+      "options_or_positioning_summary": "Options imply about 16%; the event hurdle is high.",
+      "analyst_revision_summary": "Q1 beat and raised guidance support the bull case, while high expectations limit directional edge.",
+      "key_sources": [
+        "https://investor.sailpoint.com/news-releases/news-release-details/sailpoint-announces-date-fiscal-second-quarter-2027-earnings",
+        "https://www.zacks.com/stock/news/2935261/sailpoint-q1-earnings-surpass-estimates-revenues-jump-yy",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ],
+      "independent_passes": [
+        {
+          "pass": "A",
+          "direction_score": 27,
+          "reversal_risk": 58,
+          "direction_call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 16,
+          "reversal_risk": 64,
+          "direction_call": "Neutral / No Edge"
+        },
+        {
+          "pass": "C",
+          "direction_score": 22,
+          "reversal_risk": 61,
+          "direction_call": "Neutral / No Edge"
+        }
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualification_rule": "Absolute consensus score above 30, reversal risk 40 or below, and sufficient confidence/evidence",
+    "qualified_names": [
+      {
+        "ticker": "ASO",
+        "direction": "Lean Up",
+        "weight_percent": 45
+      },
+      {
+        "ticker": "KFY",
+        "direction": "Lean Up",
+        "weight_percent": 30
+      },
+      {
+        "ticker": "SUNB",
+        "direction": "Lean Up",
+        "weight_percent": 25
+      }
+    ],
+    "allocated_percent": 100,
+    "unallocated_percent": 0,
+    "excluded_high_reversal_risk": [
+      "ODD",
+      "CASY",
+      "AVO",
+      "JMKE"
+    ],
+    "note": "Research prioritization model only; not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "ASO",
+      "consensus_summary": "3/3 Lean Up; averaged score 46.7, reversal risk 36.3, disparity 3",
+      "averaged_direction_score": 46.7,
+      "averaged_reversal_risk": 36.3,
+      "disparity_metric": 3,
+      "pass_agreement": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Positive traffic and ticket, a low valuation, and short crowding favor upside if comparable sales and margin hold.",
+      "market_expectation": "Consensus EPS about $2.07; management raised the low end of FY26 guidance after Q1.",
+      "upside_case": "Comps beat a modest bar while margin and guidance hold.",
+      "downside_case": "Inflation reverses traffic momentum or gross margin slips.",
+      "reversal_risk_assessment": "Consumer and gross-margin pressure",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply roughly 9%; short interest is elevated and can amplify relief.",
+      "analyst_and_estimate_revision_read": "Management's prior guidance raise is constructive, though Q2 expectations have firmed.",
+      "base_case": "Positive traffic and ticket, a low valuation, and short crowding favor upside if comparable sales and margin hold.",
+      "bull_case": "Comps beat a modest bar while margin and guidance hold.",
+      "bear_case": "Inflation reverses traffic momentum or gross margin slips.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": true,
+      "allocation_rationale": "Qualified on score, reversal risk, evidence, and low disparity.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar / key-metric discipline",
+      "key_sources": [
+        "https://investors.academy.com/news-releases/news-release-details/academy-sports-outdoors-announces-second-quarter-fiscal-2026",
+        "https://investors.academy.com/news-releases/news-release-details/academy-sports-outdoors-reports-first-quarter-fiscal-2026",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ]
+    },
+    {
+      "ticker": "KFY",
+      "consensus_summary": "3/3 Lean Up; averaged score 36.7, reversal risk 33, disparity 2",
+      "averaged_direction_score": 36.7,
+      "averaged_reversal_risk": 33,
+      "disparity_metric": 2,
+      "pass_agreement": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Five consecutive quarters of top-line growth support upside if fee revenue and margin guidance remain resilient.",
+      "market_expectation": "Consensus EPS about $1.36 and revenue about $737.7 million, near management's Q1 guide.",
+      "upside_case": "Search/interim demand and margins clear the guided range.",
+      "downside_case": "Hiring caution or compensation costs weaken the outlook.",
+      "reversal_risk_assessment": "Hiring macro and margin guide",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply about 6.2%, a restrained hurdle relative to software peers.",
+      "analyst_and_estimate_revision_read": "Street estimates sit within management's $725-$745 million fee-revenue and $1.32-$1.38 EPS ranges.",
+      "base_case": "Five consecutive quarters of top-line growth support upside if fee revenue and margin guidance remain resilient.",
+      "bull_case": "Search/interim demand and margins clear the guided range.",
+      "bear_case": "Hiring caution or compensation costs weaken the outlook.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": true,
+      "allocation_rationale": "Qualified on score, reversal risk, evidence, and low disparity.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://www.nasdaq.com/press-release/korn-ferry-report-quarterly-earnings-live-webcast-september-9-2026-2026-09-02",
+        "https://ir.kornferry.com/news-events/press-releases/detail/723/korn-ferry-announces-fourth-quarter-and-full-year-fy26-results-of-operations",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ]
+    },
+    {
+      "ticker": "ODD",
+      "consensus_summary": "3/3 Lean Down; averaged score -43.7, reversal risk 69.7, disparity 4",
+      "averaged_direction_score": -43.7,
+      "averaged_reversal_risk": 69.7,
+      "disparity_metric": 4,
+      "pass_agreement": "3/3 Lean Down",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "A projected 25%-30% Q2 revenue decline and unresolved ad-account efficiency problem favor downside, but the reset bar is extremely low.",
+      "market_expectation": "Consensus EPS about $0.12; management guided to a 25%-30% year-over-year revenue decline.",
+      "upside_case": "CPA normalizes faster, H2 commentary improves, or cash/buybacks trigger relief.",
+      "downside_case": "First-order weakness persists and margin deleverage remains severe.",
+      "reversal_risk_assessment": "Cash-backed relief squeeze",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply about 21.6%; compressed valuation and liquidity create sharp squeeze risk.",
+      "analyst_and_estimate_revision_read": "Published estimates reflect a reset quarter; the key revision is whether H2 recovery gets pushed out.",
+      "base_case": "A projected 25%-30% Q2 revenue decline and unresolved ad-account efficiency problem favor downside, but the reset bar is extremely low.",
+      "bull_case": "CPA normalizes faster, H2 commentary improves, or cash/buybacks trigger relief.",
+      "bear_case": "First-order weakness persists and margin deleverage remains severe.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "key_sources": [
+        "https://investors.oddity.com/news-releases/news-release-details/oddity-announce-second-quarter-2026-financial-results-september",
+        "https://oddity.gcs-web.com/news-releases/news-release-details/oddity-tech-reports-first-quarter-2026-results-makes-progress",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ]
+    },
+    {
+      "ticker": "CASY",
+      "consensus_summary": "3/3 Lean Up; averaged score 32.3, reversal risk 46.3, disparity 3",
+      "averaged_direction_score": 32.3,
+      "averaged_reversal_risk": 46.3,
+      "disparity_metric": 3,
+      "pass_agreement": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Inside-store momentum and disciplined execution support upside, but the premium multiple requires another clean beat.",
+      "market_expectation": "Consensus EPS about $6.75-$6.88; FY27 inside comps guide is +2% to +5% with margin above 42%.",
+      "upside_case": "Prepared food, traffic, and fuel gross profit remain stronger than guidance.",
+      "downside_case": "Fuel margin normalizes or forward EBITDA stays merely in line.",
+      "reversal_risk_assessment": "Premium valuation / fuel-margin normalization",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply about 9%, above the stock's long-run average earnings move.",
+      "analyst_and_estimate_revision_read": "The last report reset estimates higher and delivered a large positive reaction, raising the real bar.",
+      "base_case": "Inside-store momentum and disciplined execution support upside, but the premium multiple requires another clean beat.",
+      "bull_case": "Prepared food, traffic, and fuel gross profit remain stronger than guidance.",
+      "bear_case": "Fuel margin normalizes or forward EBITDA stays merely in line.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Priced-in penalty",
+      "key_sources": [
+        "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-timing-first-quarter-earnings-release-and-4",
+        "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-fourth-quarter-and-fiscal-year-results-1",
+        "https://earnings-watcher.com/wiki/casy-implied-move"
+      ]
+    },
+    {
+      "ticker": "SUNB",
+      "consensus_summary": "3/3 Lean Up; averaged score 31.7, reversal risk 36, disparity 2",
+      "averaged_direction_score": 31.7,
+      "averaged_reversal_risk": 36,
+      "disparity_metric": 2,
+      "pass_agreement": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Improving rental growth, specialty strength, and a 5%-8% FY27 rental-revenue guide favor modest upside.",
+      "market_expectation": "Consensus EPS about $1.04; FY27 rental-revenue growth guide is 5%-8%.",
+      "upside_case": "Specialty and mega-project demand keep utilization and rates firm.",
+      "downside_case": "High yields slow construction or Reliant integration pressures returns.",
+      "reversal_risk_assessment": "Rates and nonresidential construction slowdown",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Current event implied move was not reliably available; liquidity is strong after the U.S. relisting.",
+      "analyst_and_estimate_revision_read": "Guidance begins from a stronger Q4 exit rate, but the macro bar remains cautious.",
+      "base_case": "Improving rental growth, specialty strength, and a 5%-8% FY27 rental-revenue guide favor modest upside.",
+      "bull_case": "Specialty and mega-project demand keep utilization and rates firm.",
+      "bear_case": "High yields slow construction or Reliant integration pressures returns.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": true,
+      "allocation_rationale": "Qualified on score, reversal risk, evidence, and low disparity.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://ir.sunbeltrentals.com/news-events/press-releases/detail/151/sunbelt-rentals-to-announce-first-quarter-fiscal-year-2027-results-on-september-9-2026",
+        "https://ir.sunbeltrentals.com/news-events/press-releases/detail/123/sunbelt-rentals-reports-fiscal-fourth-quarter-and-full-year-2026-results",
+        "https://www.sec.gov/Archives/edgar/data/2083785/000162828026044797/sunbeltpressrelease-fy26q4.htm"
+      ]
+    },
+    {
+      "ticker": "AVO",
+      "consensus_summary": "3/3 Lean Down; averaged score -32, reversal risk 61.3, disparity 2",
+      "averaged_direction_score": -32,
+      "averaged_reversal_risk": 61.3,
+      "disparity_metric": 2,
+      "pass_agreement": "3/3 Lean Down",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Volume growth may not offset weak pricing, sourcing costs, and Calavo integration complexity enough to clear the $28-$32 million EBITDA guide.",
+      "market_expectation": "Consensus EPS about $0.12-$0.13; management guided Q3 adjusted EBITDA to $28-$32 million.",
+      "upside_case": "Fruit-size mix normalizes and Calavo contribution lifts EBITDA.",
+      "downside_case": "Low prices and integration costs keep per-unit economics weak.",
+      "reversal_risk_assessment": "Calavo synergy relief",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply about 8.5%; lower liquidity increases gap risk.",
+      "analyst_and_estimate_revision_read": "The company framed Q2 margin compression as temporary, leaving room for a recovery surprise.",
+      "base_case": "Volume growth may not offset weak pricing, sourcing costs, and Calavo integration complexity enough to clear the $28-$32 million EBITDA guide.",
+      "bull_case": "Fruit-size mix normalizes and Calavo contribution lifts EBITDA.",
+      "bear_case": "Low prices and integration costs keep per-unit economics weak.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "key_sources": [
+        "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-release-fiscal-third-quarter-2026-financial",
+        "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000031/exh991avoq22026earningsrel.htm",
+        "https://thetaowl.com/market/earnings-calendar"
+      ]
+    },
+    {
+      "ticker": "JMKE",
+      "consensus_summary": "3/3 Lean Down; averaged score -31, reversal risk 73, disparity 3",
+      "averaged_direction_score": -31,
+      "averaged_reversal_risk": 73,
+      "disparity_metric": 3,
+      "pass_agreement": "3/3 Lean Down",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "The first public report faces a valuation and disclosure test after only 1.7% same-store growth, despite strong net unit growth.",
+      "market_expectation": "Published EPS estimates range roughly $0.18-$0.22, showing limited post-IPO estimate depth.",
+      "upside_case": "Unit growth, franchise economics, and outlook exceed a poorly established bar.",
+      "downside_case": "Same-store growth decelerates or IPO-related leverage and governance dominate.",
+      "reversal_risk_assessment": "First-print relief / squeeze",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "No reliable listed-options implied move found; the short trading history raises gap risk.",
+      "analyst_and_estimate_revision_read": "The thin analyst history and below-IPO trading level make relief especially plausible.",
+      "base_case": "The first public report faces a valuation and disclosure test after only 1.7% same-store growth, despite strong net unit growth.",
+      "bull_case": "Unit growth, franchise economics, and outlook exceed a poorly established bar.",
+      "bear_case": "Same-store growth decelerates or IPO-related leverage and governance dominate.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "New-issue reversal-risk floor",
+      "key_sources": [
+        "https://investors.jerseymikes.com/news-events/press-releases/detail/151/jersey-mikes-subs-inc-to-announce-fiscal-second-quarter-2026-financial-results-and-business-updates-on-september-9-2026",
+        "https://investors.jerseymikes.com/sec-filings/all-sec-filings/content/0001193125-26-326453/project_70_424b4.htm",
+        "https://www.axios.com/2026/07/30/jersey-mikes-ceo-ipo"
+      ]
+    },
+    {
+      "ticker": "TTAN",
+      "consensus_summary": "2 Lean Up / 1 Neutral; averaged score 28.7, reversal risk 55, disparity 4",
+      "averaged_direction_score": 28.7,
+      "averaged_reversal_risk": 55,
+      "disparity_metric": 4,
+      "pass_agreement": "2 Lean Up / 1 Neutral",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Strong GTV growth and operating leverage favor upside, but the result must beat and raise enough to clear a large implied move.",
+      "market_expectation": "Consensus EPS about $0.35; company guided Q2 revenue to $284-$286 million.",
+      "upside_case": "GTV, Max adoption, and revenue guidance materially exceed the bar.",
+      "downside_case": "Growth decelerates or guidance is only in line despite a solid quarter.",
+      "reversal_risk_assessment": "High bar / premium software multiple",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply roughly 13%-15%, demanding a material surprise.",
+      "analyst_and_estimate_revision_read": "Analyst sentiment is constructive, but high expectations reduce the value of a routine beat.",
+      "base_case": "Strong GTV growth and operating leverage favor upside, but the result must beat and raise enough to clear a large implied move.",
+      "bull_case": "GTV, Max adoption, and revenue guidance materially exceed the bar.",
+      "bear_case": "Growth decelerates or guidance is only in line despite a solid quarter.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://investors.servicetitan.com/news-releases/news-release-details/servicetitan-announce-fiscal-second-quarter-2027-financial",
+        "https://investors.servicetitan.com/news-releases/news-release-details/servicetitan-announces-fiscal-first-quarter-financial-results-0",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ]
+    },
+    {
+      "ticker": "CHWY",
+      "consensus_summary": "2 Lean Down / 1 Neutral; averaged score -27.3, reversal risk 62.7, disparity 3",
+      "averaged_direction_score": -27.3,
+      "averaged_reversal_risk": 62.7,
+      "disparity_metric": 3,
+      "pass_agreement": "2 Lean Down / 1 Neutral",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Consumer pressure on discretionary pet spend and a demanding earnings multiple slightly outweigh strong customer and margin trends.",
+      "market_expectation": "Consensus EPS about $0.18; Q1 delivered 7.7% sales growth and nearly 200,000 net customer adds.",
+      "upside_case": "Autoship, active customers, and EBITDA margin keep beating.",
+      "downside_case": "NSPAC slows and management turns more cautious on consumer spending.",
+      "reversal_risk_assessment": "De-risked valuation and margin relief",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply about 10.8%; the stock has already de-risked materially.",
+      "analyst_and_estimate_revision_read": "Strong Q1 profitability and customer additions create substantial relief-upside risk.",
+      "base_case": "Consumer pressure on discretionary pet spend and a demanding earnings multiple slightly outweigh strong customer and margin trends.",
+      "bull_case": "Autoship, active customers, and EBITDA margin keep beating.",
+      "bear_case": "NSPAC slows and management turns more cautious on consumer spending.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal-risk floor",
+      "key_sources": [
+        "https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-Fiscal-Second-Quarter-Financial-Results-Conference-Call/default.aspx",
+        "https://investor.chewy.com/news-and-events/news/news-details/2026/Chewy-Announces-First-Quarter-2026-Financial-Results/default.aspx",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ]
+    },
+    {
+      "ticker": "SIG",
+      "consensus_summary": "2 Lean Down / 1 Neutral; averaged score -26, reversal risk 57.7, disparity 3",
+      "averaged_direction_score": -26,
+      "averaged_reversal_risk": 57.7,
+      "disparity_metric": 3,
+      "pass_agreement": "2 Lean Down / 1 Neutral",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Discretionary pressure and a cautious macro backdrop slightly outweigh Q1 momentum and inexpensive valuation.",
+      "market_expectation": "Consensus EPS about $1.72-$1.74; company guided Q2 comps to +0.5% to +2.5%.",
+      "upside_case": "Comps top the range and cost actions support a guidance raise.",
+      "downside_case": "Traffic, promotions, or commodity costs compress margin and tone.",
+      "reversal_risk_assessment": "Low valuation / raised-guide relief",
+      "social_sentiment_read": "Supporting signal only; sparse or noisy discussion was not given material weight.",
+      "options_or_positioning_read": "Options imply about 10.5%; today's sharp decline increases relief risk.",
+      "analyst_and_estimate_revision_read": "Q1 beat and improved FY27 ranges mean expectations are constructive but not extreme.",
+      "base_case": "Discretionary pressure and a cautious macro backdrop slightly outweigh Q1 momentum and inexpensive valuation.",
+      "bull_case": "Comps top the range and cost actions support a guidance raise.",
+      "bear_case": "Traffic, promotions, or commodity costs compress margin and tone.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": false,
+      "allocation_rationale": "Excluded because reversal risk, score threshold, or confidence did not meet the allocation rule.",
+      "disparity_effect": "Low disparity supported conviction quality.",
+      "method_update_note": "Consumer forward-look penalty",
+      "key_sources": [
+        "https://www.signetjewelers.com/investors/presentations-and-events/?print=1",
+        "https://www.businesswire.com/news/home/20260602204356/en/Signet-Jewelers-Reports-First-Quarter-Fiscal-2027-Results",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-this-week-september-08-september-11-2026"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
