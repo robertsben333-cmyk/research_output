@@ -1,120 +1,145 @@
 {
-  "generation_timestamp": "2026-09-10T17:02:01Z",
+  "generation_timestamp": "2026-09-11T17:02:01Z",
   "covered_report_window": {
-    "after_close": "September 10, 2026 after U.S. market close",
-    "before_open": "September 11, 2026 before U.S. market open",
+    "after_close": "Friday, September 11, 2026 after the 4:00 p.m. ET U.S. market close",
+    "before_open": "Monday, September 14, 2026 before the 9:30 a.m. ET U.S. market open",
     "timezone": "America/New_York"
   },
   "report_type": "US actionable earnings window full ranked report",
-  "market_context_summary": "August CPI is due before the September 11 open, overlapping Kroger's reaction window and creating rate sensitivity for software valuations.",
-  "companies_reviewed_count": 7,
+  "market_context_summary": "Friday equities were rebounding after CPI landed near expectations and oil eased, but crude remained above $100 and the 10-year Treasury yield near 5%, a hostile backdrop for a distressed, leveraged consumer-staples issuer.",
+  "companies_reviewed_count": 5,
+  "qualified_companies_count": 1,
+  "universe_notes": {
+    "qualified": [
+      "HAIN"
+    ],
+    "excluded": [
+      {
+        "ticker": "FDX",
+        "reason": "Stale calendar entry contradicted by FedEx IR schedule."
+      },
+      {
+        "ticker": "SCHL",
+        "reason": "Stale calendar entry contradicted by Scholastic IR, which schedules Q1 results for September 24."
+      },
+      {
+        "ticker": "RSSS",
+        "reason": "After-close timing not confirmed to the required issuer/high-quality standard."
+      },
+      {
+        "ticker": "RFIL",
+        "reason": "Thin microcap with insufficient evidence quality; excluded before all three passes."
+      }
+    ]
+  },
   "top_setups": {
-    "up": ["ADBE", "CPRT", "KR"],
-    "down": ["RH", "ORCL", "ZUMZ"]
+    "up": [],
+    "down": [
+      "HAIN"
+    ],
+    "note": "Fewer than three qualified names existed on either side."
   },
   "methodology": {
     "independent_passes": 3,
-    "disparity_definition": "0-100 dispersion index based on the spread and average absolute deviation of three direction and reversal-risk estimates; lower means tighter agreement.",
-    "learned_lessons_update": "No new method change; existing expectation-bar, decisive-metric, forward-look, and reversal-risk controls were applied."
+    "shared_universe": [
+      "HAIN"
+    ],
+    "pass_outputs": [
+      {
+        "pass": "A",
+        "ticker": "HAIN",
+        "key_metric": "Debt refinancing/liquidity progress",
+        "direction_score": -62,
+        "reversal_risk": 65,
+        "direction_call": "Strong Down"
+      },
+      {
+        "pass": "B",
+        "ticker": "HAIN",
+        "key_metric": "Organic sales stabilization and adjusted EBITDA",
+        "direction_score": -48,
+        "reversal_risk": 72,
+        "direction_call": "Lean Down"
+      },
+      {
+        "pass": "C",
+        "ticker": "HAIN",
+        "key_metric": "December 2026 maturity resolution and free cash flow",
+        "direction_score": -57,
+        "reversal_risk": 68,
+        "direction_call": "Lean Down"
+      }
+    ],
+    "disparity_definition": "0-100 dispersion index combining population standard deviation of the three direction scores (70%) and reversal-risk estimates (30%); lower means tighter agreement.",
+    "learned_lessons_update": "No new method change. Existing expectation-bar, decisive-metric, forward-look, and separate reversal-risk controls were applied."
   },
   "ranked_companies": [
     {
-      "rank": 1, "ticker": "RH", "company": "RH", "timing": "2026-09-10 after market close",
-      "direction_call": "Strong Down", "direction_score": -61, "reversal_risk": 52, "disparity": 10, "confidence": "Medium",
-      "expected_driver": "FY26 outlook and second-half revenue bridge", "key_risk_to_call": "Backlog conversion and relief squeeze", "evidence_quality": "High",
-      "one_sentence_thesis": "RH's flat first-half setup leaves a demanding second-half acceleration and margin bridge exposed to housing, tariff, and execution risk.",
-      "market_expectation_summary": "Q2 revenue growth 0.5%-2.5% and adjusted EBITDA margin 11.5%-13.0%.",
-      "upside_case_summary": "Backlog conversion, stronger demand, and maintained 4.5%-8.0% FY revenue growth support relief upside.",
-      "downside_case_summary": "A weaker demand read or reduced second-half guide undermines the 12% second-half growth bridge.",
-      "options_or_positioning_summary": "No reliable current implied move verified; depressed shares and 44x trailing P/E create two-way risk.",
-      "analyst_revision_summary": "Consensus remains cautious as housing and sourcing pressures offset global expansion.",
-      "pass_agreement": "A/B/C all Down; -61/-55/-67.",
-      "key_sources": ["https://ir.rh.com/news-events/detail/291/rh-to-report-second-quarter-fiscal-2026-financial-results-on-september-10-2026", "https://ir.rh.com/financials-filings/sec-filings/content/0001104659-26-072941/rh-20260611xex99d2.htm", "https://www.zacks.com/stock/news/2986526/heres-what-to-expect-ahead-of-rhs-q2-earnings-release"]
-    },
-    {
-      "rank": 2, "ticker": "ORCL", "company": "Oracle", "timing": "2026-09-10 after market close",
-      "direction_call": "Lean Down", "direction_score": -43, "reversal_risk": 55, "disparity": 10, "confidence": "Medium",
-      "expected_driver": "OCI growth, capex, and funding quality", "key_risk_to_call": "Backlog conversion beats the high bar", "evidence_quality": "High",
-      "one_sentence_thesis": "OCI growth can be excellent while shares still fall if margins, capex, funding, or Q2 guidance fail to validate the $638B backlog.",
-      "market_expectation_summary": "About $19.1B revenue, $1.74-$1.78 adjusted EPS, and 58%-64% cloud growth.",
-      "upside_case_summary": "OCI growth above 100%, strong RPO conversion, and disciplined capex commentary validate AI demand.",
-      "downside_case_summary": "More capex or financing, weak margins, or merely in-line cloud growth reinforce negative free-cash-flow concerns.",
-      "options_or_positioning_summary": "Intense AI positioning; no precise current implied move was independently verified.",
-      "analyst_revision_summary": "Buy consensus and high targets contrast with a falling pre-print share price and demanding bar.",
-      "pass_agreement": "A/B/C all Down; -48/-36/-44.",
-      "key_sources": ["https://investor.oracle.com/investor-news/news-details/2026/Oracle-Sets-the-Date-for-its-First-Quarter-Fiscal-Year-2027-Earnings-Announcement/default.aspx", "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/", "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-ex99_1.htm"]
-    },
-    {
-      "rank": 3, "ticker": "ZUMZ", "company": "Zumiez", "timing": "2026-09-10 after market close",
-      "direction_call": "Lean Down", "direction_score": -37, "reversal_risk": 58, "disparity": 9, "confidence": "Low",
-      "expected_driver": "Comparable sales and Q3 guide", "key_risk_to_call": "Low bar and small-float squeeze", "evidence_quality": "Medium",
-      "one_sentence_thesis": "Soft monthly comps and cautious consumer conditions tilt down, but a low loss estimate creates substantial squeeze risk.",
-      "market_expectation_summary": "Lower year-over-year earnings and revenue; company guided Q2 EPS to a $0.23-$0.08 loss.",
-      "upside_case_summary": "Positive comps and better Q3 guidance clear a low bar.", "downside_case_summary": "Negative comps and weak back-to-school commentary extend the earnings decline.",
-      "options_or_positioning_summary": "Thin liquidity and small market cap can amplify either direction.", "analyst_revision_summary": "Limited coverage reduces confidence.",
-      "pass_agreement": "A/B/C all Down; -31/-42/-37.",
-      "key_sources": ["https://ir.zumiez.com/", "https://ir.zumiez.com/static-files/d15650c3-8cbd-4435-86f2-c1f917648da1", "https://www.zacks.com/stock/news/2984424/earnings-preview-zumiez-zumz-q2-earnings-expected-to-decline"]
-    },
-    {
-      "rank": 4, "ticker": "ADBE", "company": "Adobe", "timing": "2026-09-10 after market close",
-      "direction_call": "Lean Up", "direction_score": 35, "reversal_risk": 40, "disparity": 11, "confidence": "Medium",
-      "expected_driver": "Digital Media ARR and FY26 outlook", "key_risk_to_call": "AI competition and CEO-transition guide", "evidence_quality": "High",
-      "one_sentence_thesis": "Low valuation and quantified AI traction support upside if ARR and FY26 targets hold, but another beat without stronger forward proof may sell off.",
-      "market_expectation_summary": "About $6.69B revenue and $6.08 adjusted EPS; ending ARR growth guide is 10.2%.",
-      "upside_case_summary": "ARR and Firefly monetization exceed the bar with a maintained or raised outlook.", "downside_case_summary": "ARR deceleration or cautious successor commentary triggers a third post-beat selloff.",
-      "options_or_positioning_summary": "Published estimates disagree between roughly 5.4% and 9% implied move.", "analyst_revision_summary": "Hold consensus and a recent Sell/$240 reiteration show skepticism.",
-      "pass_agreement": "A/B/C all Up; +34/+42/+29.",
-      "key_sources": ["https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm", "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/11606202/a5543arefgt.pdf", "https://www.tipranks.com/news/adobe-stock-could-swing-8-after-q3-results-heres-what-to-expect"]
-    },
-    {
-      "rank": 5, "ticker": "CPRT", "company": "Copart", "timing": "2026-09-10 after market close",
-      "direction_call": "Lean Up", "direction_score": 31, "reversal_risk": 34, "disparity": 6, "confidence": "Medium",
-      "expected_driver": "U.S. volume and gross-profit margin", "key_risk_to_call": "Flat growth and weaker auction economics", "evidence_quality": "High",
-      "one_sentence_thesis": "Modest volume growth and better gross-profit conversion offer a contained upside edge if auction economics remain firm.",
-      "market_expectation_summary": "Roughly $1.16B revenue and $0.39 EPS.", "upside_case_summary": "Volume recovery and gross-profit growth outpace revenue.",
-      "downside_case_summary": "Flat units, lower selling prices, or yard costs reverse the edge.", "options_or_positioning_summary": "One preview indicates a contained move; source quality is moderate.",
-      "analyst_revision_summary": "Target dispersion is wide; no robust short-window revision series verified.", "pass_agreement": "A/B/C all Up; +28/+35/+31.",
-      "key_sources": ["https://www.copart.com/content/us/en/press-releases/copart-to-release-fourth-quarter-2026-results", "https://www.copart.com/content/us/en/press-releases/copart-reports-third-quarter-2026-results", "https://intucode.com/cprt-price-target/"]
-    },
-    {
-      "rank": 6, "ticker": "KR", "company": "Kroger", "timing": "2026-09-11 before market open",
-      "direction_call": "Neutral / No Edge", "direction_score": 28, "reversal_risk": 39, "disparity": 7, "confidence": "Medium",
-      "expected_driver": "Identical sales ex-fuel and FY guide", "key_risk_to_call": "CPI overlap and pharmacy/margin pressure", "evidence_quality": "High",
-      "one_sentence_thesis": "Stable food demand leans positive, but a narrow sales guide, pharmacy dynamics, and same-morning CPI keep the setup below actionable strength.",
-      "market_expectation_summary": "About $34.6B revenue, $1.05-$1.06 EPS; FY identical sales ex-fuel guide 1%-2%.",
-      "upside_case_summary": "Comps beat and FY guidance rises.", "downside_case_summary": "Traffic, price investment, or pharmacy margins offset a beat.",
-      "options_or_positioning_summary": "Recent average earnings reaction cited near 6.1%; same-morning CPI adds factor risk.", "analyst_revision_summary": "11 Buy and 13 Hold ratings; targets imply upside but revisions are mixed.",
-      "pass_agreement": "A/B/C positive but two Neutral; +27/+33/+24.",
-      "key_sources": ["https://ir.kroger.com/events-and-presentations/events/event-details/2024/", "https://www.thekrogerco.com/ir-feed-item/kroger-announces-second-quarter-conference-call-with-investors/", "https://s202.q4cdn.com/463742399/files/doc_financials/2025/q4/FINAL_v7-KR-Q4-25-Earnings-PR-tables.pdf"]
-    },
-    {
-      "rank": 7, "ticker": "DSGX", "company": "Descartes Systems Group", "timing": "2026-09-10 after market close",
-      "direction_call": "Neutral / No Edge", "direction_score": 23, "reversal_risk": 42, "disparity": 10, "confidence": "Low",
-      "expected_driver": "Organic services growth and EBITDA margin", "key_risk_to_call": "Mid-single-digit organic growth", "evidence_quality": "Medium",
-      "one_sentence_thesis": "Recurring logistics software growth is durable, but acquisition effects and valuation leave insufficient evidence for a directional edge.",
-      "market_expectation_summary": "Consensus EPS near $0.55; prior-quarter revenue was $193.6M and diluted EPS $0.56.",
-      "upside_case_summary": "Organic services growth and margins accelerate.", "downside_case_summary": "Organic growth slows or acquisition costs dilute quality.",
-      "options_or_positioning_summary": "Reliable current implied move unavailable.", "analyst_revision_summary": "Prior quarter beat EPS; current revision evidence is sparse.",
-      "pass_agreement": "A/B/C positive but two Neutral; +22/+30/+18.",
-      "key_sources": ["https://www.descartes.com/investor-relations/financial-information", "https://www.descartes.com/sites/default/files/media/documents/2026-06/Q1FY27%20Shareholder%20Report%20Final.pdf", "https://markets.ft.markitdigital.com/data/equities/tearsheet/forecasts?s=DSGX%3ANSQ"]
+      "rank": 1,
+      "ticker": "HAIN",
+      "company": "The Hain Celestial Group, Inc.",
+      "timing": "2026-09-14 before market open (8:00 a.m. ET call)",
+      "direction_call": "Lean Down",
+      "direction_score": -56,
+      "reversal_risk": 68,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Debt refinancing/liquidity; organic sales stabilization",
+      "key_risk_to_call": "Refinancing relief and short-covering squeeze",
+      "evidence_quality": "High primary-source fundamentals; limited options/social data",
+      "one_sentence_thesis": "Even modest operating stabilization may be overshadowed unless Hain resolves its December 2026 debt maturity and demonstrates durable sales, EBITDA, and cash-flow improvement.",
+      "market_expectation_summary": "Consensus is approximately -$0.03 adjusted EPS and $274-$278 million revenue; the market is primarily focused on liquidity and refinancing rather than headline EPS.",
+      "upside_case_summary": "A completed refinancing or maturity extension, positive free cash flow, and better-than-feared organic sales/EBITDA could trigger a sharp relief rally.",
+      "downside_case_summary": "No credible maturity solution, renewed volume-led organic sales weakness, or margin/FCF disappointment could deepen solvency concerns.",
+      "reversal_risk_assessment": "High (68): the stock is deeply de-risked, below $1, and vulnerable to a large relief or short-covering rally on any credible refinancing progress.",
+      "options_or_positioning_summary": "A reliable current implied move was not independently verified; low absolute price and distressed positioning imply discontinuous two-way reaction risk.",
+      "analyst_revision_summary": "Six-analyst consensus near -$0.03 EPS and $274.3 million revenue; three-month estimates improved modestly, but recent target cuts and a margin-recovery downgrade remain bearish context.",
+      "social_sentiment_summary": "Sparse, low-quality discussion is dominated by filing summaries and going-concern concerns; no robust 7/14/30-day signal was verifiable.",
+      "pass_agreement": "All three passes called Down; scores -62/-48/-57. One Strong Down and two Lean Down; reversal risk high in every pass.",
+      "method_update_note": "Expectation-bar and forward-look controls applied; no new method change.",
+      "key_sources": [
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-announces-fiscal-2026-fourth-quarter-and-full",
+        "https://www.sec.gov/Archives/edgar/data/910406/000119312526215679/hain-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/910406/000119312526041911/hain-20251231.htm",
+        "https://www.chartmill.com/stock/quote/HAIN/analyst-ratings",
+        "https://uk.investing.com/news/stock-market-news/william-blair-downgrades-hain-celestial-stock-rating-on-margin-concerns-93CH-4599807"
+      ]
     }
   ],
   "research_allocation_view": {
-    "qualified": [
-      {"ticker": "ADBE", "direction": "Lean Up", "weight_percent": 55, "reason": "Score +35, reversal risk 40, high evidence quality."},
-      {"ticker": "CPRT", "direction": "Lean Up", "weight_percent": 45, "reason": "Score +31, reversal risk 34, lowest disparity."}
+    "qualified": [],
+    "excluded_for_reversal_risk": [
+      "HAIN"
     ],
-    "excluded_for_reversal_risk": ["RH", "ORCL", "ZUMZ"], "unallocated_percent": 0,
-    "note": "Hypothetical research prioritization, not financial advice."
+    "unallocated_percent": 100,
+    "reason": "HAIN clears the absolute score threshold but fails the reversal-risk ceiling (68 > 40). No weaker names were forced into the basket.",
+    "note": "Hypothetical research prioritization model, not financial advice."
   },
   "detailed_company_sections": [
-    {"ticker": "RH", "consensus": "All Down", "base_case": "Guidance cut risk", "bull_case": "Backlog converts", "bear_case": "H2 bridge breaks", "allocation_priority": false},
-    {"ticker": "ORCL", "consensus": "All Down", "base_case": "Excellent growth but poor funding optics", "bull_case": "OCI and RPO conversion overwhelm capex concern", "bear_case": "Funding and margins disappoint", "allocation_priority": false},
-    {"ticker": "ZUMZ", "consensus": "All Down", "base_case": "Soft comps", "bull_case": "Low-bar squeeze", "bear_case": "Weak back-to-school guide", "allocation_priority": false},
-    {"ticker": "ADBE", "consensus": "All Up", "base_case": "Modest upside on ARR resilience", "bull_case": "AI monetization accelerates", "bear_case": "Guidance and succession disappoint", "allocation_priority": true},
-    {"ticker": "CPRT", "consensus": "All Up", "base_case": "Contained upside", "bull_case": "Margin and volumes accelerate", "bear_case": "Auction economics soften", "allocation_priority": true},
-    {"ticker": "KR", "consensus": "Positive but two Neutral", "base_case": "Steady report", "bull_case": "Raise", "bear_case": "Margin pressure", "allocation_priority": false},
-    {"ticker": "DSGX", "consensus": "Positive but two Neutral", "base_case": "In line", "bull_case": "Organic acceleration", "bear_case": "Acquisition dilution", "allocation_priority": false}
+    {
+      "ticker": "HAIN",
+      "consensus_summary": "Three independent passes unanimously favored downside, averaging -55.7, while all identified high opposite-direction reversal risk averaging 68.3.",
+      "averaged_direction_score": -56,
+      "averaged_reversal_risk": 68,
+      "disparity": 5,
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "pass_agreement_pattern": "Unanimous directional agreement with modest score spread.",
+      "market_expects": "Approximately -$0.03 adjusted EPS and $274-$278 million revenue, but refinancing and liquidity are the decisive signals.",
+      "what_could_make_stock_go_up": "Debt extension/refinancing, positive free cash flow, stabilized organic sales, or stronger adjusted EBITDA.",
+      "what_could_make_stock_go_down": "No maturity solution, volume deterioration, weak margins, or poor cash conversion.",
+      "reversal_risk_assessment": "High because expectations and valuation are severely compressed; credible financing news could overwhelm weak reported results.",
+      "social_consumer_read": "No reliable directional social or consumer signal; sparse discussion centers on solvency disclosures.",
+      "options_positioning_read": "Exact implied move unavailable; distressed sub-$1 pricing makes percentage moves mechanically large.",
+      "analyst_revision_read": "Slight estimate improvement is outweighed by limited coverage and recent bearish margin/target actions.",
+      "base_case": "Operating results remain weak and refinancing uncertainty persists, producing a negative reaction.",
+      "bull_case": "Management announces credible refinancing and cash-flow progress, causing a sharp relief rally.",
+      "bear_case": "Liquidity language worsens and sales/EBITDA miss, accelerating downside.",
+      "final_directional_judgment": "Lean Down, but not allocation-eligible.",
+      "allocation_priority_reason": "Excluded because 68 reversal risk exceeds the 40 ceiling despite a -56 score.",
+      "disparity_effect": "Low disparity supports the direction call, but cannot offset the distinct refinancing-driven reversal risk.",
+      "method_update_note": "No new method change; standing key-metric and forward-look rules materially focused the analysis on refinancing rather than EPS."
+    }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
