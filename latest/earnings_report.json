@@ -1,1 +1,226 @@
-{"generation_timestamp":"2026-09-11T17:07:01Z","covered_report_window":{"plain_language":"U.S.-listed companies reporting after the Friday, September 11, 2026 market close and before the Monday, September 14, 2026 market open","after_close_session":"2026-09-11","before_open_session":"2026-09-14","timezone":"America/New_York"},"report_type":"US1_full_ranked_earnings_event_report","methodology":{"independent_passes":3,"consensus_basis":"Arithmetic averages of Pass A, Pass B, and Pass C direction scores and reversal-risk values","disparity_definition":"A 0-100 composite of the dispersion in direction scores and reversal-risk estimates across the three independent passes; lower is tighter agreement","learned_lessons_review":"Completed; no new method change was warranted"},"market_context_summary":"U.S. equities were rebounding at midday after four down sessions as oil eased, but August CPI rose 0.4% month over month and 3.4% year over year, leaving inflation, energy costs, and the following week's Federal Reserve decision as material event risks.","companies_reviewed_count":2,"qualified_universe":["RFIL","HAIN"],"excluded_timing_examples":[{"ticker":"SCHL","reason":"Official investor-relations schedule places earnings on September 24, outside the window"},{"ticker":"FDX","reason":"Calendar entry lacked reliable official timing confirmation for this window"},{"ticker":"RSSS","reason":"Insufficient official timing and liquidity/evidence support"}],"top_setups":{"upward":["RFIL"],"downward":["HAIN"],"note":"Only two companies met the qualified-universe standard, so no second or third setup is invented on either side"},"ranked_companies":[{"rank":1,"ticker":"RFIL","company":"RF Industries, Ltd.","timing":"Before market open Monday, September 14, 2026; 8:30 a.m. ET call","direction_call":"Lean Up","direction_score":44,"reversal_risk":36,"disparity":3,"confidence":"Medium","expected_driver":"Backlog conversion plus gross-margin durability","key_risk_to_call":"Project timing; small-cap crowding","evidence_quality":"Medium","pass_agreement":"3 of 3 Lean Up","method_update_note":"None","one_sentence_thesis":"A $20 million backlog, multi-year-high bookings, and 35.1% prior-quarter gross margin create a credible continuation setup if projects convert without margin slippage.","market_expectation_summary":"Sparse analyst coverage points to roughly $0.20 EPS, while the stock has already appreciated enough that continued execution is required.","upside_case_summary":"Backlog converts into sequential growth, custom cabling and aerospace remain strong, and gross margin stays near the mid-30% range.","downside_case_summary":"Integrated-systems shipments slip again, inventory conversion disappoints, or margin normalizes as project mix changes.","options_or_positioning_summary":"Options data are thin and not decision-grade; the small float and roughly 18.7% historical earnings-volatility indication can amplify either direction.","analyst_revision_summary":"Coverage is very limited; the available single-point estimate is about $0.20 EPS and a $17 target, so estimate breadth is weak.","key_sources":["https://rfindustries.com/investor-overview/webcast/","https://www.sec.gov/Archives/edgar/data/740664/000143774926020657/ex_975747.htm","https://www.sec.gov/Archives/edgar/data/740664/000143774926024667/rfil20260728d_ars.pdf","https://www.tipranks.com/stocks/rfil/forecast"],"independent_pass_outputs":[{"pass":"A","direction_score":47,"reversal_risk":34,"direction_call":"Lean Up","key_metric":"Backlog conversion","confidence":"Medium"},{"pass":"B","direction_score":41,"reversal_risk":38,"direction_call":"Lean Up","key_metric":"Gross-margin durability","confidence":"Medium"},{"pass":"C","direction_score":44,"reversal_risk":36,"direction_call":"Lean Up","key_metric":"Bookings-to-sales conversion","confidence":"Medium"}]},{"rank":2,"ticker":"HAIN","company":"The Hain Celestial Group, Inc.","timing":"Before market open Monday, September 14, 2026; 8:00 a.m. ET call","direction_call":"Lean Down","direction_score":-50,"reversal_risk":65,"disparity":4,"confidence":"Medium","expected_driver":"Debt-refinancing outcome","key_risk_to_call":"Refinancing relief; very low bar","evidence_quality":"High","pass_agreement":"3 of 3 Lean Down","method_update_note":"None; standing low-bar reversal floor applied","one_sentence_thesis":"The December 2026 debt maturity and going-concern disclosure overwhelm modest operational improvements unless management delivers credible refinancing progress and sales stabilization.","market_expectation_summary":"Consensus is approximately a $0.03 adjusted loss on $274-$278 million revenue, against a severely de-risked share price below $1.","upside_case_summary":"A refinancing, maturity extension, asset-sale progress, or materially better cash generation sparks a sharp relief rally.","downside_case_summary":"No financing resolution, continued organic volume declines, and weak International margins reinforce liquidity and dilution fears.","options_or_positioning_summary":"Reliable implied-move and short-interest evidence was not available; sub-$1 pricing and distressed positioning make headline gaps inherently large.","analyst_revision_summary":"Six-analyst consensus centers near a $0.03 loss and $274 million revenue; three-month revenue and EPS estimates improved modestly but remain weak in absolute terms.","key_sources":["https://ir.hain.com/news-releases/news-release-details/hain-celestial-announces-fiscal-2026-fourth-quarter-and-full","https://www.sec.gov/Archives/edgar/data/910406/000119312526215679/hain-ex99_1.htm","https://www.sec.gov/Archives/edgar/data/910406/000119312526041911/hain-20251231.htm","https://www.chartmill.com/stock/quote/HAIN/analyst-ratings"],"independent_pass_outputs":[{"pass":"A","direction_score":-54,"reversal_risk":62,"direction_call":"Lean Down","key_metric":"Refinancing progress","confidence":"Medium"},{"pass":"B","direction_score":-47,"reversal_risk":68,"direction_call":"Lean Down","key_metric":"Organic-sales stabilization","confidence":"Medium"},{"pass":"C","direction_score":-50,"reversal_risk":65,"direction_call":"Lean Down","key_metric":"Liquidity runway and maturity solution","confidence":"Medium"}]}],"research_allocation_view":{"qualified_names":["RFIL"],"excluded_for_reversal_risk":["HAIN"],"basket":[{"ticker":"RFIL","direction":"Lean Up","weight_percent":70},{"ticker":null,"direction":"Unallocated","weight_percent":30}],"reasoning":"RFIL clears the absolute-score threshold with reversal risk below 40 and low pass disparity; 30% remains unallocated because the universe is unusually narrow and analyst/options evidence is thin.","is_financial_advice":false},"detailed_company_sections":[{"ticker":"RFIL","consensus_summary":"All three passes reached Lean Up with low dispersion. The evidence consistently centered on backlog conversion and margin durability.","base_case":"Revenue rises as delayed projects and custom-cabling demand convert, with gross margin remaining healthy; shares move up but may not exceed a large historical event move.","bull_case":"Bookings stay near record levels, backlog expands, and aerospace/data-center contribution supports another margin beat.","bear_case":"Large projects shift out, inventory rises, and the prior 35.1% gross margin proves peak mix.","social_sentiment":"Sparse and low-signal; retail discussion mostly repeats the AI/data-center narrative, so it received minimal weight.","allocation_priority":"Qualified at 70% of the research basket due to +44 score, 36 reversal risk, low disparity, and medium evidence quality."},{"ticker":"HAIN","consensus_summary":"All three passes reached Lean Down, but each independently assigned high reversal risk because the bar is distressed and financing relief could dominate the quarter.","base_case":"Operations remain weak and management lacks a complete maturity solution, keeping the stock under pressure.","bull_case":"Credible refinancing or asset-sale news extends liquidity and turns a low expectations bar into a sharp squeeze.","bear_case":"Further volume contraction, International margin pressure, and no debt solution increase restructuring or dilution concerns.","social_sentiment":"Sparse investor discussion is distressed and financing-focused; consumer evidence is mixed by brand and too stale to influence the score materially.","allocation_priority":"Excluded despite a -50 score because 65 reversal risk breaches the allocation ceiling."}],"disclaimer_text":"This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."}
+{
+  "generation_timestamp": "2026-09-11T17:13:45Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Friday, September 11, 2026 U.S. market close and before the Monday, September 14, 2026 U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were up about 1% around midday Friday as oil eased, but August CPI rose 0.4% month over month and 3.4% year over year, the 10-year Treasury yield remained near 4.95%, and the Iran-war energy shock plus the following week's Federal Reserve decision kept financing and small-cap risk elevated.",
+  "companies_reviewed_count": 3,
+  "top_setups": {
+    "upward": [
+      "RFIL"
+    ],
+    "downward": [
+      "HAIN"
+    ],
+    "neutral_or_mixed": [
+      "CODA"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "RFIL",
+      "company": "RF Industries, Ltd.",
+      "timing": "Before market open Monday, September 14, 2026; 8:30 a.m. ET earnings call",
+      "direction_call": "Lean Up",
+      "direction_score": 37,
+      "reversal_risk": 39,
+      "confidence": "Medium",
+      "expected_driver": "Backlog conversion and gross-margin durability",
+      "key_risk_to_call": "Project timing and a demanding $0.20 EPS bar",
+      "evidence_quality": "Medium-High",
+      "one_sentence_thesis": "Multi-year-high bookings, a $20 million backlog, and management's sequential-growth outlook favor upside if shipments convert and gross margin remains near the mid-30% range.",
+      "market_expectation_summary": "Published consensus is approximately $0.20 adjusted EPS and $23.28 million of revenue, implying roughly 18% year-over-year sales growth; the stock has fallen about 23% over the last month, partly lowering the bar.",
+      "upside_case_summary": "Integrated-systems shipments accelerate, custom cabling stays strong, and operating leverage drives a revenue and margin beat.",
+      "downside_case_summary": "Large projects slip, inventory fails to convert, or gross margin retreats as mix normalizes.",
+      "options_or_positioning_summary": "Weekly options implied roughly a 14.4% move; short interest was about 7.9% of float, while the last earnings beat still produced a 9.3% next-day decline.",
+      "analyst_revision_summary": "Lake Street initiated Buy/$19 in August and B. Riley upgraded to Buy while cutting its target to $15 from $18; estimate breadth remains thin.",
+      "key_sources": [
+        "https://www.nasdaq.com/press-release/rf-industries-report-third-quarter-results-september-14-2026-08-31",
+        "https://www.sec.gov/Archives/edgar/data/740664/000143774926020657/ex_975747.htm",
+        "https://www.sec.gov/Archives/edgar/data/740664/000143774926020659/rfil20260430_10q.htm",
+        "https://www.optionslam.com/earnings/stocks/RFIL",
+        "https://www.marketbeat.com/stocks/NASDAQ/RFIL/short-interest/"
+      ],
+      "disparity": 7,
+      "pass_agreement": "Pass A, B, and C all called Lean Up; scores ranged from +29 to +44.",
+      "method_update_note": "Existing key-metric rule applied: backlog conversion and margin, not the broad AI/data-center narrative."
+    },
+    {
+      "rank": 2,
+      "ticker": "HAIN",
+      "company": "The Hain Celestial Group, Inc.",
+      "timing": "Before market open Monday, September 14, 2026; 8:00 a.m. ET earnings call",
+      "direction_call": "Lean Down",
+      "direction_score": -51,
+      "reversal_risk": 71,
+      "confidence": "Medium",
+      "expected_driver": "Credible solution for the December debt maturity",
+      "key_risk_to_call": "Refinancing relief or asset-sale surprise",
+      "evidence_quality": "High on capital structure; Low on consensus breadth",
+      "one_sentence_thesis": "The December 2026 debt maturity and imminent Nasdaq bid-price deadline dominate modest operating improvements unless management delivers a credible financing solution.",
+      "market_expectation_summary": "Published estimates center near a $0.03 adjusted loss and roughly $274-$278 million of revenue, but only one current estimate is visible and the distressed equity price makes the real bar financing progress rather than EPS.",
+      "upside_case_summary": "A refinancing, maturity extension, further asset sale, or stronger free cash flow triggers a sharp relief rally.",
+      "downside_case_summary": "No maturity solution, continued volume declines, weak International margins, and listing uncertainty reinforce restructuring or dilution fears.",
+      "options_or_positioning_summary": "Published weekly implied-move estimates span roughly 34%-51%; short interest was about 6.5% of shares with 7.4 days to cover, enough to amplify relief but not an extreme borrow squeeze.",
+      "analyst_revision_summary": "Coverage is sparse and cautious: recent public data show mostly Hold/Sell ratings, including a $0.50 Barclays Sell target and a Mizuho target cut to $1.",
+      "key_sources": [
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-announces-fiscal-2026-fourth-quarter-and-full",
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-reports-fiscal-third-quarter-2026-financial",
+        "https://www.sec.gov/Archives/edgar/data/910406/000119312526216701/hain-20260331.htm",
+        "https://ir.hain.com/static-files/eccde6cc-fc01-478c-a801-642f21f40cb6",
+        "https://curvedtrading.com/stocks/hain/"
+      ],
+      "disparity": 7,
+      "pass_agreement": "Pass A, B, and C all called Lean Down; scores ranged from -45 to -57, while every pass flagged High reversal risk.",
+      "method_update_note": "Existing capital-structure override applied: refinancing and listing risk supersede headline EPS."
+    },
+    {
+      "rank": 3,
+      "ticker": "CODA",
+      "company": "Coda Octopus Group, Inc.",
+      "timing": "Before market open Monday, September 14, 2026; 10:00 a.m. ET earnings call",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 4,
+      "reversal_risk": 52,
+      "confidence": "Low",
+      "expected_driver": "Marine Technology revenue and real DAVD/NANO orders",
+      "key_risk_to_call": "Thin liquidity and unquantified procurement timing",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "U.S. Navy approval and a cash-rich balance sheet compete with weak Marine Technology demand and uncertain order timing, leaving no dependable direction edge.",
+      "market_expectation_summary": "FactSet shows $0.12 EPS and $7.26 million of revenue, about 9% and 3% above the year-ago quarter, respectively; that is a modest bar but revenue quality matters more than EPS.",
+      "upside_case_summary": "DAVD procurement and NANO evaluation orders arrive, Marine revenue recovers, and high margins hold.",
+      "downside_case_summary": "Iran-war disruption keeps Middle East and Asia offshore work on hold and defense orders remain too slow to offset Marine weakness.",
+      "options_or_positioning_summary": "No decision-grade implied move was available; August short interest was only about 2% of float, but daily volume is thin and the prior report produced a 14.6% decline.",
+      "analyst_revision_summary": "Coverage is thin but constructive, with two Buy and one Hold ratings and a $14 average target; the positive rating backdrop has not resolved quarterly order-timing uncertainty.",
+      "key_sources": [
+        "https://www.codaoctopusgroup.com/press-releases/detail/222/coda-octopus-group-announces-fiscal-third-quarter-2026",
+        "https://www.codaoctopusgroup.com/press-releases/detail/221/coda-octopus-group-reports-fiscal-second-quarter-2026",
+        "https://www.tradingview.com/news/tradingview%3A83fcb965a0881%3A0-coda-q3-26-earnings-revenue-estimate-is-7-26m-usd/",
+        "https://www.tipranks.com/stocks/coda/earnings",
+        "https://www.marketbeat.com/stocks/NASDAQ/CODA/short-interest/"
+      ],
+      "disparity": 23,
+      "pass_agreement": "Material disagreement: one pass was Lean Up (+31), one Lean Down (-28), and one Neutral (+9).",
+      "method_update_note": "Existing key-metric rule applied: Marine revenue and order conversion outweigh cost-led EPS."
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "RFIL",
+        "direction": "Lean Up",
+        "share_percent": 70,
+        "why": "Absolute score above 30, reversal risk below 40, three-pass agreement, and medium-high evidence quality."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "HAIN",
+        "reason": "High 71 reversal risk despite a strong negative score; refinancing relief could dominate the report."
+      },
+      {
+        "ticker": "CODA",
+        "reason": "Consensus score of +4, moderate reversal risk, and material three-pass disagreement."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice.",
+    "unallocated_percent": 30,
+    "unallocated_reason": "The qualified universe is unusually narrow and RFIL's analyst/options evidence remains too thin to justify forcing the full basket into one small-cap event."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "RFIL",
+      "consensus_summary_across_passes": "All three independent passes selected backlog conversion as the core operating test and reached Lean Up, with direction scores of +44, +29, and +38 and reversal-risk values of 36, 42, and 38.",
+      "averaged_direction_score": 37,
+      "averaged_reversal_risk": 39,
+      "disparity_metric": 7,
+      "pass_agreement_pattern": "Tight agreement; 3 of 3 Lean Up.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Backlog and bookings support sequential growth, but the market must see actual shipment conversion and durable margins rather than another narrative-only AI infrastructure quarter.",
+      "market_expectation_summary": "Approximately $0.20 adjusted EPS and $23.28 million revenue; the revenue bar requires high-teens growth from last year's $19.8 million.",
+      "upside_case_summary": "The $20 million backlog converts, integrated systems accelerate as guided, custom cabling and aerospace stay strong, and gross margin remains near 35%.",
+      "downside_case_summary": "Project timing shifts again, inventory remains elevated, or the gross-margin mix reverses.",
+      "reversal_risk_assessment": "Low at 39, but close to the allocation ceiling because the prior quarter beat both revenue and EPS and the shares still fell 9.3% the next day.",
+      "social_consumer_sentiment_read": "Recent Reddit evidence is sparse and mostly incidental; it did not affect the score. Investor sentiment is more clearly reflected in a 23% one-month price decline and rising short interest.",
+      "options_positioning_read": "The weekly options market implied about a 14.4% move. The base directional view is positive, but a normal beat may not exceed that priced move.",
+      "analyst_revision_read": "Two visible analysts are bullish, but B. Riley's upgrade came with a target cut from $18 to $15, a mixed signal that supports Medium rather than High confidence.",
+      "base_case": "Revenue rises sequentially and year over year, margins hold in the mid-30s, and shares react positively but by less than the implied move.",
+      "bull_case": "Bookings remain near multi-year highs, backlog grows, and integrated systems plus data-center cooling generate an above-bar guide.",
+      "bear_case": "Delayed projects produce a revenue miss and working-capital build; the stock repeats the post-Q2 selloff despite decent EPS.",
+      "final_directional_judgment": "Lean Up, score +37.",
+      "allocation_view_status": "Qualified for 70% of the notional research basket; 30% remains unallocated.",
+      "disparity_effect": "Low disparity supported the highest conviction quality and the only allocation slot.",
+      "method_update_note": "No new rule; the repeated key-metric-first lesson was applied to backlog conversion and gross margin.",
+      "key_sources": [
+        "https://www.nasdaq.com/press-release/rf-industries-report-third-quarter-results-september-14-2026-08-31",
+        "https://www.sec.gov/Archives/edgar/data/740664/000143774926020657/ex_975747.htm",
+        "https://www.fool.com/earnings/call-transcripts/2026/06/15/rf-industries-rfil-q2-2026-earnings-transcript/",
+        "https://www.optionslam.com/earnings/stocks/RFIL"
+      ]
+    },
+    {
+      "ticker": "HAIN",
+      "consensus_summary_across_passes": "All three independent passes treated refinancing as the decisive metric and reached Lean Down, with direction scores of -57, -45, and -51 and reversal-risk values of 67, 75, and 70.",
+      "averaged_direction_score": -51,
+      "averaged_reversal_risk": 71,
+      "disparity_metric": 7,
+      "pass_agreement_pattern": "Tight directional agreement; 3 of 3 Lean Down, all with High reversal risk.",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Without a concrete maturity solution, capital-structure risk overwhelms Hain's better cash generation and North American margin progress.",
+      "market_expectation_summary": "The visible sell-side bar is roughly a $0.03 adjusted loss and $274-$278 million revenue, but it rests on very limited estimate coverage.",
+      "upside_case_summary": "A maturity extension or refinancing, another meaningful asset sale, positive free cash flow, and improving organic sales reframe solvency risk.",
+      "downside_case_summary": "No financing resolution, weaker volume/mix, International margin pressure, and reverse-split or delisting uncertainty deepen the equity impairment case.",
+      "reversal_risk_assessment": "High at 71. The stock has de-risked sharply, options price an enormous move, and even partial refinancing relief could generate an outsized rally against the bearish call.",
+      "social_consumer_sentiment_read": "Investor discussion is sparse and financing-focused. Isolated consumer complaints and product praise are too thin and brand-specific to establish a 7-, 14-, or 30-day demand trend.",
+      "options_positioning_read": "Published implied-move estimates are unusually wide at roughly 34%-51%. Short interest is elevated but borrow is cheap, pointing to event volatility rather than a clean squeeze setup.",
+      "analyst_revision_read": "Coverage is cautious and sparse; Hold/Sell ratings and low targets confirm distress, but they also show that expectations are already depressed.",
+      "base_case": "Operating results remain weak and management reports progress but no completed maturity solution, producing renewed downside.",
+      "bull_case": "A credible refinancing or asset-sale package removes the near-term going-concern overhang and sparks a sharp relief move.",
+      "bear_case": "The debt solution remains unresolved as December approaches, organic volume continues falling, and listing compliance requires a reverse split.",
+      "final_directional_judgment": "Lean Down, score -51, with explicitly High opposite-direction risk.",
+      "allocation_view_status": "Excluded because reversal risk of 71 exceeds the 40 ceiling.",
+      "disparity_effect": "Low disparity strengthened the directional read, but could not overcome the binary refinancing reversal risk.",
+      "method_update_note": "No new rule; the repeated transaction/capital-structure override kept EPS secondary and prevented allocation.",
+      "key_sources": [
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-announces-fiscal-2026-fourth-quarter-and-full",
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-reports-fiscal-third-quarter-2026-financial",
+        "https://ir.hain.com/static-files/eccde6cc-fc01-478c-a801-642f21f40cb6",
+        "https://www.optionslam.com/earnings/stocks/HAIN"
+      ]
+    },
+    {
+      "ticker": "CODA",
+      "consensus_summary_across_passes": "The three independent passes split sharply: +31 Lean Up on Navy approval and second-half orders, -28 Lean Down on ongoing Marine weakness, and +9 Neutral on balance-sheet strength versus timing uncertainty; reversal-risk values were 48, 57, and 52.",
+      "averaged_direction_score": 4,
+      "averaged_reversal_risk": 52,
+      "disparity_metric": 23,
+      "pass_agreement_pattern": "Material disagreement: one Up, one Down, one Neutral.",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "The report needs quantified Marine and defense order conversion; strong margins and cash alone are insufficient after the prior revenue miss.",
+      "market_expectation_summary": "FactSet expects $7.26 million revenue and $0.12 EPS versus $7.06 million and $0.11 a year ago.",
+      "upside_case_summary": "Approved DAVD systems move into procurement, NANO evaluations scale, Marine demand recovers, and Defense Engineering stays strong.",
+      "downside_case_summary": "The Iran conflict keeps offshore projects paused, order timing slips, and a revenue miss again outweighs cost-controlled EPS.",
+      "reversal_risk_assessment": "Moderate at 52 because the balance sheet is strong and expectations are modest, but thin liquidity can magnify either outcome.",
+      "social_consumer_sentiment_read": "Only isolated small-cap discussion was found; the one visible positive thread also highlighted illiquidity. Social evidence had no material scoring weight.",
+      "options_positioning_read": "No reliable near-term implied move was available. Short interest near 2% does not create a meaningful squeeze thesis, but low daily volume raises gap risk.",
+      "analyst_revision_read": "The visible rating set is constructive and a Freedom Broker upgrade followed Navy approval, yet estimate breadth is too thin to establish a dependable revision trend.",
+      "base_case": "Revenue lands near consensus with healthy margins but no decisive order disclosure; the stock's reaction is mixed or muted.",
+      "bull_case": "Marine revenue rebounds and management quantifies meaningful second-half DAVD/NANO procurement, validating the $14 target case.",
+      "bear_case": "Marine revenue remains weak and unquantified procurement timing triggers another revenue-led selloff similar to Q2.",
+      "final_directional_judgment": "Neutral / No Edge, score +4.",
+      "allocation_view_status": "Excluded because the absolute score is below 30, reversal risk is above 40, and passes materially disagree.",
+      "disparity_effect": "Moderate disparity directly reduced confidence to Low and eliminated allocation priority.",
+      "method_update_note": "No new rule; the repeated key-metric-first lesson made Marine revenue and actual orders decisive.",
+      "key_sources": [
+        "https://www.codaoctopusgroup.com/press-releases/detail/222/coda-octopus-group-announces-fiscal-third-quarter-2026",
+        "https://www.codaoctopusgroup.com/press-releases/detail/221/coda-octopus-group-reports-fiscal-second-quarter-2026",
+        "https://www.tradingview.com/news/tradingview%3A83fcb965a0881%3A0-coda-q3-26-earnings-revenue-estimate-is-7-26m-usd/",
+        "https://www.tipranks.com/stocks/coda/earnings"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
