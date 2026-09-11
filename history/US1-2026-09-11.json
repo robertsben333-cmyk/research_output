@@ -1,0 +1,145 @@
+{
+  "generation_timestamp": "2026-09-11T17:02:01Z",
+  "covered_report_window": {
+    "after_close": "Friday, September 11, 2026 after the 4:00 p.m. ET U.S. market close",
+    "before_open": "Monday, September 14, 2026 before the 9:30 a.m. ET U.S. market open",
+    "timezone": "America/New_York"
+  },
+  "report_type": "US actionable earnings window full ranked report",
+  "market_context_summary": "Friday equities were rebounding after CPI landed near expectations and oil eased, but crude remained above $100 and the 10-year Treasury yield near 5%, a hostile backdrop for a distressed, leveraged consumer-staples issuer.",
+  "companies_reviewed_count": 5,
+  "qualified_companies_count": 1,
+  "universe_notes": {
+    "qualified": [
+      "HAIN"
+    ],
+    "excluded": [
+      {
+        "ticker": "FDX",
+        "reason": "Stale calendar entry contradicted by FedEx IR schedule."
+      },
+      {
+        "ticker": "SCHL",
+        "reason": "Stale calendar entry contradicted by Scholastic IR, which schedules Q1 results for September 24."
+      },
+      {
+        "ticker": "RSSS",
+        "reason": "After-close timing not confirmed to the required issuer/high-quality standard."
+      },
+      {
+        "ticker": "RFIL",
+        "reason": "Thin microcap with insufficient evidence quality; excluded before all three passes."
+      }
+    ]
+  },
+  "top_setups": {
+    "up": [],
+    "down": [
+      "HAIN"
+    ],
+    "note": "Fewer than three qualified names existed on either side."
+  },
+  "methodology": {
+    "independent_passes": 3,
+    "shared_universe": [
+      "HAIN"
+    ],
+    "pass_outputs": [
+      {
+        "pass": "A",
+        "ticker": "HAIN",
+        "key_metric": "Debt refinancing/liquidity progress",
+        "direction_score": -62,
+        "reversal_risk": 65,
+        "direction_call": "Strong Down"
+      },
+      {
+        "pass": "B",
+        "ticker": "HAIN",
+        "key_metric": "Organic sales stabilization and adjusted EBITDA",
+        "direction_score": -48,
+        "reversal_risk": 72,
+        "direction_call": "Lean Down"
+      },
+      {
+        "pass": "C",
+        "ticker": "HAIN",
+        "key_metric": "December 2026 maturity resolution and free cash flow",
+        "direction_score": -57,
+        "reversal_risk": 68,
+        "direction_call": "Lean Down"
+      }
+    ],
+    "disparity_definition": "0-100 dispersion index combining population standard deviation of the three direction scores (70%) and reversal-risk estimates (30%); lower means tighter agreement.",
+    "learned_lessons_update": "No new method change. Existing expectation-bar, decisive-metric, forward-look, and separate reversal-risk controls were applied."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "HAIN",
+      "company": "The Hain Celestial Group, Inc.",
+      "timing": "2026-09-14 before market open (8:00 a.m. ET call)",
+      "direction_call": "Lean Down",
+      "direction_score": -56,
+      "reversal_risk": 68,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Debt refinancing/liquidity; organic sales stabilization",
+      "key_risk_to_call": "Refinancing relief and short-covering squeeze",
+      "evidence_quality": "High primary-source fundamentals; limited options/social data",
+      "one_sentence_thesis": "Even modest operating stabilization may be overshadowed unless Hain resolves its December 2026 debt maturity and demonstrates durable sales, EBITDA, and cash-flow improvement.",
+      "market_expectation_summary": "Consensus is approximately -$0.03 adjusted EPS and $274-$278 million revenue; the market is primarily focused on liquidity and refinancing rather than headline EPS.",
+      "upside_case_summary": "A completed refinancing or maturity extension, positive free cash flow, and better-than-feared organic sales/EBITDA could trigger a sharp relief rally.",
+      "downside_case_summary": "No credible maturity solution, renewed volume-led organic sales weakness, or margin/FCF disappointment could deepen solvency concerns.",
+      "reversal_risk_assessment": "High (68): the stock is deeply de-risked, below $1, and vulnerable to a large relief or short-covering rally on any credible refinancing progress.",
+      "options_or_positioning_summary": "A reliable current implied move was not independently verified; low absolute price and distressed positioning imply discontinuous two-way reaction risk.",
+      "analyst_revision_summary": "Six-analyst consensus near -$0.03 EPS and $274.3 million revenue; three-month estimates improved modestly, but recent target cuts and a margin-recovery downgrade remain bearish context.",
+      "social_sentiment_summary": "Sparse, low-quality discussion is dominated by filing summaries and going-concern concerns; no robust 7/14/30-day signal was verifiable.",
+      "pass_agreement": "All three passes called Down; scores -62/-48/-57. One Strong Down and two Lean Down; reversal risk high in every pass.",
+      "method_update_note": "Expectation-bar and forward-look controls applied; no new method change.",
+      "key_sources": [
+        "https://ir.hain.com/news-releases/news-release-details/hain-celestial-announces-fiscal-2026-fourth-quarter-and-full",
+        "https://www.sec.gov/Archives/edgar/data/910406/000119312526215679/hain-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/910406/000119312526041911/hain-20251231.htm",
+        "https://www.chartmill.com/stock/quote/HAIN/analyst-ratings",
+        "https://uk.investing.com/news/stock-market-news/william-blair-downgrades-hain-celestial-stock-rating-on-margin-concerns-93CH-4599807"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified": [],
+    "excluded_for_reversal_risk": [
+      "HAIN"
+    ],
+    "unallocated_percent": 100,
+    "reason": "HAIN clears the absolute score threshold but fails the reversal-risk ceiling (68 > 40). No weaker names were forced into the basket.",
+    "note": "Hypothetical research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "HAIN",
+      "consensus_summary": "Three independent passes unanimously favored downside, averaging -55.7, while all identified high opposite-direction reversal risk averaging 68.3.",
+      "averaged_direction_score": -56,
+      "averaged_reversal_risk": 68,
+      "disparity": 5,
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "pass_agreement_pattern": "Unanimous directional agreement with modest score spread.",
+      "market_expects": "Approximately -$0.03 adjusted EPS and $274-$278 million revenue, but refinancing and liquidity are the decisive signals.",
+      "what_could_make_stock_go_up": "Debt extension/refinancing, positive free cash flow, stabilized organic sales, or stronger adjusted EBITDA.",
+      "what_could_make_stock_go_down": "No maturity solution, volume deterioration, weak margins, or poor cash conversion.",
+      "reversal_risk_assessment": "High because expectations and valuation are severely compressed; credible financing news could overwhelm weak reported results.",
+      "social_consumer_read": "No reliable directional social or consumer signal; sparse discussion centers on solvency disclosures.",
+      "options_positioning_read": "Exact implied move unavailable; distressed sub-$1 pricing makes percentage moves mechanically large.",
+      "analyst_revision_read": "Slight estimate improvement is outweighed by limited coverage and recent bearish margin/target actions.",
+      "base_case": "Operating results remain weak and refinancing uncertainty persists, producing a negative reaction.",
+      "bull_case": "Management announces credible refinancing and cash-flow progress, causing a sharp relief rally.",
+      "bear_case": "Liquidity language worsens and sales/EBITDA miss, accelerating downside.",
+      "final_directional_judgment": "Lean Down, but not allocation-eligible.",
+      "allocation_priority_reason": "Excluded because 68 reversal risk exceeds the 40 ceiling despite a -56 score.",
+      "disparity_effect": "Low disparity supports the direction call, but cannot offset the distinct refinancing-driven reversal risk.",
+      "method_update_note": "No new method change; standing key-metric and forward-look rules materially focused the analysis on refinancing rather than EPS."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
