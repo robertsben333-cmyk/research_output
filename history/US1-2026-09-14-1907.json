@@ -1,0 +1,370 @@
+{
+  "generation_timestamp": "2026-09-14T19:07:00+02:00",
+  "covered_report_window": {
+    "plain_language": "U.S.-listed companies reporting after the Monday, September 14, 2026 market close and before the Tuesday, September 15, 2026 market open",
+    "start": "2026-09-14T16:00:00-04:00",
+    "end": "2026-09-15T09:30:00-04:00"
+  },
+  "report_type": "US1 immediate earnings window consensus report",
+  "market_context_summary": "The 10-year Treasury yield touched 5% as oil and inflation concerns intensified immediately before the September 15-16 FOMC meeting. Broad equities were roughly flat while QQQ lagged and small caps held up, increasing valuation and financing sensitivity for event-driven names.",
+  "companies_reviewed_count": 5,
+  "methodology": {
+    "independent_passes": 3,
+    "shared_universe": [
+      "FPS",
+      "HITI",
+      "KMTS",
+      "PLAY",
+      "RLGT"
+    ],
+    "disparity_definition": "Rounded 0-100 composite: one-half the mean pairwise direction-score difference after normalizing the -100 to +100 scale, plus one-half the mean pairwise reversal-risk difference. Lower means tighter agreement.",
+    "learned_lessons_review": "No new method change. Existing key-metric, priced-in, low-bar reversal, timing-confirmation, and same-day headline checks were applied."
+  },
+  "top_setups": {
+    "upward": [
+      "FPS",
+      "HITI",
+      "KMTS"
+    ],
+    "downward": [
+      "PLAY",
+      "RLGT"
+    ],
+    "note": "Only two names produced consensus downside calls; no third downward setup met the evidence threshold."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "FPS",
+      "company": "Forgent Power Solutions, Inc.",
+      "timing": "2026-09-15 before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 51.3,
+      "reversal_risk": 39,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Bookings/backlog; FY2027 outlook",
+      "key_risk_to_call": "Order normalization; margin/secondary supply",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up (55/47/52)",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Record bookings, a 2.3x book-to-bill and $1.98B backlog favor upside if order conversion and the fiscal 2027 outlook clear a now-de-risked bar.",
+      "market_expectation_summary": "Roughly $434.2M revenue and $0.24 EPS; options imply about +/-15.7%, versus a limited two-event realized average near 7.2%.",
+      "upside_case_summary": "Bookings stay elevated, Q4 lands near or above prior guidance, margins expand, and FY2027 demand visibility remains strong.",
+      "downside_case_summary": "Book-to-bill normalizes, capacity absorption or working capital disappoints, or secondary-share supply caps enthusiasm.",
+      "options_or_positioning_summary": "Event pricing is unusually wide; the stock was down about 8% intraday and roughly 46% over three months, reducing but not eliminating execution risk.",
+      "analyst_revision_summary": "Management raised FY2026 guidance last quarter; sell-side consensus remains broadly bullish, but reliable fresh revision breadth is limited.",
+      "key_sources": [
+        "https://ir.forgentpower.com/news-events/press-releases/detail/106/forgent-power-solutions-inc-to-report-fiscal-fourth-quarter-and-full-year-2026-results",
+        "https://ir.forgentpower.com/news-events/press-releases/detail/98/forgent-reports-third-quarter-2026-results-raises-fiscal-2026-guidance-on-record-orders-backlog-and-sequential-margin-expansion",
+        "https://www.battleticker.com/t/FPS",
+        "https://ir.forgentpower.com/news-events/press-releases"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "HITI",
+      "company": "High Tide Inc.",
+      "timing": "2026-09-14 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 44.7,
+      "reversal_risk": 37,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Adjusted EBITDA and gross-margin quality",
+      "key_risk_to_call": "Preannouncement priced in; weak cash conversion",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up (48/41/45)",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Preannounced record revenue, gross profit and adjusted EBITDA above the prior analyst range support upside, provided free cash flow and German margins validate the headline growth.",
+      "market_expectation_summary": "Company guidance is C$195M-C$200M revenue, C$51M-C$53.5M gross profit and C$15.2M-C$16.5M adjusted EBITDA, all above the FactSet range cited at preannouncement.",
+      "upside_case_summary": "Results reach the upper half of guidance, Remexian margins improve, Canadian same-store sales stabilize, and cash conversion is positive.",
+      "downside_case_summary": "The preannouncement leaves little surprise, adjusted results outpace cash flow, or German distribution margins weaken.",
+      "options_or_positioning_summary": "No dependable liquid event-implied move was located; short interest was reported below 1% of float, limiting squeeze leverage.",
+      "analyst_revision_summary": "Published Q3 consensus around C$191.7M revenue and C$0.01 EPS trailed the later company revenue range; analyst coverage remains thin.",
+      "key_sources": [
+        "https://hightideinc.com/high-tide-to-announce-third-fiscal-quarter-2026-financial-results/",
+        "https://hightideinc.com/high-tide-projects-record-growth-for-q3-2026-led-by-canadian-and-german-operations/",
+        "https://hightideinc.com/high-tide-reports-second-quarter-2026-financial-results-featuring-record-revenue-of-179-3mm-and-adjusted-ebitda-of-13-9mm/",
+        "https://www.marketbeat.com/stocks/NASDAQ/HITI/short-interest/"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "KMTS",
+      "company": "Kestra Medical Technologies, Ltd.",
+      "timing": "2026-09-14 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 33.7,
+      "reversal_risk": 48,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "ASSURE-driven revenue; gross margin",
+      "key_risk_to_call": "Wider losses; unchanged/soft FY2027 guide",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Up (38/29/34)",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Fast ASSURE adoption and gross-margin expansion support a modest upside edge, but a higher loss estimate and recent share-price strength make guidance quality decisive.",
+      "market_expectation_summary": "Consensus is about $29.0M-$29.6M revenue and a $0.61-$0.63 loss per share; three-month revenue estimates rose about 3.5%.",
+      "upside_case_summary": "Prescription growth sustains another revenue beat, gross margin stays above 50%, and $137M FY2027 revenue guidance is reaffirmed or raised.",
+      "downside_case_summary": "Sales-force spending widens losses, prescription growth slows, or management leaves the annual guide unchanged after a strong prior quarter.",
+      "options_or_positioning_summary": "No reliable liquid event-implied move was located; the stock traded around $23.57, up about 3% intraday, raising some sell-the-news exposure.",
+      "analyst_revision_summary": "Revenue expectations moved higher while near-term EPS estimates softened; recent BTIG and JPMorgan actions were constructive.",
+      "key_sources": [
+        "https://investors.kestramedical.com/news-events/news-releases",
+        "https://investors.kestramedical.com/news-releases/news-release-details/kestra-medical-technologies-reports-fourth-quarter-and-fiscal-0",
+        "https://www.chartmill.com/stock/quote/KMTS/analyst-ratings",
+        "https://www.benzinga.com/quote/KMTS/price-targets"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "PLAY",
+      "company": "Dave & Buster's Entertainment, Inc.",
+      "timing": "2026-09-14 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -38.7,
+      "reversal_risk": 71,
+      "disparity": 4,
+      "confidence": "Low",
+      "expected_driver": "Comparable-store sales",
+      "key_risk_to_call": "Very low bar; turnaround relief squeeze",
+      "evidence_quality": "High",
+      "pass_agreement": "A/B/C all Lean Down (-43/-34/-39)",
+      "method_update_note": "None",
+      "one_sentence_thesis": "The burden is on comparable sales to improve materially from the Q1 decline and early-Q2 weakness, while a CEO transition and downward estimates keep the base case tilted lower.",
+      "market_expectation_summary": "About $557M-$561M revenue and $0.18-$0.19 adjusted EPS; the 30-day EPS consensus was flat after a substantial earlier reset.",
+      "upside_case_summary": "Comps inflect toward positive, remodels and promotions show durable traffic gains, and the company holds its $100M-plus free-cash-flow target.",
+      "downside_case_summary": "Comps remain negative, EBITDA quality deteriorates, or new leadership gives weak visibility despite an acceptable reported quarter.",
+      "options_or_positioning_summary": "Options imply roughly +/-18.2%, above the cited 10-year average near 13.3%; the roughly $8 stock already embeds distress and can squeeze on modest relief.",
+      "analyst_revision_summary": "Q2 EPS expectations fell materially from roughly $0.33 ninety days earlier; consensus ratings are mostly Hold.",
+      "key_sources": [
+        "https://ir.daveandbusters.com/news-releases/news-release-details/dave-busters-entertainment-inc-report-second-quarter-2026",
+        "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000025/play-2026q1er8kxexx991.htm",
+        "https://ir.daveandbusters.com/node/17981",
+        "https://www.zacks.com/stock/news/2986888/countdown-to-dave-busters-play-q2-earnings-wall-street-forecasts-for-key-metrics",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-09-14"
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "RLGT",
+      "company": "Radiant Logistics, Inc.",
+      "timing": "2026-09-14 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 49,
+      "disparity": 3,
+      "confidence": "Low",
+      "expected_driver": "Adjusted gross profit / EBITDA margin",
+      "key_risk_to_call": "Acquisition lift; freight-rate relief",
+      "evidence_quality": "Medium",
+      "pass_agreement": "Two Lean Down, one Neutral (-31/-23/-27)",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Flat revenue and a 240-basis-point Q3 EBITDA-margin decline create a mild downside bias, but acquisitions, low leverage and volatile freight conditions weaken the edge.",
+      "market_expectation_summary": "Sparse estimates center near $231M-$236M revenue and $0.06-$0.09 EPS; coverage breadth is limited.",
+      "upside_case_summary": "Adjusted gross profit rebounds, recent acquisitions contribute cleanly, buybacks continue, and freight disruption supports pricing.",
+      "downside_case_summary": "Margin remains depressed, integration costs rise, or shipment volumes soften despite firmer selected lane rates.",
+      "options_or_positioning_summary": "One source indicated about +/-9.5% implied, close to its cited historical move; volume and analyst coverage are comparatively thin.",
+      "analyst_revision_summary": "Four analysts split between Buy and Hold in one current compilation; current-quarter revision breadth is not robust.",
+      "key_sources": [
+        "https://radiantdelivers.com/news",
+        "https://www.sec.gov/Archives/edgar/data/1171155/000119312526216896/rlgt-ex99_1.htm",
+        "https://www.flexport.com/global-logistics-update/septemeber-10-2026-glu-newsletter/",
+        "https://www.marketbeat.com/earnings/reports/2026-9-14-radiant-logistics-inc-stock/"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified": [
+      {
+        "ticker": "FPS",
+        "direction": "Lean Up",
+        "allocation_percent": 55,
+        "reason": "Score above 30, reversal risk at 39, high evidence quality and very low disparity."
+      },
+      {
+        "ticker": "HITI",
+        "direction": "Lean Up",
+        "allocation_percent": 45,
+        "reason": "Score above 30, reversal risk at 37, high evidence quality and very low disparity."
+      }
+    ],
+    "excluded": [
+      {
+        "ticker": "KMTS",
+        "reason": "Reversal risk 48 exceeds the 40 ceiling."
+      },
+      {
+        "ticker": "PLAY",
+        "reason": "Reversal risk 71 despite a score magnitude above 30."
+      },
+      {
+        "ticker": "RLGT",
+        "reason": "Score magnitude 27 is below the threshold and confidence is low."
+      }
+    ],
+    "unallocated_percent": 0,
+    "total_percent": 100,
+    "advisory_status": "Research prioritization model only; not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "FPS",
+      "consensus_summary": "Pass A / B / C: A/B/C all Lean Up (55/47/52).",
+      "averaged_direction_score": 51.3,
+      "averaged_reversal_risk": 39,
+      "disparity_metric": 3,
+      "pass_agreement": "A/B/C all Lean Up (55/47/52)",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Record bookings, a 2.3x book-to-bill and $1.98B backlog favor upside if order conversion and the fiscal 2027 outlook clear a now-de-risked bar.",
+      "market_expectation": "Roughly $434.2M revenue and $0.24 EPS; options imply about +/-15.7%, versus a limited two-event realized average near 7.2%.",
+      "what_could_make_stock_go_up": "Bookings stay elevated, Q4 lands near or above prior guidance, margins expand, and FY2027 demand visibility remains strong.",
+      "what_could_make_stock_go_down": "Book-to-bill normalizes, capacity absorption or working capital disappoints, or secondary-share supply caps enthusiasm.",
+      "reversal_risk_assessment": "Order normalization; margin/secondary supply",
+      "social_or_consumer_sentiment": "Sparse or not decision-useful.",
+      "options_or_positioning": "Event pricing is unusually wide; the stock was down about 8% intraday and roughly 46% over three months, reducing but not eliminating execution risk.",
+      "analyst_and_estimate_revisions": "Management raised FY2026 guidance last quarter; sell-side consensus remains broadly bullish, but reliable fresh revision breadth is limited.",
+      "base_case": "Record bookings, a 2.3x book-to-bill and $1.98B backlog favor upside if order conversion and the fiscal 2027 outlook clear a now-de-risked bar.",
+      "bull_case": "Bookings stay elevated, Q4 lands near or above prior guidance, margins expand, and FY2027 demand visibility remains strong.",
+      "bear_case": "Book-to-bill normalizes, capacity absorption or working capital disappoints, or secondary-share supply caps enthusiasm.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": "Qualified for the research basket because score, risk, confidence, evidence and disparity passed the rules.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still govern confidence.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://ir.forgentpower.com/news-events/press-releases/detail/106/forgent-power-solutions-inc-to-report-fiscal-fourth-quarter-and-full-year-2026-results",
+        "https://ir.forgentpower.com/news-events/press-releases/detail/98/forgent-reports-third-quarter-2026-results-raises-fiscal-2026-guidance-on-record-orders-backlog-and-sequential-margin-expansion",
+        "https://www.battleticker.com/t/FPS",
+        "https://ir.forgentpower.com/news-events/press-releases"
+      ]
+    },
+    {
+      "ticker": "HITI",
+      "consensus_summary": "Pass A / B / C: A/B/C all Lean Up (48/41/45).",
+      "averaged_direction_score": 44.7,
+      "averaged_reversal_risk": 37,
+      "disparity_metric": 3,
+      "pass_agreement": "A/B/C all Lean Up (48/41/45)",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Preannounced record revenue, gross profit and adjusted EBITDA above the prior analyst range support upside, provided free cash flow and German margins validate the headline growth.",
+      "market_expectation": "Company guidance is C$195M-C$200M revenue, C$51M-C$53.5M gross profit and C$15.2M-C$16.5M adjusted EBITDA, all above the FactSet range cited at preannouncement.",
+      "what_could_make_stock_go_up": "Results reach the upper half of guidance, Remexian margins improve, Canadian same-store sales stabilize, and cash conversion is positive.",
+      "what_could_make_stock_go_down": "The preannouncement leaves little surprise, adjusted results outpace cash flow, or German distribution margins weaken.",
+      "reversal_risk_assessment": "Preannouncement priced in; weak cash conversion",
+      "social_or_consumer_sentiment": "Retail discussion is bullish but concentrated and promotional; treated as supporting evidence only.",
+      "options_or_positioning": "No dependable liquid event-implied move was located; short interest was reported below 1% of float, limiting squeeze leverage.",
+      "analyst_and_estimate_revisions": "Published Q3 consensus around C$191.7M revenue and C$0.01 EPS trailed the later company revenue range; analyst coverage remains thin.",
+      "base_case": "Preannounced record revenue, gross profit and adjusted EBITDA above the prior analyst range support upside, provided free cash flow and German margins validate the headline growth.",
+      "bull_case": "Results reach the upper half of guidance, Remexian margins improve, Canadian same-store sales stabilize, and cash conversion is positive.",
+      "bear_case": "The preannouncement leaves little surprise, adjusted results outpace cash flow, or German distribution margins weaken.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": "Qualified for the research basket because score, risk, confidence, evidence and disparity passed the rules.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still govern confidence.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://hightideinc.com/high-tide-to-announce-third-fiscal-quarter-2026-financial-results/",
+        "https://hightideinc.com/high-tide-projects-record-growth-for-q3-2026-led-by-canadian-and-german-operations/",
+        "https://hightideinc.com/high-tide-reports-second-quarter-2026-financial-results-featuring-record-revenue-of-179-3mm-and-adjusted-ebitda-of-13-9mm/",
+        "https://www.marketbeat.com/stocks/NASDAQ/HITI/short-interest/"
+      ]
+    },
+    {
+      "ticker": "KMTS",
+      "consensus_summary": "Pass A / B / C: A/B/C all Lean Up (38/29/34).",
+      "averaged_direction_score": 33.7,
+      "averaged_reversal_risk": 48,
+      "disparity_metric": 4,
+      "pass_agreement": "A/B/C all Lean Up (38/29/34)",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "Fast ASSURE adoption and gross-margin expansion support a modest upside edge, but a higher loss estimate and recent share-price strength make guidance quality decisive.",
+      "market_expectation": "Consensus is about $29.0M-$29.6M revenue and a $0.61-$0.63 loss per share; three-month revenue estimates rose about 3.5%.",
+      "what_could_make_stock_go_up": "Prescription growth sustains another revenue beat, gross margin stays above 50%, and $137M FY2027 revenue guidance is reaffirmed or raised.",
+      "what_could_make_stock_go_down": "Sales-force spending widens losses, prescription growth slows, or management leaves the annual guide unchanged after a strong prior quarter.",
+      "reversal_risk_assessment": "Wider losses; unchanged/soft FY2027 guide",
+      "social_or_consumer_sentiment": "Sparse or not decision-useful.",
+      "options_or_positioning": "No reliable liquid event-implied move was located; the stock traded around $23.57, up about 3% intraday, raising some sell-the-news exposure.",
+      "analyst_and_estimate_revisions": "Revenue expectations moved higher while near-term EPS estimates softened; recent BTIG and JPMorgan actions were constructive.",
+      "base_case": "Fast ASSURE adoption and gross-margin expansion support a modest upside edge, but a higher loss estimate and recent share-price strength make guidance quality decisive.",
+      "bull_case": "Prescription growth sustains another revenue beat, gross margin stays above 50%, and $137M FY2027 revenue guidance is reaffirmed or raised.",
+      "bear_case": "Sales-force spending widens losses, prescription growth slows, or management leaves the annual guide unchanged after a strong prior quarter.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": "Not prioritized under the stated allocation rules.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still govern confidence.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://investors.kestramedical.com/news-events/news-releases",
+        "https://investors.kestramedical.com/news-releases/news-release-details/kestra-medical-technologies-reports-fourth-quarter-and-fiscal-0",
+        "https://www.chartmill.com/stock/quote/KMTS/analyst-ratings",
+        "https://www.benzinga.com/quote/KMTS/price-targets"
+      ]
+    },
+    {
+      "ticker": "PLAY",
+      "consensus_summary": "Pass A / B / C: A/B/C all Lean Down (-43/-34/-39).",
+      "averaged_direction_score": -38.7,
+      "averaged_reversal_risk": 71,
+      "disparity_metric": 4,
+      "pass_agreement": "A/B/C all Lean Down (-43/-34/-39)",
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "one_sentence_thesis": "The burden is on comparable sales to improve materially from the Q1 decline and early-Q2 weakness, while a CEO transition and downward estimates keep the base case tilted lower.",
+      "market_expectation": "About $557M-$561M revenue and $0.18-$0.19 adjusted EPS; the 30-day EPS consensus was flat after a substantial earlier reset.",
+      "what_could_make_stock_go_up": "Comps inflect toward positive, remodels and promotions show durable traffic gains, and the company holds its $100M-plus free-cash-flow target.",
+      "what_could_make_stock_go_down": "Comps remain negative, EBITDA quality deteriorates, or new leadership gives weak visibility despite an acceptable reported quarter.",
+      "reversal_risk_assessment": "Very low bar; turnaround relief squeeze",
+      "social_or_consumer_sentiment": "Customer and investor commentary is mixed and anecdotal; not a primary signal.",
+      "options_or_positioning": "Options imply roughly +/-18.2%, above the cited 10-year average near 13.3%; the roughly $8 stock already embeds distress and can squeeze on modest relief.",
+      "analyst_and_estimate_revisions": "Q2 EPS expectations fell materially from roughly $0.33 ninety days earlier; consensus ratings are mostly Hold.",
+      "base_case": "The burden is on comparable sales to improve materially from the Q1 decline and early-Q2 weakness, while a CEO transition and downward estimates keep the base case tilted lower.",
+      "bull_case": "Comps inflect toward positive, remodels and promotions show durable traffic gains, and the company holds its $100M-plus free-cash-flow target.",
+      "bear_case": "Comps remain negative, EBITDA quality deteriorates, or new leadership gives weak visibility despite an acceptable reported quarter.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": "Not prioritized under the stated allocation rules.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still govern confidence.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://ir.daveandbusters.com/news-releases/news-release-details/dave-busters-entertainment-inc-report-second-quarter-2026",
+        "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000025/play-2026q1er8kxexx991.htm",
+        "https://ir.daveandbusters.com/node/17981",
+        "https://www.zacks.com/stock/news/2986888/countdown-to-dave-busters-play-q2-earnings-wall-street-forecasts-for-key-metrics",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-09-14"
+      ]
+    },
+    {
+      "ticker": "RLGT",
+      "consensus_summary": "Pass A / B / C: Two Lean Down, one Neutral (-31/-23/-27).",
+      "averaged_direction_score": -27,
+      "averaged_reversal_risk": 49,
+      "disparity_metric": 3,
+      "pass_agreement": "Two Lean Down, one Neutral (-31/-23/-27)",
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "one_sentence_thesis": "Flat revenue and a 240-basis-point Q3 EBITDA-margin decline create a mild downside bias, but acquisitions, low leverage and volatile freight conditions weaken the edge.",
+      "market_expectation": "Sparse estimates center near $231M-$236M revenue and $0.06-$0.09 EPS; coverage breadth is limited.",
+      "what_could_make_stock_go_up": "Adjusted gross profit rebounds, recent acquisitions contribute cleanly, buybacks continue, and freight disruption supports pricing.",
+      "what_could_make_stock_go_down": "Margin remains depressed, integration costs rise, or shipment volumes soften despite firmer selected lane rates.",
+      "reversal_risk_assessment": "Acquisition lift; freight-rate relief",
+      "social_or_consumer_sentiment": "Sparse or not decision-useful.",
+      "options_or_positioning": "One source indicated about +/-9.5% implied, close to its cited historical move; volume and analyst coverage are comparatively thin.",
+      "analyst_and_estimate_revisions": "Four analysts split between Buy and Hold in one current compilation; current-quarter revision breadth is not robust.",
+      "base_case": "Flat revenue and a 240-basis-point Q3 EBITDA-margin decline create a mild downside bias, but acquisitions, low leverage and volatile freight conditions weaken the edge.",
+      "bull_case": "Adjusted gross profit rebounds, recent acquisitions contribute cleanly, buybacks continue, and freight disruption supports pricing.",
+      "bear_case": "Margin remains depressed, integration costs rise, or shipment volumes soften despite firmer selected lane rates.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": "Not prioritized under the stated allocation rules.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still govern confidence.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://radiantdelivers.com/news",
+        "https://www.sec.gov/Archives/edgar/data/1171155/000119312526216896/rlgt-ex99_1.htm",
+        "https://www.flexport.com/global-logistics-update/septemeber-10-2026-glu-newsletter/",
+        "https://www.marketbeat.com/earnings/reports/2026-9-14-radiant-logistics-inc-stock/"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
