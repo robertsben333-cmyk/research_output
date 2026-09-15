@@ -1,0 +1,230 @@
+{
+  "generation_timestamp": "2026-09-15T17:07:00Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Tuesday, September 15, 2026 U.S. market close and before the Wednesday, September 16, 2026 U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. stocks were lower as the 10-year Treasury yield approached 5% and oil rose. The Federal Reserve's September 15-16 meeting concludes Wednesday afternoon, with a rate increase widely expected; August advance retail sales are due Wednesday at 8:30 a.m. ET.",
+  "companies_reviewed_count": 10,
+  "qualified_universe_count": 3,
+  "top_setups": {
+    "upward": [
+      "LUXE"
+    ],
+    "downward": [
+      "TCOM"
+    ],
+    "neutral_or_mixed": [
+      "EPM"
+    ],
+    "note": "The strict window produced fewer than three qualified names on either side."
+  },
+  "methodology": {
+    "passes": 3,
+    "universe_locked": true,
+    "qualified_universe": [
+      "LUXE",
+      "TCOM",
+      "EPM"
+    ],
+    "disparity_definition": "0-100 composite dispersion of the three passes' direction-score and reversal-risk estimates; lower means tighter agreement.",
+    "learned_lessons_review": "Existing timing-confirmation, key-metric, expectation-bar, forward-look, small-company hidden-risk, and separate reversal-risk controls applied. No new method change."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "LUXE",
+      "company": "LuxExperience B.V.",
+      "timing": "Before market open Wednesday, September 16, 2026",
+      "direction_call": "Lean Up",
+      "direction_score": 33,
+      "reversal_risk": 40,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Group adjusted EBITDA margin; Mytheresa GMV growth",
+      "key_risk_to_call": "Integration cash burn; weak legacy-brand demand",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up; tight agreement",
+      "method_update_note": "Existing expectation-bar and forward-look checks applied",
+      "one_sentence_thesis": "Two profitable quarters, falling SG&A intensity, and double-digit Mytheresa growth favor a modest upside reaction if integration execution holds.",
+      "market_expectation_summary": "Published estimates point to a quarterly loss and roughly $727M-$734M revenue; management had confirmed FY2026 guidance and medium-term targets.",
+      "upside_case_summary": "Mytheresa growth stays near double digits, group adjusted EBITDA remains positive, and transformation milestones improve.",
+      "downside_case_summary": "Legacy brands weaken, active customers keep falling, or integration cash use clouds the medium-term margin bridge.",
+      "options_or_positioning_summary": "Options sources indicated roughly 15%-24% event pricing, a wide and source-sensitive range; shares traded near $7.14, down about 4% intraday.",
+      "analyst_revision_summary": "Coverage is limited and broadly positive; estimate histories show repeated EPS misses, raising execution risk.",
+      "key_sources": [
+        "https://investors.luxexperience.com/news/news-details/2026/LuxExperience-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Earnings-Release-and-Conference-Call-Participating-in-Upcoming-Investor-Conference/default.aspx",
+        "https://investors.luxexperience.com/news/news-details/2026/Q3-FY26-Results-LuxExperience-Group-Reports-Positive-Adjusted-EBITDA-Profitability-for-the-Second-Consecutive-Quarter-Confirming-Full-Fiscal-Year-2026-Guidance-as-Transformation-Plan-Is-Fully-on-Track/default.aspx",
+        "https://www.tipranks.com/stocks/luxe/earnings",
+        "https://www.benzinga.com/quote/LUXE/earnings-forecasts"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "TCOM",
+      "company": "Trip.com Group Limited",
+      "timing": "After market close Tuesday, September 15, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -34,
+      "reversal_risk": 56,
+      "disparity": 9,
+      "confidence": "Medium",
+      "expected_driver": "Q2 revenue growth; post-penalty hotel economics",
+      "key_risk_to_call": "International bookings beat; low-bar relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down; moderate strength variation",
+      "method_update_note": "Existing expectation-bar and forward-look checks applied",
+      "one_sentence_thesis": "Strong international demand is outweighed by the 3%-8% Q2 revenue-growth guide and uncertainty over margin and domestic monetization after antitrust remediation.",
+      "market_expectation_summary": "Public estimates cluster near RMB15.6B revenue and RMB6.1 adjusted EPS; management guided Q2 revenue growth to 3%-8% with pressure on margins and bottom-line results.",
+      "upside_case_summary": "International and inbound bookings sustain exceptional growth, domestic demand holds, and remediation effects prove already discounted.",
+      "downside_case_summary": "Revenue lands near the low end, margins compress, or management signals lasting limits on hotel take rates and traffic allocation.",
+      "options_or_positioning_summary": "Options implied about a 6.5% move versus a roughly 9.7% two-year average; the prior report produced a 12.5% decline. Shares had lost about 12% over the prior month.",
+      "analyst_revision_summary": "Thirty-day estimate breadth was negative at 3 upward versus 9 downward revisions, while published analyst price targets remained above the share price.",
+      "key_sources": [
+        "https://investors.trip.com/news-releases/news-release-details/tripcom-group-limited-report-second-quarter-and-first-half-2026/",
+        "https://investors.trip.com/news-releases/news-release-details/tripcom-group-limited-reports-unaudited-first-quarter-2026",
+        "https://www.sec.gov/Archives/edgar/data/1269238/000119312526316761/d256213d6k.htm",
+        "https://earnings-watcher.com/wiki/tcom-implied-move",
+        "https://stockdecider.com/stocks/TCOM?fund=quarterly"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "EPM",
+      "company": "Evolution Petroleum Corporation",
+      "timing": "After market close Tuesday, September 15, 2026",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -23,
+      "reversal_risk": 63,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "Production/adjusted EBITDA recovery; dividend coverage",
+      "key_risk_to_call": "Low bar and restored volumes can spark relief",
+      "evidence_quality": "Medium",
+      "pass_agreement": "2 Neutral, 1 Lean Down; modest disagreement",
+      "method_update_note": "Existing key-metric and smaller-name hidden-risk checks applied",
+      "one_sentence_thesis": "Restored production and a maintained dividend help, but weak prior adjusted EBITDA, commodity differentials, dilution, and acquisition financing leave no clean directional edge.",
+      "market_expectation_summary": "Public estimates are about $0.01-$0.02 EPS and $22.5M-$23.2M revenue; management's preliminary FY2026 revenue range of $84M-$88M implies Q4 near that revenue bar.",
+      "upside_case_summary": "Resolved downtime and new royalty wells lift production, adjusted EBITDA, and dividend coverage above a low bar.",
+      "downside_case_summary": "Realized pricing, differentials, hedge losses, dilution, or debt-funded expansion keep cash returns under pressure.",
+      "options_or_positioning_summary": "Options sources priced roughly a 30%-38% move, signaling extreme path risk in a roughly $130M market-cap stock.",
+      "analyst_revision_summary": "Coverage is thin and estimates vary between $0.01 and $0.02, limiting confidence in the published bar.",
+      "key_sources": [
+        "https://ir.evolutionpetroleum.com/news-releases/news-release-details/evolution-petroleum-schedules-fiscal-q4-and-full-year-2026",
+        "https://ir.evolutionpetroleum.com/news-releases/news-release-details/evolution-petroleum-reports-fiscal-third-quarter-2026-results",
+        "https://ir.evolutionpetroleum.com/news-releases/news-release-details/evolution-petroleum-declares-012-share-cash-dividend-fiscal-q1",
+        "https://ir.evolutionpetroleum.com/news-releases/news-release-details/evolution-petroleum-closes-strategic-acquisition-midland-basin",
+        "https://www.optionslam.com/earnings/straddle/EPM"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "LUXE",
+        "direction": "Lean Up",
+        "share_percent": 100,
+        "why": "Score 33, reversal risk at the 40 cutoff, Medium confidence, High evidence quality, and low disparity."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "TCOM",
+        "reason": "Reversal risk 56 exceeds the 40 cutoff."
+      },
+      {
+        "ticker": "EPM",
+        "reason": "Absolute score 23 fails the greater-than-30 threshold; reversal risk is 63 and confidence is Low."
+      }
+    ],
+    "unallocated_percent": 0,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "LUXE",
+      "consensus_summary": "Passes A/B/C independently scored direction +36/+29/+34 and reversal risk 38/42/40.",
+      "averaged_direction_score": 33,
+      "averaged_reversal_risk": 40,
+      "disparity_metric": 6,
+      "pass_agreement_pattern": "3/3 Lean Up",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Positive group adjusted EBITDA and Mytheresa growth can validate the integration thesis.",
+      "expectation_summary": "Quarterly loss expected; revenue roughly $727M-$734M; FY2026 guidance and medium-term targets previously confirmed.",
+      "upside_case": "Mytheresa GMV and group margin clear the bar.",
+      "downside_case": "Legacy-brand weakness, declining active customers, and integration cash use dominate.",
+      "reversal_risk_assessment": "Moderate. A merely in-line print could be sold if fiscal 2027 commentary lacks margin and cash visibility.",
+      "sentiment_read": "Public investor/social discussion is sparse; no robust 7/14/30-day trend was found.",
+      "positioning_read": "Event pricing is wide and source-sensitive; limited liquidity can magnify gaps.",
+      "analyst_revision_read": "Limited but broadly positive coverage; repeated EPS misses temper confidence.",
+      "base_case": "Modest upside on guidance confirmation.",
+      "bull_case": "Positive EBITDA plus better cash visibility drives a rerating.",
+      "bear_case": "Migration costs and weak legacy demand trigger a sharp reversal.",
+      "final_directional_judgment": "Lean Up.",
+      "allocation_priority_note": "Qualified as the sole name meeting every allocation rule.",
+      "disparity_impact_note": "Low disparity improved conviction and allocation priority.",
+      "method_update_note": "Existing expectation-bar and forward-look checks applied",
+      "key_sources": [
+        "https://investors.luxexperience.com/news/news-details/2026/Q3-FY26-Results-LuxExperience-Group-Reports-Positive-Adjusted-EBITDA-Profitability-for-the-Second-Consecutive-Quarter-Confirming-Full-Fiscal-Year-2026-Guidance-as-Transformation-Plan-Is-Fully-on-Track/default.aspx"
+      ]
+    },
+    {
+      "ticker": "TCOM",
+      "consensus_summary": "Passes A/B/C independently scored direction -29/-36/-38 and reversal risk 53/59/56.",
+      "averaged_direction_score": -34,
+      "averaged_reversal_risk": 56,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "3/3 Lean Down",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "Slower guided growth and regulatory remediation outweigh strong international momentum.",
+      "expectation_summary": "RMB15.6B revenue and about RMB6.1 adjusted EPS; company guides 3%-8% Q2 revenue growth.",
+      "upside_case": "International/inbound strength clears the lowered bar.",
+      "downside_case": "Domestic economics and margin outlook reset lower.",
+      "reversal_risk_assessment": "Moderate. The stock has de-risked, estimates have fallen, and strong international growth can fuel relief.",
+      "sentiment_read": "Customer discussion remains broadly functional while investor/regulatory discussion is negative and noisy; social evidence is supporting only.",
+      "positioning_read": "6.5% implied move is below the recent realized earnings regime; the last report fell 12.5%.",
+      "analyst_revision_read": "3 upward versus 9 downward revisions over 30 days.",
+      "base_case": "Guide-aligned result with softer margin commentary sends shares modestly lower.",
+      "bull_case": "International bookings and margin resilience beat.",
+      "bear_case": "Remediation creates a lasting take-rate and margin reset.",
+      "final_directional_judgment": "Lean Down.",
+      "allocation_priority_note": "Excluded because reversal risk exceeds 40.",
+      "disparity_impact_note": "Low-to-moderate disparity supports the direction but not allocation.",
+      "method_update_note": "Existing expectation-bar and forward-look checks applied",
+      "key_sources": [
+        "https://investors.trip.com/news-releases/news-release-details/tripcom-group-limited-reports-unaudited-first-quarter-2026",
+        "https://www.sec.gov/Archives/edgar/data/1269238/000119312526316761/d256213d6k.htm"
+      ]
+    },
+    {
+      "ticker": "EPM",
+      "consensus_summary": "Passes A/B/C independently scored direction -18/-30/-21 and reversal risk 65/59/64.",
+      "averaged_direction_score": -23,
+      "averaged_reversal_risk": 63,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "2 Neutral, 1 Lean Down",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "thesis": "Production recovery conflicts with weak cash earnings and financing/dilution risk.",
+      "expectation_summary": "$0.01-$0.02 EPS and $22.5M-$23.2M revenue; preliminary annual revenue brackets the quarterly revenue bar.",
+      "upside_case": "Restored output and royalty wells beat a low bar.",
+      "downside_case": "Pricing, hedges, dilution, and dividend coverage disappoint.",
+      "reversal_risk_assessment": "High because the low bar, maintained dividend, and restored volumes can reverse a bearish setup sharply.",
+      "sentiment_read": "Social discussion is too sparse for a reliable 7/14/30-day trend.",
+      "positioning_read": "Roughly 30%-38% options pricing and small-cap liquidity imply unusually high path risk.",
+      "analyst_revision_read": "Coverage is thin and the estimate range is wide relative to the small EPS base.",
+      "base_case": "Mixed report and volatile, limited net move.",
+      "bull_case": "Production and cash flow recover decisively.",
+      "bear_case": "Adjusted EBITDA remains weak and financing concerns grow.",
+      "final_directional_judgment": "Neutral / No Edge.",
+      "allocation_priority_note": "Excluded on score, reversal risk, and confidence.",
+      "disparity_impact_note": "Call-category disagreement reinforced Neutral.",
+      "method_update_note": "Existing key-metric and smaller-name hidden-risk checks applied",
+      "key_sources": [
+        "https://ir.evolutionpetroleum.com/news-releases/news-release-details/evolution-petroleum-reports-fiscal-third-quarter-2026-results",
+        "https://ir.evolutionpetroleum.com/news-releases/news-release-details/evolution-petroleum-closes-strategic-acquisition-midland-basin"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
