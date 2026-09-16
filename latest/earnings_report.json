@@ -1,9 +1,9 @@
 {
-  "generation_timestamp": "2026-09-16T17:07:01Z",
+  "generation_timestamp": "2026-09-16T17:10:14Z",
   "covered_report_window": "U.S.-listed companies reporting after the Wednesday, September 16, 2026 U.S. market close and before the Thursday, September 17, 2026 U.S. market open",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "The Federal Reserve decision and press conference are scheduled for 2:00 p.m. and 2:30 p.m. ET immediately before Lennar reports. Markets expect a rate hike; the 10-year Treasury yield was near 5% and mortgage rates were near a 14-month high, making the event unusually rate-sensitive.",
-  "companies_reviewed_count": 1,
+  "market_context_summary": "The Federal Reserve decision and press conference fall immediately before Lennar reports. Ahead of the decision, the S&P 500 was up about 0.4%, the Nasdaq about 0.7%, the 10-year Treasury yield was near 4.96%, and the latest Freddie Mac 30-year mortgage average was 6.76%, making this homebuilder event unusually rate-sensitive.",
+  "companies_reviewed_count": 10,
   "universe_screen": {
     "calendar_entries_screened_count": 7,
     "qualified_tickers": [
@@ -50,30 +50,30 @@
       "company": "Lennar Corporation",
       "timing": "After market close Wednesday, September 16, 2026; company-confirmed",
       "direction_call": "Lean Down",
-      "direction_score": -32,
-      "reversal_risk": 63,
-      "disparity": 8,
+      "direction_score": -38,
+      "reversal_risk": 64,
+      "disparity": 4,
       "confidence": "Medium",
-      "expected_driver": "Home-sales gross margin vs. ~16%; new orders vs. 21,000-22,000",
-      "key_risk_to_call": "Low valuation, rising short interest, Fed-driven rate relief",
-      "evidence_quality": "Medium-High",
-      "pass_agreement": "2 Lean Down, 1 Neutral / No Edge; low numerical disparity",
-      "method_update_note": "Existing low-bar reversal-risk floor applied; no new method change",
-      "one_sentence_thesis": "Margin and order risk tilt the immediate reaction lower, but a low valuation, elevated short interest, and the same-day Fed decision make a relief rally materially plausible.",
-      "market_expectation_summary": "Consensus is roughly $1.29-$1.32 EPS and $8.3-$8.4 billion revenue; management guided to 20,500-21,500 deliveries, 21,000-22,000 new orders, a $375,000-$380,000 average selling price, and approximately 16% home-sales gross margin.",
-      "upside_case_summary": "Gross margin meets or beats 16%, orders reach the upper half, and Q4 commentary shows easing incentives or costs.",
-      "downside_case_summary": "Orders miss, margin recovery stalls, or the Q4 outlook reflects worsening affordability.",
-      "options_or_positioning_summary": "Options implied roughly 6.3%-7.3%, above a reported 4.4% historical average realized earnings move; short interest was about 8.4% of float and 7.4 days to cover.",
-      "analyst_revision_summary": "The final-week EPS consensus moved down to $1.29 from $1.31; UBS expected an in-line print but flagged order risk, while Bank of America maintained Underperform and cut its price target.",
+      "expected_driver": "New orders, incentives, and home-sales gross margin; Q4 outlook",
+      "key_risk_to_call": "De-risked valuation plus 8.4% short float can fuel relief",
+      "evidence_quality": "High",
+      "pass_agreement": "All 3 passes Lean Down; low dispersion",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Weak order demand, high incentives, and a worsening rate backdrop make Lennar's margin-recovery target vulnerable, but a deeply de-risked stock creates high relief-rally risk.",
+      "market_expectation_summary": "Street expectations are about $1.29-$1.30 EPS and $8.33-$8.4 billion revenue. Management guided to 21,000-22,000 orders, 20,500-21,500 deliveries, $375,000-$380,000 average selling price, and about 16% home-sales gross margin.",
+      "upside_case_summary": "Orders reach the upper end, margin clears 16%, incentives moderate, and Q4 guidance validates sequential recovery.",
+      "downside_case_summary": "Orders miss, incentives remain elevated, or Q4 margin/delivery commentary weakens after the rate shock.",
+      "options_or_positioning_summary": "Options imply about 6.3%, above the roughly 4.4% historical average realized move; short interest was 8.4% of float with 7.4 days to cover.",
+      "analyst_revision_summary": "Final-week EPS consensus fell to $1.29 from $1.31; UBS expected an in-line print but potentially weak orders, while BofA maintained Underperform and cut its target to $70.",
       "key_sources": [
-        "https://newsroom.lennar.com/2026-09-02-Lennar-Corporation-to-Broadcast-Its-Third-Quarter-2026-Earnings-Call-on-September-17%2C-2026",
+        "https://investors.lennar.com/press-releases/2026/09-02-2026-213038897",
         "https://investors.lennar.com/press-releases/2026/06-11-2026-214520364",
-        "https://www.sec.gov/Archives/edgar/data/920760/000162828026046019/len-20260531.htm",
         "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
         "https://www.zacks.com/stock/news/2989768/heres-what-investors-must-know-ahead-of-lennars-q3-earnings",
-        "https://finance.yahoo.com/quote/LEN/",
+        "https://www.investing.com/news/analyst-ratings/bofa-cuts-lennar-stock-price-target-on-book-value-concerns-93CH-4899125",
         "https://www.marketbeat.com/stocks/NYSE/LEN/short-interest/",
-        "https://www.battleticker.com/t/LEN"
+        "https://www.battleticker.com/t/LEN",
+        "https://www.financecharts.com/stocks/LEN/summary/price"
       ]
     }
   ],
@@ -82,7 +82,7 @@
     "excluded_high_reversal_or_weak_names": [
       {
         "ticker": "LEN",
-        "reason": "Absolute score clears 30, but consensus reversal risk of 63 exceeds the 40 cutoff."
+        "reason": "Absolute score is above 30, but consensus reversal risk of 64 exceeds the 40 cutoff."
       }
     ],
     "allocations": [],
@@ -90,69 +90,101 @@
     "plain_statement": "This is a research prioritization model, not financial advice."
   },
   "consensus_method": {
-    "disparity_definition": "Average of the direction-score range normalized to its 200-point scale and the reversal-risk range normalized to its 100-point scale, expressed from 0 to 100; lower means tighter agreement.",
+    "disparity_definition": "Range-based 0-100 measure: average of the direction-score range normalized from -100/+100 and the reversal-risk range; lower means tighter independent agreement.",
     "strongest_name_disparity": "Low",
-    "learned_lessons_review": "The recurring low-bar reversal-risk rule was applied because valuation, short interest, and macro-event sensitivity create relief-rally risk. No new method change was warranted."
+    "learned_lessons_review": "Existing timing, expectation-bar, decisive-metric, forward-look, and low-bar reversal-risk guardrails were applied. No new method change was warranted."
   },
   "detailed_company_sections": [
     {
       "ticker": "LEN",
-      "consensus_summary": "Passes A and C leaned down on margin, orders, and affordability; Pass B was Neutral because the bar and valuation have reset and a squeeze is plausible.",
-      "averaged_direction_score": -32,
-      "averaged_reversal_risk": 63,
-      "disparity_metric": 8,
-      "pass_outputs": [
-        {
-          "pass": "A",
-          "direction_score": -34,
-          "reversal_risk": 61,
-          "direction_call": "Lean Down",
-          "key_metric": "Home-sales gross margin versus approximately 16%"
-        },
-        {
-          "pass": "B",
-          "direction_score": -24,
-          "reversal_risk": 68,
-          "direction_call": "Neutral / No Edge",
-          "key_metric": "New orders and Q4 order guidance"
-        },
-        {
-          "pass": "C",
-          "direction_score": -38,
-          "reversal_risk": 59,
-          "direction_call": "Lean Down",
-          "key_metric": "Margin recovery quality after incentives and land costs"
-        }
-      ],
-      "pass_agreement_pattern": "Two Lean Down and one Neutral / No Edge; all three identified the same two-sided rate and positioning risk.",
+      "consensus_summary": "All three independent passes leaned down on orders, affordability, and margin fragility. All three also identified the low valuation, price decline, and short positioning as meaningful upside-reversal risk.",
+      "averaged_direction_score": -38,
+      "averaged_reversal_risk": 64,
+      "disparity_metric": 4,
+      "pass_agreement_pattern": "All three passes produced Lean Down calls with low dispersion.",
       "recommendation": "Lean Down",
       "confidence_level": "Medium",
-      "thesis": "The decisive test is whether home-sales gross margin reaches approximately 16% without sacrificing new orders; the Q4 margin and order outlook can override the headline EPS result.",
-      "expectation_summary": "Street EPS is roughly $1.29-$1.32 and revenue roughly $8.3-$8.4 billion. Management previously guided to 20,500-21,500 deliveries, 21,000-22,000 orders, $375,000-$380,000 average selling price, and approximately 16% home-sales gross margin.",
-      "upside_case": "A 16% or better margin, upper-half orders, and credible easing in incentives or costs could trigger a relief rally.",
-      "downside_case": "Sub-guidance orders, a margin miss, or cautious Q4 commentary would reinforce the affordability and earnings-reset narrative.",
-      "reversal_risk_assessment": "High at 63. The stock trades around 0.9x book, estimates have fallen, short interest is elevated, and a dovish rate reaction could overpower a merely soft quarter.",
-      "sentiment_read": "Retail discussion was sparse and concentrated on the 16% margin target, valuation, incentives, and rates. No reliable 7-, 14-, or 30-day social trend was strong enough to affect the score.",
-      "positioning_read": "Options price a roughly 6.3%-7.3% move, above the reported 4.4% historical realized average. Elevated short interest creates squeeze risk on any less-bad outcome.",
-      "analyst_revision_read": "Final-week EPS estimates moved lower. Current preview coverage also flags order risk despite expectations for improved discipline on production and margin.",
-      "base_case": "A near-consensus print with soft orders and cautious forward commentary produces a modest decline inside the implied move.",
-      "bull_case": "Margin reaches or exceeds 16%, orders are resilient, and rate-sensitive relief produces a short-covering rally.",
-      "bear_case": "Orders and forward margins both weaken while the Fed keeps yields restrictive, causing a decline beyond the implied range.",
-      "final_directional_judgment": "Lean Down, but expected magnitude does not clearly exceed the options-implied move.",
-      "allocation_priority_note": "Not included because reversal risk exceeds 40; the research basket remains 100% unallocated.",
-      "disparity_impact_note": "Low disparity supports stability of the consensus, but the three passes clustered near the Lean Down/Neutral boundary rather than at high conviction.",
-      "method_update_note": "Existing low-bar reversal-risk rule applied; no new calibration rule added.",
+      "thesis": "The decisive metric is new orders, with incentives, home-sales gross margin, and the Q4 outlook as forward overrides.",
+      "expectation_summary": "Street EPS is about $1.29-$1.30 on roughly $8.33-$8.4 billion revenue; management's Q3 targets include 21,000-22,000 orders and about 16% home-sales gross margin.",
+      "upside_case": "Orders and margin meet the upper end, incentives improve, and management guides to continued sequential recovery.",
+      "downside_case": "Orders miss and the forward margin bridge weakens as mortgage affordability deteriorates.",
+      "reversal_risk_assessment": "High at 64. LEN is down about 40% over twelve months, trades near 0.9x prior-quarter book value, and has 8.4% short interest, so a less-bad report can squeeze higher.",
+      "sentiment_read": "Recent retail discussion is sparse and split between value support near 0.9x book and concern that incentives are masking weak demand. No reliable 7/14/30-day social trend was strong enough to affect the direction score.",
+      "positioning_read": "The options-implied move is about 6.3%, richer than the roughly 4.4% historical average realized earnings move. Elevated short interest adds two-sided gap risk.",
+      "analyst_revision_read": "The final-week EPS consensus moved lower; UBS expected an in-line result but potentially weak orders, and BofA's below-consensus fiscal 2027-2028 view reinforced concern about returns and book-value quality.",
+      "base_case": "A near-consensus quarter with soft orders and cautious Q4 commentary produces a modest decline inside the implied move.",
+      "bull_case": "A clean 16%+ margin, upper-end orders, and improving incentives trigger a short-covering rally.",
+      "bear_case": "Order weakness and a softer Q4 margin/delivery outlook compound the rate-driven affordability shock and produce a decline beyond the implied range.",
+      "final_directional_judgment": "Lean Down, but the expected magnitude does not clearly exceed the options-implied move.",
+      "allocation_priority_note": "Not prioritized because reversal risk exceeds 40; the hypothetical basket remains 100% unallocated.",
+      "disparity_impact_note": "Low disparity supports the directional consistency, but it does not override the separate high reversal-risk brake.",
+      "method_update_note": "None; existing guardrails only.",
       "key_sources": [
-        "https://newsroom.lennar.com/2026-09-02-Lennar-Corporation-to-Broadcast-Its-Third-Quarter-2026-Earnings-Call-on-September-17%2C-2026",
+        "https://investors.lennar.com/press-releases/2026/09-02-2026-213038897",
         "https://investors.lennar.com/press-releases/2026/06-11-2026-214520364",
-        "https://www.sec.gov/Archives/edgar/data/920760/000162828026046019/len-20260531.htm",
         "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
         "https://www.zacks.com/stock/news/2989768/heres-what-investors-must-know-ahead-of-lennars-q3-earnings",
-        "https://finance.yahoo.com/quote/LEN/",
+        "https://www.investing.com/news/analyst-ratings/bofa-cuts-lennar-stock-price-target-on-book-value-concerns-93CH-4899125",
         "https://www.marketbeat.com/stocks/NYSE/LEN/short-interest/",
-        "https://www.battleticker.com/t/LEN"
+        "https://www.battleticker.com/t/LEN",
+        "https://www.reddit.com/r/ValueInvesting/comments/1vvmkst/lennar_housing_lull_hiding_improved_business_model/"
       ]
     }
   ],
-  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone.",
+  "universe_review_notes": {
+    "calendar_names_reviewed": [
+      "LEN",
+      "ALMU",
+      "SANG",
+      "CCL",
+      "THO",
+      "AIFU",
+      "ESP",
+      "IH",
+      "DAVA",
+      "CDMNF"
+    ],
+    "qualified_tickers": [
+      "LEN"
+    ],
+    "exclusions": [
+      {
+        "ticker": "ALMU",
+        "reason": "Company-confirmed after-close timing, but excluded as a microcap with thin earnings evidence and no robust options setup."
+      },
+      {
+        "ticker": "SANG",
+        "reason": "Small issuer with only third-party timing and insufficient current company-level confirmation."
+      },
+      {
+        "ticker": "CCL",
+        "reason": "Company IR schedules third-quarter results for September 29, overriding third-party September 17 listings."
+      },
+      {
+        "ticker": "THO",
+        "reason": "Company IR confirms September 22 before the open, overriding a stale September 17 listing."
+      },
+      {
+        "ticker": "AIFU",
+        "reason": "Approximately $59 million microcap with no current company-level earnings announcement."
+      },
+      {
+        "ticker": "ESP",
+        "reason": "Approximately $191 million microcap with estimated/TBA timing rather than confirmed pre-market timing."
+      },
+      {
+        "ticker": "IH",
+        "reason": "Thin ADR with conflicting release/call timing and no adequate current company confirmation."
+      },
+      {
+        "ticker": "DAVA",
+        "reason": "Approximately $154 million market capitalization and no current official fiscal-year release announcement."
+      },
+      {
+        "ticker": "CDMNF",
+        "reason": "OTC security; excluded under the standing universe rules."
+      }
+    ]
+  }
 }
