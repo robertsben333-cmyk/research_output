@@ -1,79 +1,73 @@
 {
-  "generation_timestamp": "2026-09-16T17:10:14Z",
-  "covered_report_window": "U.S.-listed companies reporting after the Wednesday, September 16, 2026 U.S. market close and before the Thursday, September 17, 2026 U.S. market open",
+  "generation_timestamp": "2026-09-17T17:20:00Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Thursday, September 17, 2026 U.S. market close and before the Friday, September 18, 2026 U.S. market open",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "The Federal Reserve decision and press conference fall immediately before Lennar reports. Ahead of the decision, the S&P 500 was up about 0.4%, the Nasdaq about 0.7%, the 10-year Treasury yield was near 4.96%, and the latest Freddie Mac 30-year mortgage average was 6.76%, making this homebuilder event unusually rate-sensitive.",
-  "companies_reviewed_count": 10,
+  "market_context_summary": "The Fed raised rates 25 bp to 3.75%-4.00% and signaled another 2026 hike; on Thursday equities rebounded as Brent crude and the 10-year Treasury yield eased, although high rates remain a headwind for speculative and leveraged equities.",
+  "companies_reviewed_count": 6,
   "universe_screen": {
-    "calendar_entries_screened_count": 7,
+    "calendar_entries_screened_count": 6,
     "qualified_tickers": [
-      "LEN"
+      "UPXI"
     ],
     "excluded": [
       {
-        "ticker": "ALMU",
-        "reason": "Officially timed but excluded as a small, pre-scale issuer with limited revenue, liquidity, and event evidence."
+        "ticker": "TRT",
+        "reason": "Only estimated timing; company had not announced the date and providers conflicted."
       },
       {
-        "ticker": "DAVA",
-        "reason": "Calendar timing was estimated and not confirmed by the company."
-      },
-      {
-        "ticker": "AIR",
-        "reason": "Stale calendar entry; company scheduled results for September 29."
-      },
-      {
-        "ticker": "THO",
-        "reason": "Stale calendar entry; current schedule is September 22 before open."
-      },
-      {
-        "ticker": "CCL",
-        "reason": "Outside the confirmed immediate window."
+        "ticker": "CLGN",
+        "reason": "No official earnings announcement for the Friday premarket window."
       },
       {
         "ticker": "VFS",
-        "reason": "No sufficiently reliable company-confirmed timing for this window."
+        "reason": "Third-party calendars conflicted and no company-confirmed timing was found."
+      },
+      {
+        "ticker": "ZONE",
+        "reason": "Insufficient company-confirmed timing and event evidence."
+      },
+      {
+        "ticker": "AWTRF",
+        "reason": "OTC security; excluded under standing universe rules."
       }
     ]
   },
   "top_setups": {
-    "upward": [],
-    "downward": [
-      "LEN"
+    "upward": [
+      "UPXI"
     ],
+    "downward": [],
     "neutral_or_mixed": []
   },
   "ranked_companies": [
     {
       "rank": 1,
-      "ticker": "LEN",
-      "company": "Lennar Corporation",
-      "timing": "After market close Wednesday, September 16, 2026; company-confirmed",
-      "direction_call": "Lean Down",
-      "direction_score": -38,
-      "reversal_risk": 64,
-      "disparity": 4,
-      "confidence": "Medium",
-      "expected_driver": "New orders, incentives, and home-sales gross margin; Q4 outlook",
-      "key_risk_to_call": "De-risked valuation plus 8.4% short float can fuel relief",
-      "evidence_quality": "High",
-      "pass_agreement": "All 3 passes Lean Down; low dispersion",
+      "ticker": "UPXI",
+      "company": "Upexi, Inc.",
+      "timing": "After market close Thursday, September 17, 2026; company-confirmed 5:30 p.m. ET call",
+      "direction_call": "Lean Up",
+      "direction_score": 28,
+      "reversal_risk": 63,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "SOL-per-share/NAV; staking economics and financing",
+      "key_risk_to_call": "SOL sensitivity, leverage, dilution and accounting noise",
+      "evidence_quality": "Medium",
+      "pass_agreement": "2 Lean Up, 1 Neutral; low-moderate disparity",
       "method_update_note": "None",
-      "one_sentence_thesis": "Weak order demand, high incentives, and a worsening rate backdrop make Lennar's margin-recovery target vulnerable, but a deeply de-risked stock creates high relief-rally risk.",
-      "market_expectation_summary": "Street expectations are about $1.29-$1.30 EPS and $8.33-$8.4 billion revenue. Management guided to 21,000-22,000 orders, 20,500-21,500 deliveries, $375,000-$380,000 average selling price, and about 16% home-sales gross margin.",
-      "upside_case_summary": "Orders reach the upper end, margin clears 16%, incentives moderate, and Q4 guidance validates sequential recovery.",
-      "downside_case_summary": "Orders miss, incentives remain elevated, or Q4 margin/delivery commentary weakens after the rate shock.",
-      "options_or_positioning_summary": "Options imply about 6.3%, above the roughly 4.4% historical average realized move; short interest was 8.4% of float with 7.4 days to cover.",
-      "analyst_revision_summary": "Final-week EPS consensus fell to $1.29 from $1.31; UBS expected an in-line print but potentially weak orders, while BofA maintained Underperform and cut its target to $70.",
+      "one_sentence_thesis": "A steep discount to stated SOL asset value, lower borrowing cost, and heavy short interest create upside asymmetry, but leverage, dilution and SOL volatility make the earnings reaction highly reversible.",
+      "market_expectation_summary": "Sparse one-analyst coverage centers near a $0.11-$0.12 loss per share and roughly $5-$5.8 million revenue; for this treasury vehicle, SOL-per-share and financing economics matter more than headline EPS.",
+      "upside_case_summary": "SOL-per-share grows, staking covers operating cash costs, NAV discount narrows, and shorts cover.",
+      "downside_case_summary": "Management reveals dilution, weaker per-share NAV, cash burn, collateral pressure or softer treasury economics.",
+      "options_or_positioning_summary": "Reliable same-day implied-move data was unavailable. Officially reported short interest was 14.78 million shares on August 31, about 21% of stated shares outstanding, creating squeeze and reversal risk.",
+      "analyst_revision_summary": "Only one analyst estimate was visible; EPS improved from about -$0.17 ninety days earlier to -$0.11, so estimate breadth and revision reliability are weak.",
       "key_sources": [
-        "https://investors.lennar.com/press-releases/2026/09-02-2026-213038897",
-        "https://investors.lennar.com/press-releases/2026/06-11-2026-214520364",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-        "https://www.zacks.com/stock/news/2989768/heres-what-investors-must-know-ahead-of-lennars-q3-earnings",
-        "https://www.investing.com/news/analyst-ratings/bofa-cuts-lennar-stock-price-target-on-book-value-concerns-93CH-4899125",
-        "https://www.marketbeat.com/stocks/NYSE/LEN/short-interest/",
-        "https://www.battleticker.com/t/LEN",
-        "https://www.financecharts.com/stocks/LEN/summary/price"
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005618/upxi_ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005580/upxi_8k.htm",
+        "https://ir.upexi.com/sec-filings/all-sec-filings/content/0001477932-26-003058/upxi_ex991.htm",
+        "https://www.theblock.co/treasuries/UPXI",
+        "https://equibles.com/stocks/upxi/short-interest",
+        "https://www.gngresearch.com/stock/UPXI/"
       ]
     }
   ],
@@ -81,8 +75,8 @@
     "qualified_names": [],
     "excluded_high_reversal_or_weak_names": [
       {
-        "ticker": "LEN",
-        "reason": "Absolute score is above 30, but consensus reversal risk of 64 exceeds the 40 cutoff."
+        "ticker": "UPXI",
+        "reason": "Consensus reversal risk of 63 exceeds the 40 cutoff; confidence is Low despite a score above +25."
       }
     ],
     "allocations": [],
@@ -90,101 +84,54 @@
     "plain_statement": "This is a research prioritization model, not financial advice."
   },
   "consensus_method": {
-    "disparity_definition": "Range-based 0-100 measure: average of the direction-score range normalized from -100/+100 and the reversal-risk range; lower means tighter independent agreement.",
-    "strongest_name_disparity": "Low",
-    "learned_lessons_review": "Existing timing, expectation-bar, decisive-metric, forward-look, and low-bar reversal-risk guardrails were applied. No new method change was warranted."
+    "direction_pass_scores": [
+      34,
+      18,
+      31
+    ],
+    "reversal_risk_pass_values": [
+      66,
+      58,
+      65
+    ],
+    "disparity_definition": "0-100 composite of normalized ranges in direction scores and reversal-risk values; lower means tighter independent agreement.",
+    "strongest_name_disparity": "Low-moderate",
+    "learned_lessons_review": "Expectation-bar, decisive-metric, forward-look and reversal-risk guardrails were applied. No new method change was warranted."
   },
   "detailed_company_sections": [
     {
-      "ticker": "LEN",
-      "consensus_summary": "All three independent passes leaned down on orders, affordability, and margin fragility. All three also identified the low valuation, price decline, and short positioning as meaningful upside-reversal risk.",
-      "averaged_direction_score": -38,
-      "averaged_reversal_risk": 64,
-      "disparity_metric": 4,
-      "pass_agreement_pattern": "All three passes produced Lean Down calls with low dispersion.",
-      "recommendation": "Lean Down",
-      "confidence_level": "Medium",
-      "thesis": "The decisive metric is new orders, with incentives, home-sales gross margin, and the Q4 outlook as forward overrides.",
-      "expectation_summary": "Street EPS is about $1.29-$1.30 on roughly $8.33-$8.4 billion revenue; management's Q3 targets include 21,000-22,000 orders and about 16% home-sales gross margin.",
-      "upside_case": "Orders and margin meet the upper end, incentives improve, and management guides to continued sequential recovery.",
-      "downside_case": "Orders miss and the forward margin bridge weakens as mortgage affordability deteriorates.",
-      "reversal_risk_assessment": "High at 64. LEN is down about 40% over twelve months, trades near 0.9x prior-quarter book value, and has 8.4% short interest, so a less-bad report can squeeze higher.",
-      "sentiment_read": "Recent retail discussion is sparse and split between value support near 0.9x book and concern that incentives are masking weak demand. No reliable 7/14/30-day social trend was strong enough to affect the direction score.",
-      "positioning_read": "The options-implied move is about 6.3%, richer than the roughly 4.4% historical average realized earnings move. Elevated short interest adds two-sided gap risk.",
-      "analyst_revision_read": "The final-week EPS consensus moved lower; UBS expected an in-line result but potentially weak orders, and BofA's below-consensus fiscal 2027-2028 view reinforced concern about returns and book-value quality.",
-      "base_case": "A near-consensus quarter with soft orders and cautious Q4 commentary produces a modest decline inside the implied move.",
-      "bull_case": "A clean 16%+ margin, upper-end orders, and improving incentives trigger a short-covering rally.",
-      "bear_case": "Order weakness and a softer Q4 margin/delivery outlook compound the rate-driven affordability shock and produce a decline beyond the implied range.",
-      "final_directional_judgment": "Lean Down, but the expected magnitude does not clearly exceed the options-implied move.",
-      "allocation_priority_note": "Not prioritized because reversal risk exceeds 40; the hypothetical basket remains 100% unallocated.",
-      "disparity_impact_note": "Low disparity supports the directional consistency, but it does not override the separate high reversal-risk brake.",
-      "method_update_note": "None; existing guardrails only.",
+      "ticker": "UPXI",
+      "consensus_summary": "Two independent passes produced Lean Up and one produced Neutral. All three centered the thesis on SOL-per-share/NAV rather than accounting EPS and all flagged leverage and short-squeeze dynamics as two-sided.",
+      "averaged_direction_score": 28,
+      "averaged_reversal_risk": 63,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "Directional agreement was positive but not unanimous: two Lean Up, one Neutral.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Low",
+      "thesis": "The decisive metric is SOL per diluted share and its relationship to NAV, with staking cash economics and financing terms as the forward override.",
+      "expectation_summary": "The published earnings bar is thin and single-analyst; management's evidence burden is to show per-share treasury accretion and sustainable cash coverage.",
+      "upside_case": "The company validates more than 2 million SOL, improving SOL per share, staking revenue above cash costs and value-accretive capital actions.",
+      "downside_case": "A reported quarter that looks fine can still fall if diluted share count, collateral requirements, interest costs or forward financing imply weaker per-share NAV.",
+      "reversal_risk_assessment": "High at 63. A bullish reaction can reverse if investors focus on $57.3 million of BitGo borrowing, the 200% collateral requirement or future issuance. Conversely, a weak print can squeeze because short interest is heavy and the equity trades at a large apparent discount to gross SOL value.",
+      "sentiment_read": "Retail discussion is sparse and promotional when present; tracked Reddit mentions fell to zero per day before earnings. It was treated as low-quality context, not a scoring driver.",
+      "positioning_read": "UPXI traded near $1.05 with a roughly $69 million market capitalization during the session, while a treasury tracker estimated 2.175 million SOL worth about $211 million. The large gross-NAV discount is tempered by debt, locked assets, dilution and execution risk. Reliable same-day option-implied move was unavailable.",
+      "analyst_revision_read": "The only visible estimate improved to -$0.11 from -$0.17 over 90 days, but one-analyst coverage is too narrow for strong inference.",
+      "base_case": "A treasury update showing modest per-share accretion and lower interest expense produces a small upside move, likely within ordinary crypto-equity volatility.",
+      "bull_case": "Clear SOL-per-share gains, credible cash-cost coverage and a stable diluted share count trigger discount-to-NAV compression plus short covering.",
+      "bear_case": "Dilution, collateral risk, operating cash burn or weaker NAV disclosure overwhelms any EPS beat and drives a sharp selloff.",
+      "final_directional_judgment": "Lean Up, but the setup does not offer a clean edge on magnitude and may not outperform SOL itself.",
+      "allocation_priority_note": "Excluded because reversal risk is 63 and confidence is Low; the research basket remains 100% unallocated.",
+      "disparity_impact_note": "Disparity of 8 is not large, but the Neutral third pass and thin estimate base prevent higher conviction.",
+      "method_update_note": "None; existing learned lessons were sufficient.",
       "key_sources": [
-        "https://investors.lennar.com/press-releases/2026/09-02-2026-213038897",
-        "https://investors.lennar.com/press-releases/2026/06-11-2026-214520364",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-        "https://www.zacks.com/stock/news/2989768/heres-what-investors-must-know-ahead-of-lennars-q3-earnings",
-        "https://www.investing.com/news/analyst-ratings/bofa-cuts-lennar-stock-price-target-on-book-value-concerns-93CH-4899125",
-        "https://www.marketbeat.com/stocks/NYSE/LEN/short-interest/",
-        "https://www.battleticker.com/t/LEN",
-        "https://www.reddit.com/r/ValueInvesting/comments/1vvmkst/lennar_housing_lull_hiding_improved_business_model/"
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005618/upxi_ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005580/upxi_8k.htm",
+        "https://ir.upexi.com/sec-filings/all-sec-filings/content/0001477932-26-003058/upxi_ex991.htm",
+        "https://www.theblock.co/treasuries/UPXI",
+        "https://equibles.com/stocks/upxi/short-interest",
+        "https://altindex.com/ticker/upxi/reddit-mentions"
       ]
     }
   ],
-  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone.",
-  "universe_review_notes": {
-    "calendar_names_reviewed": [
-      "LEN",
-      "ALMU",
-      "SANG",
-      "CCL",
-      "THO",
-      "AIFU",
-      "ESP",
-      "IH",
-      "DAVA",
-      "CDMNF"
-    ],
-    "qualified_tickers": [
-      "LEN"
-    ],
-    "exclusions": [
-      {
-        "ticker": "ALMU",
-        "reason": "Company-confirmed after-close timing, but excluded as a microcap with thin earnings evidence and no robust options setup."
-      },
-      {
-        "ticker": "SANG",
-        "reason": "Small issuer with only third-party timing and insufficient current company-level confirmation."
-      },
-      {
-        "ticker": "CCL",
-        "reason": "Company IR schedules third-quarter results for September 29, overriding third-party September 17 listings."
-      },
-      {
-        "ticker": "THO",
-        "reason": "Company IR confirms September 22 before the open, overriding a stale September 17 listing."
-      },
-      {
-        "ticker": "AIFU",
-        "reason": "Approximately $59 million microcap with no current company-level earnings announcement."
-      },
-      {
-        "ticker": "ESP",
-        "reason": "Approximately $191 million microcap with estimated/TBA timing rather than confirmed pre-market timing."
-      },
-      {
-        "ticker": "IH",
-        "reason": "Thin ADR with conflicting release/call timing and no adequate current company confirmation."
-      },
-      {
-        "ticker": "DAVA",
-        "reason": "Approximately $154 million market capitalization and no current official fiscal-year release announcement."
-      },
-      {
-        "ticker": "CDMNF",
-        "reason": "OTC security; excluded under the standing universe rules."
-      }
-    ]
-  }
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
