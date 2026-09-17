@@ -1,0 +1,137 @@
+{
+  "generation_timestamp": "2026-09-17T17:20:00Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Thursday, September 17, 2026 U.S. market close and before the Friday, September 18, 2026 U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "The Fed raised rates 25 bp to 3.75%-4.00% and signaled another 2026 hike; on Thursday equities rebounded as Brent crude and the 10-year Treasury yield eased, although high rates remain a headwind for speculative and leveraged equities.",
+  "companies_reviewed_count": 6,
+  "universe_screen": {
+    "calendar_entries_screened_count": 6,
+    "qualified_tickers": [
+      "UPXI"
+    ],
+    "excluded": [
+      {
+        "ticker": "TRT",
+        "reason": "Only estimated timing; company had not announced the date and providers conflicted."
+      },
+      {
+        "ticker": "CLGN",
+        "reason": "No official earnings announcement for the Friday premarket window."
+      },
+      {
+        "ticker": "VFS",
+        "reason": "Third-party calendars conflicted and no company-confirmed timing was found."
+      },
+      {
+        "ticker": "ZONE",
+        "reason": "Insufficient company-confirmed timing and event evidence."
+      },
+      {
+        "ticker": "AWTRF",
+        "reason": "OTC security; excluded under standing universe rules."
+      }
+    ]
+  },
+  "top_setups": {
+    "upward": [
+      "UPXI"
+    ],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "UPXI",
+      "company": "Upexi, Inc.",
+      "timing": "After market close Thursday, September 17, 2026; company-confirmed 5:30 p.m. ET call",
+      "direction_call": "Lean Up",
+      "direction_score": 28,
+      "reversal_risk": 63,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "SOL-per-share/NAV; staking economics and financing",
+      "key_risk_to_call": "SOL sensitivity, leverage, dilution and accounting noise",
+      "evidence_quality": "Medium",
+      "pass_agreement": "2 Lean Up, 1 Neutral; low-moderate disparity",
+      "method_update_note": "None",
+      "one_sentence_thesis": "A steep discount to stated SOL asset value, lower borrowing cost, and heavy short interest create upside asymmetry, but leverage, dilution and SOL volatility make the earnings reaction highly reversible.",
+      "market_expectation_summary": "Sparse one-analyst coverage centers near a $0.11-$0.12 loss per share and roughly $5-$5.8 million revenue; for this treasury vehicle, SOL-per-share and financing economics matter more than headline EPS.",
+      "upside_case_summary": "SOL-per-share grows, staking covers operating cash costs, NAV discount narrows, and shorts cover.",
+      "downside_case_summary": "Management reveals dilution, weaker per-share NAV, cash burn, collateral pressure or softer treasury economics.",
+      "options_or_positioning_summary": "Reliable same-day implied-move data was unavailable. Officially reported short interest was 14.78 million shares on August 31, about 21% of stated shares outstanding, creating squeeze and reversal risk.",
+      "analyst_revision_summary": "Only one analyst estimate was visible; EPS improved from about -$0.17 ninety days earlier to -$0.11, so estimate breadth and revision reliability are weak.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005618/upxi_ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005580/upxi_8k.htm",
+        "https://ir.upexi.com/sec-filings/all-sec-filings/content/0001477932-26-003058/upxi_ex991.htm",
+        "https://www.theblock.co/treasuries/UPXI",
+        "https://equibles.com/stocks/upxi/short-interest",
+        "https://www.gngresearch.com/stock/UPXI/"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "UPXI",
+        "reason": "Consensus reversal risk of 63 exceeds the 40 cutoff; confidence is Low despite a score above +25."
+      }
+    ],
+    "allocations": [],
+    "unallocated_percent": 100,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method": {
+    "direction_pass_scores": [
+      34,
+      18,
+      31
+    ],
+    "reversal_risk_pass_values": [
+      66,
+      58,
+      65
+    ],
+    "disparity_definition": "0-100 composite of normalized ranges in direction scores and reversal-risk values; lower means tighter independent agreement.",
+    "strongest_name_disparity": "Low-moderate",
+    "learned_lessons_review": "Expectation-bar, decisive-metric, forward-look and reversal-risk guardrails were applied. No new method change was warranted."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "UPXI",
+      "consensus_summary": "Two independent passes produced Lean Up and one produced Neutral. All three centered the thesis on SOL-per-share/NAV rather than accounting EPS and all flagged leverage and short-squeeze dynamics as two-sided.",
+      "averaged_direction_score": 28,
+      "averaged_reversal_risk": 63,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "Directional agreement was positive but not unanimous: two Lean Up, one Neutral.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Low",
+      "thesis": "The decisive metric is SOL per diluted share and its relationship to NAV, with staking cash economics and financing terms as the forward override.",
+      "expectation_summary": "The published earnings bar is thin and single-analyst; management's evidence burden is to show per-share treasury accretion and sustainable cash coverage.",
+      "upside_case": "The company validates more than 2 million SOL, improving SOL per share, staking revenue above cash costs and value-accretive capital actions.",
+      "downside_case": "A reported quarter that looks fine can still fall if diluted share count, collateral requirements, interest costs or forward financing imply weaker per-share NAV.",
+      "reversal_risk_assessment": "High at 63. A bullish reaction can reverse if investors focus on $57.3 million of BitGo borrowing, the 200% collateral requirement or future issuance. Conversely, a weak print can squeeze because short interest is heavy and the equity trades at a large apparent discount to gross SOL value.",
+      "sentiment_read": "Retail discussion is sparse and promotional when present; tracked Reddit mentions fell to zero per day before earnings. It was treated as low-quality context, not a scoring driver.",
+      "positioning_read": "UPXI traded near $1.05 with a roughly $69 million market capitalization during the session, while a treasury tracker estimated 2.175 million SOL worth about $211 million. The large gross-NAV discount is tempered by debt, locked assets, dilution and execution risk. Reliable same-day option-implied move was unavailable.",
+      "analyst_revision_read": "The only visible estimate improved to -$0.11 from -$0.17 over 90 days, but one-analyst coverage is too narrow for strong inference.",
+      "base_case": "A treasury update showing modest per-share accretion and lower interest expense produces a small upside move, likely within ordinary crypto-equity volatility.",
+      "bull_case": "Clear SOL-per-share gains, credible cash-cost coverage and a stable diluted share count trigger discount-to-NAV compression plus short covering.",
+      "bear_case": "Dilution, collateral risk, operating cash burn or weaker NAV disclosure overwhelms any EPS beat and drives a sharp selloff.",
+      "final_directional_judgment": "Lean Up, but the setup does not offer a clean edge on magnitude and may not outperform SOL itself.",
+      "allocation_priority_note": "Excluded because reversal risk is 63 and confidence is Low; the research basket remains 100% unallocated.",
+      "disparity_impact_note": "Disparity of 8 is not large, but the Neutral third pass and thin estimate base prevent higher conviction.",
+      "method_update_note": "None; existing learned lessons were sufficient.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005618/upxi_ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005580/upxi_8k.htm",
+        "https://ir.upexi.com/sec-filings/all-sec-filings/content/0001477932-26-003058/upxi_ex991.htm",
+        "https://www.theblock.co/treasuries/UPXI",
+        "https://equibles.com/stocks/upxi/short-interest",
+        "https://altindex.com/ticker/upxi/reddit-mentions"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
