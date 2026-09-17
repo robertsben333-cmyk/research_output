@@ -1,0 +1,146 @@
+{
+  "generation_timestamp": "2026-09-17T17:10:35Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Thursday, September 17, 2026 U.S. market close and before the Friday, September 18, 2026 U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. stocks were rebounding intraday after the Federal Reserve's first rate increase in more than three years; Brent crude and the 10-year Treasury yield eased, but high rates and oil near $103 remained adverse context for speculative, leveraged equities.",
+  "companies_reviewed_count": 8,
+  "universe_screen": {
+    "calendar_entries_screened_count": 8,
+    "qualified_tickers": [
+      "UPXI"
+    ],
+    "excluded": [
+      {
+        "ticker": "HUBG",
+        "reason": "No current earnings event on the company IR calendar; preliminary results/restatement updates did not establish a September 17 earnings release."
+      },
+      {
+        "ticker": "SCHL",
+        "reason": "Company IR scheduled fiscal Q1 results for September 24, not September 17."
+      },
+      {
+        "ticker": "VFS",
+        "reason": "Date remained estimated and third-party timing conflicted; no company confirmation found."
+      },
+      {
+        "ticker": "RAVE",
+        "reason": "Only third-party timing; company IR had not announced the report and the micro-cap evidence base was insufficient."
+      },
+      {
+        "ticker": "TRT",
+        "reason": "Only third-party estimated timing; no company announcement found and liquidity is limited."
+      },
+      {
+        "ticker": "TLSA",
+        "reason": "Thin clinical-stage biotech with no company-confirmed earnings event; earnings are not the primary catalyst."
+      },
+      {
+        "ticker": "ENLV",
+        "reason": "Thin clinical-stage biotech with no company-confirmed earnings event; earnings are not the primary catalyst."
+      }
+    ]
+  },
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": [
+      "UPXI"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "UPXI",
+      "company": "Upexi, Inc.",
+      "timing": "After market close Thursday, September 17, 2026; company-confirmed 5:30 p.m. ET call",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -10,
+      "reversal_risk": 71,
+      "disparity": 38,
+      "confidence": "Low",
+      "expected_driver": "Diluted SOL/share and net NAV after debt",
+      "key_risk_to_call": "Short squeeze or fresh dilution/collateral stress",
+      "evidence_quality": "Medium-Low",
+      "pass_agreement": "Material disagreement: Lean Down / Lean Up / Neutral",
+      "method_update_note": "Applied existing small-cap hidden-risk and low-bar reversal rules; no new method change.",
+      "one_sentence_thesis": "Gross SOL value looks large relative to equity value, but debt, locked assets, extreme dilution, accounting volatility and a crowded short make the immediate reaction too two-sided for a directional edge.",
+      "market_expectation_summary": "The market is likely to care more about diluted SOL per share, net asset value, collateral headroom and staking cash coverage than headline EPS; published estimate breadth is too thin for a dependable consensus bar.",
+      "upside_case_summary": "Accretive SOL/share, cash-cost coverage, NAV discount compression and short covering.",
+      "downside_case_summary": "Dilution, weak net NAV, collateral pressure or continued cash burn.",
+      "options_or_positioning_summary": "September 18 options implied about a 14% move from the September 15 close; August 31 short interest was about 14.78 million shares, or 20.92% of float.",
+      "analyst_revision_summary": "Coverage is sparse and conflicting across public aggregators; no reliable multi-analyst revision signal was available.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005618/upxi_ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005580/upxi_8k.htm",
+        "https://ir.upexi.com/news-events/press-releases/detail/159/upexi-reports-fiscal-third-quarter-2026-financial-results",
+        "https://ir.upexi.com/news-events/press-releases/detail/160/upexi-inc-announces-pricing-of-~19-5-million-private",
+        "https://stocknear.com/stocks/UPXI/statistics/short-interest",
+        "https://thetaowl.com/options/UPXI/expected-move"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "UPXI",
+        "reason": "Absolute consensus score is below 30, reversal risk is 71, confidence is Low, and pass disparity is material."
+      }
+    ],
+    "allocations": [],
+    "unallocated_percent": 100,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method": {
+    "direction_pass_scores": [
+      -46,
+      30,
+      -14
+    ],
+    "reversal_risk_pass_values": [
+      74,
+      66,
+      72
+    ],
+    "disparity_definition": "The direction-score range divided by two, yielding a 0-100 scale; lower values indicate tighter agreement and higher values indicate wider independent-pass disagreement.",
+    "strongest_name_disparity": "Moderate-high (38) with materially different directional calls.",
+    "learned_lessons_review": "Existing timing-confirmation, decisive-metric, small-cap hidden-risk, low-bar reversal and disagreement rules were applied. No new method change was warranted."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "UPXI",
+      "consensus_summary": "Pass A emphasized leverage, dilution and collateral sensitivity and scored Lean Down. Pass B emphasized the apparent discount to gross SOL value, lower borrowing cost and squeeze potential and scored Lean Up. Pass C treated the event as a volatile SOL/NAV update and remained Neutral.",
+      "averaged_direction_score": -10,
+      "averaged_reversal_risk": 71,
+      "disparity_metric": 38,
+      "pass_agreement_pattern": "One Lean Down, one Lean Up and one Neutral; material disagreement.",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "thesis": "The decisive metric is fully diluted SOL per share and net asset value after debt, locked-token liquidity and all dilutive claims.",
+      "expectation_summary": "Headline EPS is noisy because crypto fair-value marks dominate; management must show that staking income and financing changes improve per-share economics rather than merely gross token holdings.",
+      "upside_case": "More than two million SOL, lower BitGo interest expense, staking cash coverage and stable diluted shares could compress the NAV discount and force short covering.",
+      "downside_case": "A seemingly acceptable quarter can still sell off if diluted SOL per share falls, working capital stays dependent on issuance, or the 200% collateral requirement becomes the market's focus.",
+      "reversal_risk_assessment": "High at 71. The equity can squeeze sharply on relief because roughly one-fifth of float is short, while any bullish move can reverse if investors focus on leverage, locked collateral or the history of rapid share issuance.",
+      "sentiment_read": "Retail commentary is sparse but notably promotional around the NAV-discount and squeeze narrative. It is not independently verified and was given minimal weight.",
+      "positionining_read": "UPXI traded near $1.05 with a market capitalization around $68 million during the session, while SOL traded near $101.48. Options implied roughly 14% through September 18 and short interest was about 20.9% of float, indicating substantial two-sided event risk.",
+      "analyst_revision_read": "Public estimate sources conflict and analyst breadth is too thin to support a robust revision signal.",
+      "base_case": "Management reports a large accounting loss or gain tied to SOL, but the stock stays within its broad event range as net NAV and dilution disclosures offset one another.",
+      "bull_case": "SOL per diluted share improves, staking covers cash costs, financing looks stable and the NAV discount narrows through a short squeeze.",
+      "bear_case": "Per-share treasury value erodes, financing remains dilutive, or collateral and cash-burn concerns overwhelm the lower interest rate.",
+      "final_directional_judgment": "Neutral / No Edge; the event may move materially, but the three-pass consensus does not support a reliable direction.",
+      "allocation_priority_note": "Excluded; the basket remains 100% unallocated because the score, reversal risk, disparity and confidence all fail the allocation gate.",
+      "disparity_impact_note": "Disparity of 38 materially reduced confidence and prevented the apparent NAV discount from becoming an allocation candidate.",
+      "method_update_note": "No new method change; existing small-cap hidden-risk and reversal-risk rules were applied.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005618/upxi_ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005580/upxi_8k.htm",
+        "https://ir.upexi.com/news-events/press-releases/detail/159/upexi-reports-fiscal-third-quarter-2026-financial-results",
+        "https://ir.upexi.com/news-events/press-releases/detail/160/upexi-inc-announces-pricing-of-~19-5-million-private",
+        "https://ir.upexi.com/news-events/press-releases/detail/162/upexi-partners-with-blueprint-to-stake-solana-treasury",
+        "https://stocknear.com/stocks/UPXI/statistics/short-interest",
+        "https://thetaowl.com/options/UPXI/expected-move"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
