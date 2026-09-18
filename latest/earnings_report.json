@@ -1,41 +1,96 @@
 {
-  "generation_timestamp": "2026-09-18T17:06:56Z",
-  "covered_report_window": "Friday, September 18, 2026 after the U.S. market close through Monday, September 21, 2026 before the U.S. market open",
-  "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "U.S. equities were mixed to lower as the 10-year Treasury yield approached 5% after the Federal Reserve's first rate increase in three years, while triple-witching expirations increased close-related flow risk; Monday's pre-market macro calendar includes the August Chicago Fed National Activity Index.",
-  "companies_reviewed_count": 5,
+  "generation_timestamp": "2026-09-18T17:09:00Z",
+  "covered_report_window": {
+    "description": "U.S.-listed companies reporting after the U.S. market close on Friday, September 18, 2026, plus companies reporting before the next U.S. market open on Monday, September 21, 2026",
+    "start": "2026-09-18T16:00:00-04:00",
+    "end": "2026-09-21T09:30:00-04:00",
+    "qualified_ticker_count": 0
+  },
+  "report_type": "full_ranked_earnings_report_empty_qualified_universe",
+  "market_context_summary": "U.S. equities were modestly softer intraday as the 10-year Treasury yield returned to roughly 5% after the Federal Reserve's first rate increase in three years; Friday was also a major options-expiration session. No company passed the strict timing, liquidity, and evidence screen for this immediate earnings window.",
+  "companies_reviewed_count": 8,
+  "calendar_candidates_reviewed": [
+    {
+      "ticker": "VFS",
+      "disposition": "excluded",
+      "reason": "A high-quality calendar placed the release before Friday's open, while another source showed timing unconfirmed; no qualifying after-close report remained."
+    },
+    {
+      "ticker": "ZONE",
+      "disposition": "excluded",
+      "reason": "Friday date appeared on a secondary calendar, but no reliable after-close timing confirmation was found."
+    },
+    {
+      "ticker": "KFFB",
+      "disposition": "excluded",
+      "reason": "A secondary calendar listed 5:00 p.m. Friday, but newer market data pointed to a November estimated date; the stock is also a roughly $45 million nanocap with very low trading volume."
+    },
+    {
+      "ticker": "KEP",
+      "disposition": "excluded",
+      "reason": "Monday date was explicitly estimated and conflicted with results already reported on September 15."
+    },
+    {
+      "ticker": "VALU",
+      "disposition": "excluded",
+      "reason": "The company already released first-quarter results on September 14."
+    },
+    {
+      "ticker": "EBF",
+      "disposition": "excluded",
+      "reason": "Sources conflicted between September 21 and a confirmed September 28 date; no official Monday premarket confirmation was found."
+    },
+    {
+      "ticker": "ABVX",
+      "disposition": "excluded",
+      "reason": "The official IR page confirms September 21, but reliable calendars place it after Monday's close or leave the time unspecified, outside the covered premarket window."
+    },
+    {
+      "ticker": "ICMB",
+      "disposition": "excluded",
+      "reason": "Date appeared only as an estimated Monday report with time TBD and lacked qualifying timing confirmation; liquidity was also insufficient."
+    }
+  ],
   "top_setups": {
     "upward": [],
-    "downward": [],
-    "neutral_or_mixed": []
+    "downward": []
   },
   "ranked_companies": [],
+  "three_pass_consensus": {
+    "shared_qualified_universe": [],
+    "pass_a_company_count": 0,
+    "pass_b_company_count": 0,
+    "pass_c_company_count": 0,
+    "disparity": null,
+    "note": "All three independent passes evaluated the same empty qualified universe; no direction scores or reversal-risk values were generated, so disparity is not applicable."
+  },
   "research_allocation_view": {
     "qualified_names": [],
-    "excluded_high_reversal_or_weak_names": [
-      {
-        "ticker": "EBF",
-        "reason": "Conflicting third-party dates; a confirmed calendar now places the report on September 28 rather than inside this window."
-      },
-      {
-        "ticker": "KEP",
-        "reason": "The September 21 entry is explicitly estimated, conflicts with other dates, and is inconsistent with the issuer's reporting cadence."
-      },
-      {
-        "ticker": "VALU",
-        "reason": "Already reported fiscal Q1 results on September 14; the September 21 listing is stale."
-      },
-      {
-        "ticker": "ABVX",
-        "reason": "The company confirms September 21 for H1 results but does not confirm a before-open U.S. release time."
-      },
-      {
-        "ticker": "ICMB",
-        "reason": "Already reported its June-quarter results on August 16; no confirmed event falls inside this window."
-      }
-    ],
-    "plain_statement": "This is a research prioritization model, not financial advice."
+    "allocations": [],
+    "allocated_percent": 0,
+    "unallocated_percent": 100,
+    "reason": "No ticker passed the shared-universe screen, so no consensus score met the allocation rules.",
+    "not_financial_advice": true
   },
   "detailed_company_sections": [],
+  "learned_lessons_review": {
+    "status": "attempted",
+    "method_change": false,
+    "note": "The configured persistence files were unavailable in this runtime. No new method change was made; the standing strict timing-confirmation and liquidity guardrails were applied."
+  },
+  "method_update_note": "None",
+  "key_sources": [
+    "https://www.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf",
+    "https://old.earningswhispers.com/calendar?d=2&sb=p&t=all",
+    "https://www.digrin.com/stocks/earnings_calendar",
+    "https://www.streetinsider.com/ec_earnings.php?day=2026-09-18",
+    "https://ir.abivax.com/",
+    "https://www.marketbeat.com/stocks/NYSE/KEP/earnings/",
+    "https://www.globenewswire.com/news-release/2026/09/14/3361513/0/en/value-line-inc-announces-first-quarter-earnings.html",
+    "https://www.investing.com/equities/ennis-inc-earnings",
+    "https://stockanalysis.com/stocks/kffb/statistics/",
+    "https://e.nyse.com/mac-desk-midday-market-update",
+    "https://apnews.com/article/1ff3311788bcc4555d00e283a57289fe"
+  ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
