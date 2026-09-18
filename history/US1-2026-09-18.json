@@ -1,0 +1,42 @@
+{
+  "generation_timestamp": "2026-09-18T17:02:01Z",
+  "covered_report_window": {
+    "description": "U.S.-listed companies reporting after the U.S. market close on Friday, September 18, 2026, plus companies reporting before the next U.S. market open on Monday, September 21, 2026",
+    "start": "2026-09-18T16:00:00-04:00",
+    "end": "2026-09-21T09:30:00-04:00",
+    "qualified_ticker_count": 0
+  },
+  "report_type": "full_ranked_earnings_report_empty_qualified_universe",
+  "market_context_summary": "U.S. equities were modestly softer intraday following a volatile week in which a Federal Reserve rate hike and a near-5% 10-year Treasury yield pressured risk assets; no company passed the strict timing-confirmation screen for this immediate earnings window.",
+  "companies_reviewed_count": 7,
+  "calendar_candidates_reviewed": [
+    {"ticker": "VFS", "disposition": "excluded", "reason": "Friday report date appeared on calendars, but timing was unconfirmed; no qualifying after-close confirmation."},
+    {"ticker": "ZONE", "disposition": "excluded", "reason": "Friday report date appeared on calendars, but timing was unconfirmed; no qualifying after-close confirmation."},
+    {"ticker": "KEP", "disposition": "excluded", "reason": "Monday before-open entry was an automated estimate and conflicted with a recent reported result and normal reporting cadence."},
+    {"ticker": "VALU", "disposition": "excluded", "reason": "Monday before-open timing lacked sufficient official or high-quality confirmation."},
+    {"ticker": "EBF", "disposition": "excluded", "reason": "Calendars conflicted between September 21 and September 28/29 and no official before-open confirmation was found."},
+    {"ticker": "ABVX", "disposition": "excluded", "reason": "Official date was September 21, but high-quality sources placed the release after Monday's close, outside the covered window."},
+    {"ticker": "ICMB", "disposition": "excluded", "reason": "Date appeared on a secondary calendar with time TBD and lacked qualifying timing confirmation."}
+  ],
+  "top_setups": {"upward": [], "downward": []},
+  "ranked_companies": [],
+  "three_pass_consensus": {
+    "shared_qualified_universe": [],
+    "pass_a_company_count": 0,
+    "pass_b_company_count": 0,
+    "pass_c_company_count": 0,
+    "disparity": null,
+    "note": "All three independent passes evaluated the same empty qualified universe; disparity is not applicable."
+  },
+  "research_allocation_view": {
+    "qualified_names": [],
+    "allocations": [],
+    "allocated_percent": 0,
+    "unallocated_percent": 100,
+    "reason": "No ticker passed the timing-confirmation screen, so no directional score or reversal-risk result was eligible for allocation.",
+    "not_financial_advice": true
+  },
+  "detailed_company_sections": [],
+  "method_update_note": "Learned-lessons review completed. No method change; the existing strict timing-confirmation guardrail was applied.",
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
