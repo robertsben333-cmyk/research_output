@@ -1,9 +1,9 @@
 {
-  "generation_timestamp": "2026-09-18T17:06:56Z",
+  "generation_timestamp": "2026-09-18T17:09:57Z",
   "covered_report_window": "Friday, September 18, 2026 after the U.S. market close through Monday, September 21, 2026 before the U.S. market open",
   "report_type": "full_ranked_earnings_report",
   "market_context_summary": "U.S. equities were mixed to lower as the 10-year Treasury yield approached 5% after the Federal Reserve's first rate increase in three years, while triple-witching expirations increased close-related flow risk; Monday's pre-market macro calendar includes the August Chicago Fed National Activity Index.",
-  "companies_reviewed_count": 7,
+  "companies_reviewed_count": 8,
   "top_setups": {
     "upward": [],
     "downward": [],
@@ -20,6 +20,10 @@
       {
         "ticker": "ZONE",
         "reason": "Friday report date appeared with timing TBD; the company is also a roughly $29 million microcap outside the standing liquidity screen."
+      },
+      {
+        "ticker": "KFFB",
+        "reason": "Already reported fiscal Q4 in August; the stock is also a roughly $45 million nanocap with very low trading volume."
       },
       {
         "ticker": "EBF",
