@@ -59,6 +59,64 @@ share of capital actually deployed.
 
 No reports exist between 25 June and 18 July, so that stretch is flat by construction.
 
+### Positions per entry day
+
+Entry day is the session on which capital goes in at 20:00 CET: an AMC event on that day, or a BMO
+event the following session. `w` is the weight each name gets; `invested` is the share of equity the
+combined book has at work that day, which is below 100% only when fewer than three names qualify.
+
+| Entry day | US1 | w | US2 | w | Combined | w | Invested |
+|---|---|---|---|---|---|---|---|
+| 2026-06-12 | 1 | 40% | — | — | 1 | 40% | 40% |
+| 2026-06-15 | 1 | 40% | — | — | 1 | 40% | 40% |
+| 2026-06-23 | — | — | 1 | 40% | 1 | 40% | 40% |
+| 2026-06-24 | 2 | 40% | 1 | 40% | 2 | 40% | 80% |
+| 2026-07-20 | 3 | 33% | 5 | 20% | 5 | 20% | 100% |
+| 2026-07-21 | — | — | 3 | 33% | 3 | 33% | 100% |
+| 2026-07-22 | 1 | 40% | 2 | 40% | 3 | 33% | 100% |
+| 2026-07-27 | 4 | 25% | 3 | 33% | 5 | 20% | 100% |
+| 2026-07-28 | 4 | 25% | — | — | 4 | 25% | 100% |
+| 2026-07-29 | 3 | 33% | 2 | 40% | 4 | 25% | 100% |
+| 2026-07-30 | 3 | 33% | 1 | 40% | 4 | 25% | 100% |
+| 2026-07-31 | — | — | 2 | 40% | 2 | 40% | 80% |
+| 2026-08-03 | 1 | 40% | — | — | 1 | 40% | 40% |
+| 2026-08-04 | 5 | 20% | — | — | 5 | 20% | 100% |
+| 2026-08-05 | 3 | 33% | 3 | 33% | 3 | 33% | 100% |
+| 2026-08-06 | 5 | 20% | — | — | 5 | 20% | 100% |
+| 2026-08-07 | 3 | 33% | 2 | 40% | 5 | 20% | 100% |
+| 2026-08-10 | 4 | 25% | 4 | 25% | 6 | 17% | 100% |
+| 2026-08-11 | 3 | 33% | 3 | 33% | 5 | 20% | 100% |
+| 2026-08-12 | 5 | 20% | 3 | 33% | 7 | 14% | 100% |
+| 2026-08-13 | 1 | 40% | 2 | 40% | 3 | 33% | 100% |
+| 2026-08-17 | 1 | 40% | — | — | 1 | 40% | 40% |
+| 2026-08-18 | 3 | 33% | 2 | 40% | 5 | 20% | 100% |
+| 2026-08-19 | 3 | 33% | 2 | 40% | 3 | 33% | 100% |
+| 2026-08-20 | 2 | 40% | 2 | 40% | 3 | 33% | 100% |
+| 2026-08-24 | 1 | 40% | 1 | 40% | 1 | 40% | 40% |
+| 2026-08-25 | 5 | 20% | 1 | 40% | 6 | 17% | 100% |
+| 2026-08-26 | 5 | 20% | 4 | 25% | 7 | 14% | 100% |
+| 2026-08-27 | 3 | 33% | 4 | 25% | 7 | 14% | 100% |
+| 2026-08-31 | 1 | 40% | 1 | 40% | 2 | 40% | 80% |
+| 2026-09-01 | 3 | 33% | 1 | 40% | 2 | 40% | 80% |
+| 2026-09-02 | 5 | 20% | 3 | 33% | 7 | 14% | 100% |
+| 2026-09-03 | 2 | 40% | 1 | 40% | 3 | 33% | 100% |
+| 2026-09-08 | 2 | 40% | 5 | 20% | 5 | 20% | 100% |
+| 2026-09-11 | 1 | 40% | 1 | 40% | 1 | 40% | 40% |
+| 2026-09-14 | 2 | 40% | 1 | 40% | 2 | 40% | 80% |
+
+| | US1 | US2 | Combined |
+|---|---|---|---|
+| Entry days | 33 | 29 | 36 |
+| Positions | 91 | 66 | 130 |
+| Average per day | 2.8 | 2.3 | 3.6 |
+| Busiest day | 5 | 5 | 7 |
+| Single-name days | 9 | 10 | 7 |
+| Average capital deployed | 81% | 74% | 86% |
+
+The 40% cap binds on 14 of US1's 33 days, 18 of US2's 29 and 12 of the combined 36, leaving those
+days partly in cash. On 1 September the combined count (2) is lower than either agent's because the
+OLLI direction conflict removes that name from the combined book.
+
 ### Where the return comes from
 
 AMC positions, held from 20:00 CET into the next open, did most of the work: 48 combined positions,
