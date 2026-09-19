@@ -48,6 +48,46 @@ two agents as separate accounts and splitting capital 50/50 between them gives +
 +65.9%; the union does better because pooling raises the number of names per day, which lifts the
 share of capital actually deployed.
 
+## Starting with $10,000
+
+| | US1 | US2 | Combined |
+|---|---|---|---|
+| Final value | $12,464 | $14,196 | **$16,588** |
+| Profit | +$2,464 | +$4,196 | +$6,588 |
+
+Compounded across entry days, idle cash earning nothing. Trades are in USD; no FX effect is modelled.
+
+## Did the change in reasoning effort show up?
+
+US2 was moved to extra-high reasoning effort and US1 to standard at some point in the sample. Nothing
+in the report files records the setting, so the date has to be read off the outcome series.
+
+Over the whole sample US2 is the better forecaster: 54.1% hit rate against US1's 48.7%, and +0.42%
+per directional call against +0.15%. Weekly hit rates:
+
+| Week of | US1 n | US1 hit | US2 n | US2 hit |
+|---|---|---|---|---|
+| 8 Jun | 4 | 50% | — | — |
+| 15 Jun | 12 | 50% | 7 | 43% |
+| 22 Jun | 19 | 26% | 12 | 33% |
+| 13 Jul | — | — | 3 | 100% |
+| 20 Jul | 33 | 52% | 56 | 50% |
+| 27 Jul | 55 | 56% | 53 | 60% |
+| 3 Aug | 90 | 48% | 29 | 52% |
+| 10 Aug | 67 | 49% | 48 | 50% |
+| 17 Aug | 47 | 43% | 30 | 60% |
+| 24 Aug | 76 | 55% | 56 | 59% |
+| 31 Aug | 70 | 53% | 44 | 48% |
+| 7 Sep | 30 | 27% | 26 | 58% |
+| 14 Sep | 16 | 56% | 11 | 64% |
+
+From the week of 17 August onward US2 beats US1 in four weeks out of five, but scanning every
+possible break date finds no clean split: the strongest is 13 August at t = 1.92, short of
+significance and flattered by the fact that the scan chose it. The June weeks are poor for both
+agents, which does most of the work in any early split. **The gap is real over the full sample; the
+moment it opened is not identifiable from this data.** Supply the actual switch date and the test
+becomes a pre-specified one rather than a search.
+
 ### By month
 
 | | US1 | US2 | Combined |

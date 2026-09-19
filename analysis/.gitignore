@@ -1,2 +1,3 @@
 .pricecache/
 __pycache__/
+.cache/
