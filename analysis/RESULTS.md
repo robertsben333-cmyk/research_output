@@ -88,6 +88,35 @@ agents, which does most of the work in any early split. **The gap is real over t
 moment it opened is not identifiable from this data.** Supply the actual switch date and the test
 becomes a pre-specified one rather than a search.
 
+## What each half of the filter contributes
+
+Same entry, exit and 40% cap; only the qualifying condition changes. Final value from $10,000.
+
+| Rule | US1 | US2 | Combined | Combined positions | Names/day | Avg invested |
+|---|---|---|---|---|---|---|
+| `\|score\| > 35` and `reversal < 40` | $12,464 | $14,196 | **$16,588** | 130 | 3.1 | 84% |
+| `\|score\| > 35` only | $10,303 | $13,027 | $14,122 | 243 | 5.3 | 89% |
+| `reversal < 40` only | $12,467 | $14,740 | $15,986 | 214 | 4.4 | 89% |
+| no filter, every directional call | $10,371 | $17,243 | $16,061 | 462 | 10.0 | 96% |
+
+Dropping the reversal condition costs the combined book about 25 points, and nearly all of that comes
+from US1, which falls from +24.6% to +3.0%. US2 barely moves.
+
+That looks decisive and is not. Testing what each rule keeps against what it rejects, across all 462
+events: the full rule keeps events worth +1.45% against +0.82% for the rejects (t = +0.66),
+`|score| > 35` alone keeps +1.19% against +0.77% (t = +0.47), and `reversal < 40` alone keeps +0.92%
+against +1.00% (t = −0.10). None of these separates anything at conventional significance.
+
+The equity ordering does not even follow the per-trade edge: the score-only book has a *higher*
+average trade than the reversal-only book (+1.28% against +1.20%) and still ends $1,864 lower. The
+difference is the 40% cap and which names land on which day, not selection quality. Running every
+directional call with no filter at all lands within $500 of the current rule, and is the best result
+of the four for US2 on its own.
+
+The honest conclusion: the thresholds change how concentrated the book is far more than they change
+what it holds, and over 35 to 46 entry days that concentration effect dominates anything the filter
+is selecting for.
+
 ### By month
 
 | | US1 | US2 | Combined |
