@@ -113,7 +113,9 @@ def load_predictions():
                              ticker=r["ticker"], company=r.get("company", ""), timing=timing,
                              session=session, event_date=date.isoformat(),
                              score=float(r["direction_score"]), rev=int(r["reversal_risk"]),
-                             call=r.get("direction_call"), conf=r.get("confidence")))
+                             call=r.get("direction_call"), conf=r.get("confidence"),
+                             disparity=r.get("disparity"), evidence=r.get("evidence_quality"),
+                             nsrc=len(r.get("key_sources") or [])))
     return rows
 
 

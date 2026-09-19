@@ -94,7 +94,7 @@ for r in rows:
         ret_close=side*(p_close/entry-1),
         move=(base_exit/entry-1),
         mom=mom,dollar_vol=dv,
-        nsrc=len(r.get('key_sources') or [])))
+        ))
 json.dump(out,open(D+'enriched.json','w'),default=str)
 print('enriched',len(out),'of',len(rows))
 print('with mom',sum(1 for r in out if r['mom'] is not None),'with dv',sum(1 for r in out if r['dollar_vol']))
