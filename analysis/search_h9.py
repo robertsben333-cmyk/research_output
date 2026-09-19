@@ -5,7 +5,11 @@ Google Trends daily interest for "<TICKER> stock", 1 May - 18 Sep 2026, one seri
 
   baseline  median interest over the 30 days ending 6 days before entry
   peak      highest interest over the 5 days up to and including entry day
-  ratio     peak / baseline
+  ratio     peak / baseline      - how far above normal the run-up spiked
+  level     median of those 5 days / baseline - how busy the name was overall
+
+The peak ratio is above 1 by construction, so a cut at 0.88 can only be read against the level
+ratio, which is centred on 1. Both are reported.
 
 Trends rescales each series to 0-100 within the requested window, and thin terms come back as
 mostly zeros. A series whose baseline is zero, or that has fewer than 20 non-zero days, counts as
@@ -45,7 +49,7 @@ def ratio(series, entry_day):
     base = statistics.median(base_win)
     if base <= 0:
         return None
-    return max(peak_win) / base
+    return max(peak_win) / base, statistics.median(peak_win) / base
 
 
 def welch(a, b):
@@ -66,7 +70,8 @@ def main():
         t = e['ticker']
         if t not in series:
             series[t] = load_series(t)
-        e['search'] = ratio(series[t], e['entry_day']) if series[t] else None
+        r = ratio(series[t], e['entry_day']) if series[t] else None
+        e['search'], e['search_level'] = r if r else (None, None)
         e['tilt'] = (tilt.get('|'.join([e['agent'], e['ticker'], e['event_date'], e['session']])) or {}).get('tilt')
 
     def ded(rows):
@@ -88,9 +93,13 @@ def main():
         print(f"  search ratio: median {med:.2f}, quartiles "
               f"{statistics.quantiles([r['search'] for r in have], n=4)[0]:.2f} / "
               f"{statistics.quantiles([r['search'] for r in have], n=4)[2]:.2f}")
-        for label, cut in (('their cut 0.88', 0.88), (f'this sample median {med:.2f}', med)):
-            quiet = [r for r in have if r['search'] < cut]
-            loud = [r for r in have if r['search'] >= cut]
+        lmed = statistics.median([r['search_level'] for r in have])
+        print(f"  level ratio:  median {lmed:.2f}")
+        for label, cut, key in (('peak ratio, sample median %.2f' % med, med, 'search'),
+                                ('level ratio, their cut 0.88', 0.88, 'search_level'),
+                                ('level ratio, sample median %.2f' % lmed, lmed, 'search_level')):
+            quiet = [r for r in have if r[key] < cut]
+            loud = [r for r in have if r[key] >= cut]
             if len(quiet) < 5 or len(loud) < 5:
                 continue
             nq, hq, mq, dq = desc(quiet)
