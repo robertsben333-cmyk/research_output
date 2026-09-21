@@ -1,0 +1,406 @@
+{
+  "generation_timestamp": "2026-09-21T17:07:00Z",
+  "covered_report_window": "Monday, September 21, 2026 after the U.S. market close through Tuesday, September 22, 2026 before the U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities rallied as oil and Treasury yields eased, but Brent remained near $100 and the 10-year yield near 5% after the Federal Reserve's first rate increase since 2023. Rate and fuel volatility are material for discretionary demand, especially RVs, while the broad risk-on tape raises relief-rally risk.",
+  "companies_reviewed_count": 4,
+  "methodology": {
+    "passes": 3,
+    "universe_fixed_before_scoring": true,
+    "qualified_tickers": [
+      "ABVX",
+      "AZO",
+      "THO",
+      "MLKN"
+    ],
+    "disparity_definition": "Average of (a) mean pairwise direction-score distance normalized from the -100 to +100 range to 0-100 and (b) mean pairwise reversal-risk distance; lower means tighter agreement.",
+    "learned_lessons_review": "Applied hard timing confirmation, one-decisive-metric scoring, priced-in growth caution, low-bar reversal floors, and disagreement penalties. No new method change was warranted."
+  },
+  "top_setups": {
+    "upward": [
+      {
+        "ticker": "AZO",
+        "score": 36
+      },
+      {
+        "ticker": "ABVX",
+        "score": 21
+      },
+      {
+        "ticker": "MLKN",
+        "score": -29,
+        "note": "Third on a relative basis; not a bullish call."
+      }
+    ],
+    "downward": [
+      {
+        "ticker": "THO",
+        "score": -42
+      },
+      {
+        "ticker": "MLKN",
+        "score": -29
+      },
+      {
+        "ticker": "ABVX",
+        "score": 21,
+        "note": "Third on a relative downside basis; final call is Neutral."
+      }
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "THO",
+      "company": "THOR Industries",
+      "timing": "Sep. 22, 2026 before market open",
+      "direction_call": "Lean Down",
+      "direction_score": -42,
+      "reversal_risk": 55,
+      "disparity": 10,
+      "confidence": "Medium",
+      "expected_driver": "Towable backlog / margin and FY2027 demand tone",
+      "key_risk_to_call": "Low bar; stabilization relief",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "A collapsing towable backlog and tariff-driven margin pressure leave the FY2027 demand message more likely to disappoint, although a deeply reset bar creates meaningful squeeze risk.",
+      "market_expectation_summary": "Consensus is about $0.89 EPS and $2.17B revenue after Q3 guidance cut FY2026 EPS to $3.30-$3.80 and assumed a mid-teens North American retail decline.",
+      "upside_case_summary": "A low EPS bar clears, dealer inventories prove lean, and management signals better orders or margin stabilization.",
+      "downside_case_summary": "Towable backlog, dealer orders, or gross margin remain weak and FY2027 expectations reset lower.",
+      "options_or_positioning_summary": "Options imply roughly an 11.3% move; depressed expectations and target-price upside create sizable relief risk.",
+      "analyst_revision_summary": "Citi and BMO cut targets immediately before the print; the four-analyst consensus remained mixed-to-positive.",
+      "key_sources": [
+        "https://ir.thorindustries.com/investor-resources/press-releases/press-release-details/2026/THOR-INDUSTRIES-ANNOUNCES-DATE-FOR-ITS-FISCAL-2026-FOURTH-QUARTER-EARNINGS-RELEASE/default.aspx",
+        "https://ir.thorindustries.com/investor-resources/press-releases/press-release-details/2026/THOR-INDUSTRIES-ANNOUNCES-FISCAL-2026-THIRD-QUARTER-RESULTS/default.aspx",
+        "https://www.tipranks.com/stocks/tho/forecast",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-09-22"
+      ],
+      "pass_results": [
+        {
+          "pass": "A",
+          "direction_score": -53,
+          "reversal_risk": 46,
+          "key_metric": "North American towable backlog"
+        },
+        {
+          "pass": "B",
+          "direction_score": -31,
+          "reversal_risk": 64,
+          "key_metric": "dealer orders and low-bar relief"
+        },
+        {
+          "pass": "C",
+          "direction_score": -43,
+          "reversal_risk": 56,
+          "key_metric": "gross margin / FY2027 tone"
+        }
+      ],
+      "pass_agreement": "All three leaned down; Pass B was less bearish because expectations are already low.",
+      "method_update_note": "Standing low-bar reversal floor applied."
+    },
+    {
+      "rank": 2,
+      "ticker": "AZO",
+      "company": "AutoZone",
+      "timing": "Sep. 22, 2026 before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 36,
+      "reversal_risk": 38,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Domestic comps and commercial growth",
+      "key_risk_to_call": "Margin / investment drag",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "A de-risked share price, resilient domestic comps, and double-digit commercial growth create modest upside potential if margin pressure is no worse than feared.",
+      "market_expectation_summary": "Consensus is about $54.08 EPS and $6.70B revenue; Q3 posted 4.1% domestic comps and 10.4% commercial-sales growth.",
+      "upside_case_summary": "Domestic comps beat, commercial sales stay double-digit, and operating-margin or LIFO pressure is better than feared.",
+      "downside_case_summary": "A fine sales quarter is overwhelmed by gross-margin pressure, inventory investment, oil-sensitive DIY weakness, or cautious FY2027 commentary.",
+      "options_or_positioning_summary": "Options imply about 9.6%, well above the 10-year average move of 5.6%; the stock has fallen after three of the last four reports.",
+      "analyst_revision_summary": "Ratings remain broadly bullish, but Oppenheimer, Citi, Wells Fargo, and others cut targets or estimates into the event.",
+      "key_sources": [
+        "https://investors.autozone.com/news-releases/news-release-details/autozone-release-fourth-quarter-fiscal-2026-earnings-september",
+        "https://investors.autozone.com/node/29181/pdf",
+        "https://www.tipranks.com/news/autozone-azo-will-report-q4-earnings-tomorrow-heres-what-to-expect",
+        "https://earnings-watcher.com/wiki/azo-implied-move"
+      ],
+      "pass_results": [
+        {
+          "pass": "A",
+          "direction_score": 44,
+          "reversal_risk": 34,
+          "key_metric": "domestic same-store sales"
+        },
+        {
+          "pass": "B",
+          "direction_score": 29,
+          "reversal_risk": 42,
+          "key_metric": "operating-margin quality"
+        },
+        {
+          "pass": "C",
+          "direction_score": 35,
+          "reversal_risk": 38,
+          "key_metric": "commercial sales growth"
+        }
+      ],
+      "pass_agreement": "All three leaned up with tight dispersion; margin quality capped conviction.",
+      "method_update_note": "None."
+    },
+    {
+      "rank": 3,
+      "ticker": "MLKN",
+      "company": "MillerKnoll",
+      "timing": "Sep. 22, 2026 before market open",
+      "direction_call": "Lean Down",
+      "direction_score": -29,
+      "reversal_risk": 56,
+      "disparity": 11,
+      "confidence": "Low",
+      "expected_driver": "Order growth and gross margin",
+      "key_risk_to_call": "Low guide; cost-cut relief",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Consensus sits near the upper half of prior sales guidance while prior-quarter orders fell, leaving margin and order commentary vulnerable despite an achievable EPS bar.",
+      "market_expectation_summary": "Consensus sources cluster near $0.35-$0.36 EPS and $941M-$962M revenue versus company guidance of $0.33-$0.39 and $928M-$968M.",
+      "upside_case_summary": "Contract orders rebound, gross margin clears guidance, and cost control supports the full-year EPS range.",
+      "downside_case_summary": "Orders stay soft, retail store costs or international weakness compress margins, or the interim leadership team guides cautiously.",
+      "options_or_positioning_summary": "Options imply roughly 13.5%-15.5%; the prior report produced a 12% gain, so relief upside remains material.",
+      "analyst_revision_summary": "Coverage is sparse; one recent quantitative report cut its target to $22 while broader analyst consensus remained only moderately positive.",
+      "key_sources": [
+        "https://millerknoll.gcs-web.com/investor-relations/news-events/events-and-presentations",
+        "https://news.millerknoll.com/2026-06-24-MillerKnoll,-Inc-Reports-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results",
+        "https://www.fxempire.com/stocks/mlkn/earnings",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-09-22"
+      ],
+      "pass_results": [
+        {
+          "pass": "A",
+          "direction_score": -41,
+          "reversal_risk": 46,
+          "key_metric": "organic order growth"
+        },
+        {
+          "pass": "B",
+          "direction_score": -17,
+          "reversal_risk": 66,
+          "key_metric": "gross margin versus guide"
+        },
+        {
+          "pass": "C",
+          "direction_score": -29,
+          "reversal_risk": 55,
+          "key_metric": "contract orders and FY2027 EPS tone"
+        }
+      ],
+      "pass_agreement": "Two passes leaned down; one was Neutral because the guide is low and relief potential is high.",
+      "method_update_note": "Standing low-bar reversal caution applied."
+    },
+    {
+      "rank": 4,
+      "ticker": "ABVX",
+      "company": "Abivax",
+      "timing": "Sep. 21, 2026 after market close",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 21,
+      "reversal_risk": 64,
+      "disparity": 11,
+      "confidence": "Low",
+      "expected_driver": "NDA timing and cash runway",
+      "key_risk_to_call": "Catalyst-light financial update",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Positive Phase 3 data, FDA alignment, and funding through 2029 are constructive, but those facts are known and the half-year financial update may not provide a fresh enough catalyst.",
+      "market_expectation_summary": "Published consensus is roughly a $0.92-$0.98 loss per share with minimal revenue; investors are focused on the year-end NDA filing and spending cadence.",
+      "upside_case_summary": "Management firmly reaffirms the year-end NDA filing, controls burn, and adds favorable regulatory or launch-readiness detail.",
+      "downside_case_summary": "Submission timing slips, commercialization spend accelerates, or the absence of new clinical information triggers a sell-the-news reaction.",
+      "options_or_positioning_summary": "Options imply about 8.7%, 1.5 times its recent average earnings move; flow was unclear and event volatility rich.",
+      "analyst_revision_summary": "Recent analyst tone is strongly bullish, including a Goldman Buy initiation and several post-Phase-3 target increases, raising the expectation bar.",
+      "key_sources": [
+        "https://abivax.gcs-web.com/events/event-details/h1-2026-financial-results",
+        "https://ir.abivax.com/news-releases/news-release-details/abivax-announces-closing-920-million-public-offering/",
+        "https://www.globenewswire.com/news-release/2026/07/30/3336434/0/en/abivax-announces-positive-pre-nda-interaction-with-the-fda-for-obefazimod.html",
+        "https://optionpilot.ainvest.com/abvx"
+      ],
+      "pass_results": [
+        {
+          "pass": "A",
+          "direction_score": 34,
+          "reversal_risk": 55,
+          "key_metric": "NDA submission timing"
+        },
+        {
+          "pass": "B",
+          "direction_score": 8,
+          "reversal_risk": 74,
+          "key_metric": "cash burn and runway"
+        },
+        {
+          "pass": "C",
+          "direction_score": 22,
+          "reversal_risk": 64,
+          "key_metric": "regulatory / launch-readiness commentary"
+        }
+      ],
+      "pass_agreement": "One Lean Up and two Neutral passes; all agreed that accounting EPS is secondary to regulatory commentary.",
+      "method_update_note": "Standing catalyst-quality caution applied."
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "AZO",
+        "direction": "Lean Up",
+        "share_percent": 60,
+        "reason": "Score above 30, reversal risk below 40, high evidence quality, and the lowest disparity."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "THO",
+        "reason": "Absolute score qualified, but reversal risk 55 exceeded 40."
+      },
+      {
+        "ticker": "MLKN",
+        "reason": "Absolute score below 30 and reversal risk 56."
+      },
+      {
+        "ticker": "ABVX",
+        "reason": "Neutral score and reversal risk 64."
+      }
+    ],
+    "basket_distribution": [
+      {
+        "ticker": "AZO",
+        "direction": "Lean Up",
+        "percent": 60
+      },
+      {
+        "ticker": "UNALLOCATED",
+        "direction": "None",
+        "percent": 40
+      }
+    ],
+    "unallocated_percent": 40,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "THO",
+      "consensus_summary": "All three leaned down; Pass B was less bearish because expectations are already low.",
+      "averaged_direction_score": -42,
+      "averaged_reversal_risk": 55,
+      "disparity": 10,
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "thesis": "A collapsing towable backlog and tariff-driven margin pressure leave the FY2027 demand message more likely to disappoint, although a deeply reset bar creates meaningful squeeze risk.",
+      "market_expectation": "Consensus is about $0.89 EPS and $2.17B revenue after Q3 guidance cut FY2026 EPS to $3.30-$3.80 and assumed a mid-teens North American retail decline.",
+      "what_could_make_stock_go_up": "A low EPS bar clears, dealer inventories prove lean, and management signals better orders or margin stabilization.",
+      "what_could_make_stock_go_down": "Towable backlog, dealer orders, or gross margin remain weak and FY2027 expectations reset lower.",
+      "reversal_risk_assessment": "Low bar; stabilization relief",
+      "social_sentiment": "Sparse and noisy; used only as a minor contextual input.",
+      "options_positioning": "Options imply roughly an 11.3% move; depressed expectations and target-price upside create sizable relief risk.",
+      "analyst_revisions": "Citi and BMO cut targets immediately before the print; the four-analyst consensus remained mixed-to-positive.",
+      "base_case": "A collapsing towable backlog and tariff-driven margin pressure leave the FY2027 demand message more likely to disappoint, although a deeply reset bar creates meaningful squeeze risk.",
+      "bull_case": "A low EPS bar clears, dealer inventories prove lean, and management signals better orders or margin stabilization.",
+      "bear_case": "Towable backlog, dealer orders, or gross margin remain weak and FY2027 expectations reset lower.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": "Excluded by the consensus allocation screen.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Standing low-bar reversal floor applied.",
+      "key_sources": [
+        "https://ir.thorindustries.com/investor-resources/press-releases/press-release-details/2026/THOR-INDUSTRIES-ANNOUNCES-DATE-FOR-ITS-FISCAL-2026-FOURTH-QUARTER-EARNINGS-RELEASE/default.aspx",
+        "https://ir.thorindustries.com/investor-resources/press-releases/press-release-details/2026/THOR-INDUSTRIES-ANNOUNCES-FISCAL-2026-THIRD-QUARTER-RESULTS/default.aspx",
+        "https://www.tipranks.com/stocks/tho/forecast",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-09-22"
+      ]
+    },
+    {
+      "ticker": "AZO",
+      "consensus_summary": "All three leaned up with tight dispersion; margin quality capped conviction.",
+      "averaged_direction_score": 36,
+      "averaged_reversal_risk": 38,
+      "disparity": 5,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "thesis": "A de-risked share price, resilient domestic comps, and double-digit commercial growth create modest upside potential if margin pressure is no worse than feared.",
+      "market_expectation": "Consensus is about $54.08 EPS and $6.70B revenue; Q3 posted 4.1% domestic comps and 10.4% commercial-sales growth.",
+      "what_could_make_stock_go_up": "Domestic comps beat, commercial sales stay double-digit, and operating-margin or LIFO pressure is better than feared.",
+      "what_could_make_stock_go_down": "A fine sales quarter is overwhelmed by gross-margin pressure, inventory investment, oil-sensitive DIY weakness, or cautious FY2027 commentary.",
+      "reversal_risk_assessment": "Margin / investment drag",
+      "social_sentiment": "Sparse and noisy; used only as a minor contextual input.",
+      "options_positioning": "Options imply about 9.6%, well above the 10-year average move of 5.6%; the stock has fallen after three of the last four reports.",
+      "analyst_revisions": "Ratings remain broadly bullish, but Oppenheimer, Citi, Wells Fargo, and others cut targets or estimates into the event.",
+      "base_case": "A de-risked share price, resilient domestic comps, and double-digit commercial growth create modest upside potential if margin pressure is no worse than feared.",
+      "bull_case": "Domestic comps beat, commercial sales stay double-digit, and operating-margin or LIFO pressure is better than feared.",
+      "bear_case": "A fine sales quarter is overwhelmed by gross-margin pressure, inventory investment, oil-sensitive DIY weakness, or cautious FY2027 commentary.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": "Qualified for 60% research attention; 40% left unallocated because no second name passed the screen.",
+      "disparity_effect": "Low disparity supported conviction.",
+      "method_update_note": "None.",
+      "key_sources": [
+        "https://investors.autozone.com/news-releases/news-release-details/autozone-release-fourth-quarter-fiscal-2026-earnings-september",
+        "https://investors.autozone.com/node/29181/pdf",
+        "https://www.tipranks.com/news/autozone-azo-will-report-q4-earnings-tomorrow-heres-what-to-expect",
+        "https://earnings-watcher.com/wiki/azo-implied-move"
+      ]
+    },
+    {
+      "ticker": "MLKN",
+      "consensus_summary": "Two passes leaned down; one was Neutral because the guide is low and relief potential is high.",
+      "averaged_direction_score": -29,
+      "averaged_reversal_risk": 56,
+      "disparity": 11,
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "thesis": "Consensus sits near the upper half of prior sales guidance while prior-quarter orders fell, leaving margin and order commentary vulnerable despite an achievable EPS bar.",
+      "market_expectation": "Consensus sources cluster near $0.35-$0.36 EPS and $941M-$962M revenue versus company guidance of $0.33-$0.39 and $928M-$968M.",
+      "what_could_make_stock_go_up": "Contract orders rebound, gross margin clears guidance, and cost control supports the full-year EPS range.",
+      "what_could_make_stock_go_down": "Orders stay soft, retail store costs or international weakness compress margins, or the interim leadership team guides cautiously.",
+      "reversal_risk_assessment": "Low guide; cost-cut relief",
+      "social_sentiment": "Sparse and noisy; used only as a minor contextual input.",
+      "options_positioning": "Options imply roughly 13.5%-15.5%; the prior report produced a 12% gain, so relief upside remains material.",
+      "analyst_revisions": "Coverage is sparse; one recent quantitative report cut its target to $22 while broader analyst consensus remained only moderately positive.",
+      "base_case": "Consensus sits near the upper half of prior sales guidance while prior-quarter orders fell, leaving margin and order commentary vulnerable despite an achievable EPS bar.",
+      "bull_case": "Contract orders rebound, gross margin clears guidance, and cost control supports the full-year EPS range.",
+      "bear_case": "Orders stay soft, retail store costs or international weakness compress margins, or the interim leadership team guides cautiously.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority": "Excluded by the consensus allocation screen.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Standing low-bar reversal caution applied.",
+      "key_sources": [
+        "https://millerknoll.gcs-web.com/investor-relations/news-events/events-and-presentations",
+        "https://news.millerknoll.com/2026-06-24-MillerKnoll,-Inc-Reports-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results",
+        "https://www.fxempire.com/stocks/mlkn/earnings",
+        "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-09-22"
+      ]
+    },
+    {
+      "ticker": "ABVX",
+      "consensus_summary": "One Lean Up and two Neutral passes; all agreed that accounting EPS is secondary to regulatory commentary.",
+      "averaged_direction_score": 21,
+      "averaged_reversal_risk": 64,
+      "disparity": 11,
+      "recommendation": "Neutral / No Edge",
+      "confidence": "Low",
+      "thesis": "Positive Phase 3 data, FDA alignment, and funding through 2029 are constructive, but those facts are known and the half-year financial update may not provide a fresh enough catalyst.",
+      "market_expectation": "Published consensus is roughly a $0.92-$0.98 loss per share with minimal revenue; investors are focused on the year-end NDA filing and spending cadence.",
+      "what_could_make_stock_go_up": "Management firmly reaffirms the year-end NDA filing, controls burn, and adds favorable regulatory or launch-readiness detail.",
+      "what_could_make_stock_go_down": "Submission timing slips, commercialization spend accelerates, or the absence of new clinical information triggers a sell-the-news reaction.",
+      "reversal_risk_assessment": "Catalyst-light financial update",
+      "social_sentiment": "Sparse and noisy; used only as a minor contextual input.",
+      "options_positioning": "Options imply about 8.7%, 1.5 times its recent average earnings move; flow was unclear and event volatility rich.",
+      "analyst_revisions": "Recent analyst tone is strongly bullish, including a Goldman Buy initiation and several post-Phase-3 target increases, raising the expectation bar.",
+      "base_case": "Positive Phase 3 data, FDA alignment, and funding through 2029 are constructive, but those facts are known and the half-year financial update may not provide a fresh enough catalyst.",
+      "bull_case": "Management firmly reaffirms the year-end NDA filing, controls burn, and adds favorable regulatory or launch-readiness detail.",
+      "bear_case": "Submission timing slips, commercialization spend accelerates, or the absence of new clinical information triggers a sell-the-news reaction.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "allocation_priority": "Excluded by the consensus allocation screen.",
+      "disparity_effect": "Moderate disparity reduced conviction.",
+      "method_update_note": "Standing catalyst-quality caution applied.",
+      "key_sources": [
+        "https://abivax.gcs-web.com/events/event-details/h1-2026-financial-results",
+        "https://ir.abivax.com/news-releases/news-release-details/abivax-announces-closing-920-million-public-offering/",
+        "https://www.globenewswire.com/news-release/2026/07/30/3336434/0/en/abivax-announces-positive-pre-nda-interaction-with-the-fda-for-obefazimod.html",
+        "https://optionpilot.ainvest.com/abvx"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
