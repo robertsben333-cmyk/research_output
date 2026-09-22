@@ -1,0 +1,530 @@
+{
+  "generation_timestamp": "2026-09-22T17:07:00Z",
+  "covered_report_window": "Tuesday, September 22, 2026 after the U.S. market close through Wednesday, September 23, 2026 before the U.S. market open",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were near records after a recent Fed rate hike, while Brent crude remained near $100 amid Iran-war uncertainty; Wednesday's 9:45 a.m. ET flash PMIs arrive after the covered pre-market releases.",
+  "companies_reviewed_count": 7,
+  "shared_qualified_ticker_universe": [
+    "KBH",
+    "WOR",
+    "CTAS",
+    "CBRL",
+    "GIS",
+    "PAYX",
+    "MANU"
+  ],
+  "excluded_universe_summary": [
+    {
+      "ticker": "AYTU",
+      "reason": "Micro-cap and insufficient liquidity/evidence for the ranked universe."
+    },
+    {
+      "ticker": "NEOV",
+      "reason": "Small capitalization and insufficient evidence quality."
+    },
+    {
+      "group": "Other calendar entries",
+      "reason": "Time-TBD, outside the strict window, OTC/ADR-only, or thinly traded."
+    }
+  ],
+  "top_setups": {
+    "upward": [
+      {
+        "ticker": "WOR",
+        "score": 35
+      },
+      {
+        "ticker": "CTAS",
+        "score": 34
+      },
+      {
+        "ticker": "PAYX",
+        "score": 33
+      }
+    ],
+    "downward": [
+      {
+        "ticker": "KBH",
+        "score": -33
+      },
+      {
+        "ticker": "GIS",
+        "score": -23,
+        "note": "Neutral / No Edge"
+      },
+      {
+        "ticker": "MANU",
+        "score": 23,
+        "note": "No third bearish edge; listed as the next-highest downside-risk watch"
+      }
+    ]
+  },
+  "methodology": {
+    "passes": 3,
+    "independent": true,
+    "disparity_definition": "70% weight to average pairwise direction-score distance normalized to 0-100, plus 30% weight to average pairwise reversal-risk distance; lower means tighter agreement.",
+    "learned_lessons_review": "Applied hard timing confirmation, decisive-KPI framing, priced-in penalties, forward-look checks and low-bar reversal floors. No new method change was warranted."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "PAYX",
+      "company": "Paychex, Inc.",
+      "timing": "Sep. 23, 2026 before market open (release expected before 9:30 a.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 33,
+      "reversal_risk": 37,
+      "disparity": 2,
+      "confidence": "Medium",
+      "expected_driver": "Organic Management Solutions growth; 44% margin path",
+      "key_risk_to_call": "Paycor masks soft payroll demand",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Paycor cross-sell, bookings and margin execution support modest upside if organic payroll growth remains visible.",
+      "market_expectation_summary": "Consensus is about $1.32-$1.35 EPS on roughly $1.6-$1.66B revenue; FY27 guidance calls for 5%-6% revenue growth and about 44% adjusted margin.",
+      "upside_case_summary": "Organic bookings and PEO worksite growth validate the 7%-9% EPS-growth guide.",
+      "downside_case_summary": "Integration benefits mask weak small-business hiring or management trims the outlook.",
+      "options_or_positioning_summary": "Current options sources place the implied move near 7.6%, above the stock's typical earnings reaction.",
+      "analyst_revision_summary": "Consensus implies roughly 9% EPS growth; published previews emphasize bookings, pricing, PEO momentum and Paycor synergies.",
+      "pass_agreement": "Three Lean Up calls; very low disparity.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://investor.paychex.com/news-events/press-releases/detail/838/paychex-reports-fourth-quarter-and-full-year-2026-results",
+        "https://investor.paychex.com/",
+        "https://www.zacks.com/stock/news/2992135/paychex-gears-up-to-report-q1-earnings-whats-in-store",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "WOR",
+      "company": "Worthington Enterprises, Inc.",
+      "timing": "Sep. 22, 2026 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 35,
+      "reversal_risk": 38,
+      "disparity": 2,
+      "confidence": "Medium",
+      "expected_driver": "ClarkDietrich trough; data-center tank demand",
+      "key_risk_to_call": "Prior miss and weak JV mix",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "A low earnings bar, acquisition contribution and accelerating liquid-cooling tank demand offer upside if ClarkDietrich has stabilized.",
+      "market_expectation_summary": "About $0.75-$0.77 adjusted EPS and $331-$335M revenue, versus $0.74 EPS a year ago; only two estimates underpin the consensus.",
+      "upside_case_summary": "Data-center shipments, Elgen/LSI integration and JV earnings beat a reset bar.",
+      "downside_case_summary": "ClarkDietrich weakness and acquisition mix produce another revenue or EPS miss.",
+      "options_or_positioning_summary": "One event source estimated about 5%, below the roughly 8.3% average realized move; treat it as approximate.",
+      "analyst_revision_summary": "Coverage is thin; the narrow $0.75-$0.77 EPS range provides limited revision breadth.",
+      "pass_agreement": "Three Lean Up calls; very low disparity.",
+      "method_update_note": "Key-metric-first rule: JV/data-center mix centered.",
+      "key_sources": [
+        "https://ir.worthingtonenterprises.com/news/news-details/2026/Worthington-Enterprises-Schedules-Fiscal-First-Quarter-2027-Earnings-Call-for-September-23/default.aspx",
+        "https://ir.worthingtonenterprises.com/news/news-details/2026/Worthington-Enterprises-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/",
+        "https://www.benzinga.com/trading-ideas/previews/26/09/61836543/worthington-missed-last-quarters-eps-estimate-by-8-5-can-it-bounce-back-sept-22",
+        "https://www.battleticker.com/t/WOR"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "CTAS",
+      "company": "Cintas Corporation",
+      "timing": "Sep. 23, 2026 before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 46,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Organic growth plus gross/EBIT margin",
+      "key_risk_to_call": "40x P/E needs beat-and-raise quality",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "High-single-digit organic growth and record margins favor another beat, but valuation makes merely in-line execution vulnerable.",
+      "market_expectation_summary": "Roughly $1.35-$1.36 EPS and $2.98B revenue; fiscal 2027 guidance is $12.10-$12.25B revenue and $5.36-$5.50 adjusted EPS.",
+      "upside_case_summary": "Organic growth stays near 8% and margin exceeds consensus without weakening the guide.",
+      "downside_case_summary": "Growth or margin normalizes, or UniFirst regulatory and financing costs cloud the forward view.",
+      "options_or_positioning_summary": "Options imply about 4.8%, below the 5.6% ten-year average peak move.",
+      "analyst_revision_summary": "EPS consensus was stable over 60 days; Bernstein expected greater margin expansion than consensus.",
+      "pass_agreement": "Three Lean Up calls; low disparity.",
+      "method_update_note": "Repeated priced-in premium penalty applied.",
+      "key_sources": [
+        "https://www.cintas.com/about/newsroom/details/news/2026/09/09/cintas-corporation-announces-webcast-for-first-quarter-fiscal-year-2027-results/",
+        "https://www.cintas.com/about/newsroom/details/news/2026/07/15/cintas-corporation-announces-fiscal-2026-fourth-quarter-and-full-year-results/",
+        "https://www.zacks.com/stock/news/2993034/cintas-gears-up-to-report-q1-earnings-heres-what-to-expect",
+        "https://earnings-watcher.com/wiki/ctas-implied-move"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "CBRL",
+      "company": "Cracker Barrel Old Country Store, Inc.",
+      "timing": "Sep. 23, 2026 before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 32,
+      "reversal_risk": 54,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Traffic trend and fiscal 2027 outlook",
+      "key_risk_to_call": "Rally and turnaround optimism raise bar",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "A July business update de-risked the quarter, but the reaction now depends on whether new management can guide to durable traffic and EBITDA recovery.",
+      "market_expectation_summary": "About $0.16 EPS and $845.6M revenue; July commentary said revenue should reach or exceed the prior high end and adjusted EBITDA should exceed guidance.",
+      "upside_case_summary": "Traffic improves from the reported -2.5% trend and FY27 margins benefit from divestiture and cost actions.",
+      "downside_case_summary": "New guidance reveals weak traffic durability, rent burden or transition disruption.",
+      "options_or_positioning_summary": "Options imply roughly 15.2%, about twice the ten-year average move, signaling unusually high event uncertainty.",
+      "analyst_revision_summary": "Targets rose after Q3 and the July update, but ratings remain split from Sell to Overweight.",
+      "pass_agreement": "Three Lean Up calls; low disparity but uniformly elevated reversal risk.",
+      "method_update_note": "Repeated low-bar turnaround reversal floor applied.",
+      "key_sources": [
+        "https://investor.crackerbarrel.com/news-releases/news-release-details/cracker-barrel-fiscal-2026-fourth-quarter-conference-call",
+        "https://crackerbarrel.gcs-web.com/news-releases/news-release-details/cracker-barrel-announces-strategic-actions",
+        "https://crackerbarrel.gcs-web.com/news-releases/news-release-details/cracker-barrel-reports-third-quarter-fiscal-2026-results-and-0",
+        "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61785035/cracker-barrel-likely-to-report-lower-q4-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "KBH",
+      "company": "KB Home",
+      "timing": "Sep. 22, 2026 after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -33,
+      "reversal_risk": 61,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Net orders and adjusted housing gross margin",
+      "key_risk_to_call": "Low bar plus buybacks can spark relief",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Weak orders and backlog plus rate pressure lean down unless the promised sequential margin recovery and order stabilization are clear.",
+      "market_expectation_summary": "About $0.89-$0.90 EPS and $1.30-$1.31B revenue, inside management's $1.20-$1.35B housing-revenue range and 16.0%-16.6% adjusted gross-margin guide.",
+      "upside_case_summary": "Margin reaches the high end, orders stabilize and Q4 guidance confirms continued sequential recovery.",
+      "downside_case_summary": "Incentives deepen, orders/backlog deteriorate and Q4 margin guidance slips.",
+      "options_or_positioning_summary": "Options imply about 10.3% versus a 7.8% ten-year average; the prior report triggered a 16.7% relief rally.",
+      "analyst_revision_summary": "Consensus sits close to management's range midpoint, leaving the order and guide quality more important than headline EPS.",
+      "pass_agreement": "Three Lean Down calls; low disparity, but reversal risk stayed high.",
+      "method_update_note": "Repeated low-bar relief caution applied.",
+      "key_sources": [
+        "https://www.investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-TO-RELEASE-2026-THIRD-QUARTER-EARNINGS-ON-SEPTEMBER-22-2026/default.aspx",
+        "https://investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-REPORTS-2026-SECOND-QUARTER-RESULTS/default.aspx",
+        "https://earnings-watcher.com/wiki/kbh-implied-move",
+        "https://www.fxempire.com/stocks/kbh/earnings"
+      ]
+    },
+    {
+      "rank": 6,
+      "ticker": "GIS",
+      "company": "General Mills, Inc.",
+      "timing": "Sep. 23, 2026 before market open",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -23,
+      "reversal_risk": 57,
+      "disparity": 4,
+      "confidence": "Low",
+      "expected_driver": "Organic retail sales and gross margin",
+      "key_risk_to_call": "De-risked stock and reaffirmed guide",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Peak inflation and shipment timing pressure Q1, but improving retail trends and a recently reaffirmed annual outlook make the downside edge too weak.",
+      "market_expectation_summary": "About $0.72 EPS and $4.34B revenue; FY27 guidance remains organic sales -1.5% to +0.5% and adjusted EPS $3.00-$3.20.",
+      "upside_case_summary": "Volume/share gains and cost savings make Q1 less weak than feared while guidance holds.",
+      "downside_case_summary": "RBC's below-consensus margin view proves right and price investment fails to restore profitable volume.",
+      "options_or_positioning_summary": "Options imply roughly 8.6%, well above the 5.2% ten-year average; the stock is down about 20% in 2026.",
+      "analyst_revision_summary": "EPS consensus edged up 0.4% over 30 days, but RBC and UBS remained cautious on inflation and cost pressure.",
+      "pass_agreement": "All passes clustered near the Lean Down/Neutral boundary.",
+      "method_update_note": "Repeated low-bar reversal caution applied.",
+      "key_sources": [
+        "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-to-Webcast-Fiscal-2027-First-Quarter-Earnings-Results-on-September-23-2026/default.aspx",
+        "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reaffirms-Annual-Guidance-and-Provides-Business-Update-at-2026-Barclays-Global-Consumer-Staples-Conference/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/40704/000162828026046337/a20260701ex99.htm",
+        "https://finance.yahoo.com/news/general-mills-likely-miss-quarterly-155010022.html",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "rank": 7,
+      "ticker": "MANU",
+      "company": "Manchester United plc",
+      "timing": "Sep. 23, 2026 at 7:00 a.m. ET",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 23,
+      "reversal_risk": 66,
+      "disparity": 4,
+      "confidence": "Low",
+      "expected_driver": "FY27 adjusted EBITDA and commercial outlook",
+      "key_risk_to_call": "32% YTD run; ownership narrative",
+      "evidence_quality": "Medium",
+      "one_sentence_thesis": "Cost savings and raised FY26 guidance are constructive, but the strong run and ownership, stadium and squad narratives overwhelm a clean earnings edge.",
+      "market_expectation_summary": "The decisive bar is forward EBITDA after FY26 revenue guidance rose to £655-£665M and adjusted EBITDA to £200-£210M; published EPS estimates conflict.",
+      "upside_case_summary": "FY27 commercial, matchday and broadcasting outlook extends the cost-led earnings improvement.",
+      "downside_case_summary": "Cash/debt, squad spending or stadium funding offsets strong backward-looking EBITDA.",
+      "options_or_positioning_summary": "Options imply about 14.9% versus a 6% ten-year average; positioning is event-heavy.",
+      "analyst_revision_summary": "Sell-side evidence is sparse and EPS estimates conflict, so EBITDA guidance carries more weight.",
+      "pass_agreement": "All passes were Neutral-to-Lean Up; high reversal risk was consistent.",
+      "method_update_note": "Repeated priced-in narrative penalty applied.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1549107/000110465926106122/tm2625015d1_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1549107/000110465926066584/tm2615476d1_ex99-1.htm",
+        "https://ir.manutd.com/financial-information/quarterly-reports/2026.aspx",
+        "https://earnings-watcher.com/wiki/manu-implied-move"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "PAYX",
+        "direction": "Lean Up",
+        "share_percent": 55,
+        "why": "High evidence, reversal risk 37, disparity 2 and a clean recurring-revenue/margin setup."
+      },
+      {
+        "ticker": "WOR",
+        "direction": "Lean Up",
+        "share_percent": 45,
+        "why": "Score 35, reversal risk 38 and disparity 2; lower evidence quality caps it below PAYX."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "CTAS",
+        "reason": "Reversal risk 46 despite score 34."
+      },
+      {
+        "ticker": "CBRL",
+        "reason": "Reversal risk 54 despite score 32."
+      },
+      {
+        "ticker": "KBH",
+        "reason": "Reversal risk 61 despite absolute score 33."
+      },
+      {
+        "ticker": "GIS",
+        "reason": "Absolute score does not exceed 30 and reversal risk is 57."
+      },
+      {
+        "ticker": "MANU",
+        "reason": "Absolute score does not exceed 30 and reversal risk is 66."
+      }
+    ],
+    "unallocated_share_percent": 0,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "PAYX",
+      "consensus_summary": "Three Lean Up calls; very low disparity.",
+      "averaged_direction_score": 33,
+      "averaged_reversal_risk": 37,
+      "disparity_metric": 2,
+      "pass_agreement": "Three Lean Up calls; very low disparity.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Paycor cross-sell, bookings and margin execution support modest upside if organic payroll growth remains visible.",
+      "what_the_market_expects": "Consensus is about $1.32-$1.35 EPS on roughly $1.6-$1.66B revenue; FY27 guidance calls for 5%-6% revenue growth and about 44% adjusted margin.",
+      "what_could_make_stock_go_up": "Organic bookings and PEO worksite growth validate the 7%-9% EPS-growth guide.",
+      "what_could_make_stock_go_down": "Integration benefits mask weak small-business hiring or management trims the outlook.",
+      "reversal_risk_assessment": "Paycor masks soft payroll demand",
+      "reddit_social_consumer_sentiment_read": "Ticker-specific social evidence was sparse or noisy and was not weighted materially.",
+      "options_positioning_read": "Current options sources place the implied move near 7.6%, above the stock's typical earnings reaction.",
+      "analyst_estimate_revision_read": "Consensus implies roughly 9% EPS growth; published previews emphasize bookings, pricing, PEO momentum and Paycor synergies.",
+      "base_case": "Paycor cross-sell, bookings and margin execution support modest upside if organic payroll growth remains visible.",
+      "bull_case": "Organic bookings and PEO worksite growth validate the 7%-9% EPS-growth guide.",
+      "bear_case": "Integration benefits mask weak small-business hiring or management trims the outlook.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_view": "Qualified: score >30, reversal risk <=40, high evidence, low disparity.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://investor.paychex.com/news-events/press-releases/detail/838/paychex-reports-fourth-quarter-and-full-year-2026-results",
+        "https://investor.paychex.com/",
+        "https://www.zacks.com/stock/news/2992135/paychex-gears-up-to-report-q1-earnings-whats-in-store",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "WOR",
+      "consensus_summary": "Three Lean Up calls; very low disparity.",
+      "averaged_direction_score": 35,
+      "averaged_reversal_risk": 38,
+      "disparity_metric": 2,
+      "pass_agreement": "Three Lean Up calls; very low disparity.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "A low earnings bar, acquisition contribution and accelerating liquid-cooling tank demand offer upside if ClarkDietrich has stabilized.",
+      "what_the_market_expects": "About $0.75-$0.77 adjusted EPS and $331-$335M revenue, versus $0.74 EPS a year ago; only two estimates underpin the consensus.",
+      "what_could_make_stock_go_up": "Data-center shipments, Elgen/LSI integration and JV earnings beat a reset bar.",
+      "what_could_make_stock_go_down": "ClarkDietrich weakness and acquisition mix produce another revenue or EPS miss.",
+      "reversal_risk_assessment": "Prior miss and weak JV mix",
+      "reddit_social_consumer_sentiment_read": "Ticker-specific social evidence was sparse or noisy and was not weighted materially.",
+      "options_positioning_read": "One event source estimated about 5%, below the roughly 8.3% average realized move; treat it as approximate.",
+      "analyst_estimate_revision_read": "Coverage is thin; the narrow $0.75-$0.77 EPS range provides limited revision breadth.",
+      "base_case": "A low earnings bar, acquisition contribution and accelerating liquid-cooling tank demand offer upside if ClarkDietrich has stabilized.",
+      "bull_case": "Data-center shipments, Elgen/LSI integration and JV earnings beat a reset bar.",
+      "bear_case": "ClarkDietrich weakness and acquisition mix produce another revenue or EPS miss.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_view": "Qualified: score >30, reversal risk <=40, adequate evidence, low disparity.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "Key-metric-first rule: JV/data-center mix centered.",
+      "key_sources": [
+        "https://ir.worthingtonenterprises.com/news/news-details/2026/Worthington-Enterprises-Schedules-Fiscal-First-Quarter-2027-Earnings-Call-for-September-23/default.aspx",
+        "https://ir.worthingtonenterprises.com/news/news-details/2026/Worthington-Enterprises-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2026-Results/",
+        "https://www.benzinga.com/trading-ideas/previews/26/09/61836543/worthington-missed-last-quarters-eps-estimate-by-8-5-can-it-bounce-back-sept-22",
+        "https://www.battleticker.com/t/WOR"
+      ]
+    },
+    {
+      "ticker": "CTAS",
+      "consensus_summary": "Three Lean Up calls; low disparity.",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 46,
+      "disparity_metric": 3,
+      "pass_agreement": "Three Lean Up calls; low disparity.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "High-single-digit organic growth and record margins favor another beat, but valuation makes merely in-line execution vulnerable.",
+      "what_the_market_expects": "Roughly $1.35-$1.36 EPS and $2.98B revenue; fiscal 2027 guidance is $12.10-$12.25B revenue and $5.36-$5.50 adjusted EPS.",
+      "what_could_make_stock_go_up": "Organic growth stays near 8% and margin exceeds consensus without weakening the guide.",
+      "what_could_make_stock_go_down": "Growth or margin normalizes, or UniFirst regulatory and financing costs cloud the forward view.",
+      "reversal_risk_assessment": "40x P/E needs beat-and-raise quality",
+      "reddit_social_consumer_sentiment_read": "Ticker-specific social evidence was sparse or noisy and was not weighted materially.",
+      "options_positioning_read": "Options imply about 4.8%, below the 5.6% ten-year average peak move.",
+      "analyst_estimate_revision_read": "EPS consensus was stable over 60 days; Bernstein expected greater margin expansion than consensus.",
+      "base_case": "High-single-digit organic growth and record margins favor another beat, but valuation makes merely in-line execution vulnerable.",
+      "bull_case": "Organic growth stays near 8% and margin exceeds consensus without weakening the guide.",
+      "bear_case": "Growth or margin normalizes, or UniFirst regulatory and financing costs cloud the forward view.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_view": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "Repeated priced-in premium penalty applied.",
+      "key_sources": [
+        "https://www.cintas.com/about/newsroom/details/news/2026/09/09/cintas-corporation-announces-webcast-for-first-quarter-fiscal-year-2027-results/",
+        "https://www.cintas.com/about/newsroom/details/news/2026/07/15/cintas-corporation-announces-fiscal-2026-fourth-quarter-and-full-year-results/",
+        "https://www.zacks.com/stock/news/2993034/cintas-gears-up-to-report-q1-earnings-heres-what-to-expect",
+        "https://earnings-watcher.com/wiki/ctas-implied-move"
+      ]
+    },
+    {
+      "ticker": "CBRL",
+      "consensus_summary": "Three Lean Up calls; low disparity but uniformly elevated reversal risk.",
+      "averaged_direction_score": 32,
+      "averaged_reversal_risk": 54,
+      "disparity_metric": 3,
+      "pass_agreement": "Three Lean Up calls; low disparity but uniformly elevated reversal risk.",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "A July business update de-risked the quarter, but the reaction now depends on whether new management can guide to durable traffic and EBITDA recovery.",
+      "what_the_market_expects": "About $0.16 EPS and $845.6M revenue; July commentary said revenue should reach or exceed the prior high end and adjusted EBITDA should exceed guidance.",
+      "what_could_make_stock_go_up": "Traffic improves from the reported -2.5% trend and FY27 margins benefit from divestiture and cost actions.",
+      "what_could_make_stock_go_down": "New guidance reveals weak traffic durability, rent burden or transition disruption.",
+      "reversal_risk_assessment": "Rally and turnaround optimism raise bar",
+      "reddit_social_consumer_sentiment_read": "Legacy brand controversy remains visible, but current investable social signal is mixed and was not weighted materially.",
+      "options_positioning_read": "Options imply roughly 15.2%, about twice the ten-year average move, signaling unusually high event uncertainty.",
+      "analyst_estimate_revision_read": "Targets rose after Q3 and the July update, but ratings remain split from Sell to Overweight.",
+      "base_case": "A July business update de-risked the quarter, but the reaction now depends on whether new management can guide to durable traffic and EBITDA recovery.",
+      "bull_case": "Traffic improves from the reported -2.5% trend and FY27 margins benefit from divestiture and cost actions.",
+      "bear_case": "New guidance reveals weak traffic durability, rent burden or transition disruption.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_view": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "Repeated low-bar turnaround reversal floor applied.",
+      "key_sources": [
+        "https://investor.crackerbarrel.com/news-releases/news-release-details/cracker-barrel-fiscal-2026-fourth-quarter-conference-call",
+        "https://crackerbarrel.gcs-web.com/news-releases/news-release-details/cracker-barrel-announces-strategic-actions",
+        "https://crackerbarrel.gcs-web.com/news-releases/news-release-details/cracker-barrel-reports-third-quarter-fiscal-2026-results-and-0",
+        "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61785035/cracker-barrel-likely-to-report-lower-q4-earnings-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "KBH",
+      "consensus_summary": "Three Lean Down calls; low disparity, but reversal risk stayed high.",
+      "averaged_direction_score": -33,
+      "averaged_reversal_risk": 61,
+      "disparity_metric": 4,
+      "pass_agreement": "Three Lean Down calls; low disparity, but reversal risk stayed high.",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Weak orders and backlog plus rate pressure lean down unless the promised sequential margin recovery and order stabilization are clear.",
+      "what_the_market_expects": "About $0.89-$0.90 EPS and $1.30-$1.31B revenue, inside management's $1.20-$1.35B housing-revenue range and 16.0%-16.6% adjusted gross-margin guide.",
+      "what_could_make_stock_go_up": "Margin reaches the high end, orders stabilize and Q4 guidance confirms continued sequential recovery.",
+      "what_could_make_stock_go_down": "Incentives deepen, orders/backlog deteriorate and Q4 margin guidance slips.",
+      "reversal_risk_assessment": "Low bar plus buybacks can spark relief",
+      "reddit_social_consumer_sentiment_read": "Ticker-specific social evidence was sparse or noisy and was not weighted materially.",
+      "options_positioning_read": "Options imply about 10.3% versus a 7.8% ten-year average; the prior report triggered a 16.7% relief rally.",
+      "analyst_estimate_revision_read": "Consensus sits close to management's range midpoint, leaving the order and guide quality more important than headline EPS.",
+      "base_case": "Weak orders and backlog plus rate pressure lean down unless the promised sequential margin recovery and order stabilization are clear.",
+      "bull_case": "Margin reaches the high end, orders stabilize and Q4 guidance confirms continued sequential recovery.",
+      "bear_case": "Incentives deepen, orders/backlog deteriorate and Q4 margin guidance slips.",
+      "final_directional_judgment": "Lean Down",
+      "research_allocation_view": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "Repeated low-bar relief caution applied.",
+      "key_sources": [
+        "https://www.investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-TO-RELEASE-2026-THIRD-QUARTER-EARNINGS-ON-SEPTEMBER-22-2026/default.aspx",
+        "https://investor.kbhome.com/company-news/news-releases/press-release-details/2026/KB-HOME-REPORTS-2026-SECOND-QUARTER-RESULTS/default.aspx",
+        "https://earnings-watcher.com/wiki/kbh-implied-move",
+        "https://www.fxempire.com/stocks/kbh/earnings"
+      ]
+    },
+    {
+      "ticker": "GIS",
+      "consensus_summary": "All passes clustered near the Lean Down/Neutral boundary.",
+      "averaged_direction_score": -23,
+      "averaged_reversal_risk": 57,
+      "disparity_metric": 4,
+      "pass_agreement": "All passes clustered near the Lean Down/Neutral boundary.",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Peak inflation and shipment timing pressure Q1, but improving retail trends and a recently reaffirmed annual outlook make the downside edge too weak.",
+      "what_the_market_expects": "About $0.72 EPS and $4.34B revenue; FY27 guidance remains organic sales -1.5% to +0.5% and adjusted EPS $3.00-$3.20.",
+      "what_could_make_stock_go_up": "Volume/share gains and cost savings make Q1 less weak than feared while guidance holds.",
+      "what_could_make_stock_go_down": "RBC's below-consensus margin view proves right and price investment fails to restore profitable volume.",
+      "reversal_risk_assessment": "De-risked stock and reaffirmed guide",
+      "reddit_social_consumer_sentiment_read": "Ticker-specific social evidence was sparse or noisy and was not weighted materially.",
+      "options_positioning_read": "Options imply roughly 8.6%, well above the 5.2% ten-year average; the stock is down about 20% in 2026.",
+      "analyst_estimate_revision_read": "EPS consensus edged up 0.4% over 30 days, but RBC and UBS remained cautious on inflation and cost pressure.",
+      "base_case": "Peak inflation and shipment timing pressure Q1, but improving retail trends and a recently reaffirmed annual outlook make the downside edge too weak.",
+      "bull_case": "Volume/share gains and cost savings make Q1 less weak than feared while guidance holds.",
+      "bear_case": "RBC's below-consensus margin view proves right and price investment fails to restore profitable volume.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "research_allocation_view": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "Repeated low-bar reversal caution applied.",
+      "key_sources": [
+        "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-to-Webcast-Fiscal-2027-First-Quarter-Earnings-Results-on-September-23-2026/default.aspx",
+        "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reaffirms-Annual-Guidance-and-Provides-Business-Update-at-2026-Barclays-Global-Consumer-Staples-Conference/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/40704/000162828026046337/a20260701ex99.htm",
+        "https://finance.yahoo.com/news/general-mills-likely-miss-quarterly-155010022.html",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "MANU",
+      "consensus_summary": "All passes were Neutral-to-Lean Up; high reversal risk was consistent.",
+      "averaged_direction_score": 23,
+      "averaged_reversal_risk": 66,
+      "disparity_metric": 4,
+      "pass_agreement": "All passes were Neutral-to-Lean Up; high reversal risk was consistent.",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Cost savings and raised FY26 guidance are constructive, but the strong run and ownership, stadium and squad narratives overwhelm a clean earnings edge.",
+      "what_the_market_expects": "The decisive bar is forward EBITDA after FY26 revenue guidance rose to £655-£665M and adjusted EBITDA to £200-£210M; published EPS estimates conflict.",
+      "what_could_make_stock_go_up": "FY27 commercial, matchday and broadcasting outlook extends the cost-led earnings improvement.",
+      "what_could_make_stock_go_down": "Cash/debt, squad spending or stadium funding offsets strong backward-looking EBITDA.",
+      "reversal_risk_assessment": "32% YTD run; ownership narrative",
+      "reddit_social_consumer_sentiment_read": "Fan discussion is intense but dominated by team performance and ownership narratives; it was treated as noisy.",
+      "options_positioning_read": "Options imply about 14.9% versus a 6% ten-year average; positioning is event-heavy.",
+      "analyst_estimate_revision_read": "Sell-side evidence is sparse and EPS estimates conflict, so EBITDA guidance carries more weight.",
+      "base_case": "Cost savings and raised FY26 guidance are constructive, but the strong run and ownership, stadium and squad narratives overwhelm a clean earnings edge.",
+      "bull_case": "FY27 commercial, matchday and broadcasting outlook extends the cost-led earnings improvement.",
+      "bear_case": "Cash/debt, squad spending or stadium funding offsets strong backward-looking EBITDA.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "research_allocation_view": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_effect": "Low disparity supported conviction quality; other risks still constrained confidence.",
+      "method_update_note": "Repeated priced-in narrative penalty applied.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1549107/000110465926106122/tm2625015d1_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1549107/000110465926066584/tm2615476d1_ex99-1.htm",
+        "https://ir.manutd.com/financial-information/quarterly-reports/2026.aspx",
+        "https://earnings-watcher.com/wiki/manu-implied-move"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
