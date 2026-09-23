@@ -1,1 +1,253 @@
-{"generation_timestamp":"2026-09-23T17:02:00Z","covered_report_window":{"after_close":"2026-09-23","before_open":"2026-09-24","timezone":"America/New_York"},"report_type":"US1_full_ranked_earnings_report","market_context_summary":"U.S. equities pulled back as the 10-year Treasury yield approached 5%, oil rebounded, and investors digested a strong flash PMI and further Fed tightening risk; this raises valuation and macro sensitivity for event reactions.","companies_reviewed_count":4,"top_setups":{"upward":["SNX","DRI","SFIX"],"downward":[]},"ranked_companies":[{"rank":1,"ticker":"SNX","company":"TD SYNNEX Corporation","timing":"Before market open 2026-09-24","direction_call":"Lean Up","direction_score":57,"reversal_risk":45,"disparity":9,"confidence":"Medium","expected_driver":"Hyve AI infrastructure growth and Q4 guide","key_risk_to_call":"Raised expectations after a 4.6% pre-event rally","evidence_quality":"High","pass_agreement":"3/3 bullish","method_update_note":"Expectation-bar rule applied; no new method change","one_sentence_thesis":"AI infrastructure and broad IT demand support another beat, but the sharp pre-report rally makes guidance quality decisive.","market_expectation_summary":"Consensus non-GAAP EPS about $4.64-$4.68 versus company guidance of $4.25-$4.75, with revenue expected within the $18.2-$19.0 billion range.","upside_case_summary":"Hyve growth, distribution resilience, and Q4 guidance above the raised bar.","downside_case_summary":"Gross-margin mix pressure or merely in-line guidance triggers a sell-the-news response.","options_or_positioning_summary":"One live calendar showed about a 6.5% implied move; shares were up about 4.6% intraday before the event.","analyst_revision_summary":"Consensus sits near the upper half of management's EPS range; the company has beaten consensus in four straight quarters.","key_sources":["https://ir.tdsynnex.com/news/news-details/2026/TD-SYNNEX-to-Announce-Third-Quarter-Fiscal-2026-Results-on-September-24-2026/default.aspx","https://www.sec.gov/Archives/edgar/data/1177394/000162828026045349/ex991-fy26q2pressrelease.htm","https://www.zacks.com/stock/news/2993142/td-synnex-to-report-q3-earnings-whats-in-the-cards-for-the-stock"]},{"rank":2,"ticker":"DRI","company":"Darden Restaurants, Inc.","timing":"Before market open 2026-09-24","direction_call":"Lean Up","direction_score":39,"reversal_risk":38,"disparity":11,"confidence":"Medium","expected_driver":"LongHorn and consolidated same-restaurant sales","key_risk_to_call":"Olive Garden softness and food-cost inflation","evidence_quality":"High","pass_agreement":"3/3 bullish","method_update_note":"Key-metric and forward-look rules applied; no new method change","one_sentence_thesis":"LongHorn strength and solid consolidated comps can support a modest positive reaction if full-year guidance remains intact.","market_expectation_summary":"Street expects roughly $2.05-$2.06 EPS and $3.2-$3.21 billion revenue; Morgan Stanley estimates 3.6% consolidated same-store sales versus 3.1% consensus.","upside_case_summary":"LongHorn comps near the high-single digits, consolidated comps beat, and guidance is reiterated or nudged higher.","downside_case_summary":"Olive Garden traffic disappoints and beef, seafood, or labor inflation compresses margins.","options_or_positioning_summary":"Published implied-move estimates were inconsistent; no high-confidence event move is used in scoring.","analyst_revision_summary":"Several recent target increases and a modest upward EPS revision signal a firmer bar.","key_sources":["https://www.nasdaq.com/press-release/darden-restaurants-release-fiscal-2027-first-quarter-results-september-24-2026-2026","https://www.sec.gov/Archives/edgar/data/940944/000094094426000016/exhibit991-q4fy26.htm","https://finance.yahoo.com/markets/stocks/articles/darden-beat-first-quarter-street-153211979.html"]},{"rank":3,"ticker":"SFIX","company":"Stitch Fix, Inc.","timing":"After market close 2026-09-23","direction_call":"Lean Up","direction_score":26,"reversal_risk":62,"disparity":18,"confidence":"Low","expected_driver":"Active-client trend and FY2027 outlook","key_risk_to_call":"Client attrition, margin pressure, volatile low-priced stock","evidence_quality":"Medium","pass_agreement":"2 bullish, 1 neutral","method_update_note":"Forward-look and reversal-risk rules applied; no new method change","one_sentence_thesis":"Sequential client stabilization and continued revenue growth offer relief upside, but the annual outlook and still-negative year-over-year client trend dominate.","market_expectation_summary":"Consensus is about a $0.06 loss on $324.65 million revenue, broadly consistent with company Q4 revenue guidance of $322-$327 million.","upside_case_summary":"Active clients grow sequentially again, revenue exceeds guidance, and FY2027 signals sustainable growth.","downside_case_summary":"Weak client acquisition or margin outlook overwhelms another headline beat.","options_or_positioning_summary":"Options imply roughly a 19%-25% move; short interest was reported near 10%, supporting both squeeze and reversal risk.","analyst_revision_summary":"Evidence of broad recent estimate revisions is limited; consensus remains near management's Q4 range.","key_sources":["https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Date-for-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-and-Conference-Call/default.aspx","https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Third-Quarter-of-Fiscal-2026-Financial-Results/default.aspx","https://www.benzinga.com/quote/sfix/earnings-forecasts"]},{"rank":4,"ticker":"FUL","company":"H.B. Fuller Company","timing":"After market close 2026-09-23","direction_call":"Neutral / No Edge","direction_score":19,"reversal_risk":51,"disparity":20,"confidence":"Low","expected_driver":"Organic volume and adjusted EBITDA margin","key_risk_to_call":"Estimate cuts, raw materials, acquisition/activist noise","evidence_quality":"Medium","pass_agreement":"1 lean-up, 2 neutral","method_update_note":"Expectation-bar and hidden-risk scan applied; no new method change","one_sentence_thesis":"Low valuation and a depressed share price create relief potential, but downward estimate revisions and strategic uncertainty leave no reliable directional edge.","market_expectation_summary":"Consensus is about $1.46-$1.47 EPS and $940-$948 million revenue; the EPS estimate fell about 1.9% over 30 days.","upside_case_summary":"Margins hold, industrial demand improves, and management resolves strategic uncertainty constructively.","downside_case_summary":"Raw-material pressure, weak organic volume, or AMS/BAS capital-allocation concerns dominate.","options_or_positioning_summary":"Reliable sources disagreed sharply on implied move, so options magnitude is treated as low-quality evidence.","analyst_revision_summary":"The current-quarter EPS consensus was revised down 1.9% in the prior 30 days.","key_sources":["https://investors.hbfuller.com/news/news-details/2026/H-B--Fuller-to-Report-Third-Quarter-2026-Results-on-September-23-2026/default.aspx","https://www.zacks.com/stock/news/2991885/stay-ahead-of-the-game-with-h-b-fuller-ful-q3-earnings-wall-streets-insights-on-key-metrics","https://www.investing.com/news/earnings/h-b-fuller-set-to-report-earnings-as-activist-pressure-mounts-93CH-4913246"]}],"research_allocation_view":{"qualified":[{"ticker":"DRI","direction":"Lean Up","allocation_percent":100}],"unallocated_percent":0,"excluded":[{"ticker":"SNX","reason":"reversal risk above 40"},{"ticker":"SFIX","reason":"direction score below or equal to 30 and reversal risk above 40"},{"ticker":"FUL","reason":"direction score below or equal to 30 and reversal risk above 40"}],"not_financial_advice":true},"detailed_company_sections":[{"ticker":"SNX","pass_scores":[54,58,59],"pass_reversal_risks":[43,47,46],"consensus_note":"Tight bullish agreement; expectations risk capped confidence."},{"ticker":"DRI","pass_scores":[35,40,42],"pass_reversal_risks":[36,39,39],"consensus_note":"Tight lean-up agreement around same-store sales and guidance."},{"ticker":"SFIX","pass_scores":[18,27,33],"pass_reversal_risks":[58,63,65],"consensus_note":"Material disagreement on turnaround durability; high reversal risk."},{"ticker":"FUL","pass_scores":[10,19,28],"pass_reversal_risks":[47,52,54],"consensus_note":"Material disagreement and conflicting evidence support Neutral / No Edge."}],"disclaimer_text":"This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."}
+{
+  "generation_timestamp": "2026-09-23T19:07:00+02:00",
+  "covered_report_window": {
+    "after_close": "Wednesday, September 23, 2026 after 4:00 p.m. ET",
+    "before_open": "Thursday, September 24, 2026 before 9:30 a.m. ET",
+    "timezone": "America/New_York"
+  },
+  "report_type": "US1_full_ranked_earnings_report",
+  "market_context_summary": "Stocks entered the window near record territory while oil and the 10-year Treasury yield remained elevated after a recent Fed rate increase. Thursday jobless claims at 8:30 a.m. ET add macro-event risk around the premarket earnings reactions.",
+  "companies_reviewed_count": 4,
+  "shared_qualified_universe": [
+    "FUL",
+    "SFIX",
+    "DRI",
+    "SNX"
+  ],
+  "excluded_before_scoring": [
+    {
+      "ticker": "BXMT",
+      "reason": "calendar carryover; company and higher-quality data point to late October"
+    },
+    {
+      "ticker": "DAVA",
+      "reason": "September 24 date remained estimated and unconfirmed"
+    }
+  ],
+  "top_setups": {
+    "upward": [
+      "FUL",
+      "SNX",
+      "SFIX"
+    ],
+    "downward": [
+      "DRI"
+    ]
+  },
+  "disparity_method": "Average of (mean pairwise absolute direction-score gap divided by 2) and mean pairwise absolute reversal-risk gap; rounded to 0-100.",
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "FUL",
+      "company": "H.B. Fuller Company",
+      "timing": "After market close 2026-09-23",
+      "direction_call": "Lean Up",
+      "direction_score": 35,
+      "reversal_risk": 38.3,
+      "disparity": 3,
+      "confidence": "Medium",
+      "expected_driver": "Organic volume / adjusted EBITDA margin",
+      "key_risk_to_call": "AMS financing; industrial softness; strategic noise",
+      "evidence_quality": "Medium-High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Existing key-metric and hidden-risk checks applied; no new method change",
+      "one_sentence_thesis": "Guided mid-single-digit revenue growth and $180-$190 million Q3 adjusted EBITDA create a modest beat path, while acquisition and activist-related capital-allocation risk cap conviction.",
+      "market_expectation_summary": "Street EPS is about $1.46-$1.47 and revenue about $948 million; management guided Q3 revenue up mid-single digits and adjusted EBITDA of $180-$190 million.",
+      "upside_case_summary": "Organic volumes stabilize, pricing and raw materials support margin, and EBITDA lands above the guide midpoint.",
+      "downside_case_summary": "Weak industrial volume or AMS-related leverage and integration concerns outweigh a headline beat.",
+      "options_or_positioning_summary": "Published implied-move estimates were inconsistent; TipRanks showed about 10.4%, so options magnitude received little scoring weight.",
+      "analyst_revision_summary": "Consensus EPS remains near $1.46-$1.47; evidence of a broad late upward revision cycle is limited.",
+      "key_sources": [
+        "https://investors.hbfuller.com/news/news-details/2026/H-B--Fuller-to-Report-Third-Quarter-2026-Results-on-September-23-2026/default.aspx",
+        "https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx",
+        "https://www.zacks.com/stock/news/2991885/stay-ahead-of-the-game-with-h-b-fuller-ful-q3-earnings-wall-streets-insights-on-key-metrics"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "SNX",
+      "company": "TD SYNNEX Corporation",
+      "timing": "Before market open 2026-09-24",
+      "direction_call": "Lean Up",
+      "direction_score": 38.3,
+      "reversal_risk": 51.7,
+      "disparity": 4,
+      "confidence": "Medium",
+      "expected_driver": "Hyve gross billings / cash conversion",
+      "key_risk_to_call": "High bar after rally; margin-mix dilution",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Standing priced-in premium-growth penalty applied; no new method change",
+      "one_sentence_thesis": "Hyve and broad IT demand support another beat, but a sharp pre-event rally and weak cash conversion make Q4 guidance and margin quality decisive.",
+      "market_expectation_summary": "Consensus is roughly $4.68 EPS and $18.79 billion revenue, near the upper half of management's $4.25-$4.75 and $18.2-$19.0 billion ranges.",
+      "upside_case_summary": "Hyve growth persists, Distribution remains broad-based, and Q4 guidance clears a raised bar.",
+      "downside_case_summary": "Gross-margin pressure, inventory-funded growth, or merely in-line guidance triggers a sell-the-news reaction.",
+      "options_or_positioning_summary": "TipRanks showed about a 9.3% implied move; shares were up about 4.2% intraday before the report.",
+      "analyst_revision_summary": "One fiscal-2026 estimate moved higher in the prior 60 days; the stock had gained 6.4% over four weeks before its 4.2% event-eve advance.",
+      "key_sources": [
+        "https://ir.tdsynnex.com/news/news-details/2026/TD-SYNNEX-to-Announce-Third-Quarter-Fiscal-2026-Results-on-September-24-2026/default.aspx",
+        "https://ir.tdsynnex.com/news/news-details/2026/TD-SYNNEX-Reports-Record-Fiscal-2026-Second-Quarter-Results/default.aspx",
+        "https://www.zacks.com/stock/news/2992912/heres-why-td-synnex-snx-is-a-strong-momentum-stock"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "DRI",
+      "company": "Darden Restaurants, Inc.",
+      "timing": "Before market open 2026-09-24",
+      "direction_call": "Lean Down",
+      "direction_score": -29,
+      "reversal_risk": 55,
+      "disparity": 4,
+      "confidence": "Medium-Low",
+      "expected_driver": "Consolidated and Olive Garden same-store sales",
+      "key_risk_to_call": "Relief rally if guide holds and LongHorn carries",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 downside; one pass near Neutral",
+      "method_update_note": "Existing key-metric and low-bar reversal checks applied; no new method change",
+      "one_sentence_thesis": "A roughly 3.1% consolidated comp bar and softer Olive Garden expectations leave modest downside if traffic or margin misses, but intact guidance creates substantial relief risk.",
+      "market_expectation_summary": "Street expects about $2.05 EPS and $3.2 billion revenue; UBS sees 2.9% consolidated comps and Oppenheimer 2.8%, both below the roughly 3.1% consensus comp bar.",
+      "upside_case_summary": "LongHorn remains strong, Olive Garden clears the low bar, and FY2027 guidance stays intact.",
+      "downside_case_summary": "Olive Garden traffic disappoints while first-quarter beef, seafood, and fuel inflation compress margin.",
+      "options_or_positioning_summary": "TipRanks showed about an 8.3% implied move, a demanding hurdle for a modest directional thesis.",
+      "analyst_revision_summary": "Recent previews cluster near $2.03-$2.05 EPS and expect guidance reiteration, implying limited tolerance for a material comp miss.",
+      "key_sources": [
+        "https://stockanalysis.com/stocks/dri/transcripts/609408-q4-2026/",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://finance.yahoo.com/markets/stocks/articles/darden-restaurants-seen-reiterating-fiscal-154317430.html"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "SFIX",
+      "company": "Stitch Fix, Inc.",
+      "timing": "After market close 2026-09-23",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 22,
+      "reversal_risk": 63.3,
+      "disparity": 6,
+      "confidence": "Low",
+      "expected_driver": "Active-client stabilization / FY2027 outlook",
+      "key_risk_to_call": "Client relapse; margin pressure; wide event move",
+      "evidence_quality": "Medium",
+      "pass_agreement": "2 Lean Up, 1 Neutral",
+      "method_update_note": "Standing low-bar reversal-risk floor applied; no new method change",
+      "one_sentence_thesis": "Sequential client stabilization supports relief potential, but FY2027 durability, gross margin, and a roughly 20% options hurdle leave no reliable directional edge.",
+      "market_expectation_summary": "Consensus is about a $0.06 loss on $324.65 million revenue, close to management's $322-$327 million Q4 revenue range.",
+      "upside_case_summary": "Active clients rise again, revenue beats the range, and FY2027 points to sustainable growth and cash generation.",
+      "downside_case_summary": "Active clients relapse or acquisition costs and gross margin weaken despite acceptable headline revenue.",
+      "options_or_positioning_summary": "TipRanks showed roughly a 20.4% implied move; the stock was down about 6.4% intraday, increasing both relief and downside path risk.",
+      "analyst_revision_summary": "The analyst consensus remains Hold, and recent target cuts indicate skepticism about turnaround durability.",
+      "key_sources": [
+        "https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Date-for-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-and-Conference-Call/default.aspx",
+        "https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Third-Quarter-of-Fiscal-2026-Financial-Results/default.aspx",
+        "https://www.benzinga.com/quote/SFIX/price-targets"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified": [
+      {
+        "ticker": "FUL",
+        "direction": "Lean Up",
+        "allocation_percent": 60,
+        "reason": "score above 30, reversal risk below 40, tight three-pass agreement"
+      }
+    ],
+    "unallocated_percent": 40,
+    "excluded": [
+      {
+        "ticker": "SNX",
+        "reason": "reversal risk above 40"
+      },
+      {
+        "ticker": "DRI",
+        "reason": "absolute direction score below or equal to 30 and reversal risk above 40"
+      },
+      {
+        "ticker": "SFIX",
+        "reason": "absolute direction score below or equal to 30 and reversal risk above 40"
+      }
+    ],
+    "not_financial_advice": true
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "FUL",
+      "pass_scores": [
+        36,
+        31,
+        38
+      ],
+      "pass_reversal_risks": [
+        36,
+        39,
+        40
+      ],
+      "averaged_direction_score": 35,
+      "averaged_reversal_risk": 38.3,
+      "disparity": 3,
+      "consensus_note": "Tight Lean Up agreement; capital-allocation noise caps confidence.",
+      "allocation_priority": "Qualified; 60% research attention, 40% held unallocated."
+    },
+    {
+      "ticker": "SNX",
+      "pass_scores": [
+        44,
+        32,
+        39
+      ],
+      "pass_reversal_risks": [
+        48,
+        55,
+        52
+      ],
+      "averaged_direction_score": 38.3,
+      "averaged_reversal_risk": 51.7,
+      "disparity": 4,
+      "consensus_note": "Tight Lean Up agreement; high bar and pre-event rally elevate opposite-direction risk.",
+      "allocation_priority": "Excluded because reversal risk exceeds 40."
+    },
+    {
+      "ticker": "DRI",
+      "pass_scores": [
+        -31,
+        -22,
+        -34
+      ],
+      "pass_reversal_risks": [
+        52,
+        58,
+        55
+      ],
+      "averaged_direction_score": -29,
+      "averaged_reversal_risk": 55,
+      "disparity": 4,
+      "consensus_note": "Directionally aligned, but one pass remained close to Neutral and relief risk is meaningful.",
+      "allocation_priority": "Excluded because score strength is insufficient and reversal risk is high."
+    },
+    {
+      "ticker": "SFIX",
+      "pass_scores": [
+        29,
+        12,
+        25
+      ],
+      "pass_reversal_risks": [
+        64,
+        58,
+        68
+      ],
+      "averaged_direction_score": 22,
+      "averaged_reversal_risk": 63.3,
+      "disparity": 6,
+      "consensus_note": "Material call-category disagreement; final result is Neutral / No Edge.",
+      "allocation_priority": "Excluded because score is below threshold and reversal risk is high."
+    }
+  ],
+  "lessons_review": {
+    "method_change_for_run": false,
+    "note": "Existing timing-confirmation, decisive-KPI, priced-in-growth, and low-bar reversal controls were sufficient."
+  },
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
