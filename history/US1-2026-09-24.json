@@ -1,0 +1,302 @@
+{
+  "generation_timestamp": "2026-09-24T17:02:01Z",
+  "covered_report_window": "Thursday, September 24, 2026 after the U.S. market close through Friday, September 25, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "The Fed raised its target range 25 bp to 3.75%-4.00% on September 16 as inflation remained elevated. Thursday futures were lower, with Nasdaq futures down about 1%, while Friday brings durable-goods and final University of Michigan sentiment data; the preliminary sentiment reading was 47.8 with one-year inflation expectations at 4.6%.",
+  "companies_reviewed_count": 4,
+  "top_setups": {
+    "upward": [
+      "LGCY",
+      "TBN"
+    ],
+    "downward": [
+      "COST",
+      "SCHL"
+    ],
+    "note": "Only two qualified upward and two qualified downward setups existed; no third name was manufactured."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "LGCY",
+      "company": "Legacy Education Inc.",
+      "timing": "After market close Thursday, September 24, 2026",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 38,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Enrollment growth and operating leverage",
+      "key_risk_to_call": "Thin coverage; G&A/bad-debt creep",
+      "evidence_quality": "Medium-high",
+      "pass_agreement": "All three Lean Up; scores +34 to +44",
+      "method_update_note": "Key-metric-first and small-cap hidden-risk scan applied; no new method change.",
+      "one_sentence_thesis": "Enrollment growth, three recent beats, upward revisions and a de-rated valuation favor upside if new starts continue converting into margin leverage.",
+      "market_expectation_summary": "Consensus is about $0.15 EPS on $20.2-$20.6M revenue; the real bar is continued enrollment/new-start growth with controlled G&A.",
+      "upside_case_summary": "Double-digit enrollment/revenue growth, educational-services leverage and a credible Texas expansion outlook.",
+      "downside_case_summary": "Marketing, bad debt or professional costs outrun revenue, or enrollment growth slows.",
+      "options_or_positioning_summary": "No reliable liquid options-implied move found; short interest was only about 0.8% of float, so squeeze support is limited.",
+      "analyst_revision_summary": "Three upward estimate revisions and no cuts were reported over 30 days, but coverage is very thin.",
+      "key_sources": [
+        "https://ir.legacyed.com/",
+        "https://ir.legacyed.com/news-events/press-releases/detail/35/legacy-education-inc-reports-third-quarter-fiscal-2026-growth-across-revenue-enrollment-and-earnings",
+        "https://stockdecider.com/stocks/LGCY",
+        "https://www.chartmill.com/stock/quote/LGCY/analyst-ratings"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "TBN",
+      "company": "Tamboran Resources Corporation",
+      "timing": "Before market open Friday, September 25, 2026",
+      "direction_call": "Lean Up",
+      "direction_score": 26,
+      "reversal_risk": 64,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "First-gas ramp toward 40 MMcf/d",
+      "key_risk_to_call": "Ramp delay, cash burn or dilution",
+      "evidence_quality": "Medium-high",
+      "pass_agreement": "Two Lean Up, one Neutral; scores +18 to +32",
+      "method_update_note": "Key-metric-first plus financing-risk scan applied; no new method change.",
+      "one_sentence_thesis": "First gas materially de-risks the Beetaloo story, but production-rate, cash-burn and financing details matter far more than EPS and make the immediate reaction highly reversible.",
+      "market_expectation_summary": "Investors need evidence that September first sales can ramp toward the roughly 40 MMcf/d gross target without a fresh funding surprise.",
+      "upside_case_summary": "Stable commissioning, clear production ramp, funded 2026-27 work plan and constructive commercialization milestones.",
+      "downside_case_summary": "Commissioning slippage, weak initial volumes, higher capex or renewed equity-financing risk.",
+      "options_or_positioning_summary": "No reliable implied move found; short interest was about 1.9% of float but 4.6 days to cover, insufficient alone for a squeeze thesis.",
+      "analyst_revision_summary": "Sell-side targets remain broadly above spot, but rating aggregators conflict and event-specific EPS estimates are not decision-useful.",
+      "key_sources": [
+        "https://ir.tamboran.com/",
+        "https://www.tamboran.com/corporate-calendar/",
+        "https://ir.tamboran.com/news-events/press-releases",
+        "https://www.sec.gov/Archives/edgar/data/1997652/000162828026034591/a260513thirdquarterfy26r.htm",
+        "https://www.marketbeat.com/stocks/NYSE/TBN/short-interest/"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "COST",
+      "company": "Costco Wholesale Corporation",
+      "timing": "After market close Thursday, September 24, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 55,
+      "disparity": 7,
+      "confidence": "Medium",
+      "expected_driver": "Membership-fee growth and core margin",
+      "key_risk_to_call": "Sales strength clears a high bar",
+      "evidence_quality": "High",
+      "pass_agreement": "Two Lean Down, one Neutral; scores -18 to -32",
+      "method_update_note": "Repeated high-bar/forward-look penalty materially applied; no new method change.",
+      "one_sentence_thesis": "Excellent sales and membership momentum face a roughly 45x earnings valuation and a best-case expense-control bar, leaving modest downside risk if core earnings quality is merely good.",
+      "market_expectation_summary": "Street estimates cluster near $6.53-$6.55 EPS and $94.9B revenue after Q4 net sales rose 11.3%; options imply roughly 3.2%-3.4%.",
+      "upside_case_summary": "Membership income, renewal quality and merchandise margin beat while management sounds confident on FY2027 costs.",
+      "downside_case_summary": "Core profit misses after stripping tariff/fuel benefits, or wage, fulfillment and reinvestment costs pressure margin.",
+      "options_or_positioning_summary": "Options imply about 3.2%-3.4%, below the cited 10-year peak-move average of 3.9%; pricing suggests a contained but meaningful reaction.",
+      "analyst_revision_summary": "Consensus remains bullish, but Oppenheimer warned that core earnings may fall short and called consensus a best-case expense-control outcome.",
+      "key_sources": [
+        "https://investor.costco.com/events-and-presentations/default.aspx?c=83830&p=irol-audioarchives",
+        "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://earnings-watcher.com/wiki/cost-implied-move",
+        "https://uk.investing.com/news/stock-market-news/costco-earnings-preview-setup-technicals-and-key-trading-scenarios-93CH-4880046"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "SCHL",
+      "company": "Scholastic Corporation",
+      "timing": "After market close Thursday, September 24, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 59,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "FY2027 EBITDA guide durability",
+      "key_risk_to_call": "Seasonal low bar enables relief",
+      "evidence_quality": "Medium-high",
+      "pass_agreement": "Two Lean Down, one Neutral; scores -20 to -34",
+      "method_update_note": "Key-metric-first and forward-guide override applied; no new method change.",
+      "one_sentence_thesis": "Education softness, a difficult publishing mix and cautious customer commentary slightly outweigh Book Fair momentum, but Q1 seasonality and depressed expectations make the call fragile.",
+      "market_expectation_summary": "Consensus is a $3.42 loss on about $224.7M revenue; management previously guided FY2027 revenue growth of 2%-4% and adjusted EBITDA of $135-$145M.",
+      "upside_case_summary": "Book Fair engagement, cost control and the publishing pipeline support full-year guidance despite the seasonal Q1 loss.",
+      "downside_case_summary": "Education funding pressure, weak Trade revenue or lower FY2027 EBITDA guidance.",
+      "options_or_positioning_summary": "Options imply about 12.7%, signaling a wide reaction band; no robust current short-interest read was used.",
+      "analyst_revision_summary": "Coverage is sparse and generally cautious; the prior quarter narrowly beat EPS but missed revenue materially.",
+      "key_sources": [
+        "https://investor.scholastic.com/news-releases/news-release-details/scholastic-corporation-announces-date-first-quarter-fiscal-2027",
+        "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-reports-fourth-quarter-and-fiscal-2026-results.html",
+        "https://www.zacks.com/stock/news/2991359/earnings-preview-scholastic-schl-q1-earnings-expected-to-decline",
+        "https://www.marketbeat.com/instant-alerts/upcoming-scholastic-schl-projected-to-post-quarterly-earnings-on-thursday-2026-09-17/",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "LGCY",
+        "direction": "Lean Up",
+        "share_percent": 70,
+        "why": "Score +39, reversal risk 38, disparity 5 and improving enrollment/estimate evidence."
+      },
+      {
+        "ticker": "UNALLOCATED",
+        "direction": "No allocation",
+        "share_percent": 30,
+        "why": "No second name cleared every threshold; weak ideas were not forced into the basket."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "TBN",
+        "reason": "Score +26 and reversal risk 64."
+      },
+      {
+        "ticker": "COST",
+        "reason": "Absolute score 27 and reversal risk 55."
+      },
+      {
+        "ticker": "SCHL",
+        "reason": "Absolute score 27, reversal risk 59 and Low confidence."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "LGCY",
+      "consensus_summary": "All three Lean Up; scores +34 to +44",
+      "averaged_direction_score": 39,
+      "averaged_reversal_risk": 38,
+      "disparity_metric": 5,
+      "pass_agreement_pattern": "All three Lean Up; scores +34 to +44",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Enrollment growth, three recent beats, upward revisions and a de-rated valuation favor upside if new starts continue converting into margin leverage.",
+      "expectation_summary": "Consensus is about $0.15 EPS on $20.2-$20.6M revenue; the real bar is continued enrollment/new-start growth with controlled G&A.",
+      "upside_case": "Double-digit enrollment/revenue growth, educational-services leverage and a credible Texas expansion outlook.",
+      "downside_case": "Marketing, bad debt or professional costs outrun revenue, or enrollment growth slows.",
+      "reversal_risk_assessment": "Low: de-rating and low short interest reduce crowding, though thin liquidity and cost surprises remain.",
+      "sentiment_read": "Little reliable retail discussion; social evidence was effectively zero-weighted.",
+      "positioning_read": "No reliable liquid options-implied move found; short interest was only about 0.8% of float, so squeeze support is limited.",
+      "analyst_revision_read": "Three upward estimate revisions and no cuts were reported over 30 days, but coverage is very thin.",
+      "base_case": "Enrollment stays strong and margins improve modestly, producing a small upside reaction.",
+      "bull_case": "Double-digit enrollment/revenue growth, educational-services leverage and a credible Texas expansion outlook.",
+      "bear_case": "Marketing, bad debt or professional costs outrun revenue, or enrollment growth slows.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority_note": "Qualified for the research basket on score, risk, disparity and evidence.",
+      "disparity_impact_note": "Low disparity modestly strengthened conviction.",
+      "method_update_note": "Key-metric-first and small-cap hidden-risk scan applied; no new method change.",
+      "key_sources": [
+        "https://ir.legacyed.com/",
+        "https://ir.legacyed.com/news-events/press-releases/detail/35/legacy-education-inc-reports-third-quarter-fiscal-2026-growth-across-revenue-enrollment-and-earnings",
+        "https://stockdecider.com/stocks/LGCY",
+        "https://www.chartmill.com/stock/quote/LGCY/analyst-ratings"
+      ]
+    },
+    {
+      "ticker": "TBN",
+      "consensus_summary": "Two Lean Up, one Neutral; scores +18 to +32",
+      "averaged_direction_score": 26,
+      "averaged_reversal_risk": 64,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "Two Lean Up, one Neutral; scores +18 to +32",
+      "recommendation": "Lean Up",
+      "confidence_level": "Low",
+      "thesis": "First gas materially de-risks the Beetaloo story, but production-rate, cash-burn and financing details matter far more than EPS and make the immediate reaction highly reversible.",
+      "expectation_summary": "Investors need evidence that September first sales can ramp toward the roughly 40 MMcf/d gross target without a fresh funding surprise.",
+      "upside_case": "Stable commissioning, clear production ramp, funded 2026-27 work plan and constructive commercialization milestones.",
+      "downside_case": "Commissioning slippage, weak initial volumes, higher capex or renewed equity-financing risk.",
+      "reversal_risk_assessment": "High: a positive operational headline can reverse on cash burn, dilution or ramp detail.",
+      "sentiment_read": "Speculative retail interest exists around Beetaloo commercialization, but promotional bias is high.",
+      "positioning_read": "No reliable implied move found; short interest was about 1.9% of float but 4.6 days to cover, insufficient alone for a squeeze thesis.",
+      "analyst_revision_read": "Sell-side targets remain broadly above spot, but rating aggregators conflict and event-specific EPS estimates are not decision-useful.",
+      "base_case": "Operational progress is affirmed but funding/ramp detail limits upside.",
+      "bull_case": "Stable commissioning, clear production ramp, funded 2026-27 work plan and constructive commercialization milestones.",
+      "bear_case": "Commissioning slippage, weak initial volumes, higher capex or renewed equity-financing risk.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority_note": "Excluded: score is below 31 and reversal risk is high.",
+      "disparity_impact_note": "Moderate-low disparity helped, but did not overcome reversal risk or weak evidence.",
+      "method_update_note": "Key-metric-first plus financing-risk scan applied; no new method change.",
+      "key_sources": [
+        "https://ir.tamboran.com/",
+        "https://www.tamboran.com/corporate-calendar/",
+        "https://ir.tamboran.com/news-events/press-releases",
+        "https://www.sec.gov/Archives/edgar/data/1997652/000162828026034591/a260513thirdquarterfy26r.htm",
+        "https://www.marketbeat.com/stocks/NYSE/TBN/short-interest/"
+      ]
+    },
+    {
+      "ticker": "COST",
+      "consensus_summary": "Two Lean Down, one Neutral; scores -18 to -32",
+      "averaged_direction_score": -27,
+      "averaged_reversal_risk": 55,
+      "disparity_metric": 7,
+      "pass_agreement_pattern": "Two Lean Down, one Neutral; scores -18 to -32",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "Excellent sales and membership momentum face a roughly 45x earnings valuation and a best-case expense-control bar, leaving modest downside risk if core earnings quality is merely good.",
+      "expectation_summary": "Street estimates cluster near $6.53-$6.55 EPS and $94.9B revenue after Q4 net sales rose 11.3%; options imply roughly 3.2%-3.4%.",
+      "upside_case": "Membership income, renewal quality and merchandise margin beat while management sounds confident on FY2027 costs.",
+      "downside_case": "Core profit misses after stripping tariff/fuel benefits, or wage, fulfillment and reinvestment costs pressure margin.",
+      "reversal_risk_assessment": "Moderate: a clean beat can reverse the bearish call if fee income and margin quality exceed the real buy-side bar.",
+      "sentiment_read": "Investor sentiment is constructive but valuation-sensitive; social evidence was not given material weight.",
+      "positioning_read": "Options imply about 3.2%-3.4%, below the cited 10-year peak-move average of 3.9%; pricing suggests a contained but meaningful reaction.",
+      "analyst_revision_read": "Consensus remains bullish, but Oppenheimer warned that core earnings may fall short and called consensus a best-case expense-control outcome.",
+      "base_case": "Solid results but core margin quality is not enough for the valuation, producing modest downside.",
+      "bull_case": "Membership income, renewal quality and merchandise margin beat while management sounds confident on FY2027 costs.",
+      "bear_case": "Core profit misses after stripping tariff/fuel benefits, or wage, fulfillment and reinvestment costs pressure margin.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority_note": "Excluded: absolute score is below 31 and reversal risk exceeds 40.",
+      "disparity_impact_note": "Low disparity modestly strengthened conviction.",
+      "method_update_note": "Repeated high-bar/forward-look penalty materially applied; no new method change.",
+      "key_sources": [
+        "https://investor.costco.com/events-and-presentations/default.aspx?c=83830&p=irol-audioarchives",
+        "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://earnings-watcher.com/wiki/cost-implied-move",
+        "https://uk.investing.com/news/stock-market-news/costco-earnings-preview-setup-technicals-and-key-trading-scenarios-93CH-4880046"
+      ]
+    },
+    {
+      "ticker": "SCHL",
+      "consensus_summary": "Two Lean Down, one Neutral; scores -20 to -34",
+      "averaged_direction_score": -27,
+      "averaged_reversal_risk": 59,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "Two Lean Down, one Neutral; scores -20 to -34",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "thesis": "Education softness, a difficult publishing mix and cautious customer commentary slightly outweigh Book Fair momentum, but Q1 seasonality and depressed expectations make the call fragile.",
+      "expectation_summary": "Consensus is a $3.42 loss on about $224.7M revenue; management previously guided FY2027 revenue growth of 2%-4% and adjusted EBITDA of $135-$145M.",
+      "upside_case": "Book Fair engagement, cost control and the publishing pipeline support full-year guidance despite the seasonal Q1 loss.",
+      "downside_case": "Education funding pressure, weak Trade revenue or lower FY2027 EBITDA guidance.",
+      "reversal_risk_assessment": "Moderate: the seasonal loss is understood, so maintained guidance can spark relief despite weak quarterly optics.",
+      "sentiment_read": "Recent parent commentary on Book Fair selection was notably negative but anecdotal and not treated as ground truth.",
+      "positioning_read": "Options imply about 12.7%, signaling a wide reaction band; no robust current short-interest read was used.",
+      "analyst_revision_read": "Coverage is sparse and generally cautious; the prior quarter narrowly beat EPS but missed revenue materially.",
+      "base_case": "Seasonal loss lands near consensus and unchanged guidance yields a mixed-to-negative reaction.",
+      "bull_case": "Book Fair engagement, cost control and the publishing pipeline support full-year guidance despite the seasonal Q1 loss.",
+      "bear_case": "Education funding pressure, weak Trade revenue or lower FY2027 EBITDA guidance.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority_note": "Excluded: absolute score is below 31 and reversal risk is high.",
+      "disparity_impact_note": "Moderate-low disparity helped, but did not overcome reversal risk or weak evidence.",
+      "method_update_note": "Key-metric-first and forward-guide override applied; no new method change.",
+      "key_sources": [
+        "https://investor.scholastic.com/news-releases/news-release-details/scholastic-corporation-announces-date-first-quarter-fiscal-2027",
+        "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-reports-fourth-quarter-and-fiscal-2026-results.html",
+        "https://www.zacks.com/stock/news/2991359/earnings-preview-scholastic-schl-q1-earnings-expected-to-decline",
+        "https://www.marketbeat.com/instant-alerts/upcoming-scholastic-schl-projected-to-post-quarterly-earnings-on-thursday-2026-09-17/",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026"
+      ]
+    }
+  ],
+  "consensus_method": {
+    "passes": 3,
+    "disparity_definition": "0-100 composite of dispersion in independent direction scores and reversal-risk estimates; lower is tighter agreement.",
+    "strongest_names_disparity": "Low for LGCY; moderate-low for the other names.",
+    "lessons_review": "Existing expectation-bar, key-metric and forward-look guardrails were applied. No new method change was warranted from this run."
+  },
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
