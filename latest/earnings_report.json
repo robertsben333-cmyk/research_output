@@ -1,1 +1,302 @@
-{"generation_timestamp":"2026-09-23T17:09:59Z","covered_report_window":"Wednesday, September 23, 2026 after the U.S. market close through Thursday, September 24, 2026 before the U.S. market open.","report_type":"full_ranked_earnings_report","market_context_summary":"U.S. equities were lower intraday after stronger September flash PMIs pushed Treasury yields higher; the S&P 500 ETF was down about 0.8% and the Nasdaq-100 ETF about 1.1% near 12:52 p.m. ET. The backdrop also includes last week's 25 bp Federal Reserve rate increase, elevated oil-price volatility, and a 10-year Treasury yield near 5%, raising the hurdle for long-duration and consumer-sensitive setups.","companies_reviewed_count":7,"top_setups":{"upward":["FUL","SNX","DRI"],"downward":["SFIX"],"neutral_or_mixed":[]},"ranked_companies":[{"rank":1,"ticker":"FUL","company":"H.B. Fuller Company","timing":"After market close Wednesday, September 23, 2026","direction_call":"Lean Up","direction_score":37,"reversal_risk":39,"confidence":"Medium","expected_driver":"Organic revenue plus adjusted EBITDA margin and FY2026 cash-flow guidance","key_risk_to_call":"Volume softness, AMS leverage, or weaker margin/guide","evidence_quality":"High","one_sentence_thesis":"A de-rated share price, second-quarter margin expansion, and raised EBITDA/EPS guidance support upside if third-quarter organic volume and the $180-$190 million EBITDA guide are confirmed.","market_expectation_summary":"Consensus is about $1.47 adjusted EPS and $946-$948 million revenue; management guided to mid-single-digit revenue growth and $180-$190 million adjusted EBITDA for Q3.","upside_case_summary":"Positive volume, sustained pricing and restructuring benefits, EBITDA near or above the guide ceiling, and maintained or raised cash-flow guidance.","downside_case_summary":"Price-led growth masks weak volume, margin expansion stalls, AMS integration/leverage concerns rise, or management cuts the second-half cash-flow outlook.","options_or_positioning_summary":"Options imply roughly a 7.8% move; short interest was 5.76% of float with 5.1 days to cover at August 31, while shares had de-rated sharply from mid-August.","analyst_revision_summary":"Street ratings remain constructive, including a June JPMorgan upgrade to Overweight; current consensus targets are well above the share price, but much of that work predates the latest event.","key_sources":["https://investors.hbfuller.com/news/news-details/2026/H-B--Fuller-to-Report-Third-Quarter-2026-Results-on-September-23-2026/default.aspx","https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx","https://investors.hbfuller.com/news/news-details/2026/H-B--Fuller-Announces-AMS-Shareholders-Approve-Proposed-Acquisition/default.aspx","https://investors.hbfuller.com/news/news-details/2026/H-B--Fuller-Board-Unanimously-Rejects-Unsolicited-Proposal-from-Ancora/default.aspx","https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-23-2026","https://www.marketbeat.com/stocks/NYSE/FUL/short-interest/"],"disparity":8,"pass_agreement":"All three passes called Lean Up; score range +32 to +40.","method_update_note":"Existing high-bar/forward-guide guardrail applied; no new method change."},{"rank":2,"ticker":"DRI","company":"Darden Restaurants, Inc.","timing":"Before market open Thursday, September 24, 2026","direction_call":"Lean Up","direction_score":29,"reversal_risk":44,"confidence":"Medium","expected_driver":"Olive Garden same-restaurant sales and FY2027 SRS/EPS guidance","key_risk_to_call":"Olive Garden traffic, beef inflation, or guide pressure","evidence_quality":"High","one_sentence_thesis":"LongHorn strength, supportive analyst revisions, and intact full-year guidance offer modest upside, but soft Olive Garden traffic and food inflation keep the edge close to Neutral.","market_expectation_summary":"Consensus is roughly $2.05-$2.07 EPS on $3.2-$3.24 billion revenue; Olive Garden same-restaurant sales are expected around 0.5%-1.7%, versus much stronger LongHorn trends.","upside_case_summary":"Olive Garden traffic clears a low bar, LongHorn remains near high-single-digit SRS growth, and management maintains or raises 2.5%-3.5% SRS and $11.10-$11.35 EPS guidance.","downside_case_summary":"Flagship-brand traffic weakens, commodity/labor inflation compresses margins, or management narrows guidance toward the low end despite an acceptable quarter.","options_or_positioning_summary":"The October monthly straddle implied about 7.9%; short interest was 5.87% of float and 7.2 days to cover, creating some relief-squeeze support but also signaling skepticism.","analyst_revision_summary":"Recent actions skew positive, including target increases from Oppenheimer, Citi, Stephens, and Deutsche Bank, while UBS expects intact guidance despite Olive Garden softness.","key_sources":["https://investor.darden.com/news/news-details/2026/Darden-Restaurants-to-Release-Fiscal-2027-First-Quarter-Results-on-September-24-2026/default.aspx","https://www.sec.gov/Archives/edgar/data/940944/000094094426000016/exhibit991-q4fy26.htm","https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks","https://www.zacks.com/stock/news/2992810/gear-up-for-darden-restaurants-dri-q1-earnings-wall-street-estimates-for-key-metrics","https://www.optionslam.com/earnings/straddle/DRI","https://www.marketbeat.com/stocks/NYSE/DRI/short-interest/"],"disparity":12,"pass_agreement":"Two Lean Up passes and one Neutral pass; score range +22 to +35.","method_update_note":"Existing key-metric and forward-look guardrails applied; no new method change."},{"rank":3,"ticker":"SNX","company":"TD SYNNEX Corporation","timing":"Before market open Thursday, September 24, 2026","direction_call":"Lean Up","direction_score":36,"reversal_risk":62,"confidence":"Medium","expected_driver":"Hyve/AI gross billings, gross margin, and Q4 EPS guide","key_risk_to_call":"Beat-and-raise already priced; Hyve mix dilutes margin","evidence_quality":"High","one_sentence_thesis":"AI-infrastructure and Hyve momentum favor another beat, but a near-doubled year-to-date share price, buy-side estimates above consensus, and a pre-event rally make anything short of a strong Q4 raise vulnerable.","market_expectation_summary":"Consensus is about $4.64-$4.70 non-GAAP EPS and roughly $19.1 billion revenue, at or above the top of management's $18.2-$19.0 billion revenue and $4.25-$4.75 EPS ranges.","upside_case_summary":"Hyve growth remains exceptional, enterprise distribution stays resilient, margins expand, and the November-quarter guide clears a buy-side bar reportedly about 7% above consensus.","downside_case_summary":"Gross billings beat but low-margin Hyve mix compresses gross margin, Q4 guidance is merely in line, or investors sell the news after a sharp rerating.","options_or_positioning_summary":"The nearest quoted straddle implied roughly 9.2%; reported short interest was low near 2%, limiting squeeze support. Shares were up more than 4% intraday ahead of the event.","analyst_revision_summary":"Ten of eleven tracked analysts rate the shares Buy/Strong Buy, but Morgan Stanley cut its target to $334 from $374 while still expecting a strong beat and raise.","key_sources":["https://ir.tdsynnex.com/news/news-details/2026/TD-SYNNEX-to-Announce-Third-Quarter-Fiscal-2026-Results-on-September-24-2026/default.aspx","https://ir.tdsynnex.com/news/news-details/2026/TD-SYNNEX-Reports-Record-Fiscal-2026-Second-Quarter-Results/default.aspx","https://www.zacks.com/stock/news/2993142/td-synnex-to-report-q3-earnings-whats-in-the-cards-for-the-stock","https://finance.yahoo.com/markets/stocks/articles/td-synnex-earnings-seen-reigniting-150815125.html","https://stockanalysis.com/stocks/snx/forecast/","https://www.optionslam.com/earnings/straddle/SNX"],"disparity":16,"pass_agreement":"All three passes called Lean Up, but score intensity ranged +27 to +45 and risk estimates varied materially.","method_update_note":"Repeated beat-and-raise/high-bar guardrail materially raised reversal risk; no new method change."},{"rank":4,"ticker":"SFIX","company":"Stitch Fix, Inc.","timing":"After market close Wednesday, September 23, 2026","direction_call":"Lean Down","direction_score":-31,"reversal_risk":68,"confidence":"Low","expected_driver":"Active-client trajectory and FY2027 revenue/EBITDA outlook","key_risk_to_call":"Washed-out price, high short interest, low-bar relief squeeze","evidence_quality":"Medium-high","one_sentence_thesis":"Revenue growth is decelerating, active clients are expected to decline sequentially, and margin pressure remains, but the beaten-down share price and crowded short setup make the bearish call highly reversible.","market_expectation_summary":"Consensus is about a $0.06 loss on $325-$332 million revenue; management guided to $322-$327 million revenue and $7-$10 million adjusted EBITDA, with active clients expected down 0.5%-1.0% sequentially.","upside_case_summary":"Client retention and acquisition outperform, FY2027 client growth becomes credible, gross margin stabilizes, and free cash flow/buybacks support a sharp relief rally.","downside_case_summary":"Client losses extend beyond seasonality, revenue growth decelerates below roughly 4%, inventory/transportation pressure hurts margins, or FY2027 guidance disappoints.","options_or_positioning_summary":"Options sources imply roughly a 19%-25% move; short interest is around 10%-12% of float, making squeeze risk substantial. The stock was near a 52-week low and down about 20% since the prior report.","analyst_revision_summary":"Consensus remains Hold/Neutral; UBS cut its target to $4 from $4.50 in early September, while Northland maintained a $5 Buy target and Telsey maintained a $5 Hold target.","key_sources":["https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Date-for-Fourth-Quarter-and-Full-Fiscal-Year-2026-Financial-Results-and-Conference-Call/default.aspx","https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Third-Quarter-of-Fiscal-2026-Financial-Results/default.aspx","https://www.sec.gov/Archives/edgar/data/1576942/000162828026042504/sfix-20260502.htm","https://beta.earningswhispers.com/article/SFIX/20261","https://stockanalysis.com/stocks/sfix/forecast/","https://www.optionslam.com/earnings/straddle/SFIX"],"disparity":12,"pass_agreement":"Two Lean Down passes and one Neutral pass; score range -38 to -24.","method_update_note":"Existing low-bar reversal-risk guardrail applied; no new method change."}],"research_allocation_view":{"qualified_names":[{"ticker":"FUL","direction":"Lean Up","share_percent":60,"why":"Consensus score +37, reversal risk 39, low disparity 8, and high-quality evidence create the cleanest setup, though the edge is not strong enough to justify full deployment."},{"ticker":"UNALLOCATED","direction":"No allocation","share_percent":40,"why":"Only one name cleared every threshold; unused budget avoids forcing high-reversal or weak-conviction setups into the model."}],"excluded_high_reversal_or_weak_names":[{"ticker":"SNX","reason":"Direction score clears 30, but reversal risk 62 and disparity 16 are too high after the rerating and pre-event rally."},{"ticker":"DRI","reason":"Direction score +29 does not exceed the required absolute-score threshold and reversal risk is 44."},{"ticker":"SFIX","reason":"Direction score clears 30 in magnitude, but reversal risk 68 and Low confidence make relief-squeeze risk too high."}],"plain_statement":"This is a research prioritization model, not financial advice."},"detailed_company_sections":[{"ticker":"FUL","consensus_summary":"Three independent passes agreed on Lean Up, centered on organic growth and EBITDA-margin durability rather than headline EPS.","averaged_direction_score":37,"averaged_reversal_risk":39,"disparity_metric":8,"pass_agreement_pattern":"A +40/38 risk; B +32/43 risk; C +39/36 risk. All Lean Up.","recommendation":"Lean Up","confidence_level":"Medium","thesis":"De-rating plus operating leverage create a favorable but not forceful upside setup if volumes and cash flow hold.","expectation_summary":"$1.47 EPS, about $946-$948 million revenue, and $180-$190 million adjusted EBITDA guidance.","upside_case":"Positive volume and EBITDA above the guide midpoint with maintained/raised FY cash flow.","downside_case":"Weak volume quality, softer margin, acquisition leverage, or lowered cash-flow expectations.","reversal_risk_assessment":"Low-to-Moderate; a fine EPS print can still fall if growth is price-only or AMS financing dominates commentary.","sentiment_read":"Sparse retail discussion; one low-engagement bullish summary exists, so social evidence had negligible weight.","positioning_read":"About 7.8% implied move; 5.76% short float and 5.1 days to cover add modest squeeze potential.","analyst_revision_read":"Constructive ratings and large target upside, though several targets predate the current event setup.","base_case":"Small beat, guide maintained, shares modestly higher but possibly inside the implied move.","bull_case":"Volume turns positive, EBITDA clears $190 million, and FY cash guidance rises.","bear_case":"Reported EPS is acceptable but organic volume/margin or leverage commentary disappoints.","final_directional_judgment":"Lean Up, likely magnitude below or near the implied move unless guidance changes materially.","allocation_priority_note":"Qualified and assigned 60% of the notional research basket; 40% remains unallocated.","disparity_impact_note":"Low disparity strengthened conviction relative to every other name in the window.","method_update_note":"Existing high-bar/forward-guide guardrail applied; no new method change.","key_sources":["https://newsroom.hbfuller.com/press-releases/press-release-details/2026/H-B--Fuller-Reports-Second-Quarter-2026-Results/default.aspx","https://www.marketbeat.com/stocks/NYSE/FUL/short-interest/","https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-23-2026"]},{"ticker":"DRI","consensus_summary":"Two passes found a modest upward edge while one stayed Neutral because weak Olive Garden traffic could outweigh LongHorn strength.","averaged_direction_score":29,"averaged_reversal_risk":44,"disparity_metric":12,"pass_agreement_pattern":"A +35/39 risk; B +22/50 risk; C +31/43 risk. Two Lean Up, one Neutral.","recommendation":"Lean Up","confidence_level":"Medium","thesis":"Portfolio strength and intact guidance modestly outweigh soft flagship traffic and inflation risk.","expectation_summary":"$2.05-$2.07 EPS, $3.2-$3.24 billion revenue, and a low-single-digit consolidated SRS bar led by LongHorn.","upside_case":"Olive Garden clears a low bar, LongHorn stays strong, and annual guidance is maintained or nudged higher.","downside_case":"Traffic softness and beef/labor inflation force lower margin or guidance assumptions.","reversal_risk_assessment":"Moderate; an EPS beat can still sell off if Olive Garden traffic or forward margins disappoint.","sentiment_read":"Investor sentiment appears skeptical on Olive Garden but constructive on LongHorn; no robust independent consumer-sentiment series was available.","positioning_read":"About 7.9% implied move and 5.87% short float with 7.2 days to cover.","analyst_revision_read":"Recent targets broadly moved higher, but upside depends on guidance holding against cost pressure.","base_case":"Mixed brand comps and reaffirmed guidance produce a modest positive reaction.","bull_case":"Olive Garden traffic surprises and full-year SRS/EPS guidance rises.","bear_case":"Olive misses while costs rise, leaving the FY guide vulnerable despite LongHorn strength.","final_directional_judgment":"Lean Up, with expected magnitude likely below the implied move absent a guide increase.","allocation_priority_note":"Excluded because the +29 score missed the greater-than-30 threshold and reversal risk exceeded 40.","disparity_impact_note":"Moderate disparity reduced conviction because one independent pass found no directional edge.","method_update_note":"Existing key-metric and forward-look guardrails applied; no new method change.","key_sources":["https://www.sec.gov/Archives/edgar/data/940944/000094094426000016/exhibit991-q4fy26.htm","https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks","https://www.optionslam.com/earnings/straddle/DRI"]},{"ticker":"SNX","consensus_summary":"All passes saw an upward fundamental bias, but they disagreed on how much of the beat-and-raise was already priced.","averaged_direction_score":36,"averaged_reversal_risk":62,"disparity_metric":16,"pass_agreement_pattern":"A +45/55 risk; B +27/68 risk; C +37/63 risk. All Lean Up, wide intensity/risk spread.","recommendation":"Lean Up","confidence_level":"Medium","thesis":"Hyve and AI demand favor a beat, but the stock needs a strong Q4 raise to clear a much higher real bar.","expectation_summary":"$4.64-$4.70 EPS and about $19.1 billion revenue versus company ranges topping at $4.75 and $19.0 billion.","upside_case":"Hyve, distribution, and gross-margin execution produce a strong beat and Q4 raise.","downside_case":"Mix dilution or merely in-line forward guidance triggers a sell-the-news reaction.","reversal_risk_assessment":"High; the pre-event rally, large rerating, low short interest, and buy-side estimates above consensus make a clean beat insufficient.","sentiment_read":"Professional sentiment is strongly bullish; retail discussion was too sparse and promotional to carry weight.","positioning_read":"Roughly 9.2% implied move, low short interest near 2%, and a greater-than-4% intraday pre-event gain.","analyst_revision_read":"Consensus remains strongly bullish, but Morgan Stanley's target cut shows valuation discipline even alongside a beat-and-raise thesis.","base_case":"Beat plus raise, but a volatile or muted reaction because expectations are elevated.","bull_case":"Q4 guide materially clears consensus and margins improve despite Hyve mix.","bear_case":"Revenue beats but margin/guidance quality disappoints and the stock sells off.","final_directional_judgment":"Lean Up, but the expected edge is small relative to the implied move and reversal risk.","allocation_priority_note":"Excluded because reversal risk 62 and disparity 16 overwhelm the +36 direction score.","disparity_impact_note":"The highest disparity in the group capped conviction despite unanimous direction labels.","method_update_note":"Repeated beat-and-raise/high-bar guardrail materially raised reversal risk; no new method change.","key_sources":["https://ir.tdsynnex.com/news/news-details/2026/TD-SYNNEX-Reports-Record-Fiscal-2026-Second-Quarter-Results/default.aspx","https://finance.yahoo.com/markets/stocks/articles/td-synnex-earnings-seen-reigniting-150815125.html","https://stockanalysis.com/stocks/snx/forecast/"]},{"ticker":"SFIX","consensus_summary":"Two passes leaned bearish on clients and margin while one stayed Neutral because the stock and sentiment are already deeply reset.","averaged_direction_score":-31,"averaged_reversal_risk":68,"disparity_metric":12,"pass_agreement_pattern":"A -38/64 risk; B -24/72 risk; C -31/67 risk. Two Lean Down, one Neutral.","recommendation":"Lean Down","confidence_level":"Low","thesis":"Client and revenue deceleration outweigh the turnaround narrative, but the setup is highly squeeze-prone.","expectation_summary":"About a $0.06 loss and $325-$332 million revenue; active clients expected down 0.5%-1.0% sequentially.","upside_case":"Retention and client growth outlook surprise, gross margin stabilizes, and cash flow supports buybacks.","downside_case":"Seasonal client decline persists, revenue growth drops below expectations, and FY2027 guidance disappoints.","reversal_risk_assessment":"High; low expectations, 10%-12% short interest, a near-52-week-low price, and a large implied move can fuel a sharp relief rally.","sentiment_read":"Bullish social readings reportedly fell to about 6% from 18% three months earlier; a same-day short-squeeze post had minimal engagement and was not treated as fundamental evidence.","positioning_read":"Approximately 19%-25% implied move and double-digit short interest.","analyst_revision_read":"Hold/Neutral consensus with a recent UBS target cut, offset by stale upside to published targets after the selloff.","base_case":"Results land near guidance but FY2027 commentary fails to establish durable client growth, producing downside.","bull_case":"The client decline is milder than guided and management credibly frames FY2027 growth, triggering a squeeze.","bear_case":"Client losses, deceleration, and margin pressure all worsen together.","final_directional_judgment":"Lean Down, with Low confidence and expected magnitude not reliably greater than the implied move.","allocation_priority_note":"Excluded because reversal risk 68 and Low confidence violate the allocation filter.","disparity_impact_note":"Moderate disparity reflected genuine low-bar disagreement and reduced conviction.","method_update_note":"Existing low-bar reversal-risk guardrail applied; no new method change.","key_sources":["https://investors.stitchfix.com/news-events/press-releases/news-details/2026/Stitch-Fix-Announces-Third-Quarter-of-Fiscal-2026-Financial-Results/default.aspx","https://beta.earningswhispers.com/article/SFIX/20261","https://www.optionslam.com/earnings/straddle/SFIX"]}],"disclaimer_text":"This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."}
+{
+  "generation_timestamp": "2026-09-24T17:02:01Z",
+  "covered_report_window": "Thursday, September 24, 2026 after the U.S. market close through Friday, September 25, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "The Fed raised its target range 25 bp to 3.75%-4.00% on September 16 as inflation remained elevated. Thursday futures were lower, with Nasdaq futures down about 1%, while Friday brings durable-goods and final University of Michigan sentiment data; the preliminary sentiment reading was 47.8 with one-year inflation expectations at 4.6%.",
+  "companies_reviewed_count": 4,
+  "top_setups": {
+    "upward": [
+      "LGCY",
+      "TBN"
+    ],
+    "downward": [
+      "COST",
+      "SCHL"
+    ],
+    "note": "Only two qualified upward and two qualified downward setups existed; no third name was manufactured."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "LGCY",
+      "company": "Legacy Education Inc.",
+      "timing": "After market close Thursday, September 24, 2026",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 38,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Enrollment growth and operating leverage",
+      "key_risk_to_call": "Thin coverage; G&A/bad-debt creep",
+      "evidence_quality": "Medium-high",
+      "pass_agreement": "All three Lean Up; scores +34 to +44",
+      "method_update_note": "Key-metric-first and small-cap hidden-risk scan applied; no new method change.",
+      "one_sentence_thesis": "Enrollment growth, three recent beats, upward revisions and a de-rated valuation favor upside if new starts continue converting into margin leverage.",
+      "market_expectation_summary": "Consensus is about $0.15 EPS on $20.2-$20.6M revenue; the real bar is continued enrollment/new-start growth with controlled G&A.",
+      "upside_case_summary": "Double-digit enrollment/revenue growth, educational-services leverage and a credible Texas expansion outlook.",
+      "downside_case_summary": "Marketing, bad debt or professional costs outrun revenue, or enrollment growth slows.",
+      "options_or_positioning_summary": "No reliable liquid options-implied move found; short interest was only about 0.8% of float, so squeeze support is limited.",
+      "analyst_revision_summary": "Three upward estimate revisions and no cuts were reported over 30 days, but coverage is very thin.",
+      "key_sources": [
+        "https://ir.legacyed.com/",
+        "https://ir.legacyed.com/news-events/press-releases/detail/35/legacy-education-inc-reports-third-quarter-fiscal-2026-growth-across-revenue-enrollment-and-earnings",
+        "https://stockdecider.com/stocks/LGCY",
+        "https://www.chartmill.com/stock/quote/LGCY/analyst-ratings"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "TBN",
+      "company": "Tamboran Resources Corporation",
+      "timing": "Before market open Friday, September 25, 2026",
+      "direction_call": "Lean Up",
+      "direction_score": 26,
+      "reversal_risk": 64,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "First-gas ramp toward 40 MMcf/d",
+      "key_risk_to_call": "Ramp delay, cash burn or dilution",
+      "evidence_quality": "Medium-high",
+      "pass_agreement": "Two Lean Up, one Neutral; scores +18 to +32",
+      "method_update_note": "Key-metric-first plus financing-risk scan applied; no new method change.",
+      "one_sentence_thesis": "First gas materially de-risks the Beetaloo story, but production-rate, cash-burn and financing details matter far more than EPS and make the immediate reaction highly reversible.",
+      "market_expectation_summary": "Investors need evidence that September first sales can ramp toward the roughly 40 MMcf/d gross target without a fresh funding surprise.",
+      "upside_case_summary": "Stable commissioning, clear production ramp, funded 2026-27 work plan and constructive commercialization milestones.",
+      "downside_case_summary": "Commissioning slippage, weak initial volumes, higher capex or renewed equity-financing risk.",
+      "options_or_positioning_summary": "No reliable implied move found; short interest was about 1.9% of float but 4.6 days to cover, insufficient alone for a squeeze thesis.",
+      "analyst_revision_summary": "Sell-side targets remain broadly above spot, but rating aggregators conflict and event-specific EPS estimates are not decision-useful.",
+      "key_sources": [
+        "https://ir.tamboran.com/",
+        "https://www.tamboran.com/corporate-calendar/",
+        "https://ir.tamboran.com/news-events/press-releases",
+        "https://www.sec.gov/Archives/edgar/data/1997652/000162828026034591/a260513thirdquarterfy26r.htm",
+        "https://www.marketbeat.com/stocks/NYSE/TBN/short-interest/"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "COST",
+      "company": "Costco Wholesale Corporation",
+      "timing": "After market close Thursday, September 24, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 55,
+      "disparity": 7,
+      "confidence": "Medium",
+      "expected_driver": "Membership-fee growth and core margin",
+      "key_risk_to_call": "Sales strength clears a high bar",
+      "evidence_quality": "High",
+      "pass_agreement": "Two Lean Down, one Neutral; scores -18 to -32",
+      "method_update_note": "Repeated high-bar/forward-look penalty materially applied; no new method change.",
+      "one_sentence_thesis": "Excellent sales and membership momentum face a roughly 45x earnings valuation and a best-case expense-control bar, leaving modest downside risk if core earnings quality is merely good.",
+      "market_expectation_summary": "Street estimates cluster near $6.53-$6.55 EPS and $94.9B revenue after Q4 net sales rose 11.3%; options imply roughly 3.2%-3.4%.",
+      "upside_case_summary": "Membership income, renewal quality and merchandise margin beat while management sounds confident on FY2027 costs.",
+      "downside_case_summary": "Core profit misses after stripping tariff/fuel benefits, or wage, fulfillment and reinvestment costs pressure margin.",
+      "options_or_positioning_summary": "Options imply about 3.2%-3.4%, below the cited 10-year peak-move average of 3.9%; pricing suggests a contained but meaningful reaction.",
+      "analyst_revision_summary": "Consensus remains bullish, but Oppenheimer warned that core earnings may fall short and called consensus a best-case expense-control outcome.",
+      "key_sources": [
+        "https://investor.costco.com/events-and-presentations/default.aspx?c=83830&p=irol-audioarchives",
+        "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://earnings-watcher.com/wiki/cost-implied-move",
+        "https://uk.investing.com/news/stock-market-news/costco-earnings-preview-setup-technicals-and-key-trading-scenarios-93CH-4880046"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "SCHL",
+      "company": "Scholastic Corporation",
+      "timing": "After market close Thursday, September 24, 2026",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 59,
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "FY2027 EBITDA guide durability",
+      "key_risk_to_call": "Seasonal low bar enables relief",
+      "evidence_quality": "Medium-high",
+      "pass_agreement": "Two Lean Down, one Neutral; scores -20 to -34",
+      "method_update_note": "Key-metric-first and forward-guide override applied; no new method change.",
+      "one_sentence_thesis": "Education softness, a difficult publishing mix and cautious customer commentary slightly outweigh Book Fair momentum, but Q1 seasonality and depressed expectations make the call fragile.",
+      "market_expectation_summary": "Consensus is a $3.42 loss on about $224.7M revenue; management previously guided FY2027 revenue growth of 2%-4% and adjusted EBITDA of $135-$145M.",
+      "upside_case_summary": "Book Fair engagement, cost control and the publishing pipeline support full-year guidance despite the seasonal Q1 loss.",
+      "downside_case_summary": "Education funding pressure, weak Trade revenue or lower FY2027 EBITDA guidance.",
+      "options_or_positioning_summary": "Options imply about 12.7%, signaling a wide reaction band; no robust current short-interest read was used.",
+      "analyst_revision_summary": "Coverage is sparse and generally cautious; the prior quarter narrowly beat EPS but missed revenue materially.",
+      "key_sources": [
+        "https://investor.scholastic.com/news-releases/news-release-details/scholastic-corporation-announces-date-first-quarter-fiscal-2027",
+        "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-reports-fourth-quarter-and-fiscal-2026-results.html",
+        "https://www.zacks.com/stock/news/2991359/earnings-preview-scholastic-schl-q1-earnings-expected-to-decline",
+        "https://www.marketbeat.com/instant-alerts/upcoming-scholastic-schl-projected-to-post-quarterly-earnings-on-thursday-2026-09-17/",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "LGCY",
+        "direction": "Lean Up",
+        "share_percent": 70,
+        "why": "Score +39, reversal risk 38, disparity 5 and improving enrollment/estimate evidence."
+      },
+      {
+        "ticker": "UNALLOCATED",
+        "direction": "No allocation",
+        "share_percent": 30,
+        "why": "No second name cleared every threshold; weak ideas were not forced into the basket."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "TBN",
+        "reason": "Score +26 and reversal risk 64."
+      },
+      {
+        "ticker": "COST",
+        "reason": "Absolute score 27 and reversal risk 55."
+      },
+      {
+        "ticker": "SCHL",
+        "reason": "Absolute score 27, reversal risk 59 and Low confidence."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "LGCY",
+      "consensus_summary": "All three Lean Up; scores +34 to +44",
+      "averaged_direction_score": 39,
+      "averaged_reversal_risk": 38,
+      "disparity_metric": 5,
+      "pass_agreement_pattern": "All three Lean Up; scores +34 to +44",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Enrollment growth, three recent beats, upward revisions and a de-rated valuation favor upside if new starts continue converting into margin leverage.",
+      "expectation_summary": "Consensus is about $0.15 EPS on $20.2-$20.6M revenue; the real bar is continued enrollment/new-start growth with controlled G&A.",
+      "upside_case": "Double-digit enrollment/revenue growth, educational-services leverage and a credible Texas expansion outlook.",
+      "downside_case": "Marketing, bad debt or professional costs outrun revenue, or enrollment growth slows.",
+      "reversal_risk_assessment": "Low: de-rating and low short interest reduce crowding, though thin liquidity and cost surprises remain.",
+      "sentiment_read": "Little reliable retail discussion; social evidence was effectively zero-weighted.",
+      "positioning_read": "No reliable liquid options-implied move found; short interest was only about 0.8% of float, so squeeze support is limited.",
+      "analyst_revision_read": "Three upward estimate revisions and no cuts were reported over 30 days, but coverage is very thin.",
+      "base_case": "Enrollment stays strong and margins improve modestly, producing a small upside reaction.",
+      "bull_case": "Double-digit enrollment/revenue growth, educational-services leverage and a credible Texas expansion outlook.",
+      "bear_case": "Marketing, bad debt or professional costs outrun revenue, or enrollment growth slows.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority_note": "Qualified for the research basket on score, risk, disparity and evidence.",
+      "disparity_impact_note": "Low disparity modestly strengthened conviction.",
+      "method_update_note": "Key-metric-first and small-cap hidden-risk scan applied; no new method change.",
+      "key_sources": [
+        "https://ir.legacyed.com/",
+        "https://ir.legacyed.com/news-events/press-releases/detail/35/legacy-education-inc-reports-third-quarter-fiscal-2026-growth-across-revenue-enrollment-and-earnings",
+        "https://stockdecider.com/stocks/LGCY",
+        "https://www.chartmill.com/stock/quote/LGCY/analyst-ratings"
+      ]
+    },
+    {
+      "ticker": "TBN",
+      "consensus_summary": "Two Lean Up, one Neutral; scores +18 to +32",
+      "averaged_direction_score": 26,
+      "averaged_reversal_risk": 64,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "Two Lean Up, one Neutral; scores +18 to +32",
+      "recommendation": "Lean Up",
+      "confidence_level": "Low",
+      "thesis": "First gas materially de-risks the Beetaloo story, but production-rate, cash-burn and financing details matter far more than EPS and make the immediate reaction highly reversible.",
+      "expectation_summary": "Investors need evidence that September first sales can ramp toward the roughly 40 MMcf/d gross target without a fresh funding surprise.",
+      "upside_case": "Stable commissioning, clear production ramp, funded 2026-27 work plan and constructive commercialization milestones.",
+      "downside_case": "Commissioning slippage, weak initial volumes, higher capex or renewed equity-financing risk.",
+      "reversal_risk_assessment": "High: a positive operational headline can reverse on cash burn, dilution or ramp detail.",
+      "sentiment_read": "Speculative retail interest exists around Beetaloo commercialization, but promotional bias is high.",
+      "positioning_read": "No reliable implied move found; short interest was about 1.9% of float but 4.6 days to cover, insufficient alone for a squeeze thesis.",
+      "analyst_revision_read": "Sell-side targets remain broadly above spot, but rating aggregators conflict and event-specific EPS estimates are not decision-useful.",
+      "base_case": "Operational progress is affirmed but funding/ramp detail limits upside.",
+      "bull_case": "Stable commissioning, clear production ramp, funded 2026-27 work plan and constructive commercialization milestones.",
+      "bear_case": "Commissioning slippage, weak initial volumes, higher capex or renewed equity-financing risk.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority_note": "Excluded: score is below 31 and reversal risk is high.",
+      "disparity_impact_note": "Moderate-low disparity helped, but did not overcome reversal risk or weak evidence.",
+      "method_update_note": "Key-metric-first plus financing-risk scan applied; no new method change.",
+      "key_sources": [
+        "https://ir.tamboran.com/",
+        "https://www.tamboran.com/corporate-calendar/",
+        "https://ir.tamboran.com/news-events/press-releases",
+        "https://www.sec.gov/Archives/edgar/data/1997652/000162828026034591/a260513thirdquarterfy26r.htm",
+        "https://www.marketbeat.com/stocks/NYSE/TBN/short-interest/"
+      ]
+    },
+    {
+      "ticker": "COST",
+      "consensus_summary": "Two Lean Down, one Neutral; scores -18 to -32",
+      "averaged_direction_score": -27,
+      "averaged_reversal_risk": 55,
+      "disparity_metric": 7,
+      "pass_agreement_pattern": "Two Lean Down, one Neutral; scores -18 to -32",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "Excellent sales and membership momentum face a roughly 45x earnings valuation and a best-case expense-control bar, leaving modest downside risk if core earnings quality is merely good.",
+      "expectation_summary": "Street estimates cluster near $6.53-$6.55 EPS and $94.9B revenue after Q4 net sales rose 11.3%; options imply roughly 3.2%-3.4%.",
+      "upside_case": "Membership income, renewal quality and merchandise margin beat while management sounds confident on FY2027 costs.",
+      "downside_case": "Core profit misses after stripping tariff/fuel benefits, or wage, fulfillment and reinvestment costs pressure margin.",
+      "reversal_risk_assessment": "Moderate: a clean beat can reverse the bearish call if fee income and margin quality exceed the real buy-side bar.",
+      "sentiment_read": "Investor sentiment is constructive but valuation-sensitive; social evidence was not given material weight.",
+      "positioning_read": "Options imply about 3.2%-3.4%, below the cited 10-year peak-move average of 3.9%; pricing suggests a contained but meaningful reaction.",
+      "analyst_revision_read": "Consensus remains bullish, but Oppenheimer warned that core earnings may fall short and called consensus a best-case expense-control outcome.",
+      "base_case": "Solid results but core margin quality is not enough for the valuation, producing modest downside.",
+      "bull_case": "Membership income, renewal quality and merchandise margin beat while management sounds confident on FY2027 costs.",
+      "bear_case": "Core profit misses after stripping tariff/fuel benefits, or wage, fulfillment and reinvestment costs pressure margin.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority_note": "Excluded: absolute score is below 31 and reversal risk exceeds 40.",
+      "disparity_impact_note": "Low disparity modestly strengthened conviction.",
+      "method_update_note": "Repeated high-bar/forward-look penalty materially applied; no new method change.",
+      "key_sources": [
+        "https://investor.costco.com/events-and-presentations/default.aspx?c=83830&p=irol-audioarchives",
+        "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Third-Quarter-and-Year-To-Date-Operating-Results-For-Fiscal-2026/default.aspx",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://earnings-watcher.com/wiki/cost-implied-move",
+        "https://uk.investing.com/news/stock-market-news/costco-earnings-preview-setup-technicals-and-key-trading-scenarios-93CH-4880046"
+      ]
+    },
+    {
+      "ticker": "SCHL",
+      "consensus_summary": "Two Lean Down, one Neutral; scores -20 to -34",
+      "averaged_direction_score": -27,
+      "averaged_reversal_risk": 59,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "Two Lean Down, one Neutral; scores -20 to -34",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "thesis": "Education softness, a difficult publishing mix and cautious customer commentary slightly outweigh Book Fair momentum, but Q1 seasonality and depressed expectations make the call fragile.",
+      "expectation_summary": "Consensus is a $3.42 loss on about $224.7M revenue; management previously guided FY2027 revenue growth of 2%-4% and adjusted EBITDA of $135-$145M.",
+      "upside_case": "Book Fair engagement, cost control and the publishing pipeline support full-year guidance despite the seasonal Q1 loss.",
+      "downside_case": "Education funding pressure, weak Trade revenue or lower FY2027 EBITDA guidance.",
+      "reversal_risk_assessment": "Moderate: the seasonal loss is understood, so maintained guidance can spark relief despite weak quarterly optics.",
+      "sentiment_read": "Recent parent commentary on Book Fair selection was notably negative but anecdotal and not treated as ground truth.",
+      "positioning_read": "Options imply about 12.7%, signaling a wide reaction band; no robust current short-interest read was used.",
+      "analyst_revision_read": "Coverage is sparse and generally cautious; the prior quarter narrowly beat EPS but missed revenue materially.",
+      "base_case": "Seasonal loss lands near consensus and unchanged guidance yields a mixed-to-negative reaction.",
+      "bull_case": "Book Fair engagement, cost control and the publishing pipeline support full-year guidance despite the seasonal Q1 loss.",
+      "bear_case": "Education funding pressure, weak Trade revenue or lower FY2027 EBITDA guidance.",
+      "final_directional_judgment": "Lean Down",
+      "allocation_priority_note": "Excluded: absolute score is below 31 and reversal risk is high.",
+      "disparity_impact_note": "Moderate-low disparity helped, but did not overcome reversal risk or weak evidence.",
+      "method_update_note": "Key-metric-first and forward-guide override applied; no new method change.",
+      "key_sources": [
+        "https://investor.scholastic.com/news-releases/news-release-details/scholastic-corporation-announces-date-first-quarter-fiscal-2027",
+        "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-reports-fourth-quarter-and-fiscal-2026-results.html",
+        "https://www.zacks.com/stock/news/2991359/earnings-preview-scholastic-schl-q1-earnings-expected-to-decline",
+        "https://www.marketbeat.com/instant-alerts/upcoming-scholastic-schl-projected-to-post-quarterly-earnings-on-thursday-2026-09-17/",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026"
+      ]
+    }
+  ],
+  "consensus_method": {
+    "passes": 3,
+    "disparity_definition": "0-100 composite of dispersion in independent direction scores and reversal-risk estimates; lower is tighter agreement.",
+    "strongest_names_disparity": "Low for LGCY; moderate-low for the other names.",
+    "lessons_review": "Existing expectation-bar, key-metric and forward-look guardrails were applied. No new method change was warranted from this run."
+  },
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
