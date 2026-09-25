@@ -1,0 +1,114 @@
+{
+  "generation_timestamp": "2026-09-25T17:02:01Z",
+  "covered_report_window": "Friday, September 25, 2026 after the U.S. market close through Monday, September 28, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report_empty_qualified_universe",
+  "market_context_summary": "U.S. equities were modestly higher intraday, but the event backdrop remained rate-sensitive after the Federal Reserve's September hike. The 10-year Treasury yield had exceeded 5%, oil remained elevated, and September consumer sentiment weakened as one-year inflation expectations rose to 4.6%. These conditions raise financing and valuation risk especially for small, speculative issuers.",
+  "companies_reviewed_count": 4,
+  "raw_timing_confirmed_universe": [
+    "GNS",
+    "ADXN",
+    "KNDI",
+    "NTWK"
+  ],
+  "shared_qualified_ticker_universe": [],
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "note": "No company passed the pre-pass liquidity, market-cap, and evidence-quality screen, so no directional setup was manufactured."
+  },
+  "ranked_companies": [],
+  "screened_out_companies": [
+    {
+      "ticker": "GNS",
+      "company": "Genius Group Limited",
+      "timing": "Before market open Monday, September 28, 2026",
+      "reason": "Nano-cap (about $11.7 million) with sub-$1 share price, speculative treasury/legal narratives, and insufficient institutional-quality estimate/options evidence.",
+      "timing_source": "https://ir.geniusgroup.net/news-events/press-releases/detail/258/genius-group-to-release-half-year-2026-results-on-september"
+    },
+    {
+      "ticker": "ADXN",
+      "company": "Addex Therapeutics Ltd.",
+      "timing": "Results Monday, September 28, 2026; 10:00 a.m. ET call",
+      "reason": "Clinical-stage biotech with extremely small U.S. trading footprint, conflicting market-cap data, and earnings secondary to pipeline/financing catalysts; fails liquidity and evidence-quality gates.",
+      "timing_source": "https://www.addextherapeutics.com/en/investors/press-releases/addex-therapeutics-report-2026-half-year-financial-results-and-host-conference-call-on-september-28-2026/"
+    },
+    {
+      "ticker": "KNDI",
+      "company": "Kandi Technologies Group, Inc.",
+      "timing": "Before market open Monday, September 28, 2026; 8:00 a.m. ET call",
+      "reason": "Micro-cap (about $49 million) with thin trading, no usable analyst consensus, and weak options/positioning evidence.",
+      "timing_source": "https://www.nasdaq.com/press-release/kandi-technologies-report-first-half-2026-financial-results-monday-september-28-2026"
+    },
+    {
+      "ticker": "NTWK",
+      "company": "NETSOL Technologies, Inc.",
+      "timing": "Before market open Monday, September 28, 2026; 9:00 a.m. ET call",
+      "reason": "Micro-cap (about $58 million) with thin trading and insufficient independent estimate, revisions, and options evidence for a calibrated event-direction call.",
+      "timing_source": "https://ir.netsoltech.com/press-releases/detail/3267/netsol-technologies-to-report-fiscal-fourth-quarter-and"
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "basket_distribution": [
+      {
+        "ticker": "UNALLOCATED",
+        "direction": "No allocation",
+        "share_percent": 100,
+        "why": "No ticker entered the shared qualified universe; forcing a basket would violate the liquidity and evidence-quality gates."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "GNS",
+        "reason": "Failed nano-cap, liquidity, and evidence-quality screens."
+      },
+      {
+        "ticker": "ADXN",
+        "reason": "Failed liquidity and event-relevance screens; pipeline/financing catalysts dominate earnings."
+      },
+      {
+        "ticker": "KNDI",
+        "reason": "Failed micro-cap, liquidity, and estimate-coverage screens."
+      },
+      {
+        "ticker": "NTWK",
+        "reason": "Failed micro-cap, liquidity, and evidence-depth screens."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [],
+  "consensus_method": {
+    "passes": 3,
+    "pass_scope": "All three independent passes received the same shared qualified universe, which was empty after the pre-pass screen.",
+    "pass_results": {
+      "A": [],
+      "B": [],
+      "C": []
+    },
+    "disparity_definition": "Disparity is a 0-100 measure of distance among the three passes' direction and reversal-risk outputs; lower means tighter agreement. It is not computable when no ticker qualifies.",
+    "strongest_names_disparity": "Not applicable; there were no qualified names.",
+    "pass_agreement": "Complete agreement at the universe stage: no ticker met the standing inclusion threshold.",
+    "lessons_review": "The cumulative lessons reinforced timing hygiene, key-metric-first analysis, expectation-bar checks, and separate reversal-risk calibration. No new method change was warranted for this run."
+  },
+  "calendar_validation": {
+    "today_after_close": "No confirmed U.S.-listed earnings reporters met the window; high-quality calendars showed no after-close names.",
+    "next_before_open": "Monday, September 28, 2026 is a normal U.S. trading session. Four names were timing-confirmed but all were screened out before scoring.",
+    "sources": [
+      "https://beta.earningswhispers.com/calendar/20260928",
+      "https://www.digrin.com/stocks/earnings_calendar/2026-09-25",
+      "https://beta.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf"
+    ]
+  },
+  "key_sources": [
+    "https://beta.earningswhispers.com/calendar/20260928",
+    "https://www.digrin.com/stocks/earnings_calendar/2026-09-25",
+    "https://ir.geniusgroup.net/news-events/press-releases/detail/258/genius-group-to-release-half-year-2026-results-on-september",
+    "https://www.addextherapeutics.com/en/investors/press-releases/addex-therapeutics-report-2026-half-year-financial-results-and-host-conference-call-on-september-28-2026/",
+    "https://www.nasdaq.com/press-release/kandi-technologies-report-first-half-2026-financial-results-monday-september-28-2026",
+    "https://ir.netsoltech.com/press-releases/detail/3267/netsol-technologies-to-report-fiscal-fourth-quarter-and",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
