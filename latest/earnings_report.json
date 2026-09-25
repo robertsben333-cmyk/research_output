@@ -1,129 +1,50 @@
 {
-  "generation_timestamp": "2026-09-24T17:07:00Z",
-  "covered_report_window": "Thursday, September 24, 2026 after the U.S. market close through Friday, September 25, 2026 before the U.S. market open.",
-  "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "U.S. equities were mixed intraday after a September Fed rate hike; renewed Treasury weakness and Fed commentary about another possible hike pressured growth stocks, while the S&P 500 remained near record territory. Friday's final Michigan sentiment reading adds consumer-demand and inflation-expectation risk.",
-  "companies_reviewed_count": 7,
-  "shared_qualified_ticker_universe": [
-    "COST",
-    "SCHL",
-    "TBN"
+  "generation_timestamp": "2026-09-25T17:02:01Z",
+  "covered_report_window": "Friday, September 25, 2026 after the U.S. market close through Monday, September 28, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report_empty_qualified_universe",
+  "market_context_summary": "U.S. equities were modestly higher intraday, but the event backdrop remained rate-sensitive after the Federal Reserve's September hike. The 10-year Treasury yield had exceeded 5%, oil remained elevated, and September consumer sentiment weakened as one-year inflation expectations rose to 4.6%. These conditions raise financing and valuation risk especially for small, speculative issuers.",
+  "companies_reviewed_count": 4,
+  "raw_timing_confirmed_universe": [
+    "GNS",
+    "ADXN",
+    "KNDI",
+    "NTWK"
   ],
-  "universe_exclusions": [
-    {
-      "ticker": "LGCY",
-      "reason": "Confirmed AMC but excluded at the shared-universe stage as a roughly $130 million microcap."
-    },
-    {
-      "ticker": "HUBG",
-      "reason": "Calendar conflict and no credible company timing confirmation."
-    },
-    {
-      "ticker": "BB",
-      "reason": "Reported before the current run."
-    },
-    {
-      "ticker": "MTN",
-      "reason": "Officially scheduled for September 28, outside the actionable window."
-    }
-  ],
+  "shared_qualified_ticker_universe": [],
   "top_setups": {
-    "upward": [
-      "TBN"
-    ],
-    "downward": [
-      "SCHL",
-      "COST"
-    ],
-    "note": "Only one positive and two negative qualified setups existed; no additional names were manufactured."
+    "upward": [],
+    "downward": [],
+    "note": "No company passed the pre-pass liquidity, market-cap, and evidence-quality screen, so no directional setup was manufactured."
   },
-  "ranked_companies": [
+  "ranked_companies": [],
+  "screened_out_companies": [
     {
-      "rank": 1,
-      "ticker": "TBN",
-      "company": "Tamboran Resources Corporation",
-      "timing": "Before market open Friday, September 25, 2026 (8:00 a.m. ET call)",
-      "direction_call": "Lean Up",
-      "direction_score": 34,
-      "reversal_risk": 48,
-      "disparity": 8,
-      "confidence": "Low",
-      "expected_driver": "Pilot-gas ramp and cash runway",
-      "key_risk_to_call": "Commissioning delay or dilution",
-      "evidence_quality": "Medium",
-      "pass_agreement": "All positive; two Lean Up, one near the Neutral/Lean Up boundary (+28/+34/+41)",
-      "method_update_note": "None",
-      "one_sentence_thesis": "First gas is a real de-risking milestone, but the immediate upside depends on ramp visibility and a credible cash runway rather than reported EPS.",
-      "market_expectation_summary": "The market is looking through the historical loss to commissioning progress, contracted-volume ramp, 2026-27 capex, and liquidity after the Falcon transaction.",
-      "upside_case_summary": "Stable ramp, clear commissioning timetable, funded work program, and lower well-cost evidence.",
-      "downside_case_summary": "Weak initial volumes, slippage into 2027, capex inflation, or a fresh equity raise.",
-      "options_or_positioning_summary": "No reliable liquid options-implied move was found; the stock is a thin, narrative-sensitive energy development name.",
-      "analyst_revision_summary": "Six-analyst aggregators show targets materially above spot, but rating summaries conflict and EPS is not the decision-useful metric.",
-      "key_sources": [
-        "https://ir.tamboran.com/",
-        "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
-        "https://ir.tamboran.com/sec-filings/all-sec-filings/content/0001628280-26-034591/a260513thirdquarterfy26r.htm",
-        "https://ir.tamboran.com/news-events/press-releases/detail/46/tamboran-completes-acquisition-of-subsidiaries-of-falcon-oil-gas-ltd",
-        "https://stockanalysis.com/stocks/tbn/forecast/"
-      ]
+      "ticker": "GNS",
+      "company": "Genius Group Limited",
+      "timing": "Before market open Monday, September 28, 2026",
+      "reason": "Nano-cap (about $11.7 million) with sub-$1 share price, speculative treasury/legal narratives, and insufficient institutional-quality estimate/options evidence.",
+      "timing_source": "https://ir.geniusgroup.net/news-events/press-releases/detail/258/genius-group-to-release-half-year-2026-results-on-september"
     },
     {
-      "rank": 2,
-      "ticker": "SCHL",
-      "company": "Scholastic Corporation",
-      "timing": "After market close Thursday, September 24, 2026 (4:00 p.m. ET release)",
-      "direction_call": "Lean Down",
-      "direction_score": -34,
-      "reversal_risk": 58,
-      "disparity": 6,
-      "confidence": "Low",
-      "expected_driver": "FY2027 guide durability",
-      "key_risk_to_call": "Seasonal low bar sparks relief",
-      "evidence_quality": "Medium-high",
-      "pass_agreement": "All negative; two Lean Down, one closer to Neutral (-29/-34/-38)",
-      "method_update_note": "None",
-      "one_sentence_thesis": "A worse seasonal loss and soft Education/Trade mix lean negative, but a maintained full-year guide can easily overpower weak Q1 optics.",
-      "market_expectation_summary": "Consensus is a $3.42 loss on $224.69 million revenue; management previously guided FY2027 revenue growth of 2%-4% and adjusted EBITDA of $135-$145 million.",
-      "upside_case_summary": "Book Fairs, cost control, and publishing timing preserve or lift the full-year outlook.",
-      "downside_case_summary": "Education funding and Trade weakness force a guide cut or worsen cash-flow expectations.",
-      "options_or_positioning_summary": "Options imply roughly 10.6%-12.7%; short interest is about 10.95% of shares, creating material relief/squeeze risk.",
-      "analyst_revision_summary": "The EPS estimate improved only 0.4% over 30 days; sparse coverage limits conviction.",
-      "key_sources": [
-        "https://investor.scholastic.com/",
-        "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-reports-fourth-quarter-and-fiscal-2026-results.html",
-        "https://www.zacks.com/stock/news/2992812/exploring-analyst-estimates-for-scholastic-schl-q1-earnings-beyond-revenue-and-eps",
-        "https://stockanalysis.com/stocks/schl/statistics/",
-        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026"
-      ]
+      "ticker": "ADXN",
+      "company": "Addex Therapeutics Ltd.",
+      "timing": "Results Monday, September 28, 2026; 10:00 a.m. ET call",
+      "reason": "Clinical-stage biotech with extremely small U.S. trading footprint, conflicting market-cap data, and earnings secondary to pipeline/financing catalysts; fails liquidity and evidence-quality gates.",
+      "timing_source": "https://www.addextherapeutics.com/en/investors/press-releases/addex-therapeutics-report-2026-half-year-financial-results-and-host-conference-call-on-september-28-2026/"
     },
     {
-      "rank": 3,
-      "ticker": "COST",
-      "company": "Costco Wholesale Corporation",
-      "timing": "After market close Thursday, September 24, 2026",
-      "direction_call": "Lean Down",
-      "direction_score": -26,
-      "reversal_risk": 53,
-      "disparity": 7,
-      "confidence": "Medium",
-      "expected_driver": "Membership fees and core margin",
-      "key_risk_to_call": "Sales quality clears high bar",
-      "evidence_quality": "High",
-      "pass_agreement": "Two Lean Down, one Neutral (-19/-27/-31)",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Preannounced sales are excellent, but a roughly 45x earnings multiple and a best-case expense-control bar leave modest downside if core profit quality is merely good.",
-      "market_expectation_summary": "Street estimates cluster near $6.53-$6.55 EPS and $94.9 billion revenue after Q4 net sales rose 11.3% and ex-gas/FX comps rose 6.7%.",
-      "upside_case_summary": "Fee income, renewal quality, and merchandise margin beat with reassuring cost commentary.",
-      "downside_case_summary": "Tariff/fuel benefits mask soft core profit, or wage and fulfillment investment compress margin.",
-      "options_or_positioning_summary": "Options imply about 3.2%-3.4%, versus a cited 10-year average move near 3.9%; the event is priced as contained.",
-      "analyst_revision_summary": "Analyst sentiment remains broadly Buy, but BofA cut its target and Oppenheimer called consensus EPS a best-case outcome.",
-      "key_sources": [
-        "https://investor.costco.com/events-and-presentations/default.aspx?c=83830&p=irol-audioarchives",
-        "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-August-Sales-Results/default.aspx",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026",
-        "https://stockanalysis.com/stocks/cost/statistics/"
-      ]
+      "ticker": "KNDI",
+      "company": "Kandi Technologies Group, Inc.",
+      "timing": "Before market open Monday, September 28, 2026; 8:00 a.m. ET call",
+      "reason": "Micro-cap (about $49 million) with thin trading, no usable analyst consensus, and weak options/positioning evidence.",
+      "timing_source": "https://www.nasdaq.com/press-release/kandi-technologies-report-first-half-2026-financial-results-monday-september-28-2026"
+    },
+    {
+      "ticker": "NTWK",
+      "company": "NETSOL Technologies, Inc.",
+      "timing": "Before market open Monday, September 28, 2026; 9:00 a.m. ET call",
+      "reason": "Micro-cap (about $58 million) with thin trading and insufficient independent estimate, revisions, and options evidence for a calibrated event-direction call.",
+      "timing_source": "https://ir.netsoltech.com/press-releases/detail/3267/netsol-technologies-to-report-fiscal-fourth-quarter-and"
     }
   ],
   "research_allocation_view": {
@@ -133,166 +54,61 @@
         "ticker": "UNALLOCATED",
         "direction": "No allocation",
         "share_percent": 100,
-        "why": "No name met all three gates: absolute score above 30, reversal risk at or below 40, and sufficient evidence quality."
+        "why": "No ticker entered the shared qualified universe; forcing a basket would violate the liquidity and evidence-quality gates."
       }
     ],
     "excluded_high_reversal_or_weak_names": [
       {
-        "ticker": "TBN",
-        "reason": "Score +34 qualifies, but reversal risk 48 exceeds the cap."
+        "ticker": "GNS",
+        "reason": "Failed nano-cap, liquidity, and evidence-quality screens."
       },
       {
-        "ticker": "SCHL",
-        "reason": "Score -34 qualifies, but reversal risk 58 exceeds the cap and confidence is Low."
+        "ticker": "ADXN",
+        "reason": "Failed liquidity and event-relevance screens; pipeline/financing catalysts dominate earnings."
       },
       {
-        "ticker": "COST",
-        "reason": "Absolute score 26 is below threshold and reversal risk is 53."
+        "ticker": "KNDI",
+        "reason": "Failed micro-cap, liquidity, and estimate-coverage screens."
+      },
+      {
+        "ticker": "NTWK",
+        "reason": "Failed micro-cap, liquidity, and evidence-depth screens."
       }
     ],
     "plain_statement": "This is a research prioritization model, not financial advice."
   },
-  "detailed_company_sections": [
-    {
-      "ticker": "TBN",
-      "consensus_summary": "All positive; two Lean Up, one near the Neutral/Lean Up boundary (+28/+34/+41)",
-      "averaged_direction_score": 34,
-      "averaged_reversal_risk": 48,
-      "disparity_metric": 8,
-      "pass_agreement_pattern": "All positive; two Lean Up, one near the Neutral/Lean Up boundary (+28/+34/+41)",
-      "recommendation": "Lean Up",
-      "confidence_level": "Low",
-      "thesis": "First gas is a real de-risking milestone, but the immediate upside depends on ramp visibility and a credible cash runway rather than reported EPS.",
-      "expectation_summary": "The market is looking through the historical loss to commissioning progress, contracted-volume ramp, 2026-27 capex, and liquidity after the Falcon transaction.",
-      "upside_case": "Stable ramp, clear commissioning timetable, funded work program, and lower well-cost evidence.",
-      "downside_case": "Weak initial volumes, slippage into 2027, capex inflation, or a fresh equity raise.",
-      "reversal_risk_assessment": "Moderate: first-gas enthusiasm can reverse on ramp, cash-burn, or financing detail.",
-      "sentiment_read": "Sparse and promotional-leaning retail discussion; social evidence received minimal weight.",
-      "positioning_read": "No reliable liquid options-implied move was found; the stock is a thin, narrative-sensitive energy development name.",
-      "analyst_revision_read": "Six-analyst aggregators show targets materially above spot, but rating summaries conflict and EPS is not the decision-useful metric.",
-      "base_case": "Operational progress is affirmed, producing modest upside that remains smaller than a typical narrative-stock swing.",
-      "bull_case": "Stable ramp, clear commissioning timetable, funded work program, and lower well-cost evidence.",
-      "bear_case": "Weak initial volumes, slippage into 2027, capex inflation, or a fresh equity raise.",
-      "final_directional_judgment": "Lean Up",
-      "allocation_priority_note": "Excluded: reversal risk exceeds the 40 threshold; no name qualified for the research allocation basket.",
-      "disparity_impact_note": "Low disparity improved process confidence modestly, but did not overcome the event-specific reversal risk.",
-      "method_update_note": "None; existing lessons were applied without a new method change.",
-      "key_sources": [
-        "https://ir.tamboran.com/",
-        "https://ir.tamboran.com/news-events/press-releases/detail/49/tamboran-delivers-first-gas-sales-from-the-beetaloo-basin",
-        "https://ir.tamboran.com/sec-filings/all-sec-filings/content/0001628280-26-034591/a260513thirdquarterfy26r.htm",
-        "https://ir.tamboran.com/news-events/press-releases/detail/46/tamboran-completes-acquisition-of-subsidiaries-of-falcon-oil-gas-ltd",
-        "https://stockanalysis.com/stocks/tbn/forecast/"
-      ]
-    },
-    {
-      "ticker": "SCHL",
-      "consensus_summary": "All negative; two Lean Down, one closer to Neutral (-29/-34/-38)",
-      "averaged_direction_score": -34,
-      "averaged_reversal_risk": 58,
-      "disparity_metric": 6,
-      "pass_agreement_pattern": "All negative; two Lean Down, one closer to Neutral (-29/-34/-38)",
-      "recommendation": "Lean Down",
-      "confidence_level": "Low",
-      "thesis": "A worse seasonal loss and soft Education/Trade mix lean negative, but a maintained full-year guide can easily overpower weak Q1 optics.",
-      "expectation_summary": "Consensus is a $3.42 loss on $224.69 million revenue; management previously guided FY2027 revenue growth of 2%-4% and adjusted EBITDA of $135-$145 million.",
-      "upside_case": "Book Fairs, cost control, and publishing timing preserve or lift the full-year outlook.",
-      "downside_case": "Education funding and Trade weakness force a guide cut or worsen cash-flow expectations.",
-      "reversal_risk_assessment": "Moderate: the seasonal loss is understood, while short interest and maintained guidance can produce a sharp relief rally.",
-      "sentiment_read": "Sparse investor discussion and anecdotal parent/customer commentary; social evidence received minimal weight.",
-      "positioning_read": "Options imply roughly 10.6%-12.7%; short interest is about 10.95% of shares, creating material relief/squeeze risk.",
-      "analyst_revision_read": "The EPS estimate improved only 0.4% over 30 days; sparse coverage limits conviction.",
-      "base_case": "Weak seasonal results and unchanged guidance yield a modest negative reaction.",
-      "bull_case": "Book Fairs, cost control, and publishing timing preserve or lift the full-year outlook.",
-      "bear_case": "Education funding and Trade weakness force a guide cut or worsen cash-flow expectations.",
-      "final_directional_judgment": "Lean Down",
-      "allocation_priority_note": "Excluded: reversal risk exceeds the 40 threshold; no name qualified for the research allocation basket.",
-      "disparity_impact_note": "Low disparity improved process confidence modestly, but did not overcome the event-specific reversal risk.",
-      "method_update_note": "None; existing lessons were applied without a new method change.",
-      "key_sources": [
-        "https://investor.scholastic.com/",
-        "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-reports-fourth-quarter-and-fiscal-2026-results.html",
-        "https://www.zacks.com/stock/news/2992812/exploring-analyst-estimates-for-scholastic-schl-q1-earnings-beyond-revenue-and-eps",
-        "https://stockanalysis.com/stocks/schl/statistics/",
-        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026"
-      ]
-    },
-    {
-      "ticker": "COST",
-      "consensus_summary": "Two Lean Down, one Neutral (-19/-27/-31)",
-      "averaged_direction_score": -26,
-      "averaged_reversal_risk": 53,
-      "disparity_metric": 7,
-      "pass_agreement_pattern": "Two Lean Down, one Neutral (-19/-27/-31)",
-      "recommendation": "Lean Down",
-      "confidence_level": "Medium",
-      "thesis": "Preannounced sales are excellent, but a roughly 45x earnings multiple and a best-case expense-control bar leave modest downside if core profit quality is merely good.",
-      "expectation_summary": "Street estimates cluster near $6.53-$6.55 EPS and $94.9 billion revenue after Q4 net sales rose 11.3% and ex-gas/FX comps rose 6.7%.",
-      "upside_case": "Fee income, renewal quality, and merchandise margin beat with reassuring cost commentary.",
-      "downside_case": "Tariff/fuel benefits mask soft core profit, or wage and fulfillment investment compress margin.",
-      "reversal_risk_assessment": "Moderate: a clean fee-income and core-margin beat can reverse the valuation-based downside call.",
-      "sentiment_read": "Constructive brand/customer discussion but valuation-sensitive investor debate; no quantified 7/14/30-day signal was reliable.",
-      "positioning_read": "Options imply about 3.2%-3.4%, versus a cited 10-year average move near 3.9%; the event is priced as contained.",
-      "analyst_revision_read": "Analyst sentiment remains broadly Buy, but BofA cut its target and Oppenheimer called consensus EPS a best-case outcome.",
-      "base_case": "A solid report fails to clear the premium bar, producing modest downside within the implied move.",
-      "bull_case": "Fee income, renewal quality, and merchandise margin beat with reassuring cost commentary.",
-      "bear_case": "Tariff/fuel benefits mask soft core profit, or wage and fulfillment investment compress margin.",
-      "final_directional_judgment": "Lean Down",
-      "allocation_priority_note": "Excluded: reversal risk exceeds the 40 threshold; no name qualified for the research allocation basket.",
-      "disparity_impact_note": "Low disparity improved process confidence modestly, but did not overcome the event-specific reversal risk.",
-      "method_update_note": "None; existing lessons were applied without a new method change.",
-      "key_sources": [
-        "https://investor.costco.com/events-and-presentations/default.aspx?c=83830&p=irol-audioarchives",
-        "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-August-Sales-Results/default.aspx",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-24-2026",
-        "https://stockanalysis.com/stocks/cost/statistics/"
-      ]
-    }
-  ],
+  "detailed_company_sections": [],
   "consensus_method": {
     "passes": 3,
-    "pass_scores": {
-      "TBN": {
-        "direction": [
-          41,
-          28,
-          34
-        ],
-        "reversal_risk": [
-          43,
-          52,
-          49
-        ]
-      },
-      "SCHL": {
-        "direction": [
-          -38,
-          -29,
-          -34
-        ],
-        "reversal_risk": [
-          54,
-          61,
-          58
-        ]
-      },
-      "COST": {
-        "direction": [
-          -31,
-          -19,
-          -27
-        ],
-        "reversal_risk": [
-          57,
-          49,
-          54
-        ]
-      }
+    "pass_scope": "All three independent passes received the same shared qualified universe, which was empty after the pre-pass screen.",
+    "pass_results": {
+      "A": [],
+      "B": [],
+      "C": []
     },
-    "disparity_definition": "A 0-100 composite calculated as 25% of the range in direction scores plus 50% of the range in reversal-risk values. Lower means tighter agreement.",
-    "strongest_names_disparity": "Low across all three names (6-8).",
-    "lessons_review": "Existing timing, single-key-metric, premium-valuation, financing-risk, and reversal-risk guardrails were applied. No new method change was warranted."
+    "disparity_definition": "Disparity is a 0-100 measure of distance among the three passes' direction and reversal-risk outputs; lower means tighter agreement. It is not computable when no ticker qualifies.",
+    "strongest_names_disparity": "Not applicable; there were no qualified names.",
+    "pass_agreement": "Complete agreement at the universe stage: no ticker met the standing inclusion threshold.",
+    "lessons_review": "The cumulative lessons reinforced timing hygiene, key-metric-first analysis, expectation-bar checks, and separate reversal-risk calibration. No new method change was warranted for this run."
   },
+  "calendar_validation": {
+    "today_after_close": "No confirmed U.S.-listed earnings reporters met the window; high-quality calendars showed no after-close names.",
+    "next_before_open": "Monday, September 28, 2026 is a normal U.S. trading session. Four names were timing-confirmed but all were screened out before scoring.",
+    "sources": [
+      "https://beta.earningswhispers.com/calendar/20260928",
+      "https://www.digrin.com/stocks/earnings_calendar/2026-09-25",
+      "https://beta.nyse.com/publicdocs/nyse/ICE_NYSE_2026_Yearly_Trading_Calendar.pdf"
+    ]
+  },
+  "key_sources": [
+    "https://beta.earningswhispers.com/calendar/20260928",
+    "https://www.digrin.com/stocks/earnings_calendar/2026-09-25",
+    "https://ir.geniusgroup.net/news-events/press-releases/detail/258/genius-group-to-release-half-year-2026-results-on-september",
+    "https://www.addextherapeutics.com/en/investors/press-releases/addex-therapeutics-report-2026-half-year-financial-results-and-host-conference-call-on-september-28-2026/",
+    "https://www.nasdaq.com/press-release/kandi-technologies-report-first-half-2026-financial-results-monday-september-28-2026",
+    "https://ir.netsoltech.com/press-releases/detail/3267/netsol-technologies-to-report-fiscal-fourth-quarter-and",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html",
+    "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+  ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
