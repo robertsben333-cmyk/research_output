@@ -1,0 +1,41 @@
+{
+  "generation_timestamp": "2026-09-25T17:07:25Z",
+  "covered_report_window": "Friday, September 25, 2026 after the U.S. market close through Monday, September 28, 2026 before the U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were near flat intraday while the 10-year Treasury yield remained above 5% and markets weighed persistent inflation, elevated oil, and a more hawkish rate path. The backdrop is especially punitive for speculative microcaps, reinforcing the liquidity and evidence-quality screen.",
+  "companies_reviewed_count": 5,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "GNS",
+        "reason": "Officially timed before Monday's open, but a nano-cap with sub-$1 shares, dilution/speculation risk, and insufficient institutional estimate/options evidence."
+      },
+      {
+        "ticker": "ADXN",
+        "reason": "Official date but thin U.S. ADS liquidity and nano-cap economics; clinical and financing catalysts dominate ordinary earnings."
+      },
+      {
+        "ticker": "KNDI",
+        "reason": "Micro-cap with thin trading, weak official timing confirmation, and no usable analyst, revisions, or options evidence."
+      },
+      {
+        "ticker": "MITQ",
+        "reason": "Officially rescheduled before Monday's open, but roughly $6-7 million market cap; the four-day financial-review delay and microcap liquidity fail the inclusion gate."
+      },
+      {
+        "ticker": "NTWK",
+        "reason": "Official 9:00 a.m. ET results call, but roughly $58 million market cap, thin trading, and insufficient estimate/revisions/options depth."
+      }
+    ],
+    "plain_statement": "No name qualified; the hypothetical research basket is 100% unallocated. This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
