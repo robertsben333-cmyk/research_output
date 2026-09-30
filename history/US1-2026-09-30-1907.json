@@ -1,0 +1,347 @@
+{
+  "generation_timestamp": "2026-09-30T17:07:01Z",
+  "covered_report_window": {
+    "after_close": "2026-09-30",
+    "before_open": "2026-10-01",
+    "timezone": "America/New_York",
+    "plain_language": "After the Wednesday, September 30, 2026 U.S. market close through before the Thursday, October 1, 2026 U.S. market open"
+  },
+  "report_type": "US1_full_ranked_earnings_report",
+  "market_context_summary": "Cooler-than-expected August PCE helped the S&P 500 and Nasdaq while Treasury yields eased, but the 10-year yield had just touched a 24-year high and oil/Middle East risk remained an important valuation and input-cost overhang.",
+  "companies_reviewed_count": 5,
+  "universe_notes": {
+    "qualified_tickers": [
+      "MU",
+      "PRGS",
+      "ACN",
+      "AYI",
+      "MKC"
+    ],
+    "excluded_examples": [
+      "BSET: micro-cap",
+      "ANGO: official timing not located; calendar timing estimated",
+      "PKE and VFS: thin/special-situation or weak timing/evidence quality"
+    ]
+  },
+  "top_setups": {
+    "upward": [
+      "PRGS",
+      "AYI",
+      "MU"
+    ],
+    "downward": [
+      "MKC",
+      "ACN"
+    ],
+    "note": "Only two evidence-qualified downside calls were available; no third bearish setup was forced."
+  },
+  "methodology": {
+    "independent_passes": 3,
+    "direction_score_aggregation": "arithmetic mean",
+    "reversal_risk_aggregation": "arithmetic mean",
+    "disparity_scale": "0-100; composite of normalized pass-score spread, reversal-risk spread, and call-band disagreement",
+    "learned_lessons_update": "Applied existing key-metric-first, priced-in-growth, and low-bar reversal-risk rules; no new method change."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "PRGS",
+      "company": "Progress Software",
+      "timing": "2026-09-30 after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 42,
+      "reversal_risk": 35,
+      "disparity": 10,
+      "confidence": "Medium",
+      "expected_driver": "Domo integration; ARR/guide quality",
+      "key_risk_to_call": "Leverage, integration cost, cautious FY27 tone",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Priced-in growth penalty; no new method change",
+      "one_sentence_thesis": "Management already indicated Q3 revenue and non-GAAP EPS should land at or above the prior guidance high end, so credible Domo economics and durable recurring revenue can support upside.",
+      "market_expectation_summary": "About $1.52-$1.55 adjusted EPS and $248-$252M revenue; the real bar is Domo integration and the forward guide.",
+      "upside_case_summary": "High-end-or-better Q3 plus an accretive Domo roadmap and stable ARR/NRR.",
+      "downside_case_summary": "Debt-funded integration, weaker organic ARR, or conservative FY27 commentary eclipses the beat.",
+      "options_or_positioning_summary": "Options imply about 12.3%, a demanding hurdle; five covering analysts were reported as Buy-rated, raising the expectations bar.",
+      "analyst_revision_summary": "Published consensus sits near the top of prior guidance after management's July preannouncement; clean incremental revisions were not consistently available.",
+      "key_sources": [
+        "https://investors.progress.com/news-releases/news-release-details/progress-software-report-third-quarter-2026-financial-results",
+        "https://investors.progress.com/node/28901",
+        "https://www.sec.gov/Archives/edgar/data/876167/000087616726000077/q22026supplementaldeck.htm",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://www.tipranks.com/news/options-volatility-and-implied-earnings-moves-today-september-30-2026"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "AYI",
+      "company": "Acuity Inc.",
+      "timing": "2026-10-01 before market open (6:00 a.m. ET)",
+      "direction_call": "Lean Up",
+      "direction_score": 36,
+      "reversal_risk": 39,
+      "disparity": 9,
+      "confidence": "Medium",
+      "expected_driver": "AIS growth vs. ABL stabilization",
+      "key_risk_to_call": "Soft lighting demand; margin normalization",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "AIS growth and margin expansion provide a positive mix tailwind, provided ABL demand stabilizes and adjusted margins hold without one-off help.",
+      "market_expectation_summary": "Roughly $5.6 adjusted EPS and $1.25B revenue; the decisive metric is AIS growth/margin against ABL demand.",
+      "upside_case_summary": "AIS sustains mid-teens growth and ABL steadies, supporting constructive FY27 commentary.",
+      "downside_case_summary": "ABL remains weak or margin quality fades as favorable items normalize.",
+      "options_or_positioning_summary": "Options imply about 8.8%; recent one-day reactions were much larger in both directions, so path risk remains meaningful.",
+      "analyst_revision_summary": "Public revision evidence was mixed and not strong enough to drive the call; the thesis rests on segment mix and execution.",
+      "key_sources": [
+        "https://investors.acuityinc.com/news-releases/news-release-details/acuity-announce-fiscal-2026-fourth-quarter-and-full-year-results",
+        "https://investors.acuityinc.com/news-releases/news-release-details/acuity-reports-fiscal-2026-third-quarter-results",
+        "https://investors.acuityinc.com/static-files/9c2f3d12-a08b-49d7-b481-19f52273311e",
+        "https://thetaowl.com/market/earnings-calendar"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "timing": "2026-09-30 after market close (4:30 p.m. ET call)",
+      "direction_call": "Lean Up",
+      "direction_score": 33,
+      "reversal_risk": 61,
+      "disparity": 18,
+      "confidence": "Low",
+      "expected_driver": "FY27 revenue/gross-margin durability",
+      "key_risk_to_call": "Extraordinary beat already priced in",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Up; 1 Neutral",
+      "method_update_note": "Repeated premium-growth priced-in penalty",
+      "one_sentence_thesis": "Extreme memory pricing, HBM demand, and customer commitments favor another strong print, but the stock needs FY27 guidance to clear an unusually elevated real-world bar.",
+      "market_expectation_summary": "Consensus is about $31.5-$32.3 adjusted EPS and $50.9-$52.1B revenue versus company guidance of $31 and $50B; FY27 margin durability matters more than Q4 EPS.",
+      "upside_case_summary": "FY27 revenue and gross margin clear whispers while HBM4/customer-agreement visibility extends the cycle.",
+      "downside_case_summary": "A merely in-line beat, heavier capex, or any sign of margin peaking triggers sell-the-news.",
+      "options_or_positioning_summary": "Options imply roughly 6.8%-8%; MU has historically moved about 9% on recent reports, while bullish retail/analyst positioning and visible downside hedges show crowding both ways.",
+      "analyst_revision_summary": "Estimates rose materially into the print and buy ratings remain broad, making published consensus less useful than the elevated whisper bar.",
+      "key_sources": [
+        "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-Fourth-Quarter-Results-on-September-30-2026/default.aspx",
+        "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Results-for-the-Third-Quarter-of-Fiscal-2026/default.aspx",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/micron-a-look-at-memory-ahead-of-q4-earning",
+        "https://www.zacks.com/stock/news/2995654/micron-likely-to-beat-q4-earnings-estimates-how-to-play-mu-stock",
+        "https://algoxflow.com/earnings/mu"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "MKC",
+      "company": "McCormick & Company",
+      "timing": "2026-10-01 before market open (8:00 a.m. ET call)",
+      "direction_call": "Lean Down",
+      "direction_score": -31,
+      "reversal_risk": 47,
+      "disparity": 12,
+      "confidence": "Medium",
+      "expected_driver": "Organic volume/mix and adjusted margin",
+      "key_risk_to_call": "Low bar; price/margin relief rally",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Acquisition-led headline growth masks modest 1%-3% organic growth, leaving the stock vulnerable if volume/mix or margin fails to validate a durable consumer recovery.",
+      "market_expectation_summary": "About $0.76 EPS and $1.98B revenue; organic sales and margin quality matter more than acquisition-inflated headline growth.",
+      "upside_case_summary": "Volume/mix improves and CCI savings protect margin despite commodities and integration spending.",
+      "downside_case_summary": "Pricing carries weak volumes while commodity, interest, or integration costs squeeze the guide.",
+      "options_or_positioning_summary": "Vendor estimates conflict, ranging from about 4% to 8.4%; the uncertainty lowers confidence in the magnitude benchmark.",
+      "analyst_revision_summary": "Consensus implies only modest underlying growth; robust current revision counts were not consistently available.",
+      "key_sources": [
+        "https://ir.mccormick.com/node/33971",
+        "https://ir.mccormick.com/news-releases/news-release-details/mccormick-reports-strong-second-quarter-performance-and-0",
+        "https://ir.mccormick.com/static-files/5cdd5a5a-bf71-4044-bf41-fccdd94cd563",
+        "https://ca.investing.com/news/stock-market-news/mccormick-shares-may-move-4-on-oct-1-earnings-report-93CH-4852233",
+        "https://earnings-watcher.com/wiki/mkc-implied-move"
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "ACN",
+      "company": "Accenture",
+      "timing": "2026-10-01 before market open (8:00 a.m. ET call)",
+      "direction_call": "Lean Down",
+      "direction_score": -30,
+      "reversal_risk": 53,
+      "disparity": 15,
+      "confidence": "Low",
+      "expected_driver": "Bookings and FY27 organic-growth guide",
+      "key_risk_to_call": "De-rated valuation; AI-bookings relief",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Lean Down; 1 Neutral",
+      "method_update_note": "Low-bar relief-risk caution",
+      "one_sentence_thesis": "Q3 bookings fell and FY26 growth guidance narrowed, so anything short of convincing FY27 organic growth and AI-bookings acceleration risks another negative reaction.",
+      "market_expectation_summary": "About $3.18 EPS and $18.0B revenue; bookings and FY27 growth guidance dominate headline EPS.",
+      "upside_case_summary": "Advanced-AI bookings accelerate and FY27 organic growth guidance signals a clean reacceleration.",
+      "downside_case_summary": "Bookings stay soft and federal exposure, utilization, or AI disruption weighs on FY27 growth.",
+      "options_or_positioning_summary": "Options imply about 7.5%-8.1%; the 2026 drawdown and compressed valuation materially raise relief-rally risk.",
+      "analyst_revision_summary": "The prior quarter narrowed FY26 local-currency growth to 3%-4% after bookings fell 3% in local currency, leaving the forward bar cautious but low.",
+      "key_sources": [
+        "https://newsroom.accenture.com/news/2026/accenture-to-announce-fourth-quarter-and-full-year-fiscal-2026-results",
+        "https://newsroom.accenture.com/news/2026/accenture-reports-third-quarter-fiscal-2026-results",
+        "https://newsroom.accenture.com/content/3qfy26-earnings/accenture-reports-third-quarter-fiscal-2026-results.pdf",
+        "https://za.investing.com/news/stock-market-news/accenture-shares-may-move-76-on-oct-1-earnings-report-93CH-4477007",
+        "https://earnings-watcher.com/wiki/acn-implied-move"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "PRGS",
+        "direction": "Lean Up",
+        "weight_percent": 60,
+        "reason": "Highest consensus score, low disparity, reversal risk 35"
+      },
+      {
+        "ticker": "AYI",
+        "direction": "Lean Up",
+        "weight_percent": 40,
+        "reason": "Score above 30, lowest disparity, reversal risk 39"
+      }
+    ],
+    "unallocated_percent": 0,
+    "excluded_for_reversal_risk": [
+      "MU",
+      "MKC",
+      "ACN"
+    ],
+    "disclaimer": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "PRGS",
+      "consensus_summary": "All passes leaned up; variation centered on whether the preannouncement and analyst enthusiasm already absorb most of the upside.",
+      "pass_scores": [
+        48,
+        35,
+        43
+      ],
+      "pass_reversal_risks": [
+        32,
+        38,
+        35
+      ],
+      "averaged_direction_score": 42,
+      "averaged_reversal_risk": 35,
+      "disparity": 10,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "Domo integration economics and ARR/guide quality",
+      "base_case": "High-end-or-better quarter with credible integration milestones",
+      "bull_case": "Raise plus clear Domo accretion and stable recurring revenue",
+      "bear_case": "Organic ARR weakness and leverage/integration cost dominate",
+      "social_sentiment": "Small but constructive value-investor discussion; low sample and not score-driving.",
+      "allocation_priority": true,
+      "disparity_effect": "Low disparity supported the highest allocation priority."
+    },
+    {
+      "ticker": "AYI",
+      "consensus_summary": "All passes leaned up on AIS mix; conviction was capped by ABL demand and the large priced move.",
+      "pass_scores": [
+        41,
+        30,
+        37
+      ],
+      "pass_reversal_risks": [
+        36,
+        42,
+        39
+      ],
+      "averaged_direction_score": 36,
+      "averaged_reversal_risk": 39,
+      "disparity": 9,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "key_metric": "AIS growth/margin versus ABL stabilization",
+      "base_case": "AIS growth offsets soft lighting and margins hold",
+      "bull_case": "AIS accelerates and ABL stabilizes",
+      "bear_case": "ABL weakness and margin normalization dominate",
+      "social_sentiment": "Sparse; no reliable retail or customer-sentiment signal was given material weight.",
+      "allocation_priority": true,
+      "disparity_effect": "Lowest disparity improved allocation quality."
+    },
+    {
+      "ticker": "MU",
+      "consensus_summary": "Two passes leaned up and one was neutral because fundamentals are exceptional but the whisper bar is extreme.",
+      "pass_scores": [
+        50,
+        18,
+        31
+      ],
+      "pass_reversal_risks": [
+        54,
+        69,
+        60
+      ],
+      "averaged_direction_score": 33,
+      "averaged_reversal_risk": 61,
+      "disparity": 18,
+      "recommendation": "Lean Up",
+      "confidence": "Low",
+      "key_metric": "FY27 revenue/gross-margin durability",
+      "base_case": "Strong beat but only modest upside because expectations are elevated",
+      "bull_case": "FY27 guide clears whispers and HBM visibility extends",
+      "bear_case": "Sell-the-news on peak margins or capex",
+      "social_sentiment": "Retail commentary is strongly bullish and focused on HBM/margins, with some bearish hedging discussion; crowding raises reversal risk.",
+      "allocation_priority": false,
+      "disparity_effect": "Moderate disparity and high reversal risk overrode the score."
+    },
+    {
+      "ticker": "MKC",
+      "consensus_summary": "All passes leaned down, but the low bar and margin relief path kept reversal risk moderate.",
+      "pass_scores": [
+        -31,
+        -26,
+        -36
+      ],
+      "pass_reversal_risks": [
+        43,
+        51,
+        47
+      ],
+      "averaged_direction_score": -31,
+      "averaged_reversal_risk": 47,
+      "disparity": 12,
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "key_metric": "Organic volume/mix and adjusted margin",
+      "base_case": "Organic demand stays modest and guide remains cautious",
+      "bull_case": "Volume recovery plus CCI creates margin relief",
+      "bear_case": "Weak mix and cost/integration pressure",
+      "social_sentiment": "Consumer/social evidence was diffuse and not strong enough to change the call.",
+      "allocation_priority": false,
+      "disparity_effect": "Low-moderate disparity helped confidence, but reversal risk failed the basket cutoff."
+    },
+    {
+      "ticker": "ACN",
+      "consensus_summary": "Two passes leaned down and one was neutral because bookings are soft but valuation and expectations have reset sharply.",
+      "pass_scores": [
+        -38,
+        -22,
+        -30
+      ],
+      "pass_reversal_risks": [
+        48,
+        58,
+        53
+      ],
+      "averaged_direction_score": -30,
+      "averaged_reversal_risk": 53,
+      "disparity": 15,
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "key_metric": "Bookings and FY27 organic-growth guide",
+      "base_case": "Muted FY27 growth guide",
+      "bull_case": "AI bookings and organic demand reaccelerate",
+      "bear_case": "Bookings/utilization remain soft",
+      "social_sentiment": "Employee/investor discussion is cautious on demand and AI disruption, but anecdotal and not score-driving.",
+      "allocation_priority": false,
+      "disparity_effect": "Moderate disparity and relief risk reduced confidence and excluded allocation."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
