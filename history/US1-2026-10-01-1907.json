@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.2",
+  "generation_timestamp": "2026-10-01T19:07:00+02:00",
+  "covered_report_window": {
+    "plain_language": "U.S.-listed companies reporting after the regular U.S. market close on Thursday, October 1, 2026, plus companies reporting before the next U.S. market open on Friday, October 2, 2026.",
+    "after_close_start": "2026-10-01T16:00:00-04:00",
+    "before_open_end": "2026-10-02T09:30:00-04:00",
+    "timezone": "America/New_York",
+    "next_session_is_regular_trading_day": true
+  },
+  "report_type": "full_ranked_actionable_earnings_window",
+  "market_context_summary": "U.S. equities were mixed amid volatile global bond yields, with the September U.S. Employment Situation due at 08:30 ET Friday. That macro release can overwhelm company-specific price discovery between Nike's report and the open. Nike traded near $35.91 during the run, up about 1.4% on the day but still roughly 43% lower year to date.",
+  "companies_reviewed_count": 1,
+  "universe_notes": {
+    "qualified_tickers": [
+      "NKE"
+    ],
+    "excluded_tickers": [
+      {
+        "ticker": "VFS",
+        "reason": "Friday timing was not confirmed as before-market-open by an official or sufficiently high-quality source; also failed the preferred U.S.-company/liquidity evidence screen."
+      }
+    ],
+    "no_confirmed_friday_pre_market_reporters": true
+  },
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_no_edge": [
+      {
+        "ticker": "NKE",
+        "direction_score": -22,
+        "direction_call": "Neutral / No Edge"
+      }
+    ]
+  },
+  "methodology": {
+    "independent_pass_count": 3,
+    "qualified_universe_fixed_before_scoring": true,
+    "consensus_basis": "Arithmetic mean of three independently formed direction scores and reversal-risk values.",
+    "disparity_definition": "0-100 metric equal to 80% of the mean absolute deviation of the three direction scores plus 20% of the mean absolute deviation of the three reversal-risk values, rounded. Lower is tighter agreement.",
+    "learned_lessons_review": "Applied the standing one-key-metric and low-bar reversal-risk rules. No new method change was warranted."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "NKE",
+      "company": "NIKE, Inc.",
+      "timing": "After market close, Thursday, October 1, 2026 (official release approximately 4:15 p.m. ET)",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -22,
+      "reversal_risk": 69,
+      "reversal_risk_label": "High",
+      "disparity": 8,
+      "confidence": "Low",
+      "expected_driver": "Underlying gross-margin inflection; China/DTC quality",
+      "key_risk_to_call": "Low bar sparks relief rally",
+      "evidence_quality": "High",
+      "pass_agreement": "Two Lean Down; one Neutral; low numeric disparity",
+      "method_update_note": "Standing low-bar reversal-risk rule applied; no new method change.",
+      "one_sentence_thesis": "Underlying margin, China, and Direct demand remain vulnerable, but the severe de-rating and already-low bar make the opposite-direction relief risk too high for a clean bearish edge.",
+      "market_expectation_summary": "LSEG/Visible Alpha consensus is about $0.43-$0.44 EPS on roughly $11.3 billion revenue, down about 3% year over year; Greater China is expected to fall about 12.6%.",
+      "upside_case_summary": "Underlying margin expands, North America/wholesale offsets China and Direct weakness, and management gives credible recovery markers ahead of November Investor Day.",
+      "downside_case_summary": "Underlying margin misses the inflection, China/DTC remain weak, and commentary pushes the recovery farther out.",
+      "options_or_positioning_summary": "Options priced approximately a 7%-8% move. Downside skew and a roughly 43% year-to-date decline create both fear and sharp relief/squeeze potential.",
+      "analyst_revision_summary": "China sales expectations have been materially reduced, recent price-target actions were negative, and one third-party revision tracker showed seven EPS cuts and no increases over 30 days.",
+      "key_sources": [
+        {
+          "title": "NIKE official earnings timing announcement",
+          "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Announces-First-Quarter-Fiscal-2027-Earnings-and-Conference-Call/default.aspx"
+        },
+        {
+          "title": "NIKE fiscal 2026 fourth-quarter results",
+          "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Reports-Fiscal-2026-Fourth-Quarter-and-Full-Year-Results/default.aspx"
+        },
+        {
+          "title": "S&P Global Q1 FY2027 preview",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/nike-heads-into-q1-2027-results-with-sales-still-under-pressure"
+        },
+        {
+          "title": "IG/LSEG NIKE earnings preview",
+          "url": "https://www.ig.com/uk/news-and-trade-ideas/nike-earnings-preview--can-the-turnaround-finally-gain-traction-260930"
+        },
+        {
+          "title": "Options implied move report",
+          "url": "https://www.tipranks.com/news/the-fly/option-traders-moderately-bearish-in-nike-with-shareslittle-changed-thefly-news"
+        },
+        {
+          "title": "BLS September 2026 Employment Situation schedule",
+          "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+        },
+        {
+          "title": "SEC Form 4 for Elliott Hill",
+          "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000051/0000320187-26-000051-index.htm"
+        },
+        {
+          "title": "Kiplinger earnings calendar",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_names": [
+      {
+        "ticker": "NKE",
+        "reason": "Consensus absolute score of 22 is below 30 and reversal risk of 69 is above 40."
+      }
+    ],
+    "allocations": [],
+    "allocated_percent": 0,
+    "unallocated_percent": 100,
+    "rationale": "No setup cleared both the directional-strength and reversal-risk gates.",
+    "statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "NKE",
+      "consensus_summary": "Passes A and C leaned down on margin-quality and China/DTC evidence; Pass B landed Neutral because the reset valuation, low expectations, and event crowding created substantial relief-rally risk.",
+      "pass_outputs": [
+        {
+          "pass": "A",
+          "direction_score": -34,
+          "reversal_risk": 66,
+          "direction_call": "Lean Down",
+          "key_metric": "Underlying gross-margin change excluding tariff-recovery effects",
+          "summary": "The required margin inflection faces soft Direct demand and a difficult clean comparison."
+        },
+        {
+          "pass": "B",
+          "direction_score": -8,
+          "reversal_risk": 74,
+          "direction_call": "Neutral / No Edge",
+          "key_metric": "Greater China revenue versus the roughly -12.6% consensus",
+          "summary": "China is weak, but a merely less-bad print can clear a deeply reset bar and squeeze the stock."
+        },
+        {
+          "pass": "C",
+          "direction_score": -25,
+          "reversal_risk": 68,
+          "direction_call": "Lean Down",
+          "key_metric": "NIKE Direct/digital trajectory and management's recovery milestones",
+          "summary": "DTC weakness and negative revisions outweigh wholesale improvement, though November Investor Day limits near-term guidance clarity."
+        }
+      ],
+      "averaged_direction_score": -22.33,
+      "averaged_reversal_risk": 69.33,
+      "displayed_direction_score": -22,
+      "displayed_reversal_risk": 69,
+      "disparity": 8,
+      "pass_agreement": "Partial directional agreement: two Lean Down calls and one Neutral; the low disparity reflects that all three stayed on the cautious side of zero.",
+      "recommendation": "Neutral / No Edge",
+      "confidence": "Low",
+      "one_sentence_thesis": "The fundamental tilt is negative, but the event setup is too de-risked and reversal-prone to support a tradeable bearish consensus.",
+      "what_the_market_expects": "About $0.43-$0.44 EPS and $11.3 billion revenue, with sales down around 3%, China near $1.3 billion, DTC down roughly 4%, and wholesale down roughly 1%.",
+      "what_could_make_stock_go_up": "Clean underlying margin expansion, better North America wholesale/product momentum, a milder China decline, or credible milestones for the Investor Day reset.",
+      "what_could_make_stock_go_down": "Failure of underlying margin to turn, continued double-digit China pressure, renewed digital/store weakness, or a slower recovery message from the new CFO.",
+      "reversal_risk_assessment": "High. The stock entered near a 52-week low after a severe de-rating; consensus already assumes contraction, options show meaningful downside hedging, and even less-bad operating evidence could trigger a relief rally.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion was visibly bearish but contrarian, with repeated debate about a fall into the $20s versus a low-bar rebound. Treat as noisy positioning evidence, not demand evidence. Consumer fundamentals remain better evidenced by company channel data than social posts.",
+      "options_positioning_read": "The market priced approximately a 7%-8% move; put skew had steepened, while the large decline into the print raises the probability that a modest fundamental beat produces an outsized opposite-direction reaction.",
+      "analyst_estimate_revision_read": "Consensus still calls for contraction; S&P Global reports materially reduced China forecasts, and recent target cuts reinforce a cautious bar. That is bearish fundamentally but also lowers the hurdle.",
+      "base_case": "Results broadly match low expectations; weak China/DTC offsets wholesale and product progress, producing a choppy or modestly negative reaction inside the implied move.",
+      "bull_case": "Underlying margin and North America beat, China is less bad, and management gives credible recovery markers; the stock rallies sharply on relief.",
+      "bear_case": "Margin inflection fails and management signals that China/DTC recovery remains distant; the stock falls beyond the implied move.",
+      "final_directional_judgment": "Neutral / No Edge, with a bearish fundamental tilt but no sufficiently clean reaction edge.",
+      "allocation_priority": "Not prioritized; it fails both allocation gates.",
+      "disparity_effect": "Low disparity modestly supports the cautious consensus, but it cannot offset the high reversal risk or the score's proximity to Neutral.",
+      "method_update_note": "No new method change. The repeated low-bar reversal lesson directly capped bearish conviction.",
+      "key_sources": [
+        {
+          "title": "NIKE official earnings timing announcement",
+          "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Announces-First-Quarter-Fiscal-2027-Earnings-and-Conference-Call/default.aspx"
+        },
+        {
+          "title": "NIKE fiscal 2026 fourth-quarter results",
+          "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Reports-Fiscal-2026-Fourth-Quarter-and-Full-Year-Results/default.aspx"
+        },
+        {
+          "title": "S&P Global Q1 FY2027 preview",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/09/nike-heads-into-q1-2027-results-with-sales-still-under-pressure"
+        },
+        {
+          "title": "IG/LSEG NIKE earnings preview",
+          "url": "https://www.ig.com/uk/news-and-trade-ideas/nike-earnings-preview--can-the-turnaround-finally-gain-traction-260930"
+        },
+        {
+          "title": "Options implied move report",
+          "url": "https://www.tipranks.com/news/the-fly/option-traders-moderately-bearish-in-nike-with-shareslittle-changed-thefly-news"
+        },
+        {
+          "title": "BLS September 2026 Employment Situation schedule",
+          "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+        },
+        {
+          "title": "SEC Form 4 for Elliott Hill",
+          "url": "https://www.sec.gov/Archives/edgar/data/320187/000032018726000051/0000320187-26-000051-index.htm"
+        },
+        {
+          "title": "Kiplinger earnings calendar",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
