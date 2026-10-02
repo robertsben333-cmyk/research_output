@@ -1,96 +1,65 @@
 {
-  "schema_version": "1.2",
-  "generation_timestamp": "2026-10-02T19:02:01+02:00",
-  "covered_report_window": {
-    "plain_language": "U.S.-listed companies reporting after the regular U.S. market close on Friday, October 2, 2026, plus companies reporting before the next U.S. market open on Monday, October 5, 2026.",
-    "after_close_start": "2026-10-02T16:00:00-04:00",
-    "before_open_end": "2026-10-05T09:30:00-04:00",
-    "timezone": "America/New_York",
-    "weekend_bridge": true,
-    "next_session_is_regular_trading_day": true
-  },
-  "report_type": "full_ranked_actionable_earnings_window",
-  "market_context_summary": "The September employment report showed payroll growth of 29,000 and unemployment at 4.2%, prompting gains in stocks and bonds as expectations for an October Federal Reserve rate increase eased. Treasury volatility and elevated long-term yields remain broader valuation risks.",
-  "companies_reviewed_count": 0,
-  "universe_notes": {
-    "qualified_tickers": [],
-    "screened_calendar_entries": [
-      {
-        "ticker": "FKWL",
-        "timing": "Monday before open on one third-party calendar",
-        "exclusion_reason": "Approximately $28 million market capitalization, thinly traded/microcap, and timing not corroborated by a company source or stronger calendar consensus."
-      },
-      {
-        "ticker": "AMST",
-        "timing": "Monday before open on one third-party calendar",
-        "exclusion_reason": "Approximately $6 million market capitalization, microcap, and timing not corroborated by a company source or stronger calendar consensus."
-      }
-    ],
-    "calendar_consensus": "Earnings Whispers and Financhle list zero Friday after-close reports; eOption, Digrin, Techdamentals, and Tickerix list zero confirmed Monday before-open reports.",
-    "no_qualified_reporters": true
-  },
+  "generation_timestamp": "2026-10-02T17:07:55Z",
+  "covered_report_window": "Friday, October 2, 2026 after the regular U.S. market close through Monday, October 5, 2026 before the next U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "September payrolls rose only 29,000, unemployment increased to 4.2%, and U.S. equities advanced as markets reduced the probability of an October Federal Reserve rate increase; Treasury volatility and Monday's ISM services release remain the main cross-asset context.",
+  "companies_reviewed_count": 11,
   "top_setups": {
     "upward": [],
     "downward": [],
-    "neutral_or_no_edge": []
-  },
-  "methodology": {
-    "independent_pass_count": 3,
-    "qualified_universe_fixed_before_scoring": true,
-    "pass_results": [
-      {
-        "pass": "A",
-        "result": "No qualified tickers; no scoring performed."
-      },
-      {
-        "pass": "B",
-        "result": "No qualified tickers; no scoring performed."
-      },
-      {
-        "pass": "C",
-        "result": "No qualified tickers; no scoring performed."
-      }
-    ],
-    "consensus_basis": "No company-level consensus calculation was possible because the shared qualified universe was empty.",
-    "disparity_definition": "Normally a 0-100 measure of disagreement across the three independent passes; not applicable when there are no qualified tickers.",
-    "learned_lessons_review": "Reviewed the cumulative timing-confirmation, key-metric, expectation-bar, forward-look, and reversal-risk lessons. No current ticker qualified, so no method change was warranted."
+    "neutral_or_mixed": []
   },
   "ranked_companies": [],
   "research_allocation_view": {
     "qualified_names": [],
-    "excluded_names": [],
-    "allocations": [],
-    "allocated_percent": 0,
-    "unallocated_percent": 100,
-    "rationale": "No eligible earnings event exists in the strict actionable window, so no setup can satisfy the score, reversal-risk, confidence, and evidence gates.",
-    "statement": "This is a research prioritization model, not financial advice."
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "TMQ",
+        "reason": "Official third-quarter results were already public during Friday's regular session, so the event was no longer forthcoming."
+      },
+      {
+        "ticker": "VFS",
+        "reason": "No official confirmation of an October 2 after-close or October 5 before-open release."
+      },
+      {
+        "ticker": "FKWL",
+        "reason": "Fiscal-year results were already filed on September 28; the remaining Monday calendar label was stale, and the company is a microcap."
+      },
+      {
+        "ticker": "AMST",
+        "reason": "Fiscal-year results were already filed on September 23; the company also fails the standing microcap screen."
+      },
+      {
+        "ticker": "STZ",
+        "reason": "Official company timing is October 6 after market close, outside the actionable window."
+      },
+      {
+        "ticker": "BETA",
+        "reason": "Calendar date was time-unconfirmed and lacked official in-window timing confirmation."
+      },
+      {
+        "ticker": "FEAM",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "NNVC",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "NEUP",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "AMSS",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "BENF",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
   },
   "detailed_company_sections": [],
-  "key_sources": [
-    {
-      "title": "Earnings Whispers after-close calendar for October 2, 2026",
-      "url": "https://www.earningswhispers.com/calendar/20261002/3"
-    },
-    {
-      "title": "Financhle earnings calendar for October 2, 2026",
-      "url": "https://financhle.com/earnings-calendar"
-    },
-    {
-      "title": "eOption weekly event calendar for October 5-9, 2026",
-      "url": "https://www.eoption.com/weekly-event-calendar-10-05-2026-10-09-2026/"
-    },
-    {
-      "title": "Digrin earnings calendar for October 5, 2026",
-      "url": "https://www.digrin.com/stocks/earnings_calendar/2026-10-05"
-    },
-    {
-      "title": "BLS September 2026 Employment Situation",
-      "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
-    },
-    {
-      "title": "Reuters market reaction to September jobs report",
-      "url": "https://www.marketscreener.com/news/instant-view-soft-september-jobs-report-sends-markets-higher-ce785ddad18eff20"
-    }
-  ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
