@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.2",
+  "generation_timestamp": "2026-10-02T19:07:01+02:00",
+  "covered_report_window": {
+    "plain_language": "U.S.-listed companies reporting after the regular U.S. market close on Friday, October 2, 2026, plus companies reporting before the next U.S. market open on Monday, October 5, 2026.",
+    "after_close_start": "2026-10-02T16:00:00-04:00",
+    "before_open_end": "2026-10-05T09:30:00-04:00",
+    "timezone": "America/New_York",
+    "weekend_bridge": true,
+    "next_session_is_regular_trading_day": true
+  },
+  "report_type": "full_ranked_actionable_earnings_window",
+  "market_context_summary": "September payroll growth slowed to 29,000, prior months were revised down by a combined 60,000, and unemployment rose to 4.2%. Stocks rose and Treasury yields fell as the report reduced pressure for an aggressive Federal Reserve rate increase, while the weak labor signal remains a growth risk.",
+  "companies_reviewed_count": 4,
+  "qualified_companies_count": 0,
+  "universe_notes": {
+    "qualified_tickers": [],
+    "screened_calendar_entries": [
+      {
+        "ticker": "VFS",
+        "candidate_session": "Friday, October 2",
+        "exclusion_reason": "One calendar listed the date without a before-open or after-close designation; the required after-close timing was not confirmed."
+      },
+      {
+        "ticker": "FKWL",
+        "candidate_session": "Monday, October 5 before open on one vendor calendar",
+        "exclusion_reason": "Approximately $28 million market capitalization, thin/microcap profile, no company confirmation, and a September 28 annual filing already supplied fiscal-year results."
+      },
+      {
+        "ticker": "AMST",
+        "candidate_session": "Monday, October 5 before open on one vendor calendar",
+        "exclusion_reason": "Approximately $6.5 million market capitalization, microcap profile, and no company or stronger-calendar timing confirmation."
+      },
+      {
+        "ticker": "MKC",
+        "candidate_session": "Monday, October 5 before open on one calendar",
+        "exclusion_reason": "Conflicting/stale listing; higher-quality calendars placed the report outside the actionable window and showed no Monday report."
+      }
+    ],
+    "calendar_consensus": "Kiplinger, citing Briefing.com and company websites, lists no noteworthy Monday reports; Techdamentals and eOption independently show no Monday before-open earnings. Friday calendars produced no confirmed after-close reporter.",
+    "no_qualified_reporters": true
+  },
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_no_edge": []
+  },
+  "methodology": {
+    "independent_pass_count": 3,
+    "qualified_universe_fixed_before_scoring": true,
+    "pass_results": [
+      {"pass": "A", "result": "No qualified tickers; no company scoring performed."},
+      {"pass": "B", "result": "No qualified tickers; no company scoring performed."},
+      {"pass": "C", "result": "No qualified tickers; no company scoring performed."}
+    ],
+    "consensus_basis": "All three independent passes operated on the same empty qualified universe; no company-level averages were calculable.",
+    "disparity_definition": "A 0-100 measure of disagreement among three independent company scores and reversal-risk assessments; not applicable when no company qualifies.",
+    "learned_lessons_review": "Reviewed the cumulative timing-confirmation, key-metric, expectation-bar, forward-look, and reversal-risk lessons. The repeated hard timing-confirmation rule excluded all raw entries; no new method change was warranted."
+  },
+  "ranked_companies": [],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_for_high_reversal_risk": [],
+    "allocations": [],
+    "allocated_percent": 0,
+    "unallocated_percent": 100,
+    "rationale": "No company entered the qualified universe, so none could satisfy the consensus score, reversal-risk, confidence, and evidence-quality gates.",
+    "statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [],
+  "key_sources": [
+    {"title": "Kiplinger earnings calendar, week of October 5, 2026", "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"},
+    {"title": "Techdamentals confirmed earnings calendar, week of October 5, 2026", "url": "https://techdamentals.com/calendar/earnings?week=2026-10-05"},
+    {"title": "eOption weekly event calendar, October 5-9, 2026", "url": "https://www.eoption.com/weekly-event-calendar-10-05-2026-10-09-2026/"},
+    {"title": "StockDecider expected earnings calendar", "url": "https://stockdecider.com/earnings"},
+    {"title": "Franklin Wireless fiscal 2026 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/722572/000168316826007446/franklin_i10k-063026.htm"},
+    {"title": "BLS September 2026 Employment Situation", "url": "https://www.bls.gov/news.release/empsit.nr0.htm"},
+    {"title": "Charles Schwab market update, October 2, 2026", "url": "https://www.schwab.com/learn/story/stock-market-update-open"}
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
