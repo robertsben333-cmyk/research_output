@@ -1,0 +1,65 @@
+{
+  "generation_timestamp": "2026-10-02T17:07:55Z",
+  "covered_report_window": "Friday, October 2, 2026 after the regular U.S. market close through Monday, October 5, 2026 before the next U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "September payrolls rose only 29,000, unemployment increased to 4.2%, and U.S. equities advanced as markets reduced the probability of an October Federal Reserve rate increase; Treasury volatility and Monday's ISM services release remain the main cross-asset context.",
+  "companies_reviewed_count": 11,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "TMQ",
+        "reason": "Official third-quarter results were already public during Friday's regular session, so the event was no longer forthcoming."
+      },
+      {
+        "ticker": "VFS",
+        "reason": "No official confirmation of an October 2 after-close or October 5 before-open release."
+      },
+      {
+        "ticker": "FKWL",
+        "reason": "Fiscal-year results were already filed on September 28; the remaining Monday calendar label was stale, and the company is a microcap."
+      },
+      {
+        "ticker": "AMST",
+        "reason": "Fiscal-year results were already filed on September 23; the company also fails the standing microcap screen."
+      },
+      {
+        "ticker": "STZ",
+        "reason": "Official company timing is October 6 after market close, outside the actionable window."
+      },
+      {
+        "ticker": "BETA",
+        "reason": "Calendar date was time-unconfirmed and lacked official in-window timing confirmation."
+      },
+      {
+        "ticker": "FEAM",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "NNVC",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "NEUP",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "AMSS",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      },
+      {
+        "ticker": "BENF",
+        "reason": "Calendar date was time-unconfirmed and the company failed the standing size/liquidity screen."
+      }
+    ],
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
