@@ -1,0 +1,236 @@
+{
+  "generation_timestamp": "2026-10-05T17:12:00Z",
+  "covered_report_window": "Monday, October 5, 2026 after the regular U.S. market close through Tuesday, October 6, 2026 before the next U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "No qualified U.S.-listed companies are confirmed for Monday after the close; APOG, RPM, and LW report Tuesday before the open. U.S. equities were near records, the Nasdaq was tracking a record, the 10-year Treasury yield was about 5.29%, Brent crude was above $100 while WTI traded near $90, and Tuesday's trade-balance release plus Wednesday's FOMC minutes add macro sensitivity.",
+  "companies_reviewed_count": 3,
+  "top_setups": {
+    "upward": [
+      "RPM",
+      "APOG"
+    ],
+    "downward": [
+      "LW"
+    ],
+    "note": "Only two upward and one downward qualified setups exist in this strict window."
+  },
+  "consensus_method": {
+    "pass_count": 3,
+    "disparity_definition": "Average of (direction-score range divided by 200) and (reversal-risk range divided by 100), multiplied by 100 and rounded. Lower means tighter pass agreement.",
+    "learned_lessons_review": "Applied the standing expectation-bar, key-metric-first, forward-look override, and separate reversal-risk controls. No new method change was warranted."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "RPM",
+      "company": "RPM International Inc.",
+      "timing": "Tuesday, October 6, 2026 before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 37,
+      "reversal_risk": 35,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Organic sales and adjusted EBITDA growth versus mid-single-digit guide",
+      "key_risk_to_call": "Raw-material inflation outruns pricing",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Broad mid-single-digit segment growth, MAP savings, and a de-risked valuation favor upside if price/cost execution holds.",
+      "market_expectation_summary": "Consensus is about $1.95 EPS on $2.22 billion revenue; management guided first-quarter sales and adjusted EBITDA growth in the mid-single digits.",
+      "upside_case_summary": "Organic volume, pricing, and MAP 3.0 savings support a beat and reaffirmed or improved fiscal-2027 outlook.",
+      "downside_case_summary": "Six-to-eight percent raw-material inflation or weak consumer/construction volumes compress margins despite sales growth.",
+      "options_or_positioning_summary": "About 2.6% short interest; stock near the low end of its 52-week range. A clean current implied move was unavailable.",
+      "analyst_revision_summary": "Thirty-day estimate revisions were skewed negative (0 up, 3 down); Morgan Stanley cut its target to $117 while retaining Equal Weight after fiscal-year results.",
+      "key_metric": "Organic sales plus adjusted EBITDA growth",
+      "pass_outputs": [
+        {
+          "pass": "A",
+          "direction_score": 36,
+          "reversal_risk": 32,
+          "call": "Lean Up"
+        },
+        {
+          "pass": "B",
+          "direction_score": 44,
+          "reversal_risk": 34,
+          "call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 31,
+          "reversal_risk": 38,
+          "call": "Lean Up"
+        }
+      ],
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://www.rpminc.com/news/",
+        "https://rpmdataprocessoraddendum.rpminc.com/news/news-release/?workflowid=73ce8f29-52fc-42f2-9c11-5236e67efbd0",
+        "https://www.sikuliresearch.com/dashboard/earnings"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "LW",
+      "company": "Lamb Weston Holdings, Inc.",
+      "timing": "Tuesday, October 6, 2026 at approximately 8:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -34,
+      "reversal_risk": 63,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "Volume/price-mix and FY27 EBITDA guide durability",
+      "key_risk_to_call": "Low bar and North America share gains spark relief rally",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "International weakness, adverse price/mix, and fresh European crop concerns outweigh North America volume momentum, but the depressed stock leaves substantial squeeze risk.",
+      "market_expectation_summary": "Consensus is about $0.59 EPS on $1.66 billion revenue; management framed the first quarter as a low point and guides fiscal-2027 sales to 0%-1% growth and adjusted EBITDA to $1.1-$1.2 billion.",
+      "upside_case_summary": "North America share gains, cost savings, and a trough-quarter narrative preserve the full-year range and drive relief upside.",
+      "downside_case_summary": "European potato costs, EMEA pricing pressure, soft restaurant traffic, or weaker guide language extend margin compression.",
+      "options_or_positioning_summary": "Options imply roughly an 8.7% move; short interest about 4.9%. Prior reactions have exceeded implied moves, including a roughly 26% decline after a prior print.",
+      "analyst_revision_summary": "Recent caution increased: JPMorgan cut its target to $46 and Stephens to $50; 30-day EPS revisions were 2 up versus 4 down.",
+      "key_metric": "Volume/price-mix and adjusted EBITDA trajectory",
+      "pass_outputs": [
+        {
+          "pass": "A",
+          "direction_score": -32,
+          "reversal_risk": 58,
+          "call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -46,
+          "reversal_risk": 68,
+          "call": "Lean Down"
+        },
+        {
+          "pass": "C",
+          "direction_score": -25,
+          "reversal_risk": 62,
+          "call": "Lean Down"
+        }
+      ],
+      "pass_agreement": "3/3 Lean Down; magnitude differs",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://investors.lambweston.com/news-releases/news-release-details/lamb-weston-announce-fiscal-year-2027-first-quarter-financial",
+        "https://investors.lambweston.com/news-releases/news-release-details/lamb-weston-announces-q4-and-full-year-fiscal-2026-results",
+        "https://www.benzinga.com/quote/lw/price-targets",
+        "https://www.sikuliresearch.com/dashboard/earnings"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "APOG",
+      "company": "Apogee Enterprises, Inc.",
+      "timing": "Tuesday, October 6, 2026 before market open",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 18,
+      "reversal_risk": 49,
+      "disparity": 7,
+      "confidence": "Low",
+      "expected_driver": "Services backlog conversion versus Glass margin",
+      "key_risk_to_call": "Glass and Surfaces margin erosion",
+      "evidence_quality": "High",
+      "one_sentence_thesis": "Services backlog and cost savings are constructive, but weak Glass and Performance Surfaces margins plus acquisition integration keep the reaction near no-edge.",
+      "market_expectation_summary": "Consensus is roughly $0.63-$0.64 EPS on about $359-$367 million revenue; management previously guided fiscal-2027 adjusted EPS to $2.70-$3.25.",
+      "upside_case_summary": "Backlog converts cleanly, Fortify savings persist, and Kalwall/GroGlass integration lifts the forward sales outlook without diluting margins.",
+      "downside_case_summary": "Architectural Glass pricing and volume remain weak, Performance Surfaces margins fail to recover, or acquisition interest/integration costs pressure guidance.",
+      "options_or_positioning_summary": "About 4.6% short interest and elevated implied volatility; a clean event-implied move was unavailable.",
+      "analyst_revision_summary": "Sparse coverage and mixed estimate sources reduce conviction; consensus EPS centers near $0.63-$0.64.",
+      "key_metric": "Architectural Services backlog conversion and Glass margin",
+      "pass_outputs": [
+        {
+          "pass": "A",
+          "direction_score": 18,
+          "reversal_risk": 46,
+          "call": "Neutral / No Edge"
+        },
+        {
+          "pass": "B",
+          "direction_score": 28,
+          "reversal_risk": 52,
+          "call": "Lean Up"
+        },
+        {
+          "pass": "C",
+          "direction_score": 8,
+          "reversal_risk": 49,
+          "call": "Neutral / No Edge"
+        }
+      ],
+      "pass_agreement": "2/3 Neutral; 1/3 Lean Up",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://www.apog.com/news-releases/news-release-details/apogee-enterprises-announces-date-fiscal-2027-second-quarter",
+        "https://www.apog.com/news-releases/news-release-details/apogee-enterprises-reports-fiscal-2027-first-quarter-results",
+        "https://www.sikuliresearch.com/dashboard/earnings"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "RPM",
+        "direction": "Lean Up",
+        "allocation_percent": 100,
+        "reason": "Absolute consensus score above 30, reversal risk below 40, high evidence quality, and low disparity."
+      }
+    ],
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "LW",
+        "reason": "Consensus score qualifies, but reversal risk of 63 is too high."
+      },
+      {
+        "ticker": "APOG",
+        "reason": "Absolute consensus score of 18 does not clear the threshold and confidence is low."
+      }
+    ],
+    "unallocated_percent": 0,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "RPM",
+      "consensus_summary": "All three passes independently chose Lean Up.",
+      "averaged_direction_score": 37,
+      "averaged_reversal_risk": 35,
+      "disparity": 6,
+      "recommendation": "Research priority: bullish setup",
+      "confidence": "Medium",
+      "base_case": "Mid-single-digit sales and EBITDA growth broadly meet or modestly beat the guide.",
+      "bull_case": "Volume and pricing plus MAP savings drive a beat and constructive outlook.",
+      "bear_case": "Inflation and weak end demand compress margins.",
+      "social_sentiment": "Low-signal and lightly discussed; no reliable crowd signal was used.",
+      "allocation_priority": true
+    },
+    {
+      "ticker": "LW",
+      "consensus_summary": "All three passes chose Lean Down, but conviction magnitude differed.",
+      "averaged_direction_score": -34,
+      "averaged_reversal_risk": 63,
+      "disparity": 9,
+      "recommendation": "Bearish bias, not allocation-qualified",
+      "confidence": "Low",
+      "base_case": "Trough-quarter pressure and EMEA weakness produce a soft reaction.",
+      "bull_case": "Low expectations, North America gains, and cost savings drive relief.",
+      "bear_case": "Crop/input costs and price/mix pressure force weaker outlook language.",
+      "social_sentiment": "Retail discussion is sparse and anecdotal; not decision-useful.",
+      "allocation_priority": false
+    },
+    {
+      "ticker": "APOG",
+      "consensus_summary": "Two passes were Neutral and one Lean Up.",
+      "averaged_direction_score": 18,
+      "averaged_reversal_risk": 49,
+      "disparity": 7,
+      "recommendation": "Neutral / No Edge",
+      "confidence": "Low",
+      "base_case": "Backlog strength offsets weak Glass economics.",
+      "bull_case": "Fortify savings and acquisitions lift forward margins and sales.",
+      "bear_case": "Weak Glass/Surfaces margins and integration costs dominate.",
+      "social_sentiment": "Very sparse; ticker confusion with APGE increases noise.",
+      "allocation_priority": false
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
