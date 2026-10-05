@@ -2,7 +2,7 @@
   "generation_timestamp": "2026-10-05T17:12:00Z",
   "covered_report_window": "Monday, October 5, 2026 after the regular U.S. market close through Tuesday, October 6, 2026 before the next U.S. market open.",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "No qualified U.S.-listed companies are confirmed for Monday after the close; APOG, RPM, and LW report Tuesday before the open. U.S. equities were near records, the Nasdaq was tracking a record, the 10-year Treasury yield was about 5.29%, WTI was above $100, and Tuesday's trade-balance release plus Wednesday's FOMC minutes add macro sensitivity.",
+  "market_context_summary": "No qualified U.S.-listed companies are confirmed for Monday after the close; APOG, RPM, and LW report Tuesday before the open. U.S. equities were near records, the Nasdaq was tracking a record, the 10-year Treasury yield was about 5.29%, Brent crude was above $100 while WTI traded near $90, and Tuesday's trade-balance release plus Wednesday's FOMC minutes add macro sensitivity.",
   "companies_reviewed_count": 3,
   "top_setups": {
     "upward": [
@@ -61,7 +61,7 @@
         }
       ],
       "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "Expectation-bar and price/cost override checks applied",
+      "method_update_note": "None",
       "key_sources": [
         "https://www.rpminc.com/news/",
         "https://rpmdataprocessoraddendum.rpminc.com/news/news-release/?workflowid=73ce8f29-52fc-42f2-9c11-5236e67efbd0",
@@ -109,7 +109,7 @@
         }
       ],
       "pass_agreement": "3/3 Lean Down; magnitude differs",
-      "method_update_note": "Expectation-bar and reversal-risk controls materially reduced priority",
+      "method_update_note": "None",
       "key_sources": [
         "https://investors.lambweston.com/news-releases/news-release-details/lamb-weston-announce-fiscal-year-2027-first-quarter-financial",
         "https://investors.lambweston.com/news-releases/news-release-details/lamb-weston-announces-q4-and-full-year-fiscal-2026-results",
@@ -158,7 +158,7 @@
         }
       ],
       "pass_agreement": "2/3 Neutral; 1/3 Lean Up",
-      "method_update_note": "Key-metric-first and forward-look override checks applied",
+      "method_update_note": "None",
       "key_sources": [
         "https://www.apog.com/news-releases/news-release-details/apogee-enterprises-announces-date-fiscal-2027-second-quarter",
         "https://www.apog.com/news-releases/news-release-details/apogee-enterprises-reports-fiscal-2027-first-quarter-results",
