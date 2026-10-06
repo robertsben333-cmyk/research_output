@@ -1,0 +1,202 @@
+{
+  "generation_timestamp": "2026-10-06T19:07:00+02:00",
+  "covered_report_window": {
+    "description": "U.S.-listed companies reporting after the U.S. market close on Tuesday, October 6, 2026, plus companies reporting before the U.S. market open on Wednesday, October 7, 2026",
+    "after_close_session": "2026-10-06",
+    "before_open_session": "2026-10-07",
+    "before_open_qualified_count": 0
+  },
+  "report_type": "full_ranked_earnings_event_research",
+  "market_context_summary": "U.S. equities were near record highs at midday, while the 10-year Treasury yield remained above 5.2% and oil was volatile. FOMC minutes are due October 7 at 2:00 p.m. ET, after the immediate earnings reaction window.",
+  "companies_reviewed_count": 5,
+  "methodology": {
+    "independent_passes": 3,
+    "consensus_basis": "Arithmetic mean of independent Pass A, Pass B, and Pass C direction scores and reversal-risk values",
+    "disparity_definition": "Rounded average of the range of the three direction scores and the range of the three reversal-risk values, on a 0-100 scale",
+    "lessons_review_method_change": false
+  },
+  "top_setups": {
+    "upward": ["PENG"],
+    "downward": ["NEOG", "SAR", "STZ"],
+    "note": "Only one company cleared the directional threshold on the upside; no second or third upward setup met the evidence bar."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "PENG",
+      "company": "Penguin Solutions, Inc.",
+      "timing": "2026-10-06 after market close; call 4:30 p.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 40,
+      "reversal_risk": 63,
+      "disparity": 23,
+      "confidence": "Medium-Low",
+      "expected_driver": "FY2027 AI/memory revenue durability and gross margin",
+      "key_risk_to_call": "High whisper bar; 19% implied move; valuation",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 up, wide magnitude spread",
+      "method_update_note": "Priced-in premium-growth penalty applied; no new rule",
+      "one_sentence_thesis": "Record AI and integrated-memory momentum supports upside, but the stock needs a strong FY2027 outlook to clear an elevated bar.",
+      "market_expectation_summary": "Consensus is approximately $0.77 EPS and $521 million revenue; options price roughly a 19%-20% move.",
+      "upside_case_summary": "FY2027 AI and memory outlook extends the Q3 acceleration with margin resilience.",
+      "downside_case_summary": "A merely in-line outlook, weaker mix, or cash-flow concerns trigger a valuation reset.",
+      "options_or_positioning_summary": "Approximately 19%-20% implied move, 13.8% short interest reported by OptionSlam, and strong prior event volatility.",
+      "analyst_revision_summary": "Recent consensus is bullish overall, including a Stifel target increase to $75, but target dispersion is wide.",
+      "pass_scores": {
+        "A": {"direction_score": 56, "reversal_risk": 55},
+        "B": {"direction_score": 39, "reversal_risk": 64},
+        "C": {"direction_score": 25, "reversal_risk": 69}
+      },
+      "key_sources": [
+        {"title": "Penguin Solutions Q3 FY2026 SEC exhibit", "url": "https://www.sec.gov/Archives/edgar/data/1616533/000161653326000041/pengq3-26form8xkxex991.htm"},
+        {"title": "Penguin Solutions earnings-call timing", "url": "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Sets-Conference-Call-for-Fourth-Quarter-and-Fiscal-2026-Results/default.aspx"},
+        {"title": "PENG earnings expected move", "url": "https://www.tickzen.app/stocks/peng/earnings"}
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "NEOG",
+      "company": "Neogen Corporation",
+      "timing": "2026-10-06 after market close; call 4:30 p.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -45,
+      "reversal_risk": 51,
+      "disparity": 13,
+      "confidence": "Medium",
+      "expected_driver": "Core growth and adjusted EBITDA versus Q1 guide",
+      "key_risk_to_call": "Investor Day relief; low bar; divestiture progress",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 down",
+      "method_update_note": "Same-day/product-quality headline check applied; no new rule",
+      "one_sentence_thesis": "Turnaround evidence is improving, but a tight Q1 guide, divestiture uncertainty, leverage, and the HYCOAT contamination issue leave more downside than upside surprise capacity.",
+      "market_expectation_summary": "Management guided to $207-$209 million revenue and about $37 million adjusted EBITDA; published EPS consensus is about $0.05.",
+      "upside_case_summary": "Food Safety growth, supply normalization, and Investor Day targets validate a durable recovery.",
+      "downside_case_summary": "Core growth or EBITDA misses, genomics delay, or expanded product-quality exposure undercut credibility.",
+      "options_or_positioning_summary": "Reliable after-close event pricing was not available; one calendar source incorrectly labeled the report pre-market.",
+      "analyst_revision_summary": "Revenue estimates edged higher, but EPS revisions and price-target signals were mixed to weaker.",
+      "pass_scores": {
+        "A": {"direction_score": -50, "reversal_risk": 44},
+        "B": {"direction_score": -39, "reversal_risk": 58},
+        "C": {"direction_score": -46, "reversal_risk": 52}
+      },
+      "key_sources": [
+        {"title": "Neogen Q4 FY2026 results and FY2027 guidance", "url": "https://www.sec.gov/Archives/edgar/data/711377/000119312526324860/neog-ex99_1.htm"},
+        {"title": "Neogen official earnings timing", "url": "https://investors.neogen.com/news/news-details/2026/Neogen-Announces-First-Quarter-Earnings-Release-Date/default.aspx"},
+        {"title": "HYCOAT contamination context", "url": "https://pluang.com/en/news-feed/pemberitahuan-investigasi-neogen-fda-hycoat-dan-penurunan-saham"}
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "SAR",
+      "company": "Saratoga Investment Corp.",
+      "timing": "2026-10-06 after market close; call 2026-10-07 10:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -34,
+      "reversal_risk": 58,
+      "disparity": 14,
+      "confidence": "Low",
+      "expected_driver": "Adjusted NII/dividend coverage and NAV stability",
+      "key_risk_to_call": "Deep NAV discount; low bar; credit relief",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 down",
+      "method_update_note": "Low-bar reversal-risk floor applied; no new rule",
+      "one_sentence_thesis": "The prior quarter's NII shortfall and NAV erosion keep the base case negative, although the large discount to NAV creates substantial relief-rally risk.",
+      "market_expectation_summary": "Published estimates center near $0.49-$0.54 adjusted EPS/NII and roughly $31-$32 million revenue.",
+      "upside_case_summary": "NII coverage, NAV, and non-accruals stabilize enough to validate the discounted valuation.",
+      "downside_case_summary": "Another coverage gap, NAV write-down, or credit deterioration raises dividend concern.",
+      "options_or_positioning_summary": "Options evidence is thin; the stock is deeply de-rated and carries an unusually high indicated yield.",
+      "analyst_revision_summary": "Coverage is sparse and generally Hold; consensus quality is lower than for the larger names.",
+      "pass_scores": {
+        "A": {"direction_score": -41, "reversal_risk": 49},
+        "B": {"direction_score": -34, "reversal_risk": 60},
+        "C": {"direction_score": -28, "reversal_risk": 64}
+      },
+      "key_sources": [
+        {"title": "Saratoga official earnings timing", "url": "https://www.globenewswire.com/news-release/2026/09/17/3363967/0/en/saratoga-investment-corp-to-report-fiscal-second-quarter-2027-financial-results-and-hold-conference-call.html"},
+        {"title": "Saratoga Q1 FY2027 presentation", "url": "https://ir.saratogainvestmentcorp.com/static-files/128b8485-4a69-46a1-8146-5fe79745e6a0"},
+        {"title": "Saratoga earnings estimates", "url": "https://www.marketbeat.com/stocks/NYSE/SAR/earnings/"}
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "STZ",
+      "company": "Constellation Brands, Inc.",
+      "timing": "2026-10-06 after market close; call 2026-10-07 8:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -31,
+      "reversal_risk": 52,
+      "disparity": 12,
+      "confidence": "Medium",
+      "expected_driver": "Beer depletions and beer operating margin",
+      "key_risk_to_call": "Cheap valuation; reset estimates; buybacks",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 down",
+      "method_update_note": "Key-metric and low-bar relief checks applied; no new rule",
+      "one_sentence_thesis": "Soft summer consumption and lower beer-margin estimates tilt negative, but low valuation and reduced expectations limit conviction.",
+      "market_expectation_summary": "Consensus is about $3.55-$3.62 EPS and $2.54-$2.57 billion revenue; options price roughly a 5% move.",
+      "upside_case_summary": "Beer depletions stabilize, margin holds, and FY2027 guidance remains intact.",
+      "downside_case_summary": "Demand softness, aluminum inflation, or a guide cut overwhelms share gains and cash returns.",
+      "options_or_positioning_summary": "Nearest-expiry implied move is approximately 4.8%-5.9%, with slightly call-heavy open interest in one snapshot.",
+      "analyst_revision_summary": "Consensus EPS moved down slightly and several firms cut price targets on softer consumption and beer margins.",
+      "pass_scores": {
+        "A": {"direction_score": -38, "reversal_risk": 52},
+        "B": {"direction_score": -32, "reversal_risk": 48},
+        "C": {"direction_score": -22, "reversal_risk": 55}
+      },
+      "key_sources": [
+        {"title": "Constellation Brands official earnings timing", "url": "https://ir.cbrands.com/news-events/press-releases/detail/345/constellation-brands-to-report-second-quarter-fiscal-2027-financial-results-on-october-6-2026-after-market-close-and-host-conference-call-on-october-7-2026-at-8-00-am-et"},
+        {"title": "Constellation Brands Q1 FY2027 release", "url": "https://ir.cbrands.com/sec-filings/all-sec-filings/content/0000016918-26-000028/stzex991_53120268kearnings.htm"},
+        {"title": "Constellation Brands Q2 preview", "url": "https://www.zacks.com/stock/news/2999085/constellation-brands-pre-q2-earnings-is-it-poised-to-beat-estimates"}
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "WS",
+      "company": "Worthington Steel, Inc.",
+      "timing": "2026-10-06 after market close; call 2026-10-07 8:30 a.m. ET",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 19,
+      "reversal_risk": 50,
+      "disparity": 18,
+      "confidence": "Low",
+      "expected_driver": "Kloeckner integration and value-added spread quality",
+      "key_risk_to_call": "Electrical-steel weakness; debt; integration noise",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 up, weak-to-moderate magnitudes",
+      "method_update_note": "Acquisition hidden-risk check applied; no new rule",
+      "one_sentence_thesis": "Kloeckner creates a credible synergy path, but near-term spread compression, legal-control timing, and integration accounting make the immediate reaction too hard to call.",
+      "market_expectation_summary": "Published consensus is about $0.92 EPS and $2.01 billion revenue; options snapshots indicate roughly 6%-11% near-term event risk.",
+      "upside_case_summary": "Early integration proof and synergy timing outweigh legacy spread pressure.",
+      "downside_case_summary": "Weak spreads, electrical-steel demand, acquisition costs, or leverage dominate the strategic story.",
+      "options_or_positioning_summary": "Options estimates vary materially across sources, reducing signal quality.",
+      "analyst_revision_summary": "Sparse coverage and transformational acquisition accounting limit the usefulness of consensus comparisons.",
+      "pass_scores": {
+        "A": {"direction_score": 31, "reversal_risk": 44},
+        "B": {"direction_score": 17, "reversal_risk": 50},
+        "C": {"direction_score": 8, "reversal_risk": 57}
+      },
+      "key_sources": [
+        {"title": "Worthington Steel official earnings timing", "url": "https://www.worthingtonsteel.com/company/news-events/worthington-steel-to-webcast-discussion-of-first-quarter-2027-results-on-october-7"},
+        {"title": "Worthington Steel Q4 FY2026 results", "url": "https://ir.worthingtonsteel.com/news/news-details/2026/Worthington-Steel-Reports-Fourth-Quarter-Fiscal-2026-Results/default.aspx"},
+        {"title": "Worthington Steel Kloeckner acquisition", "url": "https://ir.worthingtonsteel.com/news/news-details/2026/Worthington-Steel-to-Acquire-Kloeckner--Co/default.aspx"}
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_for_reversal_risk": ["PENG", "NEOG", "SAR", "STZ"],
+    "excluded_for_score_or_confidence": ["WS"],
+    "basket_distribution": [],
+    "unallocated_percent": 100,
+    "reason": "No name simultaneously had an absolute consensus score above 30, reversal risk at or below 40, and sufficient confidence.",
+    "is_financial_advice": false
+  },
+  "detailed_company_sections": [
+    {"ticker": "PENG", "recommendation": "Lean Up", "base_case": "Beat or near-beat with constructive FY2027 guide, but reaction may remain inside the very wide implied move.", "bull_case": "AI/memory revenue and customer wins support another large guide-up.", "bear_case": "The guide is merely in line or margins/cash flow disappoint after a major rerating.", "social_sentiment": "Bullish but sparse and heavily narrative-driven; not a primary input.", "allocation_priority": false, "allocation_reason": "Reversal risk and disparity are too high."},
+    {"ticker": "NEOG", "recommendation": "Lean Down", "base_case": "Results cluster near guide but quality and divestiture questions limit relief.", "bull_case": "Core growth, EBITDA, and Investor Day targets all clear the reset bar.", "bear_case": "Operational recovery stalls while product-quality or divestiture risk expands.", "social_sentiment": "Limited organic discussion; legal-alert amplification raises noise.", "allocation_priority": false, "allocation_reason": "Reversal risk exceeds 40."},
+    {"ticker": "SAR", "recommendation": "Lean Down", "base_case": "NII remains below the dividend and NAV remains under pressure.", "bull_case": "Credit stabilizes and the NAV discount drives relief.", "bear_case": "Further write-downs or weak coverage renew dividend-cut concern.", "social_sentiment": "Thin; yield-focused discussion is mixed and stale.", "allocation_priority": false, "allocation_reason": "Low confidence and high reversal risk."},
+    {"ticker": "STZ", "recommendation": "Lean Down", "base_case": "Beer trends and margins are soft enough to constrain the reaction.", "bull_case": "Stable depletions and intact guidance reward the reset valuation.", "bear_case": "A guide cut confirms persistent consumer and cost pressure.", "social_sentiment": "Low-signal, with macro narratives dominating company-specific evidence.", "allocation_priority": false, "allocation_reason": "Reversal risk exceeds 40."},
+    {"ticker": "WS", "recommendation": "Neutral / No Edge", "base_case": "Mixed legacy margins and acquisition complexity offset strategic upside.", "bull_case": "Synergy capture and integration visibility arrive earlier than expected.", "bear_case": "Integration costs, spreads, or leverage obscure accretion.", "social_sentiment": "Negligible actionable discussion.", "allocation_priority": false, "allocation_reason": "Score and confidence thresholds are not met."}
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
