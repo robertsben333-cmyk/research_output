@@ -1,0 +1,285 @@
+{
+  "generation_timestamp": "2026-10-06T19:02:01+02:00",
+  "covered_report_window": "Tuesday, October 6, 2026 after the U.S. market close through Wednesday, October 7, 2026 before the U.S. market open. Four qualified after-close reporters; no confirmed Wednesday pre-market reporters.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were near record highs as oil and Treasury yields eased, but the 10-year yield remained about 5.28% and September FOMC minutes were due Wednesday. Elevated rates remain a headwind for private credit and cyclicals; AI appetite supports PENG but raises crowding risk.",
+  "companies_reviewed_count": 4,
+  "top_setups": {
+    "upward": [
+      "PENG"
+    ],
+    "downward": [
+      "SAR",
+      "STZ"
+    ],
+    "neutral_or_mixed": [
+      "WS"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "PENG",
+      "company": "Penguin Solutions, Inc.",
+      "timing": "Tuesday, October 6, 2026 after market close; call 4:30 p.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 52,
+      "reversal_risk": 59,
+      "disparity": 10,
+      "confidence": "Medium",
+      "expected_driver": "FY27 AI-infrastructure growth outlook",
+      "key_risk_to_call": "High bar, crowding, margin or cash-flow miss",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Up",
+      "method_update_note": "Expectation-bar and forward-look penalties applied",
+      "one_sentence_thesis": "AI infrastructure and integrated-memory momentum support upside, but a sharp pre-earnings rerating means guidance must validate another leg of growth.",
+      "market_expectation_summary": "Consensus is about $0.77 EPS on $519-$521 million revenue after management raised FY26 growth and EPS guidance in July.",
+      "upside_case_summary": "FY26 lands above the raised range and FY27 AI growth/margins validate the rerating.",
+      "downside_case_summary": "A merely in-line print, weaker gross margin, cash conversion, or cautious FY27 outlook triggers a volatility unwind.",
+      "options_or_positioning_summary": "Published October option data showed triple-digit implied volatility and roughly 17% expected move; recent flow was mixed-to-bearish despite bullish analyst ratings.",
+      "analyst_revision_summary": "Five recent analysts averaged a $72 target versus about $61, with four buys and one hold.",
+      "key_sources": [
+        "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Sets-Conference-Call-for-Fourth-Quarter-and-Fiscal-2026-Results/default.aspx",
+        "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Reports-Q3-Fiscal-2026-Financial-Results/default.aspx",
+        "https://www.marketbeat.com/earnings/reports/2026-10-6-peng-stock/",
+        "https://optioncharts.io/options/PENG"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "SAR",
+      "company": "Saratoga Investment Corp.",
+      "timing": "Tuesday, October 6, 2026 after market close; call Wednesday 10:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -40,
+      "reversal_risk": 38,
+      "disparity": 9,
+      "confidence": "Medium",
+      "expected_driver": "Adjusted NII and NAV per share",
+      "key_risk_to_call": "Zero fair-value non-accruals and low-bar relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Key-metric and financing-cost checks applied",
+      "one_sentence_thesis": "Lower portfolio yield, higher funding cost, and prior-quarter NAV/NII erosion create a downside bias despite clean fair-value non-accruals.",
+      "market_expectation_summary": "Published consensus is about $0.49 EPS and $32 million revenue; the market needs stabilization in adjusted NII and NAV.",
+      "upside_case_summary": "Originations, fee income, and credit marks stabilize NAV while non-accruals remain minimal.",
+      "downside_case_summary": "SOFR/spread compression and 8% note issuance further pressure NII, dividend coverage, and NAV.",
+      "options_or_positioning_summary": "Reliable event-implied-move data were unavailable; the small-cap BDC structure implies thinner liquidity and gap risk.",
+      "analyst_revision_summary": "Sparse analyst coverage limits revision signal quality.",
+      "key_sources": [
+        "https://ir.saratogainvestmentcorp.com/news-releases/news-release-details/saratoga-investment-corp-report-fiscal-second-quarter-2027",
+        "https://ir.saratogainvestmentcorp.com/news-releases/news-release-details/saratoga-investment-corp-announces-fiscal-first-quarter-2027",
+        "https://ir.saratogainvestmentcorp.com/press-releases",
+        "https://www.fxempire.com/stocks/sar/earnings"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "STZ",
+      "company": "Constellation Brands, Inc.",
+      "timing": "Tuesday, October 6, 2026 after market close; call Wednesday 8:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -38,
+      "reversal_risk": 43,
+      "disparity": 7,
+      "confidence": "Medium",
+      "expected_driver": "Beer depletion growth and beer margin",
+      "key_risk_to_call": "Depressed valuation and easy relief bar",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Expectation-bar and forward-look penalties applied",
+      "one_sentence_thesis": "Softening late-summer beer depletion trends and lowered margin estimates outweigh a depressed valuation and reliable EPS-beat history.",
+      "market_expectation_summary": "Consensus is roughly $3.55-$3.62 EPS on $2.54-$2.57 billion revenue; FY27 comparable EPS guidance was $11.20-$11.90.",
+      "upside_case_summary": "Modelo/Corona depletion and beer margins beat a recently lowered bar while FY27 guidance holds.",
+      "downside_case_summary": "Negative depletion, inflation, or weaker beer margin forces a guide cut despite an EPS beat.",
+      "options_or_positioning_summary": "Near-term options priced roughly a 5%-6% move, close to but below some recent historical measures.",
+      "analyst_revision_summary": "EPS estimates fell about 4% over three months; JPMorgan cut its target to $133 and reduced Q2/FY27 estimates.",
+      "key_sources": [
+        "https://ir.cbrands.com/news-events/press-releases/detail/345/constellation-brands-to-report-second-quarter-fiscal-2027-financial-results-on-october-6-2026-after-market-close-and-host-conference-call-on-october-7-2026-at-8-00-am-et",
+        "https://ir.cbrands.com/news-events/press-releases/detail/341/constellation-brands-reports-first-quarter-fiscal-2027-financial-results",
+        "https://www.zacks.com/stock/news/2999085/constellation-brands-pre-q2-earnings-is-it-poised-to-beat-estimates",
+        "https://www.optionslam.com/earnings/weekly/STZ"
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "WS",
+      "company": "Worthington Steel, Inc.",
+      "timing": "Tuesday, October 6, 2026 after market close; call Wednesday 8:30 a.m. ET",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -23,
+      "reversal_risk": 46,
+      "disparity": 7,
+      "confidence": "Low",
+      "expected_driver": "Adjusted margin and automotive/electrical-steel volume",
+      "key_risk_to_call": "Kloeckner synergies or stronger pricing",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 Neutral / No Edge",
+      "method_update_note": "Cyclical backlog/pricing caution applied",
+      "one_sentence_thesis": "Lower prior-quarter adjusted earnings and soft toll demand offset higher selling prices, Sitem contribution, and Kloeckner optionality.",
+      "market_expectation_summary": "Consensus EPS is about $0.92; investors will focus on underlying margin and acquisition integration rather than headline sales.",
+      "upside_case_summary": "Pricing, automotive volumes, and Sitem/Kloeckner synergies lift adjusted margins.",
+      "downside_case_summary": "Soft mill/customer demand, electrical-steel weakness, or deal costs depress earnings and cash flow.",
+      "options_or_positioning_summary": "One published options snapshot showed a very wide 26.5% two-week expected move, signaling poor event precision and/or thin markets.",
+      "analyst_revision_summary": "Coverage and revision data are sparse, reducing confidence.",
+      "key_sources": [
+        "https://ir.worthingtonsteel.com/news/news-details/2026/Worthington-Steel-to-Webcast-Discussion-of-First-Quarter-2027-Results-on-October-7/default.aspx",
+        "https://ir.worthingtonsteel.com/news/news-details/2026/Worthington-Steel-Reports-Fourth-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://www.optionsanalysissuite.com/stocks/ws/expected-move"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      {
+        "ticker": "SAR",
+        "direction": "Lean Down",
+        "share_percent": 65,
+        "why": "Absolute consensus score above 30, reversal risk below 40, low disparity, and primary-source support."
+      }
+    ],
+    "unallocated_percent": 35,
+    "excluded_high_reversal_or_weak_names": [
+      {
+        "ticker": "PENG",
+        "reason": "Reversal risk 59 exceeds the cap."
+      },
+      {
+        "ticker": "STZ",
+        "reason": "Reversal risk 43 exceeds the cap."
+      },
+      {
+        "ticker": "WS",
+        "reason": "Score does not exceed 30 and confidence is low."
+      }
+    ],
+    "plain_statement": "Hypothetical combined research basket: SAR 65%, unallocated 35%. This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "PENG",
+      "consensus_summary": "3/3 Lean Up",
+      "averaged_direction_score": 52,
+      "averaged_reversal_risk": 59,
+      "disparity": 10,
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "AI infrastructure and integrated-memory momentum support upside, but a sharp pre-earnings rerating means guidance must validate another leg of growth.",
+      "market_expectations": "Consensus is about $0.77 EPS on $519-$521 million revenue after management raised FY26 growth and EPS guidance in July.",
+      "upside_factors": "FY26 lands above the raised range and FY27 AI growth/margins validate the rerating.",
+      "downside_factors": "A merely in-line print, weaker gross margin, cash conversion, or cautious FY27 outlook triggers a volatility unwind.",
+      "reversal_risk_assessment": "High bar, crowding, margin or cash-flow miss",
+      "social_sentiment_read": "Retail discussion is bullish but includes promotion/crowding warnings; treated only as supporting evidence.",
+      "options_positioning_read": "Published October option data showed triple-digit implied volatility and roughly 17% expected move; recent flow was mixed-to-bearish despite bullish analyst ratings.",
+      "analyst_revision_read": "Five recent analysts averaged a $72 target versus about $61, with four buys and one hold.",
+      "base_case": "AI infrastructure and integrated-memory momentum support upside, but a sharp pre-earnings rerating means guidance must validate another leg of growth.",
+      "bull_case": "FY26 lands above the raised range and FY27 AI growth/margins validate the rerating.",
+      "bear_case": "A merely in-line print, weaker gross margin, cash conversion, or cautious FY27 outlook triggers a volatility unwind.",
+      "final_directional_judgment": "Lean Up",
+      "research_allocation_rationale": "Excluded under score/reversal-risk/confidence rules.",
+      "disparity_effect_on_conviction": "Low disparity supports consistency, but does not override reversal-risk limits.",
+      "method_update_note": "Expectation-bar and forward-look penalties applied",
+      "key_sources": [
+        "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Sets-Conference-Call-for-Fourth-Quarter-and-Fiscal-2026-Results/default.aspx",
+        "https://ir.penguinsolutions.com/news/news-details/2026/Penguin-Solutions-Reports-Q3-Fiscal-2026-Financial-Results/default.aspx",
+        "https://www.marketbeat.com/earnings/reports/2026-10-6-peng-stock/",
+        "https://optioncharts.io/options/PENG"
+      ]
+    },
+    {
+      "ticker": "SAR",
+      "consensus_summary": "3/3 Lean Down",
+      "averaged_direction_score": -40,
+      "averaged_reversal_risk": 38,
+      "disparity": 9,
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Lower portfolio yield, higher funding cost, and prior-quarter NAV/NII erosion create a downside bias despite clean fair-value non-accruals.",
+      "market_expectations": "Published consensus is about $0.49 EPS and $32 million revenue; the market needs stabilization in adjusted NII and NAV.",
+      "upside_factors": "Originations, fee income, and credit marks stabilize NAV while non-accruals remain minimal.",
+      "downside_factors": "SOFR/spread compression and 8% note issuance further pressure NII, dividend coverage, and NAV.",
+      "reversal_risk_assessment": "Zero fair-value non-accruals and low-bar relief",
+      "social_sentiment_read": "Current social discussion was sparse or unreliable and was not given material weight.",
+      "options_positioning_read": "Reliable event-implied-move data were unavailable; the small-cap BDC structure implies thinner liquidity and gap risk.",
+      "analyst_revision_read": "Sparse analyst coverage limits revision signal quality.",
+      "base_case": "Lower portfolio yield, higher funding cost, and prior-quarter NAV/NII erosion create a downside bias despite clean fair-value non-accruals.",
+      "bull_case": "Originations, fee income, and credit marks stabilize NAV while non-accruals remain minimal.",
+      "bear_case": "SOFR/spread compression and 8% note issuance further pressure NII, dividend coverage, and NAV.",
+      "final_directional_judgment": "Lean Down",
+      "research_allocation_rationale": "Qualified for 65% of the research basket.",
+      "disparity_effect_on_conviction": "Low disparity supports consistency, but does not override reversal-risk limits.",
+      "method_update_note": "Key-metric and financing-cost checks applied",
+      "key_sources": [
+        "https://ir.saratogainvestmentcorp.com/news-releases/news-release-details/saratoga-investment-corp-report-fiscal-second-quarter-2027",
+        "https://ir.saratogainvestmentcorp.com/news-releases/news-release-details/saratoga-investment-corp-announces-fiscal-first-quarter-2027",
+        "https://ir.saratogainvestmentcorp.com/press-releases",
+        "https://www.fxempire.com/stocks/sar/earnings"
+      ]
+    },
+    {
+      "ticker": "STZ",
+      "consensus_summary": "3/3 Lean Down",
+      "averaged_direction_score": -38,
+      "averaged_reversal_risk": 43,
+      "disparity": 7,
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Softening late-summer beer depletion trends and lowered margin estimates outweigh a depressed valuation and reliable EPS-beat history.",
+      "market_expectations": "Consensus is roughly $3.55-$3.62 EPS on $2.54-$2.57 billion revenue; FY27 comparable EPS guidance was $11.20-$11.90.",
+      "upside_factors": "Modelo/Corona depletion and beer margins beat a recently lowered bar while FY27 guidance holds.",
+      "downside_factors": "Negative depletion, inflation, or weaker beer margin forces a guide cut despite an EPS beat.",
+      "reversal_risk_assessment": "Depressed valuation and easy relief bar",
+      "social_sentiment_read": "Current social discussion was sparse or unreliable and was not given material weight.",
+      "options_positioning_read": "Near-term options priced roughly a 5%-6% move, close to but below some recent historical measures.",
+      "analyst_revision_read": "EPS estimates fell about 4% over three months; JPMorgan cut its target to $133 and reduced Q2/FY27 estimates.",
+      "base_case": "Softening late-summer beer depletion trends and lowered margin estimates outweigh a depressed valuation and reliable EPS-beat history.",
+      "bull_case": "Modelo/Corona depletion and beer margins beat a recently lowered bar while FY27 guidance holds.",
+      "bear_case": "Negative depletion, inflation, or weaker beer margin forces a guide cut despite an EPS beat.",
+      "final_directional_judgment": "Lean Down",
+      "research_allocation_rationale": "Excluded under score/reversal-risk/confidence rules.",
+      "disparity_effect_on_conviction": "Low disparity supports consistency, but does not override reversal-risk limits.",
+      "method_update_note": "Expectation-bar and forward-look penalties applied",
+      "key_sources": [
+        "https://ir.cbrands.com/news-events/press-releases/detail/345/constellation-brands-to-report-second-quarter-fiscal-2027-financial-results-on-october-6-2026-after-market-close-and-host-conference-call-on-october-7-2026-at-8-00-am-et",
+        "https://ir.cbrands.com/news-events/press-releases/detail/341/constellation-brands-reports-first-quarter-fiscal-2027-financial-results",
+        "https://www.zacks.com/stock/news/2999085/constellation-brands-pre-q2-earnings-is-it-poised-to-beat-estimates",
+        "https://www.optionslam.com/earnings/weekly/STZ"
+      ]
+    },
+    {
+      "ticker": "WS",
+      "consensus_summary": "3/3 Neutral / No Edge",
+      "averaged_direction_score": -23,
+      "averaged_reversal_risk": 46,
+      "disparity": 7,
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Lower prior-quarter adjusted earnings and soft toll demand offset higher selling prices, Sitem contribution, and Kloeckner optionality.",
+      "market_expectations": "Consensus EPS is about $0.92; investors will focus on underlying margin and acquisition integration rather than headline sales.",
+      "upside_factors": "Pricing, automotive volumes, and Sitem/Kloeckner synergies lift adjusted margins.",
+      "downside_factors": "Soft mill/customer demand, electrical-steel weakness, or deal costs depress earnings and cash flow.",
+      "reversal_risk_assessment": "Kloeckner synergies or stronger pricing",
+      "social_sentiment_read": "Current social discussion was sparse or unreliable and was not given material weight.",
+      "options_positioning_read": "One published options snapshot showed a very wide 26.5% two-week expected move, signaling poor event precision and/or thin markets.",
+      "analyst_revision_read": "Coverage and revision data are sparse, reducing confidence.",
+      "base_case": "Lower prior-quarter adjusted earnings and soft toll demand offset higher selling prices, Sitem contribution, and Kloeckner optionality.",
+      "bull_case": "Pricing, automotive volumes, and Sitem/Kloeckner synergies lift adjusted margins.",
+      "bear_case": "Soft mill/customer demand, electrical-steel weakness, or deal costs depress earnings and cash flow.",
+      "final_directional_judgment": "Neutral / No Edge",
+      "research_allocation_rationale": "Excluded under score/reversal-risk/confidence rules.",
+      "disparity_effect_on_conviction": "Low disparity supports consistency, but does not override reversal-risk limits.",
+      "method_update_note": "Cyclical backlog/pricing caution applied",
+      "key_sources": [
+        "https://ir.worthingtonsteel.com/news/news-details/2026/Worthington-Steel-to-Webcast-Discussion-of-First-Quarter-2027-Results-on-October-7/default.aspx",
+        "https://ir.worthingtonsteel.com/news/news-details/2026/Worthington-Steel-Reports-Fourth-Quarter-Fiscal-2026-Results/default.aspx",
+        "https://www.optionsanalysissuite.com/stocks/ws/expected-move"
+      ]
+    }
+  ],
+  "consensus_method": {
+    "passes": 3,
+    "disparity_definition": "0-100 composite of cross-pass spread in direction scores and reversal-risk estimates; lower means tighter agreement.",
+    "lessons_review": "No new method change. Existing expectation-bar, key-metric-first, forward-look, and reversal-risk controls were applied."
+  },
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
