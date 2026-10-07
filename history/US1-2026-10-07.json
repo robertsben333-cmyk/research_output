@@ -1,0 +1,630 @@
+{
+  "generation_timestamp": "2026-10-07T19:02:01+02:00",
+  "covered_report_window": {
+    "description": "U.S.-listed companies reporting after the U.S. market close on Wednesday, October 7, 2026, plus companies reporting before the U.S. market open on Thursday, October 8, 2026",
+    "after_close_session": "2026-10-07",
+    "before_open_session": "2026-10-08"
+  },
+  "report_type": "full_ranked_earnings_event_research",
+  "market_context_summary": "Stocks were under pressure as the 10-year Treasury yield rose above 5.3% and oil remained elevated; the market was also awaiting minutes from the Federal Reserve's September 25 bp rate hike.",
+  "companies_reviewed_count": 7,
+  "methodology": {
+    "independent_passes": 3,
+    "consensus_basis": "Arithmetic mean of independent Pass A, Pass B and Pass C direction scores and reversal-risk values",
+    "disparity_definition": "Equal-weighted average of the normalized range of the three direction scores and the range of the three reversal-risk values, scaled 0-100",
+    "lessons_review": "Existing expectation-bar, key-metric-first and forward-look checks applied; no new framework change."
+  },
+  "top_setups": {
+    "upward": [
+      "ANGO",
+      "RELL",
+      "LEVI"
+    ],
+    "downward": [
+      "TLRY",
+      "HELE",
+      "PEP"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "ANGO",
+      "company": "AngioDynamics, Inc.",
+      "timing": "2026-10-08 before market open; call 8:00 a.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 41,
+      "reversal_risk": 34,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Med Tech growth, especially thrombectomy",
+      "key_risk_to_call": "Gross-margin pressure; FY2027 guide",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 up",
+      "method_update_note": "Key-metric-first and forward-look checks applied",
+      "one_sentence_thesis": "Sustained high-teens Med Tech growth and improving profitability create the cleanest upside setup, provided margin pressure does not force a softer outlook.",
+      "market_expectation_summary": "Consensus is about a $0.11-$0.12 adjusted loss on roughly $82.1 million revenue.",
+      "upside_case_summary": "Mechanical thrombectomy, Auryon and NanoKnife sustain double-digit growth while EBITDA improves.",
+      "downside_case_summary": "Tariffs, inflation and manufacturing-transition costs compress gross margin or temper guidance.",
+      "options_or_positioning_summary": "Reliable event implied-move data was unavailable; liquidity is adequate but below large-cap levels.",
+      "analyst_revision_summary": "Four-analyst estimates center near an $0.11-$0.12 loss and $82.1 million revenue; the last quarter beat both EPS and revenue.",
+      "pass_scores": {
+        "A": {
+          "direction_score": 42,
+          "reversal_risk": 32
+        },
+        "B": {
+          "direction_score": 35,
+          "reversal_risk": 36
+        },
+        "C": {
+          "direction_score": 47,
+          "reversal_risk": 34
+        }
+      },
+      "key_sources": [
+        {
+          "title": "AngioDynamics official timing",
+          "url": "https://investors.angiodynamics.com/news-releases/news-release-details/angiodynamics-report-fiscal-2027-first-quarter-results-october-8"
+        },
+        {
+          "title": "AngioDynamics prior operating trends",
+          "url": "https://investors.angiodynamics.com/news-releases/news-release-details/angiodynamics-reports-fiscal-year-2026-third-quarter-financial"
+        },
+        {
+          "title": "ANGO estimates",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/ANGO/earnings/"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "TLRY",
+      "company": "Tilray Brands, Inc.",
+      "timing": "2026-10-08 before market open; call 8:30 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -38,
+      "reversal_risk": 65,
+      "disparity": 7,
+      "confidence": "Low",
+      "expected_driver": "Adjusted EBITDA and cash profitability",
+      "key_risk_to_call": "Low bar; cannabis squeeze",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 down",
+      "method_update_note": "Low-bar reversal and per-share dilution checks applied",
+      "one_sentence_thesis": "Revenue growth is visible, but persistent losses, dilution risk and weak per-share economics keep the base case negative despite substantial squeeze risk.",
+      "market_expectation_summary": "Analysts expect a $0.16-$0.19 loss on about $265-$268 million revenue, roughly 26% year-over-year growth.",
+      "upside_case_summary": "Adjusted EBITDA and cash generation improve enough to validate the $1 billion revenue path.",
+      "downside_case_summary": "Growth is acquisition-heavy, margins lag, or financing and dilution overshadow headline revenue.",
+      "options_or_positioning_summary": "Retail interest is elevated and highly narrative-driven; the depressed price and cannabis headlines create sharp squeeze potential.",
+      "analyst_revision_summary": "Published estimates emphasize revenue growth but continued losses; evidence of positive per-share estimate momentum is limited.",
+      "pass_scores": {
+        "A": {
+          "direction_score": -44,
+          "reversal_risk": 62
+        },
+        "B": {
+          "direction_score": -32,
+          "reversal_risk": 69
+        },
+        "C": {
+          "direction_score": -39,
+          "reversal_risk": 64
+        }
+      },
+      "key_sources": [
+        {
+          "title": "Tilray official timing",
+          "url": "https://ir.tilray.com/news-releases/news-release-details/tilray-brands-announce-first-quarter-fiscal-year-2027-financial"
+        },
+        {
+          "title": "Tilray investor relations",
+          "url": "https://ir.tilray.com/"
+        },
+        {
+          "title": "TLRY earnings preview",
+          "url": "https://site.financialmodelingprep.com/market-news/tilray-brands-tlry-q1-2027-earnings-preview"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "HELE",
+      "company": "Helen of Troy Limited",
+      "timing": "2026-10-08 before market open; call 9:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -37,
+      "reversal_risk": 39,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Adjusted gross margin and FY2027 EPS guide",
+      "key_risk_to_call": "Depressed valuation; cost relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 down",
+      "method_update_note": "Margin-quality and low-bar relief checks applied",
+      "one_sentence_thesis": "Top-line stabilization has not yet repaired underlying earnings power, leaving adjusted margin and guidance vulnerable even after a large de-rating.",
+      "market_expectation_summary": "Consensus is about $0.50-$0.52 adjusted EPS on roughly $443-$452 million revenue.",
+      "upside_case_summary": "Organic sales stabilize and tariff mitigation restores gross-margin confidence without another guide cut.",
+      "downside_case_summary": "Tariffs, mix and weak organic demand extend the steep adjusted-margin and EPS decline.",
+      "options_or_positioning_summary": "Reliable event implied-move data was unavailable; the depressed valuation reduces but does not remove downside.",
+      "analyst_revision_summary": "The company maintained FY2027 adjusted EPS of $3.25-$3.75 after Q1, but Q1 adjusted EPS was only $0.17 and gross margin fell 110 bps.",
+      "pass_scores": {
+        "A": {
+          "direction_score": -38,
+          "reversal_risk": 38
+        },
+        "B": {
+          "direction_score": -31,
+          "reversal_risk": 42
+        },
+        "C": {
+          "direction_score": -43,
+          "reversal_risk": 37
+        }
+      },
+      "key_sources": [
+        {
+          "title": "Helen of Troy official timing",
+          "url": "https://investor.helenoftroy.com/press-releases/press-release-details/2026/Helen-of-Troy-Limited-Announces-Earnings-Release-Date-Conference-Call-and-Webcast-for-Second-Quarter-Fiscal-Year-2027-Results/default.aspx"
+        },
+        {
+          "title": "Helen of Troy Q1 FY2027 results",
+          "url": "https://investor.helenoftroy.com/press-releases/press-release-details/2026/Helen-of-Troy-Reports-First-Quarter-Fiscal-2027-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "ticker": "RELL",
+      "company": "Richardson Electronics, Ltd.",
+      "timing": "2026-10-07 after market close; call 2026-10-08 10:00 a.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 36,
+      "reversal_risk": 40,
+      "disparity": 5,
+      "confidence": "Medium-Low",
+      "expected_driver": "Backlog conversion and GES/BES orders",
+      "key_risk_to_call": "Small-cap liquidity; order timing",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 up",
+      "method_update_note": "Backlog-quality and small-cap hidden-risk checks applied",
+      "one_sentence_thesis": "Record backlog and broad Q4 momentum favor an upside reaction if large GES/BES opportunities convert, but order timing makes the setup fragile.",
+      "market_expectation_summary": "Consensus is roughly $0.09 EPS and $60.2 million revenue.",
+      "upside_case_summary": "The expected multimillion-dollar BES order arrives and high backlog converts with margin discipline.",
+      "downside_case_summary": "Large orders slip, backlog quality disappoints, or working-capital needs absorb the earnings improvement.",
+      "options_or_positioning_summary": "Options evidence is thin and small-cap liquidity can magnify either direction.",
+      "analyst_revision_summary": "Sparse coverage limits revision quality; recent estimates imply modest revenue growth after a strong Q4.",
+      "pass_scores": {
+        "A": {
+          "direction_score": 40,
+          "reversal_risk": 43
+        },
+        "B": {
+          "direction_score": 31,
+          "reversal_risk": 37
+        },
+        "C": {
+          "direction_score": 36,
+          "reversal_risk": 40
+        }
+      },
+      "key_sources": [
+        {
+          "title": "Richardson official timing and prior results",
+          "url": "https://www.rell.com/investor-relations/financial-news/?allevents=false&allnews=true"
+        },
+        {
+          "title": "Richardson events",
+          "url": "https://www.rell.com/press-room/"
+        },
+        {
+          "title": "RELL estimates",
+          "url": "https://www.chartmill.com/stock/quote/RELL/estimates"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "ticker": "LEVI",
+      "company": "Levi Strauss & Co.",
+      "timing": "2026-10-07 after market close; call 5:00 p.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 40,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Organic growth and FY2026 guide",
+      "key_risk_to_call": "Europe softness; tariff margins",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 up",
+      "method_update_note": "Priced-in and forward-guide override checks applied",
+      "one_sentence_thesis": "Q2 momentum and a raised full-year outlook favor modest upside, but Europe, tariffs and the need to defend guidance keep conviction contained.",
+      "market_expectation_summary": "Consensus is about $0.36 EPS and $1.61-$1.62 billion revenue; FY2026 adjusted EPS guidance is $1.46-$1.52.",
+      "upside_case_summary": "Direct-to-consumer and Americas momentum support another raise while tariff mitigation protects margin.",
+      "downside_case_summary": "Europe stays weak or tariff and promotional pressure erode gross margin and the full-year outlook.",
+      "options_or_positioning_summary": "Options imply roughly a mid-single-digit move; recent estimates indicate the stock can exceed that around earnings.",
+      "analyst_revision_summary": "Q2 beat on EPS and revenue and management raised FY2026 growth and EPS guidance; analyst targets remain dispersed.",
+      "pass_scores": {
+        "A": {
+          "direction_score": 34,
+          "reversal_risk": 38
+        },
+        "B": {
+          "direction_score": 28,
+          "reversal_risk": 42
+        },
+        "C": {
+          "direction_score": 39,
+          "reversal_risk": 40
+        }
+      },
+      "key_sources": [
+        {
+          "title": "Levi Strauss official timing",
+          "url": "https://investors.levistrauss.com/news/financial-news/news-details/2026/Levi-Strauss--Co--to-Webcast-Third-Quarter-2026-Earnings-Conference-Call/default.aspx"
+        },
+        {
+          "title": "Levi Strauss Q2 results",
+          "url": "https://investors.levistrauss.com/news/financial-news/default.aspx"
+        },
+        {
+          "title": "LEVI earnings preview",
+          "url": "https://trendandticker.com/markets/retail/levi-strauss-earnings-preview-levi-q3-2026-october-7-jpmorgan-wells-fargo"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "ticker": "PEP",
+      "company": "PepsiCo, Inc.",
+      "timing": "2026-10-08 before market open; materials 6:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -30,
+      "reversal_risk": 47,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "North America volume and organic sales",
+      "key_risk_to_call": "Low valuation; turnaround relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 down",
+      "method_update_note": "Key-metric-first and low-bar relief checks applied",
+      "one_sentence_thesis": "Persistent North America volume and operating-leverage weakness slightly outweighs a reset valuation, making the setup negative but vulnerable to relief.",
+      "market_expectation_summary": "Consensus is about $2.30 EPS on $24.97-$24.98 billion revenue, approximately 4.4% year-over-year growth.",
+      "upside_case_summary": "PFNA/PBNA volumes stabilize and management demonstrates that affordability initiatives are restoring demand.",
+      "downside_case_summary": "Volume remains weak, price/mix deteriorates, or margin and guidance confirm a slow turnaround.",
+      "options_or_positioning_summary": "Defensive ownership and the stock's 26% decline from its February high create two-sided positioning rather than a crowded short.",
+      "analyst_revision_summary": "Deutsche Bank downgraded to Hold and cut its target to $138, citing reduced confidence in the North America recovery.",
+      "pass_scores": {
+        "A": {
+          "direction_score": -31,
+          "reversal_risk": 46
+        },
+        "B": {
+          "direction_score": -25,
+          "reversal_risk": 50
+        },
+        "C": {
+          "direction_score": -35,
+          "reversal_risk": 45
+        }
+      },
+      "key_sources": [
+        {
+          "title": "PepsiCo official timing",
+          "url": "https://www.pepsico.com/en/newsroom/press-releases/2026/pepsico-announces-timing-and-availability-of-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "PepsiCo earnings archive",
+          "url": "https://www.pepsico.com/en/investors/earnings"
+        },
+        {
+          "title": "Kiplinger PepsiCo preview",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "ticker": "APLD",
+      "company": "Applied Digital Corporation",
+      "timing": "2026-10-07 after market close; call 5:00 p.m. ET",
+      "direction_call": "Lean Up",
+      "direction_score": 29,
+      "reversal_risk": 70,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "AI-campus energization and recurring rent",
+      "key_risk_to_call": "Execution, capex and high event volatility",
+      "evidence_quality": "High",
+      "pass_agreement": "2 up, 1 neutral-range",
+      "method_update_note": "Priced-in, revenue-quality and capex override checks applied",
+      "one_sentence_thesis": "AI-infrastructure milestones support upside, but fit-out revenue quality, capital intensity and extreme event volatility leave only a marginal directional edge.",
+      "market_expectation_summary": "Published revenue estimates vary from about $116 million to $138 million, with a roughly $0.26-$0.31 loss expected.",
+      "upside_case_summary": "Polaris Forge capacity ramps on schedule and management improves visibility into recurring rent and financing.",
+      "downside_case_summary": "Construction timing, financing or capex commentary overwhelms headline revenue and lease momentum.",
+      "options_or_positioning_summary": "Options price about an 11.6%-13.5% move versus larger historical moves; short interest is about 21% of float, creating squeeze and unwind risk.",
+      "analyst_revision_summary": "Wall Street coverage is strongly bullish, but the prior quarter missed EPS and revenue quality included substantial tenant fit-out services.",
+      "pass_scores": {
+        "A": {
+          "direction_score": 38,
+          "reversal_risk": 66
+        },
+        "B": {
+          "direction_score": 18,
+          "reversal_risk": 74
+        },
+        "C": {
+          "direction_score": 31,
+          "reversal_risk": 70
+        }
+      },
+      "key_sources": [
+        {
+          "title": "Applied Digital IR timing",
+          "url": "https://ir.applieddigital.com/?page_id=743"
+        },
+        {
+          "title": "Kiplinger earnings preview",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        },
+        {
+          "title": "APLD options and earnings history",
+          "url": "https://tickzen.app/stocks/apld/earnings"
+        }
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [
+      "ANGO",
+      "HELE",
+      "RELL",
+      "LEVI"
+    ],
+    "excluded_for_reversal_risk": [
+      "TLRY",
+      "APLD",
+      "PEP"
+    ],
+    "basket_distribution": [
+      {
+        "ticker": "ANGO",
+        "direction": "Lean Up",
+        "percent": 32
+      },
+      {
+        "ticker": "HELE",
+        "direction": "Lean Down",
+        "percent": 28
+      },
+      {
+        "ticker": "RELL",
+        "direction": "Lean Up",
+        "percent": 22
+      },
+      {
+        "ticker": "LEVI",
+        "direction": "Lean Up",
+        "percent": 18
+      }
+    ],
+    "unallocated_percent": 0,
+    "is_financial_advice": false
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "ANGO",
+      "consensus_summary": "3/3 up",
+      "averaged_direction_score": 41,
+      "averaged_reversal_risk": 34,
+      "disparity": 5,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "thesis": "Sustained high-teens Med Tech growth and improving profitability create the cleanest upside setup, provided margin pressure does not force a softer outlook.",
+      "market_expectation": "Consensus is about a $0.11-$0.12 adjusted loss on roughly $82.1 million revenue.",
+      "upside_case": "Mechanical thrombectomy, Auryon and NanoKnife sustain double-digit growth while EBITDA improves.",
+      "downside_case": "Tariffs, inflation and manufacturing-transition costs compress gross margin or temper guidance.",
+      "options_or_positioning": "Reliable event implied-move data was unavailable; liquidity is adequate but below large-cap levels.",
+      "analyst_revision": "Four-analyst estimates center near an $0.11-$0.12 loss and $82.1 million revenue; the last quarter beat both EPS and revenue.",
+      "allocation_priority": true,
+      "method_update_note": "Key-metric-first and forward-look checks applied",
+      "key_sources": [
+        {
+          "title": "AngioDynamics official timing",
+          "url": "https://investors.angiodynamics.com/news-releases/news-release-details/angiodynamics-report-fiscal-2027-first-quarter-results-october-8"
+        },
+        {
+          "title": "AngioDynamics prior operating trends",
+          "url": "https://investors.angiodynamics.com/news-releases/news-release-details/angiodynamics-reports-fiscal-year-2026-third-quarter-financial"
+        },
+        {
+          "title": "ANGO estimates",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/ANGO/earnings/"
+        }
+      ]
+    },
+    {
+      "ticker": "TLRY",
+      "consensus_summary": "3/3 down",
+      "averaged_direction_score": -38,
+      "averaged_reversal_risk": 65,
+      "disparity": 7,
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "thesis": "Revenue growth is visible, but persistent losses, dilution risk and weak per-share economics keep the base case negative despite substantial squeeze risk.",
+      "market_expectation": "Analysts expect a $0.16-$0.19 loss on about $265-$268 million revenue, roughly 26% year-over-year growth.",
+      "upside_case": "Adjusted EBITDA and cash generation improve enough to validate the $1 billion revenue path.",
+      "downside_case": "Growth is acquisition-heavy, margins lag, or financing and dilution overshadow headline revenue.",
+      "options_or_positioning": "Retail interest is elevated and highly narrative-driven; the depressed price and cannabis headlines create sharp squeeze potential.",
+      "analyst_revision": "Published estimates emphasize revenue growth but continued losses; evidence of positive per-share estimate momentum is limited.",
+      "allocation_priority": false,
+      "method_update_note": "Low-bar reversal and per-share dilution checks applied",
+      "key_sources": [
+        {
+          "title": "Tilray official timing",
+          "url": "https://ir.tilray.com/news-releases/news-release-details/tilray-brands-announce-first-quarter-fiscal-year-2027-financial"
+        },
+        {
+          "title": "Tilray investor relations",
+          "url": "https://ir.tilray.com/"
+        },
+        {
+          "title": "TLRY earnings preview",
+          "url": "https://site.financialmodelingprep.com/market-news/tilray-brands-tlry-q1-2027-earnings-preview"
+        }
+      ]
+    },
+    {
+      "ticker": "HELE",
+      "consensus_summary": "3/3 down",
+      "averaged_direction_score": -37,
+      "averaged_reversal_risk": 39,
+      "disparity": 5,
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "thesis": "Top-line stabilization has not yet repaired underlying earnings power, leaving adjusted margin and guidance vulnerable even after a large de-rating.",
+      "market_expectation": "Consensus is about $0.50-$0.52 adjusted EPS on roughly $443-$452 million revenue.",
+      "upside_case": "Organic sales stabilize and tariff mitigation restores gross-margin confidence without another guide cut.",
+      "downside_case": "Tariffs, mix and weak organic demand extend the steep adjusted-margin and EPS decline.",
+      "options_or_positioning": "Reliable event implied-move data was unavailable; the depressed valuation reduces but does not remove downside.",
+      "analyst_revision": "The company maintained FY2027 adjusted EPS of $3.25-$3.75 after Q1, but Q1 adjusted EPS was only $0.17 and gross margin fell 110 bps.",
+      "allocation_priority": true,
+      "method_update_note": "Margin-quality and low-bar relief checks applied",
+      "key_sources": [
+        {
+          "title": "Helen of Troy official timing",
+          "url": "https://investor.helenoftroy.com/press-releases/press-release-details/2026/Helen-of-Troy-Limited-Announces-Earnings-Release-Date-Conference-Call-and-Webcast-for-Second-Quarter-Fiscal-Year-2027-Results/default.aspx"
+        },
+        {
+          "title": "Helen of Troy Q1 FY2027 results",
+          "url": "https://investor.helenoftroy.com/press-releases/press-release-details/2026/Helen-of-Troy-Reports-First-Quarter-Fiscal-2027-Results/default.aspx"
+        }
+      ]
+    },
+    {
+      "ticker": "RELL",
+      "consensus_summary": "3/3 up",
+      "averaged_direction_score": 36,
+      "averaged_reversal_risk": 40,
+      "disparity": 5,
+      "recommendation": "Lean Up",
+      "confidence": "Medium-Low",
+      "thesis": "Record backlog and broad Q4 momentum favor an upside reaction if large GES/BES opportunities convert, but order timing makes the setup fragile.",
+      "market_expectation": "Consensus is roughly $0.09 EPS and $60.2 million revenue.",
+      "upside_case": "The expected multimillion-dollar BES order arrives and high backlog converts with margin discipline.",
+      "downside_case": "Large orders slip, backlog quality disappoints, or working-capital needs absorb the earnings improvement.",
+      "options_or_positioning": "Options evidence is thin and small-cap liquidity can magnify either direction.",
+      "analyst_revision": "Sparse coverage limits revision quality; recent estimates imply modest revenue growth after a strong Q4.",
+      "allocation_priority": true,
+      "method_update_note": "Backlog-quality and small-cap hidden-risk checks applied",
+      "key_sources": [
+        {
+          "title": "Richardson official timing and prior results",
+          "url": "https://www.rell.com/investor-relations/financial-news/?allevents=false&allnews=true"
+        },
+        {
+          "title": "Richardson events",
+          "url": "https://www.rell.com/press-room/"
+        },
+        {
+          "title": "RELL estimates",
+          "url": "https://www.chartmill.com/stock/quote/RELL/estimates"
+        }
+      ]
+    },
+    {
+      "ticker": "LEVI",
+      "consensus_summary": "3/3 up",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 40,
+      "disparity": 5,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "thesis": "Q2 momentum and a raised full-year outlook favor modest upside, but Europe, tariffs and the need to defend guidance keep conviction contained.",
+      "market_expectation": "Consensus is about $0.36 EPS and $1.61-$1.62 billion revenue; FY2026 adjusted EPS guidance is $1.46-$1.52.",
+      "upside_case": "Direct-to-consumer and Americas momentum support another raise while tariff mitigation protects margin.",
+      "downside_case": "Europe stays weak or tariff and promotional pressure erode gross margin and the full-year outlook.",
+      "options_or_positioning": "Options imply roughly a mid-single-digit move; recent estimates indicate the stock can exceed that around earnings.",
+      "analyst_revision": "Q2 beat on EPS and revenue and management raised FY2026 growth and EPS guidance; analyst targets remain dispersed.",
+      "allocation_priority": true,
+      "method_update_note": "Priced-in and forward-guide override checks applied",
+      "key_sources": [
+        {
+          "title": "Levi Strauss official timing",
+          "url": "https://investors.levistrauss.com/news/financial-news/news-details/2026/Levi-Strauss--Co--to-Webcast-Third-Quarter-2026-Earnings-Conference-Call/default.aspx"
+        },
+        {
+          "title": "Levi Strauss Q2 results",
+          "url": "https://investors.levistrauss.com/news/financial-news/default.aspx"
+        },
+        {
+          "title": "LEVI earnings preview",
+          "url": "https://trendandticker.com/markets/retail/levi-strauss-earnings-preview-levi-q3-2026-october-7-jpmorgan-wells-fargo"
+        }
+      ]
+    },
+    {
+      "ticker": "PEP",
+      "consensus_summary": "3/3 down",
+      "averaged_direction_score": -30,
+      "averaged_reversal_risk": 47,
+      "disparity": 5,
+      "recommendation": "Lean Down",
+      "confidence": "Medium",
+      "thesis": "Persistent North America volume and operating-leverage weakness slightly outweighs a reset valuation, making the setup negative but vulnerable to relief.",
+      "market_expectation": "Consensus is about $2.30 EPS on $24.97-$24.98 billion revenue, approximately 4.4% year-over-year growth.",
+      "upside_case": "PFNA/PBNA volumes stabilize and management demonstrates that affordability initiatives are restoring demand.",
+      "downside_case": "Volume remains weak, price/mix deteriorates, or margin and guidance confirm a slow turnaround.",
+      "options_or_positioning": "Defensive ownership and the stock's 26% decline from its February high create two-sided positioning rather than a crowded short.",
+      "analyst_revision": "Deutsche Bank downgraded to Hold and cut its target to $138, citing reduced confidence in the North America recovery.",
+      "allocation_priority": false,
+      "method_update_note": "Key-metric-first and low-bar relief checks applied",
+      "key_sources": [
+        {
+          "title": "PepsiCo official timing",
+          "url": "https://www.pepsico.com/en/newsroom/press-releases/2026/pepsico-announces-timing-and-availability-of-third-quarter-2026-financial-results"
+        },
+        {
+          "title": "PepsiCo earnings archive",
+          "url": "https://www.pepsico.com/en/investors/earnings"
+        },
+        {
+          "title": "Kiplinger PepsiCo preview",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ]
+    },
+    {
+      "ticker": "APLD",
+      "consensus_summary": "2 up, 1 neutral-range",
+      "averaged_direction_score": 29,
+      "averaged_reversal_risk": 70,
+      "disparity": 9,
+      "recommendation": "Lean Up",
+      "confidence": "Low",
+      "thesis": "AI-infrastructure milestones support upside, but fit-out revenue quality, capital intensity and extreme event volatility leave only a marginal directional edge.",
+      "market_expectation": "Published revenue estimates vary from about $116 million to $138 million, with a roughly $0.26-$0.31 loss expected.",
+      "upside_case": "Polaris Forge capacity ramps on schedule and management improves visibility into recurring rent and financing.",
+      "downside_case": "Construction timing, financing or capex commentary overwhelms headline revenue and lease momentum.",
+      "options_or_positioning": "Options price about an 11.6%-13.5% move versus larger historical moves; short interest is about 21% of float, creating squeeze and unwind risk.",
+      "analyst_revision": "Wall Street coverage is strongly bullish, but the prior quarter missed EPS and revenue quality included substantial tenant fit-out services.",
+      "allocation_priority": false,
+      "method_update_note": "Priced-in, revenue-quality and capex override checks applied",
+      "key_sources": [
+        {
+          "title": "Applied Digital IR timing",
+          "url": "https://ir.applieddigital.com/?page_id=743"
+        },
+        {
+          "title": "Kiplinger earnings preview",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        },
+        {
+          "title": "APLD options and earnings history",
+          "url": "https://tickzen.app/stocks/apld/earnings"
+        }
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
