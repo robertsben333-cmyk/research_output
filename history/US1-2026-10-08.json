@@ -1,0 +1,216 @@
+{
+  "generation_timestamp": "2026-10-08T17:02:01Z",
+  "covered_report_window": "U.S.-listed companies reporting after the U.S. market close on Thursday, October 8, 2026, plus companies reporting before the U.S. market open on Friday, October 9, 2026.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "U.S. equities were pulling back from records as Brent crude moved back above $104 and the 10-year Treasury yield traded around 5.3%; both fuel-cost and discount-rate pressure matter for this small event set.",
+  "companies_reviewed_count": 2,
+  "top_setups": {
+    "upward": [],
+    "downward": [
+      "DAL"
+    ],
+    "neutral_or_mixed": [
+      "ODC"
+    ],
+    "note": "No qualified bullish setup; only two names passed timing, listing, liquidity and evidence screening."
+  },
+  "methodology": {
+    "passes": 3,
+    "independence_note": "Passes A, B and C evaluated the same qualified universe independently before consensus.",
+    "disparity_definition": "Average of (mean pairwise absolute direction-score difference divided by 2) and mean pairwise absolute reversal-risk difference, rounded to 0-100.",
+    "learned_lessons_update": "Applied the existing mandatory expectation-bar, key-metric-first, and forward-look checks. No new method change was warranted from this run."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "DAL",
+      "company": "Delta Air Lines, Inc.",
+      "timing": "Oct. 9, 2026 before market open; webcast 10:00 a.m. ET",
+      "direction_call": "Lean Down",
+      "direction_score": -43,
+      "reversal_risk": 51,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Fuel-adjusted operating margin and December-quarter outlook",
+      "key_risk_to_call": "Low bar; premium-demand relief rally",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Lean Down",
+      "method_update_note": "Existing expectation-bar and forward-look checks",
+      "one_sentence_thesis": "A sharp fuel-cost mismatch, falling EPS estimates, and a strong pre-earnings share-price run make margin and forward guidance vulnerable despite healthy premium demand.",
+      "market_expectation_summary": "Published consensus clusters around $1.88-$1.99 EPS and $17.6-$17.8B revenue, below Delta's July $2.00-$2.50 EPS guide; estimates fell materially into the print.",
+      "upside_case_summary": "Pricing and premium/corporate demand offset fuel inflation, while the December-quarter outlook reassures.",
+      "downside_case_summary": "Fuel and non-fuel costs compress margin and management cuts the full-year or December-quarter outlook.",
+      "options_or_positioning_summary": "Oct. 9 options imply roughly 5.3%-6.7%; the stock was up about 45% year over year, raising high-bar risk, while call open interest was slightly heavier than put open interest.",
+      "analyst_revision_summary": "Q3 EPS consensus fell about 7.6% in seven days, 14.9% in 30 days, and 19.4% in 60 days in one current preview; published estimates vary, indicating a moving bar.",
+      "key_sources": [
+        {
+          "title": "Delta IR event calendar",
+          "url": "https://ir.delta.com/events-and-presentations/"
+        },
+        {
+          "title": "Delta June-quarter 2026 results",
+          "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-June-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "title": "DAL estimates and revisions",
+          "url": "https://www.chartmill.com/stock/quote/DAL/estimates"
+        },
+        {
+          "title": "DAL options expected move",
+          "url": "https://thetaowl.com/options/DAL/expected-move"
+        },
+        {
+          "title": "Oil and airline-fare context",
+          "url": "https://apnews.com/article/0d5d453efa28cf7098e57f7f783574dc"
+        }
+      ],
+      "pass_outputs": [
+        {
+          "pass": "A",
+          "direction_score": -48,
+          "reversal_risk": 52,
+          "key_metric": "Fuel-adjusted operating margin",
+          "call": "Lean Down"
+        },
+        {
+          "pass": "B",
+          "direction_score": -36,
+          "reversal_risk": 46,
+          "key_metric": "December-quarter EPS/margin outlook",
+          "call": "Lean Down"
+        },
+        {
+          "pass": "C",
+          "direction_score": -44,
+          "reversal_risk": 55,
+          "key_metric": "Unit revenue less fuel/CASM pressure",
+          "call": "Lean Down"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "ODC",
+      "company": "Oil-Dri Corporation of America",
+      "timing": "Oct. 8, 2026 after market close; webcast Oct. 9 at 10:00 a.m. CT",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 20,
+      "reversal_risk": 61,
+      "disparity": 5,
+      "confidence": "Low",
+      "expected_driver": "Gross margin versus cat-litter-led sales growth",
+      "key_risk_to_call": "No consensus; thin liquidity; cost inflation",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 Neutral-range; all positive",
+      "method_update_note": "Existing key-metric-first check",
+      "one_sentence_thesis": "Cat-litter demand and operating leverage support upside, but gross-margin erosion, no usable quarterly consensus, and thin trading prevent a defensible directional edge.",
+      "market_expectation_summary": "No reliable quarterly EPS or revenue consensus was available; the market instead has to judge sales growth and gross-margin conversion against Q3's 9% sales growth and 26.7% gross margin.",
+      "upside_case_summary": "Cat-litter growth persists, domestic cost-per-ton inflation eases, and lower SG&A converts revenue into stronger operating profit.",
+      "downside_case_summary": "Backlog normalization and higher manufacturing costs expose weaker organic momentum and renewed margin pressure.",
+      "options_or_positioning_summary": "Reliable event options data was unavailable; intraday volume was about 40,000 shares, so liquidity can amplify either direction.",
+      "analyst_revision_summary": "No upcoming quarterly analyst estimate was available, materially reducing evidence quality and making a surprise framework unreliable.",
+      "key_sources": [
+        {
+          "title": "Oil-Dri official earnings timing",
+          "url": "https://oildri.gcs-web.com/news-releases/news-release-details/oil-dri-announces-dates-fourth-quarter-and-fiscal-year-2026"
+        },
+        {
+          "title": "Oil-Dri Q3 FY2026 results",
+          "url": "https://oildri.gcs-web.com/news-releases/news-release-details/oil-dri-reports-record-third-quarter-revenues-and-strong"
+        },
+        {
+          "title": "ODC estimates",
+          "url": "https://www.chartmill.com/stock/quote/ODC/estimates"
+        },
+        {
+          "title": "ODC market data",
+          "url": "https://www.investing.com/equities/oil-dri-corp-of-america-earnings"
+        }
+      ],
+      "pass_outputs": [
+        {
+          "pass": "A",
+          "direction_score": 28,
+          "reversal_risk": 58,
+          "key_metric": "Gross margin recovery",
+          "call": "Neutral / No Edge"
+        },
+        {
+          "pass": "B",
+          "direction_score": 12,
+          "reversal_risk": 64,
+          "key_metric": "Cat-litter sales durability",
+          "call": "Neutral / No Edge"
+        },
+        {
+          "pass": "C",
+          "direction_score": 20,
+          "reversal_risk": 60,
+          "key_metric": "Operating profit conversion",
+          "call": "Neutral / No Edge"
+        }
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "allocations": [],
+    "allocated_percentage": 0,
+    "unallocated_percentage": 100,
+    "reason": "DAL failed the reversal-risk ceiling; ODC failed the absolute-score, confidence, and evidence thresholds.",
+    "disclaimer": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "DAL",
+      "consensus_summary": "All three independent passes leaned down; scores ranged from -36 to -48 and reversal risk from 46 to 55.",
+      "averaged_direction_score": -43,
+      "averaged_reversal_risk": 51,
+      "disparity": 5,
+      "pass_agreement_or_disagreement_pattern": "3/3 Lean Down",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "A sharp fuel-cost mismatch, falling estimates, and a strong pre-earnings run leave margin and guidance vulnerable.",
+      "what_the_market_expects": "$1.88-$1.99 EPS and $17.6-$17.8B revenue; options price roughly a 5%-7% move.",
+      "what_could_make_stock_go_up": "Premium/corporate demand and pricing offset fuel; management preserves full-year and December-quarter confidence.",
+      "what_could_make_stock_go_down": "Fuel and non-fuel costs compress margin; guidance is reduced.",
+      "reversal_risk_assessment": "Moderate. Expectations have fallen, the company has a recent beat record, and a less-bad outlook could produce a relief rally.",
+      "reddit_social_or_consumer_sentiment_read": "Customer discussion is sharply negative on fare levels, but high fares can signal pricing power; it received little directional weight.",
+      "options_or_positioning_read": "Expected move roughly 5.3%-6.7%; slightly call-heavy open interest and a strong prior-year stock gain make the setup two-sided.",
+      "analyst_and_estimate_revision_read": "Near-term EPS revisions were sharply negative, but a moving lower bar increases upside reversal risk.",
+      "base_case": "Margin misses the old guide and the stock falls, potentially inside the implied range.",
+      "bull_case": "Pricing offsets fuel and guidance holds, triggering relief upside.",
+      "bear_case": "A larger fuel/margin miss plus a guide cut produces a move beyond the implied band.",
+      "final_directional_judgment": "Lean Down.",
+      "allocation_view_rationale": "Excluded because consensus reversal risk of 51 exceeds 40.",
+      "disparity_effect_on_conviction": "Low disparity supports directional consistency, but not enough to overcome reversal risk.",
+      "method_update_note": "Existing expectation-bar and forward-look checks."
+    },
+    {
+      "ticker": "ODC",
+      "consensus_summary": "All passes were mildly positive but remained Neutral-range because no quarterly consensus or liquid positioning data supported a real edge.",
+      "averaged_direction_score": 20,
+      "averaged_reversal_risk": 61,
+      "disparity": 5,
+      "pass_agreement_or_disagreement_pattern": "3/3 Neutral-range; all positive",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Demand is constructive, but margin quality and sparse market data dominate.",
+      "what_the_market_expects": "No reliable quarterly consensus; focus is sales durability and gross-margin conversion.",
+      "what_could_make_stock_go_up": "Cat-litter demand stays strong and cost inflation eases.",
+      "what_could_make_stock_go_down": "Backlog normalization and cost-per-ton pressure squeeze margins.",
+      "reversal_risk_assessment": "High relative to the mild bullish lean because thin liquidity and absent consensus make the reaction hard to benchmark.",
+      "reddit_social_or_consumer_sentiment_read": "No reliable 7/14/30-day investor or consumer signal was found; no score weight.",
+      "options_or_positioning_read": "No reliable event-implied move; thin share volume raises gap risk.",
+      "analyst_and_estimate_revision_read": "No usable upcoming quarterly estimate was available.",
+      "base_case": "Mixed report, with sales growth offset by margin pressure.",
+      "bull_case": "Strong volume plus margin recovery drives a sharp upside gap.",
+      "bear_case": "Organic demand slows and costs remain elevated.",
+      "final_directional_judgment": "Neutral / No Edge.",
+      "allocation_view_rationale": "Excluded because score is below 30, reversal risk is above 40, and confidence is Low.",
+      "disparity_effect_on_conviction": "Low numerical disparity cannot compensate for sparse evidence.",
+      "method_update_note": "Existing key-metric-first check."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
