@@ -60,7 +60,7 @@
       "key_risk_to_call": "Low bar; premium-demand relief",
       "evidence_quality": "High",
       "pass_agreement": "3/3 Lean Down",
-      "method_update_note": "Existing expectation-bar and forward-look checks",
+      "method_update_note": "None",
       "one_sentence_thesis": "Demand is healthy, but the fuel shock, falling near-term EPS estimates, and a 45% one-year share-price gain leave margin and guidance vulnerable.",
       "market_expectation_summary": "Current published consensus clusters near $1.94-$1.99 EPS and $17.6-$17.8B revenue versus Delta's July EPS guide of $2.00-$2.50; estimates have moved lower recently.",
       "upside_case_summary": "Premium and corporate pricing offsets fuel, and the December-quarter outlook stays constructive.",
@@ -131,7 +131,7 @@
       "key_risk_to_call": "46x P/E; logistics and margin miss",
       "evidence_quality": "High",
       "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "Existing priced-in and small-cap hidden-risk checks",
+      "method_update_note": "None",
       "one_sentence_thesis": "GE-engine program growth and a strong Q1 support another operating beat, but a premium valuation and known Q2 guide sharply raise the bar.",
       "market_expectation_summary": "Management guided Q2 sales to $19.5M-$21.0M and adjusted EBITDA to $4.3M-$5.1M; market revenue consensus is about $20.0M and EPS consensus about $0.16.",
       "upside_case_summary": "GE program sales reach the top of plan and 30%+ gross-margin quality holds.",
@@ -202,7 +202,7 @@
       "key_risk_to_call": "Thin consensus; cost inflation; high bar",
       "evidence_quality": "Medium",
       "pass_agreement": "1 Lean Up / 2 Neutral",
-      "method_update_note": "Existing key-metric-first and priced-in checks",
+      "method_update_note": "None",
       "one_sentence_thesis": "Record Q3 sales and June price increases support upside, but cost-per-ton inflation, weak year-to-date profit conversion, and missing consensus leave no durable edge.",
       "market_expectation_summary": "No reliable Q4 EPS or revenue consensus is available; the market is likely to compare margin conversion against Q3's 9% sales growth, 23% operating-income growth, and only 2% gross-profit growth.",
       "upside_case_summary": "Price increases catch up to costs and strong retail demand converts into margin expansion.",
@@ -299,7 +299,7 @@
       "final_directional_judgment": "Lean Down.",
       "allocation_view_rationale": "Excluded because reversal risk of 58 exceeds the 40 ceiling.",
       "disparity_effect_on_conviction": "Low disparity supports consistency, but reversal risk still prevents allocation.",
-      "method_update_note": "Existing expectation-bar and forward-look checks.",
+      "method_update_note": "None",
       "key_sources": [
         {
           "title": "Delta 3Q 2026 earnings webcast notice",
@@ -350,7 +350,7 @@
       "final_directional_judgment": "Lean Up.",
       "allocation_view_rationale": "Excluded because reversal risk of 51 exceeds 40 despite an absolute score above 30.",
       "disparity_effect_on_conviction": "Low disparity improves conviction quality, but not enough for allocation.",
-      "method_update_note": "Existing priced-in and small-cap hidden-risk checks.",
+      "method_update_note": "None",
       "key_sources": [
         {
           "title": "Park Aerospace earnings-date notice",
@@ -401,7 +401,7 @@
       "final_directional_judgment": "Neutral / No Edge.",
       "allocation_view_rationale": "Excluded because score is below 30, reversal risk is above 40, and confidence is Low.",
       "disparity_effect_on_conviction": "Moderate disparity at the call boundary reinforces caution.",
-      "method_update_note": "Existing key-metric-first and priced-in checks.",
+      "method_update_note": "None",
       "key_sources": [
         {
           "title": "Oil-Dri official event calendar",
