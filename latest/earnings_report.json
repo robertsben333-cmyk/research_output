@@ -1,20 +1,20 @@
 {
-  "generation_timestamp": "2026-10-09T19:02:00+02:00",
-  "covered_report_window": "U.S.-listed companies reporting after the U.S. market close on Friday, October 9, 2026, plus companies reporting before the U.S. market open on Monday, October 12, 2026.",
+  "generation_timestamp": "2026-10-09T17:06:39Z",
+  "covered_report_window": "U.S.-listed companies reporting after the 4:00 p.m. ET U.S. market close on Friday, October 9, 2026, plus companies reporting before the 9:30 a.m. ET U.S. market open on Monday, October 12, 2026.",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "The actionable earnings window is empty after qualification. The U.S. stock market is open Monday, October 12, despite the federal holiday. Equity and event risk remain dominated by Iran-war oil volatility, Brent above $100, and a U.S. 10-year Treasury yield near 5.24%.",
+  "market_context_summary": "U.S. equities were higher intraday on Friday during a record-setting week, while elevated and volatile Treasury yields, oil and Iran-related headlines remained the dominant macro risks. Monday is an equity-market session, but banks and the U.S. bond market are closed. No U.S.-listed company passed the confirmed-timing, liquidity and evidence-quality gates for this immediate window.",
   "companies_reviewed_count": 17,
   "qualified_companies_count": 0,
   "top_setups": {
     "upward": [],
     "downward": [],
     "neutral_or_mixed": [],
-    "note": "No evidence-qualified U.S.-listed reporters existed in the strict actionable window, so no top-three setups are reported."
+    "note": "No evidence-qualified U.S.-listed reporter existed in the strict actionable window, so there are no top-three setups."
   },
   "methodology": {
     "passes": 3,
     "shared_qualified_universe": [],
-    "independence_note": "The shared-universe screen produced zero qualified tickers. Passes A, B, and C therefore each evaluated the same empty universe; no scores or conclusions were fabricated.",
+    "independence_note": "The shared-universe screen produced zero qualified tickers. Passes A, B and C therefore each evaluated the same empty universe; no scores or conclusions were fabricated.",
     "pass_summaries": [
       {
         "pass": "A",
@@ -32,59 +32,39 @@
         "result": "No qualified companies"
       }
     ],
-    "disparity_definition": "A 0-100 measure of dispersion across the three independent direction-score and reversal-risk assessments; lower means tighter agreement. It is not applicable when no company is scored.",
-    "learned_lessons_update": "No scoring-method change. The existing timing-confirmation and listing-status guardrails excluded stale and time-unconfirmed calendar entries."
+    "disparity_definition": "A 0-to-100 measure of dispersion across the three independent direction-score and reversal-risk assessments; lower means tighter agreement. It is not applicable when no company is scored.",
+    "learned_lessons_update": "No scoring-method change. The existing timing-confirmation, listing-status, liquidity and evidence-quality guardrails were sufficient."
   },
   "universe_exclusions": [
     {
       "ticker": "CLSD / CLSDQ",
       "company": "Clearside Biomedical, Inc.",
-      "calendar_timing": "October 9 after close on one secondary calendar",
-      "reason": "Excluded before scoring: stale symbol/listing entry. The issuer filed Chapter 11 in November 2025 and stated that common stock would move from Nasdaq to OTC under CLSDQ; OTC and bankruptcy remnants are outside scope.",
+      "calendar_timing": "October 9 after close on secondary calendars",
+      "reason": "Excluded before scoring: stale symbol/listing entry. The issuer entered Chapter 11 and moved from Nasdaq to OTC under CLSDQ; OTC and bankruptcy remnants are outside scope.",
       "sources": [
-        {
-          "title": "HyperStocks daily calendar",
-          "url": "https://terminal.hyperstocks.io/markets/week-ahead"
-        },
-        {
-          "title": "Clearside bankruptcy and OTC transition filing",
-          "url": "https://www.otcmarkets.com/filing/conv_pdf?guid=8D8-kFZ0QRIkdth&id=18953207"
-        }
+        "https://tickzen.app/stock-analysis/earnings-calendar/tomorrow",
+        "https://www.sec.gov/Archives/edgar/data/1539029/000119312525297177/d41251d8k.htm"
       ]
     },
     {
-      "ticker": "Monday calendar entries (16)",
+      "ticker": "Monday date-only candidates",
       "company": "UNTY, ACZT, ALDS, BMRA, BZYR, DYNT, FNGR, HFUS, HWNI, LQMT, NAAS, NGTF, NRIS, QNME, SOND, STME",
       "calendar_timing": "October 12, time TBD",
-      "reason": "Excluded before scoring: none was confirmed before market open. High-quality calendars showed zero Monday before-open reports.",
+      "reason": "Excluded before scoring: none had confirmed before-open timing. Higher-quality calendars showed no Monday before-open earnings events.",
       "sources": [
-        {
-          "title": "Tickzen Monday calendar",
-          "url": "https://www.tickzen.app/stock-analysis/earnings-calendar/tomorrow"
-        },
-        {
-          "title": "HyperStocks next-week calendar",
-          "url": "https://terminal.hyperstocks.io/earnings-calendar/next-week"
-        },
-        {
-          "title": "Techdamentals confirmed calendar",
-          "url": "https://techdamentals.com/calendar/earnings?cap=100b&confirmed=1&week=2026-10-12"
-        }
+        "https://terminal.hyperstocks.io/earnings-calendar/next-week",
+        "https://stockti.com/earnings-calendar/oct-12-16-2026",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
       ]
     }
   ],
   "ranked_companies": [],
   "research_allocation_view": {
     "qualified_names": [],
-    "allocations": [],
-    "allocated_percentage": 0,
-    "unallocated_percentage": 100,
-    "excluded_for_reversal_risk": [],
-    "other_exclusions": [
-      "All raw candidates failed timing, listing-status, or scope qualification before scoring."
-    ],
-    "reason": "No company met the prerequisite for inclusion in the consensus ranking, so no name could satisfy the score, reversal-risk, confidence, and evidence-quality allocation tests.",
-    "disclaimer": "This is a research prioritization model, not financial advice."
+    "excluded_high_reversal_or_weak_names": [],
+    "unallocated_share_percent": 100,
+    "why_unallocated": "No company met the prerequisite for consensus scoring, so no name could satisfy the direction-score, reversal-risk, confidence and evidence-quality allocation tests.",
+    "plain_statement": "This is a research prioritization model, not financial advice."
   },
   "detailed_company_sections": [],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
