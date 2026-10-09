@@ -1,434 +1,91 @@
 {
-  "generation_timestamp": "2026-10-08T17:10:03.982Z",
-  "covered_report_window": "U.S.-listed companies reporting after the U.S. market close on Thursday, October 8, 2026, plus companies reporting before the U.S. market open on Friday, October 9, 2026.",
+  "generation_timestamp": "2026-10-09T19:02:00+02:00",
+  "covered_report_window": "U.S.-listed companies reporting after the U.S. market close on Friday, October 9, 2026, plus companies reporting before the U.S. market open on Monday, October 12, 2026.",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "U.S. equities were slipping from records as Brent crude moved above $104 and the 10-year Treasury yield traded around 5.3%; the oil shock is especially adverse for DAL, while high yields pressure valuation-sensitive PKE and ODC.",
-  "companies_reviewed_count": 8,
-  "qualified_companies_count": 3,
+  "market_context_summary": "The actionable earnings window is empty after qualification. The U.S. stock market is open Monday, October 12, despite the federal holiday. Equity and event risk remain dominated by Iran-war oil volatility, Brent above $100, and a U.S. 10-year Treasury yield near 5.24%.",
+  "companies_reviewed_count": 17,
+  "qualified_companies_count": 0,
   "top_setups": {
-    "upward": [
-      "PKE"
-    ],
-    "downward": [
-      "DAL"
-    ],
-    "neutral_or_mixed": [
-      "ODC"
-    ],
-    "note": "No second or third evidence-qualified directional setup existed on either side in this narrow window."
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": [],
+    "note": "No evidence-qualified U.S.-listed reporters existed in the strict actionable window, so no top-three setups are reported."
   },
   "methodology": {
     "passes": 3,
-    "independence_note": "Passes A, B, and C independently evaluated the same fixed universe before consensus.",
-    "disparity_definition": "Average of direction-score dispersion and reversal-risk dispersion, normalized to 0-100; lower is tighter agreement.",
-    "learned_lessons_update": "Applied existing timing, key-metric, priced-in, hidden-risk, and forward-look checks. No new method change was warranted."
+    "shared_qualified_universe": [],
+    "independence_note": "The shared-universe screen produced zero qualified tickers. Passes A, B, and C therefore each evaluated the same empty universe; no scores or conclusions were fabricated.",
+    "pass_summaries": [
+      {
+        "pass": "A",
+        "qualified_tickers": [],
+        "result": "No qualified companies"
+      },
+      {
+        "pass": "B",
+        "qualified_tickers": [],
+        "result": "No qualified companies"
+      },
+      {
+        "pass": "C",
+        "qualified_tickers": [],
+        "result": "No qualified companies"
+      }
+    ],
+    "disparity_definition": "A 0-100 measure of dispersion across the three independent direction-score and reversal-risk assessments; lower means tighter agreement. It is not applicable when no company is scored.",
+    "learned_lessons_update": "No scoring-method change. The existing timing-confirmation and listing-status guardrails excluded stale and time-unconfirmed calendar entries."
   },
   "universe_exclusions": [
     {
-      "ticker": "NRIX",
-      "reason": "Timing remained expected rather than confirmed; biotech earnings were not the primary catalyst."
-    },
-    {
-      "ticker": "HIFS",
-      "reason": "Timing was expected/TBD and liquidity was limited."
-    },
-    {
-      "ticker": "HOVR",
-      "reason": "Sub-$100 million market capitalization and thin trading."
-    },
-    {
-      "ticker": "T.ATZ",
-      "reason": "Primary listing is Canadian, outside the U.S.-listed scope."
-    },
-    {
-      "ticker": "T.GOL/GLDG",
-      "reason": "Timing/listing mapping was not sufficiently clear for the ranked universe."
-    }
-  ],
-  "ranked_companies": [
-    {
-      "rank": 1,
-      "ticker": "DAL",
-      "company": "Delta Air Lines, Inc.",
-      "timing": "Oct. 9, 2026 before market open; webcast 10:00 a.m. ET",
-      "direction_call": "Lean Down",
-      "direction_score": -39,
-      "reversal_risk": 58,
-      "disparity": 9,
-      "confidence": "Medium",
-      "expected_driver": "Fuel-adjusted operating margin",
-      "key_risk_to_call": "Low bar; premium-demand relief",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Down",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Demand is healthy, but the fuel shock, falling near-term EPS estimates, and a 45% one-year share-price gain leave margin and guidance vulnerable.",
-      "market_expectation_summary": "Current published consensus clusters near $1.94-$1.99 EPS and $17.6-$17.8B revenue versus Delta's July EPS guide of $2.00-$2.50; estimates have moved lower recently.",
-      "upside_case_summary": "Premium and corporate pricing offsets fuel, and the December-quarter outlook stays constructive.",
-      "downside_case_summary": "Fuel and non-fuel costs compress margin and force a softer forward outlook.",
-      "options_or_positioning_summary": "Options sources imply roughly a 5%-7% move; shares are up about 45% year over year and short interest is near 4%.",
-      "analyst_revision_summary": "Q3 EPS estimates fell roughly 5.6% over one month while revenue estimates were nearly flat; three-month revisions remained positive.",
-      "key_sources": [
+      "ticker": "CLSD / CLSDQ",
+      "company": "Clearside Biomedical, Inc.",
+      "calendar_timing": "October 9 after close on one secondary calendar",
+      "reason": "Excluded before scoring: stale symbol/listing entry. The issuer filed Chapter 11 in November 2025 and stated that common stock would move from Nasdaq to OTC under CLSDQ; OTC and bankruptcy remnants are outside scope.",
+      "sources": [
         {
-          "title": "Delta 3Q 2026 earnings webcast notice",
-          "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-Webcast-of-September-Quarter-2026-Financial-Results/default.aspx"
+          "title": "HyperStocks daily calendar",
+          "url": "https://terminal.hyperstocks.io/markets/week-ahead"
         },
         {
-          "title": "Delta June-quarter 2026 results and guidance",
-          "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-June-Quarter-2026-Financial-Results/default.aspx"
-        },
-        {
-          "title": "DAL estimates and revisions",
-          "url": "https://www.chartmill.com/stock/quote/DAL/estimates"
-        },
-        {
-          "title": "DAL valuation and positioning",
-          "url": "https://stockanalysis.com/stocks/dal/statistics/"
-        },
-        {
-          "title": "DAL options-implied move",
-          "url": "https://quantlogix.ai/earnings/DAL"
-        },
-        {
-          "title": "Oil and airline-fare context",
-          "url": "https://apnews.com/article/0d5d453efa28cf7098e57f7f783574dc"
-        }
-      ],
-      "pass_outputs": [
-        {
-          "pass": "A",
-          "direction_score": -43,
-          "reversal_risk": 60,
-          "key_metric": "Fuel-adjusted operating margin",
-          "call": "Lean Down"
-        },
-        {
-          "pass": "B",
-          "direction_score": -34,
-          "reversal_risk": 55,
-          "key_metric": "December-quarter margin outlook",
-          "call": "Lean Down"
-        },
-        {
-          "pass": "C",
-          "direction_score": -39,
-          "reversal_risk": 59,
-          "key_metric": "Unit revenue less fuel and CASM pressure",
-          "call": "Lean Down"
+          "title": "Clearside bankruptcy and OTC transition filing",
+          "url": "https://www.otcmarkets.com/filing/conv_pdf?guid=8D8-kFZ0QRIkdth&id=18953207"
         }
       ]
     },
     {
-      "rank": 2,
-      "ticker": "PKE",
-      "company": "Park Aerospace Corp.",
-      "timing": "Oct. 8, 2026 after market close; call 5:00 p.m. ET",
-      "direction_call": "Lean Up",
-      "direction_score": 36,
-      "reversal_risk": 51,
-      "disparity": 10,
-      "confidence": "Medium",
-      "expected_driver": "Adjusted EBITDA vs. $4.3M-$5.1M guide",
-      "key_risk_to_call": "46x P/E; logistics and margin miss",
-      "evidence_quality": "High",
-      "pass_agreement": "3/3 Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "GE-engine program growth and a strong Q1 support another operating beat, but a premium valuation and known Q2 guide sharply raise the bar.",
-      "market_expectation_summary": "Management guided Q2 sales to $19.5M-$21.0M and adjusted EBITDA to $4.3M-$5.1M; market revenue consensus is about $20.0M and EPS consensus about $0.16.",
-      "upside_case_summary": "GE program sales reach the top of plan and 30%+ gross-margin quality holds.",
-      "downside_case_summary": "Freight or supply constraints push EBITDA below the range while valuation compresses.",
-      "options_or_positioning_summary": "Reliable event-implied move was unavailable; the prior report gained 7.4%, but shares later drifted 16.2% lower and remain up roughly 47% year over year.",
-      "analyst_revision_summary": "Sparse coverage; available consensus centers near management's revenue range rather than implying a large beat.",
-      "key_sources": [
+      "ticker": "Monday calendar entries (16)",
+      "company": "UNTY, ACZT, ALDS, BMRA, BZYR, DYNT, FNGR, HFUS, HWNI, LQMT, NAAS, NGTF, NRIS, QNME, SOND, STME",
+      "calendar_timing": "October 12, time TBD",
+      "reason": "Excluded before scoring: none was confirmed before market open. High-quality calendars showed zero Monday before-open reports.",
+      "sources": [
         {
-          "title": "Park Aerospace earnings-date notice",
-          "url": "https://parkaerospace.com/category/press-releases/"
+          "title": "Tickzen Monday calendar",
+          "url": "https://www.tickzen.app/stock-analysis/earnings-calendar/tomorrow"
         },
         {
-          "title": "Park Aerospace Q1 FY2027 results",
-          "url": "https://www.globenewswire.com/news-release/2026/07/20/3330100/0/en/park-aerospace-corp-reports-first-quarter-results.html"
+          "title": "HyperStocks next-week calendar",
+          "url": "https://terminal.hyperstocks.io/earnings-calendar/next-week"
         },
         {
-          "title": "Park Aerospace Q1 call summary and Q2 guide",
-          "url": "https://www.tipranks.com/stocks/pke/earnings/q1-2027-report"
-        },
-        {
-          "title": "PKE estimates",
-          "url": "https://www.marketscreener.com/quote/stock/PARK-AEROSPACE-CORP-209671928/finances/"
-        },
-        {
-          "title": "PKE valuation and price performance",
-          "url": "https://stockanalysis.com/stocks/pke/statistics/"
-        },
-        {
-          "title": "PKE earnings reaction history",
-          "url": "https://marketchameleon.com/Overview/PKE/Earnings/Earnings-Dates"
-        }
-      ],
-      "pass_outputs": [
-        {
-          "pass": "A",
-          "direction_score": 40,
-          "reversal_risk": 54,
-          "key_metric": "Adjusted EBITDA versus guidance",
-          "call": "Lean Up"
-        },
-        {
-          "pass": "B",
-          "direction_score": 31,
-          "reversal_risk": 48,
-          "key_metric": "GE-engine revenue and gross margin",
-          "call": "Lean Up"
-        },
-        {
-          "pass": "C",
-          "direction_score": 36,
-          "reversal_risk": 51,
-          "key_metric": "Q2 EBITDA conversion",
-          "call": "Lean Up"
-        }
-      ]
-    },
-    {
-      "rank": 3,
-      "ticker": "ODC",
-      "company": "Oil-Dri Corporation of America",
-      "timing": "Oct. 8, 2026 after market close; webcast Oct. 9 at 10:00 a.m. CT",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 21,
-      "reversal_risk": 51,
-      "disparity": 14,
-      "confidence": "Low",
-      "expected_driver": "Gross-margin response to price hikes",
-      "key_risk_to_call": "Thin consensus; cost inflation; high bar",
-      "evidence_quality": "Medium",
-      "pass_agreement": "1 Lean Up / 2 Neutral",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Record Q3 sales and June price increases support upside, but cost-per-ton inflation, weak year-to-date profit conversion, and missing consensus leave no durable edge.",
-      "market_expectation_summary": "No reliable Q4 EPS or revenue consensus is available; the market is likely to compare margin conversion against Q3's 9% sales growth, 23% operating-income growth, and only 2% gross-profit growth.",
-      "upside_case_summary": "Price increases catch up to costs and strong retail demand converts into margin expansion.",
-      "downside_case_summary": "Backlog timing unwinds and manufacturing inflation again absorbs revenue growth.",
-      "options_or_positioning_summary": "No reliable event-implied move; shares are up about 45% year over year after a 17.4% prior earnings jump, increasing sell-the-news risk.",
-      "analyst_revision_summary": "No usable upcoming quarterly revision series; this materially lowers evidence quality.",
-      "key_sources": [
-        {
-          "title": "Oil-Dri official event calendar",
-          "url": "https://investors.oildri.com/news-events/events"
-        },
-        {
-          "title": "Oil-Dri Q3 FY2026 results",
-          "url": "https://investors.oildri.com/news-releases/news-release-details/oil-dri-reports-record-third-quarter-revenues-and-strong"
-        },
-        {
-          "title": "Oil-Dri investor-relations news",
-          "url": "https://investors.oildri.com/"
-        },
-        {
-          "title": "ODC valuation and price performance",
-          "url": "https://stockanalysis.com/stocks/odc/statistics/"
-        },
-        {
-          "title": "ODC earnings history and sparse estimates",
-          "url": "https://www.marketbeat.com/stocks/NYSE/ODC/earnings/"
-        },
-        {
-          "title": "ODC earnings reaction history",
-          "url": "https://marketchameleon.com/Overview/ODC/Earnings/Earnings-Dates/"
-        }
-      ],
-      "pass_outputs": [
-        {
-          "pass": "A",
-          "direction_score": 28,
-          "reversal_risk": 48,
-          "key_metric": "Gross-margin recovery",
-          "call": "Lean Up"
-        },
-        {
-          "pass": "B",
-          "direction_score": 14,
-          "reversal_risk": 55,
-          "key_metric": "Price/cost conversion",
-          "call": "Neutral / No Edge"
-        },
-        {
-          "pass": "C",
-          "direction_score": 21,
-          "reversal_risk": 51,
-          "key_metric": "Operating-profit quality",
-          "call": "Neutral / No Edge"
+          "title": "Techdamentals confirmed calendar",
+          "url": "https://techdamentals.com/calendar/earnings?cap=100b&confirmed=1&week=2026-10-12"
         }
       ]
     }
   ],
+  "ranked_companies": [],
   "research_allocation_view": {
     "qualified_names": [],
     "allocations": [],
     "allocated_percentage": 0,
     "unallocated_percentage": 100,
-    "excluded_for_reversal_risk": [
-      "DAL",
-      "PKE"
-    ],
+    "excluded_for_reversal_risk": [],
     "other_exclusions": [
-      "ODC"
+      "All raw candidates failed timing, listing-status, or scope qualification before scoring."
     ],
-    "reason": "DAL and PKE cleared the absolute-score threshold but failed the reversal-risk ceiling; ODC also failed the score and confidence thresholds.",
+    "reason": "No company met the prerequisite for inclusion in the consensus ranking, so no name could satisfy the score, reversal-risk, confidence, and evidence-quality allocation tests.",
     "disclaimer": "This is a research prioritization model, not financial advice."
   },
-  "detailed_company_sections": [
-    {
-      "ticker": "DAL",
-      "consensus_summary": "All three passes leaned down; scores ranged from -34 to -43 and reversal risk from 55 to 60.",
-      "averaged_direction_score": -39,
-      "averaged_reversal_risk": 58,
-      "disparity": 9,
-      "pass_agreement_or_disagreement_pattern": "3/3 Lean Down",
-      "recommendation": "Lean Down",
-      "confidence_level": "Medium",
-      "one_sentence_thesis": "Demand is healthy, but the fuel shock, falling near-term EPS estimates, and a 45% one-year share-price gain leave margin and guidance vulnerable.",
-      "what_the_market_expects": "About $1.94-$1.99 EPS and $17.6-$17.8B revenue, with roughly a 5%-7% options move.",
-      "what_could_make_stock_go_up": "Premium/corporate demand and pricing offset fuel; the forward margin guide holds.",
-      "what_could_make_stock_go_down": "Fuel and non-fuel costs push margin below the 11%-13% July guide and management cuts the outlook.",
-      "reversal_risk_assessment": "Moderate. The bar has fallen, valuation is only about 13x forward earnings, and strong demand could trigger relief upside.",
-      "reddit_social_or_consumer_sentiment_read": "Customer discussion shows fare-price frustration, but that can also indicate pricing power; it received minimal weight.",
-      "options_or_positioning_read": "A 5%-7% implied move is meaningful; the 45% one-year run raises the hurdle, while 4% short interest is not an extreme squeeze setup.",
-      "analyst_and_estimate_revision_read": "One-month EPS revisions are negative, but three-month revenue and EPS revisions remain positive, creating a moving and two-sided bar.",
-      "base_case": "Margin misses the old guide modestly and shares fall inside the implied band.",
-      "bull_case": "Pricing power offsets fuel and the forward outlook stays intact, producing relief upside.",
-      "bear_case": "A larger margin miss plus guide cut sends the stock beyond the implied range.",
-      "final_directional_judgment": "Lean Down.",
-      "allocation_view_rationale": "Excluded because reversal risk of 58 exceeds the 40 ceiling.",
-      "disparity_effect_on_conviction": "Low disparity supports consistency, but reversal risk still prevents allocation.",
-      "method_update_note": "None",
-      "key_sources": [
-        {
-          "title": "Delta 3Q 2026 earnings webcast notice",
-          "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-Webcast-of-September-Quarter-2026-Financial-Results/default.aspx"
-        },
-        {
-          "title": "Delta June-quarter 2026 results and guidance",
-          "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-June-Quarter-2026-Financial-Results/default.aspx"
-        },
-        {
-          "title": "DAL estimates and revisions",
-          "url": "https://www.chartmill.com/stock/quote/DAL/estimates"
-        },
-        {
-          "title": "DAL valuation and positioning",
-          "url": "https://stockanalysis.com/stocks/dal/statistics/"
-        },
-        {
-          "title": "DAL options-implied move",
-          "url": "https://quantlogix.ai/earnings/DAL"
-        },
-        {
-          "title": "Oil and airline-fare context",
-          "url": "https://apnews.com/article/0d5d453efa28cf7098e57f7f783574dc"
-        }
-      ]
-    },
-    {
-      "ticker": "PKE",
-      "consensus_summary": "All three passes leaned up; scores ranged from +31 to +40 and reversal risk from 48 to 54.",
-      "averaged_direction_score": 36,
-      "averaged_reversal_risk": 51,
-      "disparity": 10,
-      "pass_agreement_or_disagreement_pattern": "3/3 Lean Up",
-      "recommendation": "Lean Up",
-      "confidence_level": "Medium",
-      "one_sentence_thesis": "GE-engine program growth and a strong Q1 support another operating beat, but a premium valuation and known Q2 guide sharply raise the bar.",
-      "what_the_market_expects": "Roughly $20.0M revenue and $0.16 EPS, aligned with management's $19.5M-$21.0M sales guide.",
-      "what_could_make_stock_go_up": "GE-engine revenue approaches the high end and EBITDA margin stays near Q1's 25%.",
-      "what_could_make_stock_go_down": "A merely in-line quarter, logistics drag, or softer forward commentary exposes the 46x trailing multiple.",
-      "reversal_risk_assessment": "Moderate. The quarter can be operationally solid yet sell off if it only meets a well-telegraphed range.",
-      "reddit_social_or_consumer_sentiment_read": "No reliable 7/14/30-day retail-sentiment signal was found; no score weight.",
-      "options_or_positioning_read": "No dependable implied move; the prior earnings jump and subsequent 16% drift show strong two-way event sensitivity.",
-      "analyst_and_estimate_revision_read": "Sparse analyst coverage and consensus close to company guidance limit the usefulness of surprise estimates.",
-      "base_case": "Results land in the upper half of guidance and shares rise modestly.",
-      "bull_case": "GE program strength and 30%+ gross margin drive an upside beat and raise.",
-      "bear_case": "Supply or freight friction pulls EBITDA below guidance and valuation compresses.",
-      "final_directional_judgment": "Lean Up.",
-      "allocation_view_rationale": "Excluded because reversal risk of 51 exceeds 40 despite an absolute score above 30.",
-      "disparity_effect_on_conviction": "Low disparity improves conviction quality, but not enough for allocation.",
-      "method_update_note": "None",
-      "key_sources": [
-        {
-          "title": "Park Aerospace earnings-date notice",
-          "url": "https://parkaerospace.com/category/press-releases/"
-        },
-        {
-          "title": "Park Aerospace Q1 FY2027 results",
-          "url": "https://www.globenewswire.com/news-release/2026/07/20/3330100/0/en/park-aerospace-corp-reports-first-quarter-results.html"
-        },
-        {
-          "title": "Park Aerospace Q1 call summary and Q2 guide",
-          "url": "https://www.tipranks.com/stocks/pke/earnings/q1-2027-report"
-        },
-        {
-          "title": "PKE estimates",
-          "url": "https://www.marketscreener.com/quote/stock/PARK-AEROSPACE-CORP-209671928/finances/"
-        },
-        {
-          "title": "PKE valuation and price performance",
-          "url": "https://stockanalysis.com/stocks/pke/statistics/"
-        },
-        {
-          "title": "PKE earnings reaction history",
-          "url": "https://marketchameleon.com/Overview/PKE/Earnings/Earnings-Dates"
-        }
-      ]
-    },
-    {
-      "ticker": "ODC",
-      "consensus_summary": "All passes were positive, but only one crossed Lean Up; scores ranged from +14 to +28.",
-      "averaged_direction_score": 21,
-      "averaged_reversal_risk": 51,
-      "disparity": 14,
-      "pass_agreement_or_disagreement_pattern": "1 Lean Up / 2 Neutral",
-      "recommendation": "Neutral / No Edge",
-      "confidence_level": "Low",
-      "one_sentence_thesis": "Record Q3 sales and June price increases support upside, but cost-per-ton inflation, weak year-to-date profit conversion, and missing consensus leave no durable edge.",
-      "what_the_market_expects": "No reliable quarterly consensus; margin conversion is the real test after strong Q3 sales.",
-      "what_could_make_stock_go_up": "June price hikes outpace external-cost inflation and retail demand stays strong.",
-      "what_could_make_stock_go_down": "Backlog normalization and higher manufacturing costs keep gross profit lagging sales.",
-      "reversal_risk_assessment": "Moderate relative to a mild positive lean because a thinly benchmarked report can gap in either direction.",
-      "reddit_social_or_consumer_sentiment_read": "No reliable investor or customer trend was found; no score weight.",
-      "options_or_positioning_read": "No dependable implied move; a large prior earnings reaction and 45% one-year gain raise gap and sell-the-news risk.",
-      "analyst_and_estimate_revision_read": "No usable upcoming quarterly estimate series was available.",
-      "base_case": "Sales stay constructive, but margin quality is mixed; shares remain range-bound.",
-      "bull_case": "Price/cost conversion improves sharply and drives another positive gap.",
-      "bear_case": "Cost inflation and timing effects reveal weak underlying profit growth.",
-      "final_directional_judgment": "Neutral / No Edge.",
-      "allocation_view_rationale": "Excluded because score is below 30, reversal risk is above 40, and confidence is Low.",
-      "disparity_effect_on_conviction": "Moderate disparity at the call boundary reinforces caution.",
-      "method_update_note": "None",
-      "key_sources": [
-        {
-          "title": "Oil-Dri official event calendar",
-          "url": "https://investors.oildri.com/news-events/events"
-        },
-        {
-          "title": "Oil-Dri Q3 FY2026 results",
-          "url": "https://investors.oildri.com/news-releases/news-release-details/oil-dri-reports-record-third-quarter-revenues-and-strong"
-        },
-        {
-          "title": "Oil-Dri investor-relations news",
-          "url": "https://investors.oildri.com/"
-        },
-        {
-          "title": "ODC valuation and price performance",
-          "url": "https://stockanalysis.com/stocks/odc/statistics/"
-        },
-        {
-          "title": "ODC earnings history and sparse estimates",
-          "url": "https://www.marketbeat.com/stocks/NYSE/ODC/earnings/"
-        },
-        {
-          "title": "ODC earnings reaction history",
-          "url": "https://marketchameleon.com/Overview/ODC/Earnings/Earnings-Dates/"
-        }
-      ]
-    }
-  ],
+  "detailed_company_sections": [],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
