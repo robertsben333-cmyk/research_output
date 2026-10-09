@@ -1,0 +1,92 @@
+{
+  "generation_timestamp": "2026-10-09T17:07:00Z",
+  "covered_report_window": "U.S.-listed companies reporting after the 4:00 p.m. ET U.S. market close on Friday, October 9, 2026, plus companies reporting before the 9:30 a.m. ET U.S. market open on Monday, October 12, 2026.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "The strict actionable earnings universe is empty after qualification. U.S. equities were higher intraday Friday, but volatile oil and Treasury yields and weaker preliminary October consumer sentiment remained important macro risks. The NYSE and Nasdaq are open Monday, October 12, although banks and the U.S. bond market are closed.",
+  "companies_reviewed_count": 17,
+  "qualified_companies_count": 0,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": [],
+    "note": "No evidence-qualified U.S.-listed reporter existed in the strict actionable window, so there are no top-three setups."
+  },
+  "methodology": {
+    "passes": 3,
+    "shared_qualified_universe": [],
+    "independence_note": "The shared-universe screen produced zero qualified tickers. Passes A, B, and C therefore each evaluated the same empty universe; no scores or conclusions were fabricated.",
+    "pass_summaries": [
+      {
+        "pass": "A",
+        "qualified_tickers": [],
+        "result": "No qualified companies"
+      },
+      {
+        "pass": "B",
+        "qualified_tickers": [],
+        "result": "No qualified companies"
+      },
+      {
+        "pass": "C",
+        "qualified_tickers": [],
+        "result": "No qualified companies"
+      }
+    ],
+    "disparity_definition": "A 0-to-100 measure of dispersion across the three independent direction-score and reversal-risk assessments; lower means tighter agreement. It is not applicable when no company is scored.",
+    "learned_lessons_update": "No method change. Existing timing-confirmation, listing-status, liquidity, evidence-quality, and unallocated-basket guardrails were sufficient."
+  },
+  "universe_exclusions": [
+    {
+      "ticker": "CLSD / CLSDQ",
+      "company": "Clearside Biomedical, Inc.",
+      "calendar_timing": "October 9 after close on one secondary calendar",
+      "reason": "Excluded before scoring: stale listing artifact. The issuer entered a voluntary Chapter 11 sale process and later filed Form 15-12G; OTC and bankruptcy remnants are outside scope.",
+      "sources": [
+        {
+          "title": "Clearside investor-relations news archive",
+          "url": "https://ir.clearsidebio.com/news-releases"
+        },
+        {
+          "title": "Clearside SEC filings",
+          "url": "https://ir.clearsidebio.com/financial-information/sec-filings"
+        }
+      ]
+    },
+    {
+      "ticker": "Monday calendar entries (16)",
+      "company": "UNTY, ACZT, ALDS, BMRA, BZYR, DYNT, FNGR, HFUS, HWNI, LQMT, NAAS, NGTF, NRIS, QNME, SOND, STME",
+      "calendar_timing": "October 12, time TBD",
+      "reason": "Excluded before scoring: none had confirmed before-open timing; high-quality calendar sources showed no noteworthy Monday reports.",
+      "sources": [
+        {
+          "title": "HyperStocks week-ahead calendar",
+          "url": "https://terminal.hyperstocks.io/markets/week-ahead"
+        },
+        {
+          "title": "Kiplinger earnings calendar",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        }
+      ]
+    }
+  ],
+  "notable_false_positive": {
+    "ticker": "DAL",
+    "reason": "Delta reported before Friday's open and was already public at screening time, so it was outside the actionable after-close window.",
+    "source": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-September-Quarter-2026-Financial-Results/default.aspx"
+  },
+  "ranked_companies": [],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "allocations": [],
+    "allocated_percentage": 0,
+    "unallocated_percentage": 100,
+    "excluded_for_reversal_risk": [],
+    "other_exclusions": [
+      "All raw candidates failed timing, listing-status, liquidity, or evidence-quality qualification before scoring."
+    ],
+    "reason": "No company reached consensus scoring, so no name could satisfy the score, reversal-risk, confidence, and evidence-quality tests.",
+    "disclaimer": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
