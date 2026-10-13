@@ -13,7 +13,7 @@
   "methodology": {
     "independent_passes": 3,
     "consensus_rule": "Arithmetic mean of Pass A, Pass B, and Pass C direction scores and reversal-risk values.",
-    "disparity_rule": "Rounded root-mean-square dispersion of the three direction scores and three reversal-risk values around their respective means, on a 0-100 scale.",
+    "disparity_rule": "A 0-100 combined spread measure using dispersion in the three direction scores and reversal-risk values; lower values indicate tighter agreement.",
     "lessons_review": "No new method change. Existing priced-in penalties were applied to ASML and FAST, and the smaller-company hidden-risk check was applied to AZZ."
   },
   "top_setups": {
