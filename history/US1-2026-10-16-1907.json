@@ -1,0 +1,285 @@
+{
+  "generation_timestamp": "2026-10-16T17:07:00Z",
+  "covered_report_window": {
+    "plain_language": "Friday, October 16, 2026 after the U.S. market close through Monday, October 19, 2026 before the U.S. market open",
+    "after_close_session": "2026-10-16",
+    "next_before_open_session": "2026-10-19",
+    "timezone": "America/New_York",
+    "holiday_adjustment": "Weekend observed; Monday October 19 is the next valid U.S. trading session."
+  },
+  "report_type": "US1 immediate actionable earnings consensus report",
+  "market_context_summary": "Hot September CPI and PPI, a 10-year Treasury yield near 5.1%, and a September Fed rate hike create a high-rate backdrop. Friday trading was risk-off in broad equities while financials were comparatively resilient; September industrial production rose 0.7%.",
+  "companies_reviewed_count": 8,
+  "qualified_universe": [
+    "FITB",
+    "CLF",
+    "DX"
+  ],
+  "timing_exclusions": [
+    {
+      "ticker": "SMBK",
+      "reason": "Official announcement did not clearly place the Monday release before the open; calendar sources conflicted."
+    },
+    {
+      "ticker": "GE",
+      "reason": "Official/credible evidence places earnings on Tuesday October 20, outside the window."
+    },
+    {
+      "ticker": "PFBC",
+      "reason": "Credible date was Friday October 23, outside the window."
+    },
+    {
+      "ticker": "ISTR",
+      "reason": "Conflicting estimated dates and no adequate official session confirmation."
+    },
+    {
+      "ticker": "PAC",
+      "reason": "No adequate official before-open confirmation found for the immediate window."
+    }
+  ],
+  "methodology": {
+    "independent_passes": 3,
+    "consensus_rule": "Arithmetic average of three independent direction scores and reversal-risk values.",
+    "disparity_scale": "0 to 100 composite dispersion measure; lower means closer agreement across pass scores, risk estimates, and call categories.",
+    "learned_lessons_review": "No new method change. Existing hard timing confirmation, single-key-metric, and low-bar reversal-risk rules were applied."
+  },
+  "top_setups": {
+    "upward": [
+      {
+        "ticker": "CLF",
+        "direction_score": 47.7
+      },
+      {
+        "ticker": "FITB",
+        "direction_score": 38.7
+      }
+    ],
+    "downward": [
+      {
+        "ticker": "DX",
+        "direction_score": -25.3
+      }
+    ],
+    "unavailable_slots_note": "The qualified universe contained only two positive consensus calls and one negative consensus call."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "CLF",
+      "company": "Cleveland-Cliffs Inc.",
+      "timing": "Before market open, Monday 2026-10-19",
+      "direction_call": "Lean Up",
+      "direction_score": 47.7,
+      "reversal_risk": 47.7,
+      "disparity": 13,
+      "confidence": "Medium",
+      "expected_driver": "Q3 adjusted EBITDA near/above $575M and Q4 EBITDA trajectory",
+      "key_risk_to_call": "Q3 improvement is priced in; Stelco/auto demand or Q4 tone disappoints",
+      "evidence_quality": "High",
+      "pass_agreement": "3 of 3 Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Rising U.S. HRC pricing, lower imports and management's pre-announced EBITDA ramp support upside, but a large implied move and elevated retail enthusiasm make the reaction fragile.",
+      "market_expectation_summary": "Consensus is roughly $0.22-$0.24 EPS and $5.6-$5.7B revenue; management previously guided Q3 adjusted EBITDA to about $575M and said Q4 should exceed Q3.",
+      "upside_case_summary": "EBITDA clears $575M, average selling price and costs improve, and management reiterates a stronger Q4 with debt reduction.",
+      "downside_case_summary": "Results merely meet the pre-announced bar, automotive/Stelco issues worsen, or Q4 guidance fails to validate current HRC strength.",
+      "options_or_positioning_summary": "Options imply about a 12.6% move versus a long-run average peak earnings move near 11.8%; puts recently led calls despite strong bullish retail discussion.",
+      "analyst_revision_summary": "Street EPS consensus is around $0.24; Wells Fargo upgraded to Overweight in early October while Barclays remained Underweight with a higher target.",
+      "key_metric": "Adjusted EBITDA and Q4 trajectory",
+      "pass_consensus": {
+        "pass_a": {
+          "direction_score": 54,
+          "reversal_risk": 44,
+          "call": "Lean Up"
+        },
+        "pass_b": {
+          "direction_score": 41,
+          "reversal_risk": 52,
+          "call": "Lean Up"
+        },
+        "pass_c": {
+          "direction_score": 48,
+          "reversal_risk": 47,
+          "call": "Lean Up"
+        }
+      },
+      "key_sources": [
+        "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/703/cleveland-cliffs-to-announce-third-quarter-2026-earnings",
+        "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/700/cleveland-cliffs-reports-second-quarter-2026-results",
+        "https://www.marketbeat.com/earnings/reports/2026-10-19-cleveland-cliffs-inc-stock/",
+        "https://earnings-watcher.com/wiki/clf-implied-move",
+        "https://www.worldsteeldynamics.com/steel-industry-news-and-intelligence/"
+      ]
+    },
+    {
+      "rank": 2,
+      "ticker": "FITB",
+      "company": "Fifth Third Bancorp",
+      "timing": "Results about 6:30 a.m. ET; call 9:00 a.m. ET, Monday 2026-10-19",
+      "direction_call": "Lean Up",
+      "direction_score": 38.7,
+      "reversal_risk": 36.3,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Comerica-linked NII growth and expense-synergy delivery",
+      "key_risk_to_call": "Credit normalization or integration costs offset NIM/synergy progress",
+      "evidence_quality": "High",
+      "pass_agreement": "3 of 3 Lean Up",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Completed Comerica conversion, guided sequential NII growth and falling expenses create a constructive setup against a share price that has de-risked since July.",
+      "market_expectation_summary": "Adjusted EPS consensus is about $1.09 with revenue near $3.34B; management guided Q3 NII up 2%-2.5%, fee income up 1%-3%, expenses down 1%-2%, and net charge-offs at 30-35 bps.",
+      "upside_case_summary": "NII and NIM beat, expenses track toward $850M run-rate synergies, deposits remain strong, and credit stays benign.",
+      "downside_case_summary": "Deposit costs or charge-offs rise, merger charges obscure core earnings, or management tempers the synergy/revenue outlook.",
+      "options_or_positioning_summary": "November options reflected about a 7.1% move, richer than the company's typical earnings reaction; the prior report produced a large intraday decline.",
+      "analyst_revision_summary": "Published adjusted EPS estimates center near $1.09, while data vendors using GAAP conventions show lower figures; this accounting split lowers comparability but not the key NII/synergy focus.",
+      "key_metric": "Net interest income and expense synergy realization",
+      "pass_consensus": {
+        "pass_a": {
+          "direction_score": 43,
+          "reversal_risk": 34,
+          "call": "Lean Up"
+        },
+        "pass_b": {
+          "direction_score": 33,
+          "reversal_risk": 39,
+          "call": "Lean Up"
+        },
+        "pass_c": {
+          "direction_score": 40,
+          "reversal_risk": 36,
+          "call": "Lean Up"
+        }
+      },
+      "key_sources": [
+        "https://ir.53.com/news/news-details/2025/Fifth-Third-Bancorp-Announces-Earnings-Release-Dates-for-2026-and-2027/default.aspx",
+        "https://ir.53.com/news/news-details/2026/Fifth-Third-Bancorp-Reports-Second-Quarter-2026-Earnings/default.aspx",
+        "https://static-hk.hstong.com/hs/usiis/s3/edgar/filing/html/2026/09/14/19782584.html",
+        "https://www.zacks.com/stock/news/3006816/unveiling-fifth-third-bancorp-fitb-q3-outlook-wall-street-estimates-for-key-metrics",
+        "https://www.optionslam.com/earnings/straddle/FITB"
+      ]
+    },
+    {
+      "rank": 3,
+      "ticker": "DX",
+      "company": "Dynex Capital, Inc.",
+      "timing": "Before market open; call 10:00 a.m. ET, Monday 2026-10-19",
+      "direction_call": "Lean Down",
+      "direction_score": -25.3,
+      "reversal_risk": 62.7,
+      "disparity": 15,
+      "confidence": "Low",
+      "expected_driver": "Book value and total economic return through the Q3 rate/MBS shock",
+      "key_risk_to_call": "Deep discount to book and low expectations trigger relief upside",
+      "evidence_quality": "Medium",
+      "pass_agreement": "2 Lean Down; 1 Neutral",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Higher rates and weaker MBS marks likely pressured book value while the common dividend exceeded Q2 net interest income, but the stock's deep discount makes a bearish event call vulnerable to relief.",
+      "market_expectation_summary": "Consensus EPS is about $0.38; the market is primarily watching book value, total economic return and dividend earning power rather than headline GAAP EPS.",
+      "upside_case_summary": "Hedges protect book value, spread income improves on deployed capital, and management shows the dividend is economically sustainable.",
+      "downside_case_summary": "Book value falls materially, leverage rises, or expensive new preferred capital signals weaker common-equity economics.",
+      "options_or_positioning_summary": "Monthly options implied roughly 9.9%, far above the stock's approximately 1.2% average first-session earnings move; short interest was about 7%.",
+      "analyst_revision_summary": "Sell-side targets remain above the share price and consensus is Buy/Moderate Buy, but the key near-term variable is Q3 book value rather than target-price upside.",
+      "key_metric": "Book value per share and total economic return",
+      "pass_consensus": {
+        "pass_a": {
+          "direction_score": -31,
+          "reversal_risk": 59,
+          "call": "Lean Down"
+        },
+        "pass_b": {
+          "direction_score": -18,
+          "reversal_risk": 67,
+          "call": "Neutral / No Edge"
+        },
+        "pass_c": {
+          "direction_score": -27,
+          "reversal_risk": 62,
+          "call": "Lean Down"
+        }
+      },
+      "key_sources": [
+        "https://www.dynexcapital.com/investors/news-events/press-releases/detail/428/dynex-capital-inc-schedules-third-quarter-2026-earnings-release-and-conference-call",
+        "https://www.sec.gov/Archives/edgar/data/826675/000082667526000074/a2q26earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/826675/000082667526000104/exhibit991preferredofferin.htm",
+        "https://www.optionslam.com/earnings/straddle/DX",
+        "https://ycharts.com/companies/DX/price_to_book_value"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "model_type": "Hypothetical same-day research-attention basket",
+    "allocations": [
+      {
+        "ticker": "FITB",
+        "direction": "Lean Up",
+        "allocation_percent": 55,
+        "reason": "Score above 30, reversal risk below 40, low disparity, high evidence quality."
+      },
+      {
+        "ticker": "UNALLOCATED",
+        "direction": "None",
+        "allocation_percent": 45,
+        "reason": "Preserved because no second name met all allocation thresholds."
+      }
+    ],
+    "qualified_names": [
+      "FITB"
+    ],
+    "exclusions": [
+      {
+        "ticker": "CLF",
+        "reason": "Consensus reversal risk 47.7 exceeded the 40 threshold."
+      },
+      {
+        "ticker": "DX",
+        "reason": "Direction score only marginally exceeded 25, reversal risk was high, and one pass was Neutral."
+      }
+    ],
+    "total_percent": 100,
+    "disclaimer": "This is a research prioritization model, not financial advice."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "CLF",
+      "consensus_summary": "All passes leaned up; Pass B was more cautious because the Q3 EBITDA ramp is pre-announced and the stock has attracted bullish retail attention.",
+      "averaged_direction_score": 47.7,
+      "averaged_reversal_risk": 47.7,
+      "disparity": 13,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "base_case": "Q3 roughly meets or modestly beats the $575M EBITDA guide and Q4 remains stronger; shares rise, but perhaps less than implied.",
+      "bull_case": "Pricing, volume and costs all outperform, Q4 EBITDA moves clearly above Q3, and debt reduction accelerates.",
+      "bear_case": "The company meets Q3 but weakens Q4 tone because of auto demand, Stelco disruption or cost pressure.",
+      "allocation_priority": false,
+      "allocation_reason": "Reversal risk exceeded 40 despite a strong consensus score."
+    },
+    {
+      "ticker": "FITB",
+      "consensus_summary": "All passes leaned up with low disparity; the common thesis was sequential NII growth plus post-conversion expense synergies.",
+      "averaged_direction_score": 38.7,
+      "averaged_reversal_risk": 36.3,
+      "disparity": 8,
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "base_case": "Core results land near the guided ranges and integration commentary is constructive, producing modest upside.",
+      "bull_case": "NIM, fee income and expenses all beat while deposits and credit remain strong, validating the synergy path.",
+      "bear_case": "Credit, deposit beta or merger costs offset operating progress and management tempers 2027 goals.",
+      "allocation_priority": true,
+      "allocation_reason": "Only name with absolute score above 30, reversal risk at or below 40, low disparity and high evidence quality."
+    },
+    {
+      "ticker": "DX",
+      "consensus_summary": "Two passes leaned down and one was Neutral; all saw high opposite-direction relief risk after the de-rating.",
+      "averaged_direction_score": -25.3,
+      "averaged_reversal_risk": 62.7,
+      "disparity": 15,
+      "recommendation": "Lean Down",
+      "confidence": "Low",
+      "base_case": "Book value weakens and the stock slips, though the move stays well inside implied volatility.",
+      "bull_case": "Hedging and accretive deployment preserve book value, supporting a relief rally from a large discount.",
+      "bear_case": "Book value and economic return disappoint while dividend earning power remains below the payout.",
+      "allocation_priority": false,
+      "allocation_reason": "High reversal risk and boundary-level directional conviction."
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
