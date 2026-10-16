@@ -1,478 +1,208 @@
 {
-  "generation_timestamp": "2026-10-15T17:07:00Z",
+  "generation_timestamp": "2026-10-16T17:02:00Z",
   "covered_report_window": {
-    "after_market_close": "2026-10-15",
-    "before_market_open": "2026-10-16",
+    "after_market_close": "2026-10-16",
+    "before_market_open": "2026-10-19",
     "timezone": "America/New_York",
-    "plain_language": "U.S.-listed companies reporting after the Thursday, October 15, 2026 close and before the Friday, October 16, 2026 open."
+    "plain_language": "U.S.-listed companies reporting after the Friday, October 16, 2026 close and before the Monday, October 19, 2026 open."
   },
   "report_type": "US1_full_ranked_earnings_event_report",
-  "market_context_summary": "September CPI rose 0.6% month over month and 3.7% year over year; September PPI rose 1.3% month over month and retail sales rose 0.8%. Higher-for-longer rate risk helps bank net interest income but raises valuation and credit sensitivity. The S&P 500 fell 1.1% on October 14 and was roughly flat intraday on October 15.",
-  "companies_reviewed_count": 10,
+  "market_context_summary": "Hot September CPI/PPI and a roughly 5.1% 10-year Treasury yield keep rates, credit and valuation sensitivity elevated; the S&P 500 was down about 0.7% intraday Friday and the Nasdaq was under heavier pressure.",
+  "companies_reviewed_count": 2,
   "qualified_ticker_universe": [
-    "AA",
-    "IBKR",
-    "JBHT",
-    "SFNC",
-    "CFG",
-    "LADR",
-    "MTB",
-    "RF",
-    "TRV",
-    "TFC"
+    "CLF",
+    "FITB"
   ],
+  "universe_exclusions_summary": "No Friday after-close name met the official timing standard. Other Monday pre-open calendar entries were excluded before scoring for weak timing confirmation, insufficient evidence, foreign-event timing ambiguity, or limited liquidity.",
   "methodology": {
     "independent_passes": 3,
-    "consensus_direction_score": "Arithmetic mean of Pass A, Pass B and Pass C direction scores, rounded to the nearest integer.",
-    "consensus_reversal_risk": "Arithmetic mean of Pass A, Pass B and Pass C reversal-risk values, rounded to the nearest integer.",
-    "disparity_metric": "0-100 composite based on the average pairwise separation of direction and reversal-risk outputs; lower is tighter agreement.",
-    "learned_lessons_review": "Applied existing official-timing hygiene, decisive-KPI framing, expectation-bar checks and separate reversal-risk controls. No new method change was warranted."
+    "consensus_direction_score": "Arithmetic mean of Pass A, B and C, rounded.",
+    "consensus_reversal_risk": "Arithmetic mean of Pass A, B and C, rounded.",
+    "disparity_metric": "0-100 composite: average of normalized pairwise direction-score gaps and pairwise reversal-risk gaps; lower means tighter agreement.",
+    "learned_lessons_review": "Applied mandatory expectation-bar, decisive-metric, forward-look and separate reversal-risk checks. No new method change was warranted."
   },
   "top_setups": {
     "up": [
-      "IBKR",
-      "TRV",
-      "CFG"
+      "CLF",
+      "FITB"
     ],
-    "down": [
-      "JBHT",
-      "LADR",
-      "SFNC"
-    ]
+    "down": []
   },
   "ranked_companies": [
     {
       "rank": 1,
-      "ticker": "IBKR",
-      "company": "Interactive Brokers Group",
-      "timing": "Oct. 15 after close",
+      "ticker": "CLF",
+      "company": "Cleveland-Cliffs Inc.",
+      "timing": "Oct. 19, 2026 before market open",
       "direction_call": "Lean Up",
-      "direction_score": 50,
-      "reversal_risk": 37,
+      "direction_score": 37,
+      "reversal_risk": 66,
       "disparity": 7,
-      "confidence": "Medium-High",
-      "expected_driver": "Net interest income and client margin balances",
-      "key_risk_to_call": "DART moderation; premium expectations",
+      "confidence": "Medium",
+      "expected_driver": "Q3 adjusted EBITDA versus $575M guide",
+      "key_risk_to_call": "Beat priced in; Q4 steel/auto outlook",
       "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Rapid growth in client assets and margin loans should support another strong quarter, though a merely in-line print may not clear the valuation bar.",
-      "market_expectation_summary": "Visible Alpha expects about $1.85 billion of revenue and $1.12 billion of net interest income; options imply roughly a 5% move.",
-      "upside_case_summary": "Net interest income, accounts and trading activity exceed the published bar while management sustains very high margins.",
-      "downside_case_summary": "September DART moderation or softer forward activity makes the quarter look peak-like.",
-      "options_or_positioning_summary": "Options imply about 4.9%-5.5%; the setup is active but not exceptionally rich versus recent realized moves.",
-      "analyst_revision_summary": "Current public previews show double-digit year-over-year revenue growth but roughly flat revenue sequentially.",
+      "pass_agreement": "A/B/C all positive; strength ranged +27 to +48",
+      "method_update_note": "Expectation-bar and forward-look checks applied",
+      "one_sentence_thesis": "A guided step-up in Q3 EBITDA and sharply higher estimates favor upside, but the stock's rerating and a demanding options hurdle make a sell-the-news reversal unusually plausible.",
+      "market_expectation_summary": "Public consensus is roughly $0.19-$0.23 EPS and $5.72-$5.78B revenue; management guided Q3 adjusted EBITDA to about $575M.",
+      "upside_case_summary": "EBITDA clears guidance on realization, shipments and Stelco improvement, with constructive Q4 pricing commentary.",
+      "downside_case_summary": "The quarter meets the raised bar but weaker auto demand, margins, cash flow or Q4 tone exposes priced-in optimism.",
+      "options_or_positioning_summary": "Weekly options imply about 12.8%; short interest is about 13.8%, creating both squeeze potential and volatility-unwind risk.",
+      "analyst_revision_summary": "Q3 revenue estimates rose about 4% over three months; EPS expectations moved sharply higher from a low base.",
       "key_sources": [
-        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/interactive-brokers-forecast-to-report-12-yoy-increase-in-q3-revenue",
-        "https://www.sec.gov/Archives/edgar/data/1381197/000138119726000118/ibkr-ex99_1.htm",
-        "https://gdcdyn.interactivebrokers.com/en/general/about/mediaRelations/7-24-26.php"
+        "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/703/cleveland-cliffs-to-announce-third-quarter-2026-earnings",
+        "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/700/cleveland-cliffs-reports-second-quarter-2026-results",
+        "https://tickzen.app/stocks/clf/earnings",
+        "https://www.optionslam.com/earnings/weekly/CLF",
+        "https://www.chartmill.com/stock/quote/CLF/estimates"
       ]
     },
     {
       "rank": 2,
-      "ticker": "JBHT",
-      "company": "J.B. Hunt Transport Services",
-      "timing": "Oct. 15 after close",
-      "direction_call": "Lean Down",
-      "direction_score": -47,
-      "reversal_risk": 46,
-      "disparity": 6,
-      "confidence": "Medium",
-      "expected_driver": "Intermodal margin and bid-season pricing",
-      "key_risk_to_call": "Low bar; relief on pricing",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Down",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Cost inflation and a 6.3% one-month consensus EPS cut leave intermodal margin commentary vulnerable despite strong volume growth.",
-      "market_expectation_summary": "Consensus is about $1.81-$1.83 EPS and $3.55-$3.58 billion revenue; options imply roughly 5.9%-6.8%.",
-      "upside_case_summary": "A low bar, strong Eastern intermodal conversions and constructive October bid-season pricing create a relief rally.",
-      "downside_case_summary": "Fuel, driver and purchased-transportation costs outrun yield, compressing intermodal and truckload margins.",
-      "options_or_positioning_summary": "The implied move is roughly fair to somewhat rich versus typical history, limiting magnitude edge.",
-      "analyst_revision_summary": "The quarterly EPS consensus fell 6.3% in the prior 30 days.",
-      "key_sources": [
-        "https://www.jbhunt.com/our-company/newsroom/2026/07/q2-2026-earnings",
-        "https://www.zacks.com/stock/news/3004873/jb-hunt-jbht-q3-earnings-preview-what-you-should-know-beyond-the-headline-estimates",
-        "https://investor.jbhunt.com/news/2026/10-01-2026-211542368"
-      ]
-    },
-    {
-      "rank": 3,
-      "ticker": "TRV",
-      "company": "The Travelers Companies",
-      "timing": "Oct. 16 before open",
+      "ticker": "FITB",
+      "company": "Fifth Third Bancorp",
+      "timing": "Oct. 19, 2026 results about 6:30 a.m. ET",
       "direction_call": "Lean Up",
-      "direction_score": 45,
-      "reversal_risk": 35,
-      "disparity": 7,
-      "confidence": "Medium-High",
-      "expected_driver": "Combined ratio and catastrophe losses",
-      "key_risk_to_call": "Casualty reserves; high prior bar",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Light catastrophe losses and disciplined pricing favor another strong underwriting result, while reserve additions remain the main reversal path.",
-      "market_expectation_summary": "Public estimates cluster near $7.2-$7.5 EPS; options imply about 3.6%-4.1% in the most credible public sources.",
-      "upside_case_summary": "A sub-90 combined ratio, benign catastrophes and favorable reserve development extend the underwriting streak.",
-      "downside_case_summary": "Casualty reserve strengthening or book-value pressure from higher rates offsets a headline beat.",
-      "options_or_positioning_summary": "The implied move is modest for an insurer, so a clean underwriting beat could clear it.",
-      "analyst_revision_summary": "Published previews remain mixed on EPS because catastrophe assumptions differ materially.",
-      "key_sources": [
-        "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Second-Quarter-and-Year-to-Date-Results/default.aspx",
-        "https://investor.travelers.com/events-and-presentations/",
-        "https://www.theinsurer.com/ti/news/q3-earnings-preview-softening-pricing-for-carriers-and-slowing-broker-growth-in-2026-10-14/"
-      ]
-    },
-    {
-      "rank": 4,
-      "ticker": "CFG",
-      "company": "Citizens Financial Group",
-      "timing": "Oct. 16 before open",
-      "direction_call": "Lean Up",
-      "direction_score": 40,
-      "reversal_risk": 36,
-      "disparity": 5,
-      "confidence": "Medium",
-      "expected_driver": "NII/NIM and Private Bank contribution",
-      "key_risk_to_call": "Deposit costs; consumer credit",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Private Bank scaling, NIM expansion and positive operating leverage provide a credible beat path against a manageable bar.",
-      "market_expectation_summary": "Consensus is about $1.39-$1.40 EPS and $2.34-$2.36 billion revenue, implying roughly 32% year-over-year EPS growth.",
-      "upside_case_summary": "Private Bank contribution, NII and fees compound while credit stays benign.",
-      "downside_case_summary": "Higher deposit beta or consumer charge-offs undermine the operating-leverage story.",
-      "options_or_positioning_summary": "One public source shows a 7.3% implied move, unusually wide for a regional bank and therefore a demanding magnitude hurdle.",
-      "analyst_revision_summary": "Available 30-day data show a mostly stable estimate set with modest dispersion.",
-      "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/759944/000075994426000133/a2q26earningsrelease.htm",
-        "https://investor.citizensbank.com/about-us/newsroom/latest-news/2026/2026-09-10-210526622.aspx",
-        "https://www.marketbeat.com/earnings/reports/2026-10-16-citizens-financial-group-inc-stock/"
-      ]
-    },
-    {
-      "rank": 5,
-      "ticker": "AA",
-      "company": "Alcoa",
-      "timing": "Oct. 15 after close",
-      "direction_call": "Lean Up",
-      "direction_score": 34,
-      "reversal_risk": 48,
-      "disparity": 7,
-      "confidence": "Medium",
-      "expected_driver": "Aluminum EBITDA versus Pinjarra costs",
-      "key_risk_to_call": "Alumina disruption; acquisition leverage",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Higher aluminum prices and shipments favor upside, but Pinjarra costs and debt-funded expansion make the quality of EBITDA decisive.",
-      "market_expectation_summary": "Consensus revenue is about $3.77-$3.9 billion and EPS estimates center near $1.52; the EPS consensus rose 10.8% over 30 days.",
-      "upside_case_summary": "Realized aluminum pricing and North American inventory actions outweigh alumina and tariff costs.",
-      "downside_case_summary": "Pinjarra problems, energy/tariff costs or acquisition financing consume the commodity tailwind.",
-      "options_or_positioning_summary": "Options imply about 5.9%-6.9%, somewhat rich versus typical realized moves.",
-      "analyst_revision_summary": "The EPS bar rose 10.8% in 30 days, increasing priced-in risk.",
-      "key_sources": [
-        "https://investors.alcoa.com/press-releases/press-release-details/2026/Alcoa-Corporation-Reports-Second-Quarter-2026-Results/default.aspx",
-        "https://news.alcoa.com/press-releases/press-release-details/2026/Alcoa-Schedules-Third-Quarter-2026-Earnings-Release-and-Conference-Call/default.aspx",
-        "https://www.zacks.com/stock/news/3004869/exploring-analyst-estimates-for-alcoa-aa-q3-earnings-beyond-revenue-and-eps"
-      ]
-    },
-    {
-      "rank": 6,
-      "ticker": "TFC",
-      "company": "Truist Financial",
-      "timing": "Oct. 16 before open",
-      "direction_call": "Lean Up",
-      "direction_score": 33,
-      "reversal_risk": 39,
+      "direction_score": 25,
+      "reversal_risk": 41,
       "disparity": 4,
-      "confidence": "Medium",
-      "expected_driver": "NII and expense discipline",
-      "key_risk_to_call": "Fee softness; credit normalization",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Up",
-      "method_update_note": "None",
-      "one_sentence_thesis": "A clean Q2 beat, steady NII and capital return support modest upside if expenses remain controlled.",
-      "market_expectation_summary": "Public consensus is about $1.07-$1.14 EPS on roughly $5.35 billion revenue, versus $1.04 and $5.24 billion a year earlier.",
-      "upside_case_summary": "NII, fee income and buybacks sustain year-over-year EPS growth with stable credit.",
-      "downside_case_summary": "Expenses rise or fee revenue disappoints while higher rates worsen credit sensitivity.",
-      "options_or_positioning_summary": "A public estimate puts the implied move near 3.5%, a moderate hurdle.",
-      "analyst_revision_summary": "Public estimate providers disagree on EPS by several cents, limiting confidence.",
+      "confidence": "Medium-Low",
+      "expected_driver": "NII/NIM plus Comerica integration",
+      "key_risk_to_call": "Credit migration; estimate cuts",
+      "evidence_quality": "High primary / mixed estimates",
+      "pass_agreement": "A/B/C positive; one pass remained Neutral",
+      "method_update_note": "Expectation-bar and decisive-KPI checks applied",
+      "one_sentence_thesis": "Deposit growth, NII momentum and completed Comerica conversion support modest upside, but credit migration and downward estimate revisions leave only a threshold-level edge.",
+      "market_expectation_summary": "The cleanest current preview puts adjusted EPS near $1.09, while public providers disagree materially because acquisition items complicate the comparison.",
+      "upside_case_summary": "NII, deposit mix and merger synergies beat expectations while provision expense remains contained.",
+      "downside_case_summary": "Nonperformers, funding costs or integration expenses offset revenue growth and make the apparent EPS beat low quality.",
+      "options_or_positioning_summary": "The nearest public monthly straddle implies about 7.1%, but it includes several post-event weeks and overstates a pure earnings move.",
+      "analyst_revision_summary": "One public revision set shows 2 upward versus 11 downward changes over 30 days; seven-day consensus was stable at $1.09.",
       "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/92230/000009223026000096/ex991-pr2q26.htm",
-        "https://ir.truist.com/2026-09-18-Truist-announces-third-quarter-2026-earnings-call-details",
-        "https://www.marketbeat.com/earnings/reports/2026-10-16-truist-financial-co-stock/"
-      ]
-    },
-    {
-      "rank": 7,
-      "ticker": "LADR",
-      "company": "Ladder Capital",
-      "timing": "Oct. 16 before open",
-      "direction_call": "Lean Down",
-      "direction_score": -31,
-      "reversal_risk": 56,
-      "disparity": 5,
-      "confidence": "Low",
-      "expected_driver": "Distributable EPS and CRE credit",
-      "key_risk_to_call": "De-risked price; credit relief",
-      "evidence_quality": "Medium",
-      "pass_agreement": "A/B/C all Lean Down",
-      "method_update_note": "None",
-      "one_sentence_thesis": "A demanding sequential distributable-EPS bar and commercial real-estate credit sensitivity outweigh a low valuation, but relief risk is high.",
-      "market_expectation_summary": "Public estimates are inconsistent; one source expects about $0.31 distributable EPS after $0.24 in Q2.",
-      "upside_case_summary": "Loan originations accelerate, repayments remain orderly and no new impairments emerge.",
-      "downside_case_summary": "Credit costs, real-estate marks or weak originations prevent the expected earnings step-up.",
-      "options_or_positioning_summary": "Reliable event-implied-move data were unavailable; thin evidence raises risk.",
-      "analyst_revision_summary": "Estimate coverage is sparse and calendar vendors conflict, although the company release timing is confirmed.",
-      "key_sources": [
-        "https://www.centralcharts.com/en/16860-ladder-capital-corp-class-a/news/5811129-ladder-capital-corp-to-report-third-quarter-2026-results",
-        "https://ir.laddercapital.com/news/news-details/2026/Ladder-Capital-Corp-Reports-Results-for-the-Quarter-Ended-June-30-2026/default.aspx",
-        "https://www.sec.gov/Archives/edgar/data/1577670/000157767026000040/ladr-20260630.htm"
-      ]
-    },
-    {
-      "rank": 8,
-      "ticker": "SFNC",
-      "company": "Simmons First National",
-      "timing": "Oct. 15 after close",
-      "direction_call": "Lean Down",
-      "direction_score": -27,
-      "reversal_risk": 49,
-      "disparity": 4,
-      "confidence": "Low-Medium",
-      "expected_driver": "NIM and credit migration",
-      "key_risk_to_call": "Loan-growth relief; buybacks",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C all Lean Down",
-      "method_update_note": "None",
-      "one_sentence_thesis": "The market needs renewed NIM expansion and clean credit migration, while the published EPS bar sits above last quarter's adjusted result.",
-      "market_expectation_summary": "Consensus is about $0.54-$0.55 EPS and $258.5 million revenue after adjusted EPS of $0.50 in Q2.",
-      "upside_case_summary": "Record loan production converts, funding costs fall and repurchases support EPS.",
-      "downside_case_summary": "NIM stays flat and the disclosed construction relationship or broader credit costs worsen.",
-      "options_or_positioning_summary": "Reliable public implied-move data were unavailable; smaller-cap liquidity increases gap risk.",
-      "analyst_revision_summary": "Sparse coverage and a narrow evidence set lower conviction.",
-      "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/90498/000119312526306164/d123214dex991.htm",
-        "https://ir.simmonsbank.com/press-releases?category=10&l=25",
-        "https://www.chartmill.com/stock/quote/SFNC/estimates"
-      ]
-    },
-    {
-      "rank": 9,
-      "ticker": "RF",
-      "company": "Regions Financial",
-      "timing": "Oct. 16 before open",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 23,
-      "reversal_risk": 40,
-      "disparity": 4,
-      "confidence": "Medium",
-      "expected_driver": "NII growth versus fee mix",
-      "key_risk_to_call": "Capital-markets weakness",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C positive but below conviction",
-      "method_update_note": "None",
-      "one_sentence_thesis": "NII momentum and strong credit are constructive, but expected capital-markets softness leaves insufficient event edge.",
-      "market_expectation_summary": "Consensus ranges from $0.64-$0.68 EPS and about $1.99-$2.05 billion revenue; management had expected nearly 2% sequential NII growth.",
-      "upside_case_summary": "NII beats guidance and nonperforming loans continue to fall.",
-      "downside_case_summary": "Capital-markets revenue and fee income lag while the high-rate backdrop raises credit caution.",
-      "options_or_positioning_summary": "Options imply about 3.1%, a modest but not obviously mispriced move.",
-      "analyst_revision_summary": "Near-term EPS estimates were broadly stable; one quantitative preview had a slightly negative surprise indicator.",
-      "key_sources": [
-        "https://ir.regions.com/news-events/press-releases/news-details/2026/Regions-Reports-Earnings-of-549-Million-and-EPS-of-0-64-in-2Q-2026/default.aspx",
-        "https://ir.regions.com/news-events/press-releases/news-details/2025/Regions-Financial-Corp--Announces-Quarterly-Earnings-Release-Dates-for-2026/default.aspx",
-        "https://www.zacks.com/stock/news/3007401/regions-financials-q3-earnings-coming-up-heres-what-you-should-know"
-      ]
-    },
-    {
-      "rank": 10,
-      "ticker": "MTB",
-      "company": "M&T Bank",
-      "timing": "Oct. 16 before open",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 18,
-      "reversal_risk": 42,
-      "disparity": 5,
-      "confidence": "Medium",
-      "expected_driver": "Loan growth and 3.70% NIM",
-      "key_risk_to_call": "Funding mix; lower CET1",
-      "evidence_quality": "High",
-      "pass_agreement": "A/B/C mildly positive",
-      "method_update_note": "None",
-      "one_sentence_thesis": "Broad loan growth and solid asset quality are favorable, but flat NIM, more wholesale funding and downward estimate revisions neutralize the setup.",
-      "market_expectation_summary": "Consensus is about $4.93-$4.98 EPS and $2.5-$2.6 billion revenue after $5.32 EPS in Q2.",
-      "upside_case_summary": "C&I growth and repricing lift NII while charge-offs stay subdued.",
-      "downside_case_summary": "Wholesale funding costs and capital consumption outweigh loan growth.",
-      "options_or_positioning_summary": "Public implied-move estimates vary from about 4.1% to 6.8%, too inconsistent for a strong pricing conclusion.",
-      "analyst_revision_summary": "The seven-day EPS consensus was revised down to roughly $4.98.",
-      "key_sources": [
-        "https://newsroom.mtb.com/2026-07-15-M-T-Bank-Corporation-NYSE-MTB-announces-second-quarter-2026-results",
-        "https://ir.mtb.com/news-releases/news-release-details/mt-bank-corporation-announces-third-quarter-2026-earnings",
-        "https://www.zacks.com/stock/news/3003776/mt-bank-corporation-mtb-earnings-expected-to-grow-should-you-buy"
+        "https://ir.53.com/news/news-details/2025/Fifth-Third-Bancorp-Announces-Earnings-Release-Dates-for-2026-and-2027/default.aspx",
+        "https://ir.53.com/news/news-details/2026/Fifth-Third-Bancorp-Reports-Second-Quarter-2026-Earnings/default.aspx",
+        "https://securitiesadvisors.53.com/content/fifth-third/en/media-center/press-releases/2026/press-release-2026-09-08.html",
+        "https://www.optionslam.com/earnings/straddle/FITB",
+        "https://www.zacks.com/stock/news/3008816/growth-in-nii-lower-expenses-likely-to-support-fifth-thirds-q3-earnings"
       ]
     }
   ],
   "independent_pass_outputs": {
     "Pass A": {
-      "IBKR": {
-        "direction_score": 49,
-        "reversal_risk": 36
+      "CLF": {
+        "direction_score": 48,
+        "reversal_risk": 61,
+        "key_metric": "Q3 adjusted EBITDA"
       },
-      "JBHT": {
-        "direction_score": -41,
-        "reversal_risk": 43
-      },
-      "TRV": {
-        "direction_score": 44,
-        "reversal_risk": 31
-      },
-      "CFG": {
-        "direction_score": 38,
-        "reversal_risk": 34
-      },
-      "AA": {
+      "FITB": {
         "direction_score": 31,
-        "reversal_risk": 45
-      },
-      "TFC": {
-        "direction_score": 29,
-        "reversal_risk": 38
-      },
-      "LADR": {
-        "direction_score": -25,
-        "reversal_risk": 53
-      },
-      "SFNC": {
-        "direction_score": -22,
-        "reversal_risk": 47
-      },
-      "RF": {
-        "direction_score": 18,
-        "reversal_risk": 38
-      },
-      "MTB": {
-        "direction_score": 12,
-        "reversal_risk": 40
+        "reversal_risk": 38,
+        "key_metric": "NII/NIM"
       }
     },
     "Pass B": {
-      "IBKR": {
-        "direction_score": 57,
-        "reversal_risk": 33
+      "CLF": {
+        "direction_score": 35,
+        "reversal_risk": 67,
+        "key_metric": "Q3 EBITDA and steel realization"
       },
-      "JBHT": {
-        "direction_score": -53,
-        "reversal_risk": 48
-      },
-      "TRV": {
-        "direction_score": 52,
-        "reversal_risk": 35
-      },
-      "CFG": {
-        "direction_score": 46,
-        "reversal_risk": 36
-      },
-      "AA": {
-        "direction_score": 43,
-        "reversal_risk": 50
-      },
-      "TFC": {
-        "direction_score": 38,
-        "reversal_risk": 41
-      },
-      "LADR": {
-        "direction_score": -37,
-        "reversal_risk": 58
-      },
-      "SFNC": {
-        "direction_score": -31,
-        "reversal_risk": 51
-      },
-      "RF": {
-        "direction_score": 28,
-        "reversal_risk": 40
-      },
-      "MTB": {
-        "direction_score": 24,
-        "reversal_risk": 43
+      "FITB": {
+        "direction_score": 18,
+        "reversal_risk": 44,
+        "key_metric": "credit-adjusted NII"
       }
     },
     "Pass C": {
-      "IBKR": {
-        "direction_score": 45,
-        "reversal_risk": 42
-      },
-      "JBHT": {
-        "direction_score": -47,
-        "reversal_risk": 46
-      },
-      "TRV": {
-        "direction_score": 38,
-        "reversal_risk": 38
-      },
-      "CFG": {
-        "direction_score": 35,
-        "reversal_risk": 39
-      },
-      "AA": {
+      "CLF": {
         "direction_score": 27,
-        "reversal_risk": 48
+        "reversal_risk": 70,
+        "key_metric": "Q4 outlook versus Q3 EBITDA"
       },
-      "TFC": {
-        "direction_score": 31,
-        "reversal_risk": 39
-      },
-      "LADR": {
-        "direction_score": -30,
-        "reversal_risk": 56
-      },
-      "SFNC": {
-        "direction_score": -28,
-        "reversal_risk": 49
-      },
-      "RF": {
-        "direction_score": 22,
-        "reversal_risk": 42
-      },
-      "MTB": {
-        "direction_score": 17,
-        "reversal_risk": 42
+      "FITB": {
+        "direction_score": 26,
+        "reversal_risk": 41,
+        "key_metric": "Comerica synergies and deposits"
       }
     }
   },
   "research_allocation_view": {
-    "qualified_names": [
-      "IBKR",
-      "TRV",
-      "CFG",
-      "TFC"
-    ],
-    "distribution_percent": {
-      "IBKR": 32,
-      "TRV": 29,
-      "CFG": 23,
-      "TFC": 16
-    },
+    "qualified_names": [],
+    "distribution_percent": {},
     "excluded_high_reversal_risk": [
-      "AA",
-      "JBHT",
-      "LADR",
-      "SFNC"
+      "CLF"
     ],
-    "unallocated_percent": 0,
-    "statement": "This is a research prioritization model, not financial advice."
+    "excluded_below_score_or_risk_threshold": [
+      "FITB"
+    ],
+    "unallocated_percent": 100,
+    "statement": "No name met all allocation rules; the full notional basket remains unallocated. This is a research prioritization model, not financial advice."
   },
   "detailed_company_sections": [
-    "IBKR",
-    "JBHT",
-    "TRV",
-    "CFG",
-    "AA",
-    "TFC",
-    "LADR",
-    "SFNC",
-    "RF",
-    "MTB"
+    {
+      "ticker": "CLF",
+      "consensus_summary": "All three passes leaned up on the EBITDA inflection; all also flagged high reversal risk from the rerating and forward steel-demand sensitivity.",
+      "averaged_direction_score": 37,
+      "averaged_reversal_risk": 66,
+      "disparity_metric": 7,
+      "pass_agreement": "A/B/C all positive; strength ranged +27 to +48",
+      "recommendation": "Lean Up",
+      "confidence": "Medium",
+      "one_sentence_thesis": "A guided step-up in Q3 EBITDA and sharply higher estimates favor upside, but the stock's rerating and a demanding options hurdle make a sell-the-news reversal unusually plausible.",
+      "market_expectation": "Public consensus is roughly $0.19-$0.23 EPS and $5.72-$5.78B revenue; management guided Q3 adjusted EBITDA to about $575M.",
+      "what_could_make_stock_go_up": "EBITDA clears guidance on realization, shipments and Stelco improvement, with constructive Q4 pricing commentary.",
+      "what_could_make_stock_go_down": "The quarter meets the raised bar but weaker auto demand, margins, cash flow or Q4 tone exposes priced-in optimism.",
+      "reversal_risk_assessment": "High: a guide-level print can still disappoint after the rerating, and Q4 tone may dominate the headline quarter.",
+      "social_or_consumer_sentiment": "Retail sentiment is conspicuously bullish and focused on tariffs, domestic pricing and the turnaround; promotional intensity raises crowding risk.",
+      "options_or_positioning_read": "Weekly options imply about 12.8%; short interest is about 13.8%, creating both squeeze potential and volatility-unwind risk.",
+      "analyst_revision_read": "Q3 revenue estimates rose about 4% over three months; EPS expectations moved sharply higher from a low base.",
+      "base_case": "EBITDA roughly meets or modestly beats guidance; shares rise but remain inside the implied move.",
+      "bull_case": "EBITDA clears guidance on realization, shipments and Stelco improvement, with constructive Q4 pricing commentary.",
+      "bear_case": "The quarter meets the raised bar but weaker auto demand, margins, cash flow or Q4 tone exposes priced-in optimism.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": "Not included: reversal risk is well above 40.",
+      "disparity_effect": "Low disparity supported the stability of the consensus, but did not override the allocation thresholds.",
+      "method_update_note": "Expectation-bar and forward-look checks applied",
+      "key_sources": [
+        "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/703/cleveland-cliffs-to-announce-third-quarter-2026-earnings",
+        "https://www.clevelandcliffs.com/investors/news-events/press-releases/detail/700/cleveland-cliffs-reports-second-quarter-2026-results",
+        "https://tickzen.app/stocks/clf/earnings",
+        "https://www.optionslam.com/earnings/weekly/CLF",
+        "https://www.chartmill.com/stock/quote/CLF/estimates"
+      ]
+    },
+    {
+      "ticker": "FITB",
+      "consensus_summary": "All passes were positive, but one remained below the Lean Up threshold because estimate quality and credit/integration risks diluted the NII case.",
+      "averaged_direction_score": 25,
+      "averaged_reversal_risk": 41,
+      "disparity_metric": 4,
+      "pass_agreement": "A/B/C positive; one pass remained Neutral",
+      "recommendation": "Lean Up",
+      "confidence": "Medium-Low",
+      "one_sentence_thesis": "Deposit growth, NII momentum and completed Comerica conversion support modest upside, but credit migration and downward estimate revisions leave only a threshold-level edge.",
+      "market_expectation": "The cleanest current preview puts adjusted EPS near $1.09, while public providers disagree materially because acquisition items complicate the comparison.",
+      "what_could_make_stock_go_up": "NII, deposit mix and merger synergies beat expectations while provision expense remains contained.",
+      "what_could_make_stock_go_down": "Nonperformers, funding costs or integration expenses offset revenue growth and make the apparent EPS beat low quality.",
+      "reversal_risk_assessment": "Moderate: a cleaner-than-feared credit print can support upside, but integration charges or credit deterioration can reverse a modest beat.",
+      "social_or_consumer_sentiment": "No strong, decision-useful social signal; bank fundamentals and merger execution dominate.",
+      "options_or_positioning_read": "The nearest public monthly straddle implies about 7.1%, but it includes several post-event weeks and overstates a pure earnings move.",
+      "analyst_revision_read": "One public revision set shows 2 upward versus 11 downward changes over 30 days; seven-day consensus was stable at $1.09.",
+      "base_case": "NII and synergies offset credit noise; shares post a modest positive reaction.",
+      "bull_case": "NII, deposit mix and merger synergies beat expectations while provision expense remains contained.",
+      "bear_case": "Nonperformers, funding costs or integration expenses offset revenue growth and make the apparent EPS beat low quality.",
+      "final_directional_judgment": "Lean Up",
+      "allocation_priority": "Not included: the absolute consensus score is not above 30 and reversal risk is above 40.",
+      "disparity_effect": "Low disparity supported the stability of the consensus, but did not override the allocation thresholds.",
+      "method_update_note": "Expectation-bar and decisive-KPI checks applied",
+      "key_sources": [
+        "https://ir.53.com/news/news-details/2025/Fifth-Third-Bancorp-Announces-Earnings-Release-Dates-for-2026-and-2027/default.aspx",
+        "https://ir.53.com/news/news-details/2026/Fifth-Third-Bancorp-Reports-Second-Quarter-2026-Earnings/default.aspx",
+        "https://securitiesadvisors.53.com/content/fifth-third/en/media-center/press-releases/2026/press-release-2026-09-08.html",
+        "https://www.optionslam.com/earnings/straddle/FITB",
+        "https://www.zacks.com/stock/news/3008816/growth-in-nii-lower-expenses-likely-to-support-fifth-thirds-q3-earnings"
+      ]
+    }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
