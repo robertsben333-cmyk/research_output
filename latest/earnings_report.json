@@ -79,7 +79,7 @@
     "unallocated_percent": 0,
     "statement": "This is a research prioritization model, not financial advice."
   },
-  "detailed_company_sections": ["STLD", "RTX", "CCK", "WRB", "MMM", "HAS", "EFX", "GPC", "NOC", "GM"],
+  "detailed_company_sections": ["STLD", "RTX", "CCK", "WRB", "MMM", "GM", "NOC", "GPC", "ALLY", "HAL"],
   "excluded_calendar_conflicts": [
     {"ticker": "KO", "reason": "Official company date is October 27, not October 20."},
     {"ticker": "PM", "reason": "Official company event is October 21, not October 20."},
