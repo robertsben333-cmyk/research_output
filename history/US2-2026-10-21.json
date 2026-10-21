@@ -31,7 +31,7 @@
       "key_sources": ["https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-second-quarter-2026-financial-results", "https://news.lockheedmartin.com/2026-10-01-Lockheed-Martin-Announces-Third-Quarter-2026-Earnings-Results-Webcast", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 3,
       "pass_agreement": "A/B/C all Lean Up; scores 50/46/49",
-      "method_update_note": "Expectation-bar and forward-look checks applied"
+      "method_update_note": "None"
     },
     {
       "rank": 2,
@@ -54,7 +54,7 @@
       "key_sources": ["https://investorvalero.com/news/news-details/2026/Valero-Energy-Reports-Second-Quarter-2026-Results/default.aspx", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 3,
       "pass_agreement": "A/B/C all Lean Up; scores 48/43/47",
-      "method_update_note": "Expectation-bar check applied"
+      "method_update_note": "None"
     },
     {
       "rank": 3,
@@ -77,7 +77,7 @@
       "key_sources": ["https://investor.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28%2C-2026", "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 4,
       "pass_agreement": "A/B/C all Lean Up; scores 45/40/43",
-      "method_update_note": "High-bar AI setup received added reversal scrutiny"
+      "method_update_note": "None"
     },
     {
       "rank": 4,
@@ -100,7 +100,7 @@
       "key_sources": ["https://news.aa.com/news/news-details/2026/American-continues-to-execute-on-commercial-priorities-delivering-highest-quarterly-revenue-in-company-history-CORP-FI-07/default.aspx", "https://apnews.com/article/0d5d453efa28cf7098e57f7f783574dc", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 4,
       "pass_agreement": "A/B/C all Lean Down; scores -52/-46/-49",
-      "method_update_note": "Low-bar squeeze check applied"
+      "method_update_note": "None"
     },
     {
       "rank": 5,
@@ -123,7 +123,7 @@
       "key_sources": ["https://ir.tesla.com/press-release/earnings-consensus-third-quarter-2026", "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/tesla-s-revenue-earnings-expected-to-edge-lower-despite-delivery-beat", "https://ir.tesla.com/press-release/tesla-third-quarter-2026-production-deliveries-and-deployments", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 9,
       "pass_agreement": "A/B/C all down, but magnitude varied; scores -50/-34/-43",
-      "method_update_note": "High-bar and narrative-squeeze checks applied"
+      "method_update_note": "None"
     },
     {
       "rank": 6,
@@ -146,7 +146,7 @@
       "key_sources": ["https://investors.dow.com/en/news/news-details/2026/Dow-reports-second-quarter-2026-results/default.aspx", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 4,
       "pass_agreement": "A/B/C all Lean Down; scores -41/-35/-38",
-      "method_update_note": "Price-cost quality emphasized over headline EPS"
+      "method_update_note": "None"
     },
     {
       "rank": 7,
@@ -169,7 +169,7 @@
       "key_sources": ["https://investors.unitedrentals.com/financials/quarterly-results/default.aspx", "https://investor-relations.unitedrentals.com/", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 3,
       "pass_agreement": "A/B/C all Lean Up; scores 40/35/38",
-      "method_update_note": "Backlog quality and cash conversion checked"
+      "method_update_note": "None"
     },
     {
       "rank": 8,
@@ -192,7 +192,7 @@
       "key_sources": ["https://newsroom.spotify.com/2026-08-04/spotify-q2-2026-earnings/", "https://www.tickzen.app/stocks/spot/earnings", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 5,
       "pass_agreement": "A/B/C all Lean Up; scores 41/33/37",
-      "method_update_note": "Premium-growth forward-look check applied"
+      "method_update_note": "None"
     },
     {
       "rank": 9,
@@ -215,7 +215,7 @@
       "key_sources": ["https://www.sec.gov/Archives/edgar/data/1668397/000166839726000023/medp-2026722exx991.htm", "https://www.earningswhispers.com/calendar/20261021/3"],
       "disparity": 4,
       "pass_agreement": "A/B/C all Lean Up; scores 38/32/35",
-      "method_update_note": "Pre-event run raised reversal risk"
+      "method_update_note": "None"
     },
     {
       "rank": 10,
@@ -238,7 +238,7 @@
       "key_sources": ["https://us.pg.com/newsroom/news-releases/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2026-Results/", "https://canary.us.pg.com/annualreport2026/introduction-and-fy-results/", "https://market-wrap.com/earnings-chatter/2026-10-20/"],
       "disparity": 3,
       "pass_agreement": "A/B/C all Lean Down; scores -37/-29/-33",
-      "method_update_note": "Volume separated from pricing and mix"
+      "method_update_note": "None"
     },
     {
       "rank": 11,
@@ -261,7 +261,7 @@
       "key_sources": ["https://www.csx.com/index.cfm/about-us/media/press-releases/csx-corp-announces-second-quarter-2026-results/", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 4,
       "pass_agreement": "A/B/C all Lean Up; scores 35/29/32",
-      "method_update_note": "Industrial backlog and pricing guardrail applied"
+      "method_update_note": "None"
     },
     {
       "rank": 12,
@@ -284,7 +284,7 @@
       "key_sources": ["https://ir.tractorsupply.com/newsroom/news-releases/news-releases-details/2026/Tractor-Supply-Company-Reports-Second-Quarter-2026-Financial-Results-Updates-Fiscal-Year-2026-Outlook/default.aspx", "https://www.sec.gov/Archives/edgar/data/916365/000091636526000052/ex991-q22026earningsrelease.htm", "https://www.earningswhispers.com/calendar/20261022/1"],
       "disparity": 5,
       "pass_agreement": "A/B/C all Lean Down; scores -35/-27/-31",
-      "method_update_note": "Low-bar reversal check applied"
+      "method_update_note": "None"
     },
     {
       "rank": 13,
@@ -307,7 +307,7 @@
       "key_sources": ["https://www.cmcsa.com/node/45906", "https://www.cmcsa.com/static-files/8a2ae730-efbd-41c5-a2a9-b96aef03ced2", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 6,
       "pass_agreement": "A/B/C clustered near the cutoff; scores -31/-20/-26",
-      "method_update_note": "Key-metric-first rule kept focus on broadband"
+      "method_update_note": "None"
     },
     {
       "rank": 14,
@@ -330,7 +330,7 @@
       "key_sources": ["https://newsroom.ibm.com/2026-07-22-IBM-RELEASES-SECOND-QUARTER-RESULTS", "https://www.investing.com/news/stock-market-news/ibm-bull-and-bear-case-ahead-of-october-earnings-93CH-4941516", "https://newsroom.ibm.com/2026-10-07-ibm-to-announce-third-quarter-2026-financial-results", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 5,
       "pass_agreement": "A/B/C positive but one pass was Neutral; scores 30/22/26",
-      "method_update_note": "Reset-bar and forward-look checks applied"
+      "method_update_note": "None"
     },
     {
       "rank": 15,
@@ -353,7 +353,7 @@
       "key_sources": ["https://investor.ti.com/node/38476", "https://www.zacks.com/stock/news/3008424/txn-to-report-q3-earnings-should-you-buy-hold-or-sell-the-stock", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 6,
       "pass_agreement": "A was Lean Up; B/C Neutral; scores 29/18/24",
-      "method_update_note": "High-bar semiconductor check applied"
+      "method_update_note": "None"
     },
     {
       "rank": 16,
@@ -376,7 +376,7 @@
       "key_sources": ["https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/", "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx", "https://www.axios.com/2026/07/29/meta-microsoft-earnings-reports-ai", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 8,
       "pass_agreement": "A was Lean Up; B/C Neutral; scores 27/12/20",
-      "method_update_note": "Forward-look override materially reduced conviction"
+      "method_update_note": "None"
     },
     {
       "rank": 17,
@@ -399,7 +399,7 @@
       "key_sources": ["https://www.sec.gov/Archives/edgar/data/1300514/000130051426000078/lvs_ex991x06302026.htm", "https://earnings-watcher.com/wiki/earnings-implied-moves-2026-10-19"],
       "disparity": 5,
       "pass_agreement": "A/B/C Neutral; scores 21/12/18",
-      "method_update_note": "Hold-adjusted EBITDA emphasized over EPS"
+      "method_update_note": "None"
     },
     {
       "rank": 18,
@@ -491,19 +491,19 @@
     "plain_statement": "This is a research prioritization model, not financial advice."
   },
   "detailed_company_sections": [
-    {"ticker": "LMT", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 48, "averaged_reversal_risk": 32, "disparity": 3, "recommendation": "Lean Up", "confidence": "High", "key_metric": "Backlog conversion and program margins", "social_sentiment": "No reliable independent 7/14/30-day signal; neutral weight", "base_case": "Clean execution supports a modest positive reaction", "bull_case": "Another raise on sales, profit, and cash flow", "bear_case": "Program charges or supplier issues", "allocation_status": "Included at 28%", "method_update_note": "Expectation-bar and forward-look checks applied"},
-    {"ticker": "VLO", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 46, "averaged_reversal_risk": 36, "disparity": 3, "recommendation": "Lean Up", "confidence": "Medium-High", "key_metric": "Realized refining margin per barrel", "social_sentiment": "No reliable independent signal; neutral weight", "base_case": "High margins support a beat", "bull_case": "Utilization and cash returns exceed the bar", "bear_case": "Peak-margin framing triggers sell-the-news", "allocation_status": "Included at 23%", "method_update_note": "Expectation-bar check applied"},
-    {"ticker": "LRCX", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 43, "averaged_reversal_risk": 44, "disparity": 4, "recommendation": "Lean Up", "confidence": "Medium-High", "key_metric": "December-quarter revenue/WFE outlook", "social_sentiment": "AI-semiconductor interest is strong but too promotional to weight heavily", "base_case": "Beat and constructive guide", "bull_case": "Broad AI/memory strength and margin upside", "bear_case": "China or mix disappoints a premium bar", "allocation_status": "Excluded because reversal risk exceeds 40", "method_update_note": "High-bar AI setup received added reversal scrutiny"},
-    {"ticker": "URI", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 38, "averaged_reversal_risk": 37, "disparity": 3, "recommendation": "Lean Up", "confidence": "Medium-High", "key_metric": "Fleet productivity and EBITDA guide", "social_sentiment": "No reliable independent signal; neutral weight", "base_case": "Large projects sustain growth", "bull_case": "Another guidance raise", "bear_case": "Project delays or weaker cash conversion", "allocation_status": "Included at 17%", "method_update_note": "Backlog quality and cash conversion checked"},
-    {"ticker": "SPOT", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 37, "averaged_reversal_risk": 50, "disparity": 5, "recommendation": "Lean Up", "confidence": "Medium", "key_metric": "MAUs, premium subscribers, and gross margin", "social_sentiment": "Customer discussion is mixed on value versus alternatives; anecdotal only", "base_case": "User growth and margins remain strong", "bull_case": "Three-way beat on users, subscribers, and margin", "bear_case": "Guidance misses a premium bar", "allocation_status": "Excluded because reversal risk is 50", "method_update_note": "Premium-growth forward-look check applied"},
-    {"ticker": "AAL", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -49, "averaged_reversal_risk": 44, "disparity": 4, "recommendation": "Lean Down", "confidence": "Medium-High", "key_metric": "Fuel-adjusted Q4 earnings outlook", "social_sentiment": "Customer sentiment is not a dependable trading signal; fare and cost data dominate", "base_case": "Costs keep forward profit weak", "bull_case": "Fares recapture fuel faster than feared", "bear_case": "Fuel and CASM-ex force another reset", "allocation_status": "Excluded because reversal risk exceeds 40", "method_update_note": "Low-bar squeeze check applied"},
-    {"ticker": "TSLA", "consensus_summary": "All passes down, magnitude varied", "averaged_direction_score": -42, "averaged_reversal_risk": 74, "disparity": 9, "recommendation": "Lean Down", "confidence": "Medium", "key_metric": "Automotive gross margin", "social_sentiment": "Very active, highly polarized, and narrative-driven; manipulation and squeeze risk are material", "base_case": "Delivery strength fails to repair margin quality", "bull_case": "Energy/autonomy/SpaceX narrative drives a squeeze", "bear_case": "Margins and cash flow disappoint", "allocation_status": "Excluded because reversal risk is Very High", "method_update_note": "High-bar and narrative-squeeze checks applied"},
-    {"ticker": "DOW", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -38, "averaged_reversal_risk": 39, "disparity": 4, "recommendation": "Lean Down", "confidence": "Medium-High", "key_metric": "Price-cost spread and volume", "social_sentiment": "No reliable independent signal; neutral weight", "base_case": "Feedstock pressure narrows margins", "bull_case": "Pricing and self-help hold", "bear_case": "Costs rise into weak volume", "allocation_status": "Included at 18%", "method_update_note": "Price-cost quality emphasized over headline EPS"},
-    {"ticker": "PG", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -33, "averaged_reversal_risk": 34, "disparity": 3, "recommendation": "Lean Down", "confidence": "Medium-High", "key_metric": "Organic volume and gross margin", "social_sentiment": "Consumer sentiment reflects inflation pressure but is not clean enough to score directly", "base_case": "Soft volume and input costs pressure the print", "bull_case": "Share and volume stabilize", "bear_case": "Pricing cannot absorb costs", "allocation_status": "Included at 8%", "method_update_note": "Volume separated from pricing and mix"},
-    {"ticker": "TSCO", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -31, "averaged_reversal_risk": 48, "disparity": 5, "recommendation": "Lean Down", "confidence": "Medium", "key_metric": "Comparable sales and traffic", "social_sentiment": "No reliable independent 7/14/30-day signal; neutral weight", "base_case": "Traffic and SG&A deleverage remain weak", "bull_case": "Weather and consumables lift comps", "bear_case": "Discretionary softness persists", "allocation_status": "Excluded because reversal risk is 48", "method_update_note": "Low-bar reversal check applied"},
-    {"ticker": "IBM", "consensus_summary": "Positive passes, one Neutral", "averaged_direction_score": 26, "averaged_reversal_risk": 42, "disparity": 5, "recommendation": "Lean Up", "confidence": "Medium", "key_metric": "Software/Red Hat growth and free cash flow", "social_sentiment": "Limited retail signal; neutral weight", "base_case": "Software improves and cash guide holds", "bull_case": "Red Hat and consulting reaccelerate", "bear_case": "Weak consulting extends the Q2 miss", "allocation_status": "Excluded because reversal risk exceeds 40 and score is below stronger names", "method_update_note": "Reset-bar and forward-look checks applied"},
-    {"ticker": "TXN", "consensus_summary": "One Lean Up and two Neutral passes", "averaged_direction_score": 24, "averaged_reversal_risk": 49, "disparity": 6, "recommendation": "Neutral / No Edge", "confidence": "Medium", "key_metric": "Q4 revenue guide", "social_sentiment": "Limited reliable retail signal; neutral weight", "base_case": "Recovery continues but is priced", "bull_case": "Industrial breadth beats the elevated bar", "bear_case": "Q4 guide normalizes sharply", "allocation_status": "Excluded on score and reversal risk", "method_update_note": "High-bar semiconductor check applied"},
-    {"ticker": "META", "consensus_summary": "One Lean Up and two Neutral passes", "averaged_direction_score": 20, "averaged_reversal_risk": 60, "disparity": 8, "recommendation": "Neutral / No Edge", "confidence": "Medium", "key_metric": "Operating margin versus AI capex", "social_sentiment": "Very active and explicitly two-sided; not used as primary evidence", "base_case": "Ads beat but capex keeps reaction mixed", "bull_case": "AI monetization protects margin", "bear_case": "2027 spending reset dominates", "allocation_status": "Excluded on score and High reversal risk", "method_update_note": "Forward-look override materially reduced conviction"}
+    {"ticker": "LMT", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 48, "averaged_reversal_risk": 32, "disparity": 3, "recommendation": "Lean Up", "confidence": "High", "key_metric": "Backlog conversion and program margins", "social_sentiment": "No reliable independent 7/14/30-day signal; neutral weight", "base_case": "Clean execution supports a modest positive reaction", "bull_case": "Another raise on sales, profit, and cash flow", "bear_case": "Program charges or supplier issues", "allocation_status": "Included at 28%", "method_update_note": "None"},
+    {"ticker": "VLO", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 46, "averaged_reversal_risk": 36, "disparity": 3, "recommendation": "Lean Up", "confidence": "Medium-High", "key_metric": "Realized refining margin per barrel", "social_sentiment": "No reliable independent signal; neutral weight", "base_case": "High margins support a beat", "bull_case": "Utilization and cash returns exceed the bar", "bear_case": "Peak-margin framing triggers sell-the-news", "allocation_status": "Included at 23%", "method_update_note": "None"},
+    {"ticker": "LRCX", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 43, "averaged_reversal_risk": 44, "disparity": 4, "recommendation": "Lean Up", "confidence": "Medium-High", "key_metric": "December-quarter revenue/WFE outlook", "social_sentiment": "AI-semiconductor interest is strong but too promotional to weight heavily", "base_case": "Beat and constructive guide", "bull_case": "Broad AI/memory strength and margin upside", "bear_case": "China or mix disappoints a premium bar", "allocation_status": "Excluded because reversal risk exceeds 40", "method_update_note": "None"},
+    {"ticker": "URI", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 38, "averaged_reversal_risk": 37, "disparity": 3, "recommendation": "Lean Up", "confidence": "Medium-High", "key_metric": "Fleet productivity and EBITDA guide", "social_sentiment": "No reliable independent signal; neutral weight", "base_case": "Large projects sustain growth", "bull_case": "Another guidance raise", "bear_case": "Project delays or weaker cash conversion", "allocation_status": "Included at 17%", "method_update_note": "None"},
+    {"ticker": "SPOT", "consensus_summary": "Three Lean Up passes", "averaged_direction_score": 37, "averaged_reversal_risk": 50, "disparity": 5, "recommendation": "Lean Up", "confidence": "Medium", "key_metric": "MAUs, premium subscribers, and gross margin", "social_sentiment": "Customer discussion is mixed on value versus alternatives; anecdotal only", "base_case": "User growth and margins remain strong", "bull_case": "Three-way beat on users, subscribers, and margin", "bear_case": "Guidance misses a premium bar", "allocation_status": "Excluded because reversal risk is 50", "method_update_note": "None"},
+    {"ticker": "AAL", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -49, "averaged_reversal_risk": 44, "disparity": 4, "recommendation": "Lean Down", "confidence": "Medium-High", "key_metric": "Fuel-adjusted Q4 earnings outlook", "social_sentiment": "Customer sentiment is not a dependable trading signal; fare and cost data dominate", "base_case": "Costs keep forward profit weak", "bull_case": "Fares recapture fuel faster than feared", "bear_case": "Fuel and CASM-ex force another reset", "allocation_status": "Excluded because reversal risk exceeds 40", "method_update_note": "None"},
+    {"ticker": "TSLA", "consensus_summary": "All passes down, magnitude varied", "averaged_direction_score": -42, "averaged_reversal_risk": 74, "disparity": 9, "recommendation": "Lean Down", "confidence": "Medium", "key_metric": "Automotive gross margin", "social_sentiment": "Very active, highly polarized, and narrative-driven; manipulation and squeeze risk are material", "base_case": "Delivery strength fails to repair margin quality", "bull_case": "Energy/autonomy/SpaceX narrative drives a squeeze", "bear_case": "Margins and cash flow disappoint", "allocation_status": "Excluded because reversal risk is Very High", "method_update_note": "None"},
+    {"ticker": "DOW", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -38, "averaged_reversal_risk": 39, "disparity": 4, "recommendation": "Lean Down", "confidence": "Medium-High", "key_metric": "Price-cost spread and volume", "social_sentiment": "No reliable independent signal; neutral weight", "base_case": "Feedstock pressure narrows margins", "bull_case": "Pricing and self-help hold", "bear_case": "Costs rise into weak volume", "allocation_status": "Included at 18%", "method_update_note": "None"},
+    {"ticker": "PG", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -33, "averaged_reversal_risk": 34, "disparity": 3, "recommendation": "Lean Down", "confidence": "Medium-High", "key_metric": "Organic volume and gross margin", "social_sentiment": "Consumer sentiment reflects inflation pressure but is not clean enough to score directly", "base_case": "Soft volume and input costs pressure the print", "bull_case": "Share and volume stabilize", "bear_case": "Pricing cannot absorb costs", "allocation_status": "Included at 8%", "method_update_note": "None"},
+    {"ticker": "TSCO", "consensus_summary": "Three Lean Down passes", "averaged_direction_score": -31, "averaged_reversal_risk": 48, "disparity": 5, "recommendation": "Lean Down", "confidence": "Medium", "key_metric": "Comparable sales and traffic", "social_sentiment": "No reliable independent 7/14/30-day signal; neutral weight", "base_case": "Traffic and SG&A deleverage remain weak", "bull_case": "Weather and consumables lift comps", "bear_case": "Discretionary softness persists", "allocation_status": "Excluded because reversal risk is 48", "method_update_note": "None"},
+    {"ticker": "IBM", "consensus_summary": "Positive passes, one Neutral", "averaged_direction_score": 26, "averaged_reversal_risk": 42, "disparity": 5, "recommendation": "Lean Up", "confidence": "Medium", "key_metric": "Software/Red Hat growth and free cash flow", "social_sentiment": "Limited retail signal; neutral weight", "base_case": "Software improves and cash guide holds", "bull_case": "Red Hat and consulting reaccelerate", "bear_case": "Weak consulting extends the Q2 miss", "allocation_status": "Excluded because reversal risk exceeds 40 and score is below stronger names", "method_update_note": "None"},
+    {"ticker": "TXN", "consensus_summary": "One Lean Up and two Neutral passes", "averaged_direction_score": 24, "averaged_reversal_risk": 49, "disparity": 6, "recommendation": "Neutral / No Edge", "confidence": "Medium", "key_metric": "Q4 revenue guide", "social_sentiment": "Limited reliable retail signal; neutral weight", "base_case": "Recovery continues but is priced", "bull_case": "Industrial breadth beats the elevated bar", "bear_case": "Q4 guide normalizes sharply", "allocation_status": "Excluded on score and reversal risk", "method_update_note": "None"},
+    {"ticker": "META", "consensus_summary": "One Lean Up and two Neutral passes", "averaged_direction_score": 20, "averaged_reversal_risk": 60, "disparity": 8, "recommendation": "Neutral / No Edge", "confidence": "Medium", "key_metric": "Operating margin versus AI capex", "social_sentiment": "Very active and explicitly two-sided; not used as primary evidence", "base_case": "Ads beat but capex keeps reaction mixed", "bull_case": "AI monetization protects margin", "bear_case": "2027 spending reset dominates", "allocation_status": "Excluded on score and High reversal risk", "method_update_note": "None"}
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
 }
