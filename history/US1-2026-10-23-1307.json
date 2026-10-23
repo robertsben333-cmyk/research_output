@@ -1,0 +1,181 @@
+{
+  "generation_timestamp": "2026-10-23T17:07:00Z",
+  "covered_report_window": "After the Friday, October 23, 2026 U.S. market close through before the Monday, October 26, 2026 U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "Rising oil and Iran-war risk pressured most U.S. stocks, the 10-year Treasury yield remained near 5%, October consumer sentiment was only 48.0, and the October flash PMI still indicated expansion. These cross-currents favor energy cash flows but raise funding and consumer-demand risk.",
+  "companies_reviewed_count": 13,
+  "qualified_ticker_universe": ["CX", "VZ", "ARLP", "BOH", "LKFN", "BMRC", "HBT", "DEA", "MMYT", "MED"],
+  "screened_but_excluded": [
+    {"ticker": "RCBC", "reason": "Confirmed Friday after-close, but recent August 2026 IPO, limited public history and insufficient event evidence."},
+    {"ticker": "ABOS", "reason": "Biotech earnings are not the primary catalyst; no earnings-based directional edge."},
+    {"ticker": "BFST", "reason": "Lower liquidity and weaker evidence breadth than the selected bank names."}
+  ],
+  "top_setups": {
+    "upward": ["CX", "VZ", "ARLP"],
+    "downward": ["MED"],
+    "neutral_or_mixed": ["MMYT", "HBT", "DEA"]
+  },
+  "methodology": {
+    "independent_passes": 3,
+    "shared_universe_used_for_all_passes": true,
+    "disparity_definition": "Average of (direction-score range divided by two) and reversal-risk range, producing a 0-100 disagreement scale; lower is tighter agreement.",
+    "lessons_review": "No new method change. Existing timing, key-metric, premium-growth, low-bar reversal and disagreement rules were applied."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1, "ticker": "CX", "company": "CEMEX", "timing": "Oct. 26 BMO; call 11:00 a.m. ET",
+      "direction_call": "Lean Up", "direction_score": 50, "reversal_risk": 36, "disparity": 5, "confidence": "Medium",
+      "expected_driver": "EBITDA margin / Cutting Edge savings", "key_risk_to_call": "U.S./Europe volume softness; high guide bar", "evidence_quality": "High",
+      "pass_agreement": "A/B/C bullish; low disparity", "method_update_note": "Priced-in check applied",
+      "one_sentence_thesis": "Record Q2 EBITDA, a 16%-17% full-year EBITDA growth guide and additional cost savings favor upside if margins hold despite uneven construction volumes.",
+      "market_expectation_summary": "Consensus is about $0.24 EPS and $4.45-$4.47B revenue; EBITDA margin and confirmation of the 16%-17% growth guide matter more than EPS.",
+      "upside_case_summary": "Cutting Edge savings, Mexico pricing and free-cash-flow conversion keep EBITDA growth above the raised guide.",
+      "downside_case_summary": "U.S. and European volume weakness or Mexico normalization erodes margin and exposes the raised bar.",
+      "options_or_positioning_summary": "No robust public event-implied move was available; positive analyst consensus and raised guidance create some sell-the-news risk.",
+      "analyst_revision_summary": "Public estimates cluster near $0.24 EPS and $4.45-$4.47B revenue; analyst consensus remains Moderate Buy.",
+      "key_sources": ["https://www.stocktitan.net/sec-filings/CX/6-k-cemex-sab-de-cv-current-report-foreign-issuer-c1feb4a9c69a.html", "https://www.cemex.co.uk/w/cemex-reports-24-ebitda-growth-and-record-2q-fcf-raises-full-year-ebitda-guidance-to-16-17-yoy-growth", "https://www.marketbeat.com/instant-alerts/upcoming-cemex-cx-set-to-post-earnings-on-monday-2026-10-19/"]
+    },
+    {
+      "rank": 2, "ticker": "VZ", "company": "Verizon Communications", "timing": "Oct. 26 BMO; release 7:00 a.m. ET",
+      "direction_call": "Lean Up", "direction_score": 43, "reversal_risk": 39, "disparity": 5, "confidence": "Medium",
+      "expected_driver": "Postpaid phone adds / service growth", "key_risk_to_call": "Q4 service growth, FCF or promo intensity", "evidence_quality": "High",
+      "pass_agreement": "A/B/C bullish; low disparity", "method_update_note": "Forward-look override applied",
+      "one_sentence_thesis": "Subscriber momentum, accelerating mobility-and-broadband service revenue and two guidance raises favor upside, with the recent SpaceX-driven reset lowering the bar.",
+      "market_expectation_summary": "Consensus is about $1.27 EPS and $34.77B revenue; the decisive test is postpaid phone additions and service revenue growth near management's 3% Q3 target.",
+      "upside_case_summary": "Net additions, churn and service growth validate the turnaround while free cash flow supports capital returns.",
+      "downside_case_summary": "A fine quarter can still sell off if Q4 growth, promotion economics or free cash flow soften.",
+      "options_or_positioning_summary": "Options imply about 3.5%; the recent SpaceX-related selloff reduced crowding but telecom competition remains the dominant positioning risk.",
+      "analyst_revision_summary": "Public estimates center near $1.27 EPS; recent estimate signals were not conclusive.",
+      "key_sources": ["https://www.verizon.com/about/news/verizon-q3-2026-earnings-report-date", "https://www.verizon.com/about/news/verizon-delivers-record-2q26-results", "https://za.investing.com/news/stock-market-news/verizon-shares-may-move-35-on-oct-26-earnings-report-93CH-4512348"]
+    },
+    {
+      "rank": 3, "ticker": "ARLP", "company": "Alliance Resource Partners", "timing": "Oct. 26 BMO; call 10:00 a.m. ET",
+      "direction_call": "Lean Up", "direction_score": 37, "reversal_risk": 38, "disparity": 5, "confidence": "Medium",
+      "expected_driver": "Coal margin plus royalty EBITDA", "key_risk_to_call": "Coal pricing/costs offset oil royalties", "evidence_quality": "Medium-High",
+      "pass_agreement": "A/B/C bullish; low disparity", "method_update_note": "None",
+      "one_sentence_thesis": "Record royalty revenue, new mineral interests and firm energy prices support upside if coal tons and per-ton costs remain controlled.",
+      "market_expectation_summary": "Public estimates are $0.82-$0.84 EPS and roughly $603M revenue; coal segment margin and royalty EBITDA are the key metrics.",
+      "upside_case_summary": "Oil-and-gas royalty growth and contracted coal volumes protect distribution coverage and cash flow.",
+      "downside_case_summary": "Lower realized coal pricing, higher costs or weak tons overwhelm the royalty contribution.",
+      "options_or_positioning_summary": "No robust public implied move was available; income ownership may dampen the reaction.",
+      "analyst_revision_summary": "Public EPS estimates are tightly grouped at $0.82-$0.84.",
+      "key_sources": ["https://investor.arlp.com/overview/", "https://www.sec.gov/Archives/edgar/data/1086600/000110465926086855/arlp-20260727xex99d1.htm", "https://www.earningswhispers.com/stocks/ARLP"]
+    },
+    {
+      "rank": 4, "ticker": "BOH", "company": "Bank of Hawaii", "timing": "Oct. 26 BMO",
+      "direction_call": "Lean Up", "direction_score": 33, "reversal_risk": 36, "disparity": 5, "confidence": "Medium",
+      "expected_driver": "Net interest margin / deposit cost", "key_risk_to_call": "Deposit runoff or credit normalization", "evidence_quality": "High",
+      "pass_agreement": "A/B/C bullish; low disparity", "method_update_note": "None",
+      "one_sentence_thesis": "Nine consecutive quarters of margin expansion, strong credit and improving efficiency create a modest upside edge if deposits stabilize.",
+      "market_expectation_summary": "Consensus is about $1.51-$1.52 EPS and $202.6M revenue; NIM, deposit mix and credit quality matter most.",
+      "upside_case_summary": "Asset repricing outpaces funding pressure, deposits hold and buybacks reinforce EPS.",
+      "downside_case_summary": "Deposit mix shifts further toward costly balances or Hawaii credit costs rise.",
+      "options_or_positioning_summary": "No robust public implied move was available; sector rate moves can dominate the company print.",
+      "analyst_revision_summary": "Q2 EPS narrowly beat; the Q3 bar implies continued double-digit year-over-year growth.",
+      "key_sources": ["https://ir.boh.com/news-releases/news-release-details/bank-hawaii-corporation-conference-call-discuss-third-quarter-17", "https://ir.boh.com/news-releases/news-release-details/bank-hawaii-corporation-second-quarter-2026-financial-results", "https://in.investing.com/news/stock-market-news/bank-of-hawaii-earnings-up-next-can-margin-gains-continue-93CH-5651626"]
+    },
+    {
+      "rank": 5, "ticker": "LKFN", "company": "Lakeland Financial", "timing": "Oct. 26 BMO",
+      "direction_call": "Lean Up", "direction_score": 29, "reversal_risk": 39, "disparity": 7, "confidence": "Medium",
+      "expected_driver": "Organic loan growth / NIM", "key_risk_to_call": "Commercial deposit mix and expense growth", "evidence_quality": "Medium-High",
+      "pass_agreement": "A/B/C constructive; low disparity", "method_update_note": "None",
+      "one_sentence_thesis": "Record earnings, 7% loan growth and clean credit support a mild upside bias, but commercial deposit contraction and cost growth cap conviction.",
+      "market_expectation_summary": "Consensus is about $1.09 EPS and $73.7M revenue; organic C&I loan growth and NIM stability are decisive.",
+      "upside_case_summary": "C&I utilization and core deposits improve while charge-offs remain negligible.",
+      "downside_case_summary": "Funding mix worsens, expenses outrun revenue or credit normalizes.",
+      "options_or_positioning_summary": "No reliable public implied move was available; lighter liquidity can amplify a miss.",
+      "analyst_revision_summary": "Public revision breadth is sparse; primary operating trends remain constructive.",
+      "key_sources": ["https://investors.lakecitybank.com/news-releases/news-release-details/lakeland-financial-reports-record-second-quarter-performance-0", "https://www.earningswhispers.com/calendar/20261026", "https://www.marketbeat.com/earnings/2026-10-26/"]
+    },
+    {
+      "rank": 6, "ticker": "BMRC", "company": "Bank of Marin Bancorp", "timing": "Oct. 26 BMO; call 11:30 a.m. ET",
+      "direction_call": "Lean Up", "direction_score": 27, "reversal_risk": 42, "disparity": 7, "confidence": "Low",
+      "expected_driver": "NIM expansion / credit cleanup", "key_risk_to_call": "Loan contraction and deposit concentration", "evidence_quality": "High",
+      "pass_agreement": "A/B/C constructive; low disparity", "method_update_note": "Small-bank hidden-risk check applied",
+      "one_sentence_thesis": "Balance-sheet restructuring and a 14bp sequential NIM gain support a mild upside call, tempered by loan contraction and concentrated deposit movements.",
+      "market_expectation_summary": "The market is focused on whether Q2's 3.38% tax-equivalent NIM keeps expanding without renewed criticized-loan pressure.",
+      "upside_case_summary": "Deposit repricing and higher loan yields extend the margin recovery while asset quality improves.",
+      "downside_case_summary": "Loan runoff, CRE/wine exposure or concentrated outflows interrupt the turnaround.",
+      "options_or_positioning_summary": "No reliable public implied move was available; thin liquidity raises gap risk.",
+      "analyst_revision_summary": "Public estimate breadth is limited; the call relies mainly on primary balance-sheet data.",
+      "key_sources": ["https://investors.bankofmarin.com/news-market-data/press-releases/press-release/2026/Bank-of-Marin-Bancorp-to-Webcast-Q3-Earnings-on-Monday-October-26-2026-at-830-a-m--PT/default.aspx", "https://investors.bankofmarin.com/news-market-data/press-releases/press-release/2026/Bank-of-Marin-Bancorp-Reports-Second-Quarter-Financial-Results/default.aspx"]
+    },
+    {
+      "rank": 7, "ticker": "HBT", "company": "HBT Financial", "timing": "Oct. 26 BMO",
+      "direction_call": "Neutral / No Edge", "direction_score": 19, "reversal_risk": 51, "disparity": 8, "confidence": "Low",
+      "expected_driver": "NIM and merger integration", "key_risk_to_call": "Near-high valuation; deal/credit uncertainty", "evidence_quality": "Medium",
+      "pass_agreement": "A/B/C positive but magnitude differs", "method_update_note": "Small-bank hidden-risk check applied",
+      "one_sentence_thesis": "Strong NIM and earnings momentum are offset by a stock near its highs and acquisition execution risk.",
+      "market_expectation_summary": "The key question is whether the 4.32% Q2 NIM and acquired balance-sheet growth remain durable.",
+      "upside_case_summary": "Margin holds, credit stays clean and Tri-County deal commentary reduces uncertainty.",
+      "downside_case_summary": "Merger costs, funding pressure or credit normalization expose the elevated bar.",
+      "options_or_positioning_summary": "No reliable public implied move was available; limited liquidity heightens reversal risk.",
+      "analyst_revision_summary": "Q2 EPS beat modestly; public Q3 revision data are thin.",
+      "key_sources": ["https://hbtbank.gcs-web.com/news-releases/news-release-details/hbt-financial-inc-announces-second-quarter-2026-financial", "https://za.investing.com/news/stock-market-news/hbt-financial-earnings-on-deck-can-bank-sustain-growth-surge-93CH-4522883", "https://www.earningswhispers.com/calendar/20261026"]
+    },
+    {
+      "rank": 8, "ticker": "DEA", "company": "Easterly Government Properties", "timing": "Oct. 26 BMO; call 11:00 a.m. ET",
+      "direction_call": "Neutral / No Edge", "direction_score": 16, "reversal_risk": 45, "disparity": 5, "confidence": "Low",
+      "expected_driver": "Core FFO guide / leverage", "key_risk_to_call": "7.1x leverage and rate sensitivity", "evidence_quality": "High",
+      "pass_agreement": "A/B/C mildly constructive", "method_update_note": "None",
+      "one_sentence_thesis": "High occupancy and a raised FFO guide are constructive, but leverage and near-5% Treasury yields leave little clean event edge.",
+      "market_expectation_summary": "The decisive metric is full-year core FFO guidance of $3.07-$3.13, with occupancy and leverage as quality checks.",
+      "upside_case_summary": "Guidance rises again, development leasing holds and refinancing risk eases.",
+      "downside_case_summary": "Higher funding costs or leverage outweigh stable government tenancy.",
+      "options_or_positioning_summary": "No robust public implied move was available; REIT factor moves may dominate.",
+      "analyst_revision_summary": "Q2 guidance was raised only slightly; the market likely needs another clean raise for upside.",
+      "key_sources": ["https://ir.easterlyreit.com/news-releases/news-release-details/easterly-government-properties-schedules-third-quarter-2026", "https://ir.easterlyreit.com/news-releases/news-release-details/easterly-government-properties-reports-second-quarter-2026"]
+    },
+    {
+      "rank": 9, "ticker": "MMYT", "company": "MakeMyTrip", "timing": "Oct. 26 BMO; event 7:30 a.m. ET",
+      "direction_call": "Neutral / No Edge", "direction_score": 4, "reversal_risk": 64, "disparity": 20, "confidence": "Low",
+      "expected_driver": "Gross bookings / adjusted EBIT margin", "key_risk_to_call": "Growth deceleration, regulatory claims, high bar", "evidence_quality": "Medium-High",
+      "pass_agreement": "Material directional disagreement", "method_update_note": "Premium-growth disagreement penalty applied",
+      "one_sentence_thesis": "Nearly 20% constant-currency booking growth is attractive, but the collapse from August levels, regulatory overhang and uncertain margin bar produced no consensus edge.",
+      "market_expectation_summary": "The market expects continued double-digit bookings and revenue growth; adjusted EBIT conversion matters more than headline bookings.",
+      "upside_case_summary": "Hotel and air bookings stay strong, take rates hold and margin expands.",
+      "downside_case_summary": "Growth normalizes, marketing intensity rises or regulatory commentary dominates a decent print.",
+      "options_or_positioning_summary": "No robust public implied move was available; the stock is down sharply from August levels, creating both de-risking and broken-momentum risk.",
+      "analyst_revision_summary": "Q1 gross bookings grew 19.9% in constant currency and IFRS revenue 16.1%; current consensus feeds are inconsistent.",
+      "key_sources": ["https://investors.makemytrip.com/us/investors/events-and-presentations", "https://www.sec.gov/Archives/edgar/data/1495153/000119312526329581/mmyt-ex99_1.htm", "https://investors.makemytrip.com/us/investors/press-releases"]
+    },
+    {
+      "rank": 10, "ticker": "MED", "company": "Medifast", "timing": "Oct. 26 BMO; call 8:30 a.m. ET",
+      "direction_call": "Lean Down", "direction_score": -48, "reversal_risk": 63, "disparity": 8, "confidence": "Medium",
+      "expected_driver": "Active coaches / revenue stabilization", "key_risk_to_call": "Low-bar turnaround squeeze", "evidence_quality": "High",
+      "pass_agreement": "A/B/C bearish; low disparity", "method_update_note": "Low-bar reversal-risk floor applied",
+      "one_sentence_thesis": "A 49% active-coach decline and 28% revenue contraction keep the base case bearish, but any credible stabilization could trigger a sharp relief rally.",
+      "market_expectation_summary": "Management guided Q3 revenue to $60-$80M and loss per share to $0.15-$0.65; active-coach attrition and the Q4 profitability target are decisive.",
+      "upside_case_summary": "Trilivy lifts coach productivity, revenue stabilizes and the Q4 profitability target holds.",
+      "downside_case_summary": "Coach attrition persists, gross margin weakens and the profitability target slips.",
+      "options_or_positioning_summary": "No reliable public implied move was available; compressed expectations make squeeze risk high.",
+      "analyst_revision_summary": "The public bar is low, but evidence of a durable demand turn remains limited.",
+      "key_sources": ["https://ir.medifastinc.com/news/news-details/2026/Medifast-to-Announce-Financial-Results-for-the-Third-Quarter-Ended-September-30-2026/default.aspx", "https://ir.medifastinc.com/news/news-details/2026/Medifast-Announces-Second-Quarter-2026-Financial-Results/default.aspx", "https://www.marketbeat.com/earnings/2026-10-26/"]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified": ["CX", "VZ", "ARLP", "BOH"],
+    "excluded_high_reversal_risk": ["BMRC", "HBT", "DEA", "MMYT", "MED"],
+    "distribution": [
+      {"ticker": "CX", "direction": "Lean Up", "weight_percent": 32},
+      {"ticker": "VZ", "direction": "Lean Up", "weight_percent": 27},
+      {"ticker": "ARLP", "direction": "Lean Up", "weight_percent": 22},
+      {"ticker": "BOH", "direction": "Lean Up", "weight_percent": 19}
+    ],
+    "unallocated_percent": 0,
+    "statement": "Research prioritization model only; not financial advice."
+  },
+  "detailed_company_sections": [
+    {"ticker": "CX", "consensus_summary": "Scores 56/46/48; risks 33/39/36.", "averaged_direction_score": 50, "averaged_reversal_risk": 36, "disparity": 5, "pass_agreement": "All bullish", "recommendation": "Lean Up", "confidence": "Medium", "allocation_priority": true, "allocation_rationale": "Strongest score, low reversal risk, high evidence and low disparity.", "disparity_effect": "Raised priority.", "method_update_note": "Priced-in check applied."},
+    {"ticker": "VZ", "consensus_summary": "Scores 49/37/43; risks 35/43/39.", "averaged_direction_score": 43, "averaged_reversal_risk": 39, "disparity": 5, "pass_agreement": "All bullish", "recommendation": "Lean Up", "confidence": "Medium", "allocation_priority": true, "allocation_rationale": "Score above 30, adequate evidence and reversal risk below 40.", "disparity_effect": "Supported conviction.", "method_update_note": "Forward-look override applied."},
+    {"ticker": "ARLP", "consensus_summary": "Scores 43/31/37; risks 35/42/37.", "averaged_direction_score": 37, "averaged_reversal_risk": 38, "disparity": 5, "pass_agreement": "All bullish", "recommendation": "Lean Up", "confidence": "Medium", "allocation_priority": true, "allocation_rationale": "Score above 30 with low disagreement and acceptable reversal risk.", "disparity_effect": "Supported priority.", "method_update_note": "None."},
+    {"ticker": "BOH", "consensus_summary": "Scores 38/27/34; risks 33/40/35.", "averaged_direction_score": 33, "averaged_reversal_risk": 36, "disparity": 5, "pass_agreement": "All bullish", "recommendation": "Lean Up", "confidence": "Medium", "allocation_priority": true, "allocation_rationale": "Barely cleared score threshold with high evidence and low risk.", "disparity_effect": "Kept allocation modest.", "method_update_note": "None."},
+    {"ticker": "LKFN", "consensus_summary": "Scores 34/23/30; risks 36/43/39.", "averaged_direction_score": 29, "averaged_reversal_risk": 39, "disparity": 7, "pass_agreement": "Constructive", "recommendation": "Lean Up", "confidence": "Medium", "allocation_priority": false, "allocation_rationale": "Score did not exceed 30.", "disparity_effect": "Low disagreement but insufficient magnitude.", "method_update_note": "None."},
+    {"ticker": "BMRC", "consensus_summary": "Scores 32/22/27; risks 39/45/42.", "averaged_direction_score": 27, "averaged_reversal_risk": 42, "disparity": 7, "pass_agreement": "Constructive", "recommendation": "Lean Up", "confidence": "Low", "allocation_priority": false, "allocation_rationale": "Score below 30 and risk above 40.", "disparity_effect": "Did not overcome weak magnitude.", "method_update_note": "Hidden-risk check applied."},
+    {"ticker": "HBT", "consensus_summary": "Scores 27/10/20; risks 46/57/50.", "averaged_direction_score": 19, "averaged_reversal_risk": 51, "disparity": 8, "pass_agreement": "Positive, magnitude differs", "recommendation": "Neutral / No Edge", "confidence": "Low", "allocation_priority": false, "allocation_rationale": "Weak score and high reversal risk.", "disparity_effect": "Reduced confidence.", "method_update_note": "Hidden-risk check applied."},
+    {"ticker": "DEA", "consensus_summary": "Scores 21/11/16; risks 42/49/44.", "averaged_direction_score": 16, "averaged_reversal_risk": 45, "disparity": 5, "pass_agreement": "Mildly constructive", "recommendation": "Neutral / No Edge", "confidence": "Low", "allocation_priority": false, "allocation_rationale": "Weak score and rate sensitivity.", "disparity_effect": "Agreement did not create edge.", "method_update_note": "None."},
+    {"ticker": "MMYT", "consensus_summary": "Scores 31/-25/6; risks 58/70/64.", "averaged_direction_score": 4, "averaged_reversal_risk": 64, "disparity": 20, "pass_agreement": "Material directional disagreement", "recommendation": "Neutral / No Edge", "confidence": "Low", "allocation_priority": false, "allocation_rationale": "No consensus direction and high reversal risk.", "disparity_effect": "Materially reduced conviction.", "method_update_note": "Premium-growth disagreement penalty applied."},
+    {"ticker": "MED", "consensus_summary": "Scores -55/-43/-46; risks 58/68/63.", "averaged_direction_score": -48, "averaged_reversal_risk": 63, "disparity": 8, "pass_agreement": "All bearish", "recommendation": "Lean Down", "confidence": "Medium", "allocation_priority": false, "allocation_rationale": "High low-bar squeeze risk excludes it.", "disparity_effect": "Agreement supports direction but not allocation.", "method_update_note": "Low-bar reversal-risk floor applied."}
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
