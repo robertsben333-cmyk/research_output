@@ -959,12 +959,12 @@
       {
         "ticker": "HWM",
         "direction": "Strong Up",
-        "share_percent": 20
+        "share_percent": 22
       },
       {
         "ticker": "THC",
         "direction": "Lean Up",
-        "share_percent": 14
+        "share_percent": 15
       },
       {
         "ticker": "FTNT",
@@ -979,12 +979,12 @@
       {
         "ticker": "MA",
         "direction": "Lean Up",
-        "share_percent": 13
+        "share_percent": 14
       },
       {
         "ticker": "ICE",
         "direction": "Lean Up",
-        "share_percent": 11
+        "share_percent": 12
       },
       {
         "ticker": "ORLY",
@@ -994,11 +994,11 @@
       {
         "ticker": "TMUS",
         "direction": "Lean Up",
-        "share_percent": 6
+        "share_percent": 7
       }
     ],
-    "unallocated_percent": 6,
-    "rationale": "Only names with absolute consensus score above 30, reversal risk at or below 40, and sufficient evidence quality were eligible. Six percent remains unallocated rather than forcing a marginal setup.",
+    "unallocated_percent": 0,
+    "rationale": "Only names with absolute consensus score above 30, reversal risk at or below 40, and sufficient evidence quality were eligible. The eight qualifying names sum to one combined 100% research basket.",
     "excluded_for_reversal_risk": [
       "F",
       "CMG",
@@ -1036,7 +1036,7 @@
       "bull_case": "Engine growth and margins exceed guidance again.",
       "bear_case": "Build-rate, acquisition, or input-cost friction.",
       "final_directional_judgment": "Strong Up at 64.3; the score expresses direction, not a promise to exceed the implied move.",
-      "research_allocation_priority": "Qualified for 20% of the combined research basket.",
+      "research_allocation_priority": "Qualified for 22% of the combined research basket.",
       "disparity_impact": "Low disparity supported conviction quality.",
       "method_update_note": "None",
       "key_sources": [
@@ -1066,7 +1066,7 @@
       "bull_case": "Hospital margin and ambulatory EBITDA beat.",
       "bear_case": "Case softness or payer mix reverses margins.",
       "final_directional_judgment": "Lean Up at 51.7; the score expresses direction, not a promise to exceed the implied move.",
-      "research_allocation_priority": "Qualified for 14% of the combined research basket.",
+      "research_allocation_priority": "Qualified for 15% of the combined research basket.",
       "disparity_impact": "Low disparity supported conviction quality.",
       "method_update_note": "None",
       "key_sources": [
@@ -1156,7 +1156,7 @@
       "bull_case": "Cross-border and VAS beat; margins hold.",
       "bear_case": "Travel slows; rebates/costs absorb growth.",
       "final_directional_judgment": "Lean Up at 42.7; the score expresses direction, not a promise to exceed the implied move.",
-      "research_allocation_priority": "Qualified for 13% of the combined research basket.",
+      "research_allocation_priority": "Qualified for 14% of the combined research basket.",
       "disparity_impact": "Low disparity supported conviction quality.",
       "method_update_note": "None",
       "key_sources": [
