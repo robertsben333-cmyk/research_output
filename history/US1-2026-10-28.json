@@ -1,0 +1,786 @@
+{
+  "generation_timestamp": "2026-10-28T18:20:00Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Wednesday, October 28, 2026 U.S. market close and before the Thursday, October 29, 2026 U.S. market open.",
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "The Federal Reserve decision and Chair press conference occur shortly before the after-close reports; AI-capex scrutiny, elevated oil, valuation sensitivity and Thursday GDP/PCE data can amplify or overwhelm company-specific reactions.",
+  "companies_reviewed_count": 10,
+  "qualified_ticker_universe": [
+    "GOOGL",
+    "LLY",
+    "MA",
+    "KLAC",
+    "FTNT",
+    "CAT",
+    "CMG",
+    "FDX",
+    "TMUS",
+    "MRK"
+  ],
+  "top_setups": {
+    "upward": [
+      "GOOGL",
+      "LLY",
+      "MA"
+    ],
+    "downward": [
+      "CAT",
+      "CMG",
+      "FDX"
+    ]
+  },
+  "consensus_method": {
+    "passes": 3,
+    "description": "Three independent evidence reviews on one fixed qualified universe; displayed scores and reversal risk are arithmetic means.",
+    "disparity_scale": "0-100; combines spread in the three direction and reversal-risk assessments, with lower values indicating tighter agreement."
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc.",
+      "timing": "Oct. 28, after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 43,
+      "reversal_risk": 51,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Google Cloud growth and margin",
+      "key_risk_to_call": "$195-$205B capex; 2027 spend",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; moderate spread",
+      "method_update_note": "Expectation-bar + capex override",
+      "one_sentence_thesis": "Cloud acceleration and resilient Search favor upside, but record AI spending makes guidance the decisive override.",
+      "market_expectation_summary": "About $3.02 EPS and $127.7-$127.9B revenue; Cloud conversion and capex matter more than headline EPS.",
+      "upside_case_summary": "Cloud growth and margins beat while capex stays credible.",
+      "downside_case_summary": "2027 capex rises faster than monetization or free cash flow.",
+      "options_or_positioning_summary": "No reliable free implied-move figure found; megacap AI positioning is crowded.",
+      "analyst_revision_summary": "Constructive previews; BofA modeled Cloud revenue above consensus.",
+      "key_sources": [
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://ng.investing.com/news/stock-market-news/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-2764518",
+        "https://finance.yahoo.com/technology/articles/alphabet-poised-third-quarter-beat-165702768.html"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 44,
+          "reversal_risk": 50
+        },
+        "pass_b": {
+          "direction_score": 38,
+          "reversal_risk": 54
+        },
+        "pass_c": {
+          "direction_score": 46,
+          "reversal_risk": 48
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "ticker": "LLY",
+      "company": "Eli Lilly and Company",
+      "timing": "Oct. 29, before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 50,
+      "disparity": 10,
+      "confidence": "Medium",
+      "expected_driver": "Mounjaro + Zepbound sales",
+      "key_risk_to_call": "60% YTD run; pricing / guide bar",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; widest spread",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "Incretin volume and likely guidance support favor upside, but the stock's large run demands another raise.",
+      "market_expectation_summary": "Visible Alpha sees about $22.5B revenue; Mounjaro and Zepbound nearly $15B combined.",
+      "upside_case_summary": "Incretin sales beat and full-year revenue guidance rises again.",
+      "downside_case_summary": "Pricing or supply mix disappoints, or the raise falls short of whispers.",
+      "options_or_positioning_summary": "No reliable free event-implied move found; strong YTD appreciation signals a high bar.",
+      "analyst_revision_summary": "RBC was about 2% above consensus sales and expected roughly a $2B guide increase.",
+      "key_sources": [
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/eli-lilly-earnings-preview-q3-2026",
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+        "https://finance.yahoo.com/healthcare/articles/eli-lilly-likely-post-strong-153241697.html"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 43,
+          "reversal_risk": 47
+        },
+        "pass_b": {
+          "direction_score": 35,
+          "reversal_risk": 55
+        },
+        "pass_c": {
+          "direction_score": 40,
+          "reversal_risk": 49
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "ticker": "MA",
+      "company": "Mastercard Incorporated",
+      "timing": "Oct. 29, before market open",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 36,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Cross-border volume growth",
+      "key_risk_to_call": "Travel slowdown; rebates / costs",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Cross-border and value-added-services growth plus upward EPS revisions create the cleanest risk-controlled positive setup.",
+      "market_expectation_summary": "About $5.14 EPS and $9.63B revenue; 13% cross-border assessments growth is projected.",
+      "upside_case_summary": "Cross-border, switched transactions and VAS clear estimates.",
+      "downside_case_summary": "Travel volume slows or rebates and expenses absorb revenue strength.",
+      "options_or_positioning_summary": "No reliable free implied move found; valuation is above industry but below its five-year median.",
+      "analyst_revision_summary": "Three upward and no downward EPS revisions over 60 days.",
+      "key_sources": [
+        "https://www.zacks.com/stock/news/3016329/mastercard-looks-poised-for-a-q3-earnings-beat-time-to-buy",
+        "https://financialreportinsights.com/insights/what-to-watch-ma-q3-2026",
+        "https://www.trefis.com/stock/ma/articles/621019/the-dates-that-matter-most-for-mastercard-stock/2026-10-28"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 36,
+          "reversal_risk": 34
+        },
+        "pass_b": {
+          "direction_score": 31,
+          "reversal_risk": 38
+        },
+        "pass_c": {
+          "direction_score": 34,
+          "reversal_risk": 36
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "KLAC",
+      "company": "KLA Corporation",
+      "timing": "Oct. 28, after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 47,
+      "disparity": 10,
+      "confidence": "Medium",
+      "expected_driver": "Process-control demand / backlog",
+      "key_risk_to_call": "~40x valuation; China / margin",
+      "evidence_quality": "Medium-High",
+      "pass_agreement": "3/3 Up; moderate spread",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "AI, advanced-node and packaging intensity support backlog conversion, though valuation and export risk limit conviction.",
+      "market_expectation_summary": "The market expects higher earnings and revenue, with focus on backlog shipments and forward gross margin.",
+      "upside_case_summary": "Advanced-node process-control demand sustains guide upside.",
+      "downside_case_summary": "China restrictions, DRAM input costs or shipment timing pressure margin.",
+      "options_or_positioning_summary": "No reliable free implied move found; the cited valuation is demanding.",
+      "analyst_revision_summary": "Public previews support higher earnings, but detailed current revisions were not consistently available.",
+      "key_sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/kla-stock-near-earnings-chip-011417381.html",
+        "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000016/0000319201-26-000016.pdf",
+        "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000024/0000319201-26-000024.pdf"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 38,
+          "reversal_risk": 43
+        },
+        "pass_b": {
+          "direction_score": 29,
+          "reversal_risk": 51
+        },
+        "pass_c": {
+          "direction_score": 34,
+          "reversal_risk": 47
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "ticker": "FTNT",
+      "company": "Fortinet, Inc.",
+      "timing": "Oct. 28, after market close",
+      "direction_call": "Lean Up",
+      "direction_score": 31,
+      "reversal_risk": 55,
+      "disparity": 9,
+      "confidence": "Medium",
+      "expected_driver": "Billings versus $2.25-$2.35B guide",
+      "key_risk_to_call": "Strong prior billings; high bar",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; moderate spread",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "Strong billings momentum favors upside, but the prior 33% growth print raises the unofficial hurdle materially.",
+      "market_expectation_summary": "Company guided $2.01-$2.10B revenue, $2.25-$2.35B billings and $0.83-$0.87 EPS.",
+      "upside_case_summary": "Billings and forward service revenue exceed the high bar.",
+      "downside_case_summary": "Growth normalizes or guidance fails to validate elevated expectations.",
+      "options_or_positioning_summary": "No reliable free implied move found; recent record-high commentary suggests crowded optimism.",
+      "analyst_revision_summary": "Published consensus near $0.86 EPS and $2.06B revenue sits inside guidance.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm",
+        "https://investor.fortinet.com/events-and-presentations",
+        "https://www.marketbeat.com/instant-alerts/upcoming-fortinet-ftnt-set-to-announce-quarterly-earnings-on-wednesday-2026-10-21/"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 35,
+          "reversal_risk": 52
+        },
+        "pass_b": {
+          "direction_score": 27,
+          "reversal_risk": 58
+        },
+        "pass_c": {
+          "direction_score": 31,
+          "reversal_risk": 55
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "CAT",
+      "company": "Caterpillar Inc.",
+      "timing": "Oct. 29, before market open",
+      "direction_call": "Lean Down",
+      "direction_score": -37,
+      "reversal_risk": 52,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Bookings momentum / backlog quality",
+      "key_risk_to_call": "$72B backlog can fuel beat",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Down; tight",
+      "method_update_note": "Backlog-quality guardrail",
+      "one_sentence_thesis": "A likely backlog-driven beat may not offset a prospective bookings slowdown that appears insufficiently reflected in valuation.",
+      "market_expectation_summary": "About $7.03 EPS and $20.7B revenue; analysts expect a beat but debate bookings durability.",
+      "upside_case_summary": "Power/data-center orders extend and backlog converts above plan.",
+      "downside_case_summary": "Bookings decelerate or management flags softer 2027 demand.",
+      "options_or_positioning_summary": "No reliable free implied move found; commentary specifically flags valuation as not pricing a bookings downshift.",
+      "analyst_revision_summary": "Healthy backlog supports estimates, but Bernstein warns behind-the-meter construction starts have slowed.",
+      "key_sources": [
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://www.zacks.com/stock/news/3015004/caterpillar-set-to-report-q3-earnings-buy-sell-or-hold-the-stock",
+        "https://news.cfosilvia.com/p/caterpillar-earnings-preview-order-backlog"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -41,
+          "reversal_risk": 49
+        },
+        "pass_b": {
+          "direction_score": -33,
+          "reversal_risk": 55
+        },
+        "pass_c": {
+          "direction_score": -38,
+          "reversal_risk": 51
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "ticker": "CMG",
+      "company": "Chipotle Mexican Grill, Inc.",
+      "timing": "Oct. 28, after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -37,
+      "reversal_risk": 46,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Comparable sales / traffic",
+      "key_risk_to_call": "Depressed stock; promo relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Down; tight",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Soft October traffic and a weak fast-casual backdrop outweigh a modest Q3 comp recovery, though the de-rated stock can rally on relief.",
+      "market_expectation_summary": "About $0.29 EPS, $3.28-$3.29B revenue and roughly 1% Q3 comparable-sales growth.",
+      "upside_case_summary": "Promotions restore traffic and management reaffirms a Q4 inflection.",
+      "downside_case_summary": "October comps and traffic validate the downgrade case.",
+      "options_or_positioning_summary": "Shares were near the 52-week low; low expectations increase relief-rally risk.",
+      "analyst_revision_summary": "TD Cowen downgraded on alternative data and modeled only 1% Q4 same-store sales growth.",
+      "key_sources": [
+        "https://ng.investing.com/news/stock-market-news/chipotle-set-to-report-earnings-amid-fastcasual-slowdown-93CH-2764452",
+        "https://www.streetinsider.com/General%2BNews/TD%2BCowen%2Bdowngrades%2BChipotle%2C%2Bcuts%2Btarget%2Bon%2Bsoft%2BOctober%2Bsales/27214632.html",
+        "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62445890/chipotle-q3-preview-promos-could-push-comp-positive-despite-food-safety-drag-says-bullish-analyst"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -39,
+          "reversal_risk": 44
+        },
+        "pass_b": {
+          "direction_score": -34,
+          "reversal_risk": 48
+        },
+        "pass_c": {
+          "direction_score": -37,
+          "reversal_risk": 46
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "ticker": "FDX",
+      "company": "FedEx Corporation",
+      "timing": "Oct. 28, after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -31,
+      "reversal_risk": 54,
+      "disparity": 9,
+      "confidence": "Medium",
+      "expected_driver": "CY26 EPS framework / cost execution",
+      "key_risk_to_call": "30.6% EPS reset enables relief",
+      "evidence_quality": "Medium-High",
+      "pass_agreement": "3/3 Down; moderate spread",
+      "method_update_note": "Expectation-bar check",
+      "one_sentence_thesis": "A sharply reduced EPS consensus and execution complexity lean negative, but the reset makes a cost-led relief beat plausible.",
+      "market_expectation_summary": "Consensus EPS was cut 30.6% to about $3.24; forward framework and restructuring execution matter most.",
+      "upside_case_summary": "Cost control and guidance stability clear the lowered bar.",
+      "downside_case_summary": "Volume, mix or separation-related execution weakens the forward framework.",
+      "options_or_positioning_summary": "No reliable free event-implied move found; the lowered estimate bar raises squeeze risk.",
+      "analyst_revision_summary": "The large EPS estimate cut is bearish evidence but also creates a less-bad-than-feared setup.",
+      "key_sources": [
+        "https://investors.fedex.com/news-and-events/upcoming-events/upcoming-events-details/2026/FedEx-Earnings-Call/default.aspx",
+        "https://www.zacks.com/stock/news/3016301/fedex-gears-up-for-q3-earnings-whats-in-store-for-the-stock",
+        "https://s21.q4cdn.com/665674268/files/doc_financials/2026/q4/FDX-Q4-FY26-Earnings-Presentation_Final.pdf"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -35,
+          "reversal_risk": 50
+        },
+        "pass_b": {
+          "direction_score": -27,
+          "reversal_risk": 58
+        },
+        "pass_c": {
+          "direction_score": -31,
+          "reversal_risk": 54
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "ticker": "TMUS",
+      "company": "T-Mobile US, Inc.",
+      "timing": "Oct. 28, after market close",
+      "direction_call": "Lean Down",
+      "direction_score": -29,
+      "reversal_risk": 62,
+      "disparity": 9,
+      "confidence": "Low",
+      "expected_driver": "Postpaid accounts + ARPA",
+      "key_risk_to_call": "De-risked stock; planned churn",
+      "evidence_quality": "High",
+      "pass_agreement": "2 Down / 1 Neutral",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "The planned churn spike and competitive pressure lean negative, but a bruised stock can rebound if ARPA proves the migration is working.",
+      "market_expectation_summary": "About 250K postpaid account adds and roughly $155 ARPA; revenue consensus is near $23.2B.",
+      "upside_case_summary": "ARPA reaches the upper end while churn pain stays contained.",
+      "downside_case_summary": "Weak adds spread into service revenue or costs and competition intensify.",
+      "options_or_positioning_summary": "The sector sold off sharply on SpaceX spectrum news, creating high relief/squeeze risk.",
+      "analyst_revision_summary": "JPMorgan held a 260K adds forecast but trimmed wireless service revenue; the company has a strong EPS beat history.",
+      "key_sources": [
+        "https://www.t-mobile.com/news/business/t-mobile-to-host-q3-2026-earnings-call-on-october-28-2026",
+        "https://www.earningswhispers.com/article/TMUS/20993",
+        "https://www.zacks.com/stock/news/3014027/can-healthy-revenue-growth-boost-t-mobiles-q3-earnings",
+        "https://www.kiplinger.com/investing/stocks/stocks-climb-a-wall-of-worry-ahead-of-earnings-stock-market-today"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -32,
+          "reversal_risk": 58
+        },
+        "pass_b": {
+          "direction_score": -25,
+          "reversal_risk": 66
+        },
+        "pass_c": {
+          "direction_score": -29,
+          "reversal_risk": 62
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "ticker": "MRK",
+      "company": "Merck & Co., Inc.",
+      "timing": "Oct. 29, before market open",
+      "direction_call": "Lean Down",
+      "direction_score": -27,
+      "reversal_risk": 44,
+      "disparity": 6,
+      "confidence": "Medium",
+      "expected_driver": "Keytruda growth / 2027 tone",
+      "key_risk_to_call": "Gardasil seasonality; pipeline relief",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Down; tight",
+      "method_update_note": "Forward-look override",
+      "one_sentence_thesis": "Moderating Keytruda growth and a modest 2027 setup lean negative despite seasonal Gardasil and newer-product support.",
+      "market_expectation_summary": "RBC sees about $2.12 EPS versus $2.11 consensus, with Keytruda nearing peak penetration in core tumors.",
+      "upside_case_summary": "Gardasil seasonality, Qlex and newer products offset Keytruda moderation.",
+      "downside_case_summary": "Keytruda slows and 2027 commentary confirms only modest growth.",
+      "options_or_positioning_summary": "No reliable free event-implied move found; defensive positioning tempers event magnitude.",
+      "analyst_revision_summary": "RBC's estimate is slightly above consensus, but its 2027 interpretation is restrained.",
+      "key_sources": [
+        "https://www.merck.com/investor-relations/events-and-presentations/",
+        "https://finance.yahoo.com/healthcare/articles/merck-apos-recent-commentary-signals-145435920.html",
+        "https://www.merck.com/wp-content/uploads/sites/124/2026/08/MRK-06.30.2026-10Q-FINAL.pdf"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -29,
+          "reversal_risk": 41
+        },
+        "pass_b": {
+          "direction_score": -24,
+          "reversal_risk": 47
+        },
+        "pass_c": {
+          "direction_score": -27,
+          "reversal_risk": 44
+        }
+      }
+    }
+  ],
+  "research_allocation_view": {
+    "qualified": [
+      {
+        "ticker": "MA",
+        "direction": "Lean Up",
+        "allocation_percent": 55,
+        "reason": "Score 34, reversal risk 36, tight 5 disparity and high evidence quality."
+      }
+    ],
+    "unallocated_percent": 45,
+    "excluded_high_reversal_risk": [
+      "GOOGL",
+      "LLY",
+      "KLAC",
+      "FTNT",
+      "CAT",
+      "CMG",
+      "FDX",
+      "TMUS",
+      "MRK"
+    ],
+    "note": "A single combined research-prioritization basket; weak or high-reversal-risk names were not forced into allocation. This is not financial advice."
+  },
+  "learned_lessons_review": {
+    "method_change_for_run": false,
+    "active_guardrails": [
+      "expectation-bar check",
+      "single decisive metric",
+      "forward-look override",
+      "separate reversal risk"
+    ],
+    "note": "Existing repeated lessons were applied narrowly; no new method change was warranted."
+  },
+  "detailed_company_sections": [
+    {
+      "ticker": "GOOGL",
+      "consensus_summary": "3/3 Up; moderate spread; consensus Lean Up.",
+      "averaged_direction_score": 43,
+      "averaged_reversal_risk": 51,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "3/3 Up; moderate spread",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Cloud acceleration and resilient Search favor upside, but record AI spending makes guidance the decisive override.",
+      "market_expectation_summary": "About $3.02 EPS and $127.7-$127.9B revenue; Cloud conversion and capex matter more than headline EPS.",
+      "upside_case": "Cloud growth and margins beat while capex stays credible.",
+      "downside_case": "2027 capex rises faster than monetization or free cash flow.",
+      "reversal_risk_assessment": "51/100",
+      "sentiment_read": "Investor discussion is bullish on Cloud but repeatedly flags capex; social evidence is supportive but noisy.",
+      "positioning_read": "No reliable free implied-move figure found; megacap AI positioning is crowded.",
+      "analyst_revision_read": "Constructive previews; BofA modeled Cloud revenue above consensus.",
+      "base_case": "Cloud acceleration and resilient Search favor upside, but record AI spending makes guidance the decisive override.",
+      "bull_case": "Cloud growth and margins beat while capex stays credible.",
+      "bear_case": "2027 capex rises faster than monetization or free cash flow.",
+      "final_directional_judgment": "Lean Up at 43; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 8/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Expectation-bar + capex override",
+      "key_sources": [
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://ng.investing.com/news/stock-market-news/google-earnings-up-next-can-cloud-growth-justify-record-ai-spending-93CH-2764518",
+        "https://finance.yahoo.com/technology/articles/alphabet-poised-third-quarter-beat-165702768.html"
+      ]
+    },
+    {
+      "ticker": "LLY",
+      "consensus_summary": "3/3 Up; widest spread; consensus Lean Up.",
+      "averaged_direction_score": 39,
+      "averaged_reversal_risk": 50,
+      "disparity_metric": 10,
+      "pass_agreement_pattern": "3/3 Up; widest spread",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Incretin volume and likely guidance support favor upside, but the stock's large run demands another raise.",
+      "market_expectation_summary": "Visible Alpha sees about $22.5B revenue; Mounjaro and Zepbound nearly $15B combined.",
+      "upside_case": "Incretin sales beat and full-year revenue guidance rises again.",
+      "downside_case": "Pricing or supply mix disappoints, or the raise falls short of whispers.",
+      "reversal_risk_assessment": "50/100",
+      "sentiment_read": "Consumer demand remains powerful; social enthusiasm is high but not used as primary evidence.",
+      "positioning_read": "No reliable free event-implied move found; strong YTD appreciation signals a high bar.",
+      "analyst_revision_read": "RBC was about 2% above consensus sales and expected roughly a $2B guide increase.",
+      "base_case": "Incretin volume and likely guidance support favor upside, but the stock's large run demands another raise.",
+      "bull_case": "Incretin sales beat and full-year revenue guidance rises again.",
+      "bear_case": "Pricing or supply mix disappoints, or the raise falls short of whispers.",
+      "final_directional_judgment": "Lean Up at 39; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 10/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/eli-lilly-earnings-preview-q3-2026",
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+        "https://finance.yahoo.com/healthcare/articles/eli-lilly-likely-post-strong-153241697.html"
+      ]
+    },
+    {
+      "ticker": "MA",
+      "consensus_summary": "3/3 Up; tight; consensus Lean Up.",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 36,
+      "disparity_metric": 5,
+      "pass_agreement_pattern": "3/3 Up; tight",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Cross-border and value-added-services growth plus upward EPS revisions create the cleanest risk-controlled positive setup.",
+      "market_expectation_summary": "About $5.14 EPS and $9.63B revenue; 13% cross-border assessments growth is projected.",
+      "upside_case": "Cross-border, switched transactions and VAS clear estimates.",
+      "downside_case": "Travel volume slows or rebates and expenses absorb revenue strength.",
+      "reversal_risk_assessment": "36/100",
+      "sentiment_read": "Low retail intensity; transaction data and travel demand are more informative than social chatter.",
+      "positioning_read": "No reliable free implied move found; valuation is above industry but below its five-year median.",
+      "analyst_revision_read": "Three upward and no downward EPS revisions over 60 days.",
+      "base_case": "Cross-border and value-added-services growth plus upward EPS revisions create the cleanest risk-controlled positive setup.",
+      "bull_case": "Cross-border, switched transactions and VAS clear estimates.",
+      "bear_case": "Travel volume slows or rebates and expenses absorb revenue strength.",
+      "final_directional_judgment": "Lean Up at 34; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Qualified for 55% of the research basket; score above 30, reversal risk at or below 40, tight disparity, and strong evidence.",
+      "disparity_impact_note": "Disparity 5/100 was low and supported conviction.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://www.zacks.com/stock/news/3016329/mastercard-looks-poised-for-a-q3-earnings-beat-time-to-buy",
+        "https://financialreportinsights.com/insights/what-to-watch-ma-q3-2026",
+        "https://www.trefis.com/stock/ma/articles/621019/the-dates-that-matter-most-for-mastercard-stock/2026-10-28"
+      ]
+    },
+    {
+      "ticker": "KLAC",
+      "consensus_summary": "3/3 Up; moderate spread; consensus Lean Up.",
+      "averaged_direction_score": 34,
+      "averaged_reversal_risk": 47,
+      "disparity_metric": 10,
+      "pass_agreement_pattern": "3/3 Up; moderate spread",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "AI, advanced-node and packaging intensity support backlog conversion, though valuation and export risk limit conviction.",
+      "market_expectation_summary": "The market expects higher earnings and revenue, with focus on backlog shipments and forward gross margin.",
+      "upside_case": "Advanced-node process-control demand sustains guide upside.",
+      "downside_case": "China restrictions, DRAM input costs or shipment timing pressure margin.",
+      "reversal_risk_assessment": "47/100",
+      "sentiment_read": "AI infrastructure enthusiasm is strong and potentially crowded; consumer sentiment is not relevant.",
+      "positioning_read": "No reliable free implied move found; the cited valuation is demanding.",
+      "analyst_revision_read": "Public previews support higher earnings, but detailed current revisions were not consistently available.",
+      "base_case": "AI, advanced-node and packaging intensity support backlog conversion, though valuation and export risk limit conviction.",
+      "bull_case": "Advanced-node process-control demand sustains guide upside.",
+      "bear_case": "China restrictions, DRAM input costs or shipment timing pressure margin.",
+      "final_directional_judgment": "Lean Up at 34; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 10/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/kla-stock-near-earnings-chip-011417381.html",
+        "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000016/0000319201-26-000016.pdf",
+        "https://ir.kla.com/sec-filings/all-sec-filings/content/0000319201-26-000024/0000319201-26-000024.pdf"
+      ]
+    },
+    {
+      "ticker": "FTNT",
+      "consensus_summary": "3/3 Up; moderate spread; consensus Lean Up.",
+      "averaged_direction_score": 31,
+      "averaged_reversal_risk": 55,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "3/3 Up; moderate spread",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "thesis": "Strong billings momentum favors upside, but the prior 33% growth print raises the unofficial hurdle materially.",
+      "market_expectation_summary": "Company guided $2.01-$2.10B revenue, $2.25-$2.35B billings and $0.83-$0.87 EPS.",
+      "upside_case": "Billings and forward service revenue exceed the high bar.",
+      "downside_case": "Growth normalizes or guidance fails to validate elevated expectations.",
+      "reversal_risk_assessment": "55/100",
+      "sentiment_read": "Cybersecurity/AI enthusiasm is positive but promotion risk is meaningful; it receives little score weight.",
+      "positioning_read": "No reliable free implied move found; recent record-high commentary suggests crowded optimism.",
+      "analyst_revision_read": "Published consensus near $0.86 EPS and $2.06B revenue sits inside guidance.",
+      "base_case": "Strong billings momentum favors upside, but the prior 33% growth print raises the unofficial hurdle materially.",
+      "bull_case": "Billings and forward service revenue exceed the high bar.",
+      "bear_case": "Growth normalizes or guidance fails to validate elevated expectations.",
+      "final_directional_judgment": "Lean Up at 31; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 9/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm",
+        "https://investor.fortinet.com/events-and-presentations",
+        "https://www.marketbeat.com/instant-alerts/upcoming-fortinet-ftnt-set-to-announce-quarterly-earnings-on-wednesday-2026-10-21/"
+      ]
+    },
+    {
+      "ticker": "CAT",
+      "consensus_summary": "3/3 Down; tight; consensus Lean Down.",
+      "averaged_direction_score": -37,
+      "averaged_reversal_risk": 52,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "3/3 Down; tight",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "A likely backlog-driven beat may not offset a prospective bookings slowdown that appears insufficiently reflected in valuation.",
+      "market_expectation_summary": "About $7.03 EPS and $20.7B revenue; analysts expect a beat but debate bookings durability.",
+      "upside_case": "Power/data-center orders extend and backlog converts above plan.",
+      "downside_case": "Bookings decelerate or management flags softer 2027 demand.",
+      "reversal_risk_assessment": "52/100",
+      "sentiment_read": "AI-power enthusiasm supports the stock; social discussion is constructive but not decisive.",
+      "positioning_read": "No reliable free implied move found; commentary specifically flags valuation as not pricing a bookings downshift.",
+      "analyst_revision_read": "Healthy backlog supports estimates, but Bernstein warns behind-the-meter construction starts have slowed.",
+      "base_case": "A likely backlog-driven beat may not offset a prospective bookings slowdown that appears insufficiently reflected in valuation.",
+      "bull_case": "Power/data-center orders extend and backlog converts above plan.",
+      "bear_case": "Bookings decelerate or management flags softer 2027 demand.",
+      "final_directional_judgment": "Lean Down at -37; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 8/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Backlog-quality guardrail",
+      "key_sources": [
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://www.zacks.com/stock/news/3015004/caterpillar-set-to-report-q3-earnings-buy-sell-or-hold-the-stock",
+        "https://news.cfosilvia.com/p/caterpillar-earnings-preview-order-backlog"
+      ]
+    },
+    {
+      "ticker": "CMG",
+      "consensus_summary": "3/3 Down; tight; consensus Lean Down.",
+      "averaged_direction_score": -37,
+      "averaged_reversal_risk": 46,
+      "disparity_metric": 5,
+      "pass_agreement_pattern": "3/3 Down; tight",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "Soft October traffic and a weak fast-casual backdrop outweigh a modest Q3 comp recovery, though the de-rated stock can rally on relief.",
+      "market_expectation_summary": "About $0.29 EPS, $3.28-$3.29B revenue and roughly 1% Q3 comparable-sales growth.",
+      "upside_case": "Promotions restore traffic and management reaffirms a Q4 inflection.",
+      "downside_case": "October comps and traffic validate the downgrade case.",
+      "reversal_risk_assessment": "46/100",
+      "sentiment_read": "Customer/product chatter is mixed after food-safety pressure; isolated social posts are too noisy to drive the call.",
+      "positioning_read": "Shares were near the 52-week low; low expectations increase relief-rally risk.",
+      "analyst_revision_read": "TD Cowen downgraded on alternative data and modeled only 1% Q4 same-store sales growth.",
+      "base_case": "Soft October traffic and a weak fast-casual backdrop outweigh a modest Q3 comp recovery, though the de-rated stock can rally on relief.",
+      "bull_case": "Promotions restore traffic and management reaffirms a Q4 inflection.",
+      "bear_case": "October comps and traffic validate the downgrade case.",
+      "final_directional_judgment": "Lean Down at -37; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 5/100 was low and supported conviction.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://ng.investing.com/news/stock-market-news/chipotle-set-to-report-earnings-amid-fastcasual-slowdown-93CH-2764452",
+        "https://www.streetinsider.com/General%2BNews/TD%2BCowen%2Bdowngrades%2BChipotle%2C%2Bcuts%2Btarget%2Bon%2Bsoft%2BOctober%2Bsales/27214632.html",
+        "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62445890/chipotle-q3-preview-promos-could-push-comp-positive-despite-food-safety-drag-says-bullish-analyst"
+      ]
+    },
+    {
+      "ticker": "FDX",
+      "consensus_summary": "3/3 Down; moderate spread; consensus Lean Down.",
+      "averaged_direction_score": -31,
+      "averaged_reversal_risk": 54,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "3/3 Down; moderate spread",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "A sharply reduced EPS consensus and execution complexity lean negative, but the reset makes a cost-led relief beat plausible.",
+      "market_expectation_summary": "Consensus EPS was cut 30.6% to about $3.24; forward framework and restructuring execution matter most.",
+      "upside_case": "Cost control and guidance stability clear the lowered bar.",
+      "downside_case": "Volume, mix or separation-related execution weakens the forward framework.",
+      "reversal_risk_assessment": "54/100",
+      "sentiment_read": "Low retail intensity; shipping demand and operating execution dominate social signals.",
+      "positioning_read": "No reliable free event-implied move found; the lowered estimate bar raises squeeze risk.",
+      "analyst_revision_read": "The large EPS estimate cut is bearish evidence but also creates a less-bad-than-feared setup.",
+      "base_case": "A sharply reduced EPS consensus and execution complexity lean negative, but the reset makes a cost-led relief beat plausible.",
+      "bull_case": "Cost control and guidance stability clear the lowered bar.",
+      "bear_case": "Volume, mix or separation-related execution weakens the forward framework.",
+      "final_directional_judgment": "Lean Down at -31; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 9/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Expectation-bar check",
+      "key_sources": [
+        "https://investors.fedex.com/news-and-events/upcoming-events/upcoming-events-details/2026/FedEx-Earnings-Call/default.aspx",
+        "https://www.zacks.com/stock/news/3016301/fedex-gears-up-for-q3-earnings-whats-in-store-for-the-stock",
+        "https://s21.q4cdn.com/665674268/files/doc_financials/2026/q4/FDX-Q4-FY26-Earnings-Presentation_Final.pdf"
+      ]
+    },
+    {
+      "ticker": "TMUS",
+      "consensus_summary": "2 Down / 1 Neutral; consensus Lean Down.",
+      "averaged_direction_score": -29,
+      "averaged_reversal_risk": 62,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "2 Down / 1 Neutral",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "thesis": "The planned churn spike and competitive pressure lean negative, but a bruised stock can rebound if ARPA proves the migration is working.",
+      "market_expectation_summary": "About 250K postpaid account adds and roughly $155 ARPA; revenue consensus is near $23.2B.",
+      "upside_case": "ARPA reaches the upper end while churn pain stays contained.",
+      "downside_case": "Weak adds spread into service revenue or costs and competition intensify.",
+      "reversal_risk_assessment": "62/100",
+      "sentiment_read": "Customer sentiment is visibly mixed on pricing/value; investor sentiment is bruised and reactive to SpaceX.",
+      "positioning_read": "The sector sold off sharply on SpaceX spectrum news, creating high relief/squeeze risk.",
+      "analyst_revision_read": "JPMorgan held a 260K adds forecast but trimmed wireless service revenue; the company has a strong EPS beat history.",
+      "base_case": "The planned churn spike and competitive pressure lean negative, but a bruised stock can rebound if ARPA proves the migration is working.",
+      "bull_case": "ARPA reaches the upper end while churn pain stays contained.",
+      "bear_case": "Weak adds spread into service revenue or costs and competition intensify.",
+      "final_directional_judgment": "Lean Down at -29; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 9/100 was low-to-moderate and tempered conviction.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://www.t-mobile.com/news/business/t-mobile-to-host-q3-2026-earnings-call-on-october-28-2026",
+        "https://www.earningswhispers.com/article/TMUS/20993",
+        "https://www.zacks.com/stock/news/3014027/can-healthy-revenue-growth-boost-t-mobiles-q3-earnings",
+        "https://www.kiplinger.com/investing/stocks/stocks-climb-a-wall-of-worry-ahead-of-earnings-stock-market-today"
+      ]
+    },
+    {
+      "ticker": "MRK",
+      "consensus_summary": "3/3 Down; tight; consensus Lean Down.",
+      "averaged_direction_score": -27,
+      "averaged_reversal_risk": 44,
+      "disparity_metric": 6,
+      "pass_agreement_pattern": "3/3 Down; tight",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "thesis": "Moderating Keytruda growth and a modest 2027 setup lean negative despite seasonal Gardasil and newer-product support.",
+      "market_expectation_summary": "RBC sees about $2.12 EPS versus $2.11 consensus, with Keytruda nearing peak penetration in core tumors.",
+      "upside_case": "Gardasil seasonality, Qlex and newer products offset Keytruda moderation.",
+      "downside_case": "Keytruda slows and 2027 commentary confirms only modest growth.",
+      "reversal_risk_assessment": "44/100",
+      "sentiment_read": "Low retail intensity; clinical enthusiasm exists but quarterly product trends dominate.",
+      "positioning_read": "No reliable free event-implied move found; defensive positioning tempers event magnitude.",
+      "analyst_revision_read": "RBC's estimate is slightly above consensus, but its 2027 interpretation is restrained.",
+      "base_case": "Moderating Keytruda growth and a modest 2027 setup lean negative despite seasonal Gardasil and newer-product support.",
+      "bull_case": "Gardasil seasonality, Qlex and newer products offset Keytruda moderation.",
+      "bear_case": "Keytruda slows and 2027 commentary confirms only modest growth.",
+      "final_directional_judgment": "Lean Down at -27; expected magnitude versus the options-implied move is uncertain because reliable free event pricing was unavailable.",
+      "allocation_priority_note": "Excluded by score, reversal-risk, or confidence threshold.",
+      "disparity_impact_note": "Disparity 6/100 was low and supported conviction.",
+      "method_update_note": "Forward-look override",
+      "key_sources": [
+        "https://www.merck.com/investor-relations/events-and-presentations/",
+        "https://finance.yahoo.com/healthcare/articles/merck-apos-recent-commentary-signals-145435920.html",
+        "https://www.merck.com/wp-content/uploads/sites/124/2026/08/MRK-06.30.2026-10Q-FINAL.pdf"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
