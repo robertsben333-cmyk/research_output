@@ -1,792 +1,1469 @@
 {
-  "generation_timestamp": "2026-10-28T18:08:22Z",
-  "covered_report_window": "Wednesday, October 28, 2026 after the U.S. market close through Thursday, October 29, 2026 before the U.S. market open",
+  "generation_timestamp": "2026-10-28T18:12:00Z",
+  "covered_report_window": "U.S.-listed companies reporting after the Wednesday, October 28, 2026 U.S. market close and before the Thursday, October 29, 2026 U.S. market open.",
   "report_type": "full_ranked_earnings_report",
-  "market_context_summary": "The FOMC statement arrived at 2:00 p.m. ET and Chair Kevin Warsh's press conference overlaps the final trading hour, while advance Q3 GDP, September PCE and jobless claims arrive at 8:30 a.m. ET before Thursday's open. Oil near $100, elevated long yields and renewed AI-capex scrutiny raise event beta.",
-  "companies_reviewed_count": 18,
+  "market_context_summary": "The Federal Reserve decision and Chair press conference occur shortly before the after-close reports; Thursday 8:30 a.m. ET GDP, PCE, income/spending, and claims data can move index futures before the pre-market names open. Elevated oil and intense AI-capex scrutiny raise macro and valuation sensitivity.",
+  "companies_reviewed_count": 22,
+  "calendar_entries_screened_count": 292,
+  "qualified_ticker_universe": [
+    "HWM",
+    "THC",
+    "F",
+    "FTNT",
+    "KLAC",
+    "CMG",
+    "MA",
+    "ICE",
+    "ORLY",
+    "DHI",
+    "LLY",
+    "EBAY",
+    "TMUS",
+    "MO",
+    "MBLY",
+    "LIN",
+    "GOOGL",
+    "MSFT",
+    "CAT",
+    "NOW",
+    "BMY",
+    "MRK"
+  ],
   "top_setups": {
     "upward": [
-      "GOOGL",
-      "TMUS",
-      "MA"
+      "HWM",
+      "THC",
+      "FTNT"
     ],
     "downward": [
-      "SFM",
-      "DHI",
-      "F"
-    ],
-    "neutral_or_mixed": [
-      "MRK",
-      "NOW"
+      "F",
+      "CMG",
+      "DHI"
     ]
+  },
+  "consensus_method": {
+    "passes": 3,
+    "description": "Three fully independent evidence reviews used one fixed qualified universe. Direction scores and reversal-risk values are arithmetic means.",
+    "disparity_formula": "70% of the capped range of the three direction scores plus 30% of the range of the three reversal-risk scores; 0 means identical assessments and 100 indicates extreme disagreement."
+  },
+  "learned_lessons_review": {
+    "method_change_applied": false,
+    "note": "No new method change. Existing key-metric, premium-growth priced-in, low-bar reversal, and disparity rules were applied."
   },
   "ranked_companies": [
     {
       "rank": 1,
-      "ticker": "TMUS",
-      "company": "T-Mobile US",
-      "timing": "Oct. 28 after close",
-      "direction_call": "Lean Up",
-      "direction_score": 42,
-      "reversal_risk": 36,
-      "confidence": "Medium",
-      "expected_driver": "Postpaid account adds, ARPA and service-revenue growth",
-      "key_risk_to_call": "SpaceX competition and a stronger Verizon quarter",
+      "ticker": "HWM",
+      "company": "Howmet Aerospace",
+      "timing": "Oct. 29 BMO",
+      "direction_call": "Strong Up",
+      "direction_score": 64.3,
+      "reversal_risk": 31,
+      "disparity": 7,
+      "confidence": "High",
+      "expected_driver": "Engine Products growth / EBITDA margin",
+      "key_risk_to_call": "Premium valuation; build-rate or input-cost miss",
       "evidence_quality": "High",
-      "one_sentence_thesis": "A post-SpaceX de-rating and continued service-revenue momentum leave room for upside if postpaid additions and ARPA clear the bar.",
-      "market_expectation_summary": "Consensus EPS is about $2.86 and postpaid ARPA about $154.16; options imply roughly a 5.7% move.",
-      "upside_case_summary": "Postpaid net adds and ARPA beat while management sustains customer-growth and cash-flow guidance.",
-      "downside_case_summary": "Competitive pressure, churn or slower account growth validates the recent de-rating.",
-      "options_or_positioning_summary": "Implied move is about 5.7%; the stock has materially de-risked since the October SpaceX spectrum announcement.",
-      "analyst_revision_summary": "Published EPS expectations imply roughly 10% year-over-year growth; evidence is constructive but not uniformly strong.",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Aerospace engine and spares momentum plus repeated guide raises support another beat.",
+      "market_expectation_summary": "Q2 revenue +24%, organic +21%, adjusted EBITDA margin 32.1%; Q3 margin guide about 32.2%.",
+      "upside_case_summary": "Engine growth and margins exceed guidance again.",
+      "downside_case_summary": "Build-rate, acquisition, or input-cost friction.",
+      "options_or_positioning_summary": "Options imply about 7.7%.",
+      "analyst_revision_summary": "Repeated beats and another FY guide increase.",
       "key_sources": [
-        "https://www.t-mobile.com/news/business/t-mobile-q2-2026-earnings",
-        "https://www.zacks.com/stock/news/3013703/ahead-of-t-mobile-tmus-q3-earnings-get-ready-with-wall-street-estimates-for-key-metrics",
-        "https://earningsmoves.com/t/TMUS/"
+        "https://www.howmet.com/press-release/2026-08-06/howmet-aerospace-reports-second-quarter-2026-results/",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 3,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "Low-bar/reversal guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 68,
+          "reversal_risk": 28
+        },
+        "pass_b": {
+          "direction_score": 61,
+          "reversal_risk": 34
+        },
+        "pass_c": {
+          "direction_score": 64,
+          "reversal_risk": 31
+        }
+      }
     },
     {
       "rank": 2,
-      "ticker": "MA",
-      "company": "Mastercard",
-      "timing": "Oct. 29 before open",
+      "ticker": "THC",
+      "company": "Tenet Healthcare",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Up",
-      "direction_score": 39,
-      "reversal_risk": 34,
-      "confidence": "High",
-      "expected_driver": "Cross-border volume, switched transactions and VAS revenue",
-      "key_risk_to_call": "Rebates, incentives or travel-spend slowdown",
+      "direction_score": 51.7,
+      "reversal_risk": 34.7,
+      "disparity": 8,
+      "confidence": "Medium",
+      "expected_driver": "Hospital margin and ambulatory EBITDA",
+      "key_risk_to_call": "Case volumes soft; payer-mix reversal",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Positive estimate revisions and durable cross-border and value-added-services growth support a modest upside edge with a relatively contained implied move.",
-      "market_expectation_summary": "Consensus is about $5.14 EPS on $9.63 billion revenue, with cross-border assessments up about 13%.",
-      "upside_case_summary": "Cross-border and switched volumes exceed the bar and expense growth remains controlled.",
-      "downside_case_summary": "Higher incentives or weaker travel spending offsets transaction growth.",
-      "options_or_positioning_summary": "Options imply about 3.5%, modestly above the recent four-quarter average move.",
-      "analyst_revision_summary": "Three upward and no downward EPS revisions were reported over the prior 60 days.",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Hospital margin expansion and a raised outlook outweigh soft ambulatory case growth.",
+      "market_expectation_summary": "Q2 adjusted EBITDA +16.3%; FY adjusted EBITDA guide raised to $4.83-$5.03B.",
+      "upside_case_summary": "Hospital margin and ambulatory EBITDA beat.",
+      "downside_case_summary": "Case softness or payer mix reverses margins.",
+      "options_or_positioning_summary": "Reliable free event move unavailable.",
+      "analyst_revision_summary": "Raised 2026 EBITDA and EPS outlook.",
       "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000081/ma06302026-exx991xearnings.htm",
-        "https://www.zacks.com/stock/news/3016329/mastercard-looks-poised-for-a-q3-earnings-beat-time-to-buy",
-        "https://www.tipranks.com/news/mastercard-q3-earnings-preview-what-analysts-and-options-traders-expect"
+        "https://investor.tenethealth.com/press-releases/press-release-details/2026/Tenet-Reports-Strong-Second-Quarter-2026-Results-Raises-2026-Financial-Outlook/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 3,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "None"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 56,
+          "reversal_risk": 31
+        },
+        "pass_b": {
+          "direction_score": 52,
+          "reversal_risk": 35
+        },
+        "pass_c": {
+          "direction_score": 47,
+          "reversal_risk": 38
+        }
+      }
     },
     {
       "rank": 3,
-      "ticker": "GOOGL",
-      "company": "Alphabet",
-      "timing": "Oct. 28 after close",
-      "direction_call": "Lean Up",
-      "direction_score": 45,
-      "reversal_risk": 49,
+      "ticker": "F",
+      "company": "Ford Motor",
+      "timing": "Oct. 28 AMC",
+      "direction_call": "Lean Down",
+      "direction_score": -49.3,
+      "reversal_risk": 43,
+      "disparity": 9,
       "confidence": "Medium",
-      "expected_driver": "Google Cloud growth and margin; Search growth",
-      "key_risk_to_call": "Capex near $200 billion and weak free cash flow",
+      "expected_driver": "Full-year adjusted EBIT guidance",
+      "key_risk_to_call": "Low bar; cost control or guide hold",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Cloud acceleration and resilient Search support the strongest raw upside score, but the stock can still fall if capex and free-cash-flow optics deteriorate.",
-      "market_expectation_summary": "Consensus revenue is near $127.9 billion and EPS near $3.00; Cloud growth, Search growth and capex are the real bar.",
-      "upside_case_summary": "Cloud remains very strong, margins hold and Search proves AI is additive.",
-      "downside_case_summary": "Capex rises again, free cash flow stays weak or Search growth slows against a tougher comparison.",
-      "options_or_positioning_summary": "Options imply about 5.8%, below the stock's long-run average post-earnings move.",
-      "analyst_revision_summary": "Revenue consensus rose materially since spring; analysts remain constructive but capex risk dominates the debate.",
+      "pass_agreement": "3/3 Down; tight",
+      "method_update_note": "Low-bar reversal floor",
+      "one_sentence_thesis": "F-150 supply disruption and an 80% EV-sales decline threaten the guide despite a reduced bar.",
+      "market_expectation_summary": "Consensus automotive revenue $46.2B, adjusted EPS $0.41; FY EBIT guide $10-$11B.",
+      "upside_case_summary": "Guide holds; costs and F-150 recovery reassure.",
+      "downside_case_summary": "Supply, EV losses, or tariffs force a guide cut.",
+      "options_or_positioning_summary": "Options source confirms an event market, but a clean current percentage was unavailable.",
+      "analyst_revision_summary": "Consensus sits near the upper half of the EBIT guide.",
       "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/microsoft-and-alphabet-earnings-previews",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        "https://finance.yahoo.com/markets/stocks/article/ford-q3-earnings-preview-guidance-boost-in-doubt-due-to-f-150-supply-snag-ev-slump-120716762.html",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 4,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "High-bar/capex guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -45,
+          "reversal_risk": 39
+        },
+        "pass_b": {
+          "direction_score": -54,
+          "reversal_risk": 47
+        },
+        "pass_c": {
+          "direction_score": -49,
+          "reversal_risk": 43
+        }
+      }
     },
     {
       "rank": 4,
-      "ticker": "HWM",
-      "company": "Howmet Aerospace",
-      "timing": "Oct. 29 before open",
+      "ticker": "FTNT",
+      "company": "Fortinet",
+      "timing": "Oct. 28 AMC",
       "direction_call": "Lean Up",
-      "direction_score": 38,
-      "reversal_risk": 40,
+      "direction_score": 44.3,
+      "reversal_risk": 39.3,
+      "disparity": 8,
       "confidence": "Medium",
-      "expected_driver": "Commercial aero and gas-turbine growth; EBITDA margin",
-      "key_risk_to_call": "Guide already exceeded by Street; execution bar",
+      "expected_driver": "Billings growth and forward billings guide",
+      "key_risk_to_call": "Prior 33% billings print raises bar",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Broad aerospace and gas-turbine demand plus positive revisions favor another beat, though consensus already sits above company guidance.",
-      "market_expectation_summary": "Analysts expect about $1.37 EPS and $2.59 billion revenue, slightly above the company's prior EPS and revenue ranges.",
-      "upside_case_summary": "Engine and gas-turbine growth stays above 20% and margins expand again.",
-      "downside_case_summary": "A merely in-line quarter or integration pressure fails the raised real bar.",
-      "options_or_positioning_summary": "Options imply about 7.8%, a meaningful but historically manageable event move.",
-      "analyst_revision_summary": "The consensus EPS estimate rose about 0.7% over the last month.",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Strong product and billings momentum favors upside, but only a clean beat-and-raise clears expectations.",
+      "market_expectation_summary": "Q2 revenue +26%, billings +33%; FY revenue guide raised to about 19% growth.",
+      "upside_case_summary": "Billings beat and FY guide rises.",
+      "downside_case_summary": "Billings normalize and guidance misses whispers.",
+      "options_or_positioning_summary": "Options imply about 11.3%.",
+      "analyst_revision_summary": "FY revenue growth guide raised to ~19%.",
       "key_sources": [
-        "https://www.howmet.com/press-release/2026-08-06/howmet-aerospace-reports-second-quarter-2026-results/",
-        "https://www.zacks.com/stock/news/3012835/howmet-hwm-reports-next-week-wall-street-expects-earnings-growth",
-        "https://earningsmoves.com/t/HWM/"
+        "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 4,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "High-bar guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 48,
+          "reversal_risk": 36
+        },
+        "pass_b": {
+          "direction_score": 40,
+          "reversal_risk": 43
+        },
+        "pass_c": {
+          "direction_score": 45,
+          "reversal_risk": 39
+        }
+      }
     },
     {
       "rank": 5,
-      "ticker": "FTNT",
-      "company": "Fortinet",
-      "timing": "Oct. 28 after close",
+      "ticker": "KLAC",
+      "company": "KLA",
+      "timing": "Oct. 28 AMC",
       "direction_call": "Lean Up",
-      "direction_score": 36,
-      "reversal_risk": 48,
+      "direction_score": 44.3,
+      "reversal_risk": 39,
+      "disparity": 11,
       "confidence": "Medium",
-      "expected_driver": "Billings, service revenue and FY26 guidance",
-      "key_risk_to_call": "Premium valuation and 11% implied move",
+      "expected_driver": "Process-control demand / fiscal Q2 guide",
+      "key_risk_to_call": "China controls; premium valuation",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Q2 billings acceleration and a raised full-year revenue outlook support upside, but valuation requires durable billings rather than an EPS-only beat.",
-      "market_expectation_summary": "Q3 revenue is expected near $2.06 billion and EPS near $0.86; billings are the decisive KPI.",
-      "upside_case_summary": "Billings and service growth remain strong and guidance rises again.",
-      "downside_case_summary": "Product growth slows or billings fail to validate the premium multiple.",
-      "options_or_positioning_summary": "Options imply about 11.4%, close to the historical event average.",
-      "analyst_revision_summary": "Recent analyst tone is mixed-to-positive, but no decisive revision wave was found.",
+      "pass_agreement": "3/3 Up; low-moderate spread",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "AI and advanced-node process intensity support backlog conversion and guidance.",
+      "market_expectation_summary": "FY2026 revenue rose 12%; market focus is fiscal Q2 guide and backlog conversion.",
+      "upside_case_summary": "AI process-control demand supports a higher guide.",
+      "downside_case_summary": "China controls or margin guide disappoint.",
+      "options_or_positioning_summary": "Options imply about 8.0%.",
+      "analyst_revision_summary": "Strong FY2026 finish; current detailed revisions were mixed/limited.",
       "key_sources": [
-        "https://investor.fortinet.com/static-files/e4ffcc79-194e-4ca3-9a69-8a51bd0a6314",
-        "https://thebuildout.co/earnings/preview/2026-10-28",
+        "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+        "https://delta.earningswhispers.com/calendar/20261029",
         "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 3,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "High-bar guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 50,
+          "reversal_risk": 34
+        },
+        "pass_b": {
+          "direction_score": 39,
+          "reversal_risk": 44
+        },
+        "pass_c": {
+          "direction_score": 44,
+          "reversal_risk": 39
+        }
+      }
     },
     {
       "rank": 6,
-      "ticker": "MSFT",
-      "company": "Microsoft",
-      "timing": "Oct. 28 after close",
-      "direction_call": "Lean Up",
-      "direction_score": 33,
-      "reversal_risk": 50,
+      "ticker": "CMG",
+      "company": "Chipotle Mexican Grill",
+      "timing": "Oct. 28 AMC",
+      "direction_call": "Lean Down",
+      "direction_score": -44,
+      "reversal_risk": 40.3,
+      "disparity": 11,
       "confidence": "Medium",
-      "expected_driver": "Azure growth versus 46% real bar; capex and margins",
-      "key_risk_to_call": "AI depreciation and a beat already expected",
+      "expected_driver": "Comparable sales and transaction growth",
+      "key_risk_to_call": "Raised guide; de-rated stock can rally",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Capacity additions and Azure demand support a beat, but the stock needs Azure above the real bar without a harsher capex or margin outlook.",
-      "market_expectation_summary": "Revenue consensus is roughly $90.6 billion; management guided Azure to about 45% constant-currency growth while investors appear closer to 46%.",
-      "upside_case_summary": "Azure tops 46%, commercial bookings stay firm and capex monetization improves.",
-      "downside_case_summary": "Azure only meets guidance while depreciation and FY27 capex pressure margins and free cash flow.",
-      "options_or_positioning_summary": "Options imply about 5.1%, close to Microsoft's long-run earnings move.",
-      "analyst_revision_summary": "Several target hikes cite Azure and enterprise AI, increasing the real expectations bar.",
+      "pass_agreement": "3/3 Down; low-moderate spread",
+      "method_update_note": "Key-metric-first",
+      "one_sentence_thesis": "Only 1% Q2 transaction growth and margin compression leave the traffic recovery vulnerable.",
+      "market_expectation_summary": "Q2 comps +2.2%, transactions +1.0%, restaurant margin 25.2% versus 27.4%.",
+      "upside_case_summary": "Traffic accelerates and raised guide holds.",
+      "downside_case_summary": "Transactions weaken and margins compress.",
+      "options_or_positioning_summary": "Options imply about 7.8%.",
+      "analyst_revision_summary": "Consensus still assumes a modest comp recovery.",
       "key_sources": [
-        "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
-        "https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4",
-        "https://www.geekwire.com/2026/microsoft-earnings-preview-employee-buyouts-ai-spending-and-a-new-financial-scorecard/"
+        "https://ir.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 5,
-      "pass_agreement": "All three passes Lean Up; modest score spread",
-      "method_update_note": "High-bar/capex guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -38,
+          "reversal_risk": 36
+        },
+        "pass_b": {
+          "direction_score": -50,
+          "reversal_risk": 45
+        },
+        "pass_c": {
+          "direction_score": -44,
+          "reversal_risk": 40
+        }
+      }
     },
     {
       "rank": 7,
-      "ticker": "LLY",
-      "company": "Eli Lilly",
-      "timing": "Oct. 29 before open",
+      "ticker": "MA",
+      "company": "Mastercard",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Up",
-      "direction_score": 37,
-      "reversal_risk": 50,
-      "confidence": "Medium",
-      "expected_driver": "Mounjaro and Zepbound volume, price and 2026 guide",
-      "key_risk_to_call": "Premium valuation and price/mix pressure",
+      "direction_score": 42.7,
+      "reversal_risk": 33.7,
+      "disparity": 6,
+      "confidence": "High",
+      "expected_driver": "Cross-border volume / VAS growth",
+      "key_risk_to_call": "31x valuation; rebates and Europe",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Exceptional incretin volume and upward external estimates support upside, but the stock needs another beat-and-raise to offset price pressure and valuation.",
-      "market_expectation_summary": "Visible Alpha expects about $22.5 billion revenue, with Mounjaro near $10 billion and Zepbound near $5 billion.",
-      "upside_case_summary": "International Mounjaro and Zepbound volumes beat while performance margin guidance rises.",
-      "downside_case_summary": "Realized prices fall faster, acquisitions dilute EPS quality or 2027 commentary disappoints.",
-      "options_or_positioning_summary": "Options imply about 6.3%, close to the long-run average.",
-      "analyst_revision_summary": "RBC is about 2% above revenue consensus; Bernstein raised its target and estimates on international upside.",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Cross-border spending, VAS growth, and upward revisions create a clean positive setup.",
+      "market_expectation_summary": "Consensus about $5.14-$5.17 EPS and $9.63-$9.66B revenue; cross-border is pivotal.",
+      "upside_case_summary": "Cross-border and VAS beat; margins hold.",
+      "downside_case_summary": "Travel slows; rebates/costs absorb growth.",
+      "options_or_positioning_summary": "Options imply about 3.9%.",
+      "analyst_revision_summary": "Three upward and no downward EPS revisions over 60 days.",
       "key_sources": [
-        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
-        "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/eli-lilly-earnings-preview-q3-2026",
-        "https://finance.yahoo.com/healthcare/articles/eli-lilly-likely-post-strong-153241697.html"
+        "https://investor.mastercard.com/events-and-presentations/events/",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 4,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "High-bar/forward-guide guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 46,
+          "reversal_risk": 31
+        },
+        "pass_b": {
+          "direction_score": 39,
+          "reversal_risk": 36
+        },
+        "pass_c": {
+          "direction_score": 43,
+          "reversal_risk": 34
+        }
+      }
     },
     {
       "rank": 8,
-      "ticker": "PWR",
-      "company": "Quanta Services",
-      "timing": "Oct. 29 before open",
+      "ticker": "ICE",
+      "company": "Intercontinental Exchange",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Up",
-      "direction_score": 34,
-      "reversal_risk": 63,
-      "confidence": "Medium",
-      "expected_driver": "Backlog/RPO conversion and 2027 capacity outlook",
-      "key_risk_to_call": "69x P/E, 12.5% implied move and crowded AI theme",
-      "evidence_quality": "High",
-      "one_sentence_thesis": "Record backlog and sharply higher financial expectations support growth, but the valuation and event pricing demand another large forward raise.",
-      "market_expectation_summary": "The market is focused on data-center orders and 2027 capacity rather than the reported EPS alone.",
-      "upside_case_summary": "RPO converts cleanly and management raises 2026 and 2027 expectations.",
-      "downside_case_summary": "Execution or margin commentary fails a very high AI-infrastructure bar.",
-      "options_or_positioning_summary": "Options imply about 12.5%, nearly double the long-run event average.",
-      "analyst_revision_summary": "Strong prior results drove higher expectations; the current real bar appears above published consensus.",
-      "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm",
-        "https://investors.quantaservices.com/",
-        "https://thebuildout.co/earnings/preview/2026-10-29"
-      ],
+      "direction_score": 41,
+      "reversal_risk": 28,
       "disparity": 5,
-      "pass_agreement": "All three passes Lean Up; modest score spread",
-      "method_update_note": "High-bar/backlog-conversion guardrail applied"
+      "confidence": "High",
+      "expected_driver": "Recurring data revenue and exchange volumes",
+      "key_risk_to_call": "Energy trading softness; mortgage drag",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Recurring data growth and broad financial-market activity support a modest beat.",
+      "market_expectation_summary": "Q2 recurring revenue +8%; FY data recurring-revenue guide 7%-8%.",
+      "upside_case_summary": "Recurring data growth and volumes beat.",
+      "downside_case_summary": "Energy revenue weakens; mortgage recovery stalls.",
+      "options_or_positioning_summary": "Options imply about 3.8%.",
+      "analyst_revision_summary": "Recurring-revenue guidance is stable to higher.",
+      "key_sources": [
+        "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Reports-Second-Quarter-2026/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 44,
+          "reversal_risk": 26
+        },
+        "pass_b": {
+          "direction_score": 38,
+          "reversal_risk": 30
+        },
+        "pass_c": {
+          "direction_score": 41,
+          "reversal_risk": 28
+        }
+      }
     },
     {
       "rank": 9,
-      "ticker": "KLAC",
-      "company": "KLA",
-      "timing": "Oct. 28 after close",
+      "ticker": "ORLY",
+      "company": "O'Reilly Automotive",
+      "timing": "Oct. 28 AMC",
       "direction_call": "Lean Up",
-      "direction_score": 31,
-      "reversal_risk": 58,
-      "confidence": "Medium",
-      "expected_driver": "December-quarter guide, gross margin and China mix",
-      "key_risk_to_call": "Export restrictions, supply limits and 8% implied move",
-      "evidence_quality": "High",
-      "one_sentence_thesis": "A sharp de-rating and strong WFE/advanced-packaging demand create relief upside, but the next-quarter guide must validate the order story.",
-      "market_expectation_summary": "Consensus is about $4.04 billion revenue and $1.18 split-adjusted EPS versus the company's $4.0 billion plus-or-minus $0.2 billion guide.",
-      "upside_case_summary": "December guidance and gross margin beat as advanced packaging stays strong.",
-      "downside_case_summary": "China, tariffs or component costs weaken forward guidance.",
-      "options_or_positioning_summary": "Options imply roughly 8%, above the historical average but below recent sector volatility.",
-      "analyst_revision_summary": "Estimates were largely flat into the event despite a large stock drawdown.",
-      "key_sources": [
-        "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
-        "https://www.thealphaagentic.com/chip-equipment-test-earnings-preview-kla-teradyne-advantest-q3-2026/",
-        "https://finance.yahoo.com/markets/stocks/articles/kla-stock-near-earnings-chip-011417381.html"
-      ],
+      "direction_score": 36.7,
+      "reversal_risk": 30,
       "disparity": 5,
-      "pass_agreement": "All three passes Lean Up; modest score spread",
-      "method_update_note": "High-bar/forward-guide guardrail applied"
+      "confidence": "Medium",
+      "expected_driver": "Comparable-store sales",
+      "key_risk_to_call": "Tariffs, wage cost, high expectations",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Six-percent Q2 comps and resilient repair demand favor another solid print.",
+      "market_expectation_summary": "Q2 comparable sales +6.0%, EPS +10%; FY comp guide 4%-6%.",
+      "upside_case_summary": "Comps clear the top of guidance.",
+      "downside_case_summary": "Tariffs/wages pressure margin despite comps.",
+      "options_or_positioning_summary": "Reliable free event move unavailable.",
+      "analyst_revision_summary": "FY comp guide 4%-6% after a 6% Q2.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/898173/000089817326000042/orly-20260729xex99d1.htm",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 39,
+          "reversal_risk": 28
+        },
+        "pass_b": {
+          "direction_score": 34,
+          "reversal_risk": 32
+        },
+        "pass_c": {
+          "direction_score": 37,
+          "reversal_risk": 30
+        }
+      }
     },
     {
       "rank": 10,
-      "ticker": "SFM",
-      "company": "Sprouts Farmers Market",
-      "timing": "Oct. 28 after close",
+      "ticker": "DHI",
+      "company": "D.R. Horton",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Down",
-      "direction_score": -40,
-      "reversal_risk": 52,
+      "direction_score": -36.3,
+      "reversal_risk": 46,
+      "disparity": 9,
       "confidence": "Medium",
-      "expected_driver": "Comparable sales and EBIT-margin outlook",
-      "key_risk_to_call": "Stock down over 50%; low valuation can fuel relief",
-      "evidence_quality": "Medium",
-      "one_sentence_thesis": "A sharp comp-sales slowdown and margin pressure support downside, but the severe de-rating makes even modest stabilization a credible relief catalyst.",
-      "market_expectation_summary": "Consensus EPS is about $1.22 and revenue growth about 6.1%, a marked slowdown from last year.",
-      "upside_case_summary": "Comps turn positive, margins hold and management protects full-year EPS.",
-      "downside_case_summary": "Negative comps and store-opening costs produce another guide reset.",
-      "options_or_positioning_summary": "The stock has de-rated to roughly 12x trailing earnings, raising squeeze risk despite weak momentum.",
-      "analyst_revision_summary": "The quarter's EPS expectation is roughly flat year over year; no decisive upward revision signal was found.",
+      "expected_driver": "Homebuilding margin and incentives",
+      "key_risk_to_call": "Low valuation; orders can surprise",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Down; tight",
+      "method_update_note": "Low-bar reversal floor",
+      "one_sentence_thesis": "Elevated incentives and unsold inventory threaten margin even with order growth.",
+      "market_expectation_summary": "Nine-month orders +5%, but homebuilding pretax income -19% and incentives remain elevated.",
+      "upside_case_summary": "Orders hold and incentives ease.",
+      "downside_case_summary": "Incentives and unsold inventory compress margin.",
+      "options_or_positioning_summary": "Options imply about 6.3%.",
+      "analyst_revision_summary": "Orders improved, but margin expectations remain pressured.",
       "key_sources": [
-        "https://investors.sprouts.com/financials/quarterly-results/default.aspx",
-        "https://finance.yahoo.com/markets/stocks/articles/sprouts-sfm-q3-earnings-report-055847942.html",
-        "https://www.earningswhispers.com/stocks/SFM"
+        "https://investor.drhorton.com/news-and-events/press-releases/2026/07-21-2026-113055285",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 6,
-      "pass_agreement": "All three passes Lean Down; moderate score spread",
-      "method_update_note": "Low-bar/reversal guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -32,
+          "reversal_risk": 42
+        },
+        "pass_b": {
+          "direction_score": -41,
+          "reversal_risk": 50
+        },
+        "pass_c": {
+          "direction_score": -36,
+          "reversal_risk": 46
+        }
+      }
     },
     {
       "rank": 11,
-      "ticker": "DHI",
-      "company": "D.R. Horton",
-      "timing": "Oct. 29 before open",
-      "direction_call": "Lean Down",
-      "direction_score": -36,
-      "reversal_risk": 59,
+      "ticker": "LLY",
+      "company": "Eli Lilly",
+      "timing": "Oct. 29 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 39,
+      "reversal_risk": 49,
+      "disparity": 10,
       "confidence": "Medium",
-      "expected_driver": "Orders, incentives and FY27 gross-margin guide",
-      "key_risk_to_call": "Low valuation and margin resilience",
+      "expected_driver": "Mounjaro + Zepbound sales / guide",
+      "key_risk_to_call": "Pricing pressure; $1T+ valuation",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Revenue contraction and elevated incentives leave the fiscal-2027 outlook vulnerable, although low valuation and stable near-term margins create relief upside.",
-      "market_expectation_summary": "Consensus is near $3.03 EPS and roughly $9.1 billion revenue; management guided Q4 home-sales gross margin to 20.5%-21%.",
-      "upside_case_summary": "Orders hold, margins exceed guidance and rate-sensitive demand improves.",
-      "downside_case_summary": "Fiscal-2027 closings or margins reset lower as incentives remain elevated.",
-      "options_or_positioning_summary": "Options imply about 5.9%; valuation near 14x trailing earnings tempers downside conviction.",
-      "analyst_revision_summary": "The consensus EPS estimate was unchanged over the prior month, with no conclusive beat signal.",
+      "pass_agreement": "3/3 Up; low-moderate spread",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Tirzepatide volume supports another raise, but the stock needs more than a routine beat.",
+      "market_expectation_summary": "Consensus revenue about $22.5B; Mounjaro and Zepbound near $15B combined.",
+      "upside_case_summary": "Tirzepatide sales beat and guidance rises.",
+      "downside_case_summary": "Pricing/wholesale timing misses elevated expectations.",
+      "options_or_positioning_summary": "Options imply about 6.5%.",
+      "analyst_revision_summary": "Revenue expectations remain high; EPS revisions were noisy from IPR&D.",
       "key_sources": [
-        "https://investor.drhorton.com/~/media/Files/D/D-R-Horton-IR/press-release/dhi-q3-2026-earnings-release.pdf",
-        "https://www.zacks.com/stock/news/3015051/dr-hortons-q4-earnings-preview-what-investors-must-know-now",
-        "https://www.earningswhispers.com/article/DHI/21060"
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 6,
-      "pass_agreement": "All three passes Lean Down; moderate score spread",
-      "method_update_note": "Low-bar/reversal guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 45,
+          "reversal_risk": 45
+        },
+        "pass_b": {
+          "direction_score": 34,
+          "reversal_risk": 53
+        },
+        "pass_c": {
+          "direction_score": 38,
+          "reversal_risk": 49
+        }
+      }
     },
     {
       "rank": 12,
-      "ticker": "F",
-      "company": "Ford Motor",
-      "timing": "Oct. 28 after close",
-      "direction_call": "Lean Down",
-      "direction_score": -34,
-      "reversal_risk": 63,
+      "ticker": "EBAY",
+      "company": "eBay",
+      "timing": "Oct. 28 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 34,
+      "reversal_risk": 42.7,
+      "disparity": 8,
       "confidence": "Medium",
-      "expected_driver": "Adjusted EBIT guide, F-150 supply and warranty costs",
-      "key_risk_to_call": "Raised prior guide and low expectations",
+      "expected_driver": "GMV growth and Depop contribution",
+      "key_risk_to_call": "Q3 deceleration; integration costs",
       "evidence_quality": "High",
-      "one_sentence_thesis": "F-150 supply disruption, EV weakness and tariffs make the upper-half EBIT expectation difficult, but a low valuation and maintained guidance could trigger relief.",
-      "market_expectation_summary": "Consensus calls for about $46.2 billion automotive revenue, $0.41 EPS and $2.38 billion adjusted EBIT; full-year EBIT consensus sits near the upper half of guidance.",
-      "upside_case_summary": "Ford holds the $10-$11 billion EBIT range and warranty or tariff costs improve.",
-      "downside_case_summary": "F-150 disruption, EV losses or warranty costs force a guide cut.",
-      "options_or_positioning_summary": "Options imply about 9.8%, well above Ford's historical earnings move.",
-      "analyst_revision_summary": "The real bar is a maintained or raised guide; GM's post-beat selloff shows the sector is demanding.",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Fourteen-percent FX-neutral Q2 GMV growth gives momentum, though the Q3 guide decelerates.",
+      "market_expectation_summary": "Q3 guide calls for 8%-10% FX-neutral revenue and 10%-12% GMV growth.",
+      "upside_case_summary": "GMV/ads and Depop clear the guide.",
+      "downside_case_summary": "Q3 deceleration and integration costs dominate.",
+      "options_or_positioning_summary": "Reliable free event move unavailable.",
+      "analyst_revision_summary": "Depop lifts growth but integration muddies comparability.",
       "key_sources": [
-        "https://finance.yahoo.com/markets/stocks/article/ford-q3-earnings-preview-guidance-boost-in-doubt-due-to-f-150-supply-snag-ev-slump-120716762.html",
-        "https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm",
-        "https://www.shareholder.ford.com/Home/default.aspx"
+        "https://www.ebayinc.com/stories/news/ebay-inc-reports-second-quarter-2026-results/",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 7,
-      "pass_agreement": "All three passes Lean Down; moderate score spread",
-      "method_update_note": "Low-bar/reversal guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 38,
+          "reversal_risk": 39
+        },
+        "pass_b": {
+          "direction_score": 30,
+          "reversal_risk": 46
+        },
+        "pass_c": {
+          "direction_score": 34,
+          "reversal_risk": 43
+        }
+      }
     },
     {
       "rank": 13,
-      "ticker": "BMY",
-      "company": "Bristol Myers Squibb",
-      "timing": "Oct. 29 before open",
+      "ticker": "TMUS",
+      "company": "T-Mobile US",
+      "timing": "Oct. 28 AMC",
       "direction_call": "Lean Up",
-      "direction_score": 27,
-      "reversal_risk": 44,
+      "direction_score": 31.7,
+      "reversal_risk": 39,
+      "disparity": 7,
       "confidence": "Medium",
-      "expected_driver": "Growth-portfolio sales and full-year guidance",
-      "key_risk_to_call": "Legacy-brand erosion and pipeline execution",
-      "evidence_quality": "Medium",
-      "one_sentence_thesis": "A compressed valuation and growth-product execution create modest relief upside if management offsets legacy declines.",
-      "market_expectation_summary": "Consensus EPS is roughly $1.10-$1.28; the quality of the growth portfolio matters more than headline EPS.",
-      "upside_case_summary": "Growth products and cost discipline protect guidance.",
-      "downside_case_summary": "Eliquis and Revlimid erosion or pipeline costs overwhelm newer products.",
-      "options_or_positioning_summary": "Options imply about 4.9%, close to the historical average.",
-      "analyst_revision_summary": "No strong revision wave was found; the low valuation keeps the bar manageable.",
+      "expected_driver": "Postpaid account adds and ARPA",
+      "key_risk_to_call": "Adds slowed; price-rise churn",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Service-revenue and EBITDA growth offset softer account additions, leaving a modest edge.",
+      "market_expectation_summary": "Q2 service revenue +9%, EBITDA +12%, but postpaid account adds fell 13%.",
+      "upside_case_summary": "Adds and ARPA beat with controlled churn.",
+      "downside_case_summary": "Slower adds spread into service revenue.",
+      "options_or_positioning_summary": "Options imply about 5.2%.",
+      "analyst_revision_summary": "Growth remains strong; adds slowed from a high base.",
       "key_sources": [
-        "https://news.bms.com/news/corporate-financial/2026/Bristol-Myers-Squibb-to-Report-Results-for-Third-Quarter-2026-on-October-29-2026/default.aspx",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://www.t-mobile.com/news/business/t-mobile-q2-2026-earnings",
+        "https://delta.earningswhispers.com/calendar/20261029",
         "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 3,
-      "pass_agreement": "All three passes Lean Up; tight agreement",
-      "method_update_note": "None"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 35,
+          "reversal_risk": 35
+        },
+        "pass_b": {
+          "direction_score": 28,
+          "reversal_risk": 43
+        },
+        "pass_c": {
+          "direction_score": 32,
+          "reversal_risk": 39
+        }
+      }
     },
     {
       "rank": 14,
-      "ticker": "CMG",
-      "company": "Chipotle Mexican Grill",
-      "timing": "Oct. 28 after close",
+      "ticker": "MO",
+      "company": "Altria",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Down",
-      "direction_score": -29,
-      "reversal_risk": 54,
-      "confidence": "Medium",
-      "expected_driver": "Comparable sales, transactions and restaurant margin",
-      "key_risk_to_call": "Promotions and traffic data support relief",
-      "evidence_quality": "High",
-      "one_sentence_thesis": "Food-safety pressure and promotion dependence leave margin and comps vulnerable, but a de-rated stock and positive traffic data make the downside call reversible.",
-      "market_expectation_summary": "BofA estimates roughly 1% same-store-sales growth after about 300 basis points of food-safety drag; the full-year low-single-digit comp guide is the key test.",
-      "upside_case_summary": "Comps stay positive, traffic accelerates and promotions prove efficient.",
-      "downside_case_summary": "Food-safety drag persists and promotions compress restaurant margin.",
-      "options_or_positioning_summary": "Options imply about 7.5%, below the historical average earnings move.",
-      "analyst_revision_summary": "BofA raised its comp estimate from flat to 1%, which lowers the downside edge.",
+      "direction_score": -31.3,
+      "reversal_risk": 40,
+      "disparity": 7,
+      "confidence": "Medium-Low",
+      "expected_driver": "Cigarette volume and FY EPS guide",
+      "key_risk_to_call": "Pricing power; bullish options flow",
+      "evidence_quality": "Medium",
+      "pass_agreement": "3/3 Down; tight",
+      "method_update_note": "Low-bar reversal floor",
+      "one_sentence_thesis": "Cigarette volume erosion leans negative, but pricing and a narrow implied move cap conviction.",
+      "market_expectation_summary": "Consensus EPS about $1.51; Q2 domestic cigarette shipments fell 3.2%.",
+      "upside_case_summary": "Pricing and smoke-free growth offset volume.",
+      "downside_case_summary": "Volume loss accelerates and guide narrows down.",
+      "options_or_positioning_summary": "Options imply about 3.9%.",
+      "analyst_revision_summary": "FY EPS guidance was narrowed, not raised.",
       "key_sources": [
-        "https://newsroom.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM",
-        "https://finance.yahoo.com/markets/stocks/articles/chipotle-q3-results-expected-show-151931493.html",
-        "https://earningsmoves.com/t/CMG/"
+        "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-Second-Quarter-and-First-Half-Results-Narrows-2026-Full-Year-Earnings-Guidance/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 5,
-      "pass_agreement": "All three passes Lean Down; modest score spread",
-      "method_update_note": "Low-bar/reversal guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -28,
+          "reversal_risk": 37
+        },
+        "pass_b": {
+          "direction_score": -35,
+          "reversal_risk": 43
+        },
+        "pass_c": {
+          "direction_score": -31,
+          "reversal_risk": 40
+        }
+      }
     },
     {
       "rank": 15,
-      "ticker": "CAT",
-      "company": "Caterpillar",
-      "timing": "Oct. 29 before open",
+      "ticker": "MBLY",
+      "company": "Mobileye",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Down",
-      "direction_score": -29,
-      "reversal_risk": 62,
+      "direction_score": -28,
+      "reversal_risk": 52.3,
+      "disparity": 11,
       "confidence": "Low",
-      "expected_driver": "Power orders/backlog and margin outlook",
-      "key_risk_to_call": "Healthy backlog can still produce a large beat",
-      "evidence_quality": "High",
-      "one_sentence_thesis": "A likely strong quarter is overshadowed by a 31x P/E and evidence that behind-the-meter power bookings may be slowing.",
-      "market_expectation_summary": "Analysts expect roughly $7.03-$7.12 EPS on about $20.6-$20.7 billion revenue.",
-      "upside_case_summary": "Power orders and backlog accelerate and margins absorb tariffs.",
-      "downside_case_summary": "Bookings decelerate and management cannot validate the valuation with forward growth.",
-      "options_or_positioning_summary": "Options imply about 7%, above CAT's long-run average.",
-      "analyst_revision_summary": "Bernstein expects an easy beat but sees slower booking momentum not reflected in valuation.",
+      "expected_driver": "EyeQ ASP and 2027 launch commentary",
+      "key_risk_to_call": "Raised revenue midpoint; SuperVision",
+      "evidence_quality": "Medium",
+      "pass_agreement": "2 Down / 1 Neutral",
+      "method_update_note": "Low-bar reversal floor",
+      "one_sentence_thesis": "Flat revenue and China mix pressure outweigh a grant-assisted profit revision.",
+      "market_expectation_summary": "Q2 revenue was flat; FY revenue guide midpoint increased $20M.",
+      "upside_case_summary": "2027 launches and SuperVision improve outlook.",
+      "downside_case_summary": "EyeQ ASP and launch timing disappoint.",
+      "options_or_positioning_summary": "Reliable free event move unavailable.",
+      "analyst_revision_summary": "Revenue midpoint rose; much profit revision was grant-assisted.",
       "key_sources": [
-        "https://investors.caterpillar.com/financials/quarterly-results/default.aspx",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-second-quarter-2026-results-updates-guidance",
+        "https://delta.earningswhispers.com/calendar/20261029",
         "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 9,
-      "pass_agreement": "Two Lean Down, one Neutral; material disagreement",
-      "method_update_note": "High-bar/backlog guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": -22,
+          "reversal_risk": 48
+        },
+        "pass_b": {
+          "direction_score": -34,
+          "reversal_risk": 57
+        },
+        "pass_c": {
+          "direction_score": -28,
+          "reversal_risk": 52
+        }
+      }
     },
     {
       "rank": 16,
-      "ticker": "CVNA",
-      "company": "Carvana",
-      "timing": "Oct. 28 after close",
+      "ticker": "LIN",
+      "company": "Linde",
+      "timing": "Oct. 29 BMO",
       "direction_call": "Lean Up",
-      "direction_score": 27,
-      "reversal_risk": 68,
-      "confidence": "Low",
-      "expected_driver": "Retail-unit growth, GPU and adjusted EBITDA",
-      "key_risk_to_call": "13% implied move and margin normalization",
+      "direction_score": 27.7,
+      "reversal_risk": 28,
+      "disparity": 5,
+      "confidence": "Medium",
+      "expected_driver": "Price/productivity and backlog",
+      "key_risk_to_call": "Inflation offset margin gains",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Record unit growth and profitability create upside, but the reaction depends on second-half margin durability and a very large options bar.",
-      "market_expectation_summary": "The market is looking for continued unit growth and evidence that full-year adjusted EBITDA can exceed $2.7-$3.0 billion.",
-      "upside_case_summary": "Units, GPU and EBITDA all exceed the real bar with a stronger 2027 outlook.",
-      "downside_case_summary": "GPU or EBITDA margin compresses as growth investments rise.",
-      "options_or_positioning_summary": "Options imply about 13.4%, making the setup highly reversible.",
-      "analyst_revision_summary": "Fundamental estimates are constructive, but the three passes disagreed on whether expectations already reflect them.",
+      "pass_agreement": "3/3 Up; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Underlying growth and an $11B backlog support upside, though margin expansion is modest.",
+      "market_expectation_summary": "Q2 underlying sales +4%, adjusted EPS +10%, project backlog $11B.",
+      "upside_case_summary": "Pricing/productivity and backlog beat.",
+      "downside_case_summary": "Inflation offsets price/productivity.",
+      "options_or_positioning_summary": "Options imply about 5.4%.",
+      "analyst_revision_summary": "FY EPS guide implies 8%-9% growth.",
       "key_sources": [
-        "https://investors.carvana.com/news-releases/2026/07-29-2026-210525685",
-        "https://earnings-watcher.com/wiki/implied-moves",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        "https://www.sec.gov/Archives/edgar/data/1707925/000165495426007052/lin_ex991.htm",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 10,
-      "pass_agreement": "Two Lean Up, one Neutral; material disagreement",
-      "method_update_note": "High-bar/margin-quality guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 30,
+          "reversal_risk": 25
+        },
+        "pass_b": {
+          "direction_score": 25,
+          "reversal_risk": 31
+        },
+        "pass_c": {
+          "direction_score": 28,
+          "reversal_risk": 28
+        }
+      }
     },
     {
       "rank": 17,
-      "ticker": "MRK",
-      "company": "Merck",
-      "timing": "Oct. 29 before open",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 22,
-      "reversal_risk": 48,
-      "confidence": "Low",
-      "expected_driver": "Keytruda growth, Winrevair uptake and guide",
-      "key_risk_to_call": "Keytruda maturity and acquisition charges",
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "timing": "Oct. 28 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 28.3,
+      "reversal_risk": 54,
+      "disparity": 36,
+      "confidence": "Medium",
+      "expected_driver": "Google Cloud growth / capex credibility",
+      "key_risk_to_call": "$195-$205B capex; negative FCF",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Winrevair and oncology launches are constructive, but Keytruda's slower growth and acquisition noise leave no clean immediate edge.",
-      "market_expectation_summary": "Consensus EPS is about $2.12; product mix and guidance quality matter more than headline EPS.",
-      "upside_case_summary": "Winrevair and new launches offset Keytruda maturity.",
-      "downside_case_summary": "Keytruda slows further or acquisition charges weaken guide quality.",
-      "options_or_positioning_summary": "Options imply about 4.4%, near the historical average.",
-      "analyst_revision_summary": "No decisive current revision signal was found.",
+      "pass_agreement": "2 Up / 1 Neutral; material disagreement",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Cloud acceleration is powerful, but capex and free-cash-flow interpretation dominate the reaction.",
+      "market_expectation_summary": "Consensus EPS about $3.00-$3.02 and revenue about $127.8B; Cloud near $29B is the swing factor.",
+      "upside_case_summary": "Cloud growth/margin beat with capex held.",
+      "downside_case_summary": "Capex rises again; FCF stays negative.",
+      "options_or_positioning_summary": "Options imply about 6.1%.",
+      "analyst_revision_summary": "Constructive analyst previews, but capex is the dominant revision risk.",
       "key_sources": [
-        "https://www.sec.gov/Archives/edgar/data/310158/000110465926090045/tm2621496d1_ex99-1.htm",
-        "https://www.merck.com/wp-content/uploads/sites/124/2026/08/Q2-2026_Earnings_Infographic_MRK.pdf",
+        "https://www.tastylive.com/news-insights/googl-earnings-preview-cloud-growth-vs-200b-capex",
+        "https://delta.earningswhispers.com/calendar/20261029",
         "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 3,
-      "pass_agreement": "Two Neutral, one Lean Up; tight numeric spread",
-      "method_update_note": "None"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 45,
+          "reversal_risk": 42
+        },
+        "pass_b": {
+          "direction_score": 5,
+          "reversal_risk": 68
+        },
+        "pass_c": {
+          "direction_score": 35,
+          "reversal_risk": 52
+        }
+      }
     },
     {
       "rank": 18,
-      "ticker": "NOW",
-      "company": "ServiceNow",
-      "timing": "Oct. 28 after close",
-      "direction_call": "Neutral / No Edge",
-      "direction_score": 15,
-      "reversal_risk": 57,
-      "confidence": "Low",
-      "expected_driver": "cRPO growth and Q4 subscription guide",
-      "key_risk_to_call": "92x P/E and 10.6% implied move",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "timing": "Oct. 28 AMC",
+      "direction_call": "Lean Up",
+      "direction_score": 26.7,
+      "reversal_risk": 56,
+      "disparity": 32,
+      "confidence": "Medium",
+      "expected_driver": "Azure constant-currency growth",
+      "key_risk_to_call": "$50B quarterly capex; guide bar",
       "evidence_quality": "High",
-      "one_sentence_thesis": "Strong cRPO and AI demand are offset by premium valuation and a demanding forward guide, leaving no clean directional edge.",
-      "market_expectation_summary": "Analysts expect about 22% constant-currency cRPO growth and a Q4 guide near 20%, above management's prior baseline.",
-      "upside_case_summary": "cRPO clears 22% and management raises the forward subscription outlook.",
-      "downside_case_summary": "A normal beat fails to justify the valuation or AI competition raises spending.",
-      "options_or_positioning_summary": "Options imply about 10.6%, above the long-run average earnings move.",
-      "analyst_revision_summary": "Analyst tone is constructive, but the higher real bar reduces the value of a routine beat.",
+      "pass_agreement": "2 Up / 1 Neutral; material disagreement",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Azure near or above 45% can support upside, but the stock needs AI returns to justify spending.",
+      "market_expectation_summary": "Consensus EPS about $4.71-$4.72 and revenue about $90.6B; Azure guide is ~45% CC.",
+      "upside_case_summary": "Azure beats 45% and guidance validates spend.",
+      "downside_case_summary": "Capex/margins or forward Azure guide disappoint.",
+      "options_or_positioning_summary": "Options imply about 5.3%.",
+      "analyst_revision_summary": "Consensus is near the top of management's revenue range.",
       "key_sources": [
-        "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
-        "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62305877/servicenow-gets-wall-streets-vote-of-confidence-ahead-of-earnings",
+        "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+        "https://delta.earningswhispers.com/calendar/20261029",
         "https://earnings-watcher.com/wiki/implied-moves"
       ],
-      "disparity": 8,
-      "pass_agreement": "All Neutral, but with meaningful score/risk spread",
-      "method_update_note": "High-bar/forward-guide guardrail applied"
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 40,
+          "reversal_risk": 45
+        },
+        "pass_b": {
+          "direction_score": 5,
+          "reversal_risk": 70
+        },
+        "pass_c": {
+          "direction_score": 35,
+          "reversal_risk": 53
+        }
+      }
+    },
+    {
+      "rank": 19,
+      "ticker": "CAT",
+      "company": "Caterpillar",
+      "timing": "Oct. 29 BMO",
+      "direction_call": "Lean Up",
+      "direction_score": 26.3,
+      "reversal_risk": 47.3,
+      "disparity": 11,
+      "confidence": "Medium",
+      "expected_driver": "Bookings and backlog quality",
+      "key_risk_to_call": "Data-center order slowdown; tariffs",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Up; low-moderate spread",
+      "method_update_note": "Backlog-quality check",
+      "one_sentence_thesis": "A record backlog supports a beat, while any bookings downshift limits follow-through.",
+      "market_expectation_summary": "Consensus EPS about $7.03-$7.12 and revenue about $20.6-$20.7B; backlog is $72B.",
+      "upside_case_summary": "Power orders extend and backlog converts.",
+      "downside_case_summary": "Bookings slow and tariffs squeeze margins.",
+      "options_or_positioning_summary": "Options imply about 6.8%.",
+      "analyst_revision_summary": "EPS consensus moved up ahead of the report.",
+      "key_sources": [
+        "https://investors.caterpillar.com/financials/quarterly-results/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 32,
+          "reversal_risk": 43
+        },
+        "pass_b": {
+          "direction_score": 20,
+          "reversal_risk": 52
+        },
+        "pass_c": {
+          "direction_score": 27,
+          "reversal_risk": 47
+        }
+      }
+    },
+    {
+      "rank": 20,
+      "ticker": "NOW",
+      "company": "ServiceNow",
+      "timing": "Oct. 28 AMC",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 21.7,
+      "reversal_risk": 59,
+      "disparity": 45,
+      "confidence": "Low",
+      "expected_driver": "cRPO growth and FY subscription guide",
+      "key_risk_to_call": "Federal pull-forward; valuation",
+      "evidence_quality": "High",
+      "pass_agreement": "1 Up / 2 Neutral; high disagreement",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "one_sentence_thesis": "Q2 execution was excellent, but federal pull-forward and a high whisper bar erase a clean edge.",
+      "market_expectation_summary": "Company guided Q3 cRPO growth to about 20% CC and subscription revenue to $3.975-$3.980B.",
+      "upside_case_summary": "cRPO beats and FY guide rises.",
+      "downside_case_summary": "Federal pull-forward and cRPO miss the whisper.",
+      "options_or_positioning_summary": "Options imply about 10.4%.",
+      "analyst_revision_summary": "Q2 beat and FY subscription guide raise support the bull case.",
+      "key_sources": [
+        "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 45,
+          "reversal_risk": 42
+        },
+        "pass_b": {
+          "direction_score": -5,
+          "reversal_risk": 75
+        },
+        "pass_c": {
+          "direction_score": 25,
+          "reversal_risk": 60
+        }
+      }
+    },
+    {
+      "rank": 21,
+      "ticker": "BMY",
+      "company": "Bristol Myers Squibb",
+      "timing": "Oct. 29 BMO",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 16,
+      "reversal_risk": 44,
+      "disparity": 11,
+      "confidence": "Medium",
+      "expected_driver": "Growth Portfolio revenue",
+      "key_risk_to_call": "Legacy erosion and launch investment",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Neutral; low-moderate spread",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Growth Portfolio momentum balances the legacy decline and higher operating investment.",
+      "market_expectation_summary": "Q2 Growth Portfolio +15%; FY revenue and EPS guides were raised.",
+      "upside_case_summary": "Growth Portfolio and launches beat.",
+      "downside_case_summary": "Legacy erosion overwhelms growth products.",
+      "options_or_positioning_summary": "Options imply about 5.0%.",
+      "analyst_revision_summary": "FY revenue/EPS guides were raised.",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/14272/000001427226000018/a2026q2ex991-filing.htm",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 22,
+          "reversal_risk": 40
+        },
+        "pass_b": {
+          "direction_score": 10,
+          "reversal_risk": 48
+        },
+        "pass_c": {
+          "direction_score": 16,
+          "reversal_risk": 44
+        }
+      }
+    },
+    {
+      "rank": 22,
+      "ticker": "MRK",
+      "company": "Merck",
+      "timing": "Oct. 29 BMO",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": 12.7,
+      "reversal_risk": 41.3,
+      "disparity": 9,
+      "confidence": "Medium",
+      "expected_driver": "Keytruda/Qlex and Winrevair growth",
+      "key_risk_to_call": "Gardasil softness; acquisition costs",
+      "evidence_quality": "High",
+      "pass_agreement": "3/3 Neutral; tight",
+      "method_update_note": "None",
+      "one_sentence_thesis": "Oncology and Winrevair strength offset Gardasil and acquisition-related earnings noise.",
+      "market_expectation_summary": "Q2 Keytruda/Qlex +5%, Winrevair +75%; FY sales guide $66.3-$67.3B.",
+      "upside_case_summary": "Qlex/Winrevair and Gardasil surprise.",
+      "downside_case_summary": "Keytruda slows and Gardasil stays soft.",
+      "options_or_positioning_summary": "Options imply about 4.8%.",
+      "analyst_revision_summary": "Sales guide rose, while acquisition charges lowered EPS quality.",
+      "key_sources": [
+        "https://www.merck.com/news/merck-highlights-key-regulatory-and-clinical-milestones-across-broad-diverse-pipeline/",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ],
+      "independent_passes": {
+        "pass_a": {
+          "direction_score": 18,
+          "reversal_risk": 38
+        },
+        "pass_b": {
+          "direction_score": 8,
+          "reversal_risk": 45
+        },
+        "pass_c": {
+          "direction_score": 12,
+          "reversal_risk": 41
+        }
+      }
     }
   ],
   "research_allocation_view": {
     "qualified_names": [
       {
-        "ticker": "TMUS",
+        "ticker": "HWM",
+        "direction": "Strong Up",
+        "share_percent": 20
+      },
+      {
+        "ticker": "THC",
         "direction": "Lean Up",
-        "share_percent": 38,
-        "why": "42 consensus score, 36 reversal risk, disparity 3 and high-quality operating evidence"
+        "share_percent": 14
+      },
+      {
+        "ticker": "FTNT",
+        "direction": "Lean Up",
+        "share_percent": 11
+      },
+      {
+        "ticker": "KLAC",
+        "direction": "Lean Up",
+        "share_percent": 11
       },
       {
         "ticker": "MA",
         "direction": "Lean Up",
-        "share_percent": 34,
-        "why": "39 consensus score, 34 reversal risk, disparity 3 and positive revisions"
+        "share_percent": 13
       },
       {
-        "ticker": "HWM",
+        "ticker": "ICE",
         "direction": "Lean Up",
-        "share_percent": 28,
-        "why": "38 consensus score, 40 reversal risk, disparity 4 and strong aerospace/gas-turbine momentum"
+        "share_percent": 11
+      },
+      {
+        "ticker": "ORLY",
+        "direction": "Lean Up",
+        "share_percent": 8
+      },
+      {
+        "ticker": "TMUS",
+        "direction": "Lean Up",
+        "share_percent": 6
       }
     ],
-    "excluded_high_reversal_or_weak_names": [
-      {
-        "ticker": "GOOGL",
-        "reason": "Reversal risk 49 despite the strongest raw upside score"
-      },
-      {
-        "ticker": "FTNT",
-        "reason": "Reversal risk 48 and a double-digit implied move"
-      },
-      {
-        "ticker": "LLY",
-        "reason": "Reversal risk 50 and a beat-and-raise valuation bar"
-      },
-      {
-        "ticker": "MSFT",
-        "reason": "Reversal risk 50 because Azure and capex expectations are elevated"
-      },
-      {
-        "ticker": "PWR",
-        "reason": "Reversal risk 63 and a 12.5% implied move"
-      },
-      {
-        "ticker": "KLAC",
-        "reason": "Reversal risk 58 despite a qualifying raw score"
-      },
-      {
-        "ticker": "SFM",
-        "reason": "Reversal risk 52; severe de-rating raises relief-rally risk"
-      },
-      {
-        "ticker": "DHI",
-        "reason": "Reversal risk 59; low valuation and margin resilience"
-      },
-      {
-        "ticker": "F",
-        "reason": "Reversal risk 63; low expectations and prior guide raise"
-      },
-      {
-        "ticker": "CAT",
-        "reason": "Reversal risk 62 and material pass disagreement"
-      },
-      {
-        "ticker": "CVNA",
-        "reason": "Reversal risk 68 and disparity 10"
-      }
+    "unallocated_percent": 6,
+    "rationale": "Only names with absolute consensus score above 30, reversal risk at or below 40, and sufficient evidence quality were eligible. Six percent remains unallocated rather than forcing a marginal setup.",
+    "excluded_for_reversal_risk": [
+      "F",
+      "CMG",
+      "DHI",
+      "LLY",
+      "EBAY",
+      "MBLY"
     ],
-    "plain_statement": "This is a research prioritization model, not financial advice."
+    "excluded_for_disparity_or_confidence": [
+      "GOOGL",
+      "MSFT",
+      "NOW"
+    ],
+    "disclaimer": "This is a research prioritization model, not financial advice."
   },
   "detailed_company_sections": [
     {
-      "ticker": "TMUS",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 42,
-      "averaged_reversal_risk": 36,
-      "disparity": 3,
-      "recommendation": "Lean Up",
-      "confidence": "Medium",
-      "key_metric": "Postpaid account adds and ARPA",
-      "base_case": "Solid adds and maintained guide",
-      "bull_case": "Adds, ARPA and FCF beat",
-      "bear_case": "SpaceX/peer competition lifts churn",
-      "social_sentiment": "Retail discussion is skeptical after the SpaceX selloff; treated as a de-risking indicator, not a demand signal",
-      "allocation_priority": "Qualified; best risk-adjusted consensus setup"
-    },
-    {
-      "ticker": "MA",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 39,
-      "averaged_reversal_risk": 34,
-      "disparity": 3,
-      "recommendation": "Lean Up",
-      "confidence": "High",
-      "key_metric": "Cross-border volume",
-      "base_case": "Low-teens cross-border and revenue growth",
-      "bull_case": "Volume plus VAS beat with controlled costs",
-      "bear_case": "Travel slowdown and incentives",
-      "social_sentiment": "Limited useful retail signal; no material score weight",
-      "allocation_priority": "Qualified; low reversal risk and positive revisions"
-    },
-    {
-      "ticker": "GOOGL",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 45,
-      "averaged_reversal_risk": 49,
-      "disparity": 4,
-      "recommendation": "Lean Up",
-      "confidence": "Medium",
-      "key_metric": "Cloud growth/margin versus capex",
-      "base_case": "Strong Cloud and Search offset capex",
-      "bull_case": "Cloud reaccelerates and FCF improves",
-      "bear_case": "Capex rises and Search laps tough comps",
-      "social_sentiment": "Investor discussion is bullish on Cloud but repeatedly flags capex; balanced and noisy",
-      "allocation_priority": "Excluded; reversal risk above 40"
-    },
-    {
       "ticker": "HWM",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 38,
-      "averaged_reversal_risk": 40,
-      "disparity": 4,
+      "consensus_summary": "3/3 Up; tight; consensus Strong Up.",
+      "averaged_direction_score": 64.3,
+      "averaged_reversal_risk": 31,
+      "disparity_metric": 7,
+      "pass_agreement_pattern": "3/3 Up; tight",
+      "recommendation": "Strong Up",
+      "confidence_level": "High",
+      "one_sentence_thesis": "Aerospace engine and spares momentum plus repeated guide raises support another beat.",
+      "what_market_expects": "Q2 revenue +24%, organic +21%, adjusted EBITDA margin 32.1%; Q3 margin guide about 32.2%.",
+      "what_could_make_stock_go_up": "Engine growth and margins exceed guidance again.",
+      "what_could_make_stock_go_down": "Build-rate, acquisition, or input-cost friction.",
+      "reversal_risk_assessment": "31/100; Premium valuation; build-rate or input-cost miss.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 7.7%.",
+      "analyst_estimate_revision_read": "Repeated beats and another FY guide increase.",
+      "base_case": "Aerospace engine and spares momentum plus repeated guide raises support another beat.",
+      "bull_case": "Engine growth and margins exceed guidance again.",
+      "bear_case": "Build-rate, acquisition, or input-cost friction.",
+      "final_directional_judgment": "Strong Up at 64.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Qualified for 20% of the combined research basket.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://www.howmet.com/press-release/2026-08-06/howmet-aerospace-reports-second-quarter-2026-results/",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "THC",
+      "consensus_summary": "3/3 Up; tight; consensus Lean Up.",
+      "averaged_direction_score": 51.7,
+      "averaged_reversal_risk": 34.7,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "3/3 Up; tight",
       "recommendation": "Lean Up",
-      "confidence": "Medium",
-      "key_metric": "Organic aerospace/gas-turbine growth and EBITDA margin",
-      "base_case": "Beat with maintained full-year guide",
-      "bull_case": "Another margin beat and raise",
-      "bear_case": "In-line print misses elevated Street bar",
-      "social_sentiment": "No decision-grade social signal found",
-      "allocation_priority": "Qualified at the reversal-risk ceiling"
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Hospital margin expansion and a raised outlook outweigh soft ambulatory case growth.",
+      "what_market_expects": "Q2 adjusted EBITDA +16.3%; FY adjusted EBITDA guide raised to $4.83-$5.03B.",
+      "what_could_make_stock_go_up": "Hospital margin and ambulatory EBITDA beat.",
+      "what_could_make_stock_go_down": "Case softness or payer mix reverses margins.",
+      "reversal_risk_assessment": "34.7/100; Case volumes soft; payer-mix reversal.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Reliable free event move unavailable.",
+      "analyst_estimate_revision_read": "Raised 2026 EBITDA and EPS outlook.",
+      "base_case": "Hospital margin expansion and a raised outlook outweigh soft ambulatory case growth.",
+      "bull_case": "Hospital margin and ambulatory EBITDA beat.",
+      "bear_case": "Case softness or payer mix reverses margins.",
+      "final_directional_judgment": "Lean Up at 51.7; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Qualified for 14% of the combined research basket.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://investor.tenethealth.com/press-releases/press-release-details/2026/Tenet-Reports-Strong-Second-Quarter-2026-Results-Raises-2026-Financial-Outlook/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
     },
     {
-      "ticker": "LLY",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 37,
-      "averaged_reversal_risk": 50,
-      "disparity": 4,
+      "ticker": "FTNT",
+      "consensus_summary": "3/3 Up; tight; consensus Lean Up.",
+      "averaged_direction_score": 44.3,
+      "averaged_reversal_risk": 39.3,
+      "disparity_metric": 8,
+      "pass_agreement_pattern": "3/3 Up; tight",
       "recommendation": "Lean Up",
-      "confidence": "Medium",
-      "key_metric": "Mounjaro/Zepbound volume and realized price",
-      "base_case": "Volume beat offsets price",
-      "bull_case": "International growth and margin guide rise",
-      "bear_case": "Pricing and IPR&D weaken EPS quality",
-      "social_sentiment": "Broad enthusiasm is fundamental but crowded; no extra score weight",
-      "allocation_priority": "Excluded; high-bar reversal risk"
-    },
-    {
-      "ticker": "SFM",
-      "consensus_summary": "A/B/C all Lean Down",
-      "averaged_direction_score": -40,
-      "averaged_reversal_risk": 52,
-      "disparity": 6,
-      "recommendation": "Lean Down",
-      "confidence": "Medium",
-      "key_metric": "Comparable sales and EBIT margin",
-      "base_case": "Weak comps and margin pressure",
-      "bull_case": "Positive comps trigger relief from a washed-out valuation",
-      "bear_case": "Another guide cut",
-      "social_sentiment": "Value-oriented retail discussion has turned more positive after a greater-than-50% drawdown",
-      "allocation_priority": "Excluded; reversal risk above 40"
-    },
-    {
-      "ticker": "DHI",
-      "consensus_summary": "A/B/C all Lean Down",
-      "averaged_direction_score": -36,
-      "averaged_reversal_risk": 59,
-      "disparity": 6,
-      "recommendation": "Lean Down",
-      "confidence": "Medium",
-      "key_metric": "Orders, incentives and FY27 gross margin",
-      "base_case": "Revenue contracts and FY27 guide is cautious",
-      "bull_case": "Margins and orders hold better than feared",
-      "bear_case": "Incentives deepen and closings reset",
-      "social_sentiment": "No decision-grade signal found",
-      "allocation_priority": "Excluded; high reversal risk"
-    },
-    {
-      "ticker": "F",
-      "consensus_summary": "A/B/C all Lean Down",
-      "averaged_direction_score": -34,
-      "averaged_reversal_risk": 63,
-      "disparity": 7,
-      "recommendation": "Lean Down",
-      "confidence": "Medium",
-      "key_metric": "Full-year adjusted EBIT guide",
-      "base_case": "Guide held near low end",
-      "bull_case": "Warranty/tariff improvement preserves upper-half guide",
-      "bear_case": "F-150 supply and EV losses force cut",
-      "social_sentiment": "No credible recent signal strong enough to affect the score",
-      "allocation_priority": "Excluded; high reversal risk"
-    },
-    {
-      "ticker": "CMG",
-      "consensus_summary": "A/B/C all Lean Down",
-      "averaged_direction_score": -29,
-      "averaged_reversal_risk": 54,
-      "disparity": 5,
-      "recommendation": "Lean Down",
-      "confidence": "Medium",
-      "key_metric": "Comparable sales and restaurant margin",
-      "base_case": "Comps stay near 1% but margin softens",
-      "bull_case": "Traffic recovery and efficient promotions",
-      "bear_case": "Food-safety drag and promotions persist",
-      "social_sentiment": "Retail discussion is split between value buyers and margin skeptics",
-      "allocation_priority": "Excluded; score below threshold and reversal risk high"
-    },
-    {
-      "ticker": "CAT",
-      "consensus_summary": "Two Lean Down, one Neutral",
-      "averaged_direction_score": -29,
-      "averaged_reversal_risk": 62,
-      "disparity": 9,
-      "recommendation": "Lean Down",
-      "confidence": "Low",
-      "key_metric": "Power orders/backlog",
-      "base_case": "Beat with softer bookings tone",
-      "bull_case": "Data-center power orders keep accelerating",
-      "bear_case": "Booking slowdown exposes valuation",
-      "social_sentiment": "AI-power enthusiasm appears crowded; used only as positioning context",
-      "allocation_priority": "Excluded; score below threshold, high reversal risk and material disagreement"
-    },
-    {
-      "ticker": "MSFT",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 33,
-      "averaged_reversal_risk": 50,
-      "disparity": 5,
-      "recommendation": "Lean Up",
-      "confidence": "Medium",
-      "key_metric": "Azure growth and capex/margin outlook",
-      "base_case": "Azure slightly beats management guide",
-      "bull_case": "Azure clears 46% with better efficiency",
-      "bear_case": "Only meets guide while capex rises",
-      "social_sentiment": "Analyst and retail tone is bullish on Azure, increasing the expectations bar",
-      "allocation_priority": "Excluded; reversal risk above 40"
-    },
-    {
-      "ticker": "NOW",
-      "consensus_summary": "All Neutral with meaningful score spread",
-      "averaged_direction_score": 15,
-      "averaged_reversal_risk": 57,
-      "disparity": 8,
-      "recommendation": "Neutral / No Edge",
-      "confidence": "Low",
-      "key_metric": "cRPO growth and Q4 guide",
-      "base_case": "Good beat but muted stock reaction",
-      "bull_case": "cRPO above 22% and raised Q4 guide",
-      "bear_case": "Routine beat fails premium valuation",
-      "social_sentiment": "Constructive but valuation-aware; no material score weight",
-      "allocation_priority": "Excluded; score too weak and reversal risk high"
-    },
-    {
-      "ticker": "CVNA",
-      "consensus_summary": "Two Lean Up, one Neutral",
-      "averaged_direction_score": 27,
-      "averaged_reversal_risk": 68,
-      "disparity": 10,
-      "recommendation": "Lean Up",
-      "confidence": "Low",
-      "key_metric": "Retail units, GPU and adjusted EBITDA margin",
-      "base_case": "Strong units but mixed margin",
-      "bull_case": "Growth and margin both beat",
-      "bear_case": "GPU and EBITDA margin compress",
-      "social_sentiment": "Highly polarized; treated as manipulation/crowding risk rather than evidence",
-      "allocation_priority": "Excluded; high reversal risk and material disagreement"
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Strong product and billings momentum favors upside, but only a clean beat-and-raise clears expectations.",
+      "what_market_expects": "Q2 revenue +26%, billings +33%; FY revenue guide raised to about 19% growth.",
+      "what_could_make_stock_go_up": "Billings beat and FY guide rises.",
+      "what_could_make_stock_go_down": "Billings normalize and guidance misses whispers.",
+      "reversal_risk_assessment": "39.3/100; Prior 33% billings print raises bar.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is active but narrative-heavy; no robust comparable 7/14/30-day public series was available, so social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 11.3%.",
+      "analyst_estimate_revision_read": "FY revenue growth guide raised to ~19%.",
+      "base_case": "Strong product and billings momentum favors upside, but only a clean beat-and-raise clears expectations.",
+      "bull_case": "Billings beat and FY guide rises.",
+      "bear_case": "Billings normalize and guidance misses whispers.",
+      "final_directional_judgment": "Lean Up at 44.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Qualified for 11% of the combined research basket.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://www.sec.gov/Archives/edgar/data/1262039/000126203926000018/ftntq2-2026ex991.htm",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
     },
     {
       "ticker": "KLAC",
-      "consensus_summary": "A/B/C all Lean Up",
-      "averaged_direction_score": 31,
-      "averaged_reversal_risk": 58,
-      "disparity": 5,
+      "consensus_summary": "3/3 Up; low-moderate spread; consensus Lean Up.",
+      "averaged_direction_score": 44.3,
+      "averaged_reversal_risk": 39,
+      "disparity_metric": 11,
+      "pass_agreement_pattern": "3/3 Up; low-moderate spread",
       "recommendation": "Lean Up",
-      "confidence": "Medium",
-      "key_metric": "December-quarter revenue and gross-margin guide",
-      "base_case": "Guide supports sequential growth",
-      "bull_case": "Advanced packaging and WFE drive another raise",
-      "bear_case": "China/export or supply issues weaken guide",
-      "social_sentiment": "No decision-grade signal found",
-      "allocation_priority": "Excluded; reversal risk above 40"
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "AI and advanced-node process intensity support backlog conversion and guidance.",
+      "what_market_expects": "FY2026 revenue rose 12%; market focus is fiscal Q2 guide and backlog conversion.",
+      "what_could_make_stock_go_up": "AI process-control demand supports a higher guide.",
+      "what_could_make_stock_go_down": "China controls or margin guide disappoint.",
+      "reversal_risk_assessment": "39/100; China controls; premium valuation.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 8.0%.",
+      "analyst_estimate_revision_read": "Strong FY2026 finish; current detailed revisions were mixed/limited.",
+      "base_case": "AI and advanced-node process intensity support backlog conversion and guidance.",
+      "bull_case": "AI process-control demand supports a higher guide.",
+      "bear_case": "China controls or margin guide disappoint.",
+      "final_directional_judgment": "Lean Up at 44.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Qualified for 11% of the combined research basket.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "MA",
+      "consensus_summary": "3/3 Up; tight; consensus Lean Up.",
+      "averaged_direction_score": 42.7,
+      "averaged_reversal_risk": 33.7,
+      "disparity_metric": 6,
+      "pass_agreement_pattern": "3/3 Up; tight",
+      "recommendation": "Lean Up",
+      "confidence_level": "High",
+      "one_sentence_thesis": "Cross-border spending, VAS growth, and upward revisions create a clean positive setup.",
+      "what_market_expects": "Consensus about $5.14-$5.17 EPS and $9.63-$9.66B revenue; cross-border is pivotal.",
+      "what_could_make_stock_go_up": "Cross-border and VAS beat; margins hold.",
+      "what_could_make_stock_go_down": "Travel slows; rebates/costs absorb growth.",
+      "reversal_risk_assessment": "33.7/100; 31x valuation; rebates and Europe.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 3.9%.",
+      "analyst_estimate_revision_read": "Three upward and no downward EPS revisions over 60 days.",
+      "base_case": "Cross-border spending, VAS growth, and upward revisions create a clean positive setup.",
+      "bull_case": "Cross-border and VAS beat; margins hold.",
+      "bear_case": "Travel slows; rebates/costs absorb growth.",
+      "final_directional_judgment": "Lean Up at 42.7; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Qualified for 13% of the combined research basket.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "None",
+      "key_sources": [
+        "https://investor.mastercard.com/events-and-presentations/events/",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "F",
+      "consensus_summary": "3/3 Down; tight; consensus Lean Down.",
+      "averaged_direction_score": -49.3,
+      "averaged_reversal_risk": 43,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "3/3 Down; tight",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "F-150 supply disruption and an 80% EV-sales decline threaten the guide despite a reduced bar.",
+      "what_market_expects": "Consensus automotive revenue $46.2B, adjusted EPS $0.41; FY EBIT guide $10-$11B.",
+      "what_could_make_stock_go_up": "Guide holds; costs and F-150 recovery reassure.",
+      "what_could_make_stock_go_down": "Supply, EV losses, or tariffs force a guide cut.",
+      "reversal_risk_assessment": "43/100; Low bar; cost control or guide hold.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options source confirms an event market, but a clean current percentage was unavailable.",
+      "analyst_estimate_revision_read": "Consensus sits near the upper half of the EBIT guide.",
+      "base_case": "F-150 supply disruption and an 80% EV-sales decline threaten the guide despite a reduced bar.",
+      "bull_case": "Guide holds; costs and F-150 recovery reassure.",
+      "bear_case": "Supply, EV losses, or tariffs force a guide cut.",
+      "final_directional_judgment": "Lean Down at -49.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal floor",
+      "key_sources": [
+        "https://finance.yahoo.com/markets/stocks/article/ford-q3-earnings-preview-guidance-boost-in-doubt-due-to-f-150-supply-snag-ev-slump-120716762.html",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "CMG",
+      "consensus_summary": "3/3 Down; low-moderate spread; consensus Lean Down.",
+      "averaged_direction_score": -44,
+      "averaged_reversal_risk": 40.3,
+      "disparity_metric": 11,
+      "pass_agreement_pattern": "3/3 Down; low-moderate spread",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Only 1% Q2 transaction growth and margin compression leave the traffic recovery vulnerable.",
+      "what_market_expects": "Q2 comps +2.2%, transactions +1.0%, restaurant margin 25.2% versus 27.4%.",
+      "what_could_make_stock_go_up": "Traffic accelerates and raised guide holds.",
+      "what_could_make_stock_go_down": "Transactions weaken and margins compress.",
+      "reversal_risk_assessment": "40.3/100; Raised guide; de-rated stock can rally.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is active but narrative-heavy; no robust comparable 7/14/30-day public series was available, so social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 7.8%.",
+      "analyst_estimate_revision_read": "Consensus still assumes a modest comp recovery.",
+      "base_case": "Only 1% Q2 transaction growth and margin compression leave the traffic recovery vulnerable.",
+      "bull_case": "Traffic accelerates and raised guide holds.",
+      "bear_case": "Transactions weaken and margins compress.",
+      "final_directional_judgment": "Lean Down at -44; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Key-metric-first",
+      "key_sources": [
+        "https://ir.chipotle.com/2026-07-29-CHIPOTLE-RAISES-FULL-YEAR-COMPARABLE-SALES-GUIDANCE-ON-STRONG-Q2-MOMENTUM",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "DHI",
+      "consensus_summary": "3/3 Down; tight; consensus Lean Down.",
+      "averaged_direction_score": -36.3,
+      "averaged_reversal_risk": 46,
+      "disparity_metric": 9,
+      "pass_agreement_pattern": "3/3 Down; tight",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Elevated incentives and unsold inventory threaten margin even with order growth.",
+      "what_market_expects": "Nine-month orders +5%, but homebuilding pretax income -19% and incentives remain elevated.",
+      "what_could_make_stock_go_up": "Orders hold and incentives ease.",
+      "what_could_make_stock_go_down": "Incentives and unsold inventory compress margin.",
+      "reversal_risk_assessment": "46/100; Low valuation; orders can surprise.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 6.3%.",
+      "analyst_estimate_revision_read": "Orders improved, but margin expectations remain pressured.",
+      "base_case": "Elevated incentives and unsold inventory threaten margin even with order growth.",
+      "bull_case": "Orders hold and incentives ease.",
+      "bear_case": "Incentives and unsold inventory compress margin.",
+      "final_directional_judgment": "Lean Down at -36.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal floor",
+      "key_sources": [
+        "https://investor.drhorton.com/news-and-events/press-releases/2026/07-21-2026-113055285",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "MO",
+      "consensus_summary": "3/3 Down; tight; consensus Lean Down.",
+      "averaged_direction_score": -31.3,
+      "averaged_reversal_risk": 40,
+      "disparity_metric": 7,
+      "pass_agreement_pattern": "3/3 Down; tight",
+      "recommendation": "Lean Down",
+      "confidence_level": "Medium-Low",
+      "one_sentence_thesis": "Cigarette volume erosion leans negative, but pricing and a narrow implied move cap conviction.",
+      "what_market_expects": "Consensus EPS about $1.51; Q2 domestic cigarette shipments fell 3.2%.",
+      "what_could_make_stock_go_up": "Pricing and smoke-free growth offset volume.",
+      "what_could_make_stock_go_down": "Volume loss accelerates and guide narrows down.",
+      "reversal_risk_assessment": "40/100; Pricing power; bullish options flow.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 3.9%.",
+      "analyst_estimate_revision_read": "FY EPS guidance was narrowed, not raised.",
+      "base_case": "Cigarette volume erosion leans negative, but pricing and a narrow implied move cap conviction.",
+      "bull_case": "Pricing and smoke-free growth offset volume.",
+      "bear_case": "Volume loss accelerates and guide narrows down.",
+      "final_directional_judgment": "Lean Down at -31.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal floor",
+      "key_sources": [
+        "https://investor.altria.com/press-releases/news-details/2026/Altria-Reports-2026-Second-Quarter-and-First-Half-Results-Narrows-2026-Full-Year-Earnings-Guidance/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "MBLY",
+      "consensus_summary": "2 Down / 1 Neutral; consensus Lean Down.",
+      "averaged_direction_score": -28,
+      "averaged_reversal_risk": 52.3,
+      "disparity_metric": 11,
+      "pass_agreement_pattern": "2 Down / 1 Neutral",
+      "recommendation": "Lean Down",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Flat revenue and China mix pressure outweigh a grant-assisted profit revision.",
+      "what_market_expects": "Q2 revenue was flat; FY revenue guide midpoint increased $20M.",
+      "what_could_make_stock_go_up": "2027 launches and SuperVision improve outlook.",
+      "what_could_make_stock_go_down": "EyeQ ASP and launch timing disappoint.",
+      "reversal_risk_assessment": "52.3/100; Raised revenue midpoint; SuperVision.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Reliable free event move unavailable.",
+      "analyst_estimate_revision_read": "Revenue midpoint rose; much profit revision was grant-assisted.",
+      "base_case": "Flat revenue and China mix pressure outweigh a grant-assisted profit revision.",
+      "bull_case": "2027 launches and SuperVision improve outlook.",
+      "bear_case": "EyeQ ASP and launch timing disappoint.",
+      "final_directional_judgment": "Lean Down at -28; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Low-bar reversal floor",
+      "key_sources": [
+        "https://ir.mobileye.com/news-releases/news-release-details/mobileye-releases-second-quarter-2026-results-updates-guidance",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "consensus_summary": "2 Up / 1 Neutral; material disagreement; consensus Lean Up.",
+      "averaged_direction_score": 28.3,
+      "averaged_reversal_risk": 54,
+      "disparity_metric": 36,
+      "pass_agreement_pattern": "2 Up / 1 Neutral; material disagreement",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Cloud acceleration is powerful, but capex and free-cash-flow interpretation dominate the reaction.",
+      "what_market_expects": "Consensus EPS about $3.00-$3.02 and revenue about $127.8B; Cloud near $29B is the swing factor.",
+      "what_could_make_stock_go_up": "Cloud growth/margin beat with capex held.",
+      "what_could_make_stock_go_down": "Capex rises again; FCF stays negative.",
+      "reversal_risk_assessment": "54/100; $195-$205B capex; negative FCF.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is active but narrative-heavy; no robust comparable 7/14/30-day public series was available, so social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 6.1%.",
+      "analyst_estimate_revision_read": "Constructive analyst previews, but capex is the dominant revision risk.",
+      "base_case": "Cloud acceleration is powerful, but capex and free-cash-flow interpretation dominate the reaction.",
+      "bull_case": "Cloud growth/margin beat with capex held.",
+      "bear_case": "Capex rises again; FCF stays negative.",
+      "final_directional_judgment": "Lean Up at 28.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "High disparity materially reduced confidence and allocation priority.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://www.tastylive.com/news-insights/googl-earnings-preview-cloud-growth-vs-200b-capex",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "consensus_summary": "2 Up / 1 Neutral; material disagreement; consensus Lean Up.",
+      "averaged_direction_score": 26.7,
+      "averaged_reversal_risk": 56,
+      "disparity_metric": 32,
+      "pass_agreement_pattern": "2 Up / 1 Neutral; material disagreement",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Azure near or above 45% can support upside, but the stock needs AI returns to justify spending.",
+      "what_market_expects": "Consensus EPS about $4.71-$4.72 and revenue about $90.6B; Azure guide is ~45% CC.",
+      "what_could_make_stock_go_up": "Azure beats 45% and guidance validates spend.",
+      "what_could_make_stock_go_down": "Capex/margins or forward Azure guide disappoint.",
+      "reversal_risk_assessment": "56/100; $50B quarterly capex; guide bar.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is active but narrative-heavy; no robust comparable 7/14/30-day public series was available, so social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 5.3%.",
+      "analyst_estimate_revision_read": "Consensus is near the top of management's revenue range.",
+      "base_case": "Azure near or above 45% can support upside, but the stock needs AI returns to justify spending.",
+      "bull_case": "Azure beats 45% and guidance validates spend.",
+      "bear_case": "Capex/margins or forward Azure guide disappoint.",
+      "final_directional_judgment": "Lean Up at 26.7; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "High disparity materially reduced confidence and allocation priority.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "LLY",
+      "consensus_summary": "3/3 Up; low-moderate spread; consensus Lean Up.",
+      "averaged_direction_score": 39,
+      "averaged_reversal_risk": 49,
+      "disparity_metric": 10,
+      "pass_agreement_pattern": "3/3 Up; low-moderate spread",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "Tirzepatide volume supports another raise, but the stock needs more than a routine beat.",
+      "what_market_expects": "Consensus revenue about $22.5B; Mounjaro and Zepbound near $15B combined.",
+      "what_could_make_stock_go_up": "Tirzepatide sales beat and guidance rises.",
+      "what_could_make_stock_go_down": "Pricing/wholesale timing misses elevated expectations.",
+      "reversal_risk_assessment": "49/100; Pricing pressure; $1T+ valuation.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is active but narrative-heavy; no robust comparable 7/14/30-day public series was available, so social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 6.5%.",
+      "analyst_estimate_revision_read": "Revenue expectations remain high; EPS revisions were noisy from IPR&D.",
+      "base_case": "Tirzepatide volume supports another raise, but the stock needs more than a routine beat.",
+      "bull_case": "Tirzepatide sales beat and guidance rises.",
+      "bear_case": "Pricing/wholesale timing misses elevated expectations.",
+      "final_directional_judgment": "Lean Up at 39; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "consensus_summary": "1 Up / 2 Neutral; high disagreement; consensus Neutral / No Edge.",
+      "averaged_direction_score": 21.7,
+      "averaged_reversal_risk": 59,
+      "disparity_metric": 45,
+      "pass_agreement_pattern": "1 Up / 2 Neutral; high disagreement",
+      "recommendation": "Neutral / No Edge",
+      "confidence_level": "Low",
+      "one_sentence_thesis": "Q2 execution was excellent, but federal pull-forward and a high whisper bar erase a clean edge.",
+      "what_market_expects": "Company guided Q3 cRPO growth to about 20% CC and subscription revenue to $3.975-$3.980B.",
+      "what_could_make_stock_go_up": "cRPO beats and FY guide rises.",
+      "what_could_make_stock_go_down": "Federal pull-forward and cRPO miss the whisper.",
+      "reversal_risk_assessment": "59/100; Federal pull-forward; valuation.",
+      "reddit_social_consumer_sentiment_read": "Retail discussion is active but narrative-heavy; no robust comparable 7/14/30-day public series was available, so social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 10.4%.",
+      "analyst_estimate_revision_read": "Q2 beat and FY subscription guide raise support the bull case.",
+      "base_case": "Q2 execution was excellent, but federal pull-forward and a high whisper bar erase a clean edge.",
+      "bull_case": "cRPO beats and FY guide rises.",
+      "bear_case": "Federal pull-forward and cRPO miss the whisper.",
+      "final_directional_judgment": "Neutral / No Edge at 21.7; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "High disparity materially reduced confidence and allocation priority.",
+      "method_update_note": "Premium-growth priced-in penalty",
+      "key_sources": [
+        "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Second-Quarter-2026-Financial-Results/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
+    },
+    {
+      "ticker": "CAT",
+      "consensus_summary": "3/3 Up; low-moderate spread; consensus Lean Up.",
+      "averaged_direction_score": 26.3,
+      "averaged_reversal_risk": 47.3,
+      "disparity_metric": 11,
+      "pass_agreement_pattern": "3/3 Up; low-moderate spread",
+      "recommendation": "Lean Up",
+      "confidence_level": "Medium",
+      "one_sentence_thesis": "A record backlog supports a beat, while any bookings downshift limits follow-through.",
+      "what_market_expects": "Consensus EPS about $7.03-$7.12 and revenue about $20.6-$20.7B; backlog is $72B.",
+      "what_could_make_stock_go_up": "Power orders extend and backlog converts.",
+      "what_could_make_stock_go_down": "Bookings slow and tariffs squeeze margins.",
+      "reversal_risk_assessment": "47.3/100; Data-center order slowdown; tariffs.",
+      "reddit_social_consumer_sentiment_read": "No decision-useful 7/14/30-day public social dataset was located; social evidence received minimal weight.",
+      "options_positioning_read": "Options imply about 6.8%.",
+      "analyst_estimate_revision_read": "EPS consensus moved up ahead of the report.",
+      "base_case": "A record backlog supports a beat, while any bookings downshift limits follow-through.",
+      "bull_case": "Power orders extend and backlog converts.",
+      "bear_case": "Bookings slow and tariffs squeeze margins.",
+      "final_directional_judgment": "Lean Up at 26.3; the score expresses direction, not a promise to exceed the implied move.",
+      "research_allocation_priority": "Excluded: score, reversal risk, evidence quality, or disparity did not meet the allocation threshold.",
+      "disparity_impact": "Low disparity supported conviction quality.",
+      "method_update_note": "Backlog-quality check",
+      "key_sources": [
+        "https://investors.caterpillar.com/financials/quarterly-results/default.aspx",
+        "https://delta.earningswhispers.com/calendar/20261029",
+        "https://earnings-watcher.com/wiki/implied-moves"
+      ]
     }
   ],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
