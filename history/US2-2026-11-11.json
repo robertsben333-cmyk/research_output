@@ -1,5 +1,5 @@
 {
-  "generation_timestamp": "2026-11-11T18:10:44.809Z",
+  "generation_timestamp": "2026-11-11T18:12:28.077Z",
   "covered_report_window": "Wednesday, November 11, 2026 after the 4:00 p.m. ET U.S. market close through Thursday, November 12, 2026 before the 9:30 a.m. ET U.S. market open.",
   "report_type": "full_ranked_earnings_report",
   "market_context_summary": "U.S. equities are open on Veterans Day while the bond market is closed. October CPI ran hotter than expected, the 10-year Treasury yield briefly moved back near 5%, and AI shares are rebounding after a sharp selloff; this raises rate and positioning sensitivity, especially for capital-intensive growth names.",
@@ -46,7 +46,7 @@
       ],
       "disparity": 6,
       "pass_agreement": "All three Lean Up; tight score and risk spread.",
-      "method_update_note": "Expectation-bar and earnings-quality guardrails"
+      "method_update_note": "None"
     },
     {
       "rank": 2,
@@ -72,7 +72,7 @@
       ],
       "disparity": 8,
       "pass_agreement": "All three Lean Up; Pass A strongest, B/C more valuation-sensitive.",
-      "method_update_note": "Mandatory expectation-bar check"
+      "method_update_note": "None"
     },
     {
       "rank": 3,
@@ -98,7 +98,7 @@
       ],
       "disparity": 7,
       "pass_agreement": "All three Lean Up with close score and risk estimates.",
-      "method_update_note": "Expectation-bar and ARR-quality checks"
+      "method_update_note": "None"
     },
     {
       "rank": 4,
@@ -124,7 +124,7 @@
       ],
       "disparity": 5,
       "pass_agreement": "All three Lean Up; lowest disparity in the universe.",
-      "method_update_note": "Key-metric-first backlog rule"
+      "method_update_note": "None"
     },
     {
       "rank": 5,
@@ -176,7 +176,7 @@
       ],
       "disparity": 8,
       "pass_agreement": "All three Lean Down; disagreement limited to magnitude.",
-      "method_update_note": "Forward-look override check"
+      "method_update_note": "None"
     },
     {
       "rank": 7,
@@ -202,7 +202,7 @@
       ],
       "disparity": 7,
       "pass_agreement": "All three Lean Down, with only moderate risk spread.",
-      "method_update_note": "Forward-look margin override"
+      "method_update_note": "None"
     },
     {
       "rank": 8,
@@ -254,7 +254,7 @@
       ],
       "disparity": 13,
       "pass_agreement": "All three Lean Down; direction agreed but risk/magnitude varied materially.",
-      "method_update_note": "Expectation-bar and cash-quality guardrails"
+      "method_update_note": "None"
     },
     {
       "rank": 10,
@@ -280,7 +280,7 @@
       ],
       "disparity": 11,
       "pass_agreement": "All three Lean Down; high reversal risk across passes.",
-      "method_update_note": "Transaction/separation complexity cap"
+      "method_update_note": "None"
     },
     {
       "rank": 11,
@@ -306,7 +306,7 @@
       ],
       "disparity": 14,
       "pass_agreement": "All three Lean Down, but Pass B was much less bearish; widest key-name disparity.",
-      "method_update_note": "Mandatory high-bar and funding checks"
+      "method_update_note": "None"
     },
     {
       "rank": 12,
@@ -384,7 +384,7 @@
       ],
       "disparity": 8,
       "pass_agreement": "All three Neutral / No Edge.",
-      "method_update_note": "Expectation-bar and revenue-quality checks"
+      "method_update_note": "None"
     },
     {
       "rank": 15,
@@ -528,7 +528,7 @@
       "final_directional_judgment": "Lean Up, but likely magnitude may struggle to exceed what is already priced.",
       "research_allocation_rationale": "Qualified at 23% because score is strongest, risk is at the 40 ceiling, evidence is High, and disparity is low.",
       "disparity_effect": "Low disparity supports conviction, but the expectation pass prevents the top weight.",
-      "method_update_note": "Mandatory expectation-bar check",
+      "method_update_note": "None",
       "key_sources": [
         "https://ir.forgentpower.com/sec-filings/all-sec-filings/content/0002080126-26-000034/exhibit991earningsrelease_.htm",
         "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
@@ -557,7 +557,7 @@
       "final_directional_judgment": "Lean Up with better risk-adjusted quality than the raw score leader.",
       "research_allocation_rationale": "Qualified at 25%, the largest weight, on low reversal risk, High evidence, and tight agreement.",
       "disparity_effect": "Low disparity improved conviction and allocation priority.",
-      "method_update_note": "Expectation-bar and earnings-quality guardrails",
+      "method_update_note": "None",
       "key_sources": [
         "https://investor.enersys.com/financials/quarterly-results/default.aspx",
         "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
@@ -586,7 +586,7 @@
       "final_directional_judgment": "Lean Up.",
       "research_allocation_rationale": "Qualified at 20% on strong score, low disparity and reversal risk below 40.",
       "disparity_effect": "Low disparity supports a meaningful allocation weight.",
-      "method_update_note": "Expectation-bar and ARR-quality checks",
+      "method_update_note": "None",
       "key_sources": [
         "https://digi.gcs-web.com/news-releases/news-release-details/digi-international-reports-third-fiscal-quarter-2026-results",
         "https://www.digi.com/company/press-releases/financial"
@@ -615,7 +615,7 @@
       "final_directional_judgment": "Lean Up.",
       "research_allocation_rationale": "Qualified at 18% on the lowest disparity and a 34 reversal-risk reading.",
       "disparity_effect": "Lowest disparity improved conviction despite a lower raw score than DGII.",
-      "method_update_note": "Key-metric-first backlog rule",
+      "method_update_note": "None",
       "key_sources": [
         "https://investor.tetratech.com/news/news-details/2026/Tetra-Tech-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
         "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
@@ -673,7 +673,7 @@
       "final_directional_judgment": "Lean Down, explicitly not a high-conviction short setup.",
       "research_allocation_rationale": "Excluded because reversal risk is 75 and disparity is the second-highest among key names.",
       "disparity_effect": "Higher disparity reduced confidence and removed allocation eligibility.",
-      "method_update_note": "Expectation-bar and cash-quality guardrails",
+      "method_update_note": "None",
       "key_sources": [
         "https://ir.ondas.com/sec-filings-email/content/0001193125-26-347973/onds-ex99_1.htm",
         "https://d1io3yog0oux5.cloudfront.net/_c7b061970f84beb18e93a13204fde3b8/ondas/news/2026-10-07_Ondas_Secures_Over_165_Million_in_New_Orders_333.pdf"
@@ -702,7 +702,7 @@
       "final_directional_judgment": "Lean Down with low confidence.",
       "research_allocation_rationale": "Excluded because reversal risk is 69 and standalone evidence is thin.",
       "disparity_effect": "Moderate disparity reinforced the confidence cap.",
-      "method_update_note": "Transaction/separation complexity cap",
+      "method_update_note": "None",
       "key_sources": [
         "https://www.morningstar.com/news/pr-newswire/20261006cg63878/vylor-announces-dates-for-third-quarter-2026-earnings-release-and-webcast",
         "https://www.stocktitan.net/sec-filings/VYLR/nt-10-q-vylor-inc-sec-filing-7543f1a54276.html"
@@ -731,7 +731,7 @@
       "final_directional_judgment": "Lean Down, but likely magnitude is highly uncertain.",
       "research_allocation_rationale": "Excluded because reversal risk is 73 and disparity is highest among the main candidates.",
       "disparity_effect": "High relative disparity materially lowered confidence and allocation priority.",
-      "method_update_note": "Mandatory high-bar and funding checks",
+      "method_update_note": "None",
       "key_sources": [
         "https://nebius.com/newsroom/nebius-reports-second-quarter-2026-financial-results",
         "https://nebius.com/investor-hub"
@@ -760,7 +760,7 @@
       "final_directional_judgment": "Lean Down.",
       "research_allocation_rationale": "Excluded because reversal risk is 49, above the allocation ceiling.",
       "disparity_effect": "Low disparity helped confidence but could not overcome the risk threshold.",
-      "method_update_note": "Forward-look override check",
+      "method_update_note": "None",
       "key_sources": [
         "https://investors.cellebrite.com/node/10706/pdf",
         "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
@@ -789,7 +789,7 @@
       "final_directional_judgment": "Lean Down, but only mild edge.",
       "research_allocation_rationale": "Excluded because absolute score is below 30 and reversal risk is above 40.",
       "disparity_effect": "Low disparity supported Medium confidence, but not allocation eligibility.",
-      "method_update_note": "Forward-look margin override",
+      "method_update_note": "None",
       "key_sources": [
         "https://www.sec.gov/Archives/edgar/data/1173382/000117338226000040/cae_q1fy27xex1xpressrelease.htm",
         "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
