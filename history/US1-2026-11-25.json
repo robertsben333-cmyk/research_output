@@ -1,0 +1,58 @@
+{
+  "generation_timestamp": "2026-11-25T18:08:00Z",
+  "covered_report_window": "Wednesday November 25, 2026 after 4:00 p.m. ET through Friday November 27, 2026 before 9:30 a.m. ET; U.S. exchanges closed Thursday November 26 for Thanksgiving.",
+  "report_type": "full_ranked_earnings_report",
+  "report_status": "empty_qualified_universe",
+  "market_context_summary": "Thanksgiving closure and Friday 1 p.m. ET early close. S&P 500 fell 2.2% on November 24 amid inflation, trade and AI concerns.",
+  "companies_reviewed_count": 2,
+  "companies_reviewed_count_definition": "Two specifically investigated U.S.-listed calendar candidates, not all calendar entries.",
+  "qualified_companies_count": 0,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [],
+  "screened_exclusions": [
+    {
+      "ticker": "BMA",
+      "company": "Banco Macro",
+      "reason": "Issuer's November 25 schedule is marked to be confirmed and TipRanks labels after-close timing not confirmed; no adequate current independent confirmation.",
+      "sources": [
+        "https://www.macro.com.ar/relaciones-inversores/documento/1580942322538/byma-anexo3-calendario-rci-2026-eng-final.pdf",
+        "https://www.tipranks.com/stocks/bma/earnings"
+      ]
+    },
+    {
+      "ticker": "XYF",
+      "company": "X Financial",
+      "reason": "Issuer confirms November 27 before open, but approximately $201 million market cap and 100,029 average daily shares indicate small size and thin liquidity.",
+      "sources": [
+        "https://www.tickertech.com/ea/cgi/?a=news&story=202611202611180600PR_NEWS_USPR_____CN01007&ticker=a&w=",
+        "https://stockanalysis.com/stocks/xyf/statistics/"
+      ]
+    },
+    {
+      "ticker": "FLNG",
+      "company": "Flex LNG",
+      "reason": "Calendar listing for November 27 conflicts with Q3 release already issued November 11.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1772253/000162828026073072/q32026flexpr1.htm"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [],
+    "unallocated_percent": 100,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method_note": {
+    "passes_completed": false,
+    "reason": "No ticker passed shared-universe screening; no pass scores or disparity calculated.",
+    "disparity_definition": "A 0-100 measure of disagreement between independent pass outputs; not computable without qualified names.",
+    "lessons_review": "Reviewed prior lessons. Existing timing confirmation and liquidity checks apply; no new method change."
+  },
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
