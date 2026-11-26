@@ -1,0 +1,68 @@
+{
+  "generation_timestamp": "2026-11-26T18:08:14Z",
+  "covered_report_window": "November 26, 2026 Thanksgiving holiday through November 27, 2026 before 9:30 a.m. Eastern. No regular market close occurs November 26.",
+  "report_type": "full_ranked_earnings_report",
+  "report_status": "empty_qualified_universe",
+  "market_context_summary": "NYSE is closed for Thanksgiving November 26; November 27 is a trading session closing at 1 p.m. Eastern.",
+  "companies_reviewed_count": 4,
+  "companies_reviewed_count_definition": "Four individually checked calendar candidates; not an exhaustive company count.",
+  "qualified_companies_count": 0,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": []
+  },
+  "ranked_companies": [],
+  "screened_exclusions": [
+    {
+      "ticker": "XYF",
+      "company": "X Financial",
+      "reason": "Issuer confirms November 27 before open, but November 25 volume was 42,276 shares at $5.25 and market capitalization $202.21 million; excluded for thin liquidity.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/x-financial-to-report-third-quarter-2026-financial-results-on-november-27-2026-302943421.html",
+        "https://stockanalysis.com/stocks/xyf/"
+      ]
+    },
+    {
+      "ticker": "OOMA",
+      "company": "Ooma",
+      "reason": "Issuer schedules December 1 after close, outside window, despite a conflicting calendar.",
+      "sources": [
+        "https://ooma.gcs-web.com/news-releases/news-release-details/ooma-schedules-release-third-quarter-fiscal-2027-results",
+        "https://terminal.hyperstocks.io/earnings/ooma"
+      ]
+    },
+    {
+      "ticker": "TRX",
+      "company": "TRX Gold",
+      "reason": "Issuer schedules November 27 results filing after close, outside window, despite pre-open calendar listing.",
+      "sources": [
+        "https://trxgold.com/investors/events/",
+        "https://therighttrader.com/earnings-calendar/tomorrow"
+      ]
+    },
+    {
+      "ticker": "LEXX",
+      "company": "Lexaria Bioscience",
+      "reason": "Calendar November 26 after-close timing unconfirmed; FY2026 10-K already filed November 24.",
+      "sources": [
+        "https://terminal.hyperstocks.io/earnings-calendar/today",
+        "https://www.stocktitan.net/sec-filings/LEXX/10-k-lexaria-bioscience-corp-files-annual-report-c122884b6062.html"
+      ]
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [],
+    "unallocated_percent": 100,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method_note": {
+    "passes_completed": false,
+    "reason": "No ticker passed shared-universe screening; no three-pass scoring, consensus or disparity was calculated.",
+    "disparity_definition": "A 0-100 measure of disagreement between independent pass outputs; undefined without scored candidates.",
+    "lessons_review": "Persistent memory unavailable. No method change; timing and liquidity screens applied."
+  },
+  "detailed_company_sections": [],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
