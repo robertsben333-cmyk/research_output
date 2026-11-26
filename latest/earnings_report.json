@@ -1,11 +1,11 @@
 {
-  "generation_timestamp": "2026-11-25T18:08:00Z",
-  "covered_report_window": "Wednesday November 25, 2026 after 4:00 p.m. ET through Friday November 27, 2026 before 9:30 a.m. ET; U.S. exchanges closed Thursday November 26 for Thanksgiving.",
+  "generation_timestamp": "2026-11-26T18:03:10.470Z",
+  "covered_report_window": "Thursday November 26, 2026 holiday evening through Friday November 27, 2026 before the 9:30 a.m. Eastern U.S. market open. No regular U.S. market close occurs November 26.",
   "report_type": "full_ranked_earnings_report",
   "report_status": "empty_qualified_universe",
-  "market_context_summary": "Thanksgiving closure and Friday 1 p.m. ET early close. S&P 500 fell 2.2% on November 24 amid inflation, trade and AI concerns.",
-  "companies_reviewed_count": 2,
-  "companies_reviewed_count_definition": "Two specifically investigated U.S.-listed calendar candidates, not all calendar entries.",
+  "market_context_summary": "NYSE closed Thursday for Thanksgiving; Friday's equity session closes at 1 p.m. Eastern.",
+  "companies_reviewed_count": 5,
+  "companies_reviewed_count_definition": "Five individually investigated calendar candidates, not all calendar entries.",
   "qualified_companies_count": 0,
   "top_setups": {
     "upward": [],
@@ -15,29 +15,46 @@
   "ranked_companies": [],
   "screened_exclusions": [
     {
-      "ticker": "BMA",
-      "company": "Banco Macro",
-      "reason": "Issuer's November 25 schedule is marked to be confirmed and TipRanks labels after-close timing not confirmed; no adequate current independent confirmation.",
-      "sources": [
-        "https://www.macro.com.ar/relaciones-inversores/documento/1580942322538/byma-anexo3-calendario-rci-2026-eng-final.pdf",
-        "https://www.tipranks.com/stocks/bma/earnings"
-      ]
-    },
-    {
       "ticker": "XYF",
       "company": "X Financial",
-      "reason": "Issuer confirms November 27 before open, but approximately $201 million market cap and 100,029 average daily shares indicate small size and thin liquidity.",
+      "reason": "Issuer confirms Friday before open; small capitalization and thin trading, approximately 100,470 shares average daily volume, fail liquidity screen.",
       "sources": [
         "https://www.tickertech.com/ea/cgi/?a=news&story=202611202611180600PR_NEWS_USPR_____CN01007&ticker=a&w=",
-        "https://stockanalysis.com/stocks/xyf/statistics/"
+        "https://markets.ptc.ft.markitdigital.com/data/equities/tearsheet/summary?s=XYF%3ANYQ"
       ]
     },
     {
-      "ticker": "FLNG",
-      "company": "Flex LNG",
-      "reason": "Calendar listing for November 27 conflicts with Q3 release already issued November 11.",
+      "ticker": "LEXX",
+      "company": "Lexaria Bioscience",
+      "reason": "November 26 after-close date is tentative and conflicts with other estimated dates.",
       "sources": [
-        "https://www.sec.gov/Archives/edgar/data/1772253/000162828026073072/q32026flexpr1.htm"
+        "https://earningstracker.com/company/LEXX",
+        "https://therighttrader.com/earnings-calendar/lexx"
+      ]
+    },
+    {
+      "ticker": "BURL",
+      "company": "Burlington Stores",
+      "reason": "Already reported November 24, contrary to a November 27 calendar listing.",
+      "sources": [
+        "https://www.burlingtoninvestors.com/news-and-events/press-releases/",
+        "https://fundamentalytics.com/earnings/?d=2026-11-27"
+      ]
+    },
+    {
+      "ticker": "CHA",
+      "company": "Chagee",
+      "reason": "Company confirms November 30 before open, outside window.",
+      "sources": [
+        "https://investor.chagee.com/news-releases/news-release-details/chagee-announce-third-quarter-2026-financial-results-november-30"
+      ]
+    },
+    {
+      "ticker": "OOMA",
+      "company": "Ooma",
+      "reason": "Company confirms December 1 after close, outside window.",
+      "sources": [
+        "https://investors.ooma.com/node/13671/pdf"
       ]
     }
   ],
@@ -49,9 +66,9 @@
   },
   "consensus_method_note": {
     "passes_completed": false,
-    "reason": "No ticker passed shared-universe screening; no pass scores or disparity calculated.",
-    "disparity_definition": "A 0-100 measure of disagreement between independent pass outputs; not computable without qualified names.",
-    "lessons_review": "Reviewed prior lessons. Existing timing confirmation and liquidity checks apply; no new method change."
+    "reason": "No ticker passed shared-universe screening; no three-pass scoring, consensus or disparity calculated.",
+    "disparity_definition": "A 0-100 measure of disagreement between independent pass outputs; not calculable without scored candidates.",
+    "lessons_review": "Persistent memory tools unavailable; prior November 25 report records timing-confirmation and liquidity checks, applied here. No new method change."
   },
   "detailed_company_sections": [],
   "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
