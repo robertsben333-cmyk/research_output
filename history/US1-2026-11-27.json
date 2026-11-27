@@ -1,0 +1,126 @@
+{
+  "generation_timestamp": "2026-11-27T18:03:22.261Z",
+  "covered_report_window": {
+    "start": "2026-11-27T13:00:00-05:00",
+    "end": "2026-11-30T09:30:00-05:00",
+    "description": "After the November 27 early close through before the November 30 open, Eastern time"
+  },
+  "report_type": "full_ranked_earnings_report",
+  "market_context_summary": "NYSE early close at 1 p.m. ET Friday after Thanksgiving; volatile AI stocks and macro uncertainty complicate reactions.",
+  "companies_reviewed_count": 4,
+  "companies_reviewed_count_definition": "Four individually examined candidates: CHA, NAT, HMR, TRX, not an exhaustive calendar count.",
+  "qualified_companies_count": 1,
+  "top_setups": {
+    "upward": [],
+    "downward": [],
+    "neutral_or_mixed": [
+      "CHA"
+    ]
+  },
+  "ranked_companies": [
+    {
+      "rank": 1,
+      "ticker": "CHA",
+      "company": "Chagee Holdings Limited",
+      "timing": "2026-11-30 before U.S. market open",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -1.67,
+      "reversal_risk": 56.67,
+      "reversal_risk_interpretation": "Illustrative downside-thesis reversal risk; not well-defined for neutral call",
+      "disparity": 6.25,
+      "confidence": "Low",
+      "expected_driver": "Greater China same-store GMV recovery",
+      "key_risk_to_call": "Recovery stalls or beats already lowered expectations",
+      "evidence_quality": "Moderate operating evidence; weak positioning and revisions",
+      "pass_agreement": "All neutral; modest sign disagreement",
+      "method_update_note": "None",
+      "one_sentence_thesis": "A possible same-store recovery competes with weak recent domestic sales and an uncertain expectations bar.",
+      "market_expectation_summary": "Benzinga estimates Q3 non-GAAP EPS $0.36 and revenue $537.7m; management expected August same-store sales to turn positive, not a company-wide Q3 forecast.",
+      "upside_case_summary": "Sustained comparable-store recovery and resilient margins could support relief.",
+      "downside_case_summary": "A recovery that fades, weak cash generation or a soft forward outlook could disappoint.",
+      "options_or_positioning_summary": "Current event implied move not verified; reported short interest 1.50m shares November 13, with float calculation uncertain.",
+      "analyst_revision_summary": "Reliable comparable recent revisions unavailable.",
+      "social_sentiment_summary": "Insufficient representative recent evidence.",
+      "key_sources": [
+        "https://investor.chagee.com/news-releases/news-release-details/chagee-announce-third-quarter-2026-financial-results-november-30",
+        "https://investor.chagee.com/news-releases/news-release-details/chagee-announces-second-quarter-2026-unaudited-financial-results",
+        "https://docs.publicnow.com/viewDoc?hash_primary=2E54B24086F46AB0E13D88F981D057085FC0CEFD",
+        "https://www.benzinga.com/quote/CHA/earnings-forecasts",
+        "https://www.marketbeat.com/stocks/NASDAQ/CHA/short-interest/"
+      ]
+    }
+  ],
+  "screened_exclusions": [
+    {
+      "ticker": "NAT",
+      "reason": "Conflicting report dates and timing across sources."
+    },
+    {
+      "ticker": "HMR",
+      "reason": "Microcap, approximately $71m market value and limited liquidity."
+    },
+    {
+      "ticker": "TRX",
+      "reason": "Microcap approximately $239m market value; issuer says November 27 after-close filing, despite conflicting calendar."
+    }
+  ],
+  "research_allocation_view": {
+    "qualified_names": [],
+    "excluded_high_reversal_or_weak_names": [
+      "CHA"
+    ],
+    "allocations": [],
+    "unallocated_percent": 100,
+    "plain_statement": "This is a research prioritization model, not financial advice."
+  },
+  "consensus_method_note": {
+    "passes_completed": true,
+    "direction_scores": [
+      -10,
+      0,
+      5
+    ],
+    "reversal_risks": [
+      60,
+      55,
+      55
+    ],
+    "disparity_definition": "Half the sum of (direction score range divided by two) and reversal-risk range, both normalized to 0-100.",
+    "disparity": 6.25,
+    "lessons_review": "Persistent memory unavailable; review could not be completed; no method change."
+  },
+  "detailed_company_sections": [
+    {
+      "rank": 1,
+      "ticker": "CHA",
+      "company": "Chagee Holdings Limited",
+      "timing": "2026-11-30 before U.S. market open",
+      "direction_call": "Neutral / No Edge",
+      "direction_score": -1.67,
+      "reversal_risk": 56.67,
+      "reversal_risk_interpretation": "Illustrative downside-thesis reversal risk; not well-defined for neutral call",
+      "disparity": 6.25,
+      "confidence": "Low",
+      "expected_driver": "Greater China same-store GMV recovery",
+      "key_risk_to_call": "Recovery stalls or beats already lowered expectations",
+      "evidence_quality": "Moderate operating evidence; weak positioning and revisions",
+      "pass_agreement": "All neutral; modest sign disagreement",
+      "method_update_note": "None",
+      "one_sentence_thesis": "A possible same-store recovery competes with weak recent domestic sales and an uncertain expectations bar.",
+      "market_expectation_summary": "Benzinga estimates Q3 non-GAAP EPS $0.36 and revenue $537.7m; management expected August same-store sales to turn positive, not a company-wide Q3 forecast.",
+      "upside_case_summary": "Sustained comparable-store recovery and resilient margins could support relief.",
+      "downside_case_summary": "A recovery that fades, weak cash generation or a soft forward outlook could disappoint.",
+      "options_or_positioning_summary": "Current event implied move not verified; reported short interest 1.50m shares November 13, with float calculation uncertain.",
+      "analyst_revision_summary": "Reliable comparable recent revisions unavailable.",
+      "social_sentiment_summary": "Insufficient representative recent evidence.",
+      "key_sources": [
+        "https://investor.chagee.com/news-releases/news-release-details/chagee-announce-third-quarter-2026-financial-results-november-30",
+        "https://investor.chagee.com/news-releases/news-release-details/chagee-announces-second-quarter-2026-unaudited-financial-results",
+        "https://docs.publicnow.com/viewDoc?hash_primary=2E54B24086F46AB0E13D88F981D057085FC0CEFD",
+        "https://www.benzinga.com/quote/CHA/earnings-forecasts",
+        "https://www.marketbeat.com/stocks/NASDAQ/CHA/short-interest/"
+      ]
+    }
+  ],
+  "disclaimer_text": "This is research, not financial advice. Earnings reactions are highly uncertain and can be driven by market positioning, guidance, macro conditions, and management commentary rather than reported results alone."
+}
